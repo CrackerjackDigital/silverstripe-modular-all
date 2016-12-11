@@ -1,0 +1,89 @@
+{
+	"name": "crackerjackdigital/silverstripe-modular-all",
+	"type": "metapackage",
+	"description": "meta package for all crackerjack/silverstripe-modular packages",
+	"homepage": "http://github.com/crackerjackdigital",
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"silverstripe",
+		"modular",
+		"metapackage"
+	],
+	"authors": [
+		{
+			"name": "Steve Wake",
+			"homepage": "https://github.com/wakes"
+		},
+		{
+			"name": "CrackerJack Digital",
+			"homepage": "http://www.crackerjack.net.nz/"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"composer/installers": "*",
+		"silverstripe/framework": ">=3.1",
+		"crackerjackdigital/silverstripe-modular": "dev-master",
+		"crackerjackdigital/silverstripe-modular-blocks": "dev-master",
+		"crackerjackdigital/silverstripe-modular-build": "dev-master",
+		"crackerjackdigital/silverstripe-modular-fields": "dev-master",
+		"crackerjackdigital/silverstripe-modular-graph": "dev-master",
+		"crackerjackdigital/silverstripe-modular-gridlist": "dev-master",
+		"crackerjackdigital/silverstripe-modular-gridlist-block": "dev-master",
+		"crackerjackdigital/silverstripe-modular-gridlist-search": "dev-master",
+		"crackerjackdigital/silverstripe-modular-search": "dev-master",
+		"crackerjackdigital/silverstripe-modular-search-blocks": "dev-master",
+		"crackerjackdigital/silverstripe-modular-social": "dev-master",
+		"crackerjackdigital/silverstripe-modular-workflows": "dev-master"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular-blocks"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular-build"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular-fields"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular-graph"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular-gridlist"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular-gridlist-block"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular-gridlist-search"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular-search"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular-search-blocks"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular-social"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular-workflows"
+		}
+	]
+}
