@@ -9,6 +9,7 @@
 		"modular",
 		"metapackage"
 	],
+	"minimum-stability": "dev",
 	"authors": [
 		{
 			"name": "Steve Wake",
@@ -23,18 +24,18 @@
 		"php": ">=5.5",
 		"composer/installers": "*",
 		"silverstripe/framework": ">=3.1",
-		"crackerjackdigital/silverstripe-modular": "dev-master",
-		"crackerjackdigital/silverstripe-modular-blocks": "dev-master",
-		"crackerjackdigital/silverstripe-modular-build": "dev-master",
-		"crackerjackdigital/silverstripe-modular-fields": "dev-master",
-		"crackerjackdigital/silverstripe-modular-graph": "dev-master",
-		"crackerjackdigital/silverstripe-modular-gridlist": "dev-master",
-		"crackerjackdigital/silverstripe-modular-gridlist-block": "dev-master",
-		"crackerjackdigital/silverstripe-modular-gridlist-search": "dev-master",
-		"crackerjackdigital/silverstripe-modular-search": "dev-master",
-		"crackerjackdigital/silverstripe-modular-search-blocks": "dev-master",
-		"crackerjackdigital/silverstripe-modular-social": "dev-master",
-		"crackerjackdigital/silverstripe-modular-workflows": "dev-master"
+		"crackerjackdigital/silverstripe-modular": "dev-develop",
+		"crackerjackdigital/silverstripe-modular-blocks": "dev-develop",
+		"crackerjackdigital/silverstripe-modular-build": "dev-develop",
+		"crackerjackdigital/silverstripe-modular-fields": "dev-develop",
+		"crackerjackdigital/silverstripe-modular-graph": "dev-develop",
+		"crackerjackdigital/silverstripe-modular-gridlist": "dev-develop",
+		"crackerjackdigital/silverstripe-modular-gridlist-block": "dev-develop",
+		"crackerjackdigital/silverstripe-modular-gridlist-search": "dev-develop",
+		"crackerjackdigital/silverstripe-modular-search": "dev-develop",
+		"crackerjackdigital/silverstripe-modular-search-blocks": "dev-develop",
+		"crackerjackdigital/silverstripe-modular-social": "dev-develop",
+		"crackerjackdigital/silverstripe-modular-workflows": "dev-develop"
 	},
 	"repositories": [
 		{
