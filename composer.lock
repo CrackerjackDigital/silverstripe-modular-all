@@ -123,24 +123,26 @@
         },
         {
             "name": "crackerjackdigital/silverstripe-modular",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CrackerjackDigital/silverstripe-modular.git",
-                "reference": "0f58d501eeb15b418126f345e31cc98861e71c8d"
+                "reference": "f473e379bdd99302db627fa57b56a9ee175d23c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular/zipball/0f58d501eeb15b418126f345e31cc98861e71c8d",
-                "reference": "0f58d501eeb15b418126f345e31cc98861e71c8d",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular/zipball/f473e379bdd99302db627fa57b56a9ee175d23c3",
+                "reference": "f473e379bdd99302db627fa57b56a9ee175d23c3",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "*",
+                "crackerjackdigital/silverstripe-modular-types": "*",
                 "php": ">=5.5",
                 "silverstripe-australia/gridfieldextensions": "1.x",
                 "silverstripe/display-logic": "1.4.x",
                 "silverstripe/framework": ">=3.1",
+                "silverstripe/tagfield": "*",
                 "stevie-mayhew/trait-loader": "dev-master",
                 "unclecheese/betterbuttons": "1.3.x"
             },
@@ -167,23 +169,23 @@
                 "silverstripe"
             ],
             "support": {
-                "source": "https://github.com/CrackerjackDigital/silverstripe-modular/tree/master",
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular/tree/develop",
                 "issues": "https://github.com/CrackerjackDigital/silverstripe-modular/issues"
             },
-            "time": "2016-11-23 02:29:58"
+            "time": "2017-03-14 22:15:46"
         },
         {
             "name": "crackerjackdigital/silverstripe-modular-blocks",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CrackerjackDigital/silverstripe-modular-blocks.git",
-                "reference": "01d6d2924b026ee7401282e91749ef93ffd98b89"
+                "reference": "19d6ae2114230293808ace5b39e57d0f294ecf74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-blocks/zipball/01d6d2924b026ee7401282e91749ef93ffd98b89",
-                "reference": "01d6d2924b026ee7401282e91749ef93ffd98b89",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-blocks/zipball/19d6ae2114230293808ace5b39e57d0f294ecf74",
+                "reference": "19d6ae2114230293808ace5b39e57d0f294ecf74",
                 "shasum": ""
             },
             "require": {
@@ -215,28 +217,27 @@
                 "silverstripe"
             ],
             "support": {
-                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-blocks/tree/master",
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-blocks/tree/develop",
                 "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-blocks/issues"
             },
-            "time": "2016-11-30 12:14:47"
+            "time": "2017-02-19 21:08:42"
         },
         {
             "name": "crackerjackdigital/silverstripe-modular-build",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CrackerjackDigital/silverstripe-modular-build.git",
-                "reference": "8f059aa4ba6cbf578cfa5fe7119a79dcabad9434"
+                "reference": "e21cedfe96d563c02b4ea270aa7eeea43df3e11f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-build/zipball/8f059aa4ba6cbf578cfa5fe7119a79dcabad9434",
-                "reference": "8f059aa4ba6cbf578cfa5fe7119a79dcabad9434",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-build/zipball/e21cedfe96d563c02b4ea270aa7eeea43df3e11f",
+                "reference": "e21cedfe96d563c02b4ea270aa7eeea43df3e11f",
                 "shasum": ""
             },
             "require": {
                 "crackerjackdigital/silverstripe-modular": "*",
-                "silverstripe-australia/gridfieldextensions": "1.x",
                 "silverstripe/display-logic": "1.4.x",
                 "silverstripe/framework": ">=3.1"
             },
@@ -263,27 +264,28 @@
                 "silverstripe"
             ],
             "support": {
-                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-build/tree/master",
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-build/tree/develop",
                 "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-build/issues"
             },
-            "time": "2017-02-22 01:29:41"
+            "time": "2017-02-28 08:41:25"
         },
         {
             "name": "crackerjackdigital/silverstripe-modular-fields",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CrackerjackDigital/silverstripe-modular-fields.git",
-                "reference": "bb8c4bfb2aa064021737eb47756aee601be0da64"
+                "reference": "f9738d2316e963105c6379e53bc24cce59f986b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-fields/zipball/bb8c4bfb2aa064021737eb47756aee601be0da64",
-                "reference": "bb8c4bfb2aa064021737eb47756aee601be0da64",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-fields/zipball/f9738d2316e963105c6379e53bc24cce59f986b8",
+                "reference": "f9738d2316e963105c6379e53bc24cce59f986b8",
                 "shasum": ""
             },
             "require": {
                 "crackerjackdigital/silverstripe-modular": "*",
+                "crackerjackdigital/silverstripe-modular-types": "*",
                 "silverstripe-australia/gridfieldextensions": "1.x",
                 "silverstripe/display-logic": "1.4.x",
                 "silverstripe/framework": ">=3.1",
@@ -312,23 +314,23 @@
                 "silverstripe"
             ],
             "support": {
-                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-fields/tree/master",
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-fields/tree/develop",
                 "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-fields/issues"
             },
-            "time": "2016-12-18 04:02:49"
+            "time": "2017-03-14 22:18:50"
         },
         {
             "name": "crackerjackdigital/silverstripe-modular-graph",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CrackerjackDigital/silverstripe-modular-graph.git",
-                "reference": "3d5373e0b81896a63bdc11d97ef78181e0ef282c"
+                "reference": "0d3783ec9a780c3c2415e79a7395f3aa1369ae0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-graph/zipball/3d5373e0b81896a63bdc11d97ef78181e0ef282c",
-                "reference": "3d5373e0b81896a63bdc11d97ef78181e0ef282c",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-graph/zipball/0d3783ec9a780c3c2415e79a7395f3aa1369ae0b",
+                "reference": "0d3783ec9a780c3c2415e79a7395f3aa1369ae0b",
                 "shasum": ""
             },
             "require": {
@@ -360,23 +362,23 @@
                 "silverstripe"
             ],
             "support": {
-                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-graph/tree/master",
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-graph/tree/develop",
                 "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-graph/issues"
             },
-            "time": "2016-12-22 19:54:48"
+            "time": "2017-03-13 00:10:33"
         },
         {
             "name": "crackerjackdigital/silverstripe-modular-gridlist",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist.git",
-                "reference": "0c7df324bed33f8a3dd246c4a6ead6e3441ee3bb"
+                "reference": "348943e1ec6a99c47f78c45850aa3b17ad0df1ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-gridlist/zipball/0c7df324bed33f8a3dd246c4a6ead6e3441ee3bb",
-                "reference": "0c7df324bed33f8a3dd246c4a6ead6e3441ee3bb",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-gridlist/zipball/348943e1ec6a99c47f78c45850aa3b17ad0df1ba",
+                "reference": "348943e1ec6a99c47f78c45850aa3b17ad0df1ba",
                 "shasum": ""
             },
             "require": {
@@ -408,30 +410,30 @@
                 "silverstripe"
             ],
             "support": {
-                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist/tree/fbu",
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist/tree/develop",
                 "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist/issues"
             },
-            "time": "2016-11-30 12:17:07"
+            "time": "2017-02-19 21:09:02"
         },
         {
             "name": "crackerjackdigital/silverstripe-modular-gridlist-block",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist-blocks.git",
-                "reference": "c27265c82e8cb6944cb5d646007c2ce3acbd4fce"
+                "reference": "d54b15ee288a2951817a03c340be131934adb20f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-gridlist-blocks/zipball/c27265c82e8cb6944cb5d646007c2ce3acbd4fce",
-                "reference": "c27265c82e8cb6944cb5d646007c2ce3acbd4fce",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-gridlist-blocks/zipball/d54b15ee288a2951817a03c340be131934adb20f",
+                "reference": "d54b15ee288a2951817a03c340be131934adb20f",
                 "shasum": ""
             },
             "require": {
                 "crackerjackdigital/silverstripe-modular-blocks": "*",
                 "crackerjackdigital/silverstripe-modular-gridlist": "*",
-                "silverstripe-australia/gridfieldextensions": "1.x",
-                "silverstripe/display-logic": "1.4.x",
+                "silverstripe-australia/gridfieldextensions": "*",
+                "silverstripe/display-logic": "*",
                 "silverstripe/framework": ">=3.1"
             },
             "type": "silverstripe-module",
@@ -457,14 +459,14 @@
                 "silverstripe"
             ],
             "support": {
-                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist-blocks/tree/master",
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist-blocks/tree/develop",
                 "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist-blocks/issues"
             },
-            "time": "2016-11-29 12:57:29"
+            "time": "2017-02-19 21:09:07"
         },
         {
             "name": "crackerjackdigital/silverstripe-modular-gridlist-search",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist-search.git",
@@ -513,16 +515,16 @@
         },
         {
             "name": "crackerjackdigital/silverstripe-modular-search",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CrackerjackDigital/silverstripe-modular-search.git",
-                "reference": "bc95e36df23571263fa0472944a8450807e7e4bc"
+                "reference": "d276659c592535b33496faff3f05710e9c8e2bc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-search/zipball/bc95e36df23571263fa0472944a8450807e7e4bc",
-                "reference": "bc95e36df23571263fa0472944a8450807e7e4bc",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-search/zipball/d276659c592535b33496faff3f05710e9c8e2bc9",
+                "reference": "d276659c592535b33496faff3f05710e9c8e2bc9",
                 "shasum": ""
             },
             "require": {
@@ -553,14 +555,14 @@
                 "silverstripe"
             ],
             "support": {
-                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-search/tree/master",
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-search/tree/develop",
                 "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-search/issues"
             },
-            "time": "2017-02-22 01:30:04"
+            "time": "2017-03-09 20:29:32"
         },
         {
             "name": "crackerjackdigital/silverstripe-modular-search-blocks",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CrackerjackDigital/silverstripe-modular-search-blocks.git",
@@ -609,16 +611,16 @@
         },
         {
             "name": "crackerjackdigital/silverstripe-modular-social",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CrackerjackDigital/silverstripe-modular-social.git",
-                "reference": "5589a8c0c2e0d91c15b5b440717460c8f955a657"
+                "reference": "0b66c66426a7e4d6dd9846e0c569397251d8b203"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-social/zipball/5589a8c0c2e0d91c15b5b440717460c8f955a657",
-                "reference": "5589a8c0c2e0d91c15b5b440717460c8f955a657",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-social/zipball/0b66c66426a7e4d6dd9846e0c569397251d8b203",
+                "reference": "0b66c66426a7e4d6dd9846e0c569397251d8b203",
                 "shasum": ""
             },
             "require": {
@@ -649,23 +651,23 @@
                 "silverstripe"
             ],
             "support": {
-                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-social/tree/master",
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-social/tree/develop",
                 "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-social/issues"
             },
-            "time": "2017-02-15 21:44:46"
+            "time": "2017-01-08 23:51:09"
         },
         {
             "name": "crackerjackdigital/silverstripe-modular-types",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CrackerjackDigital/silverstripe-modular-types.git",
-                "reference": "7327ef0f194fa8ad2632d5e610ba063b6d6e30ee"
+                "reference": "7f5df2ae144e4797665815672c423502fd28f317"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-types/zipball/7327ef0f194fa8ad2632d5e610ba063b6d6e30ee",
-                "reference": "7327ef0f194fa8ad2632d5e610ba063b6d6e30ee",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-types/zipball/7f5df2ae144e4797665815672c423502fd28f317",
+                "reference": "7f5df2ae144e4797665815672c423502fd28f317",
                 "shasum": ""
             },
             "require": {
@@ -695,23 +697,23 @@
                 "silverstripe"
             ],
             "support": {
-                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-types/tree/master",
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-types/tree/develop",
                 "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-types/issues"
             },
-            "time": "2017-02-21 11:03:43"
+            "time": "2017-03-14 22:19:27"
         },
         {
             "name": "crackerjackdigital/silverstripe-modular-workflows",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CrackerjackDigital/silverstripe-modular-workflows.git",
-                "reference": "b8ef08d9a0a87717027f83f9f0a1a118c117b19e"
+                "reference": "49c16f95878a9409aa5d7485b2657a0eb5b04c80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-workflows/zipball/b8ef08d9a0a87717027f83f9f0a1a118c117b19e",
-                "reference": "b8ef08d9a0a87717027f83f9f0a1a118c117b19e",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-workflows/zipball/49c16f95878a9409aa5d7485b2657a0eb5b04c80",
+                "reference": "49c16f95878a9409aa5d7485b2657a0eb5b04c80",
                 "shasum": ""
             },
             "require": {
@@ -742,10 +744,10 @@
                 "silverstripe"
             ],
             "support": {
-                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-workflows/tree/master",
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-workflows/tree/develop",
                 "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-workflows/issues"
             },
-            "time": "2016-12-10 11:41:03"
+            "time": "2017-01-10 01:48:02"
         },
         {
             "name": "silverstripe-australia/gridfieldextensions",
