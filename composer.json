@@ -9,6 +9,7 @@
 		"modular",
 		"metapackage"
 	],
+	"minimum-stability": "dev",
 	"authors": [
 		{
 			"name": "Steve Wake",
@@ -34,6 +35,7 @@
 		"crackerjackdigital/silverstripe-modular-search": "self.version",
 		"crackerjackdigital/silverstripe-modular-search-blocks": "self.version",
 		"crackerjackdigital/silverstripe-modular-social": "self.version",
+		"crackerjackdigital/silverstripe-modular-types": "self.version",
 		"crackerjackdigital/silverstripe-modular-workflows": "self.version"
 	},
 	"repositories": [
@@ -71,6 +73,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular-notifications"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:crackerjackdigital/silverstripe-modular-search"
 		},
 		{
@@ -80,6 +86,10 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:crackerjackdigital/silverstripe-modular-social"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular-types"
 		},
 		{
 			"type": "vcs",
