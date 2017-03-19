@@ -1,0 +1,532 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d1/dbf/namespace_modular_1_1_traits">
+<title>Modular::Traits</title>
+        <simplesect>
+            <title>Variables</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="d1/dbf/namespace_modular_1_1_traits_1ad5fffa5f43d5fd928a8629d23a5c38f2">backprop</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="d1/dbf/namespace_modular_1_1_traits_1ab6ec396f22f6755ffec105ac3b531d18">cache</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="d1/dbf/namespace_modular_1_1_traits_1a10794fddeae75cfbecb872f67827aa8c">config</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="d1/dbf/namespace_modular_1_1_traits_1adae4ea480ae98ac5d23c1db783e9b475">dycache</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="d1/dbf/namespace_modular_1_1_traits_1aaeec1c4eb5b482d0b53b5c00e5b028f4">emailer</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="d1/dbf/namespace_modular_1_1_traits_1ae960b0a5bbfb3eb075d58ed3954b4dc2">generator</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="d1/dbf/namespace_modular_1_1_traits_1ad93f74adb67ca4480dd9b8205d8dc01b">json</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="d1/dbf/namespace_modular_1_1_traits_1ab11747a6bd94b097d49ecab7edd4dc70">lang</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="d1/dbf/namespace_modular_1_1_traits_1a56b07499c89a505cd5aa842bc2a1629b">mode</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="d1/dbf/namespace_modular_1_1_traits_1a7ee0323274d4232ae304087ace72d82b">options</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="d1/dbf/namespace_modular_1_1_traits_1a426a76c60639697877e2d702e96443db">reflection</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="d1/dbf/namespace_modular_1_1_traits_1a5c907a6211e0669e5fe3c298d12906ce">related</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="d1/dbf/namespace_modular_1_1_traits_1a6c855b864666cba1d23cb06f4d0d89f6">trackable</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="d1/dbf/namespace_modular_1_1_traits_1aab380e91a6e89eb7d572417a59dbdbdc">upload</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Functions</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1ac28f823331f21e51e6a72d5f5fa02cd4">__invoke</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a124ae34e262f1eca90280ba5371fbefc">config</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a43b62f86127987cdd642e1b05dc2921e">initBackprop</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a24655750fbc1f4661c1fc3eb0800a450">shouldBackProp</link> (
+ $event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a1b1e66d35ed89ed2db41d014732a0f02">didBackprop</link> (
+ $event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a2ee5058542d122139c55edff2b3f2ecd">backpropData</link> (
+ $event,  $data)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a8471d19ecfb6c62380e6f07ab0301007">backpropEventInfo</link> (
+ $event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1a46652f504f22a35a6978d3628af6ba6e">cache</link> (
+ $key,  $value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1ad6eea59063fefc8ff0ac3383e97dc223">cache_enabled</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1a5b840ce46300d88dea7329825a22829d">config</link> (
+ $className)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1aa31b2638ab0f1d26ca2f51f981cdec7c">ownerOverThisConfig</link> (
+ $name,  $key)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a875da1187eb836e3856817be0c77e193">thisOverOwnerConfig</link> (
+ $name,  $key)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1af974615dbf8cf76d9612a51ed498bad1">ownerOverThisMergedConfig</link> (
+ $name,  $key)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1ab161a3e263904bd6fb740a3e45a12d9e">thisOverOwnerMergedConfig</link> (
+ $name,  $key)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1a5830eba9cd703f4b8807129af3540e33">v_or_n</link> (
+ $value,  $key)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a24b4626d8f129b2ebdfe26937df058db">v_or_kv</link> (
+ $value,  $key)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1af0be8cd9657981c8cfbc869ec571331f">configure</link> (
+array $options,  $className)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1a1c382f7a5431d3bd0be9f65d86964ee2">require_config_setting</link> (
+ $name,  $key,  $className,  $sourceOptions)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1a72a8aa1a9222f7093866ff73834e7fd7">get_config_setting</link> (
+ $name,  $key,  $className,  $sourceOptions)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1a9500d35e9061273edd112d0f20a8518e">get_config_settings</link> (
+array $names,  $className,  $sourceOptions)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1af075a9ec4cc51cda513462cb002439ea">match_config_setting</link> (
+ $name,  $match,  $className,  $sourceOptions)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1aa46c7c2762f4b1a0ea62f8cdeda55335">dycache</link> (
+ $key, callable $callable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1a207d66dbdff14872a2ea44a47eb8d80f">dycache_enabled</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a02bc53aecd818473ae22dc813b4cd3c0">emailer_send</link> (
+ $senderAddressOrMemberID,  $recipientAddressesOrMemberIDs,  $subjectOrLangKey,  $messageOrBodyIfNoTemplate,  $templatesOrBodyLangKey,  $data, &amp; $error)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a8dddbe6c553b8e11dd21a869480a8695">generator</link> (
+ $seed)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a1ff0136e7169a274138674632321f882">shouldGenerate</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a6c1123ef67be360ea7d4aa202314999b">encode</link> (
+ $mode)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1adc43789ce4ba4cc815e687cd0784b73a">decode</link> (
+ $data,  $mode)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a0cd71bd7c45cb3e61d62fa2e4ec9e797">template_encode</link> (
+ $data)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a434d886f12f283009041cc2886872879">lang</link> (
+ $key,  $default, array $tokens)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1ac026d9d2c5a5948c3bb61102662772e1">fieldDecoration</link> (
+ $fieldName,  $decoration,  $default, array $tokens,  $field)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1ae3460528ce95de26bc1ade804a471aa8">fieldDecorationTokens</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1acdda1a5c007a6fbc104799054b01848e">singularName</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a7959539eabdaba5d101ec7faf9ec5b03">pluralName</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1a8742eca005b86074846771cf6d84e749">get_site_localised_config_setting</link> (
+ $source,  $name,  $default, array $data,  $configOptions)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1afc7ec396f0f491d377c7fe4d8835448d">get_localised_config_string</link> (
+ $source,  $name,  $default, array $data,  $configOptions)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a63ccc5790fb05f291302e32d8d65f3e7">mode</link> (
+ $setMode)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1ade55cb98894c763739be6d3506758db7">options</link> (
+ $options,  $merge)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a9fd2acedafc85820580733aa492788bb">option</link> (
+ $name,  $key)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1a2a6ad49a2d8b941fe48a911da5fbfc36">name_from_class_name</link> (
+ $className,  $trim, &apos;Social&apos;] )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1aa20c5aab7606df462acf397873c560e1">derive_class_name</link> (
+ $modelOrClassName,  $stripNamespace)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1ada2f64f226987343290152caba2fcdfc">extensionsByInterface</link> (
+ $interfaceName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1aa8cebe5f7120c1b7ae514c8a1b899b9a">subclasses</link> (
+ $excludeThisClass)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbf/namespace_modular_1_1_traits_1a6e9fc6f2e848af29ff66a5a607bfcb0d">strip_namespace</link> (
+ $maybeNamespacedClassName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a00989429a86836343355cb26083f91ea">definedRelationships</link> (
+ $arities, ArityInfo::HasMany , ArityInfo::ManyMany , ArityInfo::BelongsManyMany , ] )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1adf2223595bfca3c67aec9b061f36acbf">hasDefinedRelationship</link> (
+ $relationshipName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a845f12a7bb19c2988df902c9fe2c04fe">trackable_start</link> (
+ $what,  $message)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a522a85960e3adecd028646743e39b4bd">trackable_end</link> (
+ $result)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a5ef5030499d09da1b440aa56cd0b22ce">allowAttachExisting</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1ae5e59977c7cc24ab75649a4568091e32">makeUploadField</link> (
+ $relationshipName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a1da1358efcdb064c10787a693a04cee0">configureUploadField</link> (
+ $field,  $allowedFilesConfigVar)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbf/namespace_modular_1_1_traits_1a7fc27daabe6435d3ed6bdc09b8b99550">uploadFolderName</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Calls through to JSON class while traits are worked out properly in SS (config is applied?) </para>
+                <para>Definition at line 2 of file backprop.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>backprop.php</para></listitem></itemizedlist></para>
+        </simplesect>
+</section>

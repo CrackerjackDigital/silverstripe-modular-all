@@ -108,10 +108,21 @@ $(document).ready(function(){initNavTree('d9/d6c/_controller_8php_source.html','
 <a href="../../d9/d6c/_controller_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">namespace </span>Modular;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../d6/d68/class_modular_1_1_controller.html">    4</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d6/d68/class_modular_1_1_controller.html">Controller</a> <span class="keyword">extends</span> <a class="code" href="../../d6/d68/class_modular_1_1_controller.html">\Controller</a> {</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="class_modular_1_1_controller_html"><div class="ttname"><a href="../../d6/d68/class_modular_1_1_controller.html">Modular\Controller</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d6c/_controller_8php_source.html#l00004">Controller.php:4</a></div></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;use <a class="code" href="../../d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode.html">Modular\Interfaces\HasMode</a>;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;use Modular\Traits\debugging;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;use <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a56b07499c89a505cd5aa842bc2a1629b">Modular\Traits\mode</a>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../d6/d68/class_modular_1_1_controller.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d6/d68/class_modular_1_1_controller.html">Controller</a> <span class="keyword">extends</span> <a class="code" href="../../d6/d68/class_modular_1_1_controller.html">\Controller</a> implements <a class="code" href="../../d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode.html">HasMode</a> {</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    use <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a56b07499c89a505cd5aa842bc2a1629b">mode</a>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    use debugging;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d6/d68/class_modular_1_1_controller.html#a9aac7e1475efe923de4e19cc2511f092">   15</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../d6/d68/class_modular_1_1_controller.html#a9aac7e1475efe923de4e19cc2511f092">__invoke</a>() {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">return</span> $this;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    }</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="ttc" id="class_modular_1_1_controller_html"><div class="ttname"><a href="../../d6/d68/class_modular_1_1_controller.html">Modular\Controller</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d6c/_controller_8php_source.html#l00008">Controller.php:8</a></div></div>
+<div class="ttc" id="class_modular_1_1_controller_html_a9aac7e1475efe923de4e19cc2511f092"><div class="ttname"><a href="../../d6/d68/class_modular_1_1_controller.html#a9aac7e1475efe923de4e19cc2511f092">Modular\Controller\__invoke</a></div><div class="ttdeci">__invoke()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d6c/_controller_8php_source.html#l00015">Controller.php:15</a></div></div>
+<div class="ttc" id="interface_modular_1_1_interfaces_1_1_has_mode_html"><div class="ttname"><a href="../../d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode.html">Modular\Interfaces\HasMode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/db7/_has_mode_8php_source.html#l00004">HasMode.php:4</a></div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_a56b07499c89a505cd5aa842bc2a1629b"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#a56b07499c89a505cd5aa842bc2a1629b">Modular\Traits\mode</a></div><div class="ttdeci">trait mode</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d08/mode_8php_source.html#l00006">mode.php:6</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

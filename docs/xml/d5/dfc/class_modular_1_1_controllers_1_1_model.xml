@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d5/dfc/class_modular_1_1_controllers_1_1_model" kind="class" prot="public">
+    <compoundname>Modular::Controllers::Model</compoundname>
+    <basecompoundref refid="d6/d68/class_modular_1_1_controller" prot="public" virt="non-virtual">Controller</basecompoundref>
+    <basecompoundref refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller" prot="public" virt="non-virtual">ModelController</basecompoundref>
+    <basecompoundref refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider" prot="public" virt="non-virtual">RouteProvider</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d5/dfc/class_modular_1_1_controllers_1_1_model_1ab6cd4d85b5fec910ff682c2983cf0fc3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ModelClassName</definition>
+        <argsstring></argsstring>
+        <name>ModelClassName</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" line="22" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d5/dfc/class_modular_1_1_controllers_1_1_model_1a9db5a5a6a8313550f8c453a1838f7af5" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$route_prefix</definition>
+        <argsstring></argsstring>
+        <name>$route_prefix</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" line="26" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/dfc/class_modular_1_1_controllers_1_1_model_1a465a47724b30d8dbdb5dc5e1a45968fd" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$alternate_route</definition>
+        <argsstring></argsstring>
+        <name>$alternate_route</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" line="29" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d5/dfc/class_modular_1_1_controllers_1_1_model_1ae4a94b9aada2f6d5944e747138cee057" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static model_class_name</definition>
+        <argsstring>()</argsstring>
+        <name>model_class_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the class name of the model this controller manages, e.g &apos;<ref refid="df/df5/namespace_modular" kindref="compound">Modular</ref>&apos; <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" line="44" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" bodystart="44" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/dfc/class_modular_1_1_controllers_1_1_model_1a57102936c05e571c397f794a752795a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>routes</definition>
+        <argsstring>()</argsstring>
+        <name>routes</name>
+        <reimplements refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider_1a57102936c05e571c397f794a752795a5">routes</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the primary route to this controller, e.g. [ &apos;modular/social/controllers/post&apos; =&gt; &apos;<ref refid="df/df5/namespace_modular" kindref="compound">Modular</ref>&apos;, &apos;topics&apos; =&gt; &apos;<ref refid="df/df5/namespace_modular" kindref="compound">Modular</ref>&apos; // with config.alternate_route set ] </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" line="55" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dfc/class_modular_1_1_controllers_1_1_model_1af758be52317607e28c2b633561d322f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>model</definition>
+        <argsstring>()</argsstring>
+        <name>model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If ModelID is passed as param then use it along with model_class to try and fetch the model. If doesn&apos;t exist then returns null.</para><para><simplesect kind="return"><para>| </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" line="68" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" bodystart="68" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dfc/class_modular_1_1_controllers_1_1_model_1afd35de2c4f85109ad1e9ea6f1902ef0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>modelID</definition>
+        <argsstring>()</argsstring>
+        <name>modelID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the ModelID part of the url or null if not set. <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" line="81" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" bodystart="81" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dfc/class_modular_1_1_controllers_1_1_model_1ab8fc514b245975823d2a15d664517eb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>modelClassName</definition>
+        <argsstring>()</argsstring>
+        <name>modelClassName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the config.model_class not the actual model class from the url. <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" line="89" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" bodystart="89" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="173">
+        <label>HasMode</label>
+        <link refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode"/>
+      </node>
+      <node id="174">
+        <label>ModelController</label>
+        <link refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller"/>
+      </node>
+      <node id="175">
+        <label>RouteProvider</label>
+        <link refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider"/>
+      </node>
+      <node id="172">
+        <label>Controller</label>
+        <link refid="d6/d68/class_modular_1_1_controller"/>
+        <childnode refid="172" relation="public-inheritance">
+        </childnode>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="171">
+        <label>Model</label>
+        <link refid="d5/dfc/class_modular_1_1_controllers_1_1_model"/>
+        <childnode refid="172" relation="public-inheritance">
+        </childnode>
+        <childnode refid="174" relation="public-inheritance">
+        </childnode>
+        <childnode refid="175" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="178">
+        <label>HasMode</label>
+        <link refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode"/>
+      </node>
+      <node id="179">
+        <label>ModelController</label>
+        <link refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller"/>
+      </node>
+      <node id="180">
+        <label>RouteProvider</label>
+        <link refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider"/>
+      </node>
+      <node id="177">
+        <label>Controller</label>
+        <link refid="d6/d68/class_modular_1_1_controller"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="176">
+        <label>Model</label>
+        <link refid="d5/dfc/class_modular_1_1_controllers_1_1_model"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+        <childnode refid="179" relation="public-inheritance">
+        </childnode>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php" bodystart="17" bodyend="93"/>
+    <listofallmembers>
+      <member refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1a465a47724b30d8dbdb5dc5e1a45968fd" prot="private" virt="non-virtual"><scope>Modular::Controllers::Model</scope><name>$alternate_route</name></member>
+      <member refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1a9db5a5a6a8313550f8c453a1838f7af5" prot="private" virt="non-virtual"><scope>Modular::Controllers::Model</scope><name>$route_prefix</name></member>
+      <member refid="d6/d68/class_modular_1_1_controller_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Controllers::Model</scope><name>__invoke</name></member>
+      <member refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1afd28b58bedb4778be3418b1eadb2aae4" prot="public" virt="non-virtual"><scope>Modular::Controllers::Model</scope><name>ActionParam</name></member>
+      <member refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1a984342ee7cd006dfd2847e636bae60f4" prot="public" virt="non-virtual"><scope>Modular::Controllers::Model</scope><name>DefaultMode</name></member>
+      <member refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1ab97d3bd978f98490101928ee4321131f" prot="public" virt="non-virtual"><scope>Modular::Controllers::Model</scope><name>mode</name></member>
+      <member refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1af758be52317607e28c2b633561d322f6" prot="public" virt="non-virtual"><scope>Modular::Controllers::Model</scope><name>model</name></member>
+      <member refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1ae4a94b9aada2f6d5944e747138cee057" prot="public" virt="non-virtual"><scope>Modular::Controllers::Model</scope><name>model_class_name</name></member>
+      <member refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1ab8fc514b245975823d2a15d664517eb0" prot="public" virt="non-virtual"><scope>Modular::Controllers::Model</scope><name>modelClassName</name></member>
+      <member refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1ab6cd4d85b5fec910ff682c2983cf0fc3" prot="public" virt="non-virtual"><scope>Modular::Controllers::Model</scope><name>ModelClassName</name></member>
+      <member refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1ad25fa91ff0a5a8bad05d11e8db6bf8a1" prot="public" virt="non-virtual"><scope>Modular::Controllers::Model</scope><name>ModelClassParam</name></member>
+      <member refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1afd35de2c4f85109ad1e9ea6f1902ef0b" prot="public" virt="non-virtual"><scope>Modular::Controllers::Model</scope><name>modelID</name></member>
+      <member refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1a4159ded20ab3eb2999f13f04a13c5692" prot="public" virt="non-virtual"><scope>Modular::Controllers::Model</scope><name>ModelIDParam</name></member>
+      <member refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1a57102936c05e571c397f794a752795a5" prot="public" virt="non-virtual"><scope>Modular::Controllers::Model</scope><name>routes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

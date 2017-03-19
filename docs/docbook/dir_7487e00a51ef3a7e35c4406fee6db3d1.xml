@@ -6,13 +6,6 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="da/d10/_grid_list_filters_8php">GridListFilters.php</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
                         <para>file <link linkend="d6/d34/_model_admin_8php">ModelAdmin.php</link></para>
                     </listitem>
                 </itemizedlist>

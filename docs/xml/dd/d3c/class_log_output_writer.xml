@@ -61,7 +61,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" bodystart="16" bodyend="20"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" bodystart="16" bodyend="22"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -90,7 +90,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" line="28" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" bodystart="28" bodyend="30"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" line="30" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" bodystart="30" bodyend="32"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -98,28 +98,28 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1111">
+      <node id="168">
         <label>Zend_Log_Writer_Abstract</label>
       </node>
-      <node id="1110">
+      <node id="167">
         <label>LogOutputWriter</label>
         <link refid="dd/d3c/class_log_output_writer"/>
-        <childnode refid="1111" relation="public-inheritance">
+        <childnode refid="168" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1113">
+      <node id="170">
         <label>Zend_Log_Writer_Abstract</label>
       </node>
-      <node id="1112">
+      <node id="169">
         <label>LogOutputWriter</label>
         <link refid="dd/d3c/class_log_output_writer"/>
-        <childnode refid="1113" relation="public-inheritance">
+        <childnode refid="170" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" line="2" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" bodystart="2" bodyend="31"/>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" line="2" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" bodystart="2" bodyend="33"/>
     <listofallmembers>
       <member refid="dd/d3c/class_log_output_writer_1aa1d20926fdd74e575de6e11581c0404a" prot="private" virt="non-virtual"><scope>LogOutputWriter</scope><name>$messageType</name></member>
       <member refid="dd/d3c/class_log_output_writer_1a7a50b57ca538643ea51309fd8263cc5b" prot="public" virt="non-virtual"><scope>LogOutputWriter</scope><name>__construct</name></member>

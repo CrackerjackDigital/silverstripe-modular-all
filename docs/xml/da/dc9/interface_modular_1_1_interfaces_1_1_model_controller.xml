@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller" kind="interface" prot="public">
+    <compoundname>Modular::Interfaces::ModelController</compoundname>
+    <derivedcompoundref refid="d5/dfc/class_modular_1_1_controllers_1_1_model" prot="public" virt="non-virtual">Model</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1ad25fa91ff0a5a8bad05d11e8db6bf8a1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ModelClassParam</definition>
+        <argsstring></argsstring>
+        <name>ModelClassParam</name>
+        <initializer>= &apos;$ModelClass&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/ModelController.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/ModelController.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1a4159ded20ab3eb2999f13f04a13c5692" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ModelIDParam</definition>
+        <argsstring></argsstring>
+        <name>ModelIDParam</name>
+        <initializer>= &apos;$ModelID&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/ModelController.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/ModelController.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1afd28b58bedb4778be3418b1eadb2aae4" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ActionParam</definition>
+        <argsstring></argsstring>
+        <name>ActionParam</name>
+        <initializer>= &apos;$<ref refid="d0/d1e/interface_modular_1_1_interfaces_1_1_action" kindref="compound">Action</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/ModelController.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/ModelController.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="194">
+        <label>ModelController</label>
+        <link refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller"/>
+      </node>
+      <node id="195">
+        <label>Model</label>
+        <link refid="d5/dfc/class_modular_1_1_controllers_1_1_model"/>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/ModelController.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/ModelController.php" bodystart="4" bodyend="9"/>
+    <listofallmembers>
+      <member refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1afd28b58bedb4778be3418b1eadb2aae4" prot="public" virt="non-virtual"><scope>Modular::Interfaces::ModelController</scope><name>ActionParam</name></member>
+      <member refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1ad25fa91ff0a5a8bad05d11e8db6bf8a1" prot="public" virt="non-virtual"><scope>Modular::Interfaces::ModelController</scope><name>ModelClassParam</name></member>
+      <member refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1a4159ded20ab3eb2999f13f04a13c5692" prot="public" virt="non-virtual"><scope>Modular::Interfaces::ModelController</scope><name>ModelIDParam</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

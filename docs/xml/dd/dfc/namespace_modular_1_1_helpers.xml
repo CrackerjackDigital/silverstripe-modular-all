@@ -3,6 +3,7 @@
   <compounddef id="dd/dfc/namespace_modular_1_1_helpers" kind="namespace">
     <compoundname>Modular::Helpers</compoundname>
     <innerclass refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n" prot="public">Modular::Helpers::JSON</innerclass>
+    <innerclass refid="d6/d8e/class_modular_1_1_helpers_1_1_reflection" prot="public">Modular::Helpers::Reflection</innerclass>
     <innerclass refid="d6/d0c/class_modular_1_1_helpers_1_1_strings" prot="public">Modular::Helpers::Strings</innerclass>
     <briefdescription>
     </briefdescription>

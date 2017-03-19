@@ -11,7 +11,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
-<codeline lineno="2" refid="d5/d56/namespace_modular_1_1_interfaces" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Interfaces;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Interfaces;</highlight></codeline>
 <codeline lineno="8" refid="d0/dfe/interface_modular_1_1_interfaces_1_1_exception" refkind="compound"><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="d0/dfe/interface_modular_1_1_interfaces_1_1_exception" kindref="compound">Exception</ref><sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1a0b0e611236742aac18ba1936d03ba89a" kindref="member">getMessage</ref>();</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>

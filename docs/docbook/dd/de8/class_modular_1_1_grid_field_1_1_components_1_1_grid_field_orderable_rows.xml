@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/de8/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_orderable_rows">
+<title>Modular::GridField::Components::GridFieldOrderableRows class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SortFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/de8/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_orderable_rows_1a6006fb64993d9e9856934cff625b0796">populateSortValues</link> (
+\DataList $list)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Override to fix bug to do with LastEdited field being on different model in inheritance heirarchy to the Sort field. </para>
+                <para>Definition at line 6 of file GridFieldOrderableRows.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>GridFieldOrderableRows.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="dd/de8/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_orderable_rows_1a6006fb64993d9e9856934cff625b0796">
+                <title>populateSortValues (\DataList $list)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

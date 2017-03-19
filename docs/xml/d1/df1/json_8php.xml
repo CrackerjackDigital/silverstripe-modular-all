@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d1/df1/json_8php" kind="file">
     <compoundname>json.php</compoundname>
+    <innernamespace refid="d1/dbf/namespace_modular_1_1_traits">Modular::Traits</innernamespace>
     <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -9,21 +10,34 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
-<codeline lineno="6"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular;</highlight></codeline>
+<codeline lineno="6"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Traits;</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal">trait<sp/>json<sp/>{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>encode($data)<sp/>{</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a2e91ceea8912dbc2050d6abc6e885ca5" kindref="member">Helpers\JSON::encode</ref>($data);</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>decode($string)<sp/>{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1ae8335fd228287b41f7705e94cd591080" kindref="member">Helpers\JSON::decode</ref>($string);</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>template_encode($data)<sp/>{</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1ae3253c7e82f5caec76b53759634f8bf2" kindref="member">Helpers\JSON::template_encode</ref>($data);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n" kindref="compound">Modular\Helpers\JSON</ref><sp/>as<sp/>Helper;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/><ref refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode" kindref="compound">Modular\Interfaces\HasMode</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">use<sp/><ref refid="db/d0a/class_modular_1_1_model" kindref="compound">Modular\Model</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="d1/dbf/namespace_modular_1_1_traits_1ad93f74adb67ca4480dd9b8205d8dc01b" refkind="member"><highlight class="normal">trait<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1ad93f74adb67ca4480dd9b8205d8dc01b" kindref="member">json</ref><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>model();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30" refid="d1/dbf/namespace_modular_1_1_traits_1a6c1123ef67be360ea7d4aa202314999b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a6c1123ef67be360ea7d4aa202314999b" kindref="member">encode</ref>($mode<sp/>=<sp/><ref refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1a984342ee7cd006dfd2847e636bae60f4" kindref="member">HasMode::DefaultMode</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$data<sp/>=<sp/>$this-&gt;model()-&gt;toMap();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>data<sp/>should<sp/>be<sp/>trimmed<sp/>according<sp/>to<sp/>mode,<sp/>e.g.<sp/>only<sp/>certain<sp/>fields<sp/>encoded</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a6c1123ef67be360ea7d4aa202314999b" kindref="member">Helper::encode</ref>($data);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43" refid="d1/dbf/namespace_modular_1_1_traits_1adc43789ce4ba4cc815e687cd0784b73a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1adc43789ce4ba4cc815e687cd0784b73a" kindref="member">decode</ref>($data,<sp/>$mode<sp/>=<sp/><ref refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1a984342ee7cd006dfd2847e636bae60f4" kindref="member">HasMode::DefaultMode</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!is_array($data))<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$data<sp/>=<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1adc43789ce4ba4cc815e687cd0784b73a" kindref="member">Helper::decode</ref>($data);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>data<sp/>should<sp/>be<sp/>sanitised<sp/>before<sp/>updating<sp/>the<sp/>model<sp/>according<sp/>to<sp/>mode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;model()-&gt;update($data);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$data;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="d1/dbf/namespace_modular_1_1_traits_1a0cd71bd7c45cb3e61d62fa2e4ec9e797" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a0cd71bd7c45cb3e61d62fa2e4ec9e797" kindref="member">template_encode</ref>($data)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a0cd71bd7c45cb3e61d62fa2e4ec9e797" kindref="member">Helper::template_encode</ref>($data);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/json.php"/>
   </compounddef>

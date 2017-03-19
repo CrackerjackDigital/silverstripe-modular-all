@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash" kind="class" prot="public">
+    <compoundname>Modular::Extensions::Model::CacheHash</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash_1a6f5983066f76c96b34d4228d9732bd06" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const CacheHashFieldName</definition>
+        <argsstring></argsstring>
+        <name>CacheHashFieldName</name>
+        <initializer>= &apos;<ref refid="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash" kindref="compound">CacheHash</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/CacheHash.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/CacheHash.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash_1a1fa3127fc82f96b1436d871ef02be319" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$db</definition>
+        <argsstring></argsstring>
+        <name>$db</name>
+        <initializer>= [
+		self::CacheHashFieldName =&gt; &apos;Varchar(255)&apos;
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/CacheHash.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/CacheHash.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash_1af9aa034ad033005279bd790155e683fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>onBeforeWrite</definition>
+        <argsstring>()</argsstring>
+        <name>onBeforeWrite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/CacheHash.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/CacheHash.php" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash_1a213229a86f85648664bc4b55909c9477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cacheHashInvalidate</definition>
+        <argsstring>()</argsstring>
+        <name>cacheHashInvalidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash" kindref="compound">CacheHash</ref> field to null, this will also trigger an &apos;isChanged&apos; next write. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/CacheHash.php" line="23" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/CacheHash.php" bodystart="23" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>DataExtension</label>
+      </node>
+      <node id="17">
+        <label>CacheHash</label>
+        <link refid="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>DataExtension</label>
+      </node>
+      <node id="20">
+        <label>CacheHash</label>
+        <link refid="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/CacheHash.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/CacheHash.php" bodystart="6" bodyend="27"/>
+    <listofallmembers>
+      <member refid="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash_1a1fa3127fc82f96b1436d871ef02be319" prot="private" virt="non-virtual"><scope>Modular::Extensions::Model::CacheHash</scope><name>$db</name></member>
+      <member refid="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash_1a6f5983066f76c96b34d4228d9732bd06" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::CacheHash</scope><name>CacheHashFieldName</name></member>
+      <member refid="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash_1a213229a86f85648664bc4b55909c9477" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::CacheHash</scope><name>cacheHashInvalidate</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::CacheHash</scope><name>class_name</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1af758be52317607e28c2b633561d322f6" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::CacheHash</scope><name>model</name></member>
+      <member refid="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash_1af9aa034ad033005279bd790155e683fa" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::CacheHash</scope><name>onBeforeWrite</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1a55f8dabe1bcea5e6b483126eb80aee8c" prot="protected" virt="non-virtual"><scope>Modular::Extensions::Model::CacheHash</scope><name>remove_own_fields</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::CacheHash</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

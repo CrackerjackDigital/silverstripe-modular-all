@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dc/def/class_modular_1_1_u_i_1_1_component" kind="class" prot="public">
+    <compoundname>Modular::UI::Component</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">CompositeField</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="23">
+        <label>Component</label>
+        <link refid="dc/def/class_modular_1_1_u_i_1_1_component"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>CompositeField</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="25">
+        <label>Component</label>
+        <link refid="dc/def/class_modular_1_1_u_i_1_1_component"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>CompositeField</label>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/ui/Component.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/ui/Component.php" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

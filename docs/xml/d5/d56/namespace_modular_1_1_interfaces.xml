@@ -2,17 +2,29 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d5/d56/namespace_modular_1_1_interfaces" kind="namespace">
     <compoundname>Modular::Interfaces</compoundname>
+    <innerclass refid="d0/d1e/interface_modular_1_1_interfaces_1_1_action" prot="public">Modular::Interfaces::Action</innerclass>
+    <innerclass refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities" prot="public">Modular::Interfaces::Arities</innerclass>
+    <innerclass refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger" prot="public">Modular::Interfaces::Debugger</innerclass>
     <innerclass refid="d0/dfe/interface_modular_1_1_interfaces_1_1_exception" prot="public">Modular::Interfaces::Exception</innerclass>
+    <innerclass refid="db/dae/interface_modular_1_1_interfaces_1_1_field" prot="public">Modular::Interfaces::Field</innerclass>
     <innerclass refid="d1/d59/interface_modular_1_1_interfaces_1_1_has_children" prot="public">Modular::Interfaces::HasChildren</innerclass>
     <innerclass refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links" prot="public">Modular::Interfaces::HasLinks</innerclass>
+    <innerclass refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode" prot="public">Modular::Interfaces::HasMode</innerclass>
+    <innerclass refid="db/d63/interface_modular_1_1_interfaces_1_1_has_parent" prot="public">Modular::Interfaces::HasParent</innerclass>
+    <innerclass refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p" prot="public">Modular::Interfaces::HTTP</innerclass>
     <innerclass refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery" prot="public">Modular::Interfaces::Imagery</innerclass>
     <innerclass refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type" prot="public">Modular::Interfaces::LinkType</innerclass>
     <innerclass refid="dd/d06/interface_modular_1_1_interfaces_1_1_logger" prot="public">Modular::Interfaces::Logger</innerclass>
+    <innerclass refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller" prot="public">Modular::Interfaces::ModelController</innerclass>
     <innerclass refid="d5/d83/interface_modular_1_1_interfaces_1_1_previewable" prot="public">Modular::Interfaces::Previewable</innerclass>
+    <innerclass refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider" prot="public">Modular::Interfaces::RouteProvider</innerclass>
+    <innerclass refid="df/d6b/interface_modular_1_1_interfaces_1_1_service" prot="public">Modular::Interfaces::Service</innerclass>
+    <innerclass refid="df/de4/interface_modular_1_1_interfaces_1_1_transcoder" prot="public">Modular::Interfaces::Transcoder</innerclass>
+    <innerclass refid="d5/d67/interface_modular_1_1_interfaces_1_1_value_generator" prot="public">Modular::Interfaces::ValueGenerator</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Exception.php" line="2" column="1"/>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Action.php" line="2" column="1"/>
   </compounddef>
 </doxygen>

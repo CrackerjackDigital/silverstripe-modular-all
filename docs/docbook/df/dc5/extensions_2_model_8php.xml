@@ -23,21 +23,21 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d9/db3/namespace_modular_1_1config">Modular::config</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>struct <link linkend="da/d0b/namespace_modular_1_1owned">Modular::owned</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
                         <para>struct <link linkend="d8/d50/namespace_data_extension">DataExtension</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d1/d92/namespace_modular_1_1_traits_1_1config">Modular::Traits::config</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d1/dbc/namespace_modular_1_1_traits_1_1related">Modular::Traits::related</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -51,7 +51,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d2/dbe/namespaceowned">owned</link></para>
+                        <para>struct <link linkend="d0/d64/namespacerelated">related</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

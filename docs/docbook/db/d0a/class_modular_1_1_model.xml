@@ -11,9 +11,41 @@
                     </listitem>
                 </itemizedlist>
             </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="db/d0a/class_modular_1_1_model_1af758be52317607e28c2b633561d322f6">model</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="db/d0a/class_modular_1_1_model_1ab8fc514b245975823d2a15d664517eb0">modelClassName</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="db/d0a/class_modular_1_1_model_1afd35de2c4f85109ad1e9ea6f1902ef0b">modelID</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
         </simplesect>
         <simplesect>
             <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="db/d0a/class_modular_1_1_model_1a74fc8d457a9fe7f9dd8c21afc3b5910d">type</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -26,9 +58,33 @@
             <section xml:id="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092">
                 <title>__invoke ()</title> <emphasis></emphasis>
                 
-<para>Invoking a model returns itself. <formalpara><title>Returns: </title>
+<para>Invoking a type returns itself.</para>
+
+<para><formalpara><title>Returns: </title>
 
 <para>$this </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="db/d0a/class_modular_1_1_model_1af758be52317607e28c2b633561d322f6">
+                <title>model ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/d0a/class_modular_1_1_model_1ab8fc514b245975823d2a15d664517eb0">
+                <title>modelClassName ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/d0a/class_modular_1_1_model_1afd35de2c4f85109ad1e9ea6f1902ef0b">
+                <title>modelID ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/d0a/class_modular_1_1_model_1a74fc8d457a9fe7f9dd8c21afc3b5910d">
+                <title>static type ()</title> <emphasis></emphasis>
+                
+<para>Returns the model&apos;s class with &apos;_&apos; instead of namespace seperator. <formalpara><title>Returns: </title>
+
+<para>string </para>
 </formalpara>
 </para>
 
@@ -36,5 +92,13 @@
             <section xml:id="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc">
                 <title>static class_name ()</title> <emphasis></emphasis>
                 
+<para>Patch until php 5.6 static::class is widely available on servers</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
             </section>
 </section>

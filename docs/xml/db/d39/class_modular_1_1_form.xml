@@ -91,6 +91,22 @@
         <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="24" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="24" bodyend="-1"/>
       </memberdef>
       </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d39/class_modular_1_1_form_1a9aac7e1475efe923de4e19cc2511f092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__invoke</definition>
+        <argsstring>()</argsstring>
+        <name>__invoke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoking a <ref refid="db/d39/class_modular_1_1_form" kindref="compound">Form</ref> returns <ref refid="db/d39/class_modular_1_1_form" kindref="compound">Form</ref> <simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="30" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="30" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
       <sectiondef kind="public-static-func">
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1adf0d9df0a0bb6d6ff4764aa5186b6c01" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -113,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="58" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="58" bodyend="64"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="66" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="66" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1aa43ad2af69bfa8b3d88d6c88c33c75f6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -150,7 +166,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="116" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="116" bodyend="148"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="124" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="124" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1aed5f37c02f663e4fda3fb53c6db29b37" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -166,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="210" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="210" bodyend="212"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="218" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="218" bodyend="220"/>
       </memberdef>
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1af2bbf1e340dbdc21a72e420b6cfb523f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -182,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="214" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="214" bodyend="216"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="222" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="222" bodyend="224"/>
       </memberdef>
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1a08c4d8b927c6f9343ac526d1a4dfcaf5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -201,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="247" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="247" bodyend="253"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="255" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="255" bodyend="261"/>
       </memberdef>
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1a4a240ac3baa0acdf810bbae679e189dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -226,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="271" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="271" bodyend="273"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="279" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="279" bodyend="281"/>
       </memberdef>
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1a646861715924d1ebc734c95e8be5a0ed" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -278,7 +294,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="282" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="282" bodyend="284"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="290" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="290" bodyend="292"/>
       </memberdef>
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1afefd9870005edad2d1cff1d9f1d66570" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -302,7 +318,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="286" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="286" bodyend="288"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="294" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="294" bodyend="296"/>
       </memberdef>
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1aaacad85571b04b864d2a1f1e1e4edb59" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -315,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="290" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="290" bodyend="292"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="298" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="298" bodyend="300"/>
       </memberdef>
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1aeb47147cf48e17c5d6c0876b3fad2776" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -329,7 +345,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="297" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="297" bodyend="299"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="305" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="305" bodyend="307"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-static-func">
@@ -365,7 +381,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="71" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="71" bodyend="79"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="79" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="79" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1a521445177ad2abecf4c00d21fa8fb985" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -389,7 +405,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="81" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="81" bodyend="97"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="89" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="89" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1a9fc1c846e7d6526088236304696df0a5" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -409,7 +425,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="99" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="99" bodyend="108"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="107" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="107" bodyend="116"/>
       </memberdef>
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1a9524193624e500ddb1d2bd4c8eefaf88" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -429,7 +445,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="150" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="150" bodyend="208"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="158" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="158" bodyend="216"/>
       </memberdef>
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1a7c9d331c19d17c2df10a753b302a7fe0" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -466,7 +482,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="236" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="236" bodyend="245"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="244" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="244" bodyend="253"/>
       </memberdef>
       <memberdef kind="function" id="db/d39/class_modular_1_1_form_1ab03698c7d4c8687a5d77caeb3cb11ccb" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -503,7 +519,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="260" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="260" bodyend="269"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="268" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="268" bodyend="277"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -511,24 +527,25 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="524">
+      <node id="78">
         <label>Form</label>
         <link refid="db/d39/class_modular_1_1_form"/>
-        <childnode refid="524" relation="public-inheritance">
+        <childnode refid="78" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="525">
+      <node id="79">
         <label>Form</label>
         <link refid="db/d39/class_modular_1_1_form"/>
-        <childnode refid="525" relation="public-inheritance">
+        <childnode refid="79" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="14" bodyend="300"/>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/Form.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Form.php" bodystart="14" bodyend="308"/>
     <listofallmembers>
       <member refid="db/d39/class_modular_1_1_form_1ade43f61a170ced55a83616d5ece8b067" prot="private" virt="non-virtual"><scope>Modular::Form</scope><name>$show_tab_strip_in_form</name></member>
+      <member refid="db/d39/class_modular_1_1_form_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Form</scope><name>__invoke</name></member>
       <member refid="db/d39/class_modular_1_1_form_1a9fc1c846e7d6526088236304696df0a5" prot="protected" virt="non-virtual"><scope>Modular::Form</scope><name>add_actions</name></member>
       <member refid="db/d39/class_modular_1_1_form_1a521445177ad2abecf4c00d21fa8fb985" prot="protected" virt="non-virtual"><scope>Modular::Form</scope><name>add_fields</name></member>
       <member refid="db/d39/class_modular_1_1_form_1aa4bf29b81fe1fea37cb8d2210f64522c" prot="public" virt="non-virtual"><scope>Modular::Form</scope><name>Bad</name></member>

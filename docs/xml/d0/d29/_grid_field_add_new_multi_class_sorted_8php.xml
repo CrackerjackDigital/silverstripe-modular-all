@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d0/d29/_grid_field_add_new_multi_class_sorted_8php" kind="file">
     <compoundname>GridFieldAddNewMultiClassSorted.php</compoundname>
-    <innerclass refid="dd/dc9/class_modular_1_1_grid_field_1_1_grid_field_add_new_multi_class_sorted" prot="public">Modular::GridField::GridFieldAddNewMultiClassSorted</innerclass>
-    <innernamespace refid="d3/d7f/namespace_modular_1_1_grid_field">Modular::GridField</innernamespace>
+    <innerclass refid="d2/d73/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_add_new_multi_class_sorted" prot="public">Modular::GridField::Components::GridFieldAddNewMultiClassSorted</innerclass>
+    <innernamespace refid="d1/dca/namespace_modular_1_1_grid_field_1_1_components">Modular::GridField::Components</innernamespace>
     <innernamespace refid="d5/dff/namespace_grid_field_add_new_multi_class">GridFieldAddNewMultiClass</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -11,13 +11,13 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
-<codeline lineno="2" refid="d3/d7f/namespace_modular_1_1_grid_field" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridField;</highlight></codeline>
+<codeline lineno="2" refid="d1/dca/namespace_modular_1_1_grid_field_1_1_components" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridField\Components;</highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal">use<sp/>GridFieldAddNewMultiClass;</highlight></codeline>
-<codeline lineno="5"><highlight class="normal">use<sp/>Modular\config;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a10794fddeae75cfbecb872f67827aa8c" kindref="member">Modular\Traits\config</ref>;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="dd/dc9/class_modular_1_1_grid_field_1_1_grid_field_add_new_multi_class_sorted" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/dc9/class_modular_1_1_grid_field_1_1_grid_field_add_new_multi_class_sorted" kindref="compound">GridFieldAddNewMultiClassSorted</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>GridFieldAddNewMultiClass<sp/>{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/>config;</highlight></codeline>
+<codeline lineno="13" refid="d2/d73/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_add_new_multi_class_sorted" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d2/d73/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_add_new_multi_class_sorted" kindref="compound">GridFieldAddNewMultiClassSorted</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>GridFieldAddNewMultiClass<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a10794fddeae75cfbecb872f67827aa8c" kindref="member">config</ref>;</highlight></codeline>
 <codeline lineno="15"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/components/GridFieldAddNewMultiClassSorted.php"/>

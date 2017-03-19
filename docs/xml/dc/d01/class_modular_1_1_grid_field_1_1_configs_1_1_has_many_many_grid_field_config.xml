@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config" kind="class" prot="public">
+    <compoundname>Modular::GridField::Configs::HasManyManyGridFieldConfig</compoundname>
+    <basecompoundref refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config" prot="public" virt="non-virtual">GridFieldConfig</basecompoundref>
+    <derivedcompoundref refid="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks" prot="public" virt="non-virtual">HasBlocks</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a52a48ebfa025fc48a3403f1d34dd6513" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ComponentAddNewMultiClass</definition>
+        <argsstring></argsstring>
+        <name>ComponentAddNewMultiClass</name>
+        <initializer>= &apos;Modular\GridField\GridFieldAddNewMultiClassSorted&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a0d2b44c85c93cc87d32e3ba7fdc9218a" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$allowed_related_classes</definition>
+        <argsstring></argsstring>
+        <name>$allowed_related_classes</name>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1ac3b0b3c0f770dd2d73390db5a1ef1611" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$exclude_related_classes</definition>
+        <argsstring></argsstring>
+        <name>$exclude_related_classes</name>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1ad2f4ac002970371a69bde51db4113755" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$add_new_multi_class</definition>
+        <argsstring></argsstring>
+        <name>$add_new_multi_class</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a305f7b18dce920304db64818988c9ab9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($itemsPerPage=null)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$itemsPerPage</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" bodystart="18" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1aedd5fec065b871d6d599002f1ef65791" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static allowed_related_classes</definition>
+        <argsstring>()</argsstring>
+        <name>allowed_related_classes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" line="41" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a18c601602a865ce27f467cdaa67f4128" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static limited_related_classes</definition>
+        <argsstring>($addExtraClasses=[])</argsstring>
+        <name>limited_related_classes</name>
+        <param>
+          <declname>$addExtraClasses</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return list of clases from config.allowed_related_classes merged with parameter classes with config.exclude_related_classes removed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$addExtraClasses</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" line="65" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a878c3535adda4f2600b2ae3ff4b8ff86" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static exclude_classes</definition>
+        <argsstring>(array $classList)</argsstring>
+        <name>exclude_classes</name>
+        <param>
+          <type>array</type>
+          <declname>$classList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove classes by pattern (fnmatch) defined in config.exclude_related_classes.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$classList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array sorted by value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" line="78" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" bodystart="78" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Alters the config to be suitable for adding/removing many_many related models to the extended model, configurably using &apos;Add New MultClass&apos; support.</para><para>Adds an &apos;AddNewMultiClass&apos; selector </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="120">
+        <label>HasManyManyGridFieldConfig</label>
+        <link refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>HasBlocks</label>
+        <link refid="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks"/>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="122">
+        <label>GridFieldConfig_RelationEditor</label>
+      </node>
+      <node id="121">
+        <label>GridFieldConfig</label>
+        <link refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config"/>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="124">
+        <label>HasManyManyGridFieldConfig</label>
+        <link refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config"/>
+        <childnode refid="125" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="126">
+        <label>GridFieldConfig_RelationEditor</label>
+      </node>
+      <node id="125">
+        <label>GridFieldConfig</label>
+        <link refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasManyMany.php" bodystart="9" bodyend="101"/>
+    <listofallmembers>
+      <member refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1ad2f4ac002970371a69bde51db4113755" prot="private" virt="non-virtual"><scope>Modular::GridField::Configs::HasManyManyGridFieldConfig</scope><name>$add_new_multi_class</name></member>
+      <member refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a0d2b44c85c93cc87d32e3ba7fdc9218a" prot="private" virt="non-virtual"><scope>Modular::GridField::Configs::HasManyManyGridFieldConfig</scope><name>$allowed_related_classes</name></member>
+      <member refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1ac3b0b3c0f770dd2d73390db5a1ef1611" prot="private" virt="non-virtual"><scope>Modular::GridField::Configs::HasManyManyGridFieldConfig</scope><name>$exclude_related_classes</name></member>
+      <member refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a305f7b18dce920304db64818988c9ab9" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasManyManyGridFieldConfig</scope><name>__construct</name></member>
+      <member refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasManyManyGridFieldConfig</scope><name>__invoke</name></member>
+      <member refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1aedd5fec065b871d6d599002f1ef65791" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasManyManyGridFieldConfig</scope><name>allowed_related_classes</name></member>
+      <member refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config_1a77eb7482781c6152ac0a85593bf8f2b8" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasManyManyGridFieldConfig</scope><name>base</name></member>
+      <member refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasManyManyGridFieldConfig</scope><name>class_name</name></member>
+      <member refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config_1a70e4c2270db10b8cb380ce6035357da1" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasManyManyGridFieldConfig</scope><name>ComponentAddNewButton</name></member>
+      <member refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a52a48ebfa025fc48a3403f1d34dd6513" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasManyManyGridFieldConfig</scope><name>ComponentAddNewMultiClass</name></member>
+      <member refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config_1a563d7b1189241834ca2c7c07193e429c" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasManyManyGridFieldConfig</scope><name>ComponentAutoCompleter</name></member>
+      <member refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a878c3535adda4f2600b2ae3ff4b8ff86" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasManyManyGridFieldConfig</scope><name>exclude_classes</name></member>
+      <member refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a18c601602a865ce27f467cdaa67f4128" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasManyManyGridFieldConfig</scope><name>limited_related_classes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

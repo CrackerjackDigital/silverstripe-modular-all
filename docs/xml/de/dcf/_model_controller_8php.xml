@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/dcf/_model_controller_8php" kind="file">
+    <compoundname>ModelController.php</compoundname>
+    <innerclass refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller" prot="public">Modular::Interfaces::ModelController</innerclass>
+    <innernamespace refid="d5/d56/namespace_modular_1_1_interfaces">Modular::Interfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Interfaces;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller" kindref="compound">ModelController</ref><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1ad25fa91ff0a5a8bad05d11e8db6bf8a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1ad25fa91ff0a5a8bad05d11e8db6bf8a1" kindref="member">ModelClassParam</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;$ModelClass&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6" refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1a4159ded20ab3eb2999f13f04a13c5692" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1a4159ded20ab3eb2999f13f04a13c5692" kindref="member">ModelIDParam</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;$ModelID&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7" refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1afd28b58bedb4778be3418b1eadb2aae4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller_1afd28b58bedb4778be3418b1eadb2aae4" kindref="member">ActionParam</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;$Action&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/ModelController.php"/>
+  </compounddef>
+</doxygen>

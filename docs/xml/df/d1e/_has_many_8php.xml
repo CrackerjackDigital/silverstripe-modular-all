@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/d1e/_has_many_8php" kind="file">
+    <compoundname>HasMany.php</compoundname>
+    <innerclass refid="d2/d4a/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_grid_field_config" prot="public">Modular::GridField::Configs::HasManyGridFieldConfig</innerclass>
+    <innernamespace refid="de/dca/namespace_modular_1_1_grid_field_1_1_configs">Modular::GridField::Configs</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridField\Configs;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="d2/d4a/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_grid_field_config" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d2/d4a/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_grid_field_config" kindref="compound">HasManyGridFieldConfig</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config" kindref="compound">GridFieldConfig</ref><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasMany.php"/>
+  </compounddef>
+</doxygen>

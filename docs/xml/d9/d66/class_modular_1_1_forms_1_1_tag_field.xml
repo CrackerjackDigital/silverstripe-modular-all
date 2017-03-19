@@ -59,18 +59,18 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1456">
+      <node id="285">
         <label>TagField</label>
         <link refid="d9/d66/class_modular_1_1_forms_1_1_tag_field"/>
-        <childnode refid="1456" relation="public-inheritance">
+        <childnode refid="285" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1457">
+      <node id="286">
         <label>TagField</label>
         <link refid="d9/d66/class_modular_1_1_forms_1_1_tag_field"/>
-        <childnode refid="1457" relation="public-inheritance">
+        <childnode refid="286" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

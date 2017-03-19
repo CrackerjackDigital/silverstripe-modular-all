@@ -4,7 +4,6 @@
     <compoundname>gridfield</compoundname>
     <innerdir refid="dir_c66dfdaa406c296e3114a2de9fbc6fc2">components</innerdir>
     <innerdir refid="dir_69413c37b9a50a0bdc9cff598f4ef57f">configs</innerdir>
-    <innerfile refid="d7/d8e/_grid_field_8php">GridField.php</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

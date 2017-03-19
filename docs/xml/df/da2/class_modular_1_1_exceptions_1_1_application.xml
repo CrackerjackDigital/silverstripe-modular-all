@@ -8,41 +8,41 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="49">
+      <node id="9">
         <label>Exception</label>
         <link refid="d5/d09/class_modular_1_1_exceptions_1_1_exception"/>
-        <childnode refid="50" relation="public-inheritance">
+        <childnode refid="10" relation="public-inheritance">
         </childnode>
-        <childnode refid="49" relation="public-inheritance">
+        <childnode refid="9" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="48">
+      <node id="8">
         <label>Application</label>
         <link refid="df/da2/class_modular_1_1_exceptions_1_1_application"/>
-        <childnode refid="49" relation="public-inheritance">
+        <childnode refid="9" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="50">
+      <node id="10">
         <label>Config</label>
         <link refid="da/d2d/class_modular_1_1_exceptions_1_1_config"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="52">
+      <node id="12">
         <label>Exception</label>
         <link refid="d5/d09/class_modular_1_1_exceptions_1_1_exception"/>
-        <childnode refid="53" relation="public-inheritance">
+        <childnode refid="13" relation="public-inheritance">
         </childnode>
-        <childnode refid="52" relation="public-inheritance">
+        <childnode refid="12" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="51">
+      <node id="11">
         <label>Application</label>
         <link refid="df/da2/class_modular_1_1_exceptions_1_1_application"/>
-        <childnode refid="52" relation="public-inheritance">
+        <childnode refid="12" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="53">
+      <node id="13">
         <label>Config</label>
         <link refid="da/d2d/class_modular_1_1_exceptions_1_1_config"/>
       </node>

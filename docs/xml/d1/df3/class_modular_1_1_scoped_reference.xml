@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/df3/class_modular_1_1_scoped_reference" kind="class" prot="public">
+    <compoundname>Modular::ScopedReference</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/df3/class_modular_1_1_scoped_reference_1a1d66ca539ab008f6c8d418845c32ed47" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$reference</definition>
+        <argsstring></argsstring>
+        <name>$reference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/ScopedReference.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/ScopedReference.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/df3/class_modular_1_1_scoped_reference_1a0062182e784719a983ed0e17f7f81945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($object, callable $onDestruct)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$object</declname>
+        </param>
+        <param>
+          <type>callable</type>
+          <declname>$onDestruct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Save a reference to the object and the callable to call when this <ref refid="d1/df3/class_modular_1_1_scoped_reference" kindref="compound">ScopedReference</ref> falls out of scope..</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype><ref refid="da/d08/class_modular_1_1_object" kindref="compound">Object</ref></parametertype>
+<parametername>$object</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to track during lifetime of this instance of <ref refid="d1/df3/class_modular_1_1_scoped_reference" kindref="compound">ScopedReference</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>callable</parametertype>
+<parametername>$onDestruct</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(takes single parameter which will be the object being referenced). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/ScopedReference.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/ScopedReference.php" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/df3/class_modular_1_1_scoped_reference_1a421831a265621325e1fdd19aace0c758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__destruct</definition>
+        <argsstring>()</argsstring>
+        <name>__destruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calls the destruct callable passed in constructor passing the object as first parameter </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/ScopedReference.php" line="21" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/ScopedReference.php" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/ScopedReference.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/ScopedReference.php" bodystart="4" bodyend="25"/>
+    <listofallmembers>
+      <member refid="d1/df3/class_modular_1_1_scoped_reference_1a1d66ca539ab008f6c8d418845c32ed47" prot="private" virt="non-virtual"><scope>Modular::ScopedReference</scope><name>$reference</name></member>
+      <member refid="d1/df3/class_modular_1_1_scoped_reference_1a0062182e784719a983ed0e17f7f81945" prot="public" virt="non-virtual"><scope>Modular::ScopedReference</scope><name>__construct</name></member>
+      <member refid="d1/df3/class_modular_1_1_scoped_reference_1a421831a265621325e1fdd19aace0c758" prot="public" virt="non-virtual"><scope>Modular::ScopedReference</scope><name>__destruct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

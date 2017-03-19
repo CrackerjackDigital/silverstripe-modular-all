@@ -2,14 +2,12 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d0/da1/namespace_modular_1_1_models" kind="namespace">
     <compoundname>Modular::Models</compoundname>
-    <innerclass refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter" prot="public">Modular::Models::GridListFilter</innerclass>
     <innerclass refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link" prot="public">Modular::Models::InternalOrExternalLink</innerclass>
-    <innerclass refid="d8/dce/class_modular_1_1_models_1_1_slide" prot="public">Modular::Models::Slide</innerclass>
     <innerclass refid="d9/d7f/class_modular_1_1_models_1_1_tag" prot="public">Modular::Models::Tag</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/mnt/storage/build/modular-all/develop/modular/code/models/GridListFilter.php" line="2" column="1"/>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" line="2" column="1"/>
   </compounddef>
 </doxygen>

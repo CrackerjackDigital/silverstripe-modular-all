@@ -13,14 +13,14 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d5/d71/gridfield_2configs_2_has_blocks_8php">gridfield/configs/HasBlocks.php</link></para>
+                        <para>file <link linkend="d4/d10/_has_blocks_8php">HasBlocks.php</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d3/def/gridfield_2configs_2_has_grid_list_blocks_8php">gridfield/configs/HasGridListBlocks.php</link></para>
+                        <para>file <link linkend="d5/d61/_has_grid_list_blocks_8php">HasGridListBlocks.php</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -34,14 +34,14 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d7/d8b/gridfield_2configs_2_has_many_8php">gridfield/configs/HasMany.php</link></para>
+                        <para>file <link linkend="df/d1e/_has_many_8php">HasMany.php</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d8/d65/gridfield_2configs_2_has_many_many_8php">gridfield/configs/HasManyMany.php</link></para>
+                        <para>file <link linkend="d2/d52/_has_many_many_8php">HasManyMany.php</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

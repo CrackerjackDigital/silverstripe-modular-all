@@ -6,6 +6,13 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>struct <link linkend="da/d2c/class_modular_1_1_forms_1_1_tab_field">Modular::Forms::TabField</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>struct <link linkend="d9/d66/class_modular_1_1_forms_1_1_tag_field">Modular::Forms::TagField</link></para>
                     </listitem>
                 </itemizedlist>

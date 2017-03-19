@@ -6,7 +6,21 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d4/d0e/class_modular_1_1_extensions_1_1_controller_1_1_grid_list_links">Modular::Extensions::Controller::GridListLinks</link></para>
+                        <para>struct <link linkend="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content">Modular::Extensions::Controller::Content</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="da/da3/class_modular_1_1_extensions_1_1_controller_1_1_model">Modular::Extensions::Controller::Model</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements">Modular::Extensions::Controller::Requirements</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

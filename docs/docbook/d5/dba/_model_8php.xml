@@ -20,13 +20,6 @@
                     </listitem>
                 </itemizedlist>
             </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>struct <link linkend="d0/d64/namespacerelated">related</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
         </simplesect>
     <simplesect>
         <title>Detailed Description</title>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d3/d40/namespaceframework">
+<title>framework</title>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Non-static based version of SS_Log allowing multiple different loggers to be instanced.</para>
+
+<para>Wrapper class for a logging handler like <link linkend="">Zend_Log</link> which takes a message (or a map of context variables) and sends it to one or more <link linkend="">Zend_Log_Writer_Abstract</link> subclasses for output.</para>
+
+<para>These priorities are currently supported:<itemizedlist>
+<listitem>
+<para>SS_Log::ERR</para>
+</listitem><listitem>
+<para>SS_Log::WARN</para>
+</listitem><listitem>
+<para>SS_Log::NOTICE</para>
+</listitem></itemizedlist>
+</para>
+
+<para>You can add an error writer by calling <link linkend="">SS_Log::add_writer()</link></para>
+
+<para>Example usage of logging errors by email notification: <computeroutput> SS_Log::add_writer(new SS_LogEmailWriter(&apos;<link xlink:href="mailto:my@email.com">my@email.com</link>&apos;), SS_Log::ERR); </computeroutput></para>
+
+<para>Example usage of logging errors by file: <computeroutput> SS_Log::add_writer(new SS_LogFileWriter(&apos;/var/log/silverstripe/errors.log&apos;), SS_Log::ERR); </computeroutput></para>
+
+<para>Example usage of logging at warnings and errors by setting the priority to &apos;&lt;=&apos;: <computeroutput> SS_Log::add_writer(new SS_LogEmailWriter(&apos;<link xlink:href="mailto:my@email.com">my@email.com</link>&apos;), SS_Log::WARN, &apos;&lt;=&apos;); </computeroutput></para>
+
+<para>Each writer object can be assigned a formatter. The formatter is responsible for formatting the message before giving it to the writer. <link linkend="">SS_LogErrorEmailFormatter</link> is such an example that formats errors into HTML for human readability in an email client.</para>
+
+<para>Formatters are added to writers like this: <computeroutput> $logEmailWriter = new SS_LogEmailWriter(&apos;<link xlink:href="mailto:my@email.com">my@email.com</link>&apos;); $myEmailFormatter = new MyLogEmailFormatter(); $logEmailWriter-&gt;setFormatter($myEmailFormatter); </computeroutput></para>
+
+<para>dev </para>
+                <para>Definition at line 46 of file Logger.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Logger.php</para></listitem></itemizedlist></para>
+        </simplesect>
+</section>

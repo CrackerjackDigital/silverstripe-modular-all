@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/d06/namespace_modular_1_1_interfaces_1_1_arities" kind="namespace">
+    <compoundname>Modular::Interfaces::Arities</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/Reflection.php" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -106,24 +106,65 @@ $(document).ready(function(){initNavTree('d6/dc7/related_8php_source.html','../.
 </div><!--header-->
 <div class="contents">
 <a href="../../d6/dc7/related_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">namespace </span>Modular;</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../df/df5/namespace_modular.html#a5c907a6211e0669e5fe3c298d12906ce">    8</a></span>&#160;trait <a class="code" href="../../df/df5/namespace_modular.html#a5c907a6211e0669e5fe3c298d12906ce">related</a> {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">abstract</span> <span class="keyword">public</span> <span class="keyword">function</span> config();</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    </div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../df/df5/namespace_modular.html#a0428161b66c885b01816982f1a8e5692">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../df/df5/namespace_modular.html#a0428161b66c885b01816982f1a8e5692">hasRelationship</a>($relationshipName) {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">return</span> in_array(</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            $relationshipName,</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            array_merge(</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                $this-&gt;config()-&gt;<span class="keyword">get</span>(<span class="stringliteral">&#39;has_one&#39;</span>) ?: [],</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                $this-&gt;config()-&gt;<span class="keyword">get</span>(<span class="stringliteral">&#39;has_many&#39;</span>) ?: [],</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                $this-&gt;config()-&gt;<span class="keyword">get</span>(<span class="stringliteral">&#39;many_many&#39;</span>) ?: [],</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                $this-&gt;config()-&gt;<span class="keyword">get</span>(<span class="stringliteral">&#39;belongs_many_many&#39;</span>) ?: []</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            )</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        );</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
-<div class="ttc" id="namespace_modular_html_a0428161b66c885b01816982f1a8e5692"><div class="ttname"><a href="../../df/df5/namespace_modular.html#a0428161b66c885b01816982f1a8e5692">Modular\hasRelationship</a></div><div class="ttdeci">hasRelationship($relationshipName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc7/related_8php_source.html#l00019">related.php:19</a></div></div>
-<div class="ttc" id="namespace_modular_html_a5c907a6211e0669e5fe3c298d12906ce"><div class="ttname"><a href="../../df/df5/namespace_modular.html#a5c907a6211e0669e5fe3c298d12906ce">Modular\related</a></div><div class="ttdeci">trait related</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc7/related_8php_source.html#l00008">related.php:8</a></div></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">namespace </span>Modular\Traits;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;use <a class="code" href="../../d6/d8e/class_modular_1_1_helpers_1_1_reflection.html">Modular\Helpers\Reflection</a> as ArityInfo;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../d1/dbf/namespace_modular_1_1_traits.html#a5c907a6211e0669e5fe3c298d12906ce">   11</a></span>&#160;trait <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a5c907a6211e0669e5fe3c298d12906ce">related</a> {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">abstract</span> <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#ac28f823331f21e51e6a72d5f5fa02cd4">__invoke</a>();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../d1/dbf/namespace_modular_1_1_traits.html#a00989429a86836343355cb26083f91ea">   25</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a00989429a86836343355cb26083f91ea">definedRelationships</a>($arities = [</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        ArityInfo::HasOne,</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        ArityInfo::HasMany,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        ArityInfo::ManyMany,</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        ArityInfo::BelongsManyMany,</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    ]) {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        $out = [];</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">if</span> (is_array($arities)) {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <span class="comment">// &#39;multiple&#39; mode build output from &#39;single&#39; mode calls</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="keywordflow">foreach</span> ($arities as $type) {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                <span class="comment">// recursively call this method in &#39;single&#39; mode and merge results into output</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                $out = array_merge(</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                    $out,</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                    $this-&gt;<a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a00989429a86836343355cb26083f91ea">definedRelationships</a>($type)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                );</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            }</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="comment">// &#39;single&#39; mode get the actual info</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            $arityMap = <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a10794fddeae75cfbecb872f67827aa8c">ArityInfo::config</a>()-&gt;get(<span class="stringliteral">&#39;arity_config_map&#39;</span>);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            $type            = $arities;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="keywordflow">if</span> (is_int($type)) {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                $arity = $type;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                $type  = $arityMap[ $type ];</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                <span class="comment">// find arity by text e.g. &#39;has_one&#39;</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                $arity = array_flip($arityMap)[ $type ];</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="comment">// a map e.g. [ &#39;Members&#39; =&gt; &#39;Member&#39;, &#39;Noses&#39; =&gt; &#39;Nose&#39; ] (or empty)</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <span class="keywordflow">if</span> ($relationships = $this()-&gt;<a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a10794fddeae75cfbecb872f67827aa8c">config</a>()-&gt;<span class="keyword">get</span>($type)) {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                <span class="keywordflow">foreach</span> ($relationships as $relationship =&gt; $modelClass) {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                    $out[ $relationship ] = [ $modelClass =&gt; $arity ];</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">return</span> $out;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="../../d1/dbf/namespace_modular_1_1_traits.html#adf2223595bfca3c67aec9b061f36acbf">   70</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#adf2223595bfca3c67aec9b061f36acbf">hasDefinedRelationship</a>($relationshipName) {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        $relationships = $this-&gt;<a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a00989429a86836343355cb26083f91ea">definedRelationships</a>();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> isset($relationships[$relationshipName])</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            ? [ $relationshipName =&gt; $relationships[ $relationshipName ] ]</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            : [];</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_a5c907a6211e0669e5fe3c298d12906ce"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#a5c907a6211e0669e5fe3c298d12906ce">Modular\Traits\related</a></div><div class="ttdeci">trait related</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc7/related_8php_source.html#l00011">related.php:11</a></div></div>
+<div class="ttc" id="class_modular_1_1_helpers_1_1_reflection_html"><div class="ttname"><a href="../../d6/d8e/class_modular_1_1_helpers_1_1_reflection.html">Modular\Helpers\Reflection</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df8/_reflection_8php_source.html#l00007">Reflection.php:7</a></div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_ac28f823331f21e51e6a72d5f5fa02cd4"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#ac28f823331f21e51e6a72d5f5fa02cd4">Modular\Traits\__invoke</a></div><div class="ttdeci">__invoke()</div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_adf2223595bfca3c67aec9b061f36acbf"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#adf2223595bfca3c67aec9b061f36acbf">Modular\Traits\hasDefinedRelationship</a></div><div class="ttdeci">hasDefinedRelationship($relationshipName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc7/related_8php_source.html#l00070">related.php:70</a></div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_a00989429a86836343355cb26083f91ea"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#a00989429a86836343355cb26083f91ea">Modular\Traits\definedRelationships</a></div><div class="ttdeci">definedRelationships($arities=[ArityInfo::HasOne, ArityInfo::HasMany, ArityInfo::ManyMany, ArityInfo::BelongsManyMany,])</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc7/related_8php_source.html#l00025">related.php:25</a></div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_a10794fddeae75cfbecb872f67827aa8c"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#a10794fddeae75cfbecb872f67827aa8c">Modular\Traits\config</a></div><div class="ttdeci">trait config</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d45/config_8php_source.html#l00006">config.php:6</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

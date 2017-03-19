@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content" kind="class" prot="public">
+    <compoundname>Modular::Extensions::Controller::Content</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Extension</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content_1a9a28a026bf21eb0b9f8582aa613d0199" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ActionLink</definition>
+        <argsstring>($action)</argsstring>
+        <name>ActionLink</name>
+        <param>
+          <declname>$action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Content.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Content.php" bodystart="17" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="38">
+        <label>Extension</label>
+      </node>
+      <node id="37">
+        <label>Content</label>
+        <link refid="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="40">
+        <label>Extension</label>
+      </node>
+      <node id="39">
+        <label>Content</label>
+        <link refid="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Content.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Content.php" bodystart="14" bodyend="23"/>
+    <listofallmembers>
+      <member refid="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content_1a9a28a026bf21eb0b9f8582aa613d0199" prot="public" virt="non-virtual"><scope>Modular::Extensions::Controller::Content</scope><name>ActionLink</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

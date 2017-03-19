@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d5/d5e/class_modular_1_1_extensions_1_1_model_1_1_historical" kind="class" prot="public">
+    <compoundname>Modular::Extensions::Model::Historical</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SocialModelExtension</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d5/d5e/class_modular_1_1_extensions_1_1_model_1_1_historical_1a1fa3127fc82f96b1436d871ef02be319" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$db</definition>
+        <argsstring></argsstring>
+        <name>$db</name>
+        <initializer>= [
+        &apos;HistoricalDate&apos; =&gt; &apos;SS_DateTime&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Historical.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Historical.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d5e/class_modular_1_1_extensions_1_1_model_1_1_historical_1a5b661aef96674391085f36c3266d8068" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>static $has_one</definition>
+        <argsstring></argsstring>
+        <name>$has_one</name>
+        <initializer>= [
+        &apos;HistoricalDeletedBy&apos; =&gt; &apos;Member&apos;
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Historical.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Historical.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d5e/class_modular_1_1_extensions_1_1_model_1_1_historical_1a544117ac6741f53ce785e4c6f2dae103" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$historical_enabled</definition>
+        <argsstring></argsstring>
+        <name>$historical_enabled</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Historical.php" line="22" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Historical.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d5e/class_modular_1_1_extensions_1_1_model_1_1_historical_1a5efd4d262663f72376e710e4b5f81077" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>augmentSQL</definition>
+        <argsstring>(SQLQuery &amp;$query)</argsstring>
+        <name>augmentSQL</name>
+        <param>
+          <type>SQLQuery &amp;</type>
+          <declname>$query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Historical.php" line="24" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Historical.php" bodystart="24" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Extension which makes models not really delete when delete is called but instead flag as deleted and when selecting models ignore those flagged as deleted. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="141">
+        <label>SocialModelExtension</label>
+      </node>
+      <node id="140">
+        <label>Historical</label>
+        <link refid="d5/d5e/class_modular_1_1_extensions_1_1_model_1_1_historical"/>
+        <childnode refid="141" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="143">
+        <label>SocialModelExtension</label>
+      </node>
+      <node id="142">
+        <label>Historical</label>
+        <link refid="d5/d5e/class_modular_1_1_extensions_1_1_model_1_1_historical"/>
+        <childnode refid="143" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Historical.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Historical.php" bodystart="12" bodyend="30"/>
+    <listofallmembers>
+      <member refid="d5/d5e/class_modular_1_1_extensions_1_1_model_1_1_historical_1a1fa3127fc82f96b1436d871ef02be319" prot="private" virt="non-virtual"><scope>Modular::Extensions::Model::Historical</scope><name>$db</name></member>
+      <member refid="d5/d5e/class_modular_1_1_extensions_1_1_model_1_1_historical_1a5b661aef96674391085f36c3266d8068" prot="private" virt="non-virtual"><scope>Modular::Extensions::Model::Historical</scope><name>$has_one</name></member>
+      <member refid="d5/d5e/class_modular_1_1_extensions_1_1_model_1_1_historical_1a544117ac6741f53ce785e4c6f2dae103" prot="private" virt="non-virtual"><scope>Modular::Extensions::Model::Historical</scope><name>$historical_enabled</name></member>
+      <member refid="d5/d5e/class_modular_1_1_extensions_1_1_model_1_1_historical_1a5efd4d262663f72376e710e4b5f81077" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::Historical</scope><name>augmentSQL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

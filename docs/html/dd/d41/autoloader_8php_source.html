@@ -106,29 +106,23 @@ $(document).ready(function(){initNavTree('dd/d41/autoloader_8php_source.html','.
 </div><!--header-->
 <div class="contents">
 <a href="../../dd/d41/autoloader_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keywordflow">if</span> (isset($_REQUEST[<span class="stringliteral">&#39;flush&#39;</span>])) {</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    <span class="keywordflow">if</span> (!file_exists(__DIR__ . <span class="stringliteral">&#39;/_manifest_exclude&#39;</span>)) {</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// require an autoloader for traits in this module if we&#39;re doing a dev/build</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// if we are flushing then autoload traits from code/traits directory.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keywordflow">if</span> (isset($_REQUEST[<span class="stringliteral">&#39;flush&#39;</span>])) {</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    <span class="keywordflow">if</span> (!file_exists(__DIR__ . <span class="stringliteral">&#39;/_manifest_exclude&#39;</span>)) {</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        spl_autoload_register(<span class="keyword">function</span> ($class) {</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;            <span class="keywordflow">if</span> (substr($class, 0, 8) == <span class="stringliteral">&#39;Modular\\&#39;</span>) {</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;                $class = current(array_reverse(explode(<span class="charliteral">&#39;\\&#39;</span>, $class)));</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;                <span class="comment">// traits are all lower case</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                <span class="keywordflow">if</span> (strtolower($class) == $class) {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                    <span class="keywordflow">foreach</span> (glob(__DIR__ . <span class="stringliteral">&#39;/code/**/&#39;</span>) as $path) {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                        $file = <span class="stringliteral">&quot;$path/$class.php&quot;</span>;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                        <span class="keywordflow">if</span> (file_exists($file)) {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                            require_once($file);</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                        }</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                    }</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                }</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            }</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        });</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">foreach</span> (glob(__DIR__ . <span class="stringliteral">&#39;/../*/autoloader.php&#39;</span>) as $filePathName) {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            require_once($filePathName);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        }</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;            $class = current(array_reverse(explode(<span class="charliteral">&#39;\\&#39;</span>, $class)));</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;            <span class="keywordflow">if</span> (strtolower($class) == $class) {</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;                <span class="keywordflow">if</span> (file_exists($path = __DIR__ . <span class="stringliteral">&quot;/code/traits/$class.php&quot;</span>)) {</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                    require_once($path);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                }</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;            }</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        });</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordflow">foreach</span> (glob(__DIR__ . <span class="stringliteral">&#39;/../*/autoloader.php&#39;</span>) as $filePathName) {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            require_once($filePathName);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        }</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    }</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

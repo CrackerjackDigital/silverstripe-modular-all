@@ -4,6 +4,8 @@
     <compoundname>Tag.php</compoundname>
     <innerclass refid="d9/d7f/class_modular_1_1_models_1_1_tag" prot="public">Modular::Models::Tag</innerclass>
     <innernamespace refid="d0/da1/namespace_modular_1_1_models">Modular::Models</innernamespace>
+    <innernamespace refid="dc/d4b/namespace_modular_1_1_fields_1_1_model_tag">Modular::Fields::ModelTag</innernamespace>
+    <innernamespace refid="db/d30/namespace_modular_1_1_versioned_model">Modular::VersionedModel</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -12,12 +14,14 @@
 <codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Models;</highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag" kindref="compound">Modular\Fields\ModelTag</ref>;</highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6" refid="d9/d7f/class_modular_1_1_models_1_1_tag" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d9/d7f/class_modular_1_1_models_1_1_tag" kindref="compound">Tag</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="db/d0a/class_modular_1_1_model" kindref="compound">\Modular\Model</ref><sp/>{</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>convenience</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8" refid="d9/d7f/class_modular_1_1_models_1_1_tag_1a74bc26cd8112b3975185ca7782e0c0a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d9/d7f/class_modular_1_1_models_1_1_tag_1a74bc26cd8112b3975185ca7782e0c0a3" kindref="member">TagFieldName</ref><sp/>=<sp/><ref refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1af74d0ba94522656fd2c247bd544e2094" kindref="member">ModelTag::SingleFieldName</ref>;</highlight></codeline>
-<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/>Modular\Fields\ModelTag;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="db/d0a/class_modular_1_1_model" kindref="compound">Modular\Model</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/>Modular\VersionedModel;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="d9/d7f/class_modular_1_1_models_1_1_tag" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d9/d7f/class_modular_1_1_models_1_1_tag" kindref="compound">Tag</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="db/d0a/class_modular_1_1_model" kindref="compound">Model</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>convenience</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="d9/d7f/class_modular_1_1_models_1_1_tag_1a74bc26cd8112b3975185ca7782e0c0a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d9/d7f/class_modular_1_1_models_1_1_tag_1a74bc26cd8112b3975185ca7782e0c0a3" kindref="member">TagFieldName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;ModelTag&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/mnt/storage/build/modular-all/develop/modular/code/models/Tag.php"/>
   </compounddef>

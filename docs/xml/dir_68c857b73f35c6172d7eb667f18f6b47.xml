@@ -2,9 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="dir_68c857b73f35c6172d7eb667f18f6b47" kind="dir">
     <compoundname>models</compoundname>
-    <innerfile refid="d8/d58/_grid_list_filter_8php">GridListFilter.php</innerfile>
-    <innerfile refid="d3/dca/models_2_internal_or_external_link_8php">models/InternalOrExternalLink.php</innerfile>
-    <innerfile refid="d2/d27/_slide_8php">Slide.php</innerfile>
+    <innerfile refid="d5/d94/_internal_or_external_link_8php">InternalOrExternalLink.php</innerfile>
     <innerfile refid="dd/dd2/_tag_8php">Tag.php</innerfile>
     <briefdescription>
     </briefdescription>

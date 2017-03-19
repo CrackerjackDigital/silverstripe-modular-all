@@ -6,6 +6,25 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para> <link linkend="d1/da3/class_modular_1_1_model_extension_1af758be52317607e28c2b633561d322f6">model</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0">writeAndReturn</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>static <link linkend="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc">class_name</link> (
 )</para>
                     </listitem>
@@ -17,15 +36,21 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para> <link linkend="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0">writeAndReturn</link> (
-)</para>
+                        <para>static <link linkend="d1/da3/class_modular_1_1_model_extension_1a55f8dabe1bcea5e6b483126eb80aee8c">remove_own_fields</link> (
+\FieldList $fields,  $removeDBFields,  $removeHasOneFields)</para>
                     </listitem>
                 </itemizedlist>
             </para>
         </simplesect>
-            <section xml:id="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc">
-                <title>static class_name ()</title> <emphasis></emphasis>
+            <section xml:id="d1/da3/class_modular_1_1_model_extension_1af758be52317607e28c2b633561d322f6">
+                <title>model ()</title> <emphasis></emphasis>
                 
+<para>Return the extended model. <formalpara><title>Returns: </title>
+
+<para>| </para>
+</formalpara>
+</para>
+
             </section>
             <section xml:id="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0">
                 <title>writeAndReturn ()</title> <emphasis></emphasis>
@@ -34,9 +59,66 @@
 
 <para><formalpara><title>Returns: </title>
 
-<para>Model|null </para>
+<para>|null </para>
+</formalpara>
+exception                            <row>
+                                <entry>\ValidationException</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc">
+                <title>static class_name ()</title> <emphasis></emphasis>
+                
+<para>Workaround for PHP which doesn&apos;t do static::class <formalpara><title>Returns: </title>
+
+<para>string </para>
 </formalpara>
 </para>
+
+            </section>
+            <section xml:id="d1/da3/class_modular_1_1_model_extension_1a55f8dabe1bcea5e6b483126eb80aee8c">
+                <title>static remove_own_fields (\FieldList $fields, $removeDBFields=true, $removeHasOneFields=true)</title> <emphasis></emphasis>
+                
+<para>Remove db, has_one etc fields from the field list which are defined in the extension, e.g. they may be replaced with a widget.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$fields</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$removeDBFields</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$removeHasOneFields</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
 
             </section>
 </section>

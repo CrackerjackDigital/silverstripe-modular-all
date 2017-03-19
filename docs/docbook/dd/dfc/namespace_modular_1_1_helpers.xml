@@ -13,6 +13,13 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>struct <link linkend="d6/d8e/class_modular_1_1_helpers_1_1_reflection">Modular::Helpers::Reflection</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>struct <link linkend="d6/d0c/class_modular_1_1_helpers_1_1_strings">Modular::Helpers::Strings</link></para>
                     </listitem>
                 </itemizedlist>

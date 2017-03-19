@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="db/d63/interface_modular_1_1_interfaces_1_1_has_parent">
+<title>Modular::Interfaces::HasParent interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="db/d63/interface_modular_1_1_interfaces_1_1_has_parent_1a3a3e9504d2fca15a6e23018e9f752174">Parent</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="db/d63/interface_modular_1_1_interfaces_1_1_has_parent_1a3a3e9504d2fca15a6e23018e9f752174">
+                <title>Parent ()</title> <emphasis></emphasis>
+                
+<para><formalpara><title>Returns: </title>
+
+<para>| </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

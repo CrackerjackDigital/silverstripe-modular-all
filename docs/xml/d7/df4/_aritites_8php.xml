@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/df4/_aritites_8php" kind="file">
+    <compoundname>Aritites.php</compoundname>
+    <innerclass refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities" prot="public">Modular::Interfaces::Arities</innerclass>
+    <innernamespace refid="d5/d56/namespace_modular_1_1_interfaces">Modular::Interfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Interfaces;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities" kindref="compound">Arities</ref><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>bit<sp/>field<sp/>bits<sp/>for<sp/>various<sp/>relationship<sp/>types,<sp/>for<sp/>HasOne<sp/>the<sp/>arity<sp/>is<sp/>1,<sp/>for<sp/>others<sp/>arity<sp/>!=<sp/>1<sp/>so</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>can<sp/>also<sp/>be<sp/>used<sp/>to<sp/>determine<sp/>the<sp/>arity<sp/>of<sp/>the<sp/>relationship<sp/>as<sp/>one<sp/>or<sp/>more<sp/>than<sp/>one.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1acd9ee15429075e0908d6895a4a74aa7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1acd9ee15429075e0908d6895a4a74aa7d" kindref="member">HasOne</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="8" refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1a7088d64537fcda81cde55394e5ec5dd6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1a7088d64537fcda81cde55394e5ec5dd6" kindref="member">HasMany</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="9" refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1aeab6b11b4811ea7ef4606cc92bfbd887" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1aeab6b11b4811ea7ef4606cc92bfbd887" kindref="member">ManyMany</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="10" refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1ac03c91a0f3217cfe37afe64b8c0518ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1ac03c91a0f3217cfe37afe64b8c0518ee" kindref="member">BelongsManyMany</ref><sp/>=<sp/>8;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1ab3cdf5bbd29f4c6f27236199bcc08456" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1ab3cdf5bbd29f4c6f27236199bcc08456" kindref="member">AllArities</ref><sp/>=<sp/>15;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Aritites.php"/>
+  </compounddef>
+</doxygen>

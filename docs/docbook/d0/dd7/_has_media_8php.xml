@@ -6,7 +6,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="df/d95/class_modular_1_1_grid_field_1_1_has_media_grid_field_config">Modular::GridField::HasMediaGridFieldConfig</link></para>
+                        <para>struct <link linkend="d4/dbd/class_modular_1_1_grid_field_1_1_configs_1_1_has_media_grid_field_config">Modular::GridField::Configs::HasMediaGridFieldConfig</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -16,7 +16,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d3/d7f/namespace_modular_1_1_grid_field">Modular::GridField</link></para>
+                        <para>struct <link linkend="de/dca/namespace_modular_1_1_grid_field_1_1_configs">Modular::GridField::Configs</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

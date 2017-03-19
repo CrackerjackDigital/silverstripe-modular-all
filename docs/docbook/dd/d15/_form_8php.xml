@@ -37,6 +37,13 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>struct <link linkend="df/de7/namespace_field_list">FieldList</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>struct <link linkend="da/d37/namespace_required_fields">RequiredFields</link></para>
                     </listitem>
                 </itemizedlist>
@@ -51,7 +58,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d0/de9/namespace_requirements">Requirements</link></para>
+                        <para>struct <link linkend="d0/dce/namespace_form_field">FormField</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

@@ -6,20 +6,6 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d3/d1b/behaviours_2_internal_or_external_link_8php">behaviours/InternalOrExternalLink.php</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>file <link linkend="dc/de2/_media_link_type_8php">MediaLinkType.php</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
                         <para>file <link linkend="db/db1/behaviours_2_previewable_8php">behaviours/Previewable.php</link></para>
                     </listitem>
                 </itemizedlist>

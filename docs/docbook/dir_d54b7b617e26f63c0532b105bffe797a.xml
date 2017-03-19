@@ -20,6 +20,13 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>file <link linkend="d8/df8/_reflection_8php">Reflection.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>file <link linkend="d7/dae/_strings_8php">Strings.php</link></para>
                     </listitem>
                 </itemizedlist>

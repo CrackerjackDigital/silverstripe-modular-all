@@ -4,6 +4,9 @@
     <compoundname>Controller.php</compoundname>
     <innerclass refid="d6/d68/class_modular_1_1_controller" prot="public">Modular::Controller</innerclass>
     <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <innernamespace refid="d0/db4/namespace_modular_1_1_interfaces_1_1_has_mode">Modular::Interfaces::HasMode</innernamespace>
+    <innernamespace refid="dc/da7/namespace_modular_1_1_traits_1_1mode">Modular::Traits::mode</innernamespace>
+    <innernamespace refid="d5/dae/namespacemode">mode</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -12,9 +15,17 @@
 <codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular;</highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4" refid="d6/d68/class_modular_1_1_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/d68/class_modular_1_1_controller" kindref="compound">Controller</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d6/d68/class_modular_1_1_controller" kindref="compound">\Controller</ref><sp/>{</highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode" kindref="compound">Modular\Interfaces\HasMode</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>Modular\Traits\debugging;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a56b07499c89a505cd5aa842bc2a1629b" kindref="member">Modular\Traits\mode</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="d6/d68/class_modular_1_1_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/d68/class_modular_1_1_controller" kindref="compound">Controller</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d6/d68/class_modular_1_1_controller" kindref="compound">\Controller</ref><sp/>implements<sp/><ref refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode" kindref="compound">HasMode</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a56b07499c89a505cd5aa842bc2a1629b" kindref="member">mode</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/>debugging;</highlight></codeline>
+<codeline lineno="15" refid="d6/d68/class_modular_1_1_controller_1a9aac7e1475efe923de4e19cc2511f092" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d6/d68/class_modular_1_1_controller_1a9aac7e1475efe923de4e19cc2511f092" kindref="member">__invoke</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/mnt/storage/build/modular-all/develop/modular/code/Controller.php"/>
   </compounddef>

@@ -12,6 +12,17 @@
                 </itemizedlist>
             </para>
         </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="da/d08/class_modular_1_1_object_1afe6cf403f39e693b46948bc6d57e83dc">class_name</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
             <section xml:id="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092">
                 <title>__invoke ()</title> <emphasis></emphasis>
                 
@@ -21,5 +32,9 @@
 </formalpara>
 </para>
 
+            </section>
+            <section xml:id="da/d08/class_modular_1_1_object_1afe6cf403f39e693b46948bc6d57e83dc">
+                <title>static class_name ()</title> <emphasis></emphasis>
+                
             </section>
 </section>

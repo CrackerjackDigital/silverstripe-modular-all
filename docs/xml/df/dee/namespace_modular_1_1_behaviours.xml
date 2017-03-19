@@ -2,13 +2,11 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="df/dee/namespace_modular_1_1_behaviours" kind="namespace">
     <compoundname>Modular::Behaviours</compoundname>
-    <innerclass refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link" prot="public">Modular::Behaviours::InternalOrExternalLink</innerclass>
-    <innerclass refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type" prot="public">Modular::Behaviours::MediaLinkType</innerclass>
     <innerclass refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable" prot="public">Modular::Behaviours::Previewable</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" line="2" column="1"/>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/Previewable.php" line="2" column="1"/>
   </compounddef>
 </doxygen>

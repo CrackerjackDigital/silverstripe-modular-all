@@ -4,7 +4,6 @@
     <compoundname>Modular::Extensions</compoundname>
     <innernamespace refid="d7/d6f/namespace_modular_1_1_extensions_1_1_controller">Modular::Extensions::Controller</innernamespace>
     <innernamespace refid="d5/dc5/namespace_modular_1_1_extensions_1_1_model">Modular::Extensions::Model</innernamespace>
-    <innernamespace refid="db/dd3/namespace_modular_1_1_extensions_1_1_views">Modular::Extensions::Views</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

@@ -17,12 +17,5 @@
                     </listitem>
                 </itemizedlist>
             </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>struct <link linkend="db/dd3/namespace_modular_1_1_extensions_1_1_views">Modular::Extensions::Views</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
         </simplesect>
 </section>

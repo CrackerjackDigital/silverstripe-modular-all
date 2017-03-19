@@ -2,13 +2,25 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="dir_d4a815bb83da929c2d3eb174f34e7513" kind="dir">
     <compoundname>interfaces</compoundname>
+    <innerfile refid="de/d40/_action_8php">Action.php</innerfile>
+    <innerfile refid="d7/df4/_aritites_8php">Aritites.php</innerfile>
+    <innerfile refid="de/d3a/interfaces_2_debugger_8php">interfaces/Debugger.php</innerfile>
     <innerfile refid="d0/dec/interfaces_2_exception_8php">interfaces/Exception.php</innerfile>
+    <innerfile refid="d6/dab/_field_8php">Field.php</innerfile>
     <innerfile refid="d8/d1e/_has_children_8php">HasChildren.php</innerfile>
     <innerfile refid="d2/d8b/interfaces_2_has_links_8php">interfaces/HasLinks.php</innerfile>
+    <innerfile refid="df/db7/_has_mode_8php">HasMode.php</innerfile>
+    <innerfile refid="db/dba/_has_parent_8php">HasParent.php</innerfile>
+    <innerfile refid="d1/d85/_h_t_t_p_8php">HTTP.php</innerfile>
     <innerfile refid="da/d7f/_imagery_8php">Imagery.php</innerfile>
     <innerfile refid="d2/dfd/_link_type_8php">LinkType.php</innerfile>
-    <innerfile refid="d6/d41/_logger_8php">Logger.php</innerfile>
+    <innerfile refid="dc/d96/interfaces_2_logger_8php">interfaces/Logger.php</innerfile>
+    <innerfile refid="de/dcf/_model_controller_8php">ModelController.php</innerfile>
     <innerfile refid="d7/de2/interfaces_2_previewable_8php">interfaces/Previewable.php</innerfile>
+    <innerfile refid="de/df0/_route_provider_8php">RouteProvider.php</innerfile>
+    <innerfile refid="de/d7d/_service_8php">Service.php</innerfile>
+    <innerfile refid="db/d54/_transcoder_8php">Transcoder.php</innerfile>
+    <innerfile refid="d2/d1b/_value_generator_8php">ValueGenerator.php</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

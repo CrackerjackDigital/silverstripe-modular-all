@@ -6,13 +6,6 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters">Modular::Admin::GridListFilters</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
                         <para>struct <link linkend="df/d5e/class_modular_1_1_admin_1_1_model_admin">Modular::Admin::ModelAdmin</link></para>
                     </listitem>
                 </itemizedlist>
@@ -27,7 +20,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="dc/da5/class_modular_1_1_admin_1_1_tag_admin">Modular::Admin::TagAdmin</link></para>
+                        <para>struct <link linkend="da/d28/class_modular_1_1_admin_1_1_tags_admin">Modular::Admin::TagsAdmin</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

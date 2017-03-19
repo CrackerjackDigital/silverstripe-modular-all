@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/d40/namespaceframework" kind="namespace">
+    <compoundname>framework</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Non-static based version of SS_Log allowing multiple different loggers to be instanced.</para><para>Wrapper class for a logging handler like <ref refid="" kindref="compound">Zend_Log</ref> which takes a message (or a map of context variables) and sends it to one or more <ref refid="" kindref="compound">Zend_Log_Writer_Abstract</ref> subclasses for output.</para><para>These priorities are currently supported:<itemizedlist>
+<listitem><para>SS_Log::ERR</para></listitem><listitem><para>SS_Log::WARN</para></listitem><listitem><para>SS_Log::NOTICE</para></listitem></itemizedlist>
+</para><para>You can add an error writer by calling <ref refid="" kindref="compound">SS_Log::add_writer()</ref></para><para>Example usage of logging errors by email notification: <computeroutput> SS_Log::add_writer(new SS_LogEmailWriter(&apos;<ulink url="mailto:my@email.com">my@email.com</ulink>&apos;), SS_Log::ERR); </computeroutput></para><para>Example usage of logging errors by file: <computeroutput> SS_Log::add_writer(new SS_LogFileWriter(&apos;/var/log/silverstripe/errors.log&apos;), SS_Log::ERR); </computeroutput></para><para>Example usage of logging at warnings and errors by setting the priority to &apos;&lt;=&apos;: <computeroutput> SS_Log::add_writer(new SS_LogEmailWriter(&apos;<ulink url="mailto:my@email.com">my@email.com</ulink>&apos;), SS_Log::WARN, &apos;&lt;=&apos;); </computeroutput></para><para>Each writer object can be assigned a formatter. The formatter is responsible for formatting the message before giving it to the writer. <ref refid="" kindref="compound">SS_LogErrorEmailFormatter</ref> is such an example that formats errors into HTML for human readability in an email client.</para><para>Formatters are added to writers like this: <computeroutput> $logEmailWriter = new SS_LogEmailWriter(&apos;<ulink url="mailto:my@email.com">my@email.com</ulink>&apos;); $myEmailFormatter = new MyLogEmailFormatter(); $logEmailWriter-&gt;setFormatter($myEmailFormatter); </computeroutput></para><para>dev </para>    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="46" column="1"/>
+  </compounddef>
+</doxygen>

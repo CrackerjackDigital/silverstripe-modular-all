@@ -73,18 +73,18 @@
 <para>Fix an issue where a DataTimeField with an empty time fails to save<programlisting><codeline><highlight class="normal">DateTimeField::179<sp/></highlight></codeline>
 </programlisting> as the date is a string so sprintf fails </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="1496">
+      <node id="295">
         <label>TimeField</label>
         <link refid="d2/d5d/class_modular_1_1_forms_1_1_time_field"/>
-        <childnode refid="1496" relation="public-inheritance">
+        <childnode refid="295" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1497">
+      <node id="296">
         <label>TimeField</label>
         <link refid="d2/d5d/class_modular_1_1_forms_1_1_time_field"/>
-        <childnode refid="1497" relation="public-inheritance">
+        <childnode refid="296" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

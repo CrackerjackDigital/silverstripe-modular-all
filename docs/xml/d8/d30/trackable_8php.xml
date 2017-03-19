@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/d30/trackable_8php" kind="file">
+    <compoundname>trackable.php</compoundname>
+    <innernamespace refid="d1/dbf/namespace_modular_1_1_traits">Modular::Traits</innernamespace>
+    <innernamespace refid="df/d5a/namespace_modular_1_1_interfaces_1_1_debugger">Modular::Interfaces::Debugger</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Traits;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger" kindref="compound">Modular\Interfaces\Debugger</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="d1/dbf/namespace_modular_1_1_traits_1a6c855b864666cba1d23cb06f4d0d89f6" refkind="member"><highlight class="normal">trait<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a6c855b864666cba1d23cb06f4d0d89f6" kindref="member">trackable</ref><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>debugger($level<sp/>=<sp/><ref refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1af10880406222e821633e7555be7b2dfe" kindref="member">Debugger::LevelFromEnv</ref>,<sp/>$source<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="d1/dbf/namespace_modular_1_1_traits_1a845f12a7bb19c2988df902c9fe2c04fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a845f12a7bb19c2988df902c9fe2c04fe" kindref="member">trackable_start</ref>($what,<sp/>$message<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$className<sp/>=<sp/>get_called_class();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$signature<sp/>=<sp/>md5(microtime());</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;debugger()-&gt;source(</highlight><highlight class="stringliteral">&quot;$className:$what@$signature&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;debugger()-&gt;info(</highlight><highlight class="stringliteral">&quot;Starting<sp/>with<sp/>message<sp/>&apos;$message&apos;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24" refid="d1/dbf/namespace_modular_1_1_traits_1a522a85960e3adecd028646743e39b4bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a522a85960e3adecd028646743e39b4bd" kindref="member">trackable_end</ref>($result<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;debugger()-&gt;info(</highlight><highlight class="stringliteral">&quot;Ending&quot;</highlight><highlight class="normal"><sp/>.<sp/>($result<sp/>?<sp/>(</highlight><highlight class="stringliteral">&quot;<sp/>with<sp/>result<sp/>&apos;&quot;</highlight><highlight class="normal"><sp/>.<sp/>print_r($result,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">))<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&apos;&quot;</highlight><highlight class="normal"><sp/>:<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/trackable.php"/>
+  </compounddef>
+</doxygen>

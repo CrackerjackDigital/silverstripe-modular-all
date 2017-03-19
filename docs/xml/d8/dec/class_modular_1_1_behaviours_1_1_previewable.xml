@@ -76,36 +76,36 @@
     <detaileddescription>
 <para>Adds preview pane to CMS for extended <ref refid="d0/da1/namespace_modular_1_1_models" kindref="compound">Models</ref>.</para><para>Standing on the shoulders of Jotham Reid here <ulink url="https://github.com/jotham/silverstripe-dataobject-preview">https://github.com/jotham/silverstripe-dataobject-preview</ulink> just tweaked to fit the <ref refid="df/df5/namespace_modular" kindref="compound">Modular</ref> code and data model. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="1331">
+      <node id="226">
         <label>ModelExtension</label>
         <link refid="d1/da3/class_modular_1_1_model_extension"/>
-        <childnode refid="1332" relation="public-inheritance">
+        <childnode refid="227" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1332">
+      <node id="227">
         <label>DataExtension</label>
       </node>
-      <node id="1330">
+      <node id="225">
         <label>Previewable</label>
         <link refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable"/>
-        <childnode refid="1331" relation="public-inheritance">
+        <childnode refid="226" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1334">
+      <node id="229">
         <label>ModelExtension</label>
         <link refid="d1/da3/class_modular_1_1_model_extension"/>
-        <childnode refid="1335" relation="public-inheritance">
+        <childnode refid="230" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1335">
+      <node id="230">
         <label>DataExtension</label>
       </node>
-      <node id="1333">
+      <node id="228">
         <label>Previewable</label>
         <link refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable"/>
-        <childnode refid="1334" relation="public-inheritance">
+        <childnode refid="229" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
@@ -113,6 +113,8 @@
     <listofallmembers>
       <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Behaviours::Previewable</scope><name>class_name</name></member>
       <member refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable_1a3ab7c9f158b1d8fc5c3d68f95223e5c7" prot="private" virt="non-virtual"><scope>Modular::Behaviours::Previewable</scope><name>injectNavigatorAndPreview</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1af758be52317607e28c2b633561d322f6" prot="public" virt="non-virtual"><scope>Modular::Behaviours::Previewable</scope><name>model</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1a55f8dabe1bcea5e6b483126eb80aee8c" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::Previewable</scope><name>remove_own_fields</name></member>
       <member refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable_1a9bf9dc156bf9f1d8941da3818fd13aad" prot="public" virt="non-virtual"><scope>Modular::Behaviours::Previewable</scope><name>updateItemEditForm</name></member>
       <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Behaviours::Previewable</scope><name>writeAndReturn</name></member>
     </listofallmembers>

@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d5/d67/class_modular_1_1_task" kind="class" prot="public">
+    <compoundname>Modular::Task</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BuildTask</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d5/d67/class_modular_1_1_task_1a815e6a483eb1517af56a72652ad7ce0a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const EnablerConfigVar</definition>
+        <argsstring></argsstring>
+        <name>EnablerConfigVar</name>
+        <initializer>= &apos;task_enabled&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Task.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Task.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d5/d67/class_modular_1_1_task_1a80a2d2d313a78feb12d99197e00ffe55" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$task_enabled</definition>
+        <argsstring></argsstring>
+        <name>$task_enabled</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Task.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Task.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d67/class_modular_1_1_task_1a11ad438614e6dea15f7269966441e7d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>execute</definition>
+        <argsstring>($request)</argsstring>
+        <name>execute</name>
+        <param>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Task.php" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d67/class_modular_1_1_task_1a6bc3868b431e57182b122dec4df74e11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>canRun</definition>
+        <argsstring>()</argsstring>
+        <name>canRun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="d5/d67/class_modular_1_1_task" kindref="compound">Task</ref> can run if enabled and either is_cli or logged in as ADMIN. <simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Task.php" line="23" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Task.php" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d67/class_modular_1_1_task_1a994a574f881a427481b08e57f704e028" prot="public" static="no" const="no" explicit="no" inline="no" final="yes" virt="non-virtual">
+        <type></type>
+        <definition>run</definition>
+        <argsstring>($request)</argsstring>
+        <name>run</name>
+        <param>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Task.php" line="27" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Task.php" bodystart="27" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="292">
+        <label>BuildTask</label>
+      </node>
+      <node id="291">
+        <label>Task</label>
+        <link refid="d5/d67/class_modular_1_1_task"/>
+        <childnode refid="292" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="294">
+        <label>BuildTask</label>
+      </node>
+      <node id="293">
+        <label>Task</label>
+        <link refid="d5/d67/class_modular_1_1_task"/>
+        <childnode refid="294" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/Task.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Task.php" bodystart="8" bodyend="48"/>
+    <listofallmembers>
+      <member refid="d5/d67/class_modular_1_1_task_1a80a2d2d313a78feb12d99197e00ffe55" prot="private" virt="non-virtual"><scope>Modular::Task</scope><name>$task_enabled</name></member>
+      <member refid="d5/d67/class_modular_1_1_task_1a6bc3868b431e57182b122dec4df74e11" prot="public" virt="non-virtual"><scope>Modular::Task</scope><name>canRun</name></member>
+      <member refid="d5/d67/class_modular_1_1_task_1a815e6a483eb1517af56a72652ad7ce0a" prot="public" virt="non-virtual"><scope>Modular::Task</scope><name>EnablerConfigVar</name></member>
+      <member refid="d5/d67/class_modular_1_1_task_1a11ad438614e6dea15f7269966441e7d6" prot="public" virt="non-virtual"><scope>Modular::Task</scope><name>execute</name></member>
+      <member refid="d5/d67/class_modular_1_1_task_1a994a574f881a427481b08e57f704e028" prot="public" virt="non-virtual"><scope>Modular::Task</scope><name>run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

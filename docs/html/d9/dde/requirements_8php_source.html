@@ -106,38 +106,67 @@ $(document).ready(function(){initNavTree('d9/dde/requirements_8php_source.html',
 </div><!--header-->
 <div class="contents">
 <a href="../../d9/dde/requirements_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">namespace </span>Modular;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">namespace </span>Modular\Traits;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;use Quaff\Module;</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;use \Requirements as Requirement;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;trait requirements {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> requirements($modulePath, $beforeOrAfterInit = <a class="code" href="../../d6/d4d/class_modular_1_1_module.html#a1ad91e97e7d3c144ca6048a6c1fa7b16">Module::BothInit</a>) {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        $requirements = static::config()-&gt;get(<span class="stringliteral">&#39;requirements&#39;</span>);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">if</span> (isset($requirements[ $beforeOrAfterInit ])) {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            $requirements = $requirements[ $beforeOrAfterInit ];</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        }</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">foreach</span> ($requirements as $requirement) {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordflow">if</span> (substr($requirement, -3) == <span class="stringliteral">&#39;.js&#39;</span>) {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                <span class="keywordflow">if</span> (substr($requirement, 0, 1) == <span class="charliteral">&#39;/&#39;</span>) {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                    Requirement::javascript(substr($requirement, 1));</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                    Requirement::javascript(\Controller::join_links($modulePath, $requirement));</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                }</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                <span class="keywordflow">if</span> (substr($requirement, 0, 1) == <span class="charliteral">&#39;/&#39;</span>) {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                    Requirement::css(substr($requirement, 1));</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                    Requirement::css(\Controller::join_links($modulePath, $requirement));</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                }</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            }</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        }</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
-<div class="ttc" id="class_modular_1_1_module_html_a1ad91e97e7d3c144ca6048a6c1fa7b16"><div class="ttname"><a href="../../d6/d4d/class_modular_1_1_module.html#a1ad91e97e7d3c144ca6048a6c1fa7b16">Modular\Module\BothInit</a></div><div class="ttdeci">const BothInit</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9b/_module_8php_source.html#l00020">Module.php:20</a></div></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;use \Requirements as Requirement;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;use \Modular\Application;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;use \Modular\Module;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;trait requirements {</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> requirements($beforeOrAfterInit = Module::BothInit, $modulePath = <span class="stringliteral">&#39;&#39;</span>) {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        $ancestry = array_slice(\ClassInfo::ancestry(get_class()), 0, -1);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">foreach</span> ($ancestry as $className) {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="keywordflow">if</span> (is_a($className, <span class="stringliteral">&#39;Modular\Module&#39;</span>, <span class="keyword">true</span>)) {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                $this-&gt;addRequirements($beforeOrAfterInit, $className);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="comment">// finish off ourselves with possibly custom module path</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        $this-&gt;addRequirements($beforeOrAfterInit, get_class($this), $modulePath);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> addRequirements($beforeOrAfterInit, $className, $modulePath = <span class="stringliteral">&#39;&#39;</span>) {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="comment">// we want the config for the actual class instance we are in as we will be doing Config::UNINHERITED</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="comment">// to read from that level first.</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">if</span> ($requirements = array_filter(\Config::inst()-&gt;<span class="keyword">get</span>($className, <span class="stringliteral">&#39;requirements&#39;</span>, \Config::UNINHERITED) ?: [])) {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            $config = \Config::inst()-&gt;forClass($className);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            $modulePath = $modulePath</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                ?: $config-&gt;get(<span class="stringliteral">&#39;module_path&#39;</span>, \Config::UNINHERITED)</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                    ?: \SSViewer::get_theme_folder();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">if</span> (isset($requirements[ $beforeOrAfterInit ])) {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                <span class="comment">// exclude any requirements which have been set to &#39;false&#39; in config</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                $requirements = array_filter($requirements[ $beforeOrAfterInit ]);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="keywordflow">foreach</span> ($requirements as $requirement =&gt; $info) {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                <span class="comment">// atm info is just a boolean so parent requirements can be turned off in config</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                <span class="keywordflow">if</span> ($info) {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                    <span class="keywordflow">if</span> (substr($requirement, 0, 1) != <span class="charliteral">&#39;/&#39;</span>) {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                        <span class="comment">// prepend module path as not &#39;absolute&#39; path (relative to web root)</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                        $requirement = \Controller::join_links($modulePath, $requirement);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                    }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                    $this-&gt;requireFile($requirement);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">return</span> $this;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keyword">private</span> <span class="keyword">function</span> requireFile($requirement) {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">if</span> ($requirement = trim($requirement, DIRECTORY_SEPARATOR)) {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="keywordflow">if</span> (substr($requirement, -3) == <span class="stringliteral">&#39;.js&#39;</span>) {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                Requirement::javascript($requirement);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                Requirement::css($requirement);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">return</span> $requirement;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

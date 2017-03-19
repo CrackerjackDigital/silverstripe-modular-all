@@ -8,24 +8,24 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1371">
+      <node id="250">
         <label>ArrayList</label>
       </node>
-      <node id="1370">
+      <node id="249">
         <label>RoundRobinMultipleArrayList</label>
         <link refid="d1/d48/class_modular_1_1_collections_1_1_round_robin_multiple_array_list"/>
-        <childnode refid="1371" relation="public-inheritance">
+        <childnode refid="250" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1373">
+      <node id="252">
         <label>ArrayList</label>
       </node>
-      <node id="1372">
+      <node id="251">
         <label>RoundRobinMultipleArrayList</label>
         <link refid="d1/d48/class_modular_1_1_collections_1_1_round_robin_multiple_array_list"/>
-        <childnode refid="1373" relation="public-inheritance">
+        <childnode refid="252" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

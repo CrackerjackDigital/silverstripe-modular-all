@@ -1,0 +1,766 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger" kind="interface" prot="public">
+    <compoundname>Modular::Interfaces::Debugger</compoundname>
+    <derivedcompoundref refid="db/d33/class_modular_1_1_debugger" prot="public" virt="non-virtual">Debugger</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1affc196eeb7a80dae2902ebe43e40675c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugNone</definition>
+        <argsstring></argsstring>
+        <name>DebugNone</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a4397b3f1fb99836f926bd985da48194b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugErr</definition>
+        <argsstring></argsstring>
+        <name>DebugErr</name>
+        <initializer>= SS_Log::ERR</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a1b3b0cff513ae16f270448822e43dff1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugWarn</definition>
+        <argsstring></argsstring>
+        <name>DebugWarn</name>
+        <initializer>= SS_Log::WARN</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a5a23cfe3c1d8701f0c2391711d3bb4f0" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugNotice</definition>
+        <argsstring></argsstring>
+        <name>DebugNotice</name>
+        <initializer>= SS_Log::NOTICE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1ae9c1ce11664bb0461667bd0e280d1186" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugInfo</definition>
+        <argsstring></argsstring>
+        <name>DebugInfo</name>
+        <initializer>= SS_Log::INFO</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a86541e41b34fcb2c27829a50f3d3b85a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugTrace</definition>
+        <argsstring></argsstring>
+        <name>DebugTrace</name>
+        <initializer>= SS_Log::DEBUG</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a47dd5d427d8e5bab33b77b7a6837080b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugAll</definition>
+        <argsstring></argsstring>
+        <name>DebugAll</name>
+        <initializer>= self::DebugTrace</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a81db53dd2fdb63495e97cff591678d9a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugOff</definition>
+        <argsstring></argsstring>
+        <name>DebugOff</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1af6e7d3dba00bd35fc30056d1d8142633" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugFile</definition>
+        <argsstring></argsstring>
+        <name>DebugFile</name>
+        <initializer>= 32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="20" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1aa43fcbf5d5b478ba952693dd85fe9cdf" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugScreen</definition>
+        <argsstring></argsstring>
+        <name>DebugScreen</name>
+        <initializer>= 64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="21" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a745fd45cbe1ccf0e97e45378237c2b6a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugEmail</definition>
+        <argsstring></argsstring>
+        <name>DebugEmail</name>
+        <initializer>= 128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="22" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a53fb19b1e2bf1a0bb9cd6f04755d545e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugTruncate</definition>
+        <argsstring></argsstring>
+        <name>DebugTruncate</name>
+        <initializer>= 256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="23" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1ad60e84709a84c1e4bd3645e84cd08481" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugShared</definition>
+        <argsstring></argsstring>
+        <name>DebugShared</name>
+        <initializer>= 4096</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="24" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a96d48b29fdd3333ec611baba449686e0" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugEnvDev</definition>
+        <argsstring></argsstring>
+        <name>DebugEnvDev</name>
+        <initializer>= 39</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="26" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a965a424ff86ba76d0b1642f734250713" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugEnvTest</definition>
+        <argsstring></argsstring>
+        <name>DebugEnvTest</name>
+        <initializer>= 165</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="27" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a1ae99803152b3af03b6d26c6f1e56b87" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DebugEnvLive</definition>
+        <argsstring></argsstring>
+        <name>DebugEnvLive</name>
+        <initializer>= 164</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="28" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1af10880406222e821633e7555be7b2dfe" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const LevelFromEnv</definition>
+        <argsstring></argsstring>
+        <name>LevelFromEnv</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="30" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a8f46cda9e1099b0e1025fd88d1103d0f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static debugger</definition>
+        <argsstring>($level=self::LevelFromEnv, $prefix= &apos;&apos;)</argsstring>
+        <name>debugger</name>
+        <reimplementedby refid="db/d33/class_modular_1_1_debugger_1a8d120aabcf6319f6f8e5ca0e8719e054">debugger</reimplementedby>
+        <param>
+          <declname>$level</declname>
+          <defval>self::LevelFromEnv</defval>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="32" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1af88c3370a1b278fdb2639e1bbdd207be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>level</definition>
+        <argsstring>($level=null)</argsstring>
+        <name>level</name>
+        <reimplementedby refid="db/d33/class_modular_1_1_debugger_1a8bc2bb1108ccc1988d639b3756a052d1">level</reimplementedby>
+        <param>
+          <declname>$level</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>int|null</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new level or get </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$this|int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1aa90e16c1f1c0137b8d8c61391c25f426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>formatMessage</definition>
+        <argsstring>($message, $severity, $source= &apos;&apos;)</argsstring>
+        <name>formatMessage</name>
+        <reimplementedby refid="db/d33/class_modular_1_1_debugger_1aa90e16c1f1c0137b8d8c61391c25f426">formatMessage</reimplementedby>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <declname>$severity</declname>
+        </param>
+        <param>
+          <declname>$source</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns provided parameters in a common format, used by all the debug methods log, info, trace etc</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$severity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a053a54bed3aafbacf775bd921a9add4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>log</definition>
+        <argsstring>($message, $facilities, $source= &apos;&apos;)</argsstring>
+        <name>log</name>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <declname>$facilities</declname>
+        </param>
+        <param>
+          <declname>$source</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a731656b5cdba0710fc494dea9c41af87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>info</definition>
+        <argsstring>($message, $source= &apos;&apos;)</argsstring>
+        <name>info</name>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <declname>$source</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a637ec200268d08eace48d05825418195" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>trace</definition>
+        <argsstring>($message, $source= &apos;&apos;)</argsstring>
+        <name>trace</name>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <declname>$source</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a996aaade54f01c5ff6ae1eecb9042ea8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>notice</definition>
+        <argsstring>($message, $source= &apos;&apos;)</argsstring>
+        <name>notice</name>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <declname>$source</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1ad23128ddfac600c09006227e4228c9d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>warn</definition>
+        <argsstring>($message, $source= &apos;&apos;)</argsstring>
+        <name>warn</name>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <declname>$source</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1ad6cad5853514ae68cc77d5b0d837fddb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>error</definition>
+        <argsstring>($message, $source= &apos;&apos;)</argsstring>
+        <name>error</name>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <declname>$source</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1aeea6a0da6ced8bddacd55e5edb824e61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fail</definition>
+        <argsstring>($message, $source= &apos;&apos;)</argsstring>
+        <name>fail</name>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <declname>$source</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>Debug</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a8a3003d690876d40184b647660331b71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>toScreen</definition>
+        <argsstring>($level)</argsstring>
+        <name>toScreen</name>
+        <reimplementedby refid="db/d33/class_modular_1_1_debugger_1ad32fcabe052a58d5666ac508d1ab3b0e">toScreen</reimplementedby>
+        <param>
+          <declname>$level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="103" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1af4a7bf1e7c7743e4ccf42ba8eed1bbbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>toEmail</definition>
+        <argsstring>($level, $emailAddress)</argsstring>
+        <name>toEmail</name>
+        <reimplementedby refid="db/d33/class_modular_1_1_debugger_1a72bf2099966aed040ccefd8f0b75490c">toEmail</reimplementedby>
+        <param>
+          <declname>$level</declname>
+        </param>
+        <param>
+          <declname>$emailAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$emailAddress</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="110" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1adfa57d169a08e391f033b042a9bc3c77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>toFile</definition>
+        <argsstring>($level, $filePathName= &apos;&apos;)</argsstring>
+        <name>toFile</name>
+        <reimplementedby refid="db/d33/class_modular_1_1_debugger_1adfa57d169a08e391f033b042a9bc3c77">toFile</reimplementedby>
+        <param>
+          <declname>$level</declname>
+        </param>
+        <param>
+          <declname>$filePathName</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$filePathName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to log events to if not provided one will be generated </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="117" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="59">
+        <label>Debugger</label>
+        <link refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Debugger.php" bodystart="7" bodyend="119"/>
+    <listofallmembers>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a47dd5d427d8e5bab33b77b7a6837080b" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugAll</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a745fd45cbe1ccf0e97e45378237c2b6a" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugEmail</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a96d48b29fdd3333ec611baba449686e0" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugEnvDev</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a1ae99803152b3af03b6d26c6f1e56b87" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugEnvLive</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a965a424ff86ba76d0b1642f734250713" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugEnvTest</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a4397b3f1fb99836f926bd985da48194b" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugErr</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1af6e7d3dba00bd35fc30056d1d8142633" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugFile</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a8f46cda9e1099b0e1025fd88d1103d0f" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>debugger</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1ae9c1ce11664bb0461667bd0e280d1186" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugInfo</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1affc196eeb7a80dae2902ebe43e40675c" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugNone</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a5a23cfe3c1d8701f0c2391711d3bb4f0" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugNotice</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a81db53dd2fdb63495e97cff591678d9a" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugOff</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1aa43fcbf5d5b478ba952693dd85fe9cdf" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugScreen</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1ad60e84709a84c1e4bd3645e84cd08481" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugShared</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a86541e41b34fcb2c27829a50f3d3b85a" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugTrace</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a53fb19b1e2bf1a0bb9cd6f04755d545e" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugTruncate</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a1b3b0cff513ae16f270448822e43dff1" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>DebugWarn</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1ad6cad5853514ae68cc77d5b0d837fddb" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>error</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1aeea6a0da6ced8bddacd55e5edb824e61" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>fail</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1aa90e16c1f1c0137b8d8c61391c25f426" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>formatMessage</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a731656b5cdba0710fc494dea9c41af87" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>info</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1af88c3370a1b278fdb2639e1bbdd207be" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>level</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1af10880406222e821633e7555be7b2dfe" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>LevelFromEnv</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a053a54bed3aafbacf775bd921a9add4d" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>log</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a996aaade54f01c5ff6ae1eecb9042ea8" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>notice</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1af4a7bf1e7c7743e4ccf42ba8eed1bbbd" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>toEmail</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1adfa57d169a08e391f033b042a9bc3c77" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>toFile</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a8a3003d690876d40184b647660331b71" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>toScreen</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1a637ec200268d08eace48d05825418195" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>trace</name></member>
+      <member refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1ad23128ddfac600c09006227e4228c9d2" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Debugger</scope><name>warn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

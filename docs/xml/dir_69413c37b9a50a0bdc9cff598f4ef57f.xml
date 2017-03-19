@@ -3,11 +3,11 @@
   <compounddef id="dir_69413c37b9a50a0bdc9cff598f4ef57f" kind="dir">
     <compoundname>configs</compoundname>
     <innerfile refid="de/d20/_grid_field_config_8php">GridFieldConfig.php</innerfile>
-    <innerfile refid="d5/d71/gridfield_2configs_2_has_blocks_8php">gridfield/configs/HasBlocks.php</innerfile>
-    <innerfile refid="d3/def/gridfield_2configs_2_has_grid_list_blocks_8php">gridfield/configs/HasGridListBlocks.php</innerfile>
+    <innerfile refid="d4/d10/_has_blocks_8php">HasBlocks.php</innerfile>
+    <innerfile refid="d5/d61/_has_grid_list_blocks_8php">HasGridListBlocks.php</innerfile>
     <innerfile refid="d6/df9/gridfield_2configs_2_has_links_8php">gridfield/configs/HasLinks.php</innerfile>
-    <innerfile refid="d7/d8b/gridfield_2configs_2_has_many_8php">gridfield/configs/HasMany.php</innerfile>
-    <innerfile refid="d8/d65/gridfield_2configs_2_has_many_many_8php">gridfield/configs/HasManyMany.php</innerfile>
+    <innerfile refid="df/d1e/_has_many_8php">HasMany.php</innerfile>
+    <innerfile refid="d2/d52/_has_many_many_8php">HasManyMany.php</innerfile>
     <innerfile refid="d0/dd7/_has_media_8php">HasMedia.php</innerfile>
     <briefdescription>
     </briefdescription>

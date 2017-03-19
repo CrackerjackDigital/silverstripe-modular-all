@@ -3,35 +3,74 @@
   <compounddef id="d6/d68/class_modular_1_1_controller" kind="class" prot="public">
     <compoundname>Modular::Controller</compoundname>
     <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+    <basecompoundref refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode" prot="public" virt="non-virtual">HasMode</basecompoundref>
     <derivedcompoundref refid="d3/da3/class_modular_1_1_admin_1_1_publisher" prot="public" virt="non-virtual">Publisher</derivedcompoundref>
+    <derivedcompoundref refid="d5/dfc/class_modular_1_1_controllers_1_1_model" prot="public" virt="non-virtual">Model</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d68/class_modular_1_1_controller_1a9aac7e1475efe923de4e19cc2511f092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__invoke</definition>
+        <argsstring>()</argsstring>
+        <name>__invoke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoking a controller returns the controller itself. <simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Controller.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Controller.php" bodystart="15" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="227">
+      <node id="42">
+        <label>HasMode</label>
+        <link refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode"/>
+      </node>
+      <node id="41">
         <label>Controller</label>
         <link refid="d6/d68/class_modular_1_1_controller"/>
-        <childnode refid="227" relation="public-inheritance">
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+        <childnode refid="42" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="228">
+      <node id="43">
         <label>Publisher</label>
         <link refid="d3/da3/class_modular_1_1_admin_1_1_publisher"/>
-        <childnode refid="227" relation="public-inheritance">
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>Model</label>
+        <link refid="d5/dfc/class_modular_1_1_controllers_1_1_model"/>
+        <childnode refid="41" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="229">
+      <node id="46">
+        <label>HasMode</label>
+        <link refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode"/>
+      </node>
+      <node id="45">
         <label>Controller</label>
         <link refid="d6/d68/class_modular_1_1_controller"/>
-        <childnode refid="229" relation="public-inheritance">
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+        <childnode refid="46" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/mnt/storage/build/modular-all/develop/modular/code/Controller.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Controller.php" bodystart="4" bodyend="6"/>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/Controller.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Controller.php" bodystart="8" bodyend="18"/>
     <listofallmembers>
+      <member refid="d6/d68/class_modular_1_1_controller_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Controller</scope><name>__invoke</name></member>
+      <member refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1a984342ee7cd006dfd2847e636bae60f4" prot="public" virt="non-virtual"><scope>Modular::Controller</scope><name>DefaultMode</name></member>
+      <member refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1ab97d3bd978f98490101928ee4321131f" prot="public" virt="non-virtual"><scope>Modular::Controller</scope><name>mode</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

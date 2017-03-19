@@ -4,6 +4,7 @@
     <compoundname>RoundRobinMultipleArrayList.php</compoundname>
     <innerclass refid="d1/d48/class_modular_1_1_collections_1_1_round_robin_multiple_array_list" prot="public">Modular::Collections::RoundRobinMultipleArrayList</innerclass>
     <innernamespace refid="dd/d29/namespace_modular_1_1_collections">Modular::Collections</innernamespace>
+    <innernamespace refid="d1/dce/namespace_array_list">ArrayList</innernamespace>
     <innernamespace refid="dc/d5d/namespace_multiple_iterator">MultipleIterator</innernamespace>
     <innernamespace refid="de/da5/namespace_data_list">DataList</innernamespace>
     <innernamespace refid="d4/dc2/namespace_s_s___list">SS_List</innernamespace>

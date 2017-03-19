@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_88ccabdc5a3c38e1c23c02d169c63651" kind="dir">
+    <compoundname>controllers</compoundname>
+    <innerfile refid="d2/df6/controllers_2_model_8php">controllers/Model.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/controllers/"/>
+  </compounddef>
+</doxygen>

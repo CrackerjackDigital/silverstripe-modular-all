@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d1/dde/class_modular_1_1_grid_field_1_1_has_grid_list_blocks_grid_field_config" kind="class" prot="public">
     <compoundname>Modular::GridField::HasGridListBlocksGridFieldConfig</compoundname>
-    <basecompoundref refid="d8/df1/class_modular_1_1_grid_field_1_1_has_many_many_grid_field_config" prot="public" virt="non-virtual">HasManyManyGridFieldConfig</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">HasManyManyGridFieldConfig</basecompoundref>
       <sectiondef kind="private-static-attrib">
       <memberdef kind="variable" id="d1/dde/class_modular_1_1_grid_field_1_1_has_grid_list_blocks_grid_field_config_1ad2f4ac002970371a69bde51db4113755" prot="private" static="yes" mutable="no">
         <type>static</type>
@@ -40,48 +40,24 @@
     <detaileddescription>
 <para>Alters the config to be suitable for adding/removing manually managed (curated) blocks on a gridfield. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="711">
+      <node id="105">
         <label>HasManyManyGridFieldConfig</label>
-        <link refid="d8/df1/class_modular_1_1_grid_field_1_1_has_many_many_grid_field_config"/>
-        <childnode refid="712" relation="public-inheritance">
-        </childnode>
       </node>
-      <node id="713">
-        <label>GridFieldConfig_RelationEditor</label>
-      </node>
-      <node id="712">
-        <label>GridFieldConfig</label>
-        <link refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config"/>
-        <childnode refid="713" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="710">
+      <node id="104">
         <label>HasGridListBlocksGridFieldConfig</label>
         <link refid="d1/dde/class_modular_1_1_grid_field_1_1_has_grid_list_blocks_grid_field_config"/>
-        <childnode refid="711" relation="public-inheritance">
+        <childnode refid="105" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="715">
+      <node id="107">
         <label>HasManyManyGridFieldConfig</label>
-        <link refid="d8/df1/class_modular_1_1_grid_field_1_1_has_many_many_grid_field_config"/>
-        <childnode refid="716" relation="public-inheritance">
-        </childnode>
       </node>
-      <node id="717">
-        <label>GridFieldConfig_RelationEditor</label>
-      </node>
-      <node id="716">
-        <label>GridFieldConfig</label>
-        <link refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config"/>
-        <childnode refid="717" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="714">
+      <node id="106">
         <label>HasGridListBlocksGridFieldConfig</label>
         <link refid="d1/dde/class_modular_1_1_grid_field_1_1_has_grid_list_blocks_grid_field_config"/>
-        <childnode refid="715" relation="public-inheritance">
+        <childnode refid="107" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
@@ -89,15 +65,6 @@
     <listofallmembers>
       <member refid="d1/dde/class_modular_1_1_grid_field_1_1_has_grid_list_blocks_grid_field_config_1ad2f4ac002970371a69bde51db4113755" prot="private" virt="non-virtual"><scope>Modular::GridField::HasGridListBlocksGridFieldConfig</scope><name>$add_new_multi_class</name></member>
       <member refid="d1/dde/class_modular_1_1_grid_field_1_1_has_grid_list_blocks_grid_field_config_1ac3b0b3c0f770dd2d73390db5a1ef1611" prot="private" virt="non-virtual"><scope>Modular::GridField::HasGridListBlocksGridFieldConfig</scope><name>$exclude_related_classes</name></member>
-      <member refid="d8/df1/class_modular_1_1_grid_field_1_1_has_many_many_grid_field_config_1a305f7b18dce920304db64818988c9ab9" prot="public" virt="non-virtual"><scope>Modular::GridField::HasGridListBlocksGridFieldConfig</scope><name>__construct</name></member>
-      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::GridField::HasGridListBlocksGridFieldConfig</scope><name>__invoke</name></member>
-      <member refid="d8/df1/class_modular_1_1_grid_field_1_1_has_many_many_grid_field_config_1aedd5fec065b871d6d599002f1ef65791" prot="public" virt="non-virtual"><scope>Modular::GridField::HasGridListBlocksGridFieldConfig</scope><name>allowed_related_classes</name></member>
-      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a77eb7482781c6152ac0a85593bf8f2b8" prot="public" virt="non-virtual"><scope>Modular::GridField::HasGridListBlocksGridFieldConfig</scope><name>base</name></member>
-      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a70e4c2270db10b8cb380ce6035357da1" prot="public" virt="non-virtual"><scope>Modular::GridField::HasGridListBlocksGridFieldConfig</scope><name>ComponentAddNewButton</name></member>
-      <member refid="d8/df1/class_modular_1_1_grid_field_1_1_has_many_many_grid_field_config_1a52a48ebfa025fc48a3403f1d34dd6513" prot="public" virt="non-virtual"><scope>Modular::GridField::HasGridListBlocksGridFieldConfig</scope><name>ComponentAddNewMultiClass</name></member>
-      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a563d7b1189241834ca2c7c07193e429c" prot="public" virt="non-virtual"><scope>Modular::GridField::HasGridListBlocksGridFieldConfig</scope><name>ComponentAutoCompleter</name></member>
-      <member refid="d8/df1/class_modular_1_1_grid_field_1_1_has_many_many_grid_field_config_1a878c3535adda4f2600b2ae3ff4b8ff86" prot="public" virt="non-virtual"><scope>Modular::GridField::HasGridListBlocksGridFieldConfig</scope><name>exclude_classes</name></member>
-      <member refid="d8/df1/class_modular_1_1_grid_field_1_1_has_many_many_grid_field_config_1a18c601602a865ce27f467cdaa67f4128" prot="public" virt="non-virtual"><scope>Modular::GridField::HasGridListBlocksGridFieldConfig</scope><name>limited_related_classes</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d5/d67/interface_modular_1_1_interfaces_1_1_value_generator">
+<title>Modular::Interfaces::ValueGenerator interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d5/d67/interface_modular_1_1_interfaces_1_1_value_generator_1adf93bc5accf0d3f14d1d3f75254455ee">shouldGenerate</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d5/d67/interface_modular_1_1_interfaces_1_1_value_generator_1a5067804f3101121e2a30bb8147cb974e">generator</link> (
+ $seed)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d5/d67/interface_modular_1_1_interfaces_1_1_value_generator_1adf93bc5accf0d3f14d1d3f75254455ee">
+                <title>shouldGenerate ()</title> <emphasis></emphasis>
+                
+<para>Return true if a new value should be generated, false otherwise. e.g. a test if a value is already set on a model could return false if the value should not be overwritten, or true if a new value should always be generated.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>bool </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d5/d67/interface_modular_1_1_interfaces_1_1_value_generator_1a5067804f3101121e2a30bb8147cb974e">
+                <title>static generator ($seed=null)</title> <emphasis></emphasis>
+                
+<para>Return a new value for the extended model if shouldGenerate returns true, or the existing value from the extended model if shouldGenerate returned false.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$seed</entry>
+                                <entry>
+<para>value to generate new value from, value to return etc </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

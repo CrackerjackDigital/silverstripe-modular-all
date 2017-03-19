@@ -2,11 +2,9 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="dir_cb95c0e23cc969ff73e94b8364c414e4" kind="dir">
     <compoundname>extensions</compoundname>
-    <innerdir refid="dir_edb9e1561bea8deb9dc8ae1238e89f7a">attributes</innerdir>
+    <innerdir refid="dir_00ba62ba3b56acb09bca5269b97de754">controller</innerdir>
     <innerdir refid="dir_afa9978b355f99b1d3b570ada31cdee4">db</innerdir>
     <innerdir refid="dir_02f55037cf14bf3f84d55991ea5f5d1d">model</innerdir>
-    <innerfile refid="d3/d6a/_content_controller_8php">ContentController.php</innerfile>
-    <innerfile refid="d6/dab/_field_8php">Field.php</innerfile>
     <innerfile refid="df/dc5/extensions_2_model_8php">extensions/Model.php</innerfile>
     <briefdescription>
     </briefdescription>

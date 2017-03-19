@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d0/d1e/interface_modular_1_1_interfaces_1_1_action">
+<title>Modular::Interfaces::Action interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1af758be52317607e28c2b633561d322f6">model</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1a0ef5b51b807dd81c803a0348ea89ce17">apply</link> (
+ $alias,  $data)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1a45e3b1970ea8358e18e1ffcfe961d2c3">revert</link> (
+ $alias,  $data)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1afe6cf403f39e693b46948bc6d57e83dc">class_name</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1af758be52317607e28c2b633561d322f6">
+                <title>model ()</title> <emphasis></emphasis>
+                
+<para>Return the model which action is to be applied to, e.g. the owner on a model extension or the model from a <link linkend="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller">ModelController</link>.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para><link linkend="db/d0a/class_modular_1_1_model">Model</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1a0ef5b51b807dd81c803a0348ea89ce17">
+                <title>apply ($alias, $data=null)</title> <emphasis></emphasis>
+                
+<para>Apply the action to the target model.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$alias</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$data</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1a45e3b1970ea8358e18e1ffcfe961d2c3">
+                <title>revert ($alias, $data=null)</title> <emphasis></emphasis>
+                
+<para>Reverse the action on the target model.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$alias</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$data</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1afe6cf403f39e693b46948bc6d57e83dc">
+                <title>static class_name ()</title> <emphasis></emphasis>
+                
+<para>Return the class name for the implementing model (PHP &gt;= 5.5 just use ::class) <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d2/df6/controllers_2_model_8php" kind="file">
+    <compoundname>controllers/Model.php</compoundname>
+    <innerclass refid="d5/dfc/class_modular_1_1_controllers_1_1_model" prot="public">Modular::Controllers::Model</innerclass>
+    <innernamespace refid="d9/d08/namespace_modular_1_1_controllers">Modular::Controllers</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <innernamespace refid="d3/d0e/namespace_modular_1_1_controller">Modular::Controller</innernamespace>
+    <innernamespace refid="d1/dbd/namespace_modular_1_1_interfaces_1_1_model_controller">Modular::Interfaces::ModelController</innernamespace>
+    <innernamespace refid="dc/df8/namespace_modular_1_1_interfaces_1_1_route_provider">Modular::Interfaces::RouteProvider</innernamespace>
+    <innernamespace refid="d4/dc8/namespace_modular_1_1_traits_1_1routing">Modular::Traits::routing</innernamespace>
+    <innernamespace refid="d3/d1e/namespacerouting">routing</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="d9/d08/namespace_modular_1_1_controllers" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Controllers;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d6/d68/class_modular_1_1_controller" kindref="compound">Modular\Controller</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="d5/d09/class_modular_1_1_exceptions_1_1_exception" kindref="compound">Modular\Exceptions\Exception</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller" kindref="compound">Modular\Interfaces\ModelController</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider" kindref="compound">Modular\Interfaces\RouteProvider</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a426a76c60639697877e2d702e96443db" kindref="member">Modular\Traits\reflection</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/>Modular\Traits\routing;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="d5/dfc/class_modular_1_1_controllers_1_1_model" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/dfc/class_modular_1_1_controllers_1_1_model" kindref="compound">Model</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d6/d68/class_modular_1_1_controller" kindref="compound">Controller</ref><sp/>implements<sp/><ref refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller" kindref="compound">ModelController</ref>,<sp/><ref refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider" kindref="compound">RouteProvider</ref><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a426a76c60639697877e2d702e96443db" kindref="member">reflection</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/>routing;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>should<sp/>be<sp/>set<sp/>in<sp/>concrete<sp/>class<sp/>to<sp/>model<sp/>class<sp/>being<sp/>managed<sp/>by<sp/>this<sp/>controller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1ab6cd4d85b5fec910ff682c2983cf0fc3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1ab6cd4d85b5fec910ff682c2983cf0fc3" kindref="member">ModelClassName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>there<sp/>are<sp/>likely<sp/>to<sp/>be<sp/>collissions<sp/>between<sp/>page<sp/>structure<sp/>and<sp/>model<sp/>controllers<sp/>set<sp/>this<sp/>to<sp/>something</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>unlikely<sp/>to<sp/>end<sp/>up<sp/>as<sp/>a<sp/>root<sp/>page<sp/>on<sp/>the<sp/>site<sp/>tree<sp/>as<sp/>a<sp/>url-segment.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$route_prefix<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>set<sp/>this<sp/>will<sp/>be<sp/>used<sp/>instead<sp/>of<sp/>the<sp/>manufactured<sp/>route<sp/>to<sp/>build<sp/>the<sp/>Director<sp/>rule<sp/>to<sp/>this<sp/>controller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$alternate_route<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>__construct()<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$class<sp/>=<sp/>get_class($this);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$class::model_class_name())<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d5/d09/class_modular_1_1_exceptions_1_1_exception" kindref="compound">Exception</ref>(</highlight><highlight class="stringliteral">&quot;No<sp/>ModelClassName<sp/>defined<sp/>on<sp/>&apos;$class&apos;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parent::__construct();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44" refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1ae4a94b9aada2f6d5944e747138cee057" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1ae4a94b9aada2f6d5944e747138cee057" kindref="member">model_class_name</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>static::ModelClassName;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55" refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1a57102936c05e571c397f794a752795a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1a57102936c05e571c397f794a752795a5" kindref="member">routes</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$route<sp/>=<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a10794fddeae75cfbecb872f67827aa8c" kindref="member">static::config</ref>()-&gt;get(</highlight><highlight class="stringliteral">&apos;alternate_route&apos;</highlight><highlight class="normal">)<sp/>?:<sp/>static::class_name_to_route(static::model_class_name());</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$route<sp/>=&gt;<sp/>get_class($this)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="68" refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1af758be52317607e28c2b633561d322f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1af758be52317607e28c2b633561d322f6" kindref="member">model</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$modelClass<sp/>=<sp/>static::model_class_name();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($id<sp/>=<sp/>$this-&gt;<ref refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1afd35de2c4f85109ad1e9ea6f1902ef0b" kindref="member">modelID</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>\DataObject::get($modelClass)-&gt;byID($id);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static::debug_warn(</highlight><highlight class="stringliteral">&quot;No<sp/>model<sp/>for<sp/>&apos;$modelClass&apos;<sp/>with<sp/>id<sp/>&apos;$id&apos;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="81" refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1afd35de2c4f85109ad1e9ea6f1902ef0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1afd35de2c4f85109ad1e9ea6f1902ef0b" kindref="member">modelID</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;getRequest()-&gt;param(static::ModelIDParam)<sp/>?:<sp/>null;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89" refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1ab8fc514b245975823d2a15d664517eb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1ab8fc514b245975823d2a15d664517eb0" kindref="member">modelClassName</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>static::model_class_name();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/controllers/Model.php"/>
+  </compounddef>
+</doxygen>

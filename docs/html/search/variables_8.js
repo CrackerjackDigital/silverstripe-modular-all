@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['internallinkfieldname',['InternalLinkFieldName',['../d7/d2f/class_modular_1_1_fields_1_1_internal_link.html#a998ef73f8ee85c72a88eed76bb94bf2b',1,'Modular::Fields::InternalLink']]],
-  ['internallinkoption',['InternalLinkOption',['../d7/d2f/class_modular_1_1_fields_1_1_internal_link.html#a1942eb70de5458ea2b27cab10ae87da5',1,'Modular::Fields::InternalLink']]],
-  ['internallinkrelationship',['InternalLinkRelationship',['../d8/dc1/class_modular_1_1_link_attribute_field.html#a76ace59dcef0d2cca239ede80426c7f9',1,'Modular::LinkAttributeField']]],
-  ['internallinkvalue',['InternalLinkValue',['../d8/dc1/class_modular_1_1_link_attribute_field.html#a32af0b0ce8320c130dfb1802a62ee484',1,'Modular::LinkAttributeField']]]
+  ['hasmany',['HasMany',['../d4/daa/interface_modular_1_1_interfaces_1_1_arities.html#a7088d64537fcda81cde55394e5ec5dd6',1,'Modular::Interfaces::Arities']]],
+  ['hasone',['HasOne',['../d4/daa/interface_modular_1_1_interfaces_1_1_arities.html#acd9ee15429075e0908d6895a4a74aa7d',1,'Modular::Interfaces::Arities']]],
+  ['httpversionnotsupported',['HTTPVersionNotSupported',['../df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p.html#a0aee9d43ecafc6515396eac59be81da4',1,'Modular::Interfaces::HTTP']]]
 ];

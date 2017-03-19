@@ -13,6 +13,13 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>struct <link linkend="dd/d93/class_modular_1_1_constraint">Modular::Constraint</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>struct <link linkend="d6/d68/class_modular_1_1_controller">Modular::Controller</link></para>
                     </listitem>
                 </itemizedlist>
@@ -28,27 +35,6 @@
                 <itemizedlist>
                     <listitem>
                         <para>struct <link linkend="d9/d15/class_modular_1_1_email_logger">Modular::EmailLogger</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>struct <link linkend="d5/dc7/class_modular_1_1_keyword_attribute_extension">Modular::KeywordAttributeExtension</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>struct <link linkend="d8/dc1/class_modular_1_1_link_attribute_field">Modular::LinkAttributeField</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>struct <link linkend="d0/d69/class_modular_1_1_content_controller_extension">Modular::ContentControllerExtension</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -76,14 +62,14 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="db/d0a/class_modular_1_1_model">Modular::Model</link></para>
+                        <para>struct <link linkend="df/d92/class_modular_1_1_logger">Modular::Logger</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d6/d4d/class_modular_1_1_module">Modular::Module</link></para>
+                        <para>struct <link linkend="db/d0a/class_modular_1_1_model">Modular::Model</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -97,7 +83,21 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="da/da6/class_modular_1_1_versioned_model">Modular::VersionedModel</link></para>
+                        <para>struct <link linkend="d4/d0d/class_modular_1_1_permission">Modular::Permission</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d1/df3/class_modular_1_1_scoped_reference">Modular::ScopedReference</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d5/d67/class_modular_1_1_task">Modular::Task</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -121,14 +121,14 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d2/db0/namespace_modular_1_1_blocks">Modular::Blocks</link></para>
+                        <para>struct <link linkend="dd/d29/namespace_modular_1_1_collections">Modular::Collections</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="dd/d29/namespace_modular_1_1_collections">Modular::Collections</link></para>
+                        <para>struct <link linkend="d9/d08/namespace_modular_1_1_controllers">Modular::Controllers</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -149,13 +149,6 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="dd/ddb/namespace_modular_1_1_fields">Modular::Fields</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
                         <para>struct <link linkend="d4/d8c/namespace_modular_1_1_forms">Modular::Forms</link></para>
                     </listitem>
                 </itemizedlist>
@@ -164,13 +157,6 @@
                 <itemizedlist>
                     <listitem>
                         <para>struct <link linkend="d3/d7f/namespace_modular_1_1_grid_field">Modular::GridField</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>struct <link linkend="de/d4d/namespace_modular_1_1_grid_list">Modular::GridList</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -198,159 +184,14 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d6/ddb/namespace_modular_1_1_relationships">Modular::Relationships</link></para>
+                        <para>struct <link linkend="d1/dbf/namespace_modular_1_1_traits">Modular::Traits</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d3/d03/namespace_modular_1_1_search">Modular::Search</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>struct <link linkend="dd/d84/namespace_modular_1_1_workflows">Modular::Workflows</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-        </simplesect>
-        <simplesect>
-            <title>Variables</title>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>trait <link linkend="df/df5/namespace_modular_1ab11747a6bd94b097d49ecab7edd4dc70">lang</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>trait <link linkend="df/df5/namespace_modular_1a7ee0323274d4232ae304087ace72d82b">options</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>trait <link linkend="df/df5/namespace_modular_1a5c907a6211e0669e5fe3c298d12906ce">related</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>trait <link linkend="df/df5/namespace_modular_1aab380e91a6e89eb7d572417a59dbdbdc">upload</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-        </simplesect>
-        <simplesect>
-            <title>Functions</title>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para> <link linkend="df/df5/namespace_modular_1a7065c899caaecfa2715f088effe2dd08">lang</link> (
- $key,  $default, array $tokens)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para> <link linkend="df/df5/namespace_modular_1a8d44ba7b602cd8a487c8336e730e2a5f">fieldDecoration</link> (
- $fieldName,  $decoration,  $default, array $tokens,  $field)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para> <link linkend="df/df5/namespace_modular_1ab2b22986970c35d9a77cf2167c1ca4f5">fieldDecorationTokens</link> (
-)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para> <link linkend="df/df5/namespace_modular_1ab60bb783fca50876d3b5eec7c1cb928e">singularName</link> (
-)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para> <link linkend="df/df5/namespace_modular_1ab91176b58e550e3dde2cc99cfca5a0b2">pluralName</link> (
-)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>static <link linkend="df/df5/namespace_modular_1a849be76b7f9b304b5b6f847914ff1066">get_site_localised_config_setting</link> (
- $source,  $name,  $default, array $data,  $configOptions)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>static <link linkend="df/df5/namespace_modular_1ac7506e4ec381b314cfd445af3f533d32">get_localised_config_string</link> (
- $source,  $name,  $default, array $data,  $configOptions)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para> <link linkend="df/df5/namespace_modular_1aa42089f560392d3ce9c68fe183010543">options</link> (
- $options,  $merge)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para> <link linkend="df/df5/namespace_modular_1a4f16f6783118b5305a3cd271d603804e">option</link> (
- $name,  $key)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para> <link linkend="df/df5/namespace_modular_1a0428161b66c885b01816982f1a8e5692">hasRelationship</link> (
- $relationshipName)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para> <link linkend="df/df5/namespace_modular_1a89b171639eb5b84aa423822c163c914f">makeUploadField</link> (
- $relationshipName)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para> <link linkend="df/df5/namespace_modular_1ad3267303429bf001abe95cb2ad8ad778">configureUploadField</link> (
- $field,  $configVarName)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para> <link linkend="df/df5/namespace_modular_1a83bd3e1e721645ae5cd530de2e2bfb0d">uploadFolderName</link> (
-)</para>
+                        <para>struct <link linkend="da/dfe/namespace_modular_1_1_u_i">Modular::UI</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -358,79 +199,17 @@
         <simplesect>
             <title>Detailed Description</title>
 
-<para>Binds InternalLink and ExternalLink fields with a LinkType field and attaches associated behaviours (display logic etc).</para>
+<para>Filters limit what models are displayed on page depending on user selection, they can further restrict models after Constraints are applied.</para>
 
-<para>A block which allows a <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link> to be placed on a page. The <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link> can have its own &apos;Curated&apos; or manually added blocks via the HasBlocks extension if added.</para>
-
-<para>GridListBlocks</para>
-
-<para>LinkedPage</para>
-
-<para>InternalLink from  field.</para>
-
-<para>Links</para>
-
-<para>Links() from HasLinks extension, returns a list of InternalOrExternalLink models</para>
+<para>A modular <link linkend="db/d0a/class_modular_1_1_model">Model</link> always controls one primary model type. It expects at least $ModelClass URL param and optionally $ModelID if a single model is being addressed. If no ID then a list of the models can be provided.</para>
 
 <para><link linkend="d3/d10/class_modular_1_1_application">Application</link> level exceptions should throw this, e.g. bad paths or database credentials.</para>
 
-<para>A field which shows and validates a particular format, such as a phone number or registration number.</para>
+<para>Add to application ContentControllers to get <link linkend="df/df5/namespace_modular">Modular</link> functionality such as requirements.</para>
 
-<para>Provides CMS fields for customisation of a <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link> block or in-page <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link> if added directly.</para>
+<para>Extension added to ModelController</para>
 
-<para>Image represents a single attached image, this is a relationship so use RelationshipName and RelationshipClassName not SingleFieldName and SingleFieldSchema.</para>
-
-<para>Adds a tag field representation of a HasManyMany relationship</para>
-
-<para>Field represents a media file (e.g. Audio, Video etc) with a relationship called &apos;Media&apos;</para>
-
-<para>Removes filters which don&apos;t exist in any items, should be added to <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link> host (e.g. GridListBlock).</para>
-
-<para>This will be called by GridList.filters after all filter providers have added their filters.</para>
-
-<para>Limits filters to only those defined on the page via config.gridlist_custom_filters (only if defined though otherwise no change)</para>
-
-<para>Constrain items to only be those for the current filter as set e.g. on url filter= query parameter</para>
-
-<para>Filters limit what models are displayed on page depending on user selection, they can further restrict models after Constraints are applied.</para>
-
-<para>Standalone controller which services requests to e.g. &apos;/gridlist/blocks?path=...&amp;filter=...&amp;start=...&amp;limit=...&apos;</para>
-
-<para>Add a field which allows the mode for the gridlist to be selected, if the mode is provided elsewhere then that will be the value instead and it can not be changed.</para>
-
-<para>Add extensions to models which provide items, filters and other control to a <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link>.</para>
-
-<para>Interface ItemsSequencer called by <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link> after retrieving all items and filters, used to order or otherwise decorate filters.</para>
-
-<para>Interface ItemsSequencer called by <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link> when building items to re-arrange items or to inject items at a specific place in the list.</para>
-
-<para>Interface TempleDataProvider for extensions which provide additional data to be returned to the template by the &apos;<link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link>&apos; method.</para>
-
-<para>Extension to add to a <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link> view model to hard-wire a particular <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link> view for the current page. Should be added after e.g. <link linkend="df/df5/namespace_modular">Modular</link> field which allows mode selection.</para>
-
-<para>Allows filters to be explicitly set on a page-by-page basis by setting config.gridlist_custom_filters on a page model.</para>
-
-<para>Returns all filters (GridListFilter models) from the database.</para>
-
-<para>Add to a <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link> host (e.g. GridListBlock) to provide all items across the site which match the filters added to the block. Add a field which enables this to be enabled/disabled in CMS.</para>
-
-<para>Add to a <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link> host (e.g. GridListBlock) to provide all children of the page on which the block is added. Adds a field which enables this to be enabled/disabled in CMS.</para>
-
-<para>Provide all pages which have been related to this page via the &apos;RelatedPages&apos; tab. Adds a field which enables this to be enabled/disabled in CMS.</para>
-
-<para>Add blocks manually to a grid list items at the start.</para>
-
-<para>Provides a tag field where filters can be added.</para>
-
-<para>GridListFilters()</para>
-
-<para>Iterates through filters and adds an item count of items for that filter, for use by pagination, badges etc.</para>
-
-<para>Adds an excerpt of items with a filter of &apos;all&apos;</para>
-
-<para>Constrain count of items by filter to the page length</para>
-
-<para>PageLength extension limits the number of items to the PageLength parameter, this is an overall limit which can be applied first when retrieving items from the database, and then again for example for pagination</para>
+<para>Interface Action generally implemented by an extension which is attached to a <link linkend="db/d0a/class_modular_1_1_model">Model</link> or a <link linkend="d6/d68/class_modular_1_1_controller">Controller</link>, such as one which implements a &apos;like&apos; or &apos;delete&apos; operation, via a route such as &apos;person/$ID/like&apos;.</para>
 
 <para>Declare an interface for exceptions for RTTI and type-hinting, inspection reports etc</para>
 
@@ -438,23 +217,25 @@
 
 <para>Interface LinkType implemented by models which can be linked to with different link types, such as a &apos;Download&apos;, &apos;Page&apos; or &apos;Video&apos;</para>
 
-<para>Add a single related page field.</para>
+<para>Interface RouteProvider implemented by <link linkend="d6/d68/class_modular_1_1_controller">Controller</link> <link linkend="de/dfe/namespace_modular_1_1_extensions">Extensions</link> which provide rules to Director to route to the extended <link linkend="d6/d68/class_modular_1_1_controller">Controller</link>.</para>
 
-<para>RelatedPages</para>
+<para><link linkend="db/d0a/class_modular_1_1_model">Model</link></para>
 
-<para>RelatedPages</para>
+<para>Class which adds can methods e.g. canEdit, canDiscombobulate etc</para>
 
-<para>Adds a multiple free text Tags relationship TagField to Tag model to extended model.</para>
+<para>Add this trait to models or model extensions to notify any &apos;backward&apos; related models (via has_one back to has_many or via belongs_many_many) when events happen on the model. For example add to a &apos;Block&apos; model to ensure that the blocks &apos;owners&apos; (Page or a containing block) get notified when the block itself is changed.</para>
 
-<para>Provides items which match fulltext parameter &apos;q&apos;</para>
+<para>Return an instance of class nominated in the called classes config.custom_class_name or the called class if not set. This can be called from a create method overriding the standard silverstripe create method.</para>
 
-<para>Add some search specific functionality to the standard gridlist.</para>
+<para>Return a collection class derived from  instead of a . The class is nominated in the exhibiting classes config.custom_list_class_name and custom_get can be called from the a method overriding the standard SilverStripe get method.</para>
 
-<para><link linkend="d1/da3/class_modular_1_1_model_extension">ModelExtension</link></para>
+<para>Simple trait to send an email via a &apos;notify&apos; method.</para>
 
-<para>Provides items which match &apos;tags&apos; query paramter as ModelTags - tags can be a csv list of ModelTags.</para>
+<para>Manage enable/disable status through configuration. By default static config.enabled is checked, if can be overridden by defining a constant &apos;EnablerConfigVar&apos; on the exhibiting model, e.g. for if the default &apos;enabled&apos; is being used elsewhere in heirarchy.</para>
 
-<para>Calls through to JSON class while traits are worked out properly in SS (config is applied?)</para>
+<para>Class json helper traa</para>
+
+<para>Trait adds simple md5 hashing functions</para>
 
 <para>owned, has an owner and invoking this object will invoke the call on the owner, e.g. $this()-&gt;doSomething() will call $this-&gt;owner()-&gt;doSomething()</para>
 

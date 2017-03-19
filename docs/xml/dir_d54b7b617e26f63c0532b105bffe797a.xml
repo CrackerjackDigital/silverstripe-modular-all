@@ -4,6 +4,7 @@
     <compoundname>helpers</compoundname>
     <innerfile refid="d6/d82/_j_s_o_n_8php">JSON.php</innerfile>
     <innerfile refid="dd/d9d/_log_output_writer_8php">LogOutputWriter.php</innerfile>
+    <innerfile refid="d8/df8/_reflection_8php">Reflection.php</innerfile>
     <innerfile refid="d7/dae/_strings_8php">Strings.php</innerfile>
     <briefdescription>
     </briefdescription>

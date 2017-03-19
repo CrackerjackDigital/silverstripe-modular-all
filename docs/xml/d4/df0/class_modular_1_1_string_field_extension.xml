@@ -26,24 +26,24 @@
 <para>Since PHP 5.4 strip_tags doesn&apos;t strip XML style non-closing tags so need to handle it explicitly in content, especially from PDF to text which has loads of <linebreak/>
 &apos;s in.</para><para>CERAStringFieldExtension </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="1421">
+      <node id="262">
         <label>Extension</label>
       </node>
-      <node id="1420">
+      <node id="261">
         <label>StringFieldExtension</label>
         <link refid="d4/df0/class_modular_1_1_string_field_extension"/>
-        <childnode refid="1421" relation="public-inheritance">
+        <childnode refid="262" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1423">
+      <node id="264">
         <label>Extension</label>
       </node>
-      <node id="1422">
+      <node id="263">
         <label>StringFieldExtension</label>
         <link refid="d4/df0/class_modular_1_1_string_field_extension"/>
-        <childnode refid="1423" relation="public-inheritance">
+        <childnode refid="264" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="da/d2c/class_modular_1_1_forms_1_1_tab_field">
+<title>Modular::Forms::TabField class Reference</title>
+        <simplesect>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>$tabID</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="da/d2c/class_modular_1_1_forms_1_1_tab_field_1a1dc9506dfa8237779b0821c51d8cd80b">__construct</link> (
+ $children)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="da/d2c/class_modular_1_1_forms_1_1_tab_field_1a7397925e7ba61934ab1f60d4bb6aa32c">setTabID</link> (
+ $id)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="da/d2c/class_modular_1_1_forms_1_1_tab_field_1aaafaedd1bf5e194369b4071beb2328e6">getTabID</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="da/d2c/class_modular_1_1_forms_1_1_tab_field_1a1dc9506dfa8237779b0821c51d8cd80b">
+                <title>__construct ($children=null)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="da/d2c/class_modular_1_1_forms_1_1_tab_field_1a7397925e7ba61934ab1f60d4bb6aa32c">
+                <title>setTabID ($id)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="da/d2c/class_modular_1_1_forms_1_1_tab_field_1aaafaedd1bf5e194369b4071beb2328e6">
+                <title>getTabID ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

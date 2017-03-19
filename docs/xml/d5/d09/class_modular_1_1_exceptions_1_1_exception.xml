@@ -38,47 +38,47 @@
     <detaileddescription>
 <para>Assist in determining where problems arose. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="365">
+      <node id="71">
         <label>NotImplemented</label>
         <link refid="dd/d84/class_modular_1_1_exceptions_1_1_not_implemented"/>
-        <childnode refid="361" relation="public-inheritance">
+        <childnode refid="67" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="361">
+      <node id="67">
         <label>Exception</label>
         <link refid="d5/d09/class_modular_1_1_exceptions_1_1_exception"/>
-        <childnode refid="362" relation="public-inheritance">
+        <childnode refid="68" relation="public-inheritance">
         </childnode>
-        <childnode refid="361" relation="public-inheritance">
+        <childnode refid="67" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="364">
+      <node id="70">
         <label>Debug</label>
         <link refid="d0/d50/class_modular_1_1_exceptions_1_1_debug"/>
-        <childnode refid="361" relation="public-inheritance">
+        <childnode refid="67" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="363">
+      <node id="69">
         <label>Application</label>
         <link refid="df/da2/class_modular_1_1_exceptions_1_1_application"/>
-        <childnode refid="361" relation="public-inheritance">
+        <childnode refid="67" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="362">
+      <node id="68">
         <label>Config</label>
         <link refid="da/d2d/class_modular_1_1_exceptions_1_1_config"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="366">
+      <node id="72">
         <label>Exception</label>
         <link refid="d5/d09/class_modular_1_1_exceptions_1_1_exception"/>
-        <childnode refid="367" relation="public-inheritance">
+        <childnode refid="73" relation="public-inheritance">
         </childnode>
-        <childnode refid="366" relation="public-inheritance">
+        <childnode refid="72" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="367">
+      <node id="73">
         <label>Config</label>
         <link refid="da/d2d/class_modular_1_1_exceptions_1_1_config"/>
       </node>

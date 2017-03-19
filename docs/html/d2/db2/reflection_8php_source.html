@@ -106,25 +106,69 @@ $(document).ready(function(){initNavTree('d2/db2/reflection_8php_source.html','.
 </div><!--header-->
 <div class="contents">
 <a href="../../d2/db2/reflection_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">namespace </span>Modular;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">namespace </span>Modular\Traits;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;trait reflection {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> subclasses($excludeThisClass = <span class="keyword">true</span>) {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        $classes = [];</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">foreach</span> (\ClassInfo::subclassesFor(get_called_class()) as $className) {</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            <span class="keywordflow">if</span> ($excludeThisClass &amp;&amp; ($className == get_called_class())) {</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            }</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            $classes[$className] = static::strip_namespace($className);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        }</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">return</span> $classes;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> strip_namespace($maybeNamespacedClassName) {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">return</span> current(array_reverse(explode(<span class="charliteral">&#39;\\&#39;</span>, $maybeNamespacedClassName)));</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../d1/dbf/namespace_modular_1_1_traits.html#a426a76c60639697877e2d702e96443db">    4</a></span>&#160;trait <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a426a76c60639697877e2d702e96443db">reflection</a> {</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keyword">abstract</span> <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#ac28f823331f21e51e6a72d5f5fa02cd4">__invoke</a>();</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> name_from_class_name($className, $trim = [<span class="stringliteral">&#39;Model&#39;</span>, <span class="stringliteral">&#39;Social&#39;</span>]) {</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        $className = static::strip_namespace($className);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">foreach</span> ($trim as $prefixOrSuffix) {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            $len = strlen($prefixOrSuffix);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keywordflow">if</span> (substr($className, 0, $len) == $prefixOrSuffix) {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                $className = substr($className, $len);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            }</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="keywordflow">if</span> (substr($className, -$len) == $prefixOrSuffix) {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                $className = substr($className, 0, -$len);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            }</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">return</span> $className;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> derive_class_name($modelOrClassName, $stripNamespace = <span class="keyword">false</span>) {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">if</span> ($modelOrClassName) {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            $modelOrClassName = is_object($modelOrClassName) ? get_class($modelOrClassName) : $modelOrClassName;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keywordflow">if</span> ($stripNamespace &amp;&amp; is_array($modelOrClassName)) {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                <span class="keywordflow">foreach</span> ($modelOrClassName as &amp;$className) {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                    $className = static::strip_namespace($className);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> ($stripNamespace) {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                $modelOrClassName = static::strip_namespace($modelOrClassName);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            }</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">return</span> $modelOrClassName;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../d1/dbf/namespace_modular_1_1_traits.html#ada2f64f226987343290152caba2fcdfc">   61</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#ada2f64f226987343290152caba2fcdfc">extensionsByInterface</a>($interfaceName) {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        $extensions = [];</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">foreach</span> ($this()-&gt;getExtensionInstances() as $extension) {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <span class="keywordflow">if</span> ($extension instanceof $interfaceName) {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                $extensions[get_class($extension)] = $extension;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">return</span> $extensions;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> subclasses($excludeThisClass = <span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        $classes = [];</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">foreach</span> (\ClassInfo::subclassesFor(get_called_class()) as $className) {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordflow">if</span> ($excludeThisClass &amp;&amp; ($className == get_called_class())) {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            $classes[ $className ] = $className;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> $classes;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> strip_namespace($maybeNamespacedClassName = null) {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">return</span> current(array_reverse(explode(<span class="charliteral">&#39;\\&#39;</span>, $maybeNamespacedClassName ?: get_called_class())));</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_ada2f64f226987343290152caba2fcdfc"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#ada2f64f226987343290152caba2fcdfc">Modular\Traits\extensionsByInterface</a></div><div class="ttdeci">extensionsByInterface($interfaceName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db2/reflection_8php_source.html#l00061">reflection.php:61</a></div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_ac28f823331f21e51e6a72d5f5fa02cd4"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#ac28f823331f21e51e6a72d5f5fa02cd4">Modular\Traits\__invoke</a></div><div class="ttdeci">__invoke()</div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_a426a76c60639697877e2d702e96443db"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#a426a76c60639697877e2d702e96443db">Modular\Traits\reflection</a></div><div class="ttdeci">trait reflection</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db2/reflection_8php_source.html#l00004">reflection.php:4</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

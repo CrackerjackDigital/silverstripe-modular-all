@@ -3,37 +3,30 @@
   <compounddef id="df/d5e/class_modular_1_1_admin_1_1_model_admin" kind="class" prot="public">
     <compoundname>Modular::Admin::ModelAdmin</compoundname>
     <basecompoundref prot="public" virt="non-virtual">ModelAdmin</basecompoundref>
-    <derivedcompoundref refid="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters" prot="public" virt="non-virtual">GridListFilters</derivedcompoundref>
-    <derivedcompoundref refid="dc/da5/class_modular_1_1_admin_1_1_tag_admin" prot="public" virt="non-virtual">TagAdmin</derivedcompoundref>
+    <derivedcompoundref refid="da/d28/class_modular_1_1_admin_1_1_tags_admin" prot="public" virt="non-virtual">TagsAdmin</derivedcompoundref>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1162">
+      <node id="191">
         <label>ModelAdmin</label>
         <link refid="df/d5e/class_modular_1_1_admin_1_1_model_admin"/>
-        <childnode refid="1162" relation="public-inheritance">
+        <childnode refid="191" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1163">
-        <label>GridListFilters</label>
-        <link refid="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters"/>
-        <childnode refid="1162" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="1164">
-        <label>TagAdmin</label>
-        <link refid="dc/da5/class_modular_1_1_admin_1_1_tag_admin"/>
-        <childnode refid="1162" relation="public-inheritance">
+      <node id="192">
+        <label>TagsAdmin</label>
+        <link refid="da/d28/class_modular_1_1_admin_1_1_tags_admin"/>
+        <childnode refid="191" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1165">
+      <node id="193">
         <label>ModelAdmin</label>
         <link refid="df/d5e/class_modular_1_1_admin_1_1_model_admin"/>
-        <childnode refid="1165" relation="public-inheritance">
+        <childnode refid="193" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

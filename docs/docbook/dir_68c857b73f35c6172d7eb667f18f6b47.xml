@@ -6,21 +6,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d8/d58/_grid_list_filter_8php">GridListFilter.php</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>file <link linkend="d3/dca/models_2_internal_or_external_link_8php">models/InternalOrExternalLink.php</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>file <link linkend="d2/d27/_slide_8php">Slide.php</link></para>
+                        <para>file <link linkend="d5/d94/_internal_or_external_link_8php">InternalOrExternalLink.php</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

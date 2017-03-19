@@ -2,14 +2,13 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d7/d04/namespace_modular_1_1_admin" kind="namespace">
     <compoundname>Modular::Admin</compoundname>
-    <innerclass refid="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters" prot="public">Modular::Admin::GridListFilters</innerclass>
     <innerclass refid="df/d5e/class_modular_1_1_admin_1_1_model_admin" prot="public">Modular::Admin::ModelAdmin</innerclass>
     <innerclass refid="d3/da3/class_modular_1_1_admin_1_1_publisher" prot="public">Modular::Admin::Publisher</innerclass>
-    <innerclass refid="dc/da5/class_modular_1_1_admin_1_1_tag_admin" prot="public">Modular::Admin::TagAdmin</innerclass>
+    <innerclass refid="da/d28/class_modular_1_1_admin_1_1_tags_admin" prot="public">Modular::Admin::TagsAdmin</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/GridListFilters.php" line="3" column="1"/>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/ModelAdmin.php" line="3" column="1"/>
   </compounddef>
 </doxygen>

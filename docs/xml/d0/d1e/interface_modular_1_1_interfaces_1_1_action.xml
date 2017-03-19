@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d0/d1e/interface_modular_1_1_interfaces_1_1_action" kind="interface" prot="public">
+    <compoundname>Modular::Interfaces::Action</compoundname>
+    <basecompoundref refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider" prot="public" virt="non-virtual">RouteProvider</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1af758be52317607e28c2b633561d322f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>model</definition>
+        <argsstring>()</argsstring>
+        <name>model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the model which action is to be applied to, e.g. the owner on a model extension or the model from a <ref refid="da/dc9/interface_modular_1_1_interfaces_1_1_model_controller" kindref="compound">ModelController</ref>.</para><para><simplesect kind="return"><para><ref refid="db/d0a/class_modular_1_1_model" kindref="compound">Model</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Action.php" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1a0ef5b51b807dd81c803a0348ea89ce17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>apply</definition>
+        <argsstring>($alias, $data=null)</argsstring>
+        <name>apply</name>
+        <param>
+          <declname>$alias</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Apply the action to the target model.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$alias</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Action.php" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1a45e3b1970ea8358e18e1ffcfe961d2c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>revert</definition>
+        <argsstring>($alias, $data=null)</argsstring>
+        <name>revert</name>
+        <param>
+          <declname>$alias</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reverse the action on the target model.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$alias</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Action.php" line="44" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static class_name</definition>
+        <argsstring>()</argsstring>
+        <name>class_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the class name for the implementing model (PHP &gt;= 5.5 just use ::class) <simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Action.php" line="26" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>Action</label>
+        <link refid="d0/d1e/interface_modular_1_1_interfaces_1_1_action"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>RouteProvider</label>
+        <link refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Action</label>
+        <link refid="d0/d1e/interface_modular_1_1_interfaces_1_1_action"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>RouteProvider</label>
+        <link refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider"/>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Action.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Action.php" bodystart="13" bodyend="45"/>
+    <listofallmembers>
+      <member refid="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1a0ef5b51b807dd81c803a0348ea89ce17" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Action</scope><name>apply</name></member>
+      <member refid="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Action</scope><name>class_name</name></member>
+      <member refid="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1af758be52317607e28c2b633561d322f6" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Action</scope><name>model</name></member>
+      <member refid="d0/d1e/interface_modular_1_1_interfaces_1_1_action_1a45e3b1970ea8358e18e1ffcfe961d2c3" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Action</scope><name>revert</name></member>
+      <member refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider_1a57102936c05e571c397f794a752795a5" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Action</scope><name>routes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -148,36 +148,37 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1425">
+      <node id="266">
         <label>Object</label>
         <link refid="da/d08/class_modular_1_1_object"/>
-        <childnode refid="1425" relation="public-inheritance">
+        <childnode refid="266" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1424">
+      <node id="265">
         <label>Strings</label>
         <link refid="d6/d0c/class_modular_1_1_helpers_1_1_strings"/>
-        <childnode refid="1425" relation="public-inheritance">
+        <childnode refid="266" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1427">
+      <node id="268">
         <label>Object</label>
         <link refid="da/d08/class_modular_1_1_object"/>
-        <childnode refid="1427" relation="public-inheritance">
+        <childnode refid="268" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1426">
+      <node id="267">
         <label>Strings</label>
         <link refid="d6/d0c/class_modular_1_1_helpers_1_1_strings"/>
-        <childnode refid="1427" relation="public-inheritance">
+        <childnode refid="268" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
     <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/Strings.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/Strings.php" bodystart="8" bodyend="68"/>
     <listofallmembers>
       <member refid="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Helpers::Strings</scope><name>__invoke</name></member>
+      <member refid="da/d08/class_modular_1_1_object_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Helpers::Strings</scope><name>class_name</name></member>
       <member refid="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a952de05cce908a87072d922d51fe23ad" prot="public" virt="non-virtual"><scope>Modular::Helpers::Strings</scope><name>class_to_label</name></member>
       <member refid="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a565a2a5a3dc743a0888bba4e2e5e42c2" prot="public" virt="non-virtual"><scope>Modular::Helpers::Strings</scope><name>decamel</name></member>
       <member refid="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a20736aa470acffa5469315e073ef1f84" prot="public" virt="non-virtual"><scope>Modular::Helpers::Strings</scope><name>desnake</name></member>

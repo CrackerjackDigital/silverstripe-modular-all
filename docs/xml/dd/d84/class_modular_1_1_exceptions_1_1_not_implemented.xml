@@ -8,41 +8,41 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1269">
+      <node id="205">
         <label>NotImplemented</label>
         <link refid="dd/d84/class_modular_1_1_exceptions_1_1_not_implemented"/>
-        <childnode refid="1270" relation="public-inheritance">
+        <childnode refid="206" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1270">
+      <node id="206">
         <label>Exception</label>
         <link refid="d5/d09/class_modular_1_1_exceptions_1_1_exception"/>
-        <childnode refid="1271" relation="public-inheritance">
+        <childnode refid="207" relation="public-inheritance">
         </childnode>
-        <childnode refid="1270" relation="public-inheritance">
+        <childnode refid="206" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1271">
+      <node id="207">
         <label>Config</label>
         <link refid="da/d2d/class_modular_1_1_exceptions_1_1_config"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1272">
+      <node id="208">
         <label>NotImplemented</label>
         <link refid="dd/d84/class_modular_1_1_exceptions_1_1_not_implemented"/>
-        <childnode refid="1273" relation="public-inheritance">
+        <childnode refid="209" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1273">
+      <node id="209">
         <label>Exception</label>
         <link refid="d5/d09/class_modular_1_1_exceptions_1_1_exception"/>
-        <childnode refid="1274" relation="public-inheritance">
+        <childnode refid="210" relation="public-inheritance">
         </childnode>
-        <childnode refid="1273" relation="public-inheritance">
+        <childnode refid="209" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1274">
+      <node id="210">
         <label>Config</label>
         <link refid="da/d2d/class_modular_1_1_exceptions_1_1_config"/>
       </node>

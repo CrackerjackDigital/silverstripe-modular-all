@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/de4/interface_modular_1_1_interfaces_1_1_transcoder" kind="interface" prot="public">
+    <compoundname>Modular::Interfaces::Transcoder</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/de4/interface_modular_1_1_interfaces_1_1_transcoder_1af758be52317607e28c2b633561d322f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>model</definition>
+        <argsstring>()</argsstring>
+        <name>model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="db/d0a/class_modular_1_1_model" kindref="compound">Model</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Transcoder.php" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de4/interface_modular_1_1_interfaces_1_1_transcoder_1a80865bb7c50f6934ea9318ca2079b513" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>encode</definition>
+        <argsstring>($mode=HasMode::DefaultMode, $options=null)</argsstring>
+        <name>encode</name>
+        <param>
+          <declname>$mode</declname>
+          <defval><ref refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1a984342ee7cd006dfd2847e636bae60f4" kindref="member">HasMode::DefaultMode</ref></defval>
+        </param>
+        <param>
+          <declname>$options</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encode the model returned by model into the target data type/schema/string (e.g. a json string). <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Transcoder.php" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de4/interface_modular_1_1_interfaces_1_1_transcoder_1a8d7b346495e7a64da22104a1ea298b16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>decode</definition>
+        <argsstring>($data, $mode=HasMode::DefaultMode, $options=null)</argsstring>
+        <name>decode</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$mode</declname>
+          <defval><ref refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1a984342ee7cd006dfd2847e636bae60f4" kindref="member">HasMode::DefaultMode</ref></defval>
+        </param>
+        <param>
+          <declname>$options</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decode the passed data and update the model returned by model method. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Transcoder.php" line="27" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Transcoder.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Transcoder.php" bodystart="6" bodyend="30"/>
+    <listofallmembers>
+      <member refid="df/de4/interface_modular_1_1_interfaces_1_1_transcoder_1a8d7b346495e7a64da22104a1ea298b16" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Transcoder</scope><name>decode</name></member>
+      <member refid="df/de4/interface_modular_1_1_interfaces_1_1_transcoder_1a80865bb7c50f6934ea9318ca2079b513" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Transcoder</scope><name>encode</name></member>
+      <member refid="df/de4/interface_modular_1_1_interfaces_1_1_transcoder_1af758be52317607e28c2b633561d322f6" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Transcoder</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

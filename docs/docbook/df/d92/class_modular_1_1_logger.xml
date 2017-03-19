@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="df/d92/class_modular_1_1_logger">
+<title>Modular::Logger class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ERR</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const WARN</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const NOTICE</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const INFO</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const DEBUG</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $logger_class</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>$logger</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $log_globals</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="df/d92/class_modular_1_1_logger_1a97e3b3adabf67bc7d3650ed14214ddaa">logger</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="df/d92/class_modular_1_1_logger_1a432021f796340d6a7dc2eb39d2b8c492">writers</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="df/d92/class_modular_1_1_logger_1afd290a9bc4bb3c8fa998fe5a4e03b205">clearWriters</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="df/d92/class_modular_1_1_logger_1ac622cdda8c0ea798ce1024f541c7397b">removeWriter</link> (
+ $writer)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="df/d92/class_modular_1_1_logger_1ad13ee328d6ea3a6cc212e02861cc3d87">addWriter</link> (
+ $writer,  $priority,  $comparison)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="df/d92/class_modular_1_1_logger_1afe9c377358284bbe454ed700f161d034">log</link> (
+ $message,  $priority,  $extras)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="df/d92/class_modular_1_1_logger_1a97e3b3adabf67bc7d3650ed14214ddaa">
+                <title>logger ()</title> <emphasis></emphasis>
+                
+<para>Get the logger currently in use, or create a new one if it doesn&apos;t exist.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="df/d92/class_modular_1_1_logger_1a432021f796340d6a7dc2eb39d2b8c492">
+                <title>writers ()</title> <emphasis></emphasis>
+                
+<para>Get all writers in use by the logger.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>array Collection of Zend_Log_Writer_Abstract instances </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="df/d92/class_modular_1_1_logger_1afd290a9bc4bb3c8fa998fe5a4e03b205">
+                <title>clearWriters ()</title> <emphasis></emphasis>
+                
+<para>Remove all writers currently in use. </para>
+
+            </section>
+            <section xml:id="df/d92/class_modular_1_1_logger_1ac622cdda8c0ea798ce1024f541c7397b">
+                <title>removeWriter ($writer)</title> <emphasis></emphasis>
+                
+<para>Remove a writer instance from the logger.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$writer</entry>
+                                <entry>
+<para>Zend_Log_Writer_Abstract instance </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="df/d92/class_modular_1_1_logger_1ad13ee328d6ea3a6cc212e02861cc3d87">
+                <title>addWriter ($writer, $priority=null, $comparison= &apos;=&apos;)</title> <emphasis></emphasis>
+                
+<para>Add a writer instance to the logger.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$writer</entry>
+                                <entry>
+<para>Zend_Log_Writer_Abstract instance </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$priority</entry>
+                                <entry>
+<para>Priority. Possible values: SS_Log::ERR, SS_Log::WARN or SS_Log::NOTICE </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$comparison</entry>
+                                <entry>
+<para>Priority comparison operator. Acts on the integer values of the error levels, where more serious errors are lower numbers. By default this is &quot;=&quot;, which means only the given priority will be logged. Set to &quot;&lt;=&quot; if you want to track errors of <emphasis>at least</emphasis> the given priority. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="df/d92/class_modular_1_1_logger_1afe9c377358284bbe454ed700f161d034">
+                <title>log ($message, $priority, $extras=null)</title> <emphasis></emphasis>
+                
+<para>Dispatch a message by priority level.</para>
+
+<para>The message parameter can be either a string (a simple error message), or an array of variables. The latter is useful for passing along a list of debug information for the writer to handle, such as error code, error line, error context (backtrace).</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$message</entry>
+                                <entry>
+<para>Exception object or array of error context variables </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$priority</entry>
+                                <entry>
+<para>Priority. Possible values: SS_Log::ERR, SS_Log::WARN or SS_Log::NOTICE </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$extras</entry>
+                                <entry>
+<para>Extra information to log in event </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

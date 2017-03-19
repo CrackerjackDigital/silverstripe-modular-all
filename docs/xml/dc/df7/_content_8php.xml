@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dc/df7/_content_8php" kind="file">
+    <compoundname>Content.php</compoundname>
+    <innerclass refid="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content" prot="public">Modular::Extensions::Controller::Content</innerclass>
+    <innernamespace refid="d7/d6f/namespace_modular_1_1_extensions_1_1_controller">Modular::Extensions::Controller</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <innernamespace refid="d7/d01/namespace_injector">Injector</innernamespace>
+    <innernamespace refid="d5/df6/namespace_modular_1_1_module">Modular::Module</innernamespace>
+    <innernamespace refid="d7/d39/namespace_modular_1_1_traits_1_1owned">Modular::Traits::owned</innernamespace>
+    <innernamespace refid="d2/dbe/namespaceowned">owned</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="d7/d6f/namespace_modular_1_1_extensions_1_1_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Extensions\Controller;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/>Injector;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>Modular\Traits\debugging;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/>Modular\Module;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/>Modular\Traits\owned;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content" kindref="compound">Content</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>\Extension<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/>owned;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content_1a9a28a026bf21eb0b9f8582aa613d0199" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content_1a9a28a026bf21eb0b9f8582aa613d0199" kindref="member">ActionLink</ref>($action)<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this()-&gt;join_links(</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this()-&gt;Link(),</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$action</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Content.php"/>
+  </compounddef>
+</doxygen>

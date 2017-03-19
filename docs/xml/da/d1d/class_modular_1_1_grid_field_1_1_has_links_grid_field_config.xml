@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="da/d1d/class_modular_1_1_grid_field_1_1_has_links_grid_field_config" kind="class" prot="public">
     <compoundname>Modular::GridField::HasLinksGridFieldConfig</compoundname>
-    <basecompoundref refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config" prot="public" virt="non-virtual">GridFieldConfig</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">GridFieldConfig</basecompoundref>
       <sectiondef kind="private-static-attrib">
       <memberdef kind="variable" id="da/d1d/class_modular_1_1_grid_field_1_1_has_links_grid_field_config_1ad2f4ac002970371a69bde51db4113755" prot="private" static="yes" mutable="no">
         <type>static</type>
@@ -24,47 +24,30 @@
     <detaileddescription>
 <para>Alters the config to be suitable for adding/removing links from a block </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="767">
-        <label>GridFieldConfig_RelationEditor</label>
-      </node>
-      <node id="766">
+      <node id="111">
         <label>GridFieldConfig</label>
-        <link refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config"/>
-        <childnode refid="767" relation="public-inheritance">
-        </childnode>
       </node>
-      <node id="765">
+      <node id="110">
         <label>HasLinksGridFieldConfig</label>
         <link refid="da/d1d/class_modular_1_1_grid_field_1_1_has_links_grid_field_config"/>
-        <childnode refid="766" relation="public-inheritance">
+        <childnode refid="111" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="770">
-        <label>GridFieldConfig_RelationEditor</label>
-      </node>
-      <node id="769">
+      <node id="113">
         <label>GridFieldConfig</label>
-        <link refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config"/>
-        <childnode refid="770" relation="public-inheritance">
-        </childnode>
       </node>
-      <node id="768">
+      <node id="112">
         <label>HasLinksGridFieldConfig</label>
         <link refid="da/d1d/class_modular_1_1_grid_field_1_1_has_links_grid_field_config"/>
-        <childnode refid="769" relation="public-inheritance">
+        <childnode refid="113" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
     <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasLinks.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasLinks.php" bodystart="8" bodyend="10"/>
     <listofallmembers>
       <member refid="da/d1d/class_modular_1_1_grid_field_1_1_has_links_grid_field_config_1ad2f4ac002970371a69bde51db4113755" prot="private" virt="non-virtual"><scope>Modular::GridField::HasLinksGridFieldConfig</scope><name>$add_new_multi_class</name></member>
-      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a305f7b18dce920304db64818988c9ab9" prot="public" virt="non-virtual"><scope>Modular::GridField::HasLinksGridFieldConfig</scope><name>__construct</name></member>
-      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::GridField::HasLinksGridFieldConfig</scope><name>__invoke</name></member>
-      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a77eb7482781c6152ac0a85593bf8f2b8" prot="public" virt="non-virtual"><scope>Modular::GridField::HasLinksGridFieldConfig</scope><name>base</name></member>
-      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a70e4c2270db10b8cb380ce6035357da1" prot="public" virt="non-virtual"><scope>Modular::GridField::HasLinksGridFieldConfig</scope><name>ComponentAddNewButton</name></member>
-      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a563d7b1189241834ca2c7c07193e429c" prot="public" virt="non-virtual"><scope>Modular::GridField::HasLinksGridFieldConfig</scope><name>ComponentAutoCompleter</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

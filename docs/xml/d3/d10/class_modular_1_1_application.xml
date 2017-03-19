@@ -2,8 +2,22 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d3/d10/class_modular_1_1_application" kind="class" prot="public">
     <compoundname>Modular::Application</compoundname>
-    <basecompoundref refid="d6/d4d/class_modular_1_1_module" prot="public" virt="non-virtual">Module</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Module</basecompoundref>
       <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1aea8336d6aae313312774967ab31aade1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ServiceName</definition>
+        <argsstring></argsstring>
+        <name>ServiceName</name>
+        <initializer>= &apos;<ref refid="d3/d10/class_modular_1_1_application" kindref="compound">Application</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a5587acd8fd25952d4f7a5c205c10be4e" prot="public" static="no" mutable="no">
         <type>const</type>
         <definition>const ThemeMobile</definition>
@@ -16,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="9" bodyend="-1"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a8a01c2c3d0aaf7707ccf55ff09d49b6f" prot="public" static="no" mutable="no">
         <type>const</type>
@@ -30,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="10" bodyend="-1"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a9d8c463572024dd0b076bef2abcc5079" prot="public" static="no" mutable="no">
         <type>const</type>
@@ -44,7 +58,35 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="11" bodyend="-1"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1ae67d36fdd103b2c7e4a8bff4b24b426e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SystemAdmin</definition>
+        <argsstring></argsstring>
+        <name>SystemAdmin</name>
+        <initializer>= &apos;SystemAdmin&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="20" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1ae1aa2aaecbe2f1f30257f0fbfceea2ff" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Admin</definition>
+        <argsstring></argsstring>
+        <name>Admin</name>
+        <initializer>= &apos;Admin&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="21" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="21" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-attrib">
@@ -59,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="14" bodyend="-1"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="24" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a8ceb43c842a43cc2fa84b2e450867582" prot="private" static="yes" mutable="no">
         <type>static</type>
@@ -67,31 +109,28 @@
         <argsstring></argsstring>
         <name>$theme_domains</name>
         <initializer>= [
-		self::ThemeDefault =&gt; [&apos;*&apos;]</initializer>
+		self::ThemeDefault =&gt; [ &apos;*&apos; ]</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="18" bodyend="-1"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="28" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a92777230af3f666d7f72612351b3b23b" prot="private" static="yes" mutable="no">
         <type>static</type>
         <definition>static $safe_paths</definition>
         <argsstring></argsstring>
         <name>$safe_paths</name>
-        <initializer>= [
-		ASSETS_PATH,
-	    &apos;../logs&apos;
-	]</initializer>
+        <initializer>= []</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="23" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="23" bodyend="-1"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="33" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a0ff61c69a2a937d902b7f2d86c92371c" prot="private" static="yes" mutable="no">
         <type>static</type>
@@ -105,10 +144,195 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="29" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="29" bodyend="-1"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="36" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a7ff35283c578bf5df6f10b44f48ec1d5" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$system_admin_email</definition>
+        <argsstring></argsstring>
+        <name>$system_admin_email</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="39" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a2c7d620452c6832018f7caccac4c3240" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$admin_email</definition>
+        <argsstring></argsstring>
+        <name>$admin_email</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="42" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1ab4dec12813eae57941418c7cbe5011fe" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$runID</definition>
+        <argsstring></argsstring>
+        <name>$runID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="45" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1acf215f34a917d014776ce684a9ee8909" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$url</definition>
+        <argsstring></argsstring>
+        <name>$url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="48" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="51" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="51" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a421831a265621325e1fdd19aace0c758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__destruct</definition>
+        <argsstring>()</argsstring>
+        <name>__destruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="65" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="65" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a255be7baa142175332249dc54cbfeff8" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static register_paths</definition>
+        <argsstring>()</argsstring>
+        <name>register_paths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="83" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a04229ac7b6c9cbd21922ef032fcdd4c0" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static register_modules</definition>
+        <argsstring>()</argsstring>
+        <name>register_modules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="87" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="87" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1ac357bb4726bf5016f6bc574d7cf32779" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static register_members_and_emails</definition>
+        <argsstring>()</argsstring>
+        <name>register_members_and_emails</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="98" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="98" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a17b966a8dfa7f8d104c6cb75d5a9506c" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static find_system_admin</definition>
+        <argsstring>()</argsstring>
+        <name>find_system_admin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Try to find admin email address via extension call to provideEmail, otherwise try from this apps config.admin_email, Email.admin_email or Member.default_admin&apos;s Email.</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="122" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="122" bodyend="148"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a615426d1f5ff4aa4f7cce015da2dbece" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static email</definition>
+        <argsstring>($for)</argsstring>
+        <name>email</name>
+        <param>
+          <declname>$for</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="90" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="90" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a7aa1ce3a96d9310220aad98f8f58b2bf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static member</definition>
+        <argsstring>($for)</argsstring>
+        <name>member</name>
+        <param>
+          <declname>$for</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="94" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="94" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a819625ad29a3c3e7cc681d3baa9a07dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static find_admin_email</definition>
+        <argsstring>()</argsstring>
+        <name>find_admin_email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Try to find admin email address via extension call to provideEmail, otherwise try from this apps config.admin_email, Email.admin_email or Member.default_admin&apos;s Email.</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="156" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="156" bodyend="184"/>
+      </memberdef>
       <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1ab096c671befd594e22708a02babcbeef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
         <definition>static get_current_page</definition>
@@ -121,7 +345,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="38" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="38" bodyend="59"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="192" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="192" bodyend="214"/>
       </memberdef>
       <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a548c021d3c4fe5a3f376c22956b2f65a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -135,7 +359,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="66" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="66" bodyend="68"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="221" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="221" bodyend="223"/>
       </memberdef>
       <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a042d10ca7d0782adc2a871c07c288007" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -148,46 +372,7 @@
 <para>Return the device mode, e.g. &apos;mobile&apos;, &apos;desktop&apos;, &apos;default&apos;. At the moment just uses domain_theme. TODO: allow this to be found out in alternative ways, e.g. UserAgent </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="74" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="74" bodyend="76"/>
-      </memberdef>
-      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a05b634f46207617d32aeda742d72e10f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>static</type>
-        <definition>static path_for_request</definition>
-        <argsstring>($request=null, $getVar= &apos;path&apos;)</argsstring>
-        <name>path_for_request</name>
-        <param>
-          <declname>$request</declname>
-          <defval>null</defval>
-        </param>
-        <param>
-          <declname>$getVar</declname>
-          <defval>&apos;path&apos;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Return a path from the request using a getVar or HTTP_REFERER or the request URL. <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametertype>\SS_HTTPRequest</parametertype>
-<parametername>$request</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametertype>string</parametertype>
-<parametername>$getVar</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>mixed|string </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="84" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="84" bodyend="95"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="229" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="229" bodyend="231"/>
       </memberdef>
       <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a605b07766c1bed3ff909fa8362f9985f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -201,7 +386,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="128" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="128" bodyend="139"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="303" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="303" bodyend="315"/>
       </memberdef>
       <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a837267adf501aa1b29ad40505bc10755" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
@@ -223,7 +408,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="148" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="148" bodyend="153"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="324" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="324" bodyend="330"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -231,81 +416,54 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="43">
+      <node id="5">
         <label>Module</label>
-        <link refid="d6/d4d/class_modular_1_1_module"/>
-        <childnode refid="44" relation="public-inheritance">
-        </childnode>
       </node>
-      <node id="44">
-        <label>Object</label>
-        <link refid="da/d08/class_modular_1_1_object"/>
-        <childnode refid="44" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="42">
+      <node id="4">
         <label>Application</label>
         <link refid="d3/d10/class_modular_1_1_application"/>
-        <childnode refid="43" relation="public-inheritance">
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="46">
+      <node id="7">
         <label>Module</label>
-        <link refid="d6/d4d/class_modular_1_1_module"/>
-        <childnode refid="47" relation="public-inheritance">
-        </childnode>
       </node>
-      <node id="47">
-        <label>Object</label>
-        <link refid="da/d08/class_modular_1_1_object"/>
-        <childnode refid="47" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="45">
+      <node id="6">
         <label>Application</label>
         <link refid="d3/d10/class_modular_1_1_application"/>
-        <childnode refid="46" relation="public-inheritance">
+        <childnode refid="7" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="8" bodyend="154"/>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="10" bodyend="332"/>
     <listofallmembers>
+      <member refid="d3/d10/class_modular_1_1_application_1a2c7d620452c6832018f7caccac4c3240" prot="private" virt="non-virtual"><scope>Modular::Application</scope><name>$admin_email</name></member>
       <member refid="d3/d10/class_modular_1_1_application_1a0ff61c69a2a937d902b7f2d86c92371c" prot="private" virt="non-virtual"><scope>Modular::Application</scope><name>$default_theme</name></member>
       <member refid="d3/d10/class_modular_1_1_application_1a668d80b2b47b45ff3fad4c048d798411" prot="private" virt="non-virtual"><scope>Modular::Application</scope><name>$requirements_path</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1ab4dec12813eae57941418c7cbe5011fe" prot="private" virt="non-virtual"><scope>Modular::Application</scope><name>$runID</name></member>
       <member refid="d3/d10/class_modular_1_1_application_1a92777230af3f666d7f72612351b3b23b" prot="private" virt="non-virtual"><scope>Modular::Application</scope><name>$safe_paths</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a7ff35283c578bf5df6f10b44f48ec1d5" prot="private" virt="non-virtual"><scope>Modular::Application</scope><name>$system_admin_email</name></member>
       <member refid="d3/d10/class_modular_1_1_application_1a8ceb43c842a43cc2fa84b2e450867582" prot="private" virt="non-virtual"><scope>Modular::Application</scope><name>$theme_domains</name></member>
-      <member refid="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>__invoke</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1af3e607da6d8e4c404d1cbf81bcf361c8" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>add_requirements</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1a553599025adbf84dc6f54c64b4bad26c" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>AfterInit</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1a22483e05dceb063caa5d22c8dace43a8" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>BeforeInit</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1a8743944d1220d3b31aab2659519199cb" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>block</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1ac93b60428f8051a147d2c9ecc1497ce5" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>Block</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1a1ad91e97e7d3c144ca6048a6c1fa7b16" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>BothInit</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1aacc47928bcd26bc30dcf5efee0cc2203" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>combine</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1a6cebc152365798ab01ad4c886ecdf641" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>css</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1acf215f34a917d014776ce684a9ee8909" prot="private" virt="non-virtual"><scope>Modular::Application</scope><name>$url</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>__construct</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a421831a265621325e1fdd19aace0c758" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>__destruct</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1ae1aa2aaecbe2f1f30257f0fbfceea2ff" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>Admin</name></member>
       <member refid="d3/d10/class_modular_1_1_application_1a042d10ca7d0782adc2a871c07c288007" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>device_mode</name></member>
       <member refid="d3/d10/class_modular_1_1_application_1a605b07766c1bed3ff909fa8362f9985f" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>domain_theme</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1a60afe72eaff81ead20d6aee650c5aa57" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>FileTypeCSS</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1a5406fc068818199246c3aa04504df062" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>FileTypeJavascript</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1a56d58ea651b927b2b656e53347e0f088" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>FileTypeJavascriptTemplate</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a615426d1f5ff4aa4f7cce015da2dbece" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>email</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a819625ad29a3c3e7cc681d3baa9a07dd" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>find_admin_email</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a17b966a8dfa7f8d104c6cb75d5a9506c" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>find_system_admin</name></member>
       <member refid="d3/d10/class_modular_1_1_application_1ab096c671befd594e22708a02babcbeef" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>get_current_page</name></member>
       <member refid="d3/d10/class_modular_1_1_application_1a837267adf501aa1b29ad40505bc10755" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>hostname</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1ad5636a0d98d1230c9abb8a3a49708fc5" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>include_script_types</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1a4b0cfe7b2ac09305fa45656c179a3993" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>js</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1a5af0388a79a0e92bf674b64cb09680ab" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>jst</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1adcefa631050d8f2d9c82aa162c99a51d" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>log_file</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1a3e1b304e64e6a784a791fcfc9aaa529e" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>log_path</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1adca23664f6595af1254859dec4a884f9" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>make_safe_path</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1aa9a739d83a32406cd5f4737dc9a85825" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>module_name</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1ad165d2c3a8fd6e7ab5236b60abcfa84f" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>module_path</name></member>
-      <member refid="d3/d10/class_modular_1_1_application_1a05b634f46207617d32aeda742d72e10f" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>path_for_request</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1a6c2a967c18bc527fe7a8d195603df1e1" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>requirement_path</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1ae47215878a9d80c75708ad0e3935cff6" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>requirements</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a7aa1ce3a96d9310220aad98f8f58b2bf" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>member</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1ac357bb4726bf5016f6bc574d7cf32779" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>register_members_and_emails</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a04229ac7b6c9cbd21922ef032fcdd4c0" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>register_modules</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a255be7baa142175332249dc54cbfeff8" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>register_paths</name></member>
       <member refid="d3/d10/class_modular_1_1_application_1a548c021d3c4fe5a3f376c22956b2f65a" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>requirements_path</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1a71a7945f17e73f99a675768c01d2796e" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>requirements_template_data</name></member>
-      <member refid="d6/d4d/class_modular_1_1_module_1a314a4d81d174bf240c68a22780ab70f4" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>RequirementsTemplateDataExtensionMethod</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1aea8336d6aae313312774967ab31aade1" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>ServiceName</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1ae67d36fdd103b2c7e4a8bff4b24b426e" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>SystemAdmin</name></member>
       <member refid="d3/d10/class_modular_1_1_application_1a9d8c463572024dd0b076bef2abcc5079" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>ThemeDefault</name></member>
       <member refid="d3/d10/class_modular_1_1_application_1a8a01c2c3d0aaf7707ccf55ff09d49b6f" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>ThemeDesktop</name></member>
       <member refid="d3/d10/class_modular_1_1_application_1a5587acd8fd25952d4f7a5c205c10be4e" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>ThemeMobile</name></member>

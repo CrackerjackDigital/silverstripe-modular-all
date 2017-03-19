@@ -3,9 +3,7 @@
   <compounddef id="db/d0a/class_modular_1_1_model" kind="class" prot="public">
     <compoundname>Modular::Model</compoundname>
     <basecompoundref prot="public" virt="non-virtual">DataObject</basecompoundref>
-    <derivedcompoundref refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter" prot="public" virt="non-virtual">GridListFilter</derivedcompoundref>
     <derivedcompoundref refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link" prot="public" virt="non-virtual">InternalOrExternalLink</derivedcompoundref>
-    <derivedcompoundref refid="d8/dce/class_modular_1_1_models_1_1_slide" prot="public" virt="non-virtual">Slide</derivedcompoundref>
     <derivedcompoundref refid="d9/d7f/class_modular_1_1_models_1_1_tag" prot="public" virt="non-virtual">Tag</derivedcompoundref>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -16,14 +14,67 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Invoking a model returns itself. <simplesect kind="return"><para>$this </para></simplesect>
+<para>Invoking a type returns itself.</para><para><simplesect kind="return"><para>$this </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Model.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Model.php" bodystart="12" bodyend="14"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Model.php" line="26" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Model.php" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d0a/class_modular_1_1_model_1af758be52317607e28c2b633561d322f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>model</definition>
+        <argsstring>()</argsstring>
+        <name>model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Model.php" line="30" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Model.php" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d0a/class_modular_1_1_model_1ab8fc514b245975823d2a15d664517eb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>modelClassName</definition>
+        <argsstring>()</argsstring>
+        <name>modelClassName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Model.php" line="51" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Model.php" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d0a/class_modular_1_1_model_1afd35de2c4f85109ad1e9ea6f1902ef0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>modelID</definition>
+        <argsstring>()</argsstring>
+        <name>modelID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Model.php" line="55" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Model.php" bodystart="55" bodyend="57"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d0a/class_modular_1_1_model_1a74fc8d457a9fe7f9dd8c21afc3b5910d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static type</definition>
+        <argsstring>()</argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the model&apos;s class with &apos;_&apos; instead of namespace seperator. <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Model.php" line="38" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Model.php" bodystart="38" bodyend="40"/>
+      </memberdef>
       <memberdef kind="function" id="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>static</type>
         <definition>static class_name</definition>
@@ -32,10 +83,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Patch until php 5.6 static::class is widely available on servers</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/storage/build/modular-all/develop/modular/code/Model.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Model.php" bodystart="16" bodyend="18"/>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Model.php" line="47" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Model.php" bodystart="47" bodyend="49"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -43,55 +95,47 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1156">
-        <label>GridListFilter</label>
-        <link refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter"/>
-        <childnode refid="1154" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="1155">
+      <node id="186">
         <label>DataObject</label>
       </node>
-      <node id="1157">
+      <node id="187">
         <label>InternalOrExternalLink</label>
         <link refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link"/>
-        <childnode refid="1154" relation="public-inheritance">
+        <childnode refid="185" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1158">
-        <label>Slide</label>
-        <link refid="d8/dce/class_modular_1_1_models_1_1_slide"/>
-        <childnode refid="1154" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="1154">
+      <node id="185">
         <label>Model</label>
         <link refid="db/d0a/class_modular_1_1_model"/>
-        <childnode refid="1155" relation="public-inheritance">
+        <childnode refid="186" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1159">
+      <node id="188">
         <label>Tag</label>
         <link refid="d9/d7f/class_modular_1_1_models_1_1_tag"/>
-        <childnode refid="1154" relation="public-inheritance">
+        <childnode refid="185" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1161">
+      <node id="190">
         <label>DataObject</label>
       </node>
-      <node id="1160">
+      <node id="189">
         <label>Model</label>
         <link refid="db/d0a/class_modular_1_1_model"/>
-        <childnode refid="1161" relation="public-inheritance">
+        <childnode refid="190" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/mnt/storage/build/modular-all/develop/modular/code/Model.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Model.php" bodystart="4" bodyend="19"/>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/Model.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Model.php" bodystart="15" bodyend="58"/>
     <listofallmembers>
       <member refid="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Model</scope><name>__invoke</name></member>
       <member refid="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Model</scope><name>class_name</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1af758be52317607e28c2b633561d322f6" prot="public" virt="non-virtual"><scope>Modular::Model</scope><name>model</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1ab8fc514b245975823d2a15d664517eb0" prot="public" virt="non-virtual"><scope>Modular::Model</scope><name>modelClassName</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1afd35de2c4f85109ad1e9ea6f1902ef0b" prot="public" virt="non-virtual"><scope>Modular::Model</scope><name>modelID</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1a74fc8d457a9fe7f9dd8c21afc3b5910d" prot="public" virt="non-virtual"><scope>Modular::Model</scope><name>type</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

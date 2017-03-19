@@ -6,6 +6,27 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>struct <link linkend="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash">Modular::Extensions::Model::CacheHash</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d5/d5e/class_modular_1_1_extensions_1_1_model_1_1_historical">Modular::Extensions::Model::Historical</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data">Modular::Extensions::Model::SystemData</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>struct <link linkend="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique">Modular::Extensions::Model::Unique</link></para>
                     </listitem>
                 </itemizedlist>

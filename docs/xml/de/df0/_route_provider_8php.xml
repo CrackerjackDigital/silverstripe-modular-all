@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/df0/_route_provider_8php" kind="file">
+    <compoundname>RouteProvider.php</compoundname>
+    <innerclass refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider" prot="public">Modular::Interfaces::RouteProvider</innerclass>
+    <innernamespace refid="d5/d56/namespace_modular_1_1_interfaces">Modular::Interfaces</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Interfaces;</highlight></codeline>
+<codeline lineno="9" refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider" refkind="compound"><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider" kindref="compound">RouteProvider</ref><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider_1a57102936c05e571c397f794a752795a5" kindref="member">routes</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/RouteProvider.php"/>
+  </compounddef>
+</doxygen>

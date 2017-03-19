@@ -23,21 +23,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d1/dd3/namespace_modular_1_1_exceptions_1_1_exception">Modular::Exceptions::Exception</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>struct <link linkend="d9/d57/namespace_modular_1_1_interfaces_1_1_logger">Modular::Interfaces::Logger</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>struct <link linkend="d4/de0/namespace_s_s___log">SS_Log</link></para>
+                        <para>struct <link linkend="d9/d7f/namespace_modular_1_1_traits_1_1bitfield">Modular::Traits::bitfield</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

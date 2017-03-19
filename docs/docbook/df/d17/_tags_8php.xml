@@ -6,7 +6,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="dc/da5/class_modular_1_1_admin_1_1_tag_admin">Modular::Admin::TagAdmin</link></para>
+                        <para>struct <link linkend="da/d28/class_modular_1_1_admin_1_1_tags_admin">Modular::Admin::TagsAdmin</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

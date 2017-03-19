@@ -176,30 +176,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1008">
+      <node id="155">
         <label>Object</label>
         <link refid="da/d08/class_modular_1_1_object"/>
-        <childnode refid="1008" relation="public-inheritance">
+        <childnode refid="155" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1007">
+      <node id="154">
         <label>JSON</label>
         <link refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n"/>
-        <childnode refid="1008" relation="public-inheritance">
+        <childnode refid="155" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1010">
+      <node id="157">
         <label>Object</label>
         <link refid="da/d08/class_modular_1_1_object"/>
-        <childnode refid="1010" relation="public-inheritance">
+        <childnode refid="157" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1009">
+      <node id="156">
         <label>JSON</label>
         <link refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n"/>
-        <childnode refid="1010" relation="public-inheritance">
+        <childnode refid="157" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
@@ -210,6 +210,7 @@
       <member refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1af200622e3f0f5ce4418ee520d4b5ef28" prot="private" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>$json_encode_options</name></member>
       <member refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a77799a2023402b12ba3a92e2ffc81907" prot="private" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>$objects_as_arrays</name></member>
       <member refid="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>__invoke</name></member>
+      <member refid="da/d08/class_modular_1_1_object_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>class_name</name></member>
       <member refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1ae8335fd228287b41f7705e94cd591080" prot="public" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>decode</name></member>
       <member refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a2e91ceea8912dbc2050d6abc6e885ca5" prot="public" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>encode</name></member>
       <member refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a14bd7023b7285e461f8ac04e5d9c82d9" prot="public" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>json_decode_options</name></member>

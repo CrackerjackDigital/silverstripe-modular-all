@@ -15,7 +15,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Behaviours;</highlight></codeline>
+<codeline lineno="2" refid="df/dee/namespace_modular_1_1_behaviours" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Behaviours;</highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal">use<sp/>CMSPreviewable;</highlight></codeline>
 <codeline lineno="5"><highlight class="normal">use<sp/>Controller;</highlight></codeline>

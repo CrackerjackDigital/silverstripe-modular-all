@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d5/dfc/class_modular_1_1_controllers_1_1_model">
+<title>Modular::Controllers::Model class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ModelClassName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $route_prefix</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $alternate_route</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d5/dfc/class_modular_1_1_controllers_1_1_model_1ae4a94b9aada2f6d5944e747138cee057">model_class_name</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d5/dfc/class_modular_1_1_controllers_1_1_model_1a57102936c05e571c397f794a752795a5">routes</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d5/dfc/class_modular_1_1_controllers_1_1_model_1af758be52317607e28c2b633561d322f6">model</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d5/dfc/class_modular_1_1_controllers_1_1_model_1afd35de2c4f85109ad1e9ea6f1902ef0b">modelID</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d5/dfc/class_modular_1_1_controllers_1_1_model_1ab8fc514b245975823d2a15d664517eb0">modelClassName</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d5/dfc/class_modular_1_1_controllers_1_1_model_1ae4a94b9aada2f6d5944e747138cee057">
+                <title>static model_class_name ()</title> <emphasis></emphasis>
+                
+<para>Return the class name of the model this controller manages, e.g &apos;<link linkend="df/df5/namespace_modular">Modular</link>&apos; <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d5/dfc/class_modular_1_1_controllers_1_1_model_1a57102936c05e571c397f794a752795a5">
+                <title>routes ()</title> <emphasis></emphasis>
+                
+<para>Return the primary route to this controller, e.g. [ &apos;modular/social/controllers/post&apos; =&gt; &apos;<link linkend="df/df5/namespace_modular">Modular</link>&apos;, &apos;topics&apos; =&gt; &apos;<link linkend="df/df5/namespace_modular">Modular</link>&apos; // with config.alternate_route set ] </para>
+
+            </section>
+            <section xml:id="d5/dfc/class_modular_1_1_controllers_1_1_model_1af758be52317607e28c2b633561d322f6">
+                <title>model ()</title> <emphasis></emphasis>
+                
+<para>If ModelID is passed as param then use it along with model_class to try and fetch the model. If doesn&apos;t exist then returns null.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>| </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d5/dfc/class_modular_1_1_controllers_1_1_model_1afd35de2c4f85109ad1e9ea6f1902ef0b">
+                <title>modelID ()</title> <emphasis></emphasis>
+                
+<para>Return the ModelID part of the url or null if not set. <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d5/dfc/class_modular_1_1_controllers_1_1_model_1ab8fc514b245975823d2a15d664517eb0">
+                <title>modelClassName ()</title> <emphasis></emphasis>
+                
+<para>returns the config.model_class not the actual model class from the url. <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

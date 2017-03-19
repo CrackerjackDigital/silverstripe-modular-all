@@ -6,7 +6,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows">Modular::GridField::GridFieldOrderableRows</link></para>
+                        <para>struct <link linkend="dd/de8/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_orderable_rows">Modular::GridField::Components::GridFieldOrderableRows</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -16,7 +16,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d3/d7f/namespace_modular_1_1_grid_field">Modular::GridField</link></para>
+                        <para>struct <link linkend="d1/dca/namespace_modular_1_1_grid_field_1_1_components">Modular::GridField::Components</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

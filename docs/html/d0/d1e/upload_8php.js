@@ -1,7 +1,8 @@
 var upload_8php =
 [
-    [ "configureUploadField", "d0/d1e/upload_8php.html#ad3267303429bf001abe95cb2ad8ad778", null ],
-    [ "makeUploadField", "d0/d1e/upload_8php.html#a89b171639eb5b84aa423822c163c914f", null ],
-    [ "uploadFolderName", "d0/d1e/upload_8php.html#a83bd3e1e721645ae5cd530de2e2bfb0d", null ],
+    [ "allowAttachExisting", "d0/d1e/upload_8php.html#a5ef5030499d09da1b440aa56cd0b22ce", null ],
+    [ "configureUploadField", "d0/d1e/upload_8php.html#a1da1358efcdb064c10787a693a04cee0", null ],
+    [ "makeUploadField", "d0/d1e/upload_8php.html#ae5e59977c7cc24ab75649a4568091e32", null ],
+    [ "uploadFolderName", "d0/d1e/upload_8php.html#a7fc27daabe6435d3ed6bdc09b8b99550", null ],
     [ "upload", "d0/d1e/upload_8php.html#aab380e91a6e89eb7d572417a59dbdbdc", null ]
 ];

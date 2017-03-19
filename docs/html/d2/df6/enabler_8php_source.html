@@ -106,22 +106,32 @@ $(document).ready(function(){initNavTree('d2/df6/enabler_8php_source.html','../.
 </div><!--header-->
 <div class="contents">
 <a href="../../d2/df6/enabler_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">namespace </span>Modular;</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;trait enabler {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> enabled() {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        return \Config::inst()-&gt;get(get_called_class(), <span class="stringliteral">&#39;enabled&#39;</span>);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    }</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> enable() {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        \Config::inst()-&gt;update(get_called_class(), <span class="stringliteral">&#39;enabled&#39;</span>, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> disable() {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        \Config::inst()-&gt;update(get_called_class(), <span class="stringliteral">&#39;enabled&#39;</span>, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">namespace </span>Modular\Traits;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;trait enabler {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> cmsFields($mode = null) {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">if</span> (static::enabled()) {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            <span class="keywordflow">return</span> parent::cmsFields($mode);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">return</span> [];</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    }</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> enabled() {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        $configVarName = defined(<span class="stringliteral">&#39;static::EnablerConfigVar&#39;</span>) ? static::EnablerConfigVar : <span class="stringliteral">&#39;enabled&#39;</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span> (<span class="keywordtype">bool</span>)\Config::inst()-&gt;get(get_called_class(), $configVarName);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> enable($enable = <span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        $configVarName = defined(<span class="stringliteral">&#39;static::EnablerConfigVar&#39;</span>) ? static::EnablerConfigVar : <span class="stringliteral">&#39;enabled&#39;</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        \Config::inst()-&gt;update(get_called_class(), $configVarName, $enable);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> disable() {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        $old = static::enabled();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        $configVarName = defined(<span class="stringliteral">&#39;static::EnablerConfigVar&#39;</span>) ? static::EnablerConfigVar : <span class="stringliteral">&#39;enabled&#39;</span>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        \Config::inst()-&gt;update(get_called_class(), $configVarName, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> $old;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

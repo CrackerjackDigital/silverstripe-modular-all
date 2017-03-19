@@ -88,10 +88,10 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="359">
+      <node id="65">
         <label>Exception</label>
         <link refid="d0/dfe/interface_modular_1_1_interfaces_1_1_exception"/>
-        <childnode refid="359" relation="public-inheritance">
+        <childnode refid="65" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

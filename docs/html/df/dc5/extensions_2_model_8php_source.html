@@ -108,30 +108,69 @@ $(document).ready(function(){initNavTree('df/dc5/extensions_2_model_8php_source.
 <a href="../../df/dc5/extensions_2_model_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">namespace </span>Modular;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;use Modular\config;</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;use Modular\enabler;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;use Modular\owned;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;use \DataExtension;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d1/da3/class_modular_1_1_model_extension.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d1/da3/class_modular_1_1_model_extension.html">ModelExtension</a> <span class="keyword">extends</span> DataExtension {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    use config;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    use enabler;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    use owned;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d1/da3/class_modular_1_1_model_extension.html#afe6cf403f39e693b46948bc6d57e83dc">   14</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="../../d1/da3/class_modular_1_1_model_extension.html#afe6cf403f39e693b46948bc6d57e83dc">class_name</a>() {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordflow">return</span> get_called_class();</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    }</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../d1/da3/class_modular_1_1_model_extension.html#acd35094179636b6ddee4f3bd45cb66c0">   22</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../d1/da3/class_modular_1_1_model_extension.html#acd35094179636b6ddee4f3bd45cb66c0">writeAndReturn</a>() {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">if</span> ($this()-&gt;write()) {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keywordflow">return</span> $this();</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">return</span> null;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
-<div class="ttc" id="class_modular_1_1_model_extension_html"><div class="ttname"><a href="../../d1/da3/class_modular_1_1_model_extension.html">Modular\ModelExtension</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc5/extensions_2_model_8php_source.html#l00009">extensions/Model.php:9</a></div></div>
-<div class="ttc" id="class_modular_1_1_model_extension_html_acd35094179636b6ddee4f3bd45cb66c0"><div class="ttname"><a href="../../d1/da3/class_modular_1_1_model_extension.html#acd35094179636b6ddee4f3bd45cb66c0">Modular\ModelExtension\writeAndReturn</a></div><div class="ttdeci">writeAndReturn()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc5/extensions_2_model_8php_source.html#l00022">extensions/Model.php:22</a></div></div>
-<div class="ttc" id="class_modular_1_1_model_extension_html_afe6cf403f39e693b46948bc6d57e83dc"><div class="ttname"><a href="../../d1/da3/class_modular_1_1_model_extension.html#afe6cf403f39e693b46948bc6d57e83dc">Modular\ModelExtension\class_name</a></div><div class="ttdeci">static class_name()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc5/extensions_2_model_8php_source.html#l00014">extensions/Model.php:14</a></div></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;use DataExtension;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;use <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a10794fddeae75cfbecb872f67827aa8c">Modular\Traits\config</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;use Modular\Traits\debugging;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;use Modular\Traits\enabler;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;use Modular\Traits\owned;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;use <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a5c907a6211e0669e5fe3c298d12906ce">Modular\Traits\related</a>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../d1/da3/class_modular_1_1_model_extension.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d1/da3/class_modular_1_1_model_extension.html">ModelExtension</a> <span class="keyword">extends</span> DataExtension {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    use <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a10794fddeae75cfbecb872f67827aa8c">config</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    use enabler;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    use owned;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    use debugging;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    use <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a5c907a6211e0669e5fe3c298d12906ce">related</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../d1/da3/class_modular_1_1_model_extension.html#af758be52317607e28c2b633561d322f6">   22</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../d1/da3/class_modular_1_1_model_extension.html#af758be52317607e28c2b633561d322f6">model</a>() {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> $this();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d1/da3/class_modular_1_1_model_extension.html#afe6cf403f39e693b46948bc6d57e83dc">   30</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="../../d1/da3/class_modular_1_1_model_extension.html#afe6cf403f39e693b46948bc6d57e83dc">class_name</a>() {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">return</span> get_called_class();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="../../d1/da3/class_modular_1_1_model_extension.html#acd35094179636b6ddee4f3bd45cb66c0">   40</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../d1/da3/class_modular_1_1_model_extension.html#acd35094179636b6ddee4f3bd45cb66c0">writeAndReturn</a>() {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">if</span> ($this()-&gt;write()) {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="keywordflow">return</span> $this();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="../../d1/da3/class_modular_1_1_model_extension.html#a55f8dabe1bcea5e6b483126eb80aee8c">   54</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="../../d1/da3/class_modular_1_1_model_extension.html#a55f8dabe1bcea5e6b483126eb80aee8c">remove_own_fields</a>(\FieldList $fields, $removeDBFields = <span class="keyword">true</span>, $removeHasOneFields = <span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        $ownDBFields = $removeDBFields</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            ? (\Config::inst()-&gt;get(get_called_class(), <span class="stringliteral">&#39;db&#39;</span>) ?: [])</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            : [];</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        $ownHasOneFields = $removeHasOneFields</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            ? (\Config::inst()-&gt;get(get_called_class(), <span class="stringliteral">&#39;has_one&#39;</span>) ?: [])</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            : [];</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        $ownFields = array_merge(</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            array_keys($ownDBFields),</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            array_map(</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                <span class="keyword">function</span> ($item) {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                    <span class="keywordflow">return</span> $item . <span class="stringliteral">&#39;ID&#39;</span>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                },</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                array_keys($ownHasOneFields)</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            )</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        );</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        array_map(</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keyword">function</span> ($fieldName) use ($fields) {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                $fields-&gt;removeByName($fieldName);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            },</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            $ownFields</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        );</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div>
+<div class="ttc" id="class_modular_1_1_model_extension_html_a55f8dabe1bcea5e6b483126eb80aee8c"><div class="ttname"><a href="../../d1/da3/class_modular_1_1_model_extension.html#a55f8dabe1bcea5e6b483126eb80aee8c">Modular\ModelExtension\remove_own_fields</a></div><div class="ttdeci">static remove_own_fields(\FieldList $fields, $removeDBFields=true, $removeHasOneFields=true)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc5/extensions_2_model_8php_source.html#l00054">extensions/Model.php:54</a></div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_a5c907a6211e0669e5fe3c298d12906ce"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#a5c907a6211e0669e5fe3c298d12906ce">Modular\Traits\related</a></div><div class="ttdeci">trait related</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc7/related_8php_source.html#l00011">related.php:11</a></div></div>
+<div class="ttc" id="class_modular_1_1_model_extension_html"><div class="ttname"><a href="../../d1/da3/class_modular_1_1_model_extension.html">Modular\ModelExtension</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc5/extensions_2_model_8php_source.html#l00011">extensions/Model.php:11</a></div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_a10794fddeae75cfbecb872f67827aa8c"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#a10794fddeae75cfbecb872f67827aa8c">Modular\Traits\config</a></div><div class="ttdeci">trait config</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d45/config_8php_source.html#l00006">config.php:6</a></div></div>
+<div class="ttc" id="class_modular_1_1_model_extension_html_acd35094179636b6ddee4f3bd45cb66c0"><div class="ttname"><a href="../../d1/da3/class_modular_1_1_model_extension.html#acd35094179636b6ddee4f3bd45cb66c0">Modular\ModelExtension\writeAndReturn</a></div><div class="ttdeci">writeAndReturn()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc5/extensions_2_model_8php_source.html#l00040">extensions/Model.php:40</a></div></div>
+<div class="ttc" id="class_modular_1_1_model_extension_html_afe6cf403f39e693b46948bc6d57e83dc"><div class="ttname"><a href="../../d1/da3/class_modular_1_1_model_extension.html#afe6cf403f39e693b46948bc6d57e83dc">Modular\ModelExtension\class_name</a></div><div class="ttdeci">static class_name()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc5/extensions_2_model_8php_source.html#l00030">extensions/Model.php:30</a></div></div>
+<div class="ttc" id="class_modular_1_1_model_extension_html_af758be52317607e28c2b633561d322f6"><div class="ttname"><a href="../../d1/da3/class_modular_1_1_model_extension.html#af758be52317607e28c2b633561d322f6">Modular\ModelExtension\model</a></div><div class="ttdeci">model()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc5/extensions_2_model_8php_source.html#l00022">extensions/Model.php:22</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

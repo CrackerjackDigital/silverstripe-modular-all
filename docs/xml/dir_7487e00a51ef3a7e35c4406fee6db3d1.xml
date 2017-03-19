@@ -2,7 +2,6 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="dir_7487e00a51ef3a7e35c4406fee6db3d1" kind="dir">
     <compoundname>admin</compoundname>
-    <innerfile refid="da/d10/_grid_list_filters_8php">GridListFilters.php</innerfile>
     <innerfile refid="d6/d34/_model_admin_8php">ModelAdmin.php</innerfile>
     <innerfile refid="d7/d64/_publisher_8php">Publisher.php</innerfile>
     <innerfile refid="df/d17/_tags_8php">Tags.php</innerfile>

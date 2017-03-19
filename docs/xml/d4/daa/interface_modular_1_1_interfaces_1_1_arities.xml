@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/daa/interface_modular_1_1_interfaces_1_1_arities" kind="interface" prot="public">
+    <compoundname>Modular::Interfaces::Arities</compoundname>
+    <derivedcompoundref refid="d6/d8e/class_modular_1_1_helpers_1_1_reflection" prot="public" virt="non-virtual">Reflection</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1acd9ee15429075e0908d6895a4a74aa7d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const HasOne</definition>
+        <argsstring></argsstring>
+        <name>HasOne</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Aritites.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Aritites.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1a7088d64537fcda81cde55394e5ec5dd6" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const HasMany</definition>
+        <argsstring></argsstring>
+        <name>HasMany</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Aritites.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Aritites.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1aeab6b11b4811ea7ef4606cc92bfbd887" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ManyMany</definition>
+        <argsstring></argsstring>
+        <name>ManyMany</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Aritites.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Aritites.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1ac03c91a0f3217cfe37afe64b8c0518ee" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const BelongsManyMany</definition>
+        <argsstring></argsstring>
+        <name>BelongsManyMany</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Aritites.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Aritites.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1ab3cdf5bbd29f4c6f27236199bcc08456" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const AllArities</definition>
+        <argsstring></argsstring>
+        <name>AllArities</name>
+        <initializer>= 15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Aritites.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Aritites.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="14">
+        <label>Arities</label>
+        <link refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities"/>
+      </node>
+      <node id="15">
+        <label>Reflection</label>
+        <link refid="d6/d8e/class_modular_1_1_helpers_1_1_reflection"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Aritites.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Aritites.php" bodystart="4" bodyend="13"/>
+    <listofallmembers>
+      <member refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1ab3cdf5bbd29f4c6f27236199bcc08456" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Arities</scope><name>AllArities</name></member>
+      <member refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1ac03c91a0f3217cfe37afe64b8c0518ee" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Arities</scope><name>BelongsManyMany</name></member>
+      <member refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1a7088d64537fcda81cde55394e5ec5dd6" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Arities</scope><name>HasMany</name></member>
+      <member refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1acd9ee15429075e0908d6895a4a74aa7d" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Arities</scope><name>HasOne</name></member>
+      <member refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1aeab6b11b4811ea7ef4606cc92bfbd887" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Arities</scope><name>ManyMany</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

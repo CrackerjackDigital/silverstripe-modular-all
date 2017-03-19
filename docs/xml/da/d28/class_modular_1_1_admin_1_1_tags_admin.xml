@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/d28/class_modular_1_1_admin_1_1_tags_admin" kind="class" prot="public">
+    <compoundname>Modular::Admin::TagsAdmin</compoundname>
+    <basecompoundref refid="df/d5e/class_modular_1_1_admin_1_1_model_admin" prot="public" virt="non-virtual">ModelAdmin</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="da/d28/class_modular_1_1_admin_1_1_tags_admin_1a601575da8f098bf1082313adbacc4f15" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$menu_title</definition>
+        <argsstring></argsstring>
+        <name>$menu_title</name>
+        <initializer>= &apos;Tags&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Tags.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Tags.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d28/class_modular_1_1_admin_1_1_tags_admin_1a7695769cca5ab4b657734938a55bc1ca" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$url_segment</definition>
+        <argsstring></argsstring>
+        <name>$url_segment</name>
+        <initializer>= &apos;tags&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Tags.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Tags.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d28/class_modular_1_1_admin_1_1_tags_admin_1a0f59c4f33cb277a6e04ce3cafdb27e2c" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$managed_models</definition>
+        <argsstring></argsstring>
+        <name>$managed_models</name>
+        <initializer>= [
+		&apos;<ref refid="d9/d7f/class_modular_1_1_models_1_1_tag" kindref="compound">Modular\Models\Tag</ref>&apos;
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Tags.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Tags.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="288">
+        <label>ModelAdmin</label>
+        <link refid="df/d5e/class_modular_1_1_admin_1_1_model_admin"/>
+        <childnode refid="288" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="287">
+        <label>TagsAdmin</label>
+        <link refid="da/d28/class_modular_1_1_admin_1_1_tags_admin"/>
+        <childnode refid="288" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="290">
+        <label>ModelAdmin</label>
+        <link refid="df/d5e/class_modular_1_1_admin_1_1_model_admin"/>
+        <childnode refid="290" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="289">
+        <label>TagsAdmin</label>
+        <link refid="da/d28/class_modular_1_1_admin_1_1_tags_admin"/>
+        <childnode refid="290" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Tags.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Tags.php" bodystart="4" bodyend="13"/>
+    <listofallmembers>
+      <member refid="da/d28/class_modular_1_1_admin_1_1_tags_admin_1a0f59c4f33cb277a6e04ce3cafdb27e2c" prot="private" virt="non-virtual"><scope>Modular::Admin::TagsAdmin</scope><name>$managed_models</name></member>
+      <member refid="da/d28/class_modular_1_1_admin_1_1_tags_admin_1a601575da8f098bf1082313adbacc4f15" prot="private" virt="non-virtual"><scope>Modular::Admin::TagsAdmin</scope><name>$menu_title</name></member>
+      <member refid="da/d28/class_modular_1_1_admin_1_1_tags_admin_1a7695769cca5ab4b657734938a55bc1ca" prot="private" virt="non-virtual"><scope>Modular::Admin::TagsAdmin</scope><name>$url_segment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

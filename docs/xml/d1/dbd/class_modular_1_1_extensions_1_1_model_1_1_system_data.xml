@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data" kind="class" prot="public">
+    <compoundname>Modular::Extensions::Model::SystemData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TypedField</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">BoolType</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data_1a0a4ca0167e542e3b994281f9f847ea07" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <initializer>= &apos;SystemDataFlag&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/SystemData.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/SystemData.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data_1ade07d105b58bd4ddd247db5b64d202a3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const YesValue</definition>
+        <argsstring></argsstring>
+        <name>YesValue</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/SystemData.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/SystemData.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data_1a8a141de9a3b5c90d75e78bf62394d3ec" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const NoValue</definition>
+        <argsstring></argsstring>
+        <name>NoValue</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/SystemData.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/SystemData.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data_1a8d376199cc641e3e7af6e1a0d5c736d9" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$enabled</definition>
+        <argsstring></argsstring>
+        <name>$enabled</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/SystemData.php" line="23" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/SystemData.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data_1a5efd4d262663f72376e710e4b5f81077" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>augmentSQL</definition>
+        <argsstring>(SQLQuery &amp;$query)</argsstring>
+        <name>augmentSQL</name>
+        <param>
+          <type>SQLQuery &amp;</type>
+          <declname>$query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/SystemData.php" line="25" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/SystemData.php" bodystart="25" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This extension provides a flag for data which may have &apos;System&apos; significance and so should generally not be returned for the user to view and/or choose, e.g. a RelationshipType may only be useable by the system and not selectable in a dropdown. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="269">
+        <label>SystemData</label>
+        <link refid="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data"/>
+        <childnode refid="270" relation="public-inheritance">
+        </childnode>
+        <childnode refid="271" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="271">
+        <label>BoolType</label>
+      </node>
+      <node id="270">
+        <label>TypedField</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="272">
+        <label>SystemData</label>
+        <link refid="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data"/>
+        <childnode refid="273" relation="public-inheritance">
+        </childnode>
+        <childnode refid="274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="274">
+        <label>BoolType</label>
+      </node>
+      <node id="273">
+        <label>TypedField</label>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/SystemData.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/SystemData.php" bodystart="14" bodyend="33"/>
+    <listofallmembers>
+      <member refid="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data_1a8d376199cc641e3e7af6e1a0d5c736d9" prot="private" virt="non-virtual"><scope>Modular::Extensions::Model::SystemData</scope><name>$enabled</name></member>
+      <member refid="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data_1a5efd4d262663f72376e710e4b5f81077" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::SystemData</scope><name>augmentSQL</name></member>
+      <member refid="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data_1a0a4ca0167e542e3b994281f9f847ea07" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::SystemData</scope><name>Name</name></member>
+      <member refid="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data_1a8a141de9a3b5c90d75e78bf62394d3ec" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::SystemData</scope><name>NoValue</name></member>
+      <member refid="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data_1ade07d105b58bd4ddd247db5b64d202a3" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::SystemData</scope><name>YesValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

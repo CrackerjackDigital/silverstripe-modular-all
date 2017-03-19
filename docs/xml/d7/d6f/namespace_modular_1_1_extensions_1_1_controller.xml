@@ -2,11 +2,13 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d7/d6f/namespace_modular_1_1_extensions_1_1_controller" kind="namespace">
     <compoundname>Modular::Extensions::Controller</compoundname>
-    <innerclass refid="d4/d0e/class_modular_1_1_extensions_1_1_controller_1_1_grid_list_links" prot="public">Modular::Extensions::Controller::GridListLinks</innerclass>
+    <innerclass refid="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content" prot="public">Modular::Extensions::Controller::Content</innerclass>
+    <innerclass refid="da/da3/class_modular_1_1_extensions_1_1_controller_1_1_model" prot="public">Modular::Extensions::Controller::Model</innerclass>
+    <innerclass refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements" prot="public">Modular::Extensions::Controller::Requirements</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridListLinks.php" line="2" column="1"/>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Content.php" line="2" column="1"/>
   </compounddef>
 </doxygen>

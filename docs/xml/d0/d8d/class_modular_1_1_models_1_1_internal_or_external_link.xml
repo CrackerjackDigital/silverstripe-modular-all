@@ -37,7 +37,7 @@
         <definition>const RelatedClassName</definition>
         <argsstring></argsstring>
         <name>RelatedClassName</name>
-        <initializer>= &apos;<ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Modular\Blocks\Block</ref>&apos;</initializer>
+        <initializer>= &apos;Modular\Block&apos;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -84,7 +84,7 @@
         <argsstring></argsstring>
         <name>$summary_fields</name>
         <initializer>= [
-		&apos;<ref refid="d2/dde/class_modular_1_1_fields_1_1_title" kindref="compound">Title</ref>&apos;        =&gt; &apos;<ref refid="d2/dde/class_modular_1_1_fields_1_1_title" kindref="compound">Title</ref>&apos;</initializer>
+		&apos;Title&apos;        =&gt; &apos;Title&apos;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -114,36 +114,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="975">
+      <node id="150">
         <label>DataObject</label>
       </node>
-      <node id="973">
+      <node id="148">
         <label>InternalOrExternalLink</label>
         <link refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link"/>
-        <childnode refid="974" relation="public-inheritance">
+        <childnode refid="149" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="974">
+      <node id="149">
         <label>Model</label>
         <link refid="db/d0a/class_modular_1_1_model"/>
-        <childnode refid="975" relation="public-inheritance">
+        <childnode refid="150" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="978">
+      <node id="153">
         <label>DataObject</label>
       </node>
-      <node id="976">
+      <node id="151">
         <label>InternalOrExternalLink</label>
         <link refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link"/>
-        <childnode refid="977" relation="public-inheritance">
+        <childnode refid="152" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="977">
+      <node id="152">
         <label>Model</label>
         <link refid="db/d0a/class_modular_1_1_model"/>
-        <childnode refid="978" relation="public-inheritance">
+        <childnode refid="153" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
@@ -155,9 +155,13 @@
       <member refid="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>__invoke</name></member>
       <member refid="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>class_name</name></member>
       <member refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a815ca6b58e3fa71926a0c12797421bbf" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>getCMSFields</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1af758be52317607e28c2b633561d322f6" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>model</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1ab8fc514b245975823d2a15d664517eb0" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>modelClassName</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1afd35de2c4f85109ad1e9ea6f1902ef0b" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>modelID</name></member>
       <member refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a0c616e562eff7e4bf6b10e3ecacc226b" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>RelatedClassName</name></member>
       <member refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>RelationshipName</name></member>
       <member refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a58d45c13ab7488436af7f47e52721141" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>SortFieldName</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1a74fc8d457a9fe7f9dd8c21afc3b5910d" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>type</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

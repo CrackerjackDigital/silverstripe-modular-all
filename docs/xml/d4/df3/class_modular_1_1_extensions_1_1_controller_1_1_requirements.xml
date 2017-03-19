@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements" kind="class" prot="public">
+    <compoundname>Modular::Extensions::Controller::Requirements</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Extension</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1a52b4d6b381ac4f287064fe1c9b195efe" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ApplicationServiceClassName</definition>
+        <argsstring></argsstring>
+        <name>ApplicationServiceClassName</name>
+        <initializer>= &apos;<ref refid="d3/d10/class_modular_1_1_application" kindref="compound">Application</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Requirements.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Requirements.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1abe152804322366290014448cf1ccb117" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>onBeforeInit</definition>
+        <argsstring>()</argsstring>
+        <name>onBeforeInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Requirements.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Requirements.php" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1a85ff8d296a4025790e312c4f2b6d8dae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>onAfterInit</definition>
+        <argsstring>()</argsstring>
+        <name>onAfterInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Requirements.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Requirements.php" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="246">
+        <label>Extension</label>
+      </node>
+      <node id="245">
+        <label>Requirements</label>
+        <link refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements"/>
+        <childnode refid="246" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="248">
+        <label>Extension</label>
+      </node>
+      <node id="247">
+        <label>Requirements</label>
+        <link refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements"/>
+        <childnode refid="248" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Requirements.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Requirements.php" bodystart="7" bodyend="24"/>
+    <listofallmembers>
+      <member refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1a52b4d6b381ac4f287064fe1c9b195efe" prot="public" virt="non-virtual"><scope>Modular::Extensions::Controller::Requirements</scope><name>ApplicationServiceClassName</name></member>
+      <member refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1a85ff8d296a4025790e312c4f2b6d8dae" prot="public" virt="non-virtual"><scope>Modular::Extensions::Controller::Requirements</scope><name>onAfterInit</name></member>
+      <member refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1abe152804322366290014448cf1ccb117" prot="public" virt="non-virtual"><scope>Modular::Extensions::Controller::Requirements</scope><name>onBeforeInit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

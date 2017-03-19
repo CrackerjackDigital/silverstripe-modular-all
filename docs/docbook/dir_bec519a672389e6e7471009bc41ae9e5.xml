@@ -6,6 +6,13 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>file <link linkend="d5/d13/backprop_8php">backprop.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>file <link linkend="dc/d65/bitfield_8php">bitfield.php</link></para>
                     </listitem>
                 </itemizedlist>
@@ -27,6 +34,27 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>file <link linkend="db/d2b/custom__create_8php">custom_create.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d5/db6/custom__get_8php">custom_get.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d1/d30/custom__many__many_8php">custom_many_many.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>file <link linkend="d5/d99/debugging_8php">debugging.php</link></para>
                     </listitem>
                 </itemizedlist>
@@ -34,7 +62,28 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>file <link linkend="d9/d01/dycache_8php">dycache.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d8/d0e/emailer_8php">emailer.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>file <link linkend="d2/df6/enabler_8php">enabler.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d5/d84/generator_8php">generator.php</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -49,6 +98,27 @@
                 <itemizedlist>
                     <listitem>
                         <para>file <link linkend="d5/d5f/lang_8php">lang.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="de/d96/md5_8php">md5.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d4/df4/microtimestamp_8php">microtimestamp.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="da/d08/mode_8php">mode.php</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -90,7 +160,28 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>file <link linkend="dd/d70/routing_8php">routing.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d3/d5d/timestamp_8php">timestamp.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>file <link linkend="d0/d1d/tokens_8php">tokens.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d8/d30/trackable_8php">trackable.php</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

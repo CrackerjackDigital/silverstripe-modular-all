@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash">
+<title>Modular::Extensions::Model::CacheHash class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const CacheHashFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $db</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash_1af9aa034ad033005279bd790155e683fa">onBeforeWrite</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash_1a213229a86f85648664bc4b55909c9477">cacheHashInvalidate</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash_1af9aa034ad033005279bd790155e683fa">
+                <title>onBeforeWrite ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash_1a213229a86f85648664bc4b55909c9477">
+                <title>cacheHashInvalidate ()</title> <emphasis></emphasis>
+                
+<para>Set <link linkend="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash">CacheHash</link> field to null, this will also trigger an &apos;isChanged&apos; next write. </para>
+
+            </section>
+</section>

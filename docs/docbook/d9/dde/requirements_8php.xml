@@ -6,14 +6,14 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="df/df5/namespace_modular">Modular</link></para>
+                        <para>struct <link linkend="d1/dbf/namespace_modular_1_1_traits">Modular::Traits</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d0/df2/namespace_quaff_1_1_module">Quaff::Module</link></para>
+                        <para>struct <link linkend="d2/d4d/namespace_modular_1_1_application">Modular::Application</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

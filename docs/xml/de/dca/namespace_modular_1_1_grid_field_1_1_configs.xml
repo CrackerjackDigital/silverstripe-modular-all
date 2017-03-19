@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/dca/namespace_modular_1_1_grid_field_1_1_configs" kind="namespace">
+    <compoundname>Modular::GridField::Configs</compoundname>
+    <innerclass refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config" prot="public">Modular::GridField::Configs::GridFieldConfig</innerclass>
+    <innerclass refid="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks" prot="public">Modular::GridField::Configs::HasBlocks</innerclass>
+    <innerclass refid="d2/d4a/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_grid_field_config" prot="public">Modular::GridField::Configs::HasManyGridFieldConfig</innerclass>
+    <innerclass refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config" prot="public">Modular::GridField::Configs::HasManyManyGridFieldConfig</innerclass>
+    <innerclass refid="d4/dbd/class_modular_1_1_grid_field_1_1_configs_1_1_has_media_grid_field_config" prot="public">Modular::GridField::Configs::HasMediaGridFieldConfig</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

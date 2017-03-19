@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_00ba62ba3b56acb09bca5269b97de754" kind="dir">
+    <compoundname>controller</compoundname>
+    <innerfile refid="dc/df7/_content_8php">Content.php</innerfile>
+    <innerfile refid="d8/dd3/extensions_2controller_2_model_8php">extensions/controller/Model.php</innerfile>
+    <innerfile refid="d6/df3/_requirements_8php">Requirements.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/"/>
+  </compounddef>
+</doxygen>

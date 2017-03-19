@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data">
+<title>Modular::Extensions::Model::SystemData class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const Name</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const YesValue</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const NoValue</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $enabled</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data_1a5efd4d262663f72376e710e4b5f81077">augmentSQL</link> (
+SQLQuery &amp; $query)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>This extension provides a flag for data which may have &apos;System&apos; significance and so should generally not be returned for the user to view and/or choose, e.g. a RelationshipType may only be useable by the system and not selectable in a dropdown. </para>
+                <para>Definition at line 14 of file SystemData.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>SystemData.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data_1a5efd4d262663f72376e710e4b5f81077">
+                <title>augmentSQL (SQLQuery &amp;$query)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

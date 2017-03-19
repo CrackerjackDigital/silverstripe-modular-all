@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode">
+<title>Modular::Interfaces::HasMode interface Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const DefaultMode</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1ab97d3bd978f98490101928ee4321131f">mode</link> (
+ $setMode)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1ab97d3bd978f98490101928ee4321131f">
+                <title>mode ($setMode=self::DefaultMode)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

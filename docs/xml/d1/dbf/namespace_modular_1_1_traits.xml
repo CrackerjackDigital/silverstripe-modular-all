@@ -1,0 +1,2015 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/dbf/namespace_modular_1_1_traits" kind="namespace">
+    <compoundname>Modular::Traits</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="d1/dbf/namespace_modular_1_1_traits_1ad5fffa5f43d5fd928a8629d23a5c38f2" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>backprop</definition>
+        <argsstring></argsstring>
+        <name>backprop</name>
+        <initializer>{
+
+	protected $backprop</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Notify related models (e.g. owning Page via HasPage or Related pages via RelatedPages ) so it shows as modified in CMS when this model changes.</para><para>Care should be taken that this doesn&apos;t happen as part or after a publish, otherwise if the model is published then the owner will be marked as dirty and so will always appear as being &apos;modified&apos; to the CMS.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>gets passed to related models, could be an &apos;event name&apos; e.g. &apos;published&apos; or an originating method name e.g. &apos;onAfterWrite&apos;. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbf/namespace_modular_1_1_traits_1ab6ec396f22f6755ffec105ac3b531d18" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait cache</definition>
+        <argsstring></argsstring>
+        <name>cache</name>
+        <initializer>{
+	protected static $cache_enabled = true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/cache.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/cache.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbf/namespace_modular_1_1_traits_1a10794fddeae75cfbecb872f67827aa8c" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <initializer>{
+	
+	
+	abstract public function <ref refid="d1/dbf/namespace_modular_1_1_traits_1ac28f823331f21e51e6a72d5f5fa02cd4" kindref="member">__invoke</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbf/namespace_modular_1_1_traits_1adae4ea480ae98ac5d23c1db783e9b475" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait dycache</definition>
+        <argsstring></argsstring>
+        <name>dycache</name>
+        <initializer>{
+	protected static $dycache_enabled = true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/dycache.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/dycache.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbf/namespace_modular_1_1_traits_1aaeec1c4eb5b482d0b53b5c00e5b028f4" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait emailer</definition>
+        <argsstring></argsstring>
+        <name>emailer</name>
+        <initializer>{
+	
+	
+	abstract public function debugger($level = <ref refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1af10880406222e821633e7555be7b2dfe" kindref="member">Debugger::LevelFromEnv</ref>, $source = &apos;&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/emailer.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/emailer.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbf/namespace_modular_1_1_traits_1ae960b0a5bbfb3eb075d58ed3954b4dc2" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait generator</definition>
+        <argsstring></argsstring>
+        <name>generator</name>
+        <initializer>{
+	
+	abstract public function <ref refid="d1/dbf/namespace_modular_1_1_traits_1a10794fddeae75cfbecb872f67827aa8c" kindref="member">config</ref>($className = null)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/generator.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/generator.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbf/namespace_modular_1_1_traits_1ad93f74adb67ca4480dd9b8205d8dc01b" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait json</definition>
+        <argsstring></argsstring>
+        <name>json</name>
+        <initializer>{
+	
+	abstract public function model()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/json.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/json.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbf/namespace_modular_1_1_traits_1ab11747a6bd94b097d49ecab7edd4dc70" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait lang</definition>
+        <argsstring></argsstring>
+        <name>lang</name>
+        <initializer>{
+	abstract public function <ref refid="d1/dbf/namespace_modular_1_1_traits_1ac28f823331f21e51e6a72d5f5fa02cd4" kindref="member">__invoke</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbf/namespace_modular_1_1_traits_1a56b07499c89a505cd5aa842bc2a1629b" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <initializer>{
+	
+	protected $mode = <ref refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1a984342ee7cd006dfd2847e636bae60f4" kindref="member">HasMode::DefaultMode</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/mode.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/mode.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbf/namespace_modular_1_1_traits_1a7ee0323274d4232ae304087ace72d82b" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait options</definition>
+        <argsstring></argsstring>
+        <name>options</name>
+        <initializer>{
+	private $options = []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/options.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/options.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbf/namespace_modular_1_1_traits_1a426a76c60639697877e2d702e96443db" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait reflection</definition>
+        <argsstring></argsstring>
+        <name>reflection</name>
+        <initializer>{
+	
+	abstract public function <ref refid="d1/dbf/namespace_modular_1_1_traits_1ac28f823331f21e51e6a72d5f5fa02cd4" kindref="member">__invoke</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/reflection.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/reflection.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbf/namespace_modular_1_1_traits_1a5c907a6211e0669e5fe3c298d12906ce" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait related</definition>
+        <argsstring></argsstring>
+        <name>related</name>
+        <initializer>{
+	
+	abstract public function <ref refid="d1/dbf/namespace_modular_1_1_traits_1ac28f823331f21e51e6a72d5f5fa02cd4" kindref="member">__invoke</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/related.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/related.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbf/namespace_modular_1_1_traits_1a6c855b864666cba1d23cb06f4d0d89f6" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait trackable</definition>
+        <argsstring></argsstring>
+        <name>trackable</name>
+        <initializer>{
+	
+	abstract public function debugger($level = <ref refid="d6/d95/interface_modular_1_1_interfaces_1_1_debugger_1af10880406222e821633e7555be7b2dfe" kindref="member">Debugger::LevelFromEnv</ref>, $source = &apos;&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/trackable.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/trackable.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbf/namespace_modular_1_1_traits_1aab380e91a6e89eb7d572417a59dbdbdc" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait upload</definition>
+        <argsstring></argsstring>
+        <name>upload</name>
+        <initializer>{
+	abstract public function <ref refid="d1/dbf/namespace_modular_1_1_traits_1ac28f823331f21e51e6a72d5f5fa02cd4" kindref="member">__invoke</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/upload.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/upload.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1ac28f823331f21e51e6a72d5f5fa02cd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\__invoke</definition>
+        <argsstring>()</argsstring>
+        <name>__invoke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>When exhibited by a model this should return the model, for an extension it should return the extended model</para><para><simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a124ae34e262f1eca90280ba5371fbefc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\config</definition>
+        <argsstring>()</argsstring>
+        <name>config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a43b62f86127987cdd642e1b05dc2921e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\initBackprop</definition>
+        <argsstring>()</argsstring>
+        <name>initBackprop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" line="31" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a24655750fbc1f4661c1fc3eb0800a450" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\shouldBackProp</definition>
+        <argsstring>($event)</argsstring>
+        <name>shouldBackProp</name>
+        <param>
+          <declname>$event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check if the event is configured as a key in the config.backprop_events array and if so returns it, otherwise false. The value can be an array, object etc which is useful for targets to be advised as part of the backprop notification, and can be managed as per normal config mechanism.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>\Modular\Exceptions\Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" line="43" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a1b1e66d35ed89ed2db41d014732a0f02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\didBackprop</definition>
+        <argsstring>($event)</argsstring>
+        <name>didBackprop</name>
+        <param>
+          <declname>$event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check if an event has already happened.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" line="56" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a2ee5058542d122139c55edff2b3f2ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\backpropData</definition>
+        <argsstring>($event, $data=null)</argsstring>
+        <name>backpropData</name>
+        <param>
+          <declname>$event</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get or set data for an event. Returns the data either way.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" line="67" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a8471d19ecfb6c62380e6f07ab0301007" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\backpropEventInfo</definition>
+        <argsstring>($event)</argsstring>
+        <name>backpropEventInfo</name>
+        <param>
+          <declname>$event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the event info for the event, override to provide results that can&apos;t be declared statically in config. What to store for each event is declared as config.backprop_events on each model, with event as key and a tag as the value. The tag can be a method name to call on the model, a field to copy the value from, a property (not field) on the model or if none of those are available a verbatim value.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of event, e.g. &apos;changing&apos; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed results from dereferencing the value from the event </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" line="83" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" bodystart="83" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a46652f504f22a35a6978d3628af6ba6e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\cache</definition>
+        <argsstring>($key, $value=null)</argsstring>
+        <name>cache</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lookup (if no value provided) or store value in cache.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/cache.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/cache.php" bodystart="14" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1ad6eea59063fefc8ff0ac3383e97dc223" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\cache_enabled</definition>
+        <argsstring>()</argsstring>
+        <name>cache_enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/cache.php" line="31" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/cache.php" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a5b840ce46300d88dea7329825a22829d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\config</definition>
+        <argsstring>($className=null)</argsstring>
+        <name>config</name>
+        <param>
+          <declname>$className</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1aa31b2638ab0f1d26ca2f51f981cdec7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\ownerOverThisConfig</definition>
+        <argsstring>($name, $key=null)</argsstring>
+        <name>ownerOverThisConfig</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Try the owner first then the exhibiting object, only one or the other will be returned with no merging.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string|array|null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" line="24" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a875da1187eb836e3856817be0c77e193" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\thisOverOwnerConfig</definition>
+        <argsstring>($name, $key=null)</argsstring>
+        <name>thisOverOwnerConfig</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Try the exhibiting object then the owner object, only one or the other will be returned with no merging.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string|array|null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" line="35" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1af974615dbf8cf76d9612a51ed498bad1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\ownerOverThisMergedConfig</definition>
+        <argsstring>($name, $key=null)</argsstring>
+        <name>ownerOverThisMergedConfig</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Merge the owner&apos;s config over the exhibiting objects config so owner&apos;s config takes precedence.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>config variable name, e.g &apos;allowed_actions&apos; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional key into config variable if found and variable is an array </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array|null|string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" line="46" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" bodystart="46" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1ab161a3e263904bd6fb740a3e45a12d9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\thisOverOwnerMergedConfig</definition>
+        <argsstring>($name, $key=null)</argsstring>
+        <name>thisOverOwnerMergedConfig</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Merge the exhibiting objects config over the owner&apos;s config so the exhibiting objects config takes precedence.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>config variable name, e.g &apos;allowed_actions&apos; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional key into config variable if found and variable is an array </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array|null|string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" line="66" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" bodystart="66" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a5830eba9cd703f4b8807129af3540e33" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\v_or_n</definition>
+        <argsstring>($value, $key=null)</argsstring>
+        <name>v_or_n</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the value is an array and key exists return the value for the key or null.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>int</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed|null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" line="86" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" bodystart="86" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a24b4626d8f129b2ebdfe26937df058db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\v_or_kv</definition>
+        <argsstring>($value, $key=null)</argsstring>
+        <name>v_or_kv</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the value is an array and key exists return the value for the key or return the value as provided.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>int</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" line="104" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" bodystart="104" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1af0be8cd9657981c8cfbc869ec571331f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\configure</definition>
+        <argsstring>(array $options, $className=null)</argsstring>
+        <name>configure</name>
+        <param>
+          <type>array</type>
+          <declname>$options</declname>
+        </param>
+        <param>
+          <declname>$className</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Given an array of variable name =&gt; value do a config.update for config on the called class or supplied class name.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$className</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional class to configure if not provided get_called_class is used </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" line="121" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" bodystart="121" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a1c382f7a5431d3bd0be9f65d86964ee2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\require_config_setting</definition>
+        <argsstring>($name, $key=null, $className=null, $sourceOptions=null)</argsstring>
+        <name>require_config_setting</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$className</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$sourceOptions</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Require a non-null setting.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$className</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$sourceOptions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>\Modular\Exceptions\Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" line="137" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" bodystart="137" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a72a8aa1a9222f7093866ff73834e7fd7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\get_config_setting</definition>
+        <argsstring>($name, $key=null, $className=null, $sourceOptions=null)</argsstring>
+        <name>get_config_setting</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$className</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$sourceOptions</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if value is an array and key is supplied return this key or null </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$className</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>class name to get config of or null for get_called_class() </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$sourceOptions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>SilverStripe config.get options e.g. Config::UNINHERITED </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array|null|string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" line="159" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" bodystart="159" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a9500d35e9061273edd112d0f20a8518e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\get_config_settings</definition>
+        <argsstring>(array $names, $className, $sourceOptions=null)</argsstring>
+        <name>get_config_settings</name>
+        <param>
+          <type>array</type>
+          <declname>$names</declname>
+        </param>
+        <param>
+          <declname>$className</declname>
+        </param>
+        <param>
+          <declname>$sourceOptions</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return multiple config settings for class as an array in provided order with null as value where not found.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$className</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$names</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>either names as values or names as key and key into value as value </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$sourceOptions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" line="175" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" bodystart="175" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1af075a9ec4cc51cda513462cb002439ea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\match_config_setting</definition>
+        <argsstring>($name, $match, $className=null, $sourceOptions=null)</argsstring>
+        <name>match_config_setting</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$match</declname>
+        </param>
+        <param>
+          <declname>$className</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$sourceOptions</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Do an fnmatch with keys of config var $name to $match and return the first found match.</para><para>e.g. if config.map = [ &apos;Varchar*&apos; =&gt; &apos;String&apos; ] then match_config_setting(&apos;map&apos;, &apos;Varchar(255)&apos;) will return &apos;String&apos;</para><para>Will try a direct &apos;get&apos; first before using matching</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the config var to check, should be a map of [ pattern =&gt; value ] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$match</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>with this test value against keys in the config using fnmatch($key, $match) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$className</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of configuration to get (by default get_called_class will be used). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$sourceOptions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>\Modular\Exceptions\Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" line="203" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/config.php" bodystart="203" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1aa46c7c2762f4b1a0ea62f8cdeda55335" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\dycache</definition>
+        <argsstring>($key, callable $callable=null)</argsstring>
+        <name>dycache</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <type>callable</type>
+          <declname>$callable</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dynamically cache a callable, each time it is fetched by key the callable will be called and the value returned. The result from the call itself is not cached, only the callable.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>callable</parametertype>
+<parametername>$callable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>null|mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/dycache.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/dycache.php" bodystart="15" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a207d66dbdff14872a2ea44a47eb8d80f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\dycache_enabled</definition>
+        <argsstring>()</argsstring>
+        <name>dycache_enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/dycache.php" line="44" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/dycache.php" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a02bc53aecd818473ae22dc813b4cd3c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\emailer_send</definition>
+        <argsstring>($senderAddressOrMemberID, $recipientAddressesOrMemberIDs, $subjectOrLangKey, $messageOrBodyIfNoTemplate, $templatesOrBodyLangKey= &apos;&apos;, $data=[], &amp;$error=null)</argsstring>
+        <name>emailer_send</name>
+        <param>
+          <declname>$senderAddressOrMemberID</declname>
+        </param>
+        <param>
+          <declname>$recipientAddressesOrMemberIDs</declname>
+        </param>
+        <param>
+          <declname>$subjectOrLangKey</declname>
+        </param>
+        <param>
+          <declname>$messageOrBodyIfNoTemplate</declname>
+        </param>
+        <param>
+          <declname>$templatesOrBodyLangKey</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$data</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$error</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$senderAddressOrMemberID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>int</parametertype>
+<parametertype>array</parametertype>
+<parametertype>\Member</parametertype>
+<parametername>$recipientAddressesOrMemberIDs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$subjectOrLangKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>subject for email or a language key to look subject up by </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$messageOrBodyIfNoTemplate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if no template matches then this will be the body, it will be provided as $Message in a found template </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>array</parametertype>
+<parametername>$templatesOrBodyLangKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name(s) of template to use (or list of alternatives), or a language key to lookup the body content with template body </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set to any error message etc if available </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>null</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/emailer.php" line="34" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/emailer.php" bodystart="34" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a8dddbe6c553b8e11dd21a869480a8695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\generator</definition>
+        <argsstring>($seed=null)</argsstring>
+        <name>generator</name>
+        <param>
+          <declname>$seed</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/generator.php" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a1ff0136e7169a274138674632321f882" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\shouldGenerate</definition>
+        <argsstring>()</argsstring>
+        <name>shouldGenerate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return true if config.generate_always is true or the existing value on the model is null. <simplesect kind="return"><para>bool </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>\Modular\Exceptions\Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/generator.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/generator.php" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a6c1123ef67be360ea7d4aa202314999b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\encode</definition>
+        <argsstring>($mode=HasMode::DefaultMode)</argsstring>
+        <name>encode</name>
+        <param>
+          <declname>$mode</declname>
+          <defval><ref refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1a984342ee7cd006dfd2847e636bae60f4" kindref="member">HasMode::DefaultMode</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return model fields as a json string.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/json.php" line="30" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/json.php" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1adc43789ce4ba4cc815e687cd0784b73a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\decode</definition>
+        <argsstring>($data, $mode=HasMode::DefaultMode)</argsstring>
+        <name>decode</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$mode</declname>
+          <defval><ref refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1a984342ee7cd006dfd2847e636bae60f4" kindref="member">HasMode::DefaultMode</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update model fields from array or json encoded string.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array the decoded data if it was encoded </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/json.php" line="43" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/json.php" bodystart="43" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a0cd71bd7c45cb3e61d62fa2e4ec9e797" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\template_encode</definition>
+        <argsstring>($data)</argsstring>
+        <name>template_encode</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encode suitable for a javascript template variable.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/json.php" line="58" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/json.php" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a434d886f12f283009041cc2886872879" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\lang</definition>
+        <argsstring>($key, $default= &apos;&apos;, array $tokens=[])</argsstring>
+        <name>lang</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <declname>$default</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$tokens</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1ac026d9d2c5a5948c3bb61102662772e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\fieldDecoration</definition>
+        <argsstring>($fieldName, $decoration= &apos;Label&apos;, $default= &apos;&apos;, array $tokens=[], $field=null)</argsstring>
+        <name>fieldDecoration</name>
+        <param>
+          <declname>$fieldName</declname>
+        </param>
+        <param>
+          <declname>$decoration</declname>
+          <defval>&apos;Label&apos;</defval>
+        </param>
+        <param>
+          <declname>$default</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$tokens</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <declname>$field</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load message from lang.yml for the extension class (e.g. ImageField) and then the extended class (e.g. FullWidthImageBlock) which may override.</para><para>If not found in lang file use the default.</para><para>Replaces tokens in message as usual merging in some default tokens, such as singular and plural names and the field Title as &apos;label&apos;.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$fieldName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- name of field as it is on the form, e.g. &apos;Title&apos;, &apos;ImageID&apos; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$decoration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- what decoration for the field, e.g. &apos;Title&apos;, &apos;Placeholder&apos;, &apos;Guide&apos; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$default</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$tokens</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" line="29" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" bodystart="29" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1ae3460528ce95de26bc1ade804a471aa8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\fieldDecorationTokens</definition>
+        <argsstring>()</argsstring>
+        <name>fieldDecorationTokens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Override to provide specific tokens for replacement in field decorations as [ &apos;token-name&apos; =&gt; value ] will be filled into decoration text placeholder {token-name}</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" line="75" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" bodystart="75" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1acdda1a5c007a6fbc104799054b01848e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\singularName</definition>
+        <argsstring>()</argsstring>
+        <name>singularName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" line="85" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" bodystart="85" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a7959539eabdaba5d101ec7faf9ec5b03" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\pluralName</definition>
+        <argsstring>()</argsstring>
+        <name>pluralName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" line="94" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" bodystart="94" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a8742eca005b86074846771cf6d84e749" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\get_site_localised_config_setting</definition>
+        <argsstring>($source, $name, $default, array $data=[], $configOptions=null)</argsstring>
+        <name>get_site_localised_config_setting</name>
+        <param>
+          <declname>$source</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$default</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$data</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <declname>$configOptions</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a string from siteConfig.{$source$name} tokeised with $data, otherwise pass through to get_localised_config_string to look in lang file and config.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$default</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$configOptions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" line="114" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" bodystart="114" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1afc7ec396f0f491d377c7fe4d8835448d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\get_localised_config_string</definition>
+        <argsstring>($source, $name, $default, array $data=[], $configOptions=null)</argsstring>
+        <name>get_localised_config_string</name>
+        <param>
+          <declname>$source</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$default</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$data</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <declname>$configOptions</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a string from localised language files or config or default in order of checking existence.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- classname localised too or config classname </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- e.g. fieldname on object or message name in lang </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$default</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- default to use if not found in lang or config </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- data for tokens in resulting string </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$configOptions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- options for config, e.g. Config.UNINHERITED </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" line="131" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/lang.php" bodystart="131" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a63ccc5790fb05f291302e32d8d65f3e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\mode</definition>
+        <argsstring>($setMode=null)</argsstring>
+        <name>mode</name>
+        <param>
+          <declname>$setMode</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$setMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new mode if provided </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string|$this -getter-setter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/mode.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/mode.php" bodystart="15" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1ade55cb98894c763739be6d3506758db7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\options</definition>
+        <argsstring>($options=[], $merge=true)</argsstring>
+        <name>options</name>
+        <param>
+          <declname>$options</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <declname>$merge</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get, set or update options.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametertype>array</parametertype>
+<parametertype>null</parametertype>
+<parametername>$options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$merge</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if false then what is passed overwrites existing if true then will be merged in (if an array) or logical ored (if an int) or set otherwise </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/options.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/options.php" bodystart="17" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a9fd2acedafc85820580733aa492788bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\option</definition>
+        <argsstring>($name, $key=null)</argsstring>
+        <name>option</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$key</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/options.php" line="32" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/options.php" bodystart="32" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a2a6ad49a2d8b941fe48a911da5fbfc36" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\name_from_class_name</definition>
+        <argsstring>($className, $trim=[&apos;Model&apos;, &apos;Social&apos;])</argsstring>
+        <name>name_from_class_name</name>
+        <param>
+          <declname>$className</declname>
+        </param>
+        <param>
+          <declname>$trim</declname>
+          <defval>[&apos;<ref refid="db/d0a/class_modular_1_1_model" kindref="compound">Model</ref>&apos;</defval>
+        </param>
+        <param>
+          <type>&apos;Social&apos;]</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove namespace from a class and trim supplied from start or end of class name e.g. <ref refid="df/df5/namespace_modular" kindref="compound">Modular</ref> -&gt; Organisation</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$className</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/reflection.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/reflection.php" bodystart="18" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1aa20c5aab7606df462acf397873c560e1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\derive_class_name</definition>
+        <argsstring>($modelOrClassName, $stripNamespace=false)</argsstring>
+        <name>derive_class_name</name>
+        <param>
+          <declname>$modelOrClassName</declname>
+        </param>
+        <param>
+          <declname>$stripNamespace</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the class name of the passed thing</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype><ref refid="da/d08/class_modular_1_1_object" kindref="compound">Object</ref></parametertype>
+<parametertype>mixed</parametertype>
+<parametername>$modelOrClassName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$stripNamespace</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/reflection.php" line="40" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/reflection.php" bodystart="40" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1ada2f64f226987343290152caba2fcdfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\extensionsByInterface</definition>
+        <argsstring>($interfaceName)</argsstring>
+        <name>extensionsByInterface</name>
+        <param>
+          <declname>$interfaceName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a list of all extensions on the extended model which implement (or are a class or subclass of) the provided interfaceName via instanceof.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$interfaceName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array of [ className =&gt; extensionInstance ] </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/reflection.php" line="61" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/reflection.php" bodystart="61" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1aa8cebe5f7120c1b7ae514c8a1b899b9a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\subclasses</definition>
+        <argsstring>($excludeThisClass=true)</argsstring>
+        <name>subclasses</name>
+        <param>
+          <declname>$excludeThisClass</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return an map of subclasses of the called class.</para><para>TODO: implement &apos;depthFirst&apos; flag to get the &apos;leaf&apos; classes of heirarchy first</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$excludeThisClass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true then don&apos;t include the called class in the list </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array with [ &apos;namespaced class name&apos; =&gt; &apos;no-namespaced class name&apos; ] for each subclass </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/reflection.php" line="79" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/reflection.php" bodystart="79" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a6e9fc6f2e848af29ff66a5a607bfcb0d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Modular\Traits\strip_namespace</definition>
+        <argsstring>($maybeNamespacedClassName=null)</argsstring>
+        <name>strip_namespace</name>
+        <param>
+          <declname>$maybeNamespacedClassName</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return class name without namespace if there is one passed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$maybeNamespacedClassName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/reflection.php" line="97" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/reflection.php" bodystart="97" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a00989429a86836343355cb26083f91ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\definedRelationships</definition>
+        <argsstring>($arities=[ArityInfo::HasOne, ArityInfo::HasMany, ArityInfo::ManyMany, ArityInfo::BelongsManyMany,])</argsstring>
+        <name>definedRelationships</name>
+        <param>
+          <declname>$arities</declname>
+          <defval>[ArityInfo::HasOne</defval>
+        </param>
+        <param>
+          <type>ArityInfo::HasMany</type>
+        </param>
+        <param>
+          <type>ArityInfo::ManyMany</type>
+        </param>
+        <param>
+          <type>ArityInfo::BelongsManyMany</type>
+        </param>
+        <param>
+          <type>]</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a map of all relationship names this model has, e.g. &apos;Members&apos; or &apos;RelatedOrganisations&apos; to their related model types and their arity. If a single type is given then returns only for that type, otherwise a merged array of all the types.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametertype>mixed</parametertype>
+<parametername>$arities</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>single or array of numeric arities from Reflection, or &apos;has_one&apos;, &apos;many_many&apos; etc </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array e.g. [ &apos;Members&apos; =&gt; [ &apos;Member&apos; =&gt; 2 ], &apos;Thumbnail&apos; =&gt; [ &apos;Image&apos;, 1 ] ] </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/related.php" line="25" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/related.php" bodystart="25" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1adf2223595bfca3c67aec9b061f36acbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\hasDefinedRelationship</definition>
+        <argsstring>($relationshipName)</argsstring>
+        <name>hasDefinedRelationship</name>
+        <param>
+          <declname>$relationshipName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check if a relationship is on the exhibiting class</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$relationshipName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e.g. &apos;Members&apos; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array map of relationship name =&gt; model class e.g. [ &apos;Members&apos; =&gt; &apos;Member&apos; ] or empty array if not a valid relationship from the model. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/related.php" line="70" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/related.php" bodystart="70" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a845f12a7bb19c2988df902c9fe2c04fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\trackable_start</definition>
+        <argsstring>($what, $message= &apos;&apos;)</argsstring>
+        <name>trackable_start</name>
+        <param>
+          <declname>$what</declname>
+        </param>
+        <param>
+          <declname>$message</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/trackable.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/trackable.php" bodystart="14" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a522a85960e3adecd028646743e39b4bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\trackable_end</definition>
+        <argsstring>($result= &apos;&apos;)</argsstring>
+        <name>trackable_end</name>
+        <param>
+          <declname>$result</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>will be output through print_r, so dont&apos; pass anything sensitive </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/trackable.php" line="24" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/trackable.php" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a5ef5030499d09da1b440aa56cd0b22ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\allowAttachExisting</definition>
+        <argsstring>()</argsstring>
+        <name>allowAttachExisting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check if allowing existing files to be attached is enabled in config via config.allow_attach_existing.</para><para><simplesect kind="return"><para>bool true if can attach an existing file from storage, false otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/upload.php" line="21" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/upload.php" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1ae5e59977c7cc24ab75649a4568091e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\makeUploadField</definition>
+        <argsstring>($relationshipName)</argsstring>
+        <name>makeUploadField</name>
+        <param>
+          <declname>$relationshipName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return an upload field wrapped in a DisplayLogicWrapper as they all should be when using displaylogic.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$relationshipName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional override the static field_name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>\Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/upload.php" line="32" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/upload.php" bodystart="32" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a1da1358efcdb064c10787a693a04cee0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\configureUploadField</definition>
+        <argsstring>($field, $allowedFilesConfigVar= &apos;allowed_files&apos;)</argsstring>
+        <name>configureUploadField</name>
+        <param>
+          <declname>$field</declname>
+        </param>
+        <param>
+          <declname>$allowedFilesConfigVar</declname>
+          <defval>&apos;allowed_files&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>UploadField</parametertype>
+<parametertype>\DisplayLogicWrapper</parametertype>
+<parametername>$field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$allowedFilesConfigVar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- allow you to switch config to check e.g. &apos;allowed_video_files&apos; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/upload.php" line="46" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/upload.php" bodystart="46" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbf/namespace_modular_1_1_traits_1a7fc27daabe6435d3ed6bdc09b8b99550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Traits\uploadFolderName</definition>
+        <argsstring>()</argsstring>
+        <name>uploadFolderName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the path relative to assets/ for the particular media type, e.g &apos;videos&apos;, &apos;audio&apos; etc.</para><para>Uses config.allowed_files if not overriden by UploadFolderName const. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/upload.php" line="109" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/traits/upload.php" bodystart="109" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Calls through to JSON class while traits are worked out properly in SS (config is applied?) </para>    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/backprop.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

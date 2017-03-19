@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/d92/class_modular_1_1_logger" kind="class" prot="public">
+    <compoundname>Modular::Logger</compoundname>
+    <basecompoundref refid="da/d08/class_modular_1_1_object" prot="public" virt="non-virtual">Object</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="df/d92/class_modular_1_1_logger_1ad499fd4beeea227e7c373e967ac68259" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ERR</definition>
+        <argsstring></argsstring>
+        <name>ERR</name>
+        <initializer>= \Zend_Log::ERR</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="51" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d92/class_modular_1_1_logger_1abd1339a4c3a81762b7990ed8f2205566" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const WARN</definition>
+        <argsstring></argsstring>
+        <name>WARN</name>
+        <initializer>= \Zend_Log::WARN</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="52" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d92/class_modular_1_1_logger_1a0b32ca69140ca26e6614dddf004ae3d9" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const NOTICE</definition>
+        <argsstring></argsstring>
+        <name>NOTICE</name>
+        <initializer>= \Zend_Log::NOTICE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="53" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d92/class_modular_1_1_logger_1af2d1bd27ecbe33ecaadb558404e9c669" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const INFO</definition>
+        <argsstring></argsstring>
+        <name>INFO</name>
+        <initializer>= \Zend_Log::INFO</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="54" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d92/class_modular_1_1_logger_1a758c150b67e476ecf77478f16b387c61" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DEBUG</definition>
+        <argsstring></argsstring>
+        <name>DEBUG</name>
+        <initializer>= \Zend_Log::DEBUG</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="55" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="df/d92/class_modular_1_1_logger_1a460d134a5364c5dcac49939e1696a90f" prot="public" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$logger_class</definition>
+        <argsstring></argsstring>
+        <name>$logger_class</name>
+        <initializer>= &apos;SS_ZendLog&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="63" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="df/d92/class_modular_1_1_logger_1aebfec76216371ef236acc5910e90933d" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$logger</definition>
+        <argsstring></argsstring>
+        <name>$logger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="68" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="df/d92/class_modular_1_1_logger_1a58a90b448c25ecf2ad8937883d20b095" prot="protected" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$log_globals</definition>
+        <argsstring></argsstring>
+        <name>$log_globals</name>
+        <initializer>= array(
+		&apos;_SERVER&apos; =&gt; array(
+			&apos;HTTP_ACCEPT&apos;,
+			&apos;HTTP_ACCEPT_CHARSET&apos;,
+			&apos;HTTP_ACCEPT_ENCODING&apos;,
+			&apos;HTTP_ACCEPT_LANGUAGE&apos;,
+			&apos;HTTP_REFERRER&apos;,
+			&apos;HTTP_USER_AGENT&apos;,
+			&apos;HTTPS&apos;,
+			&apos;REMOTE_ADDR&apos;,
+		),
+	)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="75" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d92/class_modular_1_1_logger_1a97e3b3adabf67bc7d3650ed14214ddaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>logger</definition>
+        <argsstring>()</argsstring>
+        <name>logger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the logger currently in use, or create a new one if it doesn&apos;t exist.</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="93" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="93" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d92/class_modular_1_1_logger_1a432021f796340d6a7dc2eb39d2b8c492" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>writers</definition>
+        <argsstring>()</argsstring>
+        <name>writers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get all writers in use by the logger.</para><para><simplesect kind="return"><para>array Collection of Zend_Log_Writer_Abstract instances </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="115" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="115" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d92/class_modular_1_1_logger_1afd290a9bc4bb3c8fa998fe5a4e03b205" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clearWriters</definition>
+        <argsstring>()</argsstring>
+        <name>clearWriters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove all writers currently in use. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="122" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="122" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d92/class_modular_1_1_logger_1ac622cdda8c0ea798ce1024f541c7397b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>removeWriter</definition>
+        <argsstring>($writer)</argsstring>
+        <name>removeWriter</name>
+        <param>
+          <declname>$writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove a writer instance from the logger.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>object</parametertype>
+<parametername>$writer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zend_Log_Writer_Abstract instance </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="131" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="131" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d92/class_modular_1_1_logger_1ad13ee328d6ea3a6cc212e02861cc3d87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addWriter</definition>
+        <argsstring>($writer, $priority=null, $comparison= &apos;=&apos;)</argsstring>
+        <name>addWriter</name>
+        <param>
+          <declname>$writer</declname>
+        </param>
+        <param>
+          <declname>$priority</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$comparison</declname>
+          <defval>&apos;=&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a writer instance to the logger.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>object</parametertype>
+<parametername>$writer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zend_Log_Writer_Abstract instance </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>const</parametertype>
+<parametername>$priority</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Priority. Possible values: SS_Log::ERR, SS_Log::WARN or SS_Log::NOTICE </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$comparison</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Priority comparison operator. Acts on the integer values of the error levels, where more serious errors are lower numbers. By default this is &quot;=&quot;, which means only the given priority will be logged. Set to &quot;&lt;=&quot; if you want to track errors of <emphasis>at least</emphasis> the given priority. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="145" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="145" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d92/class_modular_1_1_logger_1afe9c377358284bbe454ed700f161d034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>log</definition>
+        <argsstring>($message, $priority, $extras=null)</argsstring>
+        <name>log</name>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <declname>$priority</declname>
+        </param>
+        <param>
+          <declname>$extras</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dispatch a message by priority level.</para><para>The message parameter can be either a string (a simple error message), or an array of variables. The latter is useful for passing along a list of debug information for the writer to handle, such as error code, error line, error context (backtrace).</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Exception object or array of error context variables </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>const</parametertype>
+<parametername>$priority</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Priority. Possible values: SS_Log::ERR, SS_Log::WARN or SS_Log::NOTICE </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$extras</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Extra information to log in event </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="164" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="164" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="164">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="164" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>Logger</label>
+        <link refid="df/d92/class_modular_1_1_logger"/>
+        <childnode refid="164" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="166">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="165">
+        <label>Logger</label>
+        <link refid="df/d92/class_modular_1_1_logger"/>
+        <childnode refid="166" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" line="50" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Logger.php" bodystart="50" bodyend="190"/>
+    <listofallmembers>
+      <member refid="df/d92/class_modular_1_1_logger_1a58a90b448c25ecf2ad8937883d20b095" prot="protected" virt="non-virtual"><scope>Modular::Logger</scope><name>$log_globals</name></member>
+      <member refid="df/d92/class_modular_1_1_logger_1aebfec76216371ef236acc5910e90933d" prot="protected" virt="non-virtual"><scope>Modular::Logger</scope><name>$logger</name></member>
+      <member refid="df/d92/class_modular_1_1_logger_1a460d134a5364c5dcac49939e1696a90f" prot="public" virt="non-virtual"><scope>Modular::Logger</scope><name>$logger_class</name></member>
+      <member refid="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Logger</scope><name>__invoke</name></member>
+      <member refid="df/d92/class_modular_1_1_logger_1ad13ee328d6ea3a6cc212e02861cc3d87" prot="public" virt="non-virtual"><scope>Modular::Logger</scope><name>addWriter</name></member>
+      <member refid="da/d08/class_modular_1_1_object_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Logger</scope><name>class_name</name></member>
+      <member refid="df/d92/class_modular_1_1_logger_1afd290a9bc4bb3c8fa998fe5a4e03b205" prot="public" virt="non-virtual"><scope>Modular::Logger</scope><name>clearWriters</name></member>
+      <member refid="df/d92/class_modular_1_1_logger_1a758c150b67e476ecf77478f16b387c61" prot="public" virt="non-virtual"><scope>Modular::Logger</scope><name>DEBUG</name></member>
+      <member refid="df/d92/class_modular_1_1_logger_1ad499fd4beeea227e7c373e967ac68259" prot="public" virt="non-virtual"><scope>Modular::Logger</scope><name>ERR</name></member>
+      <member refid="df/d92/class_modular_1_1_logger_1af2d1bd27ecbe33ecaadb558404e9c669" prot="public" virt="non-virtual"><scope>Modular::Logger</scope><name>INFO</name></member>
+      <member refid="df/d92/class_modular_1_1_logger_1afe9c377358284bbe454ed700f161d034" prot="public" virt="non-virtual"><scope>Modular::Logger</scope><name>log</name></member>
+      <member refid="df/d92/class_modular_1_1_logger_1a97e3b3adabf67bc7d3650ed14214ddaa" prot="public" virt="non-virtual"><scope>Modular::Logger</scope><name>logger</name></member>
+      <member refid="df/d92/class_modular_1_1_logger_1a0b32ca69140ca26e6614dddf004ae3d9" prot="public" virt="non-virtual"><scope>Modular::Logger</scope><name>NOTICE</name></member>
+      <member refid="df/d92/class_modular_1_1_logger_1ac622cdda8c0ea798ce1024f541c7397b" prot="public" virt="non-virtual"><scope>Modular::Logger</scope><name>removeWriter</name></member>
+      <member refid="df/d92/class_modular_1_1_logger_1abd1339a4c3a81762b7990ed8f2205566" prot="public" virt="non-virtual"><scope>Modular::Logger</scope><name>WARN</name></member>
+      <member refid="df/d92/class_modular_1_1_logger_1a432021f796340d6a7dc2eb39d2b8c492" prot="public" virt="non-virtual"><scope>Modular::Logger</scope><name>writers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

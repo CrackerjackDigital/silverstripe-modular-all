@@ -106,22 +106,111 @@ $(document).ready(function(){initNavTree('d6/d41/_logger_8php_source.html','../.
 </div><!--header-->
 <div class="contents">
 <a href="../../d6/d41/_logger_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">namespace </span>Modular\Interfaces;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">namespace </span>Modular;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../dd/d06/interface_modular_1_1_interfaces_1_1_logger.html">    4</a></span>&#160;<span class="keyword">interface </span><a class="code" href="../../dd/d06/interface_modular_1_1_interfaces_1_1_logger.html">Logger</a> {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../dd/d06/interface_modular_1_1_interfaces_1_1_logger.html#a053a54bed3aafbacf775bd921a9add4d">log</a>($message, $facilities, $source = <span class="stringliteral">&#39;&#39;</span>);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../dd/d06/interface_modular_1_1_interfaces_1_1_logger.html#af88c3370a1b278fdb2639e1bbdd207be">level</a>($level = null);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
-<div class="ttc" id="interface_modular_1_1_interfaces_1_1_logger_html"><div class="ttname"><a href="../../dd/d06/interface_modular_1_1_interfaces_1_1_logger.html">Modular\Interfaces\Logger</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d41/_logger_8php_source.html#l00004">Logger.php:4</a></div></div>
-<div class="ttc" id="interface_modular_1_1_interfaces_1_1_logger_html_a053a54bed3aafbacf775bd921a9add4d"><div class="ttname"><a href="../../dd/d06/interface_modular_1_1_interfaces_1_1_logger.html#a053a54bed3aafbacf775bd921a9add4d">Modular\Interfaces\Logger\log</a></div><div class="ttdeci">log($message, $facilities, $source= '')</div></div>
-<div class="ttc" id="interface_modular_1_1_interfaces_1_1_logger_html_af88c3370a1b278fdb2639e1bbdd207be"><div class="ttname"><a href="../../dd/d06/interface_modular_1_1_interfaces_1_1_logger.html#af88c3370a1b278fdb2639e1bbdd207be">Modular\Interfaces\Logger\level</a></div><div class="ttdeci">level($level=null)</div></div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html">   50</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../df/d92/class_modular_1_1_logger.html">Logger</a> <span class="keyword">extends</span> <a class="code" href="../../da/d08/class_modular_1_1_object.html">Object</a> {</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html#ad499fd4beeea227e7c373e967ac68259">   51</a></span>&#160;    <span class="keyword">const</span> ERR    = \Zend_Log::ERR;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html#abd1339a4c3a81762b7990ed8f2205566">   52</a></span>&#160;    <span class="keyword">const</span> WARN   = \Zend_Log::WARN;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html#a0b32ca69140ca26e6614dddf004ae3d9">   53</a></span>&#160;    <span class="keyword">const</span> NOTICE = \Zend_Log::NOTICE;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html#af2d1bd27ecbe33ecaadb558404e9c669">   54</a></span>&#160;    <span class="keyword">const</span> INFO   = \Zend_Log::INFO;</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html#a758c150b67e476ecf77478f16b387c61">   55</a></span>&#160;    <span class="keyword">const</span> DEBUG  = \Zend_Log::DEBUG;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html#a460d134a5364c5dcac49939e1696a90f">   63</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> $logger_class = <span class="stringliteral">&#39;SS_ZendLog&#39;</span>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html#aebfec76216371ef236acc5910e90933d">   68</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="../../df/d92/class_modular_1_1_logger.html#aebfec76216371ef236acc5910e90933d">$logger</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html#a58a90b448c25ecf2ad8937883d20b095">   75</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">static</span> $log_globals = array(</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="stringliteral">&#39;_SERVER&#39;</span> =&gt; array(</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="stringliteral">&#39;HTTP_ACCEPT&#39;</span>,</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="stringliteral">&#39;HTTP_ACCEPT_CHARSET&#39;</span>,</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="stringliteral">&#39;HTTP_ACCEPT_ENCODING&#39;</span>,</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="stringliteral">&#39;HTTP_ACCEPT_LANGUAGE&#39;</span>,</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="stringliteral">&#39;HTTP_REFERRER&#39;</span>,</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            <span class="stringliteral">&#39;HTTP_USER_AGENT&#39;</span>,</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="stringliteral">&#39;HTTPS&#39;</span>,</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="stringliteral">&#39;REMOTE_ADDR&#39;</span>,</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        ),</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    );</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html#a97e3b3adabf67bc7d3650ed14214ddaa">   93</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../df/d92/class_modular_1_1_logger.html#a97e3b3adabf67bc7d3650ed14214ddaa">logger</a>() {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">if</span> (!$this-&gt;logger) {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="comment">// Create default logger</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            $this-&gt;logger = <span class="keyword">new</span> static::$logger_class;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="comment">// Add default context (shouldn&#39;t change until the actual log event happens)</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <span class="keywordflow">foreach</span> (static::$log_globals as $globalName =&gt; $keys) {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                <span class="keywordflow">foreach</span> ($keys as $key) {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                    $val = isset($GLOBALS[ $globalName ][ $key ]) ? $GLOBALS[ $globalName ][ $key ] : null;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                    $this-&gt;logger-&gt;setEventItem(sprintf(<span class="stringliteral">&#39;$%s[\&#39;%s\&#39;]&#39;</span>, $globalName, $key), $val);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                }</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            }</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">return</span> $this-&gt;logger;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html#a432021f796340d6a7dc2eb39d2b8c492">  115</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../df/d92/class_modular_1_1_logger.html#a432021f796340d6a7dc2eb39d2b8c492">writers</a>() {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">return</span> $this-&gt;logger()-&gt;getWriters();</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html#afd290a9bc4bb3c8fa998fe5a4e03b205">  122</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../df/d92/class_modular_1_1_logger.html#afd290a9bc4bb3c8fa998fe5a4e03b205">clearWriters</a>() {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        $this-&gt;logger()-&gt;clearWriters();</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    }</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html#ac622cdda8c0ea798ce1024f541c7397b">  131</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../df/d92/class_modular_1_1_logger.html#ac622cdda8c0ea798ce1024f541c7397b">removeWriter</a>($writer) {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        $this-&gt;logger()-&gt;removeWriter($writer);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    }</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
+<div class="line"><a name="l00145"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html#ad13ee328d6ea3a6cc212e02861cc3d87">  145</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../df/d92/class_modular_1_1_logger.html#ad13ee328d6ea3a6cc212e02861cc3d87">addWriter</a>($writer, $priority = null, $comparison = <span class="charliteral">&#39;=&#39;</span>) {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">if</span> ($priority) {</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            $writer-&gt;addFilter(<span class="keyword">new</span> \Zend_Log_Filter_Priority($priority, $comparison));</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        }</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        $this-&gt;logger()-&gt;addWriter($writer);</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    }</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;</div>
+<div class="line"><a name="l00164"></a><span class="lineno"><a class="line" href="../../df/d92/class_modular_1_1_logger.html#afe9c377358284bbe454ed700f161d034">  164</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../df/d92/class_modular_1_1_logger.html#afe9c377358284bbe454ed700f161d034">log</a>($message, $priority, $extras = null) {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <span class="keywordflow">if</span> ($message instanceof \<a class="code" href="../../d5/d09/class_modular_1_1_exceptions_1_1_exception.html">Exception</a>) {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            $message = array(</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                <span class="stringliteral">&#39;errno&#39;</span>      =&gt; <span class="stringliteral">&#39;&#39;</span>,</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                <span class="stringliteral">&#39;errstr&#39;</span>     =&gt; $message-&gt;getMessage(),</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                <span class="stringliteral">&#39;errfile&#39;</span>    =&gt; $message-&gt;getFile(),</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                <span class="stringliteral">&#39;errline&#39;</span>    =&gt; $message-&gt;getLine(),</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                <span class="stringliteral">&#39;errcontext&#39;</span> =&gt; $message-&gt;getTrace()</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            );</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        } elseif (is_string($message)) {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            $trace = \SS_Backtrace::filtered_backtrace();</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            $lastTrace = $trace[0];</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            $message = array(</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                <span class="stringliteral">&#39;errno&#39;</span>      =&gt; <span class="stringliteral">&#39;&#39;</span>,</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                <span class="stringliteral">&#39;errstr&#39;</span>     =&gt; $message,</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                <span class="stringliteral">&#39;errfile&#39;</span>    =&gt; isset($lastTrace[<span class="stringliteral">&#39;file&#39;</span>]) ? $lastTrace[<span class="stringliteral">&#39;file&#39;</span>] : null,</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                <span class="stringliteral">&#39;errline&#39;</span>    =&gt; isset($lastTrace[<span class="stringliteral">&#39;line&#39;</span>]) ? $lastTrace[<span class="stringliteral">&#39;line&#39;</span>] : null,</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                <span class="stringliteral">&#39;errcontext&#39;</span> =&gt; $trace</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            );</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        }</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            $this-&gt;logger()-&gt;log($message, $priority, $extras);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        } <span class="keywordflow">catch</span> (\Exception $e) {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        }</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    }</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;}</div>
+<div class="ttc" id="class_modular_1_1_logger_html_a432021f796340d6a7dc2eb39d2b8c492"><div class="ttname"><a href="../../df/d92/class_modular_1_1_logger.html#a432021f796340d6a7dc2eb39d2b8c492">Modular\Logger\writers</a></div><div class="ttdeci">writers()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d41/_logger_8php_source.html#l00115">Logger.php:115</a></div></div>
+<div class="ttc" id="class_modular_1_1_logger_html_afe9c377358284bbe454ed700f161d034"><div class="ttname"><a href="../../df/d92/class_modular_1_1_logger.html#afe9c377358284bbe454ed700f161d034">Modular\Logger\log</a></div><div class="ttdeci">log($message, $priority, $extras=null)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d41/_logger_8php_source.html#l00164">Logger.php:164</a></div></div>
+<div class="ttc" id="class_modular_1_1_logger_html_ad13ee328d6ea3a6cc212e02861cc3d87"><div class="ttname"><a href="../../df/d92/class_modular_1_1_logger.html#ad13ee328d6ea3a6cc212e02861cc3d87">Modular\Logger\addWriter</a></div><div class="ttdeci">addWriter($writer, $priority=null, $comparison= '=')</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d41/_logger_8php_source.html#l00145">Logger.php:145</a></div></div>
+<div class="ttc" id="class_modular_1_1_logger_html_ac622cdda8c0ea798ce1024f541c7397b"><div class="ttname"><a href="../../df/d92/class_modular_1_1_logger.html#ac622cdda8c0ea798ce1024f541c7397b">Modular\Logger\removeWriter</a></div><div class="ttdeci">removeWriter($writer)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d41/_logger_8php_source.html#l00131">Logger.php:131</a></div></div>
+<div class="ttc" id="class_modular_1_1_logger_html_a97e3b3adabf67bc7d3650ed14214ddaa"><div class="ttname"><a href="../../df/d92/class_modular_1_1_logger.html#a97e3b3adabf67bc7d3650ed14214ddaa">Modular\Logger\logger</a></div><div class="ttdeci">logger()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d41/_logger_8php_source.html#l00093">Logger.php:93</a></div></div>
+<div class="ttc" id="class_modular_1_1_logger_html_aebfec76216371ef236acc5910e90933d"><div class="ttname"><a href="../../df/d92/class_modular_1_1_logger.html#aebfec76216371ef236acc5910e90933d">Modular\Logger\$logger</a></div><div class="ttdeci">$logger</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d41/_logger_8php_source.html#l00068">Logger.php:68</a></div></div>
+<div class="ttc" id="class_modular_1_1_logger_html"><div class="ttname"><a href="../../df/d92/class_modular_1_1_logger.html">Modular\Logger</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d41/_logger_8php_source.html#l00050">Logger.php:50</a></div></div>
+<div class="ttc" id="class_modular_1_1_exceptions_1_1_exception_html"><div class="ttname"><a href="../../d5/d09/class_modular_1_1_exceptions_1_1_exception.html">Modular\Exceptions\Exception</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d12/_exception_8php_source.html#l00007">Exception.php:7</a></div></div>
+<div class="ttc" id="class_modular_1_1_object_html"><div class="ttname"><a href="../../da/d08/class_modular_1_1_object.html">Modular\Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfe/_object_8php_source.html#l00027">Object.php:27</a></div></div>
+<div class="ttc" id="class_modular_1_1_logger_html_afd290a9bc4bb3c8fa998fe5a4e03b205"><div class="ttname"><a href="../../df/d92/class_modular_1_1_logger.html#afd290a9bc4bb3c8fa998fe5a4e03b205">Modular\Logger\clearWriters</a></div><div class="ttdeci">clearWriters()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d41/_logger_8php_source.html#l00122">Logger.php:122</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_d14ce612a11016b25e245e0768494aa6.html">modular</a></li><li class="navelem"><a class="el" href="../../dir_98aa920b5b24af0f36b31a0fe1839471.html">code</a></li><li class="navelem"><a class="el" href="../../dir_d4a815bb83da929c2d3eb174f34e7513.html">interfaces</a></li><li class="navelem"><a class="el" href="../../d6/d41/_logger_8php.html">Logger.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_d14ce612a11016b25e245e0768494aa6.html">modular</a></li><li class="navelem"><a class="el" href="../../dir_98aa920b5b24af0f36b31a0fe1839471.html">code</a></li><li class="navelem"><a class="el" href="../../d6/d41/_logger_8php.html">Logger.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>

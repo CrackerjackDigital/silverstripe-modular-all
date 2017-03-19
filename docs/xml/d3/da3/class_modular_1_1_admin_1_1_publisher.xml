@@ -93,45 +93,74 @@
         </inbodydescription>
         <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" line="46" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" bodystart="46" bodyend="48"/>
       </memberdef>
+      <memberdef kind="function" id="d3/da3/class_modular_1_1_admin_1_1_publisher_1a91c060fa78d04ec54dda4afd99725bee" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>canDoItOrFail</definition>
+        <argsstring>()</argsstring>
+        <name>canDoItOrFail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks permissions to see if we can run a <ref refid="d3/da3/class_modular_1_1_admin_1_1_publisher" kindref="compound">Publisher</ref> &apos;task&apos;. This should only be called first time task is entered (e.g. not on entry do to a redirect). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" line="53" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" bodystart="53" bodyend="64"/>
+      </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1347">
+      <node id="235">
+        <label>HasMode</label>
+        <link refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode"/>
+      </node>
+      <node id="234">
         <label>Controller</label>
         <link refid="d6/d68/class_modular_1_1_controller"/>
-        <childnode refid="1347" relation="public-inheritance">
+        <childnode refid="234" relation="public-inheritance">
+        </childnode>
+        <childnode refid="235" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1346">
+      <node id="233">
         <label>Publisher</label>
         <link refid="d3/da3/class_modular_1_1_admin_1_1_publisher"/>
-        <childnode refid="1347" relation="public-inheritance">
+        <childnode refid="234" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1349">
+      <node id="238">
+        <label>HasMode</label>
+        <link refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode"/>
+      </node>
+      <node id="237">
         <label>Controller</label>
         <link refid="d6/d68/class_modular_1_1_controller"/>
-        <childnode refid="1349" relation="public-inheritance">
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+        <childnode refid="238" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1348">
+      <node id="236">
         <label>Publisher</label>
         <link refid="d3/da3/class_modular_1_1_admin_1_1_publisher"/>
-        <childnode refid="1349" relation="public-inheritance">
+        <childnode refid="237" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" bodystart="8" bodyend="111"/>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" bodystart="8" bodyend="164"/>
     <listofallmembers>
       <member refid="d3/da3/class_modular_1_1_admin_1_1_publisher_1a24eb78517c7ce15d317b8f3a15418fde" prot="private" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>$allowed_actions</name></member>
       <member refid="d3/da3/class_modular_1_1_admin_1_1_publisher_1a39783a30a4471e9bf1f7ecfec3cc34c3" prot="private" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>$confirmation_token</name></member>
       <member refid="d3/da3/class_modular_1_1_admin_1_1_publisher_1a34ddfd723e30abea0a92b81f4443ac6a" prot="private" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>$defaults</name></member>
+      <member refid="d6/d68/class_modular_1_1_controller_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>__invoke</name></member>
+      <member refid="d3/da3/class_modular_1_1_admin_1_1_publisher_1a91c060fa78d04ec54dda4afd99725bee" prot="protected" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>canDoItOrFail</name></member>
       <member refid="d3/da3/class_modular_1_1_admin_1_1_publisher_1aa857c16f0ffe66fb0a6c1b2ee6b5fcdb" prot="protected" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>confirmationToken</name></member>
+      <member refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1a984342ee7cd006dfd2847e636bae60f4" prot="public" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>DefaultMode</name></member>
+      <member refid="d3/d6c/interface_modular_1_1_interfaces_1_1_has_mode_1ab97d3bd978f98490101928ee4321131f" prot="public" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>mode</name></member>
       <member refid="d3/da3/class_modular_1_1_admin_1_1_publisher_1a48d336385d0afca7dbe5c91a7be91726" prot="protected" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>option</name></member>
       <member refid="d3/da3/class_modular_1_1_admin_1_1_publisher_1ae1559345410441589126591dd2a216e3" prot="protected" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>options</name></member>
     </listofallmembers>

@@ -10,118 +10,6 @@
                     </listitem>
                 </itemizedlist>
             </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugNone</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugErr</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugWarn</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugNotice</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugInfo</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugTrace</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugAll</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugOff</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugFile</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugScreen</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugEmail</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugEnvDev</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugEnvTest</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugEnvLive</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const LevelFromEnv</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>const DebugPerClass</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
         </simplesect>
         <simplesect>
             <title></title>
@@ -166,7 +54,21 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>$logger</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>$logFilePathName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>$safe_paths</para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -213,7 +115,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1af88c3370a1b278fdb2639e1bbdd207be">level</link> (
+                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1a8bc2bb1108ccc1988d639b3756a052d1">level</link> (
  $level)</para>
                     </listitem>
                 </itemizedlist>
@@ -253,56 +155,56 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1a053a54bed3aafbacf775bd921a9add4d">log</link> (
- $message,  $facilities,  $source)</para>
+                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1a5ca540d0f317b1751def2d13d49585e0">log</link> (
+ $message,  $facilities,  $source,  $tokens)</para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1a731656b5cdba0710fc494dea9c41af87">info</link> (
- $message,  $source)</para>
+                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1ac49c1513b76e2ae2bc76ab7e73cea271">info</link> (
+ $message,  $source,  $tokens)</para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1a637ec200268d08eace48d05825418195">trace</link> (
- $message,  $source)</para>
+                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1a30928eb4d541ca60bc821bad6d7c40e6">trace</link> (
+ $message,  $source,  $tokens)</para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1a996aaade54f01c5ff6ae1eecb9042ea8">notice</link> (
- $message,  $source)</para>
+                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1a2f20411e97286601cd6979f9d7582d2a">notice</link> (
+ $message,  $source,  $tokens)</para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1ad23128ddfac600c09006227e4228c9d2">warn</link> (
- $message,  $source)</para>
+                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1abdb823a67e308bbea8aabb91923305cb">warn</link> (
+ $message,  $source,  $tokens)</para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1ad6cad5853514ae68cc77d5b0d837fddb">error</link> (
- $message,  $source)</para>
+                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1a64a22c536d3551a7ab3e694ba53d07a8">error</link> (
+ $message,  $source,  $tokens)</para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1a48a5ce9928b744f0fafaeef38f9d4847">fail</link> (
- $message,  $source, <link linkend="d5/d09/class_modular_1_1_exceptions_1_1_exception">Exception</link> $exception)</para>
+                        <para> <link linkend="db/d33/class_modular_1_1_debugger_1af9d0fc5e78a359ece9168786b775f1ef">fail</link> (
+ $message,  $source, \<link linkend="d5/d09/class_modular_1_1_exceptions_1_1_exception">Exception</link> $exception)</para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -349,6 +251,38 @@
                     </listitem>
                 </itemizedlist>
             </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="db/d33/class_modular_1_1_debugger_1a1b49d57101cf2381b7bdacb57f5ed0a2">digest</link> (
+ $message,  $source,  $tokens)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="db/d33/class_modular_1_1_debugger_1ab085e81318db57d6dd7593e81157cc91">log_file</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="db/d33/class_modular_1_1_debugger_1a6eb6087e1d49f2c566de7f4642cb8d0f">log_path</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="db/d33/class_modular_1_1_debugger_1af7abc84bac34d64a718691146afafdde">log_email</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
         </simplesect>
         <simplesect>
             <title></title>
@@ -387,12 +321,10 @@
 <para>If emailLogFileTo and logFilePathName is set then email the logFilePathName content if not empty </para>
 
             </section>
-            <section xml:id="db/d33/class_modular_1_1_debugger_1af88c3370a1b278fdb2639e1bbdd207be">
-                <title>level ($level=null)</title> <emphasis></emphasis>
+            <section xml:id="db/d33/class_modular_1_1_debugger_1a8bc2bb1108ccc1988d639b3756a052d1">
+                <title>level ($level=self::LevelFromEnv)</title> <emphasis></emphasis>
                 
 <para>
-<para>Set a new level for debugging or return the existing one. If level is LevelFromEnv then use the config.environment_levels setting for the current environment (&apos;dev&apos;, &apos;test&apos; or &apos;live&apos;)</para>
-
 <para>
                 <formalpara>
                     <title/>
@@ -401,9 +333,9 @@
                         <tgroup cols="2" align="left" colsep="1" rowsep="1">
                         <tbody>
                             <row>
-                                <entry>$level</entry>
+                                <entry>int|null</entry>
                                 <entry>
-<para>to set and any other options such as to screen etc </para>
+<para>new level or get </para>
 </entry>
                             </row>
                         </tbody>
@@ -412,7 +344,7 @@
                 </formalpara>
                 <formalpara><title>Returns: </title>
 
-<para>$this if any params passed, current level if not </para>
+<para>$this|int</para>
 </formalpara>
 </para>
  </para>
@@ -421,15 +353,46 @@
             <section xml:id="db/d33/class_modular_1_1_debugger_1a7468d191788a04ea6803f0784d0dd1b6">
                 <title>source ($source=null)</title> <emphasis></emphasis>
                 
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$source</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>$this|string -setter </para>
+</formalpara>
+</para>
+
             </section>
             <section xml:id="db/d33/class_modular_1_1_debugger_1aa13eced9019dd5542d5256f40fcf4079">
                 <title>readLog ()</title> <emphasis></emphasis>
                 
+<para><formalpara><title>Returns: </title>
+
+<para>null|string </para>
+</formalpara>
+</para>
+
             </section>
             <section xml:id="db/d33/class_modular_1_1_debugger_1a7ca9f391c711f25e05f47a5aa6334b50">
                 <title>env ($env=SS_ENVIRONMENT_TYPE)</title> <emphasis></emphasis>
                 
-<para>Set level from config.environment_levels for passed type 
+<para>Return the level for a given environment.</para>
+
+<para>
                 <formalpara>
                     <title/>
                     <table frame="all">
@@ -492,10 +455,109 @@
 </para>
 
             </section>
-            <section xml:id="db/d33/class_modular_1_1_debugger_1a053a54bed3aafbacf775bd921a9add4d">
-                <title>log ($message, $facilities, $source= &apos;&apos;)</title> <emphasis></emphasis>
+            <section xml:id="db/d33/class_modular_1_1_debugger_1a5ca540d0f317b1751def2d13d49585e0">
+                <title>log ($message, $facilities, $source= &apos;&apos;, $tokens=[])</title> <emphasis></emphasis>
                 
 <para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$message</entry>
+                                <entry>
+<para>either message or a language file key </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$facilities</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$source</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$tokens</entry>
+                                <entry>
+<para>to replace in message </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>$this </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="db/d33/class_modular_1_1_debugger_1ac49c1513b76e2ae2bc76ab7e73cea271">
+                <title>info ($message, $source= &apos;&apos;, $tokens=[])</title> <emphasis></emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$message</entry>
+                                <entry>
+<para>or a lang file key </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$source</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$tokens</entry>
+                                <entry>
+<para>to replace in message </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>$this </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="db/d33/class_modular_1_1_debugger_1a30928eb4d541ca60bc821bad6d7c40e6">
+                <title>trace ($message, $source= &apos;&apos;, $tokens=[])</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/d33/class_modular_1_1_debugger_1a2f20411e97286601cd6979f9d7582d2a">
+                <title>notice ($message, $source= &apos;&apos;, $tokens=[])</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/d33/class_modular_1_1_debugger_1abdb823a67e308bbea8aabb91923305cb">
+                <title>warn ($message, $source= &apos;&apos;, $tokens=[])</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/d33/class_modular_1_1_debugger_1a64a22c536d3551a7ab3e694ba53d07a8">
+                <title>error ($message, $source= &apos;&apos;, $tokens=[])</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/d33/class_modular_1_1_debugger_1af9d0fc5e78a359ece9168786b775f1ef">
+                <title>fail ($message, $source= &apos;&apos;,\Exception $exception=null)</title> <emphasis></emphasis>
+                
 <para>
                 <formalpara>
                     <title/>
@@ -510,13 +572,13 @@
 </entry>
                             </row>
                             <row>
-                                <entry>$facilities</entry>
+                                <entry>$source</entry>
                                 <entry>
-<para>a level to compare to current set level and any other output options such as Screen etc </para>
+<para></para>
 </entry>
                             </row>
                             <row>
-                                <entry>$source</entry>
+                                <entry>$exception</entry>
                                 <entry>
 <para></para>
 </entry>
@@ -527,35 +589,20 @@
                 </formalpara>
                 <formalpara><title>Returns: </title>
 
-<para>$this</para>
+<para>$this </para>
 </formalpara>
-</para>
- </para>
+exception                            <row>
+                                <entry>\Modular\Exceptions\Exception</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
 
-            </section>
-            <section xml:id="db/d33/class_modular_1_1_debugger_1a731656b5cdba0710fc494dea9c41af87">
-                <title>info ($message, $source= &apos;&apos;)</title> <emphasis></emphasis>
-                
-            </section>
-            <section xml:id="db/d33/class_modular_1_1_debugger_1a637ec200268d08eace48d05825418195">
-                <title>trace ($message, $source= &apos;&apos;)</title> <emphasis></emphasis>
-                
-            </section>
-            <section xml:id="db/d33/class_modular_1_1_debugger_1a996aaade54f01c5ff6ae1eecb9042ea8">
-                <title>notice ($message, $source= &apos;&apos;)</title> <emphasis></emphasis>
-                
-            </section>
-            <section xml:id="db/d33/class_modular_1_1_debugger_1ad23128ddfac600c09006227e4228c9d2">
-                <title>warn ($message, $source= &apos;&apos;)</title> <emphasis></emphasis>
-                
-            </section>
-            <section xml:id="db/d33/class_modular_1_1_debugger_1ad6cad5853514ae68cc77d5b0d837fddb">
-                <title>error ($message, $source= &apos;&apos;)</title> <emphasis></emphasis>
-                
-            </section>
-            <section xml:id="db/d33/class_modular_1_1_debugger_1a48a5ce9928b744f0fafaeef38f9d4847">
-                <title>fail ($message, $source= &apos;&apos;, Exception $exception)</title> <emphasis></emphasis>
-                
             </section>
             <section xml:id="db/d33/class_modular_1_1_debugger_1a72bf2099966aed040ccefd8f0b75490c">
                 <title>toEmail ($address, $level)</title> <emphasis></emphasis>
@@ -687,6 +734,59 @@
                 <title>static debugger ($level=self::LevelFromEnv, $source= &apos;&apos;)</title> <emphasis></emphasis>
                 
             </section>
+            <section xml:id="db/d33/class_modular_1_1_debugger_1a1b49d57101cf2381b7bdacb57f5ed0a2">
+                <title>static digest ($message, $source, $tokens=[])</title> <emphasis></emphasis>
+                
+<para>Try to look up message in lang files by message and source as keys (max 20 characters, camelcased and spaces removed) or just return the message.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$message</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$source</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$tokens</entry>
+                                <entry>
+<para>to replace in message </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="db/d33/class_modular_1_1_debugger_1ab085e81318db57d6dd7593e81157cc91">
+                <title>static log_file ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/d33/class_modular_1_1_debugger_1a6eb6087e1d49f2c566de7f4642cb8d0f">
+                <title>static log_path ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/d33/class_modular_1_1_debugger_1af7abc84bac34d64a718691146afafdde">
+                <title>static log_email ()</title> <emphasis></emphasis>
+                
+            </section>
             <section xml:id="db/d33/class_modular_1_1_debugger_1aaa238e6f626462adcaf1a07bdcc10844">
                 <title>init ($level, $source=null)</title> <emphasis></emphasis>
                 
@@ -719,7 +819,17 @@
 
 <para>$this </para>
 </formalpara>
-</para>
+exception                            <row>
+                                <entry>\Modular\Exceptions\Application</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
 
             </section>
             <section xml:id="db/d33/class_modular_1_1_debugger_1a9e5de5c4ec4e4b6be0a017c18707ad82">

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/df3/_requirements_8php" kind="file">
+    <compoundname>Requirements.php</compoundname>
+    <innerclass refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements" prot="public">Modular::Extensions::Controller::Requirements</innerclass>
+    <innernamespace refid="d7/d6f/namespace_modular_1_1_extensions_1_1_controller">Modular::Extensions::Controller</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Extensions\Controller;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/>Modular\Module;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>Modular\Traits\owned;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements" kindref="compound">Requirements</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>\Extension<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/>owned;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1a52b4d6b381ac4f287064fe1c9b195efe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1a52b4d6b381ac4f287064fe1c9b195efe" kindref="member">ApplicationServiceClassName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Application&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1abe152804322366290014448cf1ccb117" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1abe152804322366290014448cf1ccb117" kindref="member">onBeforeInit</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>expect<sp/>an<sp/>Application<sp/>object<sp/>derived<sp/>from<sp/>ModularModule<sp/>to<sp/>be<sp/>configured.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\Injector::inst()-&gt;get(static::ApplicationServiceClassName)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;requirements(Module::BeforeInit);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1a85ff8d296a4025790e312c4f2b6d8dae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1a85ff8d296a4025790e312c4f2b6d8dae" kindref="member">onAfterInit</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>expect<sp/>an<sp/>Application<sp/>object<sp/>derived<sp/>from<sp/>ModularModule<sp/>to<sp/>be<sp/>configured.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\Injector::inst()-&gt;get(static::ApplicationServiceClassName)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;requirements(Module::AfterInit);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Requirements.php"/>
+  </compounddef>
+</doxygen>

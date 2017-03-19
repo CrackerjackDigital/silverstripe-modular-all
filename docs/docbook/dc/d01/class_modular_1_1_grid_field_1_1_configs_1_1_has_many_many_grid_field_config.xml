@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config">
+<title>Modular::GridField::Configs::HasManyManyGridFieldConfig class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ComponentAddNewMultiClass</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allowed_related_classes</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $exclude_related_classes</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $add_new_multi_class</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a305f7b18dce920304db64818988c9ab9">__construct</link> (
+ $itemsPerPage)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1aedd5fec065b871d6d599002f1ef65791">allowed_related_classes</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a18c601602a865ce27f467cdaa67f4128">limited_related_classes</link> (
+ $addExtraClasses)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a878c3535adda4f2600b2ae3ff4b8ff86">exclude_classes</link> (
+array $classList)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Alters the config to be suitable for adding/removing many_many related models to the extended model, configurably using &apos;Add New MultClass&apos; support.</para>
+
+<para>Adds an &apos;AddNewMultiClass&apos; selector </para>
+                <para>Definition at line 9 of file HasManyMany.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>HasManyMany.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a305f7b18dce920304db64818988c9ab9">
+                <title>__construct ($itemsPerPage=null)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1aedd5fec065b871d6d599002f1ef65791">
+                <title>static allowed_related_classes ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a18c601602a865ce27f467cdaa67f4128">
+                <title>static limited_related_classes ($addExtraClasses=[])</title> <emphasis></emphasis>
+                
+<para>Return list of clases from config.allowed_related_classes merged with parameter classes with config.exclude_related_classes removed.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$addExtraClasses</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a878c3535adda4f2600b2ae3ff4b8ff86">
+                <title>static exclude_classes (array $classList)</title> <emphasis></emphasis>
+                
+<para>Remove classes by pattern (fnmatch) defined in config.exclude_related_classes.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$classList</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array sorted by value </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

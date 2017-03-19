@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements">
+<title>Modular::Extensions::Controller::Requirements class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ApplicationServiceClassName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1abe152804322366290014448cf1ccb117">onBeforeInit</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1a85ff8d296a4025790e312c4f2b6d8dae">onAfterInit</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1abe152804322366290014448cf1ccb117">
+                <title>onBeforeInit ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/df3/class_modular_1_1_extensions_1_1_controller_1_1_requirements_1a85ff8d296a4025790e312c4f2b6d8dae">
+                <title>onAfterInit ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

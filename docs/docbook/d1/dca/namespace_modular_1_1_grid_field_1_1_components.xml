@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d1/dca/namespace_modular_1_1_grid_field_1_1_components">
+<title>Modular::GridField::Components</title>
+        <simplesect>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d2/d73/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_add_new_multi_class_sorted">Modular::GridField::Components::GridFieldAddNewMultiClassSorted</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="dd/de8/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_orderable_rows">Modular::GridField::Components::GridFieldOrderableRows</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+</section>

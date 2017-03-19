@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider">
+<title>Modular::Interfaces::RouteProvider interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider_1a57102936c05e571c397f794a752795a5">routes</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider_1a57102936c05e571c397f794a752795a5">
+                <title>routes ()</title> <emphasis></emphasis>
+                
+<para>Implemented on a controller and extensions implementing &apos;<link linkend="d0/d1e/interface_modular_1_1_interfaces_1_1_action">Action</link>&apos;. On a controller returns primary rule for the controller which Director can add to its rules collection.<itemizedlist>
+<listitem>
+<para>These are gathered and added to Director rules when Application::startup is called</para>
+</listitem></itemizedlist>
+</para>
+
+<para>On <link linkend="d0/d1e/interface_modular_1_1_interfaces_1_1_action">Action</link> controller extension returns the url_handlers and allowed_actions which have been added to the controller by the extension, e.g. &apos;$ID/like&apos;, &apos;$ID/unlike&apos;.<itemizedlist>
+<listitem>
+<para>These are gathered by the ... extension to a <link linkend="db/d0a/class_modular_1_1_model">Model</link> <link linkend="d6/d68/class_modular_1_1_controller">Controller</link> which provides these in extraStatics</para>
+</listitem></itemizedlist>
+</para>
+
+<para>(generally by <link linkend="d3/d10/class_modular_1_1_application">Application</link> constructor called in app/_config.php ).</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>array map of path to controller e.g. [ &apos;endpoint/path/topic&apos; =&gt; &apos;<link linkend="df/df5/namespace_modular">Modular</link>&apos; ] </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

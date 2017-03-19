@@ -23,6 +23,20 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>struct <link linkend="d3/df1/namespace_modular_1_1_traits_1_1reflection">Modular::Traits::reflection</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="dc/d98/namespace_modular_1_1_traits_1_1requirements">Modular::Traits::requirements</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>struct <link linkend="dd/df8/namespace_s_s_viewer">SSViewer</link></para>
                     </listitem>
                 </itemizedlist>
@@ -30,7 +44,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d5/d7b/namespace_director">Director</link></para>
+                        <para>struct <link linkend="d5/de2/namespacereflection">reflection</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

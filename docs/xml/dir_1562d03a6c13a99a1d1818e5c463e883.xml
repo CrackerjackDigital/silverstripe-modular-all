@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="dir_1562d03a6c13a99a1d1818e5c463e883" kind="dir">
     <compoundname>forms</compoundname>
+    <innerfile refid="d2/d22/_tab_field_8php">TabField.php</innerfile>
     <innerfile refid="d9/d7f/_tag_field_8php">TagField.php</innerfile>
     <innerfile refid="dd/d06/_time_field_8php">TimeField.php</innerfile>
     <briefdescription>

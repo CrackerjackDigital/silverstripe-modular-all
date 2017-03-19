@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d2/d73/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_add_new_multi_class_sorted" kind="class" prot="public">
+    <compoundname>Modular::GridField::Components::GridFieldAddNewMultiClassSorted</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">GridFieldAddNewMultiClass</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A component which lets the user select from a list of classes to create a new record form.</para><para>By default the list of classes that are createable is the grid field&apos;s model class, and any subclasses. This can be customised using <ref refid="" kindref="compound">setClasses()</ref>. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="81">
+        <label>GridFieldAddNewMultiClass</label>
+      </node>
+      <node id="80">
+        <label>GridFieldAddNewMultiClassSorted</label>
+        <link refid="d2/d73/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_add_new_multi_class_sorted"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="83">
+        <label>GridFieldAddNewMultiClass</label>
+      </node>
+      <node id="82">
+        <label>GridFieldAddNewMultiClassSorted</label>
+        <link refid="d2/d73/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_add_new_multi_class_sorted"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/components/GridFieldAddNewMultiClassSorted.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/components/GridFieldAddNewMultiClassSorted.php" bodystart="13" bodyend="15"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

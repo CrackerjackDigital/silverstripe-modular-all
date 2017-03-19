@@ -6,7 +6,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config">Modular::GridField::GridFieldConfig</link></para>
+                        <para>struct <link linkend="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config">Modular::GridField::Configs::GridFieldConfig</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -16,7 +16,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d3/d7f/namespace_modular_1_1_grid_field">Modular::GridField</link></para>
+                        <para>struct <link linkend="de/dca/namespace_modular_1_1_grid_field_1_1_configs">Modular::GridField::Configs</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -24,6 +24,20 @@
                 <itemizedlist>
                     <listitem>
                         <para>struct <link linkend="da/da0/namespace_grid_field_config___relation_editor">GridFieldConfig_RelationEditor</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d5/d34/namespace_modular_1_1_traits_1_1lang">Modular::Traits::lang</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d1/dfe/namespacelang">lang</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

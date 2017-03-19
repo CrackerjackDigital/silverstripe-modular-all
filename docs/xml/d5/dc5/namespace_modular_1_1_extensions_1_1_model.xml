@@ -2,11 +2,14 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d5/dc5/namespace_modular_1_1_extensions_1_1_model" kind="namespace">
     <compoundname>Modular::Extensions::Model</compoundname>
+    <innerclass refid="d4/d53/class_modular_1_1_extensions_1_1_model_1_1_cache_hash" prot="public">Modular::Extensions::Model::CacheHash</innerclass>
+    <innerclass refid="d5/d5e/class_modular_1_1_extensions_1_1_model_1_1_historical" prot="public">Modular::Extensions::Model::Historical</innerclass>
+    <innerclass refid="d1/dbd/class_modular_1_1_extensions_1_1_model_1_1_system_data" prot="public">Modular::Extensions::Model::SystemData</innerclass>
     <innerclass refid="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique" prot="public">Modular::Extensions::Model::Unique</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Unique.php" line="2" column="1"/>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/CacheHash.php" line="2" column="1"/>
   </compounddef>
 </doxygen>

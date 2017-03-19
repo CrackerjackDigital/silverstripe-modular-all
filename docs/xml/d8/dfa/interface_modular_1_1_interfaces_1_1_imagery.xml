@@ -2,20 +2,12 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery" kind="interface" prot="public">
     <compoundname>Modular::Interfaces::Imagery</compoundname>
-    <derivedcompoundref refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image" prot="public" virt="non-virtual">FullWidthImage</derivedcompoundref>
-    <derivedcompoundref refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery" prot="public" virt="non-virtual">ImageGallery</derivedcompoundref>
-    <derivedcompoundref refid="d3/d15/class_modular_1_1_fields_1_1_image" prot="public" virt="non-virtual">Image</derivedcompoundref>
-    <derivedcompoundref refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images" prot="public" virt="non-virtual">HasImages</derivedcompoundref>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery_1a788148fc60b7fc6649031535178cfb30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>Images</definition>
         <argsstring>()</argsstring>
         <name>Images</name>
-        <reimplementedby refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery_1a788148fc60b7fc6649031535178cfb30">Images</reimplementedby>
-        <reimplementedby refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image_1a788148fc60b7fc6649031535178cfb30">Images</reimplementedby>
-        <reimplementedby refid="d3/d15/class_modular_1_1_fields_1_1_image_1a788148fc60b7fc6649031535178cfb30">Images</reimplementedby>
-        <reimplementedby refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a788148fc60b7fc6649031535178cfb30">Images</reimplementedby>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -30,10 +22,6 @@
         <definition>Image</definition>
         <argsstring>()</argsstring>
         <name>Image</name>
-        <reimplementedby refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery_1a66d0d6da3b89580352c28d37b57df5bb">Image</reimplementedby>
-        <reimplementedby refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image_1a66d0d6da3b89580352c28d37b57df5bb">Image</reimplementedby>
-        <reimplementedby refid="d3/d15/class_modular_1_1_fields_1_1_image_1a66d0d6da3b89580352c28d37b57df5bb">Image</reimplementedby>
-        <reimplementedby refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a66d0d6da3b89580352c28d37b57df5bb">Image</reimplementedby>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -48,48 +36,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <inheritancegraph>
-      <node id="958">
-        <label>FullWidthImage</label>
-        <link refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image"/>
-        <childnode refid="957" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="960">
-        <label>Image</label>
-        <link refid="d3/d15/class_modular_1_1_fields_1_1_image"/>
-        <childnode refid="957" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="957">
-        <label>Imagery</label>
-        <link refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery"/>
-      </node>
-      <node id="963">
-        <label>HasImages</label>
-        <link refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images"/>
-        <childnode refid="957" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="962">
-        <label>Thumbnail</label>
-        <link refid="df/d0d/class_modular_1_1_fields_1_1_thumbnail"/>
-        <childnode refid="960" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="961">
-        <label>Logo</label>
-        <link refid="d0/d43/class_modular_1_1_fields_1_1_logo"/>
-        <childnode refid="960" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="959">
-        <label>ImageGallery</label>
-        <link refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery"/>
-        <childnode refid="957" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
     <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Imagery.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Imagery.php" bodystart="7" bodyend="19"/>
     <listofallmembers>
       <member refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery_1a66d0d6da3b89580352c28d37b57df5bb" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Imagery</scope><name>Image</name></member>

@@ -2,6 +2,9 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="dir_02f55037cf14bf3f84d55991ea5f5d1d" kind="dir">
     <compoundname>model</compoundname>
+    <innerfile refid="dc/d7c/_cache_hash_8php">CacheHash.php</innerfile>
+    <innerfile refid="dd/dd2/_historical_8php">Historical.php</innerfile>
+    <innerfile refid="d4/db1/_system_data_8php">SystemData.php</innerfile>
     <innerfile refid="d3/dc8/_unique_8php">Unique.php</innerfile>
     <briefdescription>
     </briefdescription>

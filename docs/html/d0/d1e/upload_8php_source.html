@@ -107,100 +107,106 @@ $(document).ready(function(){initNavTree('d0/d1e/upload_8php_source.html','../..
 <div class="contents">
 <a href="../../d0/d1e/upload_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">namespace </span>Modular;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">namespace </span>Modular\Traits;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;use <a class="code" href="../../d5/d09/class_modular_1_1_exceptions_1_1_exception.html">Modular\Exceptions\Exception</a>;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;use UploadField;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../df/df5/namespace_modular.html#aab380e91a6e89eb7d572417a59dbdbdc">   13</a></span>&#160;trait <a class="code" href="../../df/df5/namespace_modular.html#aab380e91a6e89eb7d572417a59dbdbdc">upload</a> {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">abstract</span> <span class="keyword">public</span> <span class="keyword">function</span> __invoke();</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d1/dbf/namespace_modular_1_1_traits.html#aab380e91a6e89eb7d572417a59dbdbdc">   13</a></span>&#160;trait <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#aab380e91a6e89eb7d572417a59dbdbdc">upload</a> {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">abstract</span> <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#ac28f823331f21e51e6a72d5f5fa02cd4">__invoke</a>();</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../df/df5/namespace_modular.html#a89b171639eb5b84aa423822c163c914f">   23</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../df/df5/namespace_modular.html#a89b171639eb5b84aa423822c163c914f">makeUploadField</a>($relationshipName) {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        $wrapper = (new \DisplayLogicWrapper(</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            $field = <span class="keyword">new</span> \UploadField(</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                static::field_name()</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            )</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        ))-&gt;setID($relationshipName)-&gt;setName($relationshipName);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span> $wrapper;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../df/df5/namespace_modular.html#ad3267303429bf001abe95cb2ad8ad778">   37</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="../../df/df5/namespace_modular.html#ad3267303429bf001abe95cb2ad8ad778">configureUploadField</a>($field, $configVarName = <span class="stringliteral">&#39;allowed_files&#39;</span>) {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        $fieldName = $field-&gt;getName();</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">if</span> ($field instanceof \DisplayLogicWrapper) {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="comment">// drill down into wrapper to get actual UploadField</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            $field = $field-&gt;fieldByName($fieldName);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        }</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        list($minlength, $maxlength, $pattern) = $this-&gt;fieldConstraints($fieldName, [0, 0, <span class="stringliteral">&#39;&#39;</span>]);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        $field-&gt;setAllowedMaxFileNumber($maxlength ?: null);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="comment">// don&#39;t allow existing media to be re-attached it&#39;s a has_one so would be messy</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        $allowExistingFiles = $this-&gt;config()-&gt;get(<span class="stringliteral">&#39;can_attach_existing&#39;</span>);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        $field-&gt;setCanAttachExisting($allowExistingFiles);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        $field-&gt;setFolderName($this-&gt;<a class="code" href="../../df/df5/namespace_modular.html#a83bd3e1e721645ae5cd530de2e2bfb0d">uploadFolderName</a>());</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">// could be string for category or an array of extensions</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="comment">// try extension first, then model</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../d1/dbf/namespace_modular_1_1_traits.html#a5ef5030499d09da1b440aa56cd0b22ce">   21</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a5ef5030499d09da1b440aa56cd0b22ce">allowAttachExisting</a>() {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">return</span> $this-&gt;<a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a10794fddeae75cfbecb872f67827aa8c">config</a>()-&gt;get(<span class="stringliteral">&#39;allow_attach_existing&#39;</span>);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../d1/dbf/namespace_modular_1_1_traits.html#ae5e59977c7cc24ab75649a4568091e32">   32</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#ae5e59977c7cc24ab75649a4568091e32">makeUploadField</a>($relationshipName) {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        $wrapper = (new \DisplayLogicWrapper(</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            $field = <span class="keyword">new</span> \SortableUploadField(</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                static::field_name()</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            )</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        ))-&gt;setID($relationshipName)-&gt;setName($relationshipName);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> $wrapper;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="../../d1/dbf/namespace_modular_1_1_traits.html#a1da1358efcdb064c10787a693a04cee0">   46</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a1da1358efcdb064c10787a693a04cee0">configureUploadField</a>($field, $allowedFilesConfigVar = <span class="stringliteral">&#39;allowed_files&#39;</span>) {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        $fieldName = $field-&gt;getName();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">if</span> ($field instanceof \DisplayLogicWrapper) {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="comment">// drill down into wrapper to get actual UploadField</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            $field = $field-&gt;fieldByName($fieldName);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        list($minlength, $maxlength, $pattern) = $this-&gt;fieldConstraints($fieldName, [0, 0, <span class="stringliteral">&#39;&#39;</span>]);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        $extensions = $allowedFiles = $this-&gt;config()-&gt;get($configVarName)</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        ?: $this()-&gt;config()-&gt;get($configVarName);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        $categories = [];</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">if</span> (!is_array($allowedFiles)) {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="comment">// could be comma separated list of categories</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            $categories = explode(<span class="charliteral">&#39;,&#39;</span>, $allowedFiles);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="comment">// get extensions from category so we always get a list of extensions for the CMS right title</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            $allCategoryExtensions = \File::config()-&gt;get(<span class="stringliteral">&#39;app_categories&#39;</span>) ?: [];</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keywordflow">foreach</span> ($categories as $category) {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                <span class="keywordflow">if</span> (isset($allCategoryExtensions[$category])) {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                    $extensions = $allCategoryExtensions[$category];</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                    $extensions = [$category];</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        $field-&gt;setAllowedMaxFileNumber($maxlength ?: null);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="comment">// don&#39;t allow existing media to be re-attached it&#39;s a has_one so would be messy</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        $field-&gt;setCanAttachExisting($this-&gt;<a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a5ef5030499d09da1b440aa56cd0b22ce">allowAttachExisting</a>());</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        $field-&gt;setFolderName($this-&gt;<a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a7fc27daabe6435d3ed6bdc09b8b99550">uploadFolderName</a>());</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="comment">// try extension first, then model for config.allowed_files (or whatever configVarName is passed in).</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        $extensions = $allowedFiles = $this-&gt;<a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a10794fddeae75cfbecb872f67827aa8c">config</a>()-&gt;get($allowedFilesConfigVar)</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            ?: $this()-&gt;config()-&gt;get($allowedFilesConfigVar);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        $categories = [];</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">if</span> (!is_array($allowedFiles)) {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <span class="comment">// could be comma separated list of categories</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            $categories = explode(<span class="charliteral">&#39;,&#39;</span>, $allowedFiles);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <span class="comment">// get extensions from category so we always get a list of extensions for the CMS right title</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            $allCategoryExtensions = <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a10794fddeae75cfbecb872f67827aa8c">\File::config</a>()-&gt;get(<span class="stringliteral">&#39;app_categories&#39;</span>) ?: [];</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            }</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">if</span> (is_array($allowedFiles)) {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <span class="comment">// was an array originally, so pass merged extensions</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            $field-&gt;setAllowedExtensions($extensions);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        } elseif ($categories) {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="comment">// array of categories to apply to setAllowedFileCategories as parameters</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            call_user_func_array([$field, <span class="stringliteral">&#39;setAllowedFileCategories&#39;</span>], $categories);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        } elseif ($allowedFiles) {</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            <span class="comment">// not an array so a category e.g. &#39;video&#39;</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            $field-&gt;setAllowedFileCategories($allowedFiles);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="../../d5/d09/class_modular_1_1_exceptions_1_1_exception.html">Exception</a>(<span class="stringliteral">&quot;No $configVarName configuration set&quot;</span>);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        }</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        $field-&gt;setRightTitle($this-&gt;<a class="code" href="../../df/df5/namespace_modular.html#a8d44ba7b602cd8a487c8336e730e2a5f">fieldDecoration</a>(</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            $fieldName, <span class="stringliteral">&#39;Label&#39;</span>, $field-&gt;Title(), [</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                <span class="stringliteral">&#39;extensions&#39;</span> =&gt; implode(<span class="stringliteral">&#39;, &#39;</span>, $extensions),</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            ]</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        ));</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keywordflow">foreach</span> ($categories as $category) {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                <span class="keywordflow">if</span> (isset($allCategoryExtensions[ $category ])) {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                    $extensions = $allCategoryExtensions[ $category ];</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                    $extensions = [$category];</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">if</span> (is_array($allowedFiles)) {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="comment">// was an array originally, so pass merged extensions</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            $field-&gt;setAllowedExtensions($extensions);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        } elseif ($categories) {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="comment">// array of categories to apply to setAllowedFileCategories as parameters</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            call_user_func_array([$field, <span class="stringliteral">&#39;setAllowedFileCategories&#39;</span>], $categories);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        } elseif ($allowedFiles) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="comment">// not an array so a category e.g. &#39;video&#39;</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            $field-&gt;setAllowedFileCategories($allowedFiles);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="../../d5/d09/class_modular_1_1_exceptions_1_1_exception.html">Exception</a>(<span class="stringliteral">&quot;No $allowedFilesConfigVar configuration set&quot;</span>);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        }</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="../../df/df5/namespace_modular.html#a83bd3e1e721645ae5cd530de2e2bfb0d">  101</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../df/df5/namespace_modular.html#a83bd3e1e721645ae5cd530de2e2bfb0d">uploadFolderName</a>() {</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="comment">// try extension first, then model</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        return \Controller::join_links(</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            $this-&gt;config()-&gt;<span class="keyword">get</span>(<span class="stringliteral">&#39;base_upload_folder&#39;</span>)</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            ?: $this()-&gt;config()-&gt;<span class="keyword">get</span>(<span class="stringliteral">&#39;base_upload_folder&#39;</span>),</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            $this-&gt;config()-&gt;<span class="keyword">get</span>(<span class="stringliteral">&#39;upload_folder&#39;</span>)</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            ?: ($this()-&gt;config()-&gt;<span class="keyword">get</span>(<span class="stringliteral">&#39;upload_folder&#39;</span>)</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                ?: static::DefaultUploadFolderName)</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        );</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;}</div>
-<div class="ttc" id="namespace_modular_html_a83bd3e1e721645ae5cd530de2e2bfb0d"><div class="ttname"><a href="../../df/df5/namespace_modular.html#a83bd3e1e721645ae5cd530de2e2bfb0d">Modular\uploadFolderName</a></div><div class="ttdeci">uploadFolderName()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1e/upload_8php_source.html#l00101">upload.php:101</a></div></div>
-<div class="ttc" id="namespace_modular_html_a8d44ba7b602cd8a487c8336e730e2a5f"><div class="ttname"><a href="../../df/df5/namespace_modular.html#a8d44ba7b602cd8a487c8336e730e2a5f">Modular\fieldDecoration</a></div><div class="ttdeci">fieldDecoration($fieldName, $decoration= 'Label', $default= '', array $tokens=[], $field=null)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5f/lang_8php_source.html#l00029">lang.php:29</a></div></div>
-<div class="ttc" id="namespace_modular_html_aab380e91a6e89eb7d572417a59dbdbdc"><div class="ttname"><a href="../../df/df5/namespace_modular.html#aab380e91a6e89eb7d572417a59dbdbdc">Modular\upload</a></div><div class="ttdeci">trait upload</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1e/upload_8php_source.html#l00013">upload.php:13</a></div></div>
-<div class="ttc" id="namespace_modular_html_a89b171639eb5b84aa423822c163c914f"><div class="ttname"><a href="../../df/df5/namespace_modular.html#a89b171639eb5b84aa423822c163c914f">Modular\makeUploadField</a></div><div class="ttdeci">makeUploadField($relationshipName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1e/upload_8php_source.html#l00023">upload.php:23</a></div></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        $field-&gt;setRightTitle($this-&gt;<a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#ac026d9d2c5a5948c3bb61102662772e1">fieldDecoration</a>(</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            $fieldName, <span class="stringliteral">&#39;Label&#39;</span>, $field-&gt;Title(), [</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                <span class="stringliteral">&#39;extensions&#39;</span> =&gt; implode(<span class="stringliteral">&#39;, &#39;</span>, $extensions),</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            ]</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        ));</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="../../d1/dbf/namespace_modular_1_1_traits.html#a7fc27daabe6435d3ed6bdc09b8b99550">  109</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a7fc27daabe6435d3ed6bdc09b8b99550">uploadFolderName</a>() {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="comment">// try extension first, then model</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        return \Controller::join_links(</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            $this-&gt;<a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a10794fddeae75cfbecb872f67827aa8c">config</a>()-&gt;<span class="keyword">get</span>(<span class="stringliteral">&#39;base_upload_folder&#39;</span>)</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                ?: $this()-&gt;<a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a10794fddeae75cfbecb872f67827aa8c">config</a>()-&gt;<span class="keyword">get</span>(<span class="stringliteral">&#39;base_upload_folder&#39;</span>),</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            $this-&gt;<a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a10794fddeae75cfbecb872f67827aa8c">config</a>()-&gt;<span class="keyword">get</span>(<span class="stringliteral">&#39;upload_folder&#39;</span>)</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                ?: ($this()-&gt;<a class="code" href="../../d1/dbf/namespace_modular_1_1_traits.html#a10794fddeae75cfbecb872f67827aa8c">config</a>()-&gt;<span class="keyword">get</span>(<span class="stringliteral">&#39;upload_folder&#39;</span>)</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                ?: static::DefaultUploadFolderName)</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        );</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;}</div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_aab380e91a6e89eb7d572417a59dbdbdc"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#aab380e91a6e89eb7d572417a59dbdbdc">Modular\Traits\upload</a></div><div class="ttdeci">trait upload</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1e/upload_8php_source.html#l00013">upload.php:13</a></div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_a1da1358efcdb064c10787a693a04cee0"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#a1da1358efcdb064c10787a693a04cee0">Modular\Traits\configureUploadField</a></div><div class="ttdeci">configureUploadField($field, $allowedFilesConfigVar= 'allowed_files')</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1e/upload_8php_source.html#l00046">upload.php:46</a></div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_ac28f823331f21e51e6a72d5f5fa02cd4"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#ac28f823331f21e51e6a72d5f5fa02cd4">Modular\Traits\__invoke</a></div><div class="ttdeci">__invoke()</div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_a7fc27daabe6435d3ed6bdc09b8b99550"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#a7fc27daabe6435d3ed6bdc09b8b99550">Modular\Traits\uploadFolderName</a></div><div class="ttdeci">uploadFolderName()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1e/upload_8php_source.html#l00109">upload.php:109</a></div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_ac026d9d2c5a5948c3bb61102662772e1"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#ac026d9d2c5a5948c3bb61102662772e1">Modular\Traits\fieldDecoration</a></div><div class="ttdeci">fieldDecoration($fieldName, $decoration= 'Label', $default= '', array $tokens=[], $field=null)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5f/lang_8php_source.html#l00029">lang.php:29</a></div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_a10794fddeae75cfbecb872f67827aa8c"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#a10794fddeae75cfbecb872f67827aa8c">Modular\Traits\config</a></div><div class="ttdeci">trait config</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d45/config_8php_source.html#l00006">config.php:6</a></div></div>
 <div class="ttc" id="class_modular_1_1_exceptions_1_1_exception_html"><div class="ttname"><a href="../../d5/d09/class_modular_1_1_exceptions_1_1_exception.html">Modular\Exceptions\Exception</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d12/_exception_8php_source.html#l00007">Exception.php:7</a></div></div>
-<div class="ttc" id="namespace_modular_html_ad3267303429bf001abe95cb2ad8ad778"><div class="ttname"><a href="../../df/df5/namespace_modular.html#ad3267303429bf001abe95cb2ad8ad778">Modular\configureUploadField</a></div><div class="ttdeci">configureUploadField($field, $configVarName= 'allowed_files')</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1e/upload_8php_source.html#l00037">upload.php:37</a></div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_a5ef5030499d09da1b440aa56cd0b22ce"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#a5ef5030499d09da1b440aa56cd0b22ce">Modular\Traits\allowAttachExisting</a></div><div class="ttdeci">allowAttachExisting()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1e/upload_8php_source.html#l00021">upload.php:21</a></div></div>
+<div class="ttc" id="namespace_modular_1_1_traits_html_ae5e59977c7cc24ab75649a4568091e32"><div class="ttname"><a href="../../d1/dbf/namespace_modular_1_1_traits.html#ae5e59977c7cc24ab75649a4568091e32">Modular\Traits\makeUploadField</a></div><div class="ttdeci">makeUploadField($relationshipName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1e/upload_8php_source.html#l00032">upload.php:32</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

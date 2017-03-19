@@ -23,7 +23,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="df/d35/namespace_modular_1_1enabler">Modular::enabler</link></para>
+                        <para>struct <link linkend="dc/dc2/namespace_modular_1_1_traits_1_1enabler">Modular::Traits::enabler</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

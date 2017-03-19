@@ -4,7 +4,6 @@
     <compoundname>Model.php</compoundname>
     <innerclass refid="db/d0a/class_modular_1_1_model" prot="public">Modular::Model</innerclass>
     <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
-    <innernamespace refid="d0/d64/namespacerelated">related</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -13,18 +12,41 @@
 <codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular;</highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4" refid="db/d0a/class_modular_1_1_model" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="db/d0a/class_modular_1_1_model" kindref="compound">Model</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>\DataObject<sp/>{</highlight></codeline>
-<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/><ref refid="df/df5/namespace_modular_1ab11747a6bd94b097d49ecab7edd4dc70" kindref="member">lang</ref>;</highlight></codeline>
-<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/><ref refid="df/df5/namespace_modular_1a5c907a6211e0669e5fe3c298d12906ce" kindref="member">related</ref>;</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092" kindref="member">__invoke</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this;</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc" kindref="member">class_name</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>get_called_class();</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/>Modular\Traits\debugging;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1ab11747a6bd94b097d49ecab7edd4dc70" kindref="member">Modular\Traits\lang</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a426a76c60639697877e2d702e96443db" kindref="member">Modular\Traits\reflection</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a5c907a6211e0669e5fe3c298d12906ce" kindref="member">Modular\Traits\related</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="db/d0a/class_modular_1_1_model" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="db/d0a/class_modular_1_1_model" kindref="compound">Model</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>\DataObject<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1ab11747a6bd94b097d49ecab7edd4dc70" kindref="member">lang</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a5c907a6211e0669e5fe3c298d12906ce" kindref="member">related</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/><ref refid="d1/dbf/namespace_modular_1_1_traits_1a426a76c60639697877e2d702e96443db" kindref="member">reflection</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/>debugging;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092" kindref="member">__invoke</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="db/d0a/class_modular_1_1_model_1af758be52317607e28c2b633561d322f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="db/d0a/class_modular_1_1_model_1af758be52317607e28c2b633561d322f6" kindref="member">model</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="db/d0a/class_modular_1_1_model_1a74fc8d457a9fe7f9dd8c21afc3b5910d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="db/d0a/class_modular_1_1_model_1a74fc8d457a9fe7f9dd8c21afc3b5910d" kindref="member">type</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str_replace(</highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">,<sp/>static::class_name());</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc" kindref="member">class_name</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>get_called_class();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="db/d0a/class_modular_1_1_model_1ab8fc514b245975823d2a15d664517eb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="db/d0a/class_modular_1_1_model_1ab8fc514b245975823d2a15d664517eb0" kindref="member">modelClassName</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>get_class($this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="db/d0a/class_modular_1_1_model_1afd35de2c4f85109ad1e9ea6f1902ef0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="db/d0a/class_modular_1_1_model_1afd35de2c4f85109ad1e9ea6f1902ef0b" kindref="member">modelID</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;ID;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/mnt/storage/build/modular-all/develop/modular/code/Model.php"/>
   </compounddef>

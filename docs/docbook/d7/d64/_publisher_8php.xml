@@ -30,7 +30,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d3/dd7/namespace_modular_1_1debugging">Modular::debugging</link></para>
+                        <para>struct <link linkend="de/d4d/namespace_modular_1_1_traits_1_1debugging">Modular::Traits::debugging</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

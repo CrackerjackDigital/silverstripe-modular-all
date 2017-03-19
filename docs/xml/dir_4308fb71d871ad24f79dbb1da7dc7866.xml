@@ -2,8 +2,6 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="dir_4308fb71d871ad24f79dbb1da7dc7866" kind="dir">
     <compoundname>behaviours</compoundname>
-    <innerfile refid="d3/d1b/behaviours_2_internal_or_external_link_8php">behaviours/InternalOrExternalLink.php</innerfile>
-    <innerfile refid="dc/de2/_media_link_type_8php">MediaLinkType.php</innerfile>
     <innerfile refid="db/db1/behaviours_2_previewable_8php">behaviours/Previewable.php</innerfile>
     <briefdescription>
     </briefdescription>

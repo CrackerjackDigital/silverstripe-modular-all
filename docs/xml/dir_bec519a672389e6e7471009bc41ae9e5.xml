@@ -2,19 +2,32 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="dir_bec519a672389e6e7471009bc41ae9e5" kind="dir">
     <compoundname>traits</compoundname>
+    <innerfile refid="d5/d13/backprop_8php">backprop.php</innerfile>
     <innerfile refid="dc/d65/bitfield_8php">bitfield.php</innerfile>
     <innerfile refid="dc/dba/cache_8php">cache.php</innerfile>
     <innerfile refid="d0/d45/config_8php">config.php</innerfile>
+    <innerfile refid="db/d2b/custom__create_8php">custom_create.php</innerfile>
+    <innerfile refid="d5/db6/custom__get_8php">custom_get.php</innerfile>
+    <innerfile refid="d1/d30/custom__many__many_8php">custom_many_many.php</innerfile>
     <innerfile refid="d5/d99/debugging_8php">debugging.php</innerfile>
+    <innerfile refid="d9/d01/dycache_8php">dycache.php</innerfile>
+    <innerfile refid="d8/d0e/emailer_8php">emailer.php</innerfile>
     <innerfile refid="d2/df6/enabler_8php">enabler.php</innerfile>
+    <innerfile refid="d5/d84/generator_8php">generator.php</innerfile>
     <innerfile refid="d1/df1/json_8php">json.php</innerfile>
     <innerfile refid="d5/d5f/lang_8php">lang.php</innerfile>
+    <innerfile refid="de/d96/md5_8php">md5.php</innerfile>
+    <innerfile refid="d4/df4/microtimestamp_8php">microtimestamp.php</innerfile>
+    <innerfile refid="da/d08/mode_8php">mode.php</innerfile>
     <innerfile refid="dc/dde/options_8php">options.php</innerfile>
     <innerfile refid="de/d2b/owned_8php">owned.php</innerfile>
     <innerfile refid="d2/db2/reflection_8php">reflection.php</innerfile>
     <innerfile refid="d6/dc7/related_8php">related.php</innerfile>
     <innerfile refid="d9/dde/requirements_8php">requirements.php</innerfile>
+    <innerfile refid="dd/d70/routing_8php">routing.php</innerfile>
+    <innerfile refid="d3/d5d/timestamp_8php">timestamp.php</innerfile>
     <innerfile refid="d0/d1d/tokens_8php">tokens.php</innerfile>
+    <innerfile refid="d8/d30/trackable_8php">trackable.php</innerfile>
     <innerfile refid="d0/d1e/upload_8php">upload.php</innerfile>
     <briefdescription>
     </briefdescription>

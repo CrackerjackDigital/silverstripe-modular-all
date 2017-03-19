@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content">
+<title>Modular::Extensions::Controller::Content class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content_1a9a28a026bf21eb0b9f8582aa613d0199">ActionLink</link> (
+ $action)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d6/d28/class_modular_1_1_extensions_1_1_controller_1_1_content_1a9a28a026bf21eb0b9f8582aa613d0199">
+                <title>ActionLink ($action)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

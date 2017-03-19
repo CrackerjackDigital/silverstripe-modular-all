@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/dd3/extensions_2controller_2_model_8php" kind="file">
+    <compoundname>extensions/controller/Model.php</compoundname>
+    <innerclass refid="da/da3/class_modular_1_1_extensions_1_1_controller_1_1_model" prot="public">Modular::Extensions::Controller::Model</innerclass>
+    <innernamespace refid="d7/d6f/namespace_modular_1_1_extensions_1_1_controller">Modular::Extensions::Controller</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Extensions\Controller;</highlight></codeline>
+<codeline lineno="8" refid="da/da3/class_modular_1_1_extensions_1_1_controller_1_1_model" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/da3/class_modular_1_1_extensions_1_1_controller_1_1_model" kindref="compound">Model</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>\Extension<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Model.php"/>
+  </compounddef>
+</doxygen>

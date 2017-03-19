@@ -23,6 +23,13 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>struct <link linkend="d1/dce/namespace_array_list">ArrayList</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>struct <link linkend="dc/d5d/namespace_multiple_iterator">MultipleIterator</link></para>
                     </listitem>
                 </itemizedlist>

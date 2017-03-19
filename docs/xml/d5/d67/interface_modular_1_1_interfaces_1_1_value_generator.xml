@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d5/d67/interface_modular_1_1_interfaces_1_1_value_generator" kind="interface" prot="public">
+    <compoundname>Modular::Interfaces::ValueGenerator</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d67/interface_modular_1_1_interfaces_1_1_value_generator_1adf93bc5accf0d3f14d1d3f75254455ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>shouldGenerate</definition>
+        <argsstring>()</argsstring>
+        <name>shouldGenerate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return true if a new value should be generated, false otherwise. e.g. a test if a value is already set on a model could return false if the value should not be overwritten, or true if a new value should always be generated.</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/ValueGenerator.php" line="13" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d5/d67/interface_modular_1_1_interfaces_1_1_value_generator_1a5067804f3101121e2a30bb8147cb974e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static generator</definition>
+        <argsstring>($seed=null)</argsstring>
+        <name>generator</name>
+        <param>
+          <declname>$seed</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a new value for the extended model if shouldGenerate returns true, or the existing value from the extended model if shouldGenerate returned false.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value to generate new value from, value to return etc </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/ValueGenerator.php" line="22" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/ValueGenerator.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/ValueGenerator.php" bodystart="4" bodyend="24"/>
+    <listofallmembers>
+      <member refid="d5/d67/interface_modular_1_1_interfaces_1_1_value_generator_1a5067804f3101121e2a30bb8147cb974e" prot="public" virt="non-virtual"><scope>Modular::Interfaces::ValueGenerator</scope><name>generator</name></member>
+      <member refid="d5/d67/interface_modular_1_1_interfaces_1_1_value_generator_1adf93bc5accf0d3f14d1d3f75254455ee" prot="public" virt="non-virtual"><scope>Modular::Interfaces::ValueGenerator</scope><name>shouldGenerate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -6,6 +6,27 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>file <link linkend="dc/d7c/_cache_hash_8php">CacheHash.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="dd/dd2/_historical_8php">Historical.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d4/db1/_system_data_8php">SystemData.php</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>file <link linkend="d3/dc8/_unique_8php">Unique.php</link></para>
                     </listitem>
                 </itemizedlist>

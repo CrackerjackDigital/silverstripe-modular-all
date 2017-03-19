@@ -4,6 +4,7 @@
     <compoundname>StringField.php</compoundname>
     <innerclass refid="d4/df0/class_modular_1_1_string_field_extension" prot="public">Modular::StringFieldExtension</innerclass>
     <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <innernamespace refid="da/db0/namespace_extension">Extension</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

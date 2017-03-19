@@ -6,7 +6,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="dd/d06/interface_modular_1_1_interfaces_1_1_logger">Modular::Interfaces::Logger</link></para>
+                        <para>struct <link linkend="df/d92/class_modular_1_1_logger">Modular::Logger</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -16,13 +16,20 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d5/d56/namespace_modular_1_1_interfaces">Modular::Interfaces</link></para>
+                        <para>struct <link linkend="df/df5/namespace_modular">Modular</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d3/d40/namespaceframework">framework</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
         </simplesect>
     <simplesect>
         <title>Detailed Description</title>
-    <para>Definition in file /mnt/storage/build/modular-all/develop/modular/code/interfaces/Logger.php</para>
+    <para>Definition in file /mnt/storage/build/modular-all/develop/modular/code/Logger.php</para>
     </simplesect>
 </section>

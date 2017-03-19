@@ -6,7 +6,14 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="df/df5/namespace_modular">Modular</link></para>
+                        <para>struct <link linkend="d1/dbf/namespace_modular_1_1_traits">Modular::Traits</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d2/d21/namespace_modular_1_1_scoped_reference">Modular::ScopedReference</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

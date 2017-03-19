@@ -1,0 +1,885 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p" kind="interface" prot="public">
+    <compoundname>Modular::Interfaces::HTTP</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a91d0ef48e2e9fd2b56992cdcf2692daa" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const OKContinue</definition>
+        <argsstring></argsstring>
+        <name>OKContinue</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a5d7a62c74d7ade12d46dcf3fe9efac67" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SwitchingProtocols</definition>
+        <argsstring></argsstring>
+        <name>SwitchingProtocols</name>
+        <initializer>= 101</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a0265f37d651c86edf8f0e73262acdf2b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Processing</definition>
+        <argsstring></argsstring>
+        <name>Processing</name>
+        <initializer>= 102</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a662f51c007afab9ac309d177745a503f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const OK</definition>
+        <argsstring></argsstring>
+        <name>OK</name>
+        <initializer>= 200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1acbe6e748b27c0ef90d5de7d406cacc06" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Created</definition>
+        <argsstring></argsstring>
+        <name>Created</name>
+        <initializer>= 201</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a6a3fc85fbc5f504a12761844fb93a0ff" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Accepted</definition>
+        <argsstring></argsstring>
+        <name>Accepted</name>
+        <initializer>= 202</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1aef130128122ce72ebdf8621b3ad10dd6" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const NonAuthoritativeInformation</definition>
+        <argsstring></argsstring>
+        <name>NonAuthoritativeInformation</name>
+        <initializer>= 203</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a28f162294c552c337858352745696c84" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const NoContent</definition>
+        <argsstring></argsstring>
+        <name>NoContent</name>
+        <initializer>= 204</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1adce8ce7902dd82b50d418b2f580b20fb" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ResetContent</definition>
+        <argsstring></argsstring>
+        <name>ResetContent</name>
+        <initializer>= 205</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ae090301afba135b047684e06273504c5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PartialContent</definition>
+        <argsstring></argsstring>
+        <name>PartialContent</name>
+        <initializer>= 206</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a1b4b936dec36fd82fb66c149569491f7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const MultiStatus</definition>
+        <argsstring></argsstring>
+        <name>MultiStatus</name>
+        <initializer>= 207</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1adfa377462775756d2be905fb4b4ef35c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const AlreadyReported</definition>
+        <argsstring></argsstring>
+        <name>AlreadyReported</name>
+        <initializer>= 208</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a7144bd72e578be2900d86328287c4131" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const IMUsed</definition>
+        <argsstring></argsstring>
+        <name>IMUsed</name>
+        <initializer>= 226</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a4c6ea33102f0bbde4094aa56827c56e5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const MultipleChoices</definition>
+        <argsstring></argsstring>
+        <name>MultipleChoices</name>
+        <initializer>= 300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ab9de1707ff9ab191734cb97608758956" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const MovedPermanently</definition>
+        <argsstring></argsstring>
+        <name>MovedPermanently</name>
+        <initializer>= 301</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a58e3d9228aa7bf0f23073202e7312d96" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Found</definition>
+        <argsstring></argsstring>
+        <name>Found</name>
+        <initializer>= 302</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="20" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1afb8caf63ce43f9c399c5b97c53d8bf88" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SeeOther</definition>
+        <argsstring></argsstring>
+        <name>SeeOther</name>
+        <initializer>= 303</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="21" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1aba52a2317c19502880cd20c1f907676b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const NotModified</definition>
+        <argsstring></argsstring>
+        <name>NotModified</name>
+        <initializer>= 304</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="22" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1abda1af54a4391ba7670cb44a08ac706d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const UseProxy</definition>
+        <argsstring></argsstring>
+        <name>UseProxy</name>
+        <initializer>= 305</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="23" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a2c97783cb799448edb9847298cfdecb5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const TemporaryRedirect</definition>
+        <argsstring></argsstring>
+        <name>TemporaryRedirect</name>
+        <initializer>= 307</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="24" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ab461525f007bda3878413b9b4b1ea7ab" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PermanentRedirect</definition>
+        <argsstring></argsstring>
+        <name>PermanentRedirect</name>
+        <initializer>= 308</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="25" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a0f3eba7a691c5705c73d6af663f0ffd1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const BadRequest</definition>
+        <argsstring></argsstring>
+        <name>BadRequest</name>
+        <initializer>= 400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="26" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a807e2ec688847178f33c9f24854735b1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Unauthorized</definition>
+        <argsstring></argsstring>
+        <name>Unauthorized</name>
+        <initializer>= 401</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="27" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a863d58d568a700d991635b6a720a0804" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PaymentRequired</definition>
+        <argsstring></argsstring>
+        <name>PaymentRequired</name>
+        <initializer>= 402</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="28" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1af5e54500c8f56f5ac491139db050f568" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Forbidden</definition>
+        <argsstring></argsstring>
+        <name>Forbidden</name>
+        <initializer>= 403</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="29" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a7a70dab9bad9b9372f22dfea910add46" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const NotFound</definition>
+        <argsstring></argsstring>
+        <name>NotFound</name>
+        <initializer>= 404</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="30" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a0a3927cfbac7e8daa656e3793c94d62e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const MethodNotAllowed</definition>
+        <argsstring></argsstring>
+        <name>MethodNotAllowed</name>
+        <initializer>= 405</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="31" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a1b8c4f5591d9a5b0ed8e640ef491f087" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const NotAcceptable</definition>
+        <argsstring></argsstring>
+        <name>NotAcceptable</name>
+        <initializer>= 406</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="32" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a64d0d6fbbfd72750e1854fd18d10830d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ProxyAuthenticationRequired</definition>
+        <argsstring></argsstring>
+        <name>ProxyAuthenticationRequired</name>
+        <initializer>= 407</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="33" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a4dba3d2c40cfc55f6a9431e7b59a0909" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RequestTimeout</definition>
+        <argsstring></argsstring>
+        <name>RequestTimeout</name>
+        <initializer>= 408</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="34" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a3cf4bf347d47e4e3f03c0fa45660911d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Conflict</definition>
+        <argsstring></argsstring>
+        <name>Conflict</name>
+        <initializer>= 409</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="35" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a04d2178c9fc8f3bd28757548bbd5ac66" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Gone</definition>
+        <argsstring></argsstring>
+        <name>Gone</name>
+        <initializer>= 410</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="36" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a062bd8b4737ac9222648c311aaa0d684" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const LengthRequired</definition>
+        <argsstring></argsstring>
+        <name>LengthRequired</name>
+        <initializer>= 411</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="37" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a13ed38001e1320666eedc208d4663c84" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PreconditionFailed</definition>
+        <argsstring></argsstring>
+        <name>PreconditionFailed</name>
+        <initializer>= 412</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="38" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a59abc829f3c948e660e6d7a197de6e6c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RequestEntityTooLarge</definition>
+        <argsstring></argsstring>
+        <name>RequestEntityTooLarge</name>
+        <initializer>= 413</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="39" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a87bc8833808a87d1be54d827db06ef51" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RequestURITooLong</definition>
+        <argsstring></argsstring>
+        <name>RequestURITooLong</name>
+        <initializer>= 414</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="40" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1acf19d39450d69ee760846757aa04f9b2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const UnsupportedMediaType</definition>
+        <argsstring></argsstring>
+        <name>UnsupportedMediaType</name>
+        <initializer>= 415</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="41" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a44ef6d776827a17144ac64e83b2fd1a0" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RequestedRangeNotSatisfiable</definition>
+        <argsstring></argsstring>
+        <name>RequestedRangeNotSatisfiable</name>
+        <initializer>= 416</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="42" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a3417de8f96299da250806ed2d61c131c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ExpectationFailed</definition>
+        <argsstring></argsstring>
+        <name>ExpectationFailed</name>
+        <initializer>= 417</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="43" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ab09034add3d09b1d3163a091e2e67864" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const UnprocessableEntity</definition>
+        <argsstring></argsstring>
+        <name>UnprocessableEntity</name>
+        <initializer>= 422</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="44" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a8848efe1b7f92610167e76e5362e8f3a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Locked</definition>
+        <argsstring></argsstring>
+        <name>Locked</name>
+        <initializer>= 423</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="45" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a4357aa5c245ddee76822a6aec078a29e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FailedDependency</definition>
+        <argsstring></argsstring>
+        <name>FailedDependency</name>
+        <initializer>= 424</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="46" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1aac012930334815b3d1ddd1353bc2a0c4" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Reserved</definition>
+        <argsstring></argsstring>
+        <name>Reserved</name>
+        <initializer>= 425</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="47" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a54f7ddfacbc9f1d57c3e337c93556ca6" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const UpgradeRequired</definition>
+        <argsstring></argsstring>
+        <name>UpgradeRequired</name>
+        <initializer>= 426</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="48" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a9645526f3710105702ce9f5a108e49b2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PreconditionRequired</definition>
+        <argsstring></argsstring>
+        <name>PreconditionRequired</name>
+        <initializer>= 428</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="49" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a9e8a70bcc61320587753741e4842f361" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const TooManyRequests</definition>
+        <argsstring></argsstring>
+        <name>TooManyRequests</name>
+        <initializer>= 429</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="50" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a24289569ee46fd72374682f3cd1c93f0" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RequestHeaderFieldsTooLarge</definition>
+        <argsstring></argsstring>
+        <name>RequestHeaderFieldsTooLarge</name>
+        <initializer>= 431</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="51" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ad21ac613133b0e056fb8bcfa15fe7e72" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const InternalServerError</definition>
+        <argsstring></argsstring>
+        <name>InternalServerError</name>
+        <initializer>= 500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="52" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a780e898ea062ad1915d53e21f47c2c35" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const NotImplemented</definition>
+        <argsstring></argsstring>
+        <name>NotImplemented</name>
+        <initializer>= 501</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="53" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ac51c84fec794ba188c49b583d4b68a8b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const BadGateway</definition>
+        <argsstring></argsstring>
+        <name>BadGateway</name>
+        <initializer>= 502</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="54" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ae518a1842e5a5c7484be80c27fe9cdcd" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ServiceUnavailable</definition>
+        <argsstring></argsstring>
+        <name>ServiceUnavailable</name>
+        <initializer>= 503</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="55" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a1d4cbdd70071ccf0a0ec69adb5af5557" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const GatewayTimeout</definition>
+        <argsstring></argsstring>
+        <name>GatewayTimeout</name>
+        <initializer>= 504</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="56" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a0aee9d43ecafc6515396eac59be81da4" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const HTTPVersionNotSupported</definition>
+        <argsstring></argsstring>
+        <name>HTTPVersionNotSupported</name>
+        <initializer>= 505</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="57" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a6ace9016feaaa1fe337ab2eaa8a41ceb" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const VariantAlsoNegotiates</definition>
+        <argsstring></argsstring>
+        <name>VariantAlsoNegotiates</name>
+        <initializer>= 506</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="58" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ad9a69bf5da33b2b5a608a2a46b0fab1a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const InsufficientStorage</definition>
+        <argsstring></argsstring>
+        <name>InsufficientStorage</name>
+        <initializer>= 507</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="59" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a0895d9d2b11cd3ebb2199fc5c27b0d6d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const LoopDetected</definition>
+        <argsstring></argsstring>
+        <name>LoopDetected</name>
+        <initializer>= 508</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="60" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a6223af30817970e390cead0b5c223a0c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const NotExtended</definition>
+        <argsstring></argsstring>
+        <name>NotExtended</name>
+        <initializer>= 510</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="61" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a3ba9d778740af3ee9b7a36b4747d1a53" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const NetworkAuthenticationRequired</definition>
+        <argsstring></argsstring>
+        <name>NetworkAuthenticationRequired</name>
+        <initializer>= 511</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="62" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HTTP.php" bodystart="4" bodyend="64"/>
+    <listofallmembers>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a6a3fc85fbc5f504a12761844fb93a0ff" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>Accepted</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1adfa377462775756d2be905fb4b4ef35c" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>AlreadyReported</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ac51c84fec794ba188c49b583d4b68a8b" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>BadGateway</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a0f3eba7a691c5705c73d6af663f0ffd1" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>BadRequest</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a3cf4bf347d47e4e3f03c0fa45660911d" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>Conflict</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1acbe6e748b27c0ef90d5de7d406cacc06" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>Created</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a3417de8f96299da250806ed2d61c131c" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>ExpectationFailed</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a4357aa5c245ddee76822a6aec078a29e" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>FailedDependency</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1af5e54500c8f56f5ac491139db050f568" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>Forbidden</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a58e3d9228aa7bf0f23073202e7312d96" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>Found</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a1d4cbdd70071ccf0a0ec69adb5af5557" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>GatewayTimeout</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a04d2178c9fc8f3bd28757548bbd5ac66" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>Gone</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a0aee9d43ecafc6515396eac59be81da4" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>HTTPVersionNotSupported</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a7144bd72e578be2900d86328287c4131" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>IMUsed</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ad9a69bf5da33b2b5a608a2a46b0fab1a" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>InsufficientStorage</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ad21ac613133b0e056fb8bcfa15fe7e72" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>InternalServerError</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a062bd8b4737ac9222648c311aaa0d684" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>LengthRequired</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a8848efe1b7f92610167e76e5362e8f3a" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>Locked</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a0895d9d2b11cd3ebb2199fc5c27b0d6d" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>LoopDetected</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a0a3927cfbac7e8daa656e3793c94d62e" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>MethodNotAllowed</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ab9de1707ff9ab191734cb97608758956" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>MovedPermanently</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a4c6ea33102f0bbde4094aa56827c56e5" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>MultipleChoices</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a1b4b936dec36fd82fb66c149569491f7" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>MultiStatus</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a3ba9d778740af3ee9b7a36b4747d1a53" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>NetworkAuthenticationRequired</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a28f162294c552c337858352745696c84" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>NoContent</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1aef130128122ce72ebdf8621b3ad10dd6" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>NonAuthoritativeInformation</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a1b8c4f5591d9a5b0ed8e640ef491f087" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>NotAcceptable</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a6223af30817970e390cead0b5c223a0c" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>NotExtended</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a7a70dab9bad9b9372f22dfea910add46" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>NotFound</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a780e898ea062ad1915d53e21f47c2c35" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>NotImplemented</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1aba52a2317c19502880cd20c1f907676b" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>NotModified</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a662f51c007afab9ac309d177745a503f" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>OK</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a91d0ef48e2e9fd2b56992cdcf2692daa" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>OKContinue</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ae090301afba135b047684e06273504c5" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>PartialContent</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a863d58d568a700d991635b6a720a0804" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>PaymentRequired</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ab461525f007bda3878413b9b4b1ea7ab" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>PermanentRedirect</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a13ed38001e1320666eedc208d4663c84" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>PreconditionFailed</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a9645526f3710105702ce9f5a108e49b2" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>PreconditionRequired</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a0265f37d651c86edf8f0e73262acdf2b" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>Processing</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a64d0d6fbbfd72750e1854fd18d10830d" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>ProxyAuthenticationRequired</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a44ef6d776827a17144ac64e83b2fd1a0" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>RequestedRangeNotSatisfiable</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a59abc829f3c948e660e6d7a197de6e6c" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>RequestEntityTooLarge</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a24289569ee46fd72374682f3cd1c93f0" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>RequestHeaderFieldsTooLarge</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a4dba3d2c40cfc55f6a9431e7b59a0909" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>RequestTimeout</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a87bc8833808a87d1be54d827db06ef51" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>RequestURITooLong</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1aac012930334815b3d1ddd1353bc2a0c4" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>Reserved</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1adce8ce7902dd82b50d418b2f580b20fb" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>ResetContent</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1afb8caf63ce43f9c399c5b97c53d8bf88" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>SeeOther</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ae518a1842e5a5c7484be80c27fe9cdcd" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>ServiceUnavailable</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a5d7a62c74d7ade12d46dcf3fe9efac67" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>SwitchingProtocols</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a2c97783cb799448edb9847298cfdecb5" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>TemporaryRedirect</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a9e8a70bcc61320587753741e4842f361" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>TooManyRequests</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a807e2ec688847178f33c9f24854735b1" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>Unauthorized</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1ab09034add3d09b1d3163a091e2e67864" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>UnprocessableEntity</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1acf19d39450d69ee760846757aa04f9b2" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>UnsupportedMediaType</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a54f7ddfacbc9f1d57c3e337c93556ca6" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>UpgradeRequired</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1abda1af54a4391ba7670cb44a08ac706d" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>UseProxy</name></member>
+      <member refid="df/dbc/interface_modular_1_1_interfaces_1_1_h_t_t_p_1a6ace9016feaaa1fe337ab2eaa8a41ceb" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HTTP</scope><name>VariantAlsoNegotiates</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

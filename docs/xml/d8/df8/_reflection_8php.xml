@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/df8/_reflection_8php" kind="file">
+    <compoundname>Reflection.php</compoundname>
+    <innerclass refid="d6/d8e/class_modular_1_1_helpers_1_1_reflection" prot="public">Modular::Helpers::Reflection</innerclass>
+    <innernamespace refid="dd/dfc/namespace_modular_1_1_helpers">Modular::Helpers</innernamespace>
+    <innernamespace refid="d7/d06/namespace_modular_1_1_interfaces_1_1_arities">Modular::Interfaces::Arities</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Helpers;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities" kindref="compound">Modular\Interfaces\Arities</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="da/d08/class_modular_1_1_object" kindref="compound">Modular\Object</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="d6/d8e/class_modular_1_1_helpers_1_1_reflection" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/d8e/class_modular_1_1_helpers_1_1_reflection" kindref="compound">Reflection</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="da/d08/class_modular_1_1_object" kindref="compound">Object</ref><sp/>implements<sp/><ref refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities" kindref="compound">Arities</ref><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="d6/d8e/class_modular_1_1_helpers_1_1_reflection_1a11badaadb87482edcdf2922a9595d62a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d6/d8e/class_modular_1_1_helpers_1_1_reflection_1a11badaadb87482edcdf2922a9595d62a" kindref="member">AllRelationships</ref><sp/>=<sp/>15;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>map<sp/>a<sp/>numeric<sp/>arity<sp/>to<sp/>a<sp/>config<sp/>variable<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$arity_config_map<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self::HasOne<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&apos;has_one&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self::HasMany<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&apos;has_many&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self::ManyMany<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&apos;many_many&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self::BelongsManyMany<sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&apos;belongs_many_many&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/Reflection.php"/>
+  </compounddef>
+</doxygen>

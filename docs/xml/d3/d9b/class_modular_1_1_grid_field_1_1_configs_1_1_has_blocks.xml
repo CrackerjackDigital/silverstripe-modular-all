@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks" kind="class" prot="public">
+    <compoundname>Modular::GridField::Configs::HasBlocks</compoundname>
+    <basecompoundref refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config" prot="public" virt="non-virtual">HasManyManyGridFieldConfig</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks_1ad2f4ac002970371a69bde51db4113755" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$add_new_multi_class</definition>
+        <argsstring></argsstring>
+        <name>$add_new_multi_class</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasBlocks.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasBlocks.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks_1a2677d0a4773b50d185fddbe10a945cb4" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$prefix_zones</definition>
+        <argsstring></argsstring>
+        <name>$prefix_zones</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasBlocks.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasBlocks.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks_1aa2d6dde8d141886462578460acce483d" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$prune_unzoned_blocks</definition>
+        <argsstring></argsstring>
+        <name>$prune_unzoned_blocks</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasBlocks.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasBlocks.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks_1ac3b0b3c0f770dd2d73390db5a1ef1611" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$exclude_related_classes</definition>
+        <argsstring></argsstring>
+        <name>$exclude_related_classes</name>
+        <initializer>= [
+		&apos;Modular*&apos;,
+		&apos;GridListContentBlock&apos;,
+		&apos;GridListDownloadBlock&apos;,
+		&apos;GridListImageBlock&apos;,
+		&apos;GridListLinkedPageBlock&apos;,
+		&apos;GridListSubscribeBlock&apos;,
+		&apos;GridListVideoBlock&apos;,
+	    &apos;HeroSlideBlock&apos;                
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasBlocks.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasBlocks.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks_1aedd5fec065b871d6d599002f1ef65791" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static allowed_related_classes</definition>
+        <argsstring>()</argsstring>
+        <name>allowed_related_classes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasBlocks.php" line="29" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasBlocks.php" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks_1a18c601602a865ce27f467cdaa67f4128" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static limited_related_classes</definition>
+        <argsstring>($addExtraClasses=[])</argsstring>
+        <name>limited_related_classes</name>
+        <param>
+          <declname>$addExtraClasses</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>For the add blocks dropdown we can optionally prefix the label in the dropdown with the zone from Block.BlockZones. If config.prune_unzoned_blocks is true then we also remove blocks which currently do not have a zone. Blocks are prefixed with zones from Page blocks_for_zone and ordered in the dropdown as the zones in that array are ordered.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$addExtraClasses</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasBlocks.php" line="45" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasBlocks.php" bodystart="45" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Alters the config to be suitable for adding/removing blocks from an article.</para><para>Adds an &apos;AddNewMultiClass&apos; selector </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="95">
+        <label>HasManyManyGridFieldConfig</label>
+        <link refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>HasBlocks</label>
+        <link refid="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>GridFieldConfig_RelationEditor</label>
+      </node>
+      <node id="96">
+        <label>GridFieldConfig</label>
+        <link refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="99">
+        <label>HasManyManyGridFieldConfig</label>
+        <link refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>HasBlocks</label>
+        <link refid="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>GridFieldConfig_RelationEditor</label>
+      </node>
+      <node id="100">
+        <label>GridFieldConfig</label>
+        <link refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasBlocks.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasBlocks.php" bodystart="9" bodyend="73"/>
+    <listofallmembers>
+      <member refid="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks_1ad2f4ac002970371a69bde51db4113755" prot="private" virt="non-virtual"><scope>Modular::GridField::Configs::HasBlocks</scope><name>$add_new_multi_class</name></member>
+      <member refid="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks_1ac3b0b3c0f770dd2d73390db5a1ef1611" prot="private" virt="non-virtual"><scope>Modular::GridField::Configs::HasBlocks</scope><name>$exclude_related_classes</name></member>
+      <member refid="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks_1a2677d0a4773b50d185fddbe10a945cb4" prot="private" virt="non-virtual"><scope>Modular::GridField::Configs::HasBlocks</scope><name>$prefix_zones</name></member>
+      <member refid="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks_1aa2d6dde8d141886462578460acce483d" prot="private" virt="non-virtual"><scope>Modular::GridField::Configs::HasBlocks</scope><name>$prune_unzoned_blocks</name></member>
+      <member refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a305f7b18dce920304db64818988c9ab9" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasBlocks</scope><name>__construct</name></member>
+      <member refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasBlocks</scope><name>__invoke</name></member>
+      <member refid="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks_1aedd5fec065b871d6d599002f1ef65791" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasBlocks</scope><name>allowed_related_classes</name></member>
+      <member refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config_1a77eb7482781c6152ac0a85593bf8f2b8" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasBlocks</scope><name>base</name></member>
+      <member refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasBlocks</scope><name>class_name</name></member>
+      <member refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config_1a70e4c2270db10b8cb380ce6035357da1" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasBlocks</scope><name>ComponentAddNewButton</name></member>
+      <member refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a52a48ebfa025fc48a3403f1d34dd6513" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasBlocks</scope><name>ComponentAddNewMultiClass</name></member>
+      <member refid="df/dfc/class_modular_1_1_grid_field_1_1_configs_1_1_grid_field_config_1a563d7b1189241834ca2c7c07193e429c" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasBlocks</scope><name>ComponentAutoCompleter</name></member>
+      <member refid="dc/d01/class_modular_1_1_grid_field_1_1_configs_1_1_has_many_many_grid_field_config_1a878c3535adda4f2600b2ae3ff4b8ff86" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasBlocks</scope><name>exclude_classes</name></member>
+      <member refid="d3/d9b/class_modular_1_1_grid_field_1_1_configs_1_1_has_blocks_1a18c601602a865ce27f467cdaa67f4128" prot="public" virt="non-virtual"><scope>Modular::GridField::Configs::HasBlocks</scope><name>limited_related_classes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/d8e/class_modular_1_1_helpers_1_1_reflection" kind="class" prot="public">
+    <compoundname>Modular::Helpers::Reflection</compoundname>
+    <basecompoundref refid="da/d08/class_modular_1_1_object" prot="public" virt="non-virtual">Object</basecompoundref>
+    <basecompoundref refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities" prot="public" virt="non-virtual">Arities</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d6/d8e/class_modular_1_1_helpers_1_1_reflection_1a11badaadb87482edcdf2922a9595d62a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const AllRelationships</definition>
+        <argsstring></argsstring>
+        <name>AllRelationships</name>
+        <initializer>= 15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/Reflection.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/Reflection.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d6/d8e/class_modular_1_1_helpers_1_1_reflection_1a49aa60fbecd87e526506bac91a2f6485" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$arity_config_map</definition>
+        <argsstring></argsstring>
+        <name>$arity_config_map</name>
+        <initializer>= [
+		self::HasOne          =&gt; &apos;has_one&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/Reflection.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/Reflection.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="241">
+        <label>Arities</label>
+        <link refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities"/>
+      </node>
+      <node id="239">
+        <label>Reflection</label>
+        <link refid="d6/d8e/class_modular_1_1_helpers_1_1_reflection"/>
+        <childnode refid="240" relation="public-inheritance">
+        </childnode>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="240">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="240" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="244">
+        <label>Arities</label>
+        <link refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities"/>
+      </node>
+      <node id="242">
+        <label>Reflection</label>
+        <link refid="d6/d8e/class_modular_1_1_helpers_1_1_reflection"/>
+        <childnode refid="243" relation="public-inheritance">
+        </childnode>
+        <childnode refid="244" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="243">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="243" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/Reflection.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/Reflection.php" bodystart="7" bodyend="19"/>
+    <listofallmembers>
+      <member refid="d6/d8e/class_modular_1_1_helpers_1_1_reflection_1a49aa60fbecd87e526506bac91a2f6485" prot="private" virt="non-virtual"><scope>Modular::Helpers::Reflection</scope><name>$arity_config_map</name></member>
+      <member refid="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Helpers::Reflection</scope><name>__invoke</name></member>
+      <member refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1ab3cdf5bbd29f4c6f27236199bcc08456" prot="public" virt="non-virtual"><scope>Modular::Helpers::Reflection</scope><name>AllArities</name></member>
+      <member refid="d6/d8e/class_modular_1_1_helpers_1_1_reflection_1a11badaadb87482edcdf2922a9595d62a" prot="public" virt="non-virtual"><scope>Modular::Helpers::Reflection</scope><name>AllRelationships</name></member>
+      <member refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1ac03c91a0f3217cfe37afe64b8c0518ee" prot="public" virt="non-virtual"><scope>Modular::Helpers::Reflection</scope><name>BelongsManyMany</name></member>
+      <member refid="da/d08/class_modular_1_1_object_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Helpers::Reflection</scope><name>class_name</name></member>
+      <member refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1a7088d64537fcda81cde55394e5ec5dd6" prot="public" virt="non-virtual"><scope>Modular::Helpers::Reflection</scope><name>HasMany</name></member>
+      <member refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1acd9ee15429075e0908d6895a4a74aa7d" prot="public" virt="non-virtual"><scope>Modular::Helpers::Reflection</scope><name>HasOne</name></member>
+      <member refid="d4/daa/interface_modular_1_1_interfaces_1_1_arities_1aeab6b11b4811ea7ef4606cc92bfbd887" prot="public" virt="non-virtual"><scope>Modular::Helpers::Reflection</scope><name>ManyMany</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

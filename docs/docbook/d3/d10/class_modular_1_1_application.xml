@@ -6,6 +6,13 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>const ServiceName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>const ThemeMobile</para>
                     </listitem>
                 </itemizedlist>
@@ -21,6 +28,20 @@
                 <itemizedlist>
                     <listitem>
                         <para>const ThemeDefault</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SystemAdmin</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const Admin</para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -55,9 +76,118 @@
                     </listitem>
                 </itemizedlist>
             </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $system_admin_email</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $admin_email</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>$runID</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>$url</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
         </simplesect>
         <simplesect>
             <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d10/class_modular_1_1_application_1a095c5d389db211932136b53f25f39685">__construct</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d10/class_modular_1_1_application_1a421831a265621325e1fdd19aace0c758">__destruct</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d3/d10/class_modular_1_1_application_1a255be7baa142175332249dc54cbfeff8">register_paths</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d3/d10/class_modular_1_1_application_1a04229ac7b6c9cbd21922ef032fcdd4c0">register_modules</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d3/d10/class_modular_1_1_application_1ac357bb4726bf5016f6bc574d7cf32779">register_members_and_emails</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d3/d10/class_modular_1_1_application_1a17b966a8dfa7f8d104c6cb75d5a9506c">find_system_admin</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d3/d10/class_modular_1_1_application_1a615426d1f5ff4aa4f7cce015da2dbece">email</link> (
+ $for)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d3/d10/class_modular_1_1_application_1a7aa1ce3a96d9310220aad98f8f58b2bf">member</link> (
+ $for)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d3/d10/class_modular_1_1_application_1a819625ad29a3c3e7cc681d3baa9a07dd">find_admin_email</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -85,14 +215,6 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>static <link linkend="d3/d10/class_modular_1_1_application_1a05b634f46207617d32aeda742d72e10f">path_for_request</link> (
- $request,  $getVar)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
                         <para>static <link linkend="d3/d10/class_modular_1_1_application_1a605b07766c1bed3ff909fa8362f9985f">domain_theme</link> (
 )</para>
                     </listitem>
@@ -107,6 +229,58 @@
                 </itemizedlist>
             </para>
         </simplesect>
+            <section xml:id="d3/d10/class_modular_1_1_application_1a095c5d389db211932136b53f25f39685">
+                <title>__construct ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d3/d10/class_modular_1_1_application_1a421831a265621325e1fdd19aace0c758">
+                <title>__destruct ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d3/d10/class_modular_1_1_application_1a255be7baa142175332249dc54cbfeff8">
+                <title>static register_paths ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d3/d10/class_modular_1_1_application_1a04229ac7b6c9cbd21922ef032fcdd4c0">
+                <title>static register_modules ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d3/d10/class_modular_1_1_application_1ac357bb4726bf5016f6bc574d7cf32779">
+                <title>static register_members_and_emails ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d3/d10/class_modular_1_1_application_1a17b966a8dfa7f8d104c6cb75d5a9506c">
+                <title>static find_system_admin ()</title> <emphasis></emphasis>
+                
+<para>Try to find admin email address via extension call to provideEmail, otherwise try from this apps config.admin_email, Email.admin_email or Member.default_admin&apos;s Email.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d3/d10/class_modular_1_1_application_1a615426d1f5ff4aa4f7cce015da2dbece">
+                <title>static email ($for)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d3/d10/class_modular_1_1_application_1a7aa1ce3a96d9310220aad98f8f58b2bf">
+                <title>static member ($for)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d3/d10/class_modular_1_1_application_1a819625ad29a3c3e7cc681d3baa9a07dd">
+                <title>static find_admin_email ()</title> <emphasis></emphasis>
+                
+<para>Try to find admin email address via extension call to provideEmail, otherwise try from this apps config.admin_email, Email.admin_email or Member.default_admin&apos;s Email.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
             <section xml:id="d3/d10/class_modular_1_1_application_1ab096c671befd594e22708a02babcbeef">
                 <title>static get_current_page ()</title> <emphasis></emphasis>
                 
@@ -135,39 +309,6 @@
                 <title>static device_mode ()</title> <emphasis></emphasis>
                 
 <para>Return the device mode, e.g. &apos;mobile&apos;, &apos;desktop&apos;, &apos;default&apos;. At the moment just uses domain_theme. TODO: allow this to be found out in alternative ways, e.g. UserAgent </para>
-
-            </section>
-            <section xml:id="d3/d10/class_modular_1_1_application_1a05b634f46207617d32aeda742d72e10f">
-                <title>static path_for_request ($request=null, $getVar= &apos;path&apos;)</title> <emphasis></emphasis>
-                
-<para>Return a path from the request using a getVar or HTTP_REFERER or the request URL. 
-                <formalpara>
-                    <title/>
-                    <table frame="all">
-                        <title>Parameters</title>
-                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
-                        <tbody>
-                            <row>
-                                <entry>$request</entry>
-                                <entry>
-<para></para>
-</entry>
-                            </row>
-                            <row>
-                                <entry>$getVar</entry>
-                                <entry>
-<para></para>
-</entry>
-                            </row>
-                        </tbody>
-                        </tgroup>
-                    </table>
-                </formalpara>
-                <formalpara><title>Returns: </title>
-
-<para>mixed|string </para>
-</formalpara>
-</para>
 
             </section>
             <section xml:id="d3/d10/class_modular_1_1_application_1a605b07766c1bed3ff909fa8362f9985f">

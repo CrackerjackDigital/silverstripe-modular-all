@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/d6b/interface_modular_1_1_interfaces_1_1_service" kind="interface" prot="public">
+    <compoundname>Modular::Interfaces::Service</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d6b/interface_modular_1_1_interfaces_1_1_service_1a7749758a4f5d2a71ba46116f9df7994d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>request</definition>
+        <argsstring>($serviceName, $data, $options=null, $requester=null)</argsstring>
+        <name>request</name>
+        <param>
+          <declname>$serviceName</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$options</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$requester</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make a request of a service, which generally calls request by extensions on Request extensions added to the service. <ref refid="df/d6b/interface_modular_1_1_interfaces_1_1_service" kindref="compound">Service</ref> request extensions should only do something with the request if the serviceName requested matches their own serviceName (which is generally their class name).</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$serviceName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>generally the name of the class which should respond to the request </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a model, some other format useful to the service </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>options for request, e.g. to queue the data, process immediately etc </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>Member</parametertype>
+<parametertype>null</parametertype>
+<parametername>$requester</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>who requested the service, or null if current logged in member </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Service.php" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Service.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Service.php" bodystart="6" bodyend="19"/>
+    <listofallmembers>
+      <member refid="df/d6b/interface_modular_1_1_interfaces_1_1_service_1a7749758a4f5d2a71ba46116f9df7994d" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Service</scope><name>request</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

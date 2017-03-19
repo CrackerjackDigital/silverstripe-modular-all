@@ -23,21 +23,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>struct <link linkend="d1/d10/namespace_data_object">DataObject</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>struct <link linkend="dd/d8b/namespace_quaff_1_1_exceptions_1_1_mapping">Quaff::Exceptions::Mapping</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>struct <link linkend="d1/d53/namespace_quaff_1_1_mappers_1_1_associative_array">Quaff::Mappers::AssociativeArray</link></para>
+                        <para>struct <link linkend="da/db9/namespace_modular_1_1_traits_1_1cache">Modular::Traits::cache</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

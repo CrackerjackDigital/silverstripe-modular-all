@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d5/d67/class_modular_1_1_task">
+<title>Modular::Task class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const EnablerConfigVar</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $task_enabled</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d5/d67/class_modular_1_1_task_1a11ad438614e6dea15f7269966441e7d6">execute</link> (
+ $request)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d5/d67/class_modular_1_1_task_1a6bc3868b431e57182b122dec4df74e11">canRun</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d5/d67/class_modular_1_1_task_1a994a574f881a427481b08e57f704e028">run</link> (
+ $request)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d5/d67/class_modular_1_1_task_1a11ad438614e6dea15f7269966441e7d6">
+                <title>execute ($request)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d5/d67/class_modular_1_1_task_1a6bc3868b431e57182b122dec4df74e11">
+                <title>canRun ()</title> <emphasis></emphasis>
+                
+<para><link linkend="d5/d67/class_modular_1_1_task">Task</link> can run if enabled and either is_cli or logged in as ADMIN. <formalpara><title>Returns: </title>
+
+<para>bool </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d5/d67/class_modular_1_1_task_1a994a574f881a427481b08e57f704e028">
+                <title>run ($request)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

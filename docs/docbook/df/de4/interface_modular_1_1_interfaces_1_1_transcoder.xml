@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="df/de4/interface_modular_1_1_interfaces_1_1_transcoder">
+<title>Modular::Interfaces::Transcoder interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="df/de4/interface_modular_1_1_interfaces_1_1_transcoder_1af758be52317607e28c2b633561d322f6">model</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="df/de4/interface_modular_1_1_interfaces_1_1_transcoder_1a80865bb7c50f6934ea9318ca2079b513">encode</link> (
+ $mode,  $options)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="df/de4/interface_modular_1_1_interfaces_1_1_transcoder_1a8d7b346495e7a64da22104a1ea298b16">decode</link> (
+ $data,  $mode,  $options)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="df/de4/interface_modular_1_1_interfaces_1_1_transcoder_1af758be52317607e28c2b633561d322f6">
+                <title>model ()</title> <emphasis></emphasis>
+                
+<para><formalpara><title>Returns: </title>
+
+<para><link linkend="db/d0a/class_modular_1_1_model">Model</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="df/de4/interface_modular_1_1_interfaces_1_1_transcoder_1a80865bb7c50f6934ea9318ca2079b513">
+                <title>encode ($mode=HasMode::DefaultMode, $options=null)</title> <emphasis></emphasis>
+                
+<para>Encode the model returned by model into the target data type/schema/string (e.g. a json string). 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$mode</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$options</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="df/de4/interface_modular_1_1_interfaces_1_1_transcoder_1a8d7b346495e7a64da22104a1ea298b16">
+                <title>decode ($data, $mode=HasMode::DefaultMode, $options=null)</title> <emphasis></emphasis>
+                
+<para>Decode the passed data and update the model returned by model method. 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$data</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$mode</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$options</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

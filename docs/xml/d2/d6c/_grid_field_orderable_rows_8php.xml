@@ -2,18 +2,18 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="d2/d6c/_grid_field_orderable_rows_8php" kind="file">
     <compoundname>GridFieldOrderableRows.php</compoundname>
-    <innerclass refid="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows" prot="public">Modular::GridField::GridFieldOrderableRows</innerclass>
-    <innernamespace refid="d3/d7f/namespace_modular_1_1_grid_field">Modular::GridField</innernamespace>
+    <innerclass refid="dd/de8/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_orderable_rows" prot="public">Modular::GridField::Components::GridFieldOrderableRows</innerclass>
+    <innernamespace refid="d1/dca/namespace_modular_1_1_grid_field_1_1_components">Modular::GridField::Components</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridField;</highlight></codeline>
-<codeline lineno="6" refid="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows" kindref="compound">GridFieldOrderableRows</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows" kindref="compound">\GridFieldOrderableRows</ref><sp/>{</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridField\Components;</highlight></codeline>
+<codeline lineno="6" refid="dd/de8/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_orderable_rows" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/de8/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_orderable_rows" kindref="compound">GridFieldOrderableRows</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="dd/de8/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_orderable_rows" kindref="compound">\GridFieldOrderableRows</ref><sp/>{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8" refid="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows_1a58d45c13ab7488436af7f47e52721141" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows_1a58d45c13ab7488436af7f47e52721141" kindref="member">SortFieldName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Sort&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8" refid="dd/de8/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_orderable_rows_1a58d45c13ab7488436af7f47e52721141" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/de8/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_orderable_rows_1a58d45c13ab7488436af7f47e52721141" kindref="member">SortFieldName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Sort&apos;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>reorderItems($list,<sp/>array<sp/>$values,<sp/>array<sp/>$sortedIDs)<sp/>{</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$sortField<sp/>=<sp/>$this-&gt;getSortField();</highlight></codeline>
@@ -65,7 +65,7 @@
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;extend(</highlight><highlight class="stringliteral">&apos;onAfterReorderItems&apos;</highlight><highlight class="normal">,<sp/>$list);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows_1a6006fb64993d9e9856934cff625b0796" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows_1a6006fb64993d9e9856934cff625b0796" kindref="member">populateSortValues</ref>(\DataList<sp/>$list)<sp/>{</highlight></codeline>
+<codeline lineno="71" refid="dd/de8/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_orderable_rows_1a6006fb64993d9e9856934cff625b0796" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="dd/de8/class_modular_1_1_grid_field_1_1_components_1_1_grid_field_orderable_rows_1a6006fb64993d9e9856934cff625b0796" kindref="member">populateSortValues</ref>(\DataList<sp/>$list)<sp/>{</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$list<sp/><sp/><sp/>=<sp/>clone<sp/>$list;</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$field<sp/><sp/>=<sp/>$this-&gt;getSortField();</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$table<sp/><sp/>=<sp/>$this-&gt;getSortTable($list);</highlight></codeline>

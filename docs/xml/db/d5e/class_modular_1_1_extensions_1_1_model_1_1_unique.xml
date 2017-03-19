@@ -54,36 +54,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1519">
+      <node id="300">
         <label>ModelExtension</label>
         <link refid="d1/da3/class_modular_1_1_model_extension"/>
-        <childnode refid="1520" relation="public-inheritance">
+        <childnode refid="301" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1520">
+      <node id="301">
         <label>DataExtension</label>
       </node>
-      <node id="1518">
+      <node id="299">
         <label>Unique</label>
         <link refid="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique"/>
-        <childnode refid="1519" relation="public-inheritance">
+        <childnode refid="300" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1522">
+      <node id="303">
         <label>ModelExtension</label>
         <link refid="d1/da3/class_modular_1_1_model_extension"/>
-        <childnode refid="1523" relation="public-inheritance">
+        <childnode refid="304" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1523">
+      <node id="304">
         <label>DataExtension</label>
       </node>
-      <node id="1521">
+      <node id="302">
         <label>Unique</label>
         <link refid="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique"/>
-        <childnode refid="1522" relation="public-inheritance">
+        <childnode refid="303" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
@@ -92,7 +92,9 @@
       <member refid="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique_1a2ce59b48f748de9ca6a35bedc021a6d3" prot="private" virt="non-virtual"><scope>Modular::Extensions::Model::Unique</scope><name>$fieldName</name></member>
       <member refid="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique_1a400d2844ad369791293baa87cd6ddb05" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::Unique</scope><name>__construct</name></member>
       <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::Unique</scope><name>class_name</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1af758be52317607e28c2b633561d322f6" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::Unique</scope><name>model</name></member>
       <member refid="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique_1af9aa034ad033005279bd790155e683fa" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::Unique</scope><name>onBeforeWrite</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1a55f8dabe1bcea5e6b483126eb80aee8c" prot="protected" virt="non-virtual"><scope>Modular::Extensions::Model::Unique</scope><name>remove_own_fields</name></member>
       <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::Unique</scope><name>writeAndReturn</name></member>
     </listofallmembers>
   </compounddef>

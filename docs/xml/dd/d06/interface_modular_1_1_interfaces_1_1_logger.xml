@@ -9,7 +9,6 @@
         <definition>log</definition>
         <argsstring>($message, $facilities, $source= &apos;&apos;)</argsstring>
         <name>log</name>
-        <reimplementedby refid="db/d33/class_modular_1_1_debugger_1a053a54bed3aafbacf775bd921a9add4d">log</reimplementedby>
         <param>
           <declname>$message</declname>
         </param>
@@ -59,7 +58,7 @@
         <definition>level</definition>
         <argsstring>($level=null)</argsstring>
         <name>level</name>
-        <reimplementedby refid="db/d33/class_modular_1_1_debugger_1af88c3370a1b278fdb2639e1bbdd207be">level</reimplementedby>
+        <reimplementedby refid="db/d33/class_modular_1_1_debugger_1a8bc2bb1108ccc1988d639b3756a052d1">level</reimplementedby>
         <param>
           <declname>$level</declname>
           <defval>null</defval>
@@ -88,14 +87,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1091">
+      <node id="160">
         <label>Logger</label>
         <link refid="dd/d06/interface_modular_1_1_interfaces_1_1_logger"/>
       </node>
-      <node id="1092">
+      <node id="161">
         <label>Debugger</label>
         <link refid="db/d33/class_modular_1_1_debugger"/>
-        <childnode refid="1091" relation="public-inheritance">
+        <childnode refid="160" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

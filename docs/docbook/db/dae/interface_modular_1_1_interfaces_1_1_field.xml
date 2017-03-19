@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="db/dae/interface_modular_1_1_interfaces_1_1_field">
+<title>Modular::Interfaces::Field interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="db/dae/interface_modular_1_1_interfaces_1_1_field_1aabf40fa32d5101fc03a3fa592f8d7d78">cmsFields</link> (
+ $mode)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="db/dae/interface_modular_1_1_interfaces_1_1_field_1aabf40fa32d5101fc03a3fa592f8d7d78">
+                <title>cmsFields ($mode=null)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

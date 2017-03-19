@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider" kind="interface" prot="public">
+    <compoundname>Modular::Interfaces::RouteProvider</compoundname>
+    <derivedcompoundref refid="d5/dfc/class_modular_1_1_controllers_1_1_model" prot="public" virt="non-virtual">Model</derivedcompoundref>
+    <derivedcompoundref refid="d0/d1e/interface_modular_1_1_interfaces_1_1_action" prot="public" virt="non-virtual">Action</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider_1a57102936c05e571c397f794a752795a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>routes</definition>
+        <argsstring>()</argsstring>
+        <name>routes</name>
+        <reimplementedby refid="d5/dfc/class_modular_1_1_controllers_1_1_model_1a57102936c05e571c397f794a752795a5">routes</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Implemented on a controller and extensions implementing &apos;<ref refid="d0/d1e/interface_modular_1_1_interfaces_1_1_action" kindref="compound">Action</ref>&apos;. On a controller returns primary rule for the controller which Director can add to its rules collection.<itemizedlist>
+<listitem><para>These are gathered and added to Director rules when Application::startup is called</para></listitem></itemizedlist>
+</para><para>On <ref refid="d0/d1e/interface_modular_1_1_interfaces_1_1_action" kindref="compound">Action</ref> controller extension returns the url_handlers and allowed_actions which have been added to the controller by the extension, e.g. &apos;$ID/like&apos;, &apos;$ID/unlike&apos;.<itemizedlist>
+<listitem><para>These are gathered by the ... extension to a <ref refid="db/d0a/class_modular_1_1_model" kindref="compound">Model</ref> <ref refid="d6/d68/class_modular_1_1_controller" kindref="compound">Controller</ref> which provides these in extraStatics</para></listitem></itemizedlist>
+</para><para>(generally by <ref refid="d3/d10/class_modular_1_1_application" kindref="compound">Application</ref> constructor called in app/_config.php ).</para><para><simplesect kind="return"><para>array map of path to controller e.g. [ &apos;endpoint/path/topic&apos; =&gt; &apos;<ref refid="df/df5/namespace_modular" kindref="compound">Modular</ref>&apos; ] </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/RouteProvider.php" line="23" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="255">
+        <label>Action</label>
+        <link refid="d0/d1e/interface_modular_1_1_interfaces_1_1_action"/>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>RouteProvider</label>
+        <link refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider"/>
+      </node>
+      <node id="254">
+        <label>Model</label>
+        <link refid="d5/dfc/class_modular_1_1_controllers_1_1_model"/>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/RouteProvider.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/RouteProvider.php" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="d9/db9/interface_modular_1_1_interfaces_1_1_route_provider_1a57102936c05e571c397f794a752795a5" prot="public" virt="non-virtual"><scope>Modular::Interfaces::RouteProvider</scope><name>routes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

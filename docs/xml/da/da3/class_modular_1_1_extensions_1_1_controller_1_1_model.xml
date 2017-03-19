@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/da3/class_modular_1_1_extensions_1_1_controller_1_1_model" kind="class" prot="public">
+    <compoundname>Modular::Extensions::Controller::Model</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Extension</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="182">
+        <label>Extension</label>
+      </node>
+      <node id="181">
+        <label>Model</label>
+        <link refid="da/da3/class_modular_1_1_extensions_1_1_controller_1_1_model"/>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="184">
+        <label>Extension</label>
+      </node>
+      <node id="183">
+        <label>Model</label>
+        <link refid="da/da3/class_modular_1_1_extensions_1_1_controller_1_1_model"/>
+        <childnode refid="184" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Model.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/controller/Model.php" bodystart="8" bodyend="9"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

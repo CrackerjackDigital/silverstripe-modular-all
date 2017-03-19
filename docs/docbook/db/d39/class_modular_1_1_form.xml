@@ -54,6 +54,17 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para> <link linkend="db/d39/class_modular_1_1_form_1a9aac7e1475efe923de4e19cc2511f092">__invoke</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>static <link linkend="db/d39/class_modular_1_1_form_1adf0d9df0a0bb6d6ff4764aa5186b6c01">set_message</link> (
  $messageOrLangKey,  $messageType,  $data)</para>
                     </listitem>
@@ -183,6 +194,16 @@
                 </itemizedlist>
             </para>
         </simplesect>
+            <section xml:id="db/d39/class_modular_1_1_form_1a9aac7e1475efe923de4e19cc2511f092">
+                <title>__invoke ()</title> <emphasis></emphasis>
+                
+<para>Invoking a <link linkend="db/d39/class_modular_1_1_form">Form</link> returns <link linkend="db/d39/class_modular_1_1_form">Form</link> <formalpara><title>Returns: </title>
+
+<para>$this </para>
+</formalpara>
+</para>
+
+            </section>
             <section xml:id="db/d39/class_modular_1_1_form_1adf0d9df0a0bb6d6ff4764aa5186b6c01">
                 <title>static set_message ($messageOrLangKey, $messageType, $data=[])</title> <emphasis></emphasis>
                 
