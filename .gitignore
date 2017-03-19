@@ -1,1 +1,6 @@
-/*/
+*
+!.gitignore
+!composer.lock
+!composer.json
+!/docs/*
+!/docs/*/*
