@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/d08/class_modular_1_1_object" kind="class" prot="public">
+    <compoundname>Modular::Object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Object</basecompoundref>
+    <derivedcompoundref refid="db/d33/class_modular_1_1_debugger" prot="public" virt="non-virtual">Debugger</derivedcompoundref>
+    <derivedcompoundref refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints" prot="public" virt="non-virtual">Constraints</derivedcompoundref>
+    <derivedcompoundref refid="da/d3f/class_modular_1_1_grid_list_1_1_service" prot="public" virt="non-virtual">Service</derivedcompoundref>
+    <derivedcompoundref refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n" prot="public" virt="non-virtual">JSON</derivedcompoundref>
+    <derivedcompoundref refid="d6/d0c/class_modular_1_1_helpers_1_1_strings" prot="public" virt="non-virtual">Strings</derivedcompoundref>
+    <derivedcompoundref refid="d6/d4d/class_modular_1_1_module" prot="public" virt="non-virtual">Module</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__invoke</definition>
+        <argsstring>()</argsstring>
+        <name>__invoke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoking an <ref refid="da/d08/class_modular_1_1_object" kindref="compound">Object</ref> returns itself. <simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Object.php" line="35" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Object.php" bodystart="35" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1278">
+        <label>Service</label>
+        <link refid="da/d3f/class_modular_1_1_grid_list_1_1_service"/>
+        <childnode refid="1275" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1278" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1281">
+        <label>Module</label>
+        <link refid="d6/d4d/class_modular_1_1_module"/>
+        <childnode refid="1275" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1275">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="1275" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1282">
+        <label>Application</label>
+        <link refid="d3/d10/class_modular_1_1_application"/>
+        <childnode refid="1281" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1279">
+        <label>JSON</label>
+        <link refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n"/>
+        <childnode refid="1275" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1276">
+        <label>Debugger</label>
+        <link refid="db/d33/class_modular_1_1_debugger"/>
+        <childnode refid="1275" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1280">
+        <label>Strings</label>
+        <link refid="d6/d0c/class_modular_1_1_helpers_1_1_strings"/>
+        <childnode refid="1275" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1277">
+        <label>Constraints</label>
+        <link refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints"/>
+        <childnode refid="1275" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1277" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1283">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="1283" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/Object.php" line="23" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Object.php" bodystart="23" bodyend="39"/>
+    <listofallmembers>
+      <member refid="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Object</scope><name>__invoke</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

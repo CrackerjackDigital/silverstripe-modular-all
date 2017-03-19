@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/db3/interface_modular_1_1_types_1_1_epoch_type" kind="interface" prot="public">
+    <compoundname>Modular::Types::EpochType</compoundname>
+    <derivedcompoundref refid="da/dea/interface_modular_1_1_types_1_1_date_time_type" prot="public" virt="non-virtual">DateTimeType</derivedcompoundref>
+    <derivedcompoundref refid="d6/da3/interface_modular_1_1_types_1_1_date_type" prot="public" virt="non-virtual">DateType</derivedcompoundref>
+    <derivedcompoundref refid="da/ddc/interface_modular_1_1_types_1_1_time_type" prot="public" virt="non-virtual">TimeType</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1a76b23db8aa5946d741c09aba82485449" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FormatDate</definition>
+        <argsstring></argsstring>
+        <name>FormatDate</name>
+        <initializer>= &apos;Y-m-d&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Epoch.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Epoch.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1abc432578930204101f9620a45dd05a3a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FormatTime</definition>
+        <argsstring></argsstring>
+        <name>FormatTime</name>
+        <initializer>= &apos;h:i:s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Epoch.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Epoch.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1a3ad4bc23bc6fdc214ae0d7ca05154223" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FormatDateTime</definition>
+        <argsstring></argsstring>
+        <name>FormatDateTime</name>
+        <initializer>= &apos;Y-m-d h:i:s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Epoch.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Epoch.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="49">
+        <label>DateType</label>
+        <link refid="d6/da3/interface_modular_1_1_types_1_1_date_type"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>EpochType</label>
+        <link refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type"/>
+      </node>
+      <node id="50">
+        <label>TimeType</label>
+        <link refid="da/ddc/interface_modular_1_1_types_1_1_time_type"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>DateTimeType</label>
+        <link refid="da/dea/interface_modular_1_1_types_1_1_date_time_type"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Epoch.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Epoch.php" bodystart="8" bodyend="12"/>
+    <listofallmembers>
+      <member refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1a76b23db8aa5946d741c09aba82485449" prot="public" virt="non-virtual"><scope>Modular::Types::EpochType</scope><name>FormatDate</name></member>
+      <member refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1a3ad4bc23bc6fdc214ae0d7ca05154223" prot="public" virt="non-virtual"><scope>Modular::Types::EpochType</scope><name>FormatDateTime</name></member>
+      <member refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1abc432578930204101f9620a45dd05a3a" prot="public" virt="non-virtual"><scope>Modular::Types::EpochType</scope><name>FormatTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

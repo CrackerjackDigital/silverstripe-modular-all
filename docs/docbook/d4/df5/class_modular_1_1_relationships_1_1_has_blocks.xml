@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/df5/class_modular_1_1_relationships_1_1_has_blocks">
+<title>Modular::Relationships::HasBlocks class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelationshipName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelatedClassName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const GridFieldConfigName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RulesExcludePrefix</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RulesDelimeter</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $cms_tab_name</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allow_new_multi_class</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $blocks_for_zone</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1a661ad7bd991bb777b9e8263df8e6b187">ZoneBlocks</link> (
+ $zone,  $rules)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1ad5147a673f45d4a81c90ccecf1254c1f">parseRules</link> (
+ $rules)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Add a gridfield to which blocks can be added and managed.</para>
+
+<para><link linkend="d2/db0/namespace_modular_1_1_blocks">Blocks</link> </para>
+                <para>Definition at line 9 of file HasBlocks.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>HasBlocks.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1a661ad7bd991bb777b9e8263df8e6b187">
+                <title>static ZoneBlocks ($zone= &apos;Content&apos;, $rules= &apos;&apos;)</title> <emphasis></emphasis>
+                
+<para>Returns <link linkend="d2/db0/namespace_modular_1_1_blocks">Blocks</link> for a particular zone on the page, e.g. &apos;Content&apos;, &apos;Sidebar&apos; filtered by Block class name from config.blocks_for_zone on the extended model first, then on this extension if not no config.blocks_for_zone at all is set on there (does not allow mixing of blocks from the model and this extension at the moment).</para>
+
+<para><link linkend="d2/db0/namespace_modular_1_1_blocks">Blocks</link> can be added in addition to the zone by specifying block class names in the rules parameter (delimited by RulesDelimiter), or excluded by adding them prefixed with a &apos;!&apos; (RulesExcludePrefix).</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$zone</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$rules</entry>
+                                <entry>
+<para>delimited block class names e.g. &apos;!ExcludeThisBlockClass, AddThisBlockClass&apos; </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1ad5147a673f45d4a81c90ccecf1254c1f">
+                <title>parseRules ($rules)</title> <emphasis></emphasis>
+                
+<para>Parse a string of rules such as &apos;!NotBlockClass, AddBlockClass&apos; int array of includes, excludes for filtering</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$rules</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array tuple of exclude, include arrays of class names e.g. [ [ &apos;NotBlockClass&apos; ], [ &apos;AddBlockClass&apos;] ] </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

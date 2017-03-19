@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/dfe/gridlist_2interfaces_2_service_8php" kind="file">
+    <compoundname>gridlist/interfaces/Service.php</compoundname>
+    <innerclass refid="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service" prot="public">Modular::GridList::Interfaces::Service::Service</innerclass>
+    <innernamespace refid="d0/d6d/namespace_modular_1_1_grid_list_1_1_interfaces_1_1_service">Modular::GridList::Interfaces::Service</innernamespace>
+    <innernamespace refid="d1/d4d/namespace_modular_1_1_constraints">Modular::Constraints</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="d0/d6d/namespace_modular_1_1_grid_list_1_1_interfaces_1_1_service" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridList\Interfaces\Service;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/>Modular\Constraints;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service" kindref="compound">Service</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service_1a26d97963c5c6b5a6005fea26fbefd45d" kindref="member">constraint</ref>($name);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service_1ae086fd4b125c3af434b5bbac0cfa1f98" kindref="member">Filters</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service_1ad9c08c1428473eb8e79b93d40b1ffdef" kindref="member">filterLink</ref>($params);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/Service.php"/>
+  </compounddef>
+</doxygen>

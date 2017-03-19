@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/dc2/interface_modular_1_1_types_1_1_type">
+<title>Modular::Types::Type interface Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const Type</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="dd/dc2/interface_modular_1_1_types_1_1_type_1a74fc8d457a9fe7f9dd8c21afc3b5910d">type</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="dd/dc2/interface_modular_1_1_types_1_1_type_1a74fc8d457a9fe7f9dd8c21afc3b5910d">
+                <title>static type ()</title> <emphasis></emphasis>
+                
+<para><formalpara><title>Returns: </title>
+
+<para>string the type name, generally from static::Type of implemented interface </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

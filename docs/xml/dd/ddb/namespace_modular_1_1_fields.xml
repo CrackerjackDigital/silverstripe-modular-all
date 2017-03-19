@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/ddb/namespace_modular_1_1_fields" kind="namespace">
+    <compoundname>Modular::Fields</compoundname>
+    <innerclass refid="da/d27/class_modular_1_1_fields_1_1_field" prot="public">Modular::Fields::Field</innerclass>
+    <innerclass refid="d4/dbd/class_modular_1_1_fields_1_1_audio" prot="public">Modular::Fields::Audio</innerclass>
+    <innerclass refid="d4/dff/class_modular_1_1_fields_1_1_code" prot="public">Modular::Fields::Code</innerclass>
+    <innerclass refid="de/da5/class_modular_1_1_fields_1_1_content" prot="public">Modular::Fields::Content</innerclass>
+    <innerclass refid="d0/dd8/class_modular_1_1_fields_1_1_date_time_field" prot="public">Modular::Fields::DateTimeField</innerclass>
+    <innerclass refid="db/db5/class_modular_1_1_fields_1_1_display_location" prot="public">Modular::Fields::DisplayLocation</innerclass>
+    <innerclass refid="de/dbd/class_modular_1_1_fields_1_1_download" prot="public">Modular::Fields::Download</innerclass>
+    <innerclass refid="d4/d2b/class_modular_1_1_fields_1_1_duration" prot="public">Modular::Fields::Duration</innerclass>
+    <innerclass refid="d1/d89/class_modular_1_1_fields_1_1_email" prot="public">Modular::Fields::Email</innerclass>
+    <innerclass refid="db/db9/class_modular_1_1_fields_1_1_embed_code" prot="public">Modular::Fields::EmbedCode</innerclass>
+    <innerclass refid="de/d38/class_modular_1_1_fields_1_1_event_date" prot="public">Modular::Fields::EventDate</innerclass>
+    <innerclass refid="db/dda/class_modular_1_1_fields_1_1_external_link" prot="public">Modular::Fields::ExternalLink</innerclass>
+    <innerclass refid="d6/ddf/class_modular_1_1_fields_1_1_external_reference" prot="public">Modular::Fields::ExternalReference</innerclass>
+    <innerclass refid="d0/d51/class_modular_1_1_fields_1_1_file" prot="public">Modular::Fields::File</innerclass>
+    <innerclass refid="dd/d4a/class_modular_1_1_fields_1_1_formatted" prot="public">Modular::Fields::Formatted</innerclass>
+    <innerclass refid="da/dad/class_modular_1_1_fields_1_1_grid_list" prot="public">Modular::Fields::GridList</innerclass>
+    <innerclass refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort" prot="public">Modular::Fields::HiddenSort</innerclass>
+    <innerclass refid="d3/d15/class_modular_1_1_fields_1_1_image" prot="public">Modular::Fields::Image</innerclass>
+    <innerclass refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link" prot="public">Modular::Fields::InternalLink</innerclass>
+    <innerclass refid="d7/d8f/class_modular_1_1_fields_1_1_links" prot="public">Modular::Fields::Links</innerclass>
+    <innerclass refid="dc/dc5/class_modular_1_1_fields_1_1_link_title" prot="public">Modular::Fields::LinkTitle</innerclass>
+    <innerclass refid="d0/d43/class_modular_1_1_fields_1_1_logo" prot="public">Modular::Fields::Logo</innerclass>
+    <innerclass refid="d4/d77/class_modular_1_1_fields_1_1_has_many_many_grid_field" prot="public">Modular::Fields::HasManyManyGridField</innerclass>
+    <innerclass refid="d6/dd2/class_modular_1_1_fields_1_1_has_many_many_tag_field" prot="public">Modular::Fields::HasManyManyTagField</innerclass>
+    <innerclass refid="d7/d83/class_modular_1_1_fields_1_1_media" prot="public">Modular::Fields::Media</innerclass>
+    <innerclass refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag" prot="public">Modular::Fields::ModelTag</innerclass>
+    <innerclass refid="d0/d2a/class_modular_1_1_fields_1_1_synopsis" prot="public">Modular::Fields::Synopsis</innerclass>
+    <innerclass refid="d2/d10/class_modular_1_1_fields_1_1_text_content" prot="public">Modular::Fields::TextContent</innerclass>
+    <innerclass refid="df/d0d/class_modular_1_1_fields_1_1_thumbnail" prot="public">Modular::Fields::Thumbnail</innerclass>
+    <innerclass refid="d2/dde/class_modular_1_1_fields_1_1_title" prot="public">Modular::Fields::Title</innerclass>
+    <innerclass refid="df/d00/class_modular_1_1_fields_1_1_transcript" prot="public">Modular::Fields::Transcript</innerclass>
+    <innerclass refid="d1/d32/class_modular_1_1_fields_1_1_uploaded_file" prot="public">Modular::Fields::UploadedFile</innerclass>
+    <innerclass refid="dd/da6/class_modular_1_1_fields_1_1_u_r_l" prot="public">Modular::Fields::URL</innerclass>
+    <innerclass refid="d0/d7e/class_modular_1_1_fields_1_1_video" prot="public">Modular::Fields::Video</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

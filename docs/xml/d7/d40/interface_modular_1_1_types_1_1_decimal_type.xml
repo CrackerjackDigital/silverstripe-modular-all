@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/d40/interface_modular_1_1_types_1_1_decimal_type" kind="interface" prot="public">
+    <compoundname>Modular::Types::DecimalType</compoundname>
+    <basecompoundref refid="d4/d38/interface_modular_1_1_types_1_1_numeric_type" prot="public" virt="non-virtual">NumericType</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/d40/interface_modular_1_1_types_1_1_decimal_type_1a8a99c53978895ea5726462ffc1bb44eb" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <initializer>= &apos;Decimal&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Decimal.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Decimal.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="40">
+        <label>NumericType</label>
+        <link refid="d4/d38/interface_modular_1_1_types_1_1_numeric_type"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>Type</label>
+        <link refid="dd/dc2/interface_modular_1_1_types_1_1_type"/>
+      </node>
+      <node id="39">
+        <label>DecimalType</label>
+        <link refid="d7/d40/interface_modular_1_1_types_1_1_decimal_type"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>ValueType</label>
+        <link refid="d2/dab/interface_modular_1_1_types_1_1_value_type"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="44">
+        <label>NumericType</label>
+        <link refid="d4/d38/interface_modular_1_1_types_1_1_numeric_type"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>Type</label>
+        <link refid="dd/dc2/interface_modular_1_1_types_1_1_type"/>
+      </node>
+      <node id="43">
+        <label>DecimalType</label>
+        <link refid="d7/d40/interface_modular_1_1_types_1_1_decimal_type"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>ValueType</label>
+        <link refid="d2/dab/interface_modular_1_1_types_1_1_value_type"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Decimal.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Decimal.php" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="d7/d40/interface_modular_1_1_types_1_1_decimal_type_1a8a99c53978895ea5726462ffc1bb44eb" prot="public" virt="non-virtual"><scope>Modular::Types::DecimalType</scope><name>Type</name></member>
+      <member refid="dd/dc2/interface_modular_1_1_types_1_1_type_1a74fc8d457a9fe7f9dd8c21afc3b5910d" prot="public" virt="non-virtual"><scope>Modular::Types::DecimalType</scope><name>type</name></member>
+      <member refid="d2/dab/interface_modular_1_1_types_1_1_value_type_1a4889207020e3a9bd17a77d61f3e8888e" prot="public" virt="non-virtual"><scope>Modular::Types::DecimalType</scope><name>typedValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

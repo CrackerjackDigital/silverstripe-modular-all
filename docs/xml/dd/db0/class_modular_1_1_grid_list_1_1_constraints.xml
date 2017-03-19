@@ -1,0 +1,879 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/db0/class_modular_1_1_grid_list_1_1_constraints" kind="class" prot="public">
+    <compoundname>Modular::GridList::Constraints</compoundname>
+    <basecompoundref refid="da/d08/class_modular_1_1_object" prot="public" virt="non-virtual">Object</basecompoundref>
+    <derivedcompoundref refid="d6/d37/class_modular_1_1_search_1_1_constraints" prot="public" virt="non-virtual">Constraints</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a581ca3761bcefa67e8ccdbec3e3f90a2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ModeGetVar</definition>
+        <argsstring></argsstring>
+        <name>ModeGetVar</name>
+        <initializer>= &apos;<ref refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a0da531fc30bdf883d86d4219c3c54e07" kindref="member">mode</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ab523b2a71464e33e44f8b267fc844157" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SortGetVar</definition>
+        <argsstring></argsstring>
+        <name>SortGetVar</name>
+        <initializer>= &apos;<ref refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a4bd31bcedb7b4943aac2da78d0d84afe" kindref="member">sort</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a2c034ab7cd15f32948132bc456632b8f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const StartIndexGetVar</definition>
+        <argsstring></argsstring>
+        <name>StartIndexGetVar</name>
+        <initializer>= &apos;<ref refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af8fa59992209e36dccb3eefb0f75531f" kindref="member">start</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1aa01b4b7db513cd4468ac250837e893d6" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PageLengthGetVar</definition>
+        <argsstring></argsstring>
+        <name>PageLengthGetVar</name>
+        <initializer>= &apos;<ref refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a63aed2ed30505623343b3e7df7fa6c16" kindref="member">limit</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ae1db96ac421c122c66950189f39b6096" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FilterVar</definition>
+        <argsstring></argsstring>
+        <name>FilterVar</name>
+        <initializer>= &apos;<ref refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a2726eafbd92facbc239cbe9eca472667" kindref="member">filter</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="20" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af79696b6c2ce7a5bf880651b97c34e71" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SessionKeyPrefix</definition>
+        <argsstring></argsstring>
+        <name>SessionKeyPrefix</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="23" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a9fa9bc208b842e19e4324d7d2d784b01" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SessionPathSeparator</definition>
+        <argsstring></argsstring>
+        <name>SessionPathSeparator</name>
+        <initializer>= &apos;:&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="25" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a225627d10584d7a0c1bb659e2410160c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PersistNever</definition>
+        <argsstring></argsstring>
+        <name>PersistNever</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="30" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a3d6c2c4afac4c921b80cc5e3bb723f96" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PersistEverywhere</definition>
+        <argsstring></argsstring>
+        <name>PersistEverywhere</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="32" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a3a588465c28930fdaaf0bab8297f7631" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PersistForURLParams</definition>
+        <argsstring></argsstring>
+        <name>PersistForURLParams</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="34" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ae4ee87015f8568826e97c7457bb66f3f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PersistForGetVars</definition>
+        <argsstring></argsstring>
+        <name>PersistForGetVars</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="36" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a8278b2bd56513296a057830a9e8aab54" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PersistExact</definition>
+        <argsstring></argsstring>
+        <name>PersistExact</name>
+        <initializer>= 7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="38" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a93062bd2c2a5567527486bef28baed68" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DefaultPersistance</definition>
+        <argsstring></argsstring>
+        <name>DefaultPersistance</name>
+        <initializer>= self::PersistNever</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="41" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1afe68e6fbe7acfbffc0af0c84a1996466" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$params</definition>
+        <argsstring></argsstring>
+        <name>$params</name>
+        <initializer>= [
+		self::ModeGetVar,
+		self::SortGetVar,
+		self::StartIndexGetVar,
+		self::PageLengthGetVar,
+		self::FilterVar
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="44" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a01ad44a1be550251dc25b4e8f5a15210" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$default_mode</definition>
+        <argsstring></argsstring>
+        <name>$default_mode</name>
+        <initializer>= &apos;grid&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="55" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ac5d5b1f5203846b4258ec94b4d78717e" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$default_sort</definition>
+        <argsstring></argsstring>
+        <name>$default_sort</name>
+        <initializer>= &apos;a-z&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="57" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1abb35c8495a232b510389fa6d7b15d38a" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$request</definition>
+        <argsstring></argsstring>
+        <name>$request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="53" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="59" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af06af815cbbf71a8fe8e1007ff23a1ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>constraint</definition>
+        <argsstring>($name, $sessionPersistence=null)</argsstring>
+        <name>constraint</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$sessionPersistence</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="64" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a2726eafbd92facbc239cbe9eca472667" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>filter</definition>
+        <argsstring>($className, $term, $field)</argsstring>
+        <name>filter</name>
+        <param>
+          <declname>$className</declname>
+        </param>
+        <param>
+          <declname>$term</declname>
+        </param>
+        <param>
+          <declname>$field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default filter is just a field = value</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$className</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$term</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="77" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a948285aed809f77c4874e6080e7c56cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>currentFilterID</definition>
+        <argsstring>()</argsstring>
+        <name>currentFilterID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the ID of the current filter.</para><para><simplesect kind="return"><para>int|null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="88" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="88" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1acbb753db87d7cde6b62875a3d21173a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>defaultFilter</definition>
+        <argsstring>()</argsstring>
+        <name>defaultFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="96" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="96" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a8b9343c4906bf879fe9aeb56db47f685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getVarOrParam</definition>
+        <argsstring>($name, $sessionPersistance=self::PersistExact)</argsstring>
+        <name>getVarOrParam</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$sessionPersistance</declname>
+          <defval>self::PersistExact</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="104" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a0da531fc30bdf883d86d4219c3c54e07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mode</definition>
+        <argsstring>()</argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="108" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="108" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a460a4b0a974fe335c75553ec7cd6a43d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>modes</definition>
+        <argsstring>()</argsstring>
+        <name>modes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return array of mode strings in preference order from query string or configuration.</para><para><simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="117" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="117" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a4bd31bcedb7b4943aac2da78d0d84afe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sort</definition>
+        <argsstring>()</argsstring>
+        <name>sort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="126" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="126" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af8fa59992209e36dccb3eefb0f75531f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the pagination start from getVar or session</para><para><simplesect kind="return"><para>int|null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="135" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="135" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a63aed2ed30505623343b3e7df7fa6c16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>limit</definition>
+        <argsstring>()</argsstring>
+        <name>limit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the pagination limit from getVar or session</para><para><simplesect kind="return"><para>int|null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="144" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="144" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ac203c60430ea922e5e143617bcf214a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pagination</definition>
+        <argsstring>()</argsstring>
+        <name>pagination</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>array of start, limit from getVar or from Session for current url </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="151" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="151" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a4268e176714ad2c0dfd9fa1b3e5b6561" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>buildQueryString</definition>
+        <argsstring>($params=[])</argsstring>
+        <name>buildQueryString</name>
+        <param>
+          <declname>$params</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string suitable for use in url query string, keys are lower cased </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="162" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="162" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a53ddb717c4a283b82d354b02a6a71a59" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>request</definition>
+        <argsstring>()</argsstring>
+        <name>request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="174" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="174" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a2944defddcc4995baf2b5ae4a0aac8ad" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>params</definition>
+        <argsstring>($params=[])</argsstring>
+        <name>params</name>
+        <param>
+          <declname>$params</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns map of parameters (getVars and urlParams) this <ref refid="df/d78/namespace_modular_1_1_grid_list_1_1_constraints_1_1_filters" kindref="compound">Filters</ref> derived class handles. Merges in with preference passed params if provided. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="182" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="182" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a3cab828372c17e2aea3c5cac0de27d07" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>persistKey</definition>
+        <argsstring>($key, $url=null, $includeGetVars=false)</argsstring>
+        <name>persistKey</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <declname>$url</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$includeGetVars</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provide a unique key for this request, e.g. for caching, UI state storage etc. By default this is without taking getVars into account.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of thing being cached, e.g. &apos;sort&apos; or &apos;model&apos; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of request to store key for, if null current url is used, otherwise whatever is passed (could be &apos;&apos; for all requests) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$includeGetVars</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="197" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="197" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a5a7f71e9109a92b57e492be254594a40" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clearSession</definition>
+        <argsstring>()</argsstring>
+        <name>clearSession</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Clear all session variables that start with the gridlist session key prefix (self.KeyPrefix). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="215" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="215" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a1b51165f5b164be715a84c17fdf566f8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>url</definition>
+        <argsstring>($includeGetVars=false)</argsstring>
+        <name>url</name>
+        <param>
+          <declname>$includeGetVars</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="225" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="225" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ae3b138fc15c6eb1d38508bd0f19ba120" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>urlParam</definition>
+        <argsstring>($name, $sessionPersistance)</argsstring>
+        <name>urlParam</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$sessionPersistance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return value of particular url parameter, filters out one&apos;s we&apos;re not interested in and caches those we are.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="235" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="235" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a03c3daf67c2b305314c7abaafe9d9b3d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>urlParams</definition>
+        <argsstring>()</argsstring>
+        <name>urlParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return only the url parameters we are interested in</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="250" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="250" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1afd2ce2ae3c59a93275a4764188333747" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getVar</definition>
+        <argsstring>($name, $sessionPersistance)</argsstring>
+        <name>getVar</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$sessionPersistance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a get var if it is one we are interested in, lookup is lowercased, return value is urldecoded. Values are cached for both lower and uppercase (so get and urlParam) options.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>null|string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="267" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="267" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ab81a1d1cef7f7d6c406e60bd368f94af" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getVars</definition>
+        <argsstring>()</argsstring>
+        <name>getVars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return only the get vars we are interested in, keys are lowercased, values are trimmed</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="285" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="285" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a08826ae0e109c275ccfd5aa4d4712ad8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>postVar</definition>
+        <argsstring>($name)</argsstring>
+        <name>postVar</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a get var if it is one we are interested in, lookup is lowercased, return value is urldecoded. Values are cached for both lower and uppercase (so get and urlParam) options.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>null|string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="309" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="309" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a181b26b1c2c684fe446d8825f401bff9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>postVars</definition>
+        <argsstring>()</argsstring>
+        <name>postVars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return only the get vars we are interested in, keys are lowercased</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="326" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="326" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a60aa60245d871c654a2bdc494f44b49e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>persisted</definition>
+        <argsstring>($name, $cache, $sessionPersistance)</argsstring>
+        <name>persisted</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$cache</declname>
+        </param>
+        <param>
+          <declname>$sessionPersistance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lookup name in the provided cache key-value and save it to the session if required depending on seesionPersistance parameter.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$cache</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$sessionPersistance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array|mixed|null| </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="356" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="356" bodyend="387"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a09fec4eb5dc911067c3e8601ae083836" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static persist_key_prefix</definition>
+        <argsstring>()</argsstring>
+        <name>persist_key_prefix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="208" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="208" bodyend="210"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="190">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>Constraints</label>
+        <link refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="192">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="192" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>Constraints</label>
+        <link refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints"/>
+        <childnode refid="192" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/Constraints.php" bodystart="15" bodyend="388"/>
+    <listofallmembers>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a01ad44a1be550251dc25b4e8f5a15210" prot="private" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>$default_mode</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ac5d5b1f5203846b4258ec94b4d78717e" prot="private" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>$default_sort</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1afe68e6fbe7acfbffc0af0c84a1996466" prot="private" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>$params</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1abb35c8495a232b510389fa6d7b15d38a" prot="protected" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>$request</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>__construct</name></member>
+      <member refid="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>__invoke</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a4268e176714ad2c0dfd9fa1b3e5b6561" prot="protected" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>buildQueryString</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a5a7f71e9109a92b57e492be254594a40" prot="protected" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>clearSession</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af06af815cbbf71a8fe8e1007ff23a1ea" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>constraint</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a948285aed809f77c4874e6080e7c56cb" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>currentFilterID</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1acbb753db87d7cde6b62875a3d21173a0" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>defaultFilter</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a93062bd2c2a5567527486bef28baed68" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>DefaultPersistance</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a2726eafbd92facbc239cbe9eca472667" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>filter</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ae1db96ac421c122c66950189f39b6096" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>FilterVar</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1afd2ce2ae3c59a93275a4764188333747" prot="protected" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>getVar</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a8b9343c4906bf879fe9aeb56db47f685" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>getVarOrParam</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ab81a1d1cef7f7d6c406e60bd368f94af" prot="protected" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>getVars</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a63aed2ed30505623343b3e7df7fa6c16" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>limit</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a0da531fc30bdf883d86d4219c3c54e07" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>mode</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a581ca3761bcefa67e8ccdbec3e3f90a2" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>ModeGetVar</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a460a4b0a974fe335c75553ec7cd6a43d" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>modes</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1aa01b4b7db513cd4468ac250837e893d6" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>PageLengthGetVar</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ac203c60430ea922e5e143617bcf214a4" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>pagination</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a2944defddcc4995baf2b5ae4a0aac8ad" prot="protected" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>params</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a09fec4eb5dc911067c3e8601ae083836" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>persist_key_prefix</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a60aa60245d871c654a2bdc494f44b49e" prot="protected" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>persisted</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a3d6c2c4afac4c921b80cc5e3bb723f96" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>PersistEverywhere</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a8278b2bd56513296a057830a9e8aab54" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>PersistExact</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ae4ee87015f8568826e97c7457bb66f3f" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>PersistForGetVars</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a3a588465c28930fdaaf0bab8297f7631" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>PersistForURLParams</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a3cab828372c17e2aea3c5cac0de27d07" prot="protected" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>persistKey</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a225627d10584d7a0c1bb659e2410160c" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>PersistNever</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a08826ae0e109c275ccfd5aa4d4712ad8" prot="protected" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>postVar</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a181b26b1c2c684fe446d8825f401bff9" prot="protected" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>postVars</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a53ddb717c4a283b82d354b02a6a71a59" prot="protected" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>request</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af79696b6c2ce7a5bf880651b97c34e71" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>SessionKeyPrefix</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a9fa9bc208b842e19e4324d7d2d784b01" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>SessionPathSeparator</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a4bd31bcedb7b4943aac2da78d0d84afe" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>sort</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ab523b2a71464e33e44f8b267fc844157" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>SortGetVar</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af8fa59992209e36dccb3eefb0f75531f" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>start</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a2c034ab7cd15f32948132bc456632b8f" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>StartIndexGetVar</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a1b51165f5b164be715a84c17fdf566f8" prot="protected" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>url</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ae3b138fc15c6eb1d38508bd0f19ba120" prot="protected" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>urlParam</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a03c3daf67c2b305314c7abaafe9d9b3d" prot="protected" virt="non-virtual"><scope>Modular::GridList::Constraints</scope><name>urlParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

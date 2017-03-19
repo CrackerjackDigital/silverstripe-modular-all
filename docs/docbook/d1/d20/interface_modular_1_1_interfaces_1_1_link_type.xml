@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d1/d20/interface_modular_1_1_interfaces_1_1_link_type">
+<title>Modular::Interfaces::LinkType interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/d20/interface_modular_1_1_interfaces_1_1_link_type_1a08282d6de720a402d9b2136ddb9531f2">LinkType</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/d20/interface_modular_1_1_interfaces_1_1_link_type_1a5c5e9e6d8cf0b8ce8db575ea6252c96a">LinkText</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d1/d20/interface_modular_1_1_interfaces_1_1_link_type_1a08282d6de720a402d9b2136ddb9531f2">
+                <title>LinkType ()</title> <emphasis></emphasis>
+                
+<para>Returns a general link type such as &apos;Download&apos;, &apos;Page&apos; or &apos;Video&apos; in mixed case, can be casified in css. <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d1/d20/interface_modular_1_1_interfaces_1_1_link_type_1a5c5e9e6d8cf0b8ce8db575ea6252c96a">
+                <title>LinkText ()</title> <emphasis></emphasis>
+                
+<para>Return the text to show in a link to this model. <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

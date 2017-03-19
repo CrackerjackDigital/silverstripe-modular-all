@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/d26/class_modular_1_1_search_1_1_model_extension" kind="class" prot="public">
+    <compoundname>Modular::Search::ModelExtension</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+    <derivedcompoundref refid="da/dfb/class_modular_1_1_search_1_1_block_extension" prot="public" virt="non-virtual">BlockExtension</derivedcompoundref>
+    <derivedcompoundref refid="dc/ded/class_modular_1_1_search_1_1_file_extension" prot="public" virt="non-virtual">FileExtension</derivedcompoundref>
+    <derivedcompoundref refid="dd/d77/class_modular_1_1_search_1_1_site_tree_extension" prot="public" virt="non-virtual">SiteTreeExtension</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="da/d26/class_modular_1_1_search_1_1_model_extension_1a2ea01a603a9cac0569445c079f30c423" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SearchIndex</definition>
+        <argsstring></argsstring>
+        <name>SearchIndex</name>
+        <initializer>= &apos;FulltextSearchIndex&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/search/ModelExtension.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/ModelExtension.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d26/class_modular_1_1_search_1_1_model_extension_1aef1c042f9187038c14f05419ac887711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SearchTargets</definition>
+        <argsstring>()</argsstring>
+        <name>SearchTargets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="d3/d03/namespace_modular_1_1_search" kindref="compound">Search</ref> results for most <ref refid="d0/da1/namespace_modular_1_1_models" kindref="compound">Models</ref> is the model itself, override if something different.</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/search/ModelExtension.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/ModelExtension.php" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d26/class_modular_1_1_search_1_1_model_extension_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>extraStatics</definition>
+        <argsstring>($class=null, $extension=null)</argsstring>
+        <name>extraStatics</name>
+        <param>
+          <declname>$class</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$extension</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add full text search field indexes. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$class</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$extension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/search/ModelExtension.php" line="30" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/ModelExtension.php" bodystart="30" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1166">
+        <label>ModelExtension</label>
+        <link refid="da/d26/class_modular_1_1_search_1_1_model_extension"/>
+        <childnode refid="1166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1167">
+        <label>BlockExtension</label>
+        <link refid="da/dfb/class_modular_1_1_search_1_1_block_extension"/>
+        <childnode refid="1166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1169">
+        <label>SiteTreeExtension</label>
+        <link refid="dd/d77/class_modular_1_1_search_1_1_site_tree_extension"/>
+        <childnode refid="1166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1168">
+        <label>FileExtension</label>
+        <link refid="dc/ded/class_modular_1_1_search_1_1_file_extension"/>
+        <childnode refid="1166" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1170">
+        <label>ModelExtension</label>
+        <link refid="da/d26/class_modular_1_1_search_1_1_model_extension"/>
+        <childnode refid="1170" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/search/ModelExtension.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/ModelExtension.php" bodystart="9" bodyend="57"/>
+    <listofallmembers>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Search::ModelExtension</scope><name>class_name</name></member>
+      <member refid="da/d26/class_modular_1_1_search_1_1_model_extension_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::Search::ModelExtension</scope><name>extraStatics</name></member>
+      <member refid="da/d26/class_modular_1_1_search_1_1_model_extension_1a2ea01a603a9cac0569445c079f30c423" prot="public" virt="non-virtual"><scope>Modular::Search::ModelExtension</scope><name>SearchIndex</name></member>
+      <member refid="da/d26/class_modular_1_1_search_1_1_model_extension_1aef1c042f9187038c14f05419ac887711" prot="public" virt="non-virtual"><scope>Modular::Search::ModelExtension</scope><name>SearchTargets</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Search::ModelExtension</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

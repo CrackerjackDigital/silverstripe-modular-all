@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/d3c/class_log_output_writer">
+<title>LogOutputWriter class Reference</title>
+        <simplesect>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>$messageType</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d3c/class_log_output_writer_1a7a50b57ca538643ea51309fd8263cc5b">__construct</link> (
+ $messageType)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d3c/class_log_output_writer_1a2dd4310985be9135975edb3a419cae43">_write</link> (
+ $event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="dd/d3c/class_log_output_writer_1a59055480c522814955ef7d73c494ddbd">factory</link> (
+ $messageType)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="dd/d3c/class_log_output_writer_1a7a50b57ca538643ea51309fd8263cc5b">
+                <title>__construct ($messageType)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/d3c/class_log_output_writer_1a2dd4310985be9135975edb3a419cae43">
+                <title>_write ($event)</title> <emphasis></emphasis>
+                
+<para>Write a message to the output buffer, if cli append an eol, if not append a html break then eol.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$event</entry>
+                                <entry>
+<para>log data event </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>void </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/d3c/class_log_output_writer_1a59055480c522814955ef7d73c494ddbd">
+                <title>static factory ($messageType=3)</title> <emphasis></emphasis>
+                
+<para>Construct a Zend_Log driver</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$messageType</entry>
+                                <entry>
+<para>type of message to log </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>Zend_Log_FactoryInterface </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

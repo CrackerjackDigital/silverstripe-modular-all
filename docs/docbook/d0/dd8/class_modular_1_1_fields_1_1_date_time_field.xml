@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d0/dd8/class_modular_1_1_fields_1_1_date_time_field">
+<title>Modular::Fields::DateTimeField class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SingleFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SingleFieldSchema</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ShowTimeField</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ShowSeparateFields</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const DateRequired</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const TimeRequired</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1ab9ae9ef07f0ef2387a06b7555652145a">extraStatics</link> (
+ $class,  $extension)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1a8ca8e9ad99d93249fbe39c1e29cc5059">onBeforeValidate</link> (
+\ValidationResult $result)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1a4680714b2ce9bcdfd64575ed9517c06e">validate</link> (
+\ValidationResult $result)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1a885a49d412c046cc800fb7f17062906e">updateSummaryFields</link> (
+&amp; $fields)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1ae6098bb0243f4ce2f8680b3723783300">cmsFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1a40142f6e78929754ed7d05055d2a06f1">configureDateField</link> (
+DField $field,  $showMultipleFields)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1a3615f0004944b56218daa3b00899f479">configureTimeField</link> (
+TField $field,  $showMultipleFields)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1a55845d7e027c968d974a47995eb8c1f5">configureDateTimeField</link> (
+DTField $field,  $showMultipleFields)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>A <link linkend="de/d38/class_modular_1_1_fields_1_1_event_date">EventDate</link> field which is distinct from the SilverStripe &apos;Created&apos; field. </para>
+                <para>Definition at line 11 of file DateField.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>DateField.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1ab9ae9ef07f0ef2387a06b7555652145a">
+                <title>extraStatics ($class=null, $extension=null)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1a8ca8e9ad99d93249fbe39c1e29cc5059">
+                <title>onBeforeValidate (\ValidationResult $result)</title> <emphasis></emphasis>
+                
+<para>Hack to get multiple year, month, day values into the models date field if present as an array in the post data.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$result</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1a4680714b2ce9bcdfd64575ed9517c06e">
+                <title>validate (\ValidationResult $result)</title> <emphasis></emphasis>
+                
+<para>Skip validation for Pages if not already saved so we can create new pages with DateFields as CMS saves early.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$result</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                exception                            <row>
+                                <entry>\ValidationException</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>null </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1a885a49d412c046cc800fb7f17062906e">
+                <title>updateSummaryFields (&amp;$fields)</title> <emphasis></emphasis>
+                
+<para>Adds label for this field to summary fields. 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$fields</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1ae6098bb0243f4ce2f8680b3723783300">
+                <title>cmsFields ()</title> <emphasis></emphasis>
+                
+<para>Returns fields for entering date and time. NB injector has overridden the TimeField to be CERATimeField to fix a problem saving DatatimeField with no date.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1a40142f6e78929754ed7d05055d2a06f1">
+                <title>configureDateField (DField $field, $showMultipleFields=true)</title> <emphasis></emphasis>
+                
+<para>Configure date fields to be in various states as per parameter options.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$field</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$showMultipleFields</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1a3615f0004944b56218daa3b00899f479">
+                <title>configureTimeField (TField $field, $showMultipleFields=true)</title> <emphasis></emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$field</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$showMultipleFields</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d0/dd8/class_modular_1_1_fields_1_1_date_time_field_1a55845d7e027c968d974a47995eb8c1f5">
+                <title>configureDateTimeField (DTField $field, $showMultipleFields=true)</title> <emphasis></emphasis>
+                
+<para>Configures the Date and Time fields in the wrapping DatetimeField.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$field</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$showMultipleFields</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

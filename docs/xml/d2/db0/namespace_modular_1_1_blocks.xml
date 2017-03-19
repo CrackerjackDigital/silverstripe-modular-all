@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d2/db0/namespace_modular_1_1_blocks" kind="namespace">
+    <compoundname>Modular::Blocks</compoundname>
+    <innerclass refid="d2/df7/class_modular_1_1_blocks_1_1_block" prot="public">Modular::Blocks::Block</innerclass>
+    <innerclass refid="df/d9d/class_modular_1_1_blocks_1_1_audio" prot="public">Modular::Blocks::Audio</innerclass>
+    <innerclass refid="d9/d82/class_modular_1_1_blocks_1_1_call_to_action" prot="public">Modular::Blocks::CallToAction</innerclass>
+    <innerclass refid="de/df1/class_modular_1_1_blocks_1_1_carousel" prot="public">Modular::Blocks::Carousel</innerclass>
+    <innerclass refid="dd/ddd/class_modular_1_1_blocks_1_1_content" prot="public">Modular::Blocks::Content</innerclass>
+    <innerclass refid="df/d8f/class_modular_1_1_blocks_1_1_content_with_image" prot="public">Modular::Blocks::ContentWithImage</innerclass>
+    <innerclass refid="dc/d75/class_modular_1_1_blocks_1_1_download" prot="public">Modular::Blocks::Download</innerclass>
+    <innerclass refid="d0/d5e/class_modular_1_1_blocks_1_1_file" prot="public">Modular::Blocks::File</innerclass>
+    <innerclass refid="d4/d8f/class_modular_1_1_blocks_1_1_files" prot="public">Modular::Blocks::Files</innerclass>
+    <innerclass refid="d9/d86/class_modular_1_1_blocks_1_1_footnotes" prot="public">Modular::Blocks::Footnotes</innerclass>
+    <innerclass refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image" prot="public">Modular::Blocks::FullWidthImage</innerclass>
+    <innerclass refid="dc/d89/class_modular_1_1_blocks_1_1_grid_list" prot="public">Modular::Blocks::GridList</innerclass>
+    <innerclass refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery" prot="public">Modular::Blocks::ImageGallery</innerclass>
+    <innerclass refid="da/d3a/class_modular_1_1_blocks_1_1_linked_page" prot="public">Modular::Blocks::LinkedPage</innerclass>
+    <innerclass refid="d1/d9c/class_modular_1_1_blocks_1_1_links" prot="public">Modular::Blocks::Links</innerclass>
+    <innerclass refid="d8/d3a/class_modular_1_1_blocks_1_1_postable" prot="public">Modular::Blocks::Postable</innerclass>
+    <innerclass refid="d8/dfb/class_modular_1_1_blocks_1_1_promo" prot="public">Modular::Blocks::Promo</innerclass>
+    <innerclass refid="d7/de9/class_modular_1_1_blocks_1_1_pull_quote" prot="public">Modular::Blocks::PullQuote</innerclass>
+    <innerclass refid="d2/d46/class_modular_1_1_blocks_1_1_source_file" prot="public">Modular::Blocks::SourceFile</innerclass>
+    <innerclass refid="de/db5/class_modular_1_1_blocks_1_1_source_links" prot="public">Modular::Blocks::SourceLinks</innerclass>
+    <innerclass refid="d6/d06/class_modular_1_1_blocks_1_1_sub_blocks" prot="public">Modular::Blocks::SubBlocks</innerclass>
+    <innerclass refid="d1/d70/class_modular_1_1_blocks_1_1_video" prot="public">Modular::Blocks::Video</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

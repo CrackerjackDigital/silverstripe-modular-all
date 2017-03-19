@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping">
+<title>Modular::GridList::Layout::Grouping class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SingleFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SingleFieldSchema</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $options</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $confine_to_modes</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1ae6098bb0243f4ce2f8680b3723783300">cmsFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1a8ba2fb9cc66e7cbe7b1cd09948e6981e">layoutGridListItems</link> (
+&amp; $items,  $mode)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1ae6098bb0243f4ce2f8680b3723783300">
+                <title>cmsFields ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1a8ba2fb9cc66e7cbe7b1cd09948e6981e">
+                <title>layoutGridListItems (&amp;$items, $mode)</title> <emphasis></emphasis>
+                
+<para>If we are in list mode then group items by event date</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$items</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$mode</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

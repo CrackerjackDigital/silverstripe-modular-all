@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/d68/class_modular_1_1_controller" kind="class" prot="public">
+    <compoundname>Modular::Controller</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+    <derivedcompoundref refid="d3/da3/class_modular_1_1_admin_1_1_publisher" prot="public" virt="non-virtual">Publisher</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="227">
+        <label>Controller</label>
+        <link refid="d6/d68/class_modular_1_1_controller"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="228">
+        <label>Publisher</label>
+        <link refid="d3/da3/class_modular_1_1_admin_1_1_publisher"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="229">
+        <label>Controller</label>
+        <link refid="d6/d68/class_modular_1_1_controller"/>
+        <childnode refid="229" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/Controller.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Controller.php" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

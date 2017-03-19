@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/d82/class_modular_1_1_blocks_1_1_call_to_action" kind="class" prot="public">
+    <compoundname>Modular::Blocks::CallToAction</compoundname>
+    <basecompoundref refid="d2/df7/class_modular_1_1_blocks_1_1_block" prot="public" virt="non-virtual">Block</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d82/class_modular_1_1_blocks_1_1_call_to_action_1af49822cc4be110c0dece5c3dac61327d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ResolvedLink</definition>
+        <argsstring>()</argsstring>
+        <name>ResolvedLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/CallToAction.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/CallToAction.php" bodystart="10" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="126">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="127">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="129">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="128">
+        <label>DataObject</label>
+      </node>
+      <node id="125">
+        <label>CallToAction</label>
+        <link refid="d9/d82/class_modular_1_1_blocks_1_1_call_to_action"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="131">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="132" relation="public-inheritance">
+        </childnode>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="134">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="133">
+        <label>DataObject</label>
+      </node>
+      <node id="130">
+        <label>CallToAction</label>
+        <link refid="d9/d82/class_modular_1_1_blocks_1_1_call_to_action"/>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/CallToAction.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/CallToAction.php" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>__invoke</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a3c1dc9072f2299e603adead7442dc292" prot="public" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>addCustomFilterTag</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a08f89083c824bbd479a24cfb1e7ce27c" prot="public" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>block_class</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1ae0fb8218cf6d7cfc1030e51c4a45025d" prot="public" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>BlockType</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a7e15a611df09446ea2342e5a544a218a" prot="public" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>BlockZones</name></member>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>class_name</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a585a237c4434f0c97e0a93dd02d7e314" prot="public" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>customFilterTags</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1afbdde13fe4d3c5da5bce82cd0758d00e" prot="public" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>DisplayInContent</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0de6dd724bf06b0f08dbdeee9bd4c80d" prot="public" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>DisplayInSidebar</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1af8ff16e3b7863d38779fcf1006b9e40a" prot="public" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>forTemplate</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a5c5e9e6d8cf0b8ce8db575ea6252c96a" prot="public" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>LinkText</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a08282d6de720a402d9b2136ddb9531f2" prot="public" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>LinkType</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1af30563a728019e2a175da6b4ef1ce4e6" prot="public" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>PageClassName</name></member>
+      <member refid="d9/d82/class_modular_1_1_blocks_1_1_call_to_action_1af49822cc4be110c0dece5c3dac61327d" prot="public" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>ResolvedLink</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0b54c9d3801b331b75487ef78d98c06b" prot="protected" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>template</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a166f874fbbbfadabb7055aa9f5bea328" prot="protected" virt="non-virtual"><scope>Modular::Blocks::CallToAction</scope><name>templates</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

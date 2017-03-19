@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d14ce612a11016b25e245e0768494aa6" kind="dir">
+    <compoundname>modular</compoundname>
+    <innerdir refid="dir_98aa920b5b24af0f36b31a0fe1839471">code</innerdir>
+    <innerfile refid="da/dc2/__config_8php">_config.php</innerfile>
+    <innerfile refid="dd/d41/autoloader_8php">autoloader.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/"/>
+  </compounddef>
+</doxygen>

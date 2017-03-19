@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/da0/_curated_blocks_first_8php" kind="file">
+    <compoundname>CuratedBlocksFirst.php</compoundname>
+    <innerclass refid="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first" prot="public">Modular::GridList::Sequencers::Items::CuratedBlocksFirst</innerclass>
+    <innernamespace refid="d8/dd3/namespace_modular_1_1_grid_list_1_1_sequencers_1_1_items">Modular::GridList::Sequencers::Items</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridList\Sequencers\Items;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first" kindref="compound">CuratedBlocksFirst</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">\Modular\ModelExtension</ref><sp/>implements<sp/><ref refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer" kindref="compound">\Modular\GridList\Interfaces\ItemsSequencer</ref><sp/>{</highlight></codeline>
+<codeline lineno="11" refid="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first_1af369da5e33e03a0e9ea52d07b239e332" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first_1af369da5e33e03a0e9ea52d07b239e332" kindref="member">sequenceGridListItems</ref>(&amp;$items,<sp/>$filters,<sp/>&amp;$parameters<sp/>=<sp/>[])<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$out<sp/>=<sp/>new<sp/>\ArrayList();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>push<sp/>only<sp/>Block<sp/>items<sp/>to<sp/>output</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($items<sp/>as<sp/>$item)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($item<sp/>instanceof<sp/>\Modular\Blocks\<ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Block</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$out-&gt;push($item);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>now<sp/>push<sp/>everything<sp/>which<sp/>isn&apos;t<sp/>a<sp/>Block</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($items<sp/>as<sp/>$item)<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$item<sp/>instanceof<sp/>\Modular\Blocks\<ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Block</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$out-&gt;push($item);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$items<sp/>=<sp/>$out;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/items/CuratedBlocksFirst.php"/>
+  </compounddef>
+</doxygen>

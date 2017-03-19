@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows" kind="class" prot="public">
+    <compoundname>Modular::GridField::GridFieldOrderableRows</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">GridFieldOrderableRows</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows_1a58d45c13ab7488436af7f47e52721141" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SortFieldName</definition>
+        <argsstring></argsstring>
+        <name>SortFieldName</name>
+        <initializer>= &apos;Sort&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/components/GridFieldOrderableRows.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/components/GridFieldOrderableRows.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows_1a6006fb64993d9e9856934cff625b0796" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>populateSortValues</definition>
+        <argsstring>(\DataList $list)</argsstring>
+        <name>populateSortValues</name>
+        <param>
+          <type>\DataList</type>
+          <declname>$list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/components/GridFieldOrderableRows.php" line="71" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/components/GridFieldOrderableRows.php" bodystart="71" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Override to fix bug to do with LastEdited field being on different model in inheritance heirarchy to the Sort field. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="591">
+        <label>GridFieldOrderableRows</label>
+        <link refid="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows"/>
+        <childnode refid="591" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="592">
+        <label>GridFieldOrderableRows</label>
+        <link refid="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows"/>
+        <childnode refid="592" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/components/GridFieldOrderableRows.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/components/GridFieldOrderableRows.php" bodystart="6" bodyend="94"/>
+    <listofallmembers>
+      <member refid="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows_1a6006fb64993d9e9856934cff625b0796" prot="protected" virt="non-virtual"><scope>Modular::GridField::GridFieldOrderableRows</scope><name>populateSortValues</name></member>
+      <member refid="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows_1a58d45c13ab7488436af7f47e52721141" prot="public" virt="non-virtual"><scope>Modular::GridField::GridFieldOrderableRows</scope><name>SortFieldName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

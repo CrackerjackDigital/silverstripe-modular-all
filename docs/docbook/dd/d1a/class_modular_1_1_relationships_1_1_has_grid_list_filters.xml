@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters">
+<title>Modular::Relationships::HasGridListFilters class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelationshipName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelatedClassName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $sortable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $summary_fields</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters_1ae6098bb0243f4ce2f8680b3723783300">cmsFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters_1a6ba5bee9817eb036b794f73534901a9d">DisplayGridListFilters</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters_1a069cb9638bfa654f2cb15b6eaf23a0bf">provideGridListFilters</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters_1ae6098bb0243f4ce2f8680b3723783300">
+                <title>cmsFields ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters_1a6ba5bee9817eb036b794f73534901a9d">
+                <title>DisplayGridListFilters ()</title> <emphasis></emphasis>
+                
+<para>Return csv list of filters suitable for use eg in summary_fields. <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters_1a069cb9638bfa654f2cb15b6eaf23a0bf">
+                <title>provideGridListFilters ()</title> <emphasis></emphasis>
+                
+<para>Return filters related to the extended model</para>
+
+<para>#return  </para>
+
+            </section>
+</section>

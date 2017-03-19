@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/dce/_add_item_counts_8php" kind="file">
+    <compoundname>AddItemCounts.php</compoundname>
+    <innerclass refid="d3/d2a/class_modular_1_1_grid_list_1_1_sequencers_1_1_filters_1_1_add_item_counts" prot="public">Modular::GridList::Sequencers::Filters::AddItemCounts</innerclass>
+    <innernamespace refid="df/d9e/namespace_modular_1_1_grid_list_1_1_sequencers_1_1_filters">Modular::GridList::Sequencers::Filters</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <innernamespace refid="d0/d4d/namespace_modular_1_1_grid_list_1_1_interfaces_1_1_filters_sequencer">Modular::GridList::Interfaces::FiltersSequencer</innernamespace>
+    <innernamespace refid="d9/d83/namespace_modular_1_1_relationships_1_1_has_tags">Modular::Relationships::HasTags</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="df/d9e/namespace_modular_1_1_grid_list_1_1_sequencers_1_1_filters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridList\Sequencers\Filters;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d3/d10/class_modular_1_1_application" kindref="compound">Modular\Application</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="d3/de9/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_sequencer" kindref="compound">Modular\GridList\Interfaces\FiltersSequencer</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">Modular\ModelExtension</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters" kindref="compound">Modular\Relationships\HasGridListFilters</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="de/d13/class_modular_1_1_relationships_1_1_has_tags" kindref="compound">Modular\Relationships\HasTags</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="d3/d2a/class_modular_1_1_grid_list_1_1_sequencers_1_1_filters_1_1_add_item_counts" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/d2a/class_modular_1_1_grid_list_1_1_sequencers_1_1_filters_1_1_add_item_counts" kindref="compound">AddItemCounts</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">ModelExtension</ref><sp/>implements<sp/><ref refid="d3/de9/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_sequencer" kindref="compound">FiltersSequencer</ref><sp/>{</highlight></codeline>
+<codeline lineno="16" refid="d3/d2a/class_modular_1_1_grid_list_1_1_sequencers_1_1_filters_1_1_add_item_counts_1ab11aae3617867ee4275b20477f810fb6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d2a/class_modular_1_1_grid_list_1_1_sequencers_1_1_filters_1_1_add_item_counts_1ab11aae3617867ee4275b20477f810fb6" kindref="member">AllItemCountKey</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;AllItemCount&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d3/de9/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_sequencer_1a7fddbb937a271da437c56fb94174f1a5" kindref="member">sequenceGridListFilters</ref>(&amp;$filters,<sp/>$items,<sp/>&amp;$parameters<sp/>=<sp/>[])<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($allFilter<sp/>=<sp/><ref refid="d3/d10/class_modular_1_1_application_1ab096c671befd594e22708a02babcbeef" kindref="member">Application::get_current_page</ref>()-&gt;FilterAll())<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$allTag<sp/>=<sp/>$allFilter-&gt;Filter;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$allItemCount<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$allItemCount<sp/>=<sp/>$items-&gt;count();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$allTag<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($filters<sp/>as<sp/>$filter)<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$itemCount<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tag<sp/>=<sp/>$filter-&gt;ModelTag;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($items<sp/>as<sp/>$item)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($item-&gt;hasExtension(<ref refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" kindref="member">HasGridListFilters::class_name</ref>()))<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($item-&gt;GridListFilters()-&gt;find(</highlight><highlight class="stringliteral">&apos;ModelTag&apos;</highlight><highlight class="normal">,<sp/>$tag))<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$itemCount++;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($allTag<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;all&apos;</highlight><highlight class="normal"><sp/>||<sp/>($allTag<sp/>&amp;&amp;<sp/>$item-&gt;GridListFilters()-&gt;find(</highlight><highlight class="stringliteral">&apos;ModelTag&apos;</highlight><highlight class="normal">,<sp/>$allTag)))<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$allItemCount++;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>don&apos;t<sp/>recount<sp/>&apos;all<sp/>filter&apos;<sp/>after<sp/>first<sp/>pass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$allTag<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$filter-&gt;ItemCount<sp/>=<sp/>max($itemCount<sp/>-<sp/>1,<sp/>0);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$parameters[self::AllItemCountKey]<sp/>=<sp/>max($allItemCount<sp/>-<sp/>1,<sp/>0);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/filters/AddItemCounts.php"/>
+  </compounddef>
+</doxygen>

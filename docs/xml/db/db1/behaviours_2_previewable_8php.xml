@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="db/db1/behaviours_2_previewable_8php" kind="file">
+    <compoundname>behaviours/Previewable.php</compoundname>
+    <innerclass refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable" prot="public">Modular::Behaviours::Previewable</innerclass>
+    <innernamespace refid="df/dee/namespace_modular_1_1_behaviours">Modular::Behaviours</innernamespace>
+    <innernamespace refid="da/d7c/namespace_c_m_s_previewable">CMSPreviewable</innernamespace>
+    <innernamespace refid="d7/db4/namespace_controller">Controller</innernamespace>
+    <innernamespace refid="d7/d83/namespace_literal_field">LiteralField</innernamespace>
+    <innernamespace refid="d0/d2b/namespace_modular_1_1_model_extension">Modular::ModelExtension</innernamespace>
+    <innernamespace refid="d5/d20/namespace_silver_stripe_navigator">SilverStripeNavigator</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Behaviours;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/>CMSPreviewable;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>Controller;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/>LiteralField;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">Modular\ModelExtension</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/>SilverStripeNavigator;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable" kindref="compound">Previewable</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">ModelExtension</ref><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable_1a9bf9dc156bf9f1d8941da3818fd13aad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable_1a9bf9dc156bf9f1d8941da3818fd13aad" kindref="member">updateItemEditForm</ref>(&amp;$form)<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$fields<sp/>=<sp/>$form-&gt;Fields();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($this-&gt;owner-&gt;record<sp/>instanceof<sp/>CMSPreviewable<sp/>&amp;&amp;<sp/>!$fields-&gt;fieldByName(</highlight><highlight class="stringliteral">&apos;SilverStripeNavigator&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;injectNavigatorAndPreview($form,<sp/>$fields);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>injectNavigatorAndPreview(&amp;$form,<sp/>&amp;$fields)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$template<sp/>=<sp/>Controller::curr()-&gt;getTemplatesWithSuffix(</highlight><highlight class="stringliteral">&apos;_SilverStripeNavigator&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$navigator<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SilverStripeNavigator($this-&gt;owner-&gt;record);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$field<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>LiteralField(</highlight><highlight class="stringliteral">&apos;SilverStripeNavigator&apos;</highlight><highlight class="normal">,<sp/>$navigator-&gt;renderWith($template));</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$field-&gt;setAllowHTML(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$fields-&gt;push($field);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$form-&gt;addExtraClass(</highlight><highlight class="stringliteral">&apos;cms-previewable&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$form-&gt;addExtraClass(</highlight><highlight class="stringliteral">&apos;<sp/>cms-previewabledataobject&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$form-&gt;removeExtraClass(</highlight><highlight class="stringliteral">&apos;cms-panel-padded<sp/>center&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/Previewable.php"/>
+  </compounddef>
+</doxygen>

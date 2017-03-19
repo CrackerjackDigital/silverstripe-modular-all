@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d0/ded/class_modular_1_1_relationships_1_1_has_files">
+<title>Modular::Relationships::HasFiles class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelationshipName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelatedClassName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allowed_files</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/ded/class_modular_1_1_relationships_1_1_has_files_1ae6098bb0243f4ce2f8680b3723783300">cmsFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/ded/class_modular_1_1_relationships_1_1_has_files_1a8990d624cb129728633967324449736e">customFieldConstraints</link> (
+\FormField $field, array $allFieldConstraints)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>SS_List Links </para>
+                <para>Definition at line 10 of file HasFiles.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>HasFiles.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d0/ded/class_modular_1_1_relationships_1_1_has_files_1ae6098bb0243f4ce2f8680b3723783300">
+                <title>cmsFields ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d0/ded/class_modular_1_1_relationships_1_1_has_files_1a8990d624cb129728633967324449736e">
+                <title>customFieldConstraints (\FormField $field, array $allFieldConstraints)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d0/dca/interface_modular_1_1_interfaces_1_1_has_links" kind="interface" prot="public">
+    <compoundname>Modular::Interfaces::HasLinks</compoundname>
+    <derivedcompoundref refid="d0/d5e/class_modular_1_1_blocks_1_1_file" prot="public" virt="non-virtual">File</derivedcompoundref>
+    <derivedcompoundref refid="d4/d8f/class_modular_1_1_blocks_1_1_files" prot="public" virt="non-virtual">Files</derivedcompoundref>
+    <derivedcompoundref refid="d1/d9c/class_modular_1_1_blocks_1_1_links" prot="public" virt="non-virtual">Links</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/dca/interface_modular_1_1_interfaces_1_1_has_links_1ac8524f93cac27b574abc42cc54774d41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LinkInfo</definition>
+        <argsstring>()</argsstring>
+        <name>LinkInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a list of links, if model has a single link then that will be first element of the list.</para><para>Links are returned as ArrayData objects with: <heading level="1">Link = text of link to the model, page file or external link as text</heading>
+</para><para><heading level="1">Title = the title of the link if it can be found</heading>
+</para><para><heading level="1"><ref refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type" kindref="compound">LinkType</ref> = e.g. &apos;File&apos;, &apos;Image&apos;, &apos;Video&apos;, &apos;Audio&apos;, &apos;ExternalLink&apos;, &apos;Page&apos; etc returned via implementation of the <ref refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type" kindref="compound">LinkType</ref> interface</heading>
+</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HasLinks.php" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="748">
+        <label>SourceFile</label>
+        <link refid="d2/d46/class_modular_1_1_blocks_1_1_source_file"/>
+        <childnode refid="745" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="749">
+        <label>Video</label>
+        <link refid="d1/d70/class_modular_1_1_blocks_1_1_video"/>
+        <childnode refid="745" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="751">
+        <label>Links</label>
+        <link refid="d1/d9c/class_modular_1_1_blocks_1_1_links"/>
+        <childnode refid="744" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="745">
+        <label>File</label>
+        <link refid="d0/d5e/class_modular_1_1_blocks_1_1_file"/>
+        <childnode refid="744" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="744">
+        <label>HasLinks</label>
+        <link refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links"/>
+      </node>
+      <node id="747">
+        <label>Download</label>
+        <link refid="dc/d75/class_modular_1_1_blocks_1_1_download"/>
+        <childnode refid="745" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="746">
+        <label>Audio</label>
+        <link refid="df/d9d/class_modular_1_1_blocks_1_1_audio"/>
+        <childnode refid="745" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="750">
+        <label>Files</label>
+        <link refid="d4/d8f/class_modular_1_1_blocks_1_1_files"/>
+        <childnode refid="744" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HasLinks.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HasLinks.php" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links_1ac8524f93cac27b574abc42cc54774d41" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HasLinks</scope><name>LinkInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

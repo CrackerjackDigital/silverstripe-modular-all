@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_49a4369e8e78f8dcbbf93ca54f3ecbac" kind="dir">
+    <compoundname>relationships</compoundname>
+    <innerfile refid="dd/dc6/_has_block_8php">HasBlock.php</innerfile>
+    <innerfile refid="da/df6/relationships_2_has_blocks_8php">relationships/HasBlocks.php</innerfile>
+    <innerfile refid="dc/d99/_has_files_8php">HasFiles.php</innerfile>
+    <innerfile refid="d8/de2/_has_images_8php">HasImages.php</innerfile>
+    <innerfile refid="d1/de0/relationships_2_has_links_8php">relationships/HasLinks.php</innerfile>
+    <innerfile refid="d2/d54/relationships_2_has_many_8php">relationships/HasMany.php</innerfile>
+    <innerfile refid="d4/d89/relationships_2_has_many_many_8php">relationships/HasManyMany.php</innerfile>
+    <innerfile refid="d0/d84/_has_one_8php">HasOne.php</innerfile>
+    <innerfile refid="d1/db3/_has_related_page_8php">HasRelatedPage.php</innerfile>
+    <innerfile refid="de/dde/_has_related_pages_8php">HasRelatedPages.php</innerfile>
+    <innerfile refid="dd/d15/_has_slides_8php">HasSlides.php</innerfile>
+    <innerfile refid="d0/deb/_has_tags_8php">HasTags.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/"/>
+  </compounddef>
+</doxygen>

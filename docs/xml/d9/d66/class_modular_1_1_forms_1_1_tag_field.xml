@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/d66/class_modular_1_1_forms_1_1_tag_field" kind="class" prot="public">
+    <compoundname>Modular::Forms::TagField</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TagField</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/d66/class_modular_1_1_forms_1_1_tag_field_1a9f4fd8838aaef9b57d3fac0dbf9a7929" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$constraints</definition>
+        <argsstring></argsstring>
+        <name>$constraints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/forms/TagField.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/forms/TagField.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d66/class_modular_1_1_forms_1_1_tag_field_1aecb273becbedcf46aedb2d32075ae564" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setConstraints</definition>
+        <argsstring>(array $constraints)</argsstring>
+        <name>setConstraints</name>
+        <param>
+          <type>array</type>
+          <declname>$constraints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/forms/TagField.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/forms/TagField.php" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d66/class_modular_1_1_forms_1_1_tag_field_1a3e47ad683c9cd105a58021b824e27c57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>saveInto</definition>
+        <argsstring>(DataObjectInterface $record)</argsstring>
+        <name>saveInto</name>
+        <param>
+          <type>DataObjectInterface</type>
+          <declname>$record</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/forms/TagField.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/forms/TagField.php" bodystart="13" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1456">
+        <label>TagField</label>
+        <link refid="d9/d66/class_modular_1_1_forms_1_1_tag_field"/>
+        <childnode refid="1456" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1457">
+        <label>TagField</label>
+        <link refid="d9/d66/class_modular_1_1_forms_1_1_tag_field"/>
+        <childnode refid="1457" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/forms/TagField.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/forms/TagField.php" bodystart="7" bodyend="21"/>
+    <listofallmembers>
+      <member refid="d9/d66/class_modular_1_1_forms_1_1_tag_field_1a9f4fd8838aaef9b57d3fac0dbf9a7929" prot="private" virt="non-virtual"><scope>Modular::Forms::TagField</scope><name>$constraints</name></member>
+      <member refid="d9/d66/class_modular_1_1_forms_1_1_tag_field_1a3e47ad683c9cd105a58021b824e27c57" prot="public" virt="non-virtual"><scope>Modular::Forms::TagField</scope><name>saveInto</name></member>
+      <member refid="d9/d66/class_modular_1_1_forms_1_1_tag_field_1aecb273becbedcf46aedb2d32075ae564" prot="public" virt="non-virtual"><scope>Modular::Forms::TagField</scope><name>setConstraints</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

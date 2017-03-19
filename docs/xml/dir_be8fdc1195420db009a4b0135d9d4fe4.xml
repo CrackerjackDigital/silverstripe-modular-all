@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_be8fdc1195420db009a4b0135d9d4fe4" kind="dir">
+    <compoundname>sequencers</compoundname>
+    <innerdir refid="dir_13d5155efc7623cd27ecccb67da346f0">filters</innerdir>
+    <innerdir refid="dir_ffd647313dec2a67f11d12b5fc5d0cba">items</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/dc1/_filter_constraints_8php" kind="file">
+    <compoundname>FilterConstraints.php</compoundname>
+    <innerclass refid="d3/dc4/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filter_constraints" prot="public">Modular::GridList::Interfaces::FilterConstraints</innerclass>
+    <innernamespace refid="d9/db4/namespace_modular_1_1_grid_list_1_1_interfaces">Modular::GridList::Interfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="d9/db4/namespace_modular_1_1_grid_list_1_1_interfaces" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridList\Interfaces;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="d3/dc4/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filter_constraints" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="d3/dc4/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filter_constraints" kindref="compound">FilterConstraints</ref><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d3/dc4/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filter_constraints_1a8993385cf954e4e36f2ff0906e138561" kindref="member">constrainGridListFilters</ref>(&amp;$filters,<sp/>&amp;$parameters<sp/>=<sp/>[]);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/FilterConstraints.php"/>
+  </compounddef>
+</doxygen>

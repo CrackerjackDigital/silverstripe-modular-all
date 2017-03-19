@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="de/dbd/class_modular_1_1_fields_1_1_download">
+<title>Modular::Fields::Download class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelationshipName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelatedClassName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const DefaultUploadFolderName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allowed_download_files</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $tab_name</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $upload_folder</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="de/dbd/class_modular_1_1_fields_1_1_download_1a62fc229c5606d417854b621e9719cad9">Files</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="de/dbd/class_modular_1_1_fields_1_1_download_1af8b274223f17ca701258a2087851ff21">allowed_files</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="de/dbd/class_modular_1_1_fields_1_1_download_1a62fc229c5606d417854b621e9719cad9">
+                <title>Files ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="de/dbd/class_modular_1_1_fields_1_1_download_1af8b274223f17ca701258a2087851ff21">
+                <title>static allowed_files ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

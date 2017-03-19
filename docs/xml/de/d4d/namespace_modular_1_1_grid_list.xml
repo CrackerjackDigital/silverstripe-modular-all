@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/d4d/namespace_modular_1_1_grid_list" kind="namespace">
+    <compoundname>Modular::GridList</compoundname>
+    <innerclass refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints" prot="public">Modular::GridList::Constraints</innerclass>
+    <innerclass refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list" prot="public">Modular::GridList::GridList</innerclass>
+    <innerclass refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item" prot="public">Modular::GridList::GridListItem</innerclass>
+    <innerclass refid="da/d3f/class_modular_1_1_grid_list_1_1_service" prot="public">Modular::GridList::Service</innerclass>
+    <innernamespace refid="dd/dc1/namespace_modular_1_1_grid_list_1_1_constraints">Modular::GridList::Constraints</innernamespace>
+    <innernamespace refid="d0/d5f/namespace_modular_1_1_grid_list_1_1_controllers">Modular::GridList::Controllers</innernamespace>
+    <innernamespace refid="d8/d0e/namespace_modular_1_1_grid_list_1_1_fields">Modular::GridList::Fields</innernamespace>
+    <innernamespace refid="d9/db4/namespace_modular_1_1_grid_list_1_1_interfaces">Modular::GridList::Interfaces</innernamespace>
+    <innernamespace refid="dd/da3/namespace_modular_1_1_grid_list_1_1_layout">Modular::GridList::Layout</innernamespace>
+    <innernamespace refid="df/d32/namespace_modular_1_1_grid_list_1_1_providers">Modular::GridList::Providers</innernamespace>
+    <innernamespace refid="df/d9a/namespace_modular_1_1_grid_list_1_1_sequencers">Modular::GridList::Sequencers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

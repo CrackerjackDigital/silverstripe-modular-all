@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/db7/class_modular_1_1_search_1_1_service" kind="class" prot="public">
+    <compoundname>Modular::Search::Service</compoundname>
+    <basecompoundref refid="da/d3f/class_modular_1_1_grid_list_1_1_service" prot="public" virt="non-virtual">Service</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="da/db7/class_modular_1_1_search_1_1_service_1aec22c9c641148cbdb6967ba1d53f4fb8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FiltersClassName</definition>
+        <argsstring></argsstring>
+        <name>FiltersClassName</name>
+        <initializer>= &apos;<ref refid="d6/d37/class_modular_1_1_search_1_1_constraints" kindref="compound">Modular\Search\Constraints</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/search/Service.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/Service.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1380">
+        <label>Service</label>
+        <link refid="da/db7/class_modular_1_1_search_1_1_service"/>
+        <childnode refid="1380" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1381">
+        <label>Service</label>
+        <link refid="da/db7/class_modular_1_1_search_1_1_service"/>
+        <childnode refid="1381" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/search/Service.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/Service.php" bodystart="4" bodyend="7"/>
+    <listofallmembers>
+      <member refid="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Search::Service</scope><name>__invoke</name></member>
+      <member refid="da/d3f/class_modular_1_1_grid_list_1_1_service_1aa23c61466abddd87569d6a1d7db36b8f" prot="public" virt="non-virtual"><scope>Modular::Search::Service</scope><name>constraint</name></member>
+      <member refid="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service_1a26d97963c5c6b5a6005fea26fbefd45d" prot="public" virt="non-virtual" ambiguityscope="Modular::GridList::Interfaces::Service::Service::"><scope>Modular::Search::Service</scope><name>constraint</name></member>
+      <member refid="da/d3f/class_modular_1_1_grid_list_1_1_service_1ad9c08c1428473eb8e79b93d40b1ffdef" prot="public" virt="non-virtual"><scope>Modular::Search::Service</scope><name>filterLink</name></member>
+      <member refid="da/d3f/class_modular_1_1_grid_list_1_1_service_1ae086fd4b125c3af434b5bbac0cfa1f98" prot="public" virt="non-virtual"><scope>Modular::Search::Service</scope><name>Filters</name></member>
+      <member refid="da/db7/class_modular_1_1_search_1_1_service_1aec22c9c641148cbdb6967ba1d53f4fb8" prot="public" virt="non-virtual"><scope>Modular::Search::Service</scope><name>FiltersClassName</name></member>
+      <member refid="da/d3f/class_modular_1_1_grid_list_1_1_service_1a63aed2ed30505623343b3e7df7fa6c16" prot="public" virt="non-virtual"><scope>Modular::Search::Service</scope><name>limit</name></member>
+      <member refid="da/d3f/class_modular_1_1_grid_list_1_1_service_1a0da531fc30bdf883d86d4219c3c54e07" prot="public" virt="non-virtual"><scope>Modular::Search::Service</scope><name>mode</name></member>
+      <member refid="da/d3f/class_modular_1_1_grid_list_1_1_service_1a4bd31bcedb7b4943aac2da78d0d84afe" prot="public" virt="non-virtual"><scope>Modular::Search::Service</scope><name>sort</name></member>
+      <member refid="da/d3f/class_modular_1_1_grid_list_1_1_service_1af8fa59992209e36dccb3eefb0f75531f" prot="public" virt="non-virtual"><scope>Modular::Search::Service</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

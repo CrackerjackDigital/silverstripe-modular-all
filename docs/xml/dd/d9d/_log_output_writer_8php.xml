@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/d9d/_log_output_writer_8php" kind="file">
+    <compoundname>LogOutputWriter.php</compoundname>
+    <innerclass refid="dd/d3c/class_log_output_writer" prot="public">LogOutputWriter</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="dd/d3c/class_log_output_writer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d3c/class_log_output_writer" kindref="compound">LogOutputWriter</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Zend_Log_Writer_Abstract<sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>$messageType;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="dd/d3c/class_log_output_writer_1a7a50b57ca538643ea51309fd8263cc5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="dd/d3c/class_log_output_writer_1a7a50b57ca538643ea51309fd8263cc5b" kindref="member">__construct</ref>($messageType)<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;messageType<sp/>=<sp/>$messageType;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="dd/d3c/class_log_output_writer_1a2dd4310985be9135975edb3a419cae43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="dd/d3c/class_log_output_writer_1a2dd4310985be9135975edb3a419cae43" kindref="member">_write</ref>($event)<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($event[</highlight><highlight class="stringliteral">&apos;priority&apos;</highlight><highlight class="normal">]<sp/>&lt;=<sp/>$this-&gt;messageType)<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/>@$event[</highlight><highlight class="stringliteral">&apos;message&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;errstr&apos;</highlight><highlight class="normal">]<sp/>.<sp/>(Director::is_cli()<sp/>?<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal"><sp/>:<sp/></highlight><highlight class="stringliteral">&apos;&lt;br/&gt;&apos;</highlight><highlight class="normal">)<sp/>.<sp/>PHP_EOL;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="dd/d3c/class_log_output_writer_1a59055480c522814955ef7d73c494ddbd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="dd/d3c/class_log_output_writer_1a59055480c522814955ef7d73c494ddbd" kindref="member">factory</ref>($messageType<sp/>=<sp/>3)<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">($messageType);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php"/>
+  </compounddef>
+</doxygen>

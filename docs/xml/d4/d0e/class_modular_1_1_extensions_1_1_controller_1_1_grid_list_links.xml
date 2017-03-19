@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/d0e/class_modular_1_1_extensions_1_1_controller_1_1_grid_list_links" kind="class" prot="public">
+    <compoundname>Modular::Extensions::Controller::GridListLinks</compoundname>
+    <basecompoundref refid="d0/d69/class_modular_1_1_content_controller_extension" prot="public" virt="non-virtual">ContentControllerExtension</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d0e/class_modular_1_1_extensions_1_1_controller_1_1_grid_list_links_1a989d70e66810bf98da69cf5b897ac394" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GridListActionLink</definition>
+        <argsstring>($action)</argsstring>
+        <name>GridListActionLink</name>
+        <param>
+          <declname>$action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the link for a valid gridlist action, e.g. clear, setmode etc</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridListLinks.php" line="70" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridListLinks.php" bodystart="70" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Provides links to a <ref refid="de/d4d/namespace_modular_1_1_grid_list" kindref="compound">GridList</ref> either for filtering or as an action such as &apos;clear&apos;. This is removed from <ref refid="de/d4d/namespace_modular_1_1_grid_list" kindref="compound">GridList</ref> as it may go on pages which link to the gridlist but do not themselves have a <ref refid="de/d4d/namespace_modular_1_1_grid_list" kindref="compound">GridList</ref>. The <ref refid="de/d4d/namespace_modular_1_1_grid_list" kindref="compound">GridList</ref> maintains state so cannot be added to all pages which need these links.</para><para><ref refid="d4/d0e/class_modular_1_1_extensions_1_1_controller_1_1_grid_list_links" kindref="compound">GridListLinks</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="636">
+        <label>ContentControllerExtension</label>
+        <link refid="d0/d69/class_modular_1_1_content_controller_extension"/>
+        <childnode refid="637" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="637">
+        <label>Extension</label>
+      </node>
+      <node id="635">
+        <label>GridListLinks</label>
+        <link refid="d4/d0e/class_modular_1_1_extensions_1_1_controller_1_1_grid_list_links"/>
+        <childnode refid="636" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="639">
+        <label>ContentControllerExtension</label>
+        <link refid="d0/d69/class_modular_1_1_content_controller_extension"/>
+        <childnode refid="640" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="640">
+        <label>Extension</label>
+      </node>
+      <node id="638">
+        <label>GridListLinks</label>
+        <link refid="d4/d0e/class_modular_1_1_extensions_1_1_controller_1_1_grid_list_links"/>
+        <childnode refid="639" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridListLinks.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridListLinks.php" bodystart="16" bodyend="78"/>
+    <listofallmembers>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Extensions::Controller::GridListLinks</scope><name>__invoke</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a9a28a026bf21eb0b9f8582aa613d0199" prot="public" virt="non-virtual"><scope>Modular::Extensions::Controller::GridListLinks</scope><name>ActionLink</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a52b4d6b381ac4f287064fe1c9b195efe" prot="public" virt="non-virtual"><scope>Modular::Extensions::Controller::GridListLinks</scope><name>ApplicationServiceClassName</name></member>
+      <member refid="d4/d0e/class_modular_1_1_extensions_1_1_controller_1_1_grid_list_links_1a989d70e66810bf98da69cf5b897ac394" prot="public" virt="non-virtual"><scope>Modular::Extensions::Controller::GridListLinks</scope><name>GridListActionLink</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a85ff8d296a4025790e312c4f2b6d8dae" prot="public" virt="non-virtual"><scope>Modular::Extensions::Controller::GridListLinks</scope><name>onAfterInit</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1abe152804322366290014448cf1ccb117" prot="public" virt="non-virtual"><scope>Modular::Extensions::Controller::GridListLinks</scope><name>onBeforeInit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

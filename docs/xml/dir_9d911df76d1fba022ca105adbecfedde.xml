@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_9d911df76d1fba022ca105adbecfedde" kind="dir">
+    <compoundname>interfaces</compoundname>
+    <innerfile refid="de/d2a/_bool_8php">Bool.php</innerfile>
+    <innerfile refid="da/ddd/_date_8php">Date.php</innerfile>
+    <innerfile refid="d2/d24/_date_time_8php">DateTime.php</innerfile>
+    <innerfile refid="d0/da2/_decimal_8php">Decimal.php</innerfile>
+    <innerfile refid="d7/d47/_epoch_8php">Epoch.php</innerfile>
+    <innerfile refid="d4/d9b/_file_8php">File.php</innerfile>
+    <innerfile refid="d0/d19/_float_8php">Float.php</innerfile>
+    <innerfile refid="dc/d1a/_int_8php">Int.php</innerfile>
+    <innerfile refid="de/d50/_numeric_8php">Numeric.php</innerfile>
+    <innerfile refid="d6/d01/_string_8php">String.php</innerfile>
+    <innerfile refid="dc/d5d/_time_8php">Time.php</innerfile>
+    <innerfile refid="db/d75/interfaces_2_type_8php">interfaces/Type.php</innerfile>
+    <innerfile refid="d5/d48/_u_r_l_8php">URL.php</innerfile>
+    <innerfile refid="d2/d7b/_u_r_n_8php">URN.php</innerfile>
+    <innerfile refid="d2/dfd/_value_8php">Value.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/dbe/class_modular_1_1_type" kind="class" prot="public">
+    <compoundname>Modular::Type</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DataObject</basecompoundref>
+    <basecompoundref refid="dd/dc2/interface_modular_1_1_types_1_1_type" prot="public" virt="non-virtual">Type</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/dbe/class_modular_1_1_type_1a9aac7e1475efe923de4e19cc2511f092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__invoke</definition>
+        <argsstring>()</argsstring>
+        <name>__invoke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoking a type returns itself. <simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/Type.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/Type.php" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbe/class_modular_1_1_type_1af9aa034ad033005279bd790155e683fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>onBeforeWrite</definition>
+        <argsstring>()</argsstring>
+        <name>onBeforeWrite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/Type.php" line="37" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/Type.php" bodystart="37" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d1/dbe/class_modular_1_1_type_1a74fc8d457a9fe7f9dd8c21afc3b5910d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static type</definition>
+        <argsstring>()</argsstring>
+        <name>type</name>
+        <reimplements refid="dd/dc2/interface_modular_1_1_types_1_1_type_1a74fc8d457a9fe7f9dd8c21afc3b5910d">type</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string the type name, generally from static::Type of implemented interface </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/Type.php" line="21" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/Type.php" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbe/class_modular_1_1_type_1a239b1c70258014a86569483c2d009de6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/Type.php" line="25" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/Type.php" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbe/class_modular_1_1_type_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static class_name</definition>
+        <argsstring>()</argsstring>
+        <name>class_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Patch until php 5.6 static::class is widely available on servers <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/Type.php" line="33" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/Type.php" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbe/class_modular_1_1_type_1ac344a161b9bb2eaaecc689b2e5f62c2b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static get_by_code</definition>
+        <argsstring>($code)</argsstring>
+        <name>get_by_code</name>
+        <param>
+          <declname>$code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/Type.php" line="42" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/Type.php" bodystart="42" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="125">
+        <label>DataObject</label>
+      </node>
+      <node id="124">
+        <label>Type</label>
+        <link refid="d1/dbe/class_modular_1_1_type"/>
+        <childnode refid="125" relation="public-inheritance">
+        </childnode>
+        <childnode refid="124" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="127">
+        <label>DataObject</label>
+      </node>
+      <node id="126">
+        <label>Type</label>
+        <link refid="d1/dbe/class_modular_1_1_type"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular-types/code/Type.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/Type.php" bodystart="9" bodyend="45"/>
+    <listofallmembers>
+      <member refid="d1/dbe/class_modular_1_1_type_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Type</scope><name>__invoke</name></member>
+      <member refid="d1/dbe/class_modular_1_1_type_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Type</scope><name>class_name</name></member>
+      <member refid="d1/dbe/class_modular_1_1_type_1a239b1c70258014a86569483c2d009de6" prot="public" virt="non-virtual"><scope>Modular::Type</scope><name>create</name></member>
+      <member refid="d1/dbe/class_modular_1_1_type_1ac344a161b9bb2eaaecc689b2e5f62c2b" prot="public" virt="non-virtual"><scope>Modular::Type</scope><name>get_by_code</name></member>
+      <member refid="d1/dbe/class_modular_1_1_type_1af9aa034ad033005279bd790155e683fa" prot="public" virt="non-virtual"><scope>Modular::Type</scope><name>onBeforeWrite</name></member>
+      <member refid="dd/dc2/interface_modular_1_1_types_1_1_type_1a8a99c53978895ea5726462ffc1bb44eb" prot="public" virt="non-virtual"><scope>Modular::Type</scope><name>Type</name></member>
+      <member refid="d1/dbe/class_modular_1_1_type_1a74fc8d457a9fe7f9dd8c21afc3b5910d" prot="public" virt="non-virtual"><scope>Modular::Type</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

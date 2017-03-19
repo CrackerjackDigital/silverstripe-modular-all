@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/dec/class_modular_1_1_behaviours_1_1_previewable" kind="class" prot="public">
+    <compoundname>Modular::Behaviours::Previewable</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/dec/class_modular_1_1_behaviours_1_1_previewable_1a9bf9dc156bf9f1d8941da3818fd13aad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>updateItemEditForm</definition>
+        <argsstring>(&amp;$form)</argsstring>
+        <name>updateItemEditForm</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$form</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\Form</parametertype>
+<parametername>$form</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/Previewable.php" line="22" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/Previewable.php" bodystart="22" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d8/dec/class_modular_1_1_behaviours_1_1_previewable_1a3ab7c9f158b1d8fc5c3d68f95223e5c7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>injectNavigatorAndPreview</definition>
+        <argsstring>(&amp;$form, &amp;$fields)</argsstring>
+        <name>injectNavigatorAndPreview</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$form</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\Form</parametertype>
+<parametername>$form</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>\FieldList</parametertype>
+<parametername>$fields</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/Previewable.php" line="33" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/Previewable.php" bodystart="33" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Adds preview pane to CMS for extended <ref refid="d0/da1/namespace_modular_1_1_models" kindref="compound">Models</ref>.</para><para>Standing on the shoulders of Jotham Reid here <ulink url="https://github.com/jotham/silverstripe-dataobject-preview">https://github.com/jotham/silverstripe-dataobject-preview</ulink> just tweaked to fit the <ref refid="df/df5/namespace_modular" kindref="compound">Modular</ref> code and data model. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1331">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1332" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1332">
+        <label>DataExtension</label>
+      </node>
+      <node id="1330">
+        <label>Previewable</label>
+        <link refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable"/>
+        <childnode refid="1331" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1334">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1335" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1335">
+        <label>DataExtension</label>
+      </node>
+      <node id="1333">
+        <label>Previewable</label>
+        <link refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable"/>
+        <childnode refid="1334" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/Previewable.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/Previewable.php" bodystart="17" bodyend="44"/>
+    <listofallmembers>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Behaviours::Previewable</scope><name>class_name</name></member>
+      <member refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable_1a3ab7c9f158b1d8fc5c3d68f95223e5c7" prot="private" virt="non-virtual"><scope>Modular::Behaviours::Previewable</scope><name>injectNavigatorAndPreview</name></member>
+      <member refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable_1a9bf9dc156bf9f1d8941da3818fd13aad" prot="public" virt="non-virtual"><scope>Modular::Behaviours::Previewable</scope><name>updateItemEditForm</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Behaviours::Previewable</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

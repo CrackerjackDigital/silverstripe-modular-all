@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many">
+<title>Modular::Relationships::HasManyMany class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ShowAsTagsField</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const GridFieldConfigName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ae6098bb0243f4ce2f8680b3723783300">cmsFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1a7d48a24c6d09461afccc09692e2c6bbb">related</link> (
+ $relationshipName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1a3b97a85d27fe80e7118a7e8a70a9acb0">relatedIDs</link> (
+ $relationshipName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ad3eec60b4f217a0c87baf84faf65f7f0">fieldDecorationTokens</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ab9ae9ef07f0ef2387a06b7555652145a">extraStatics</link> (
+ $class,  $extension)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ac9c3b740ba1c9a6a05e6b2b99434a899">implementors</link> (
+ $includeCalledClass)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ac3cb86a17d4834efccf7bbad177f6fca">tagFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ae6098bb0243f4ce2f8680b3723783300">
+                <title>cmsFields ()</title> <emphasis></emphasis>
+                
+<para>Customise if shows as a <link linkend="d3/d7f/namespace_modular_1_1_grid_field">GridField</link> or a TagField depending on config.show_as</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1a7d48a24c6d09461afccc09692e2c6bbb">
+                <title>related ($relationshipName= &apos;&apos;)</title> <emphasis></emphasis>
+                
+<para>Return all related items. Optionally (for convenience more than anything) provide a relationship name to dereference otherwise this classes late static binding <link linkend="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a50807616ae6f8a7b80f444cdb186f0e5">relationship_name()</link> will be used.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$relationshipName</entry>
+                                <entry>
+<para>if supplied use this relationship instead of static relationship_name </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>| </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1a3b97a85d27fe80e7118a7e8a70a9acb0">
+                <title>relatedIDs ($relationshipName= &apos;&apos;)</title> <emphasis></emphasis>
+                
+<para>Return an array of IDs from the other end of this extendsions Relationship or the supplied relationship name.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$relationshipName</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ad3eec60b4f217a0c87baf84faf65f7f0">
+                <title>fieldDecorationTokens ()</title> <emphasis></emphasis>
+                
+<para>Add a csv list of implementors of this class as token &apos;implementors&apos; <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ab9ae9ef07f0ef2387a06b7555652145a">
+                <title>extraStatics ($class=null, $extension=null)</title> <emphasis></emphasis>
+                
+<para>Adds many_many relationships based off relationship_name and related_class_name, and many_many_extraFields such as &apos;Sort&apos;.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$class</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$extension</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ac9c3b740ba1c9a6a05e6b2b99434a899">
+                <title>static implementors ($includeCalledClass=false)</title> <emphasis></emphasis>
+                
+<para>Return a map of derived implementations and their singular names.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$includeCalledClass</entry>
+                                <entry>
+<para>if true then the class being called will also be in the returned map </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array [ className =&gt; relationshipName ] </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ac3cb86a17d4834efccf7bbad177f6fca">
+                <title>tagFields ()</title> <emphasis></emphasis>
+                
+<para>Returns a field array using a tag field which can be used in derived classes instead of a <link linkend="d3/d7f/namespace_modular_1_1_grid_field">GridField</link> which is the default returned by <link linkend="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ae6098bb0243f4ce2f8680b3723783300">cmsFields()</link>.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

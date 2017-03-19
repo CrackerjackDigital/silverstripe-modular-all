@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d0/d5e/class_modular_1_1_blocks_1_1_file" kind="class" prot="public">
+    <compoundname>Modular::Blocks::File</compoundname>
+    <basecompoundref refid="d2/df7/class_modular_1_1_blocks_1_1_block" prot="public" virt="non-virtual">Block</basecompoundref>
+    <basecompoundref refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links" prot="public" virt="non-virtual">HasLinks</basecompoundref>
+    <derivedcompoundref refid="df/d9d/class_modular_1_1_blocks_1_1_audio" prot="public" virt="non-virtual">Audio</derivedcompoundref>
+    <derivedcompoundref refid="dc/d75/class_modular_1_1_blocks_1_1_download" prot="public" virt="non-virtual">Download</derivedcompoundref>
+    <derivedcompoundref refid="d2/d46/class_modular_1_1_blocks_1_1_source_file" prot="public" virt="non-virtual">SourceFile</derivedcompoundref>
+    <derivedcompoundref refid="d1/d70/class_modular_1_1_blocks_1_1_video" prot="public" virt="non-virtual">Video</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/d5e/class_modular_1_1_blocks_1_1_file_1a522cd5b3b15c4a885005cd0919628158" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RelationshipName</definition>
+        <argsstring></argsstring>
+        <name>RelationshipName</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/File.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/File.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d0/d5e/class_modular_1_1_blocks_1_1_file_1ada188443f0609ca3d5abbfc68fd8ea60" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$upload_folder</definition>
+        <argsstring></argsstring>
+        <name>$upload_folder</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/File.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/File.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d5e/class_modular_1_1_blocks_1_1_file_1a23e5e57745a9266738fc0ce5877c8221" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$allowed_files</definition>
+        <argsstring></argsstring>
+        <name>$allowed_files</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/File.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/File.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d0/d5e/class_modular_1_1_blocks_1_1_file_1ae9e837ae849cd62b817f53f4c8c85650" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static upload_folder</definition>
+        <argsstring>()</argsstring>
+        <name>upload_folder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/File.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/File.php" bodystart="14" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d5e/class_modular_1_1_blocks_1_1_file_1ab262dfcd3c6c7ff016635d85a972aac2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getUploadFolder</definition>
+        <argsstring>()</argsstring>
+        <name>getUploadFolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/File.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/File.php" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d5e/class_modular_1_1_blocks_1_1_file_1a42ee9ec85fd1465adb4607121c77c98d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>allowedFileTypes</definition>
+        <argsstring>($configVarName= &apos;allowed_files&apos;)</argsstring>
+        <name>allowedFileTypes</name>
+        <param>
+          <declname>$configVarName</declname>
+          <defval>&apos;allowed_files&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/File.php" line="22" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/File.php" bodystart="22" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="451">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="452" relation="public-inheritance">
+        </childnode>
+        <childnode refid="454" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="452">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="453" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="458">
+        <label>SourceFile</label>
+        <link refid="d2/d46/class_modular_1_1_blocks_1_1_source_file"/>
+        <childnode refid="450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="459">
+        <label>Video</label>
+        <link refid="d1/d70/class_modular_1_1_blocks_1_1_video"/>
+        <childnode refid="450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="454">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="453">
+        <label>DataObject</label>
+      </node>
+      <node id="450">
+        <label>File</label>
+        <link refid="d0/d5e/class_modular_1_1_blocks_1_1_file"/>
+        <childnode refid="451" relation="public-inheritance">
+        </childnode>
+        <childnode refid="455" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="455">
+        <label>HasLinks</label>
+        <link refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links"/>
+      </node>
+      <node id="457">
+        <label>Download</label>
+        <link refid="dc/d75/class_modular_1_1_blocks_1_1_download"/>
+        <childnode refid="450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="456">
+        <label>Audio</label>
+        <link refid="df/d9d/class_modular_1_1_blocks_1_1_audio"/>
+        <childnode refid="450" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="461">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="462" relation="public-inheritance">
+        </childnode>
+        <childnode refid="464" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="462">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="463" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="464">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="463">
+        <label>DataObject</label>
+      </node>
+      <node id="460">
+        <label>File</label>
+        <link refid="d0/d5e/class_modular_1_1_blocks_1_1_file"/>
+        <childnode refid="461" relation="public-inheritance">
+        </childnode>
+        <childnode refid="465" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="465">
+        <label>HasLinks</label>
+        <link refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links"/>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/File.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/File.php" bodystart="6" bodyend="47"/>
+    <listofallmembers>
+      <member refid="d0/d5e/class_modular_1_1_blocks_1_1_file_1a23e5e57745a9266738fc0ce5877c8221" prot="private" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>$allowed_files</name></member>
+      <member refid="d0/d5e/class_modular_1_1_blocks_1_1_file_1ada188443f0609ca3d5abbfc68fd8ea60" prot="private" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>$upload_folder</name></member>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>__invoke</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a3c1dc9072f2299e603adead7442dc292" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>addCustomFilterTag</name></member>
+      <member refid="d0/d5e/class_modular_1_1_blocks_1_1_file_1a42ee9ec85fd1465adb4607121c77c98d" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>allowedFileTypes</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a08f89083c824bbd479a24cfb1e7ce27c" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>block_class</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1ae0fb8218cf6d7cfc1030e51c4a45025d" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>BlockType</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a7e15a611df09446ea2342e5a544a218a" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>BlockZones</name></member>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>class_name</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a585a237c4434f0c97e0a93dd02d7e314" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>customFilterTags</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1afbdde13fe4d3c5da5bce82cd0758d00e" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>DisplayInContent</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0de6dd724bf06b0f08dbdeee9bd4c80d" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>DisplayInSidebar</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1af8ff16e3b7863d38779fcf1006b9e40a" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>forTemplate</name></member>
+      <member refid="d0/d5e/class_modular_1_1_blocks_1_1_file_1ab262dfcd3c6c7ff016635d85a972aac2" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>getUploadFolder</name></member>
+      <member refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links_1ac8524f93cac27b574abc42cc54774d41" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>LinkInfo</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a5c5e9e6d8cf0b8ce8db575ea6252c96a" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>LinkText</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a08282d6de720a402d9b2136ddb9531f2" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>LinkType</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1af30563a728019e2a175da6b4ef1ce4e6" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>PageClassName</name></member>
+      <member refid="d0/d5e/class_modular_1_1_blocks_1_1_file_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>RelationshipName</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0b54c9d3801b331b75487ef78d98c06b" prot="protected" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>template</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a166f874fbbbfadabb7055aa9f5bea328" prot="protected" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>templates</name></member>
+      <member refid="d0/d5e/class_modular_1_1_blocks_1_1_file_1ae9e837ae849cd62b817f53f4c8c85650" prot="public" virt="non-virtual"><scope>Modular::Blocks::File</scope><name>upload_folder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

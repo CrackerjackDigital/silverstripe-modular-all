@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d2/dfd/_link_type_8php" kind="file">
+    <compoundname>LinkType.php</compoundname>
+    <innerclass refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type" prot="public">Modular::Interfaces::LinkType</innerclass>
+    <innernamespace refid="d5/d56/namespace_modular_1_1_interfaces">Modular::Interfaces</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Interfaces;</highlight></codeline>
+<codeline lineno="8" refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type" refkind="compound"><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type" kindref="compound">LinkType</ref><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type_1a08282d6de720a402d9b2136ddb9531f2" kindref="member">LinkType</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type_1a5c5e9e6d8cf0b8ce8db575ea6252c96a" kindref="member">LinkText</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/LinkType.php"/>
+  </compounddef>
+</doxygen>

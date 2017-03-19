@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/df0/class_modular_1_1_string_field_extension" kind="class" prot="public">
+    <compoundname>Modular::StringFieldExtension</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Extension</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/df0/class_modular_1_1_string_field_extension_1a5d99fdd62b65592298fd269636572dbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Clean</definition>
+        <argsstring>()</argsstring>
+        <name>Clean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns extened fields value stripped of &apos;<linebreak/>
+&apos; and multiple newlines as well as via standard &apos;NoHTML&apos; output filter. <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/db/StringField.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/db/StringField.php" bodystart="17" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Since PHP 5.4 strip_tags doesn&apos;t strip XML style non-closing tags so need to handle it explicitly in content, especially from PDF to text which has loads of <linebreak/>
+&apos;s in.</para><para>CERAStringFieldExtension </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1421">
+        <label>Extension</label>
+      </node>
+      <node id="1420">
+        <label>StringFieldExtension</label>
+        <link refid="d4/df0/class_modular_1_1_string_field_extension"/>
+        <childnode refid="1421" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1423">
+        <label>Extension</label>
+      </node>
+      <node id="1422">
+        <label>StringFieldExtension</label>
+        <link refid="d4/df0/class_modular_1_1_string_field_extension"/>
+        <childnode refid="1423" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/db/StringField.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/db/StringField.php" bodystart="12" bodyend="26"/>
+    <listofallmembers>
+      <member refid="d4/df0/class_modular_1_1_string_field_extension_1a5d99fdd62b65592298fd269636572dbd" prot="public" virt="non-virtual"><scope>Modular::StringFieldExtension</scope><name>Clean</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

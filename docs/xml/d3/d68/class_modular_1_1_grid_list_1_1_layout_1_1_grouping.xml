@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping" kind="class" prot="public">
+    <compoundname>Modular::GridList::Layout::Grouping</compoundname>
+    <basecompoundref refid="da/d27/class_modular_1_1_fields_1_1_field" prot="public" virt="non-virtual">Field</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1af74d0ba94522656fd2c247bd544e2094" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SingleFieldName</definition>
+        <argsstring></argsstring>
+        <name>SingleFieldName</name>
+        <initializer>= &apos;<ref refid="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping" kindref="compound">Grouping</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Grouping.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Grouping.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1a6491a8c7fce5c91adf87287607c407a8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SingleFieldSchema</definition>
+        <argsstring></argsstring>
+        <name>SingleFieldSchema</name>
+        <initializer>= &apos;Varchar(32)&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Grouping.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Grouping.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1a011800c63ece4cbbfa77136a20607023" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$options</definition>
+        <argsstring></argsstring>
+        <name>$options</name>
+        <initializer>= [
+		# &apos;EventDate&apos; =&gt; &apos;Event Date&apos;
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Grouping.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Grouping.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1ac53f1acc8deba70adef1fdecd034fa8d" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$confine_to_modes</definition>
+        <argsstring></argsstring>
+        <name>$confine_to_modes</name>
+        <initializer>= [
+		# &apos;list&apos;,
+	    # &apos;grid&apos;
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Grouping.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Grouping.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1ae6098bb0243f4ce2f8680b3723783300" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cmsFields</definition>
+        <argsstring>()</argsstring>
+        <name>cmsFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Grouping.php" line="20" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Grouping.php" bodystart="20" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1a8ba2fb9cc66e7cbe7b1cd09948e6981e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>layoutGridListItems</definition>
+        <argsstring>(&amp;$items, $mode)</argsstring>
+        <name>layoutGridListItems</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$items</declname>
+        </param>
+        <param>
+          <declname>$mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If we are in list mode then group items by event date</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\ArrayList</parametertype>
+<parametertype>\DataList</parametertype>
+<parametername>$items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Grouping.php" line="36" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Grouping.php" bodystart="36" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="643">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="644" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="644">
+        <label>DataExtension</label>
+      </node>
+      <node id="642">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="643" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="641">
+        <label>Grouping</label>
+        <link refid="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping"/>
+        <childnode refid="642" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="647">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="648" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="648">
+        <label>DataExtension</label>
+      </node>
+      <node id="646">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="647" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="645">
+        <label>Grouping</label>
+        <link refid="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping"/>
+        <childnode refid="646" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Grouping.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Grouping.php" bodystart="6" bodyend="44"/>
+    <listofallmembers>
+      <member refid="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1ac53f1acc8deba70adef1fdecd034fa8d" prot="private" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>$confine_to_modes</name></member>
+      <member refid="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1a011800c63ece4cbbfa77136a20607023" prot="private" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>$options</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>addHTMLAttributes</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>class_name</name></member>
+      <member refid="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1ae6098bb0243f4ce2f8680b3723783300" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>cmsFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>cmsTab</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>configureTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>customFieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>DefaultTabName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>extendedFieldNames</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>extraStatics</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>fieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>labelsForRelatedClass</name></member>
+      <member refid="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1a8ba2fb9cc66e7cbe7b1cd09948e6981e" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>layoutGridListItems</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>relationship_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>RelationshipName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>setFieldDecorations</name></member>
+      <member refid="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>SingleFieldName</name></member>
+      <member refid="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>SingleFieldSchema</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>singleFieldValue</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>updateSummaryFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::Grouping</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

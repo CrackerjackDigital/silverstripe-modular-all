@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d3/d15/class_modular_1_1_fields_1_1_image">
+<title>Modular::Fields::Image class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelationshipName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelatedClassName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $base_upload_folder</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allowed_files</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $can_attach_existing</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d15/class_modular_1_1_fields_1_1_image_1a788148fc60b7fc6649031535178cfb30">Images</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d15/class_modular_1_1_fields_1_1_image_1a66d0d6da3b89580352c28d37b57df5bb">Image</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d3/d15/class_modular_1_1_fields_1_1_image_1a788148fc60b7fc6649031535178cfb30">
+                <title>Images ()</title> <emphasis></emphasis>
+                
+<para>Return a list with only item being the single related image.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d3/d15/class_modular_1_1_fields_1_1_image_1a66d0d6da3b89580352c28d37b57df5bb">
+                <title>Image ()</title> <emphasis></emphasis>
+                
+<para>Return the single related image, shouldn&apos;t really get here as the extended model&apos;s field accessor should be called first.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>Image|null </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="df/d9a/namespace_modular_1_1_grid_list_1_1_sequencers">
+<title>Modular::GridList::Sequencers</title>
+        <simplesect>
+            <title> Namespaces </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="df/d9e/namespace_modular_1_1_grid_list_1_1_sequencers_1_1_filters">Modular::GridList::Sequencers::Filters</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d8/dd3/namespace_modular_1_1_grid_list_1_1_sequencers_1_1_items">Modular::GridList::Sequencers::Items</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+</section>

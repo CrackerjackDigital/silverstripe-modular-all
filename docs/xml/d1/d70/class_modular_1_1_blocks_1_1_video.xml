@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/d70/class_modular_1_1_blocks_1_1_video" kind="class" prot="public">
+    <compoundname>Modular::Blocks::Video</compoundname>
+    <basecompoundref refid="d0/d5e/class_modular_1_1_blocks_1_1_file" prot="public" virt="non-virtual">File</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/d70/class_modular_1_1_blocks_1_1_video_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DefaultUploadFolderName</definition>
+        <argsstring></argsstring>
+        <name>DefaultUploadFolderName</name>
+        <initializer>= &apos;video&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d1/d70/class_modular_1_1_blocks_1_1_video_1a23e5e57745a9266738fc0ce5877c8221" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$allowed_files</definition>
+        <argsstring></argsstring>
+        <name>$allowed_files</name>
+        <initializer>= &apos;mov&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d70/class_modular_1_1_blocks_1_1_video_1ada188443f0609ca3d5abbfc68fd8ea60" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$upload_folder</definition>
+        <argsstring></argsstring>
+        <name>$upload_folder</name>
+        <initializer>= self::DefaultUploadFolderName</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" line="20" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d70/class_modular_1_1_blocks_1_1_video_1abedc2bd1c420c0cfe6bf188fe403b7f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlayerLink</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Link which player should use (e.g. in iframe src attribute). <simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" line="26" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" bodystart="26" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d70/class_modular_1_1_blocks_1_1_video_1a08282d6de720a402d9b2136ddb9531f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LinkType</definition>
+        <argsstring>()</argsstring>
+        <name>LinkType</name>
+        <reimplements refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type_1a08282d6de720a402d9b2136ddb9531f2">LinkType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a general link type such as &apos;<ref refid="dc/d75/class_modular_1_1_blocks_1_1_download" kindref="compound">Download</ref>&apos;, &apos;Page&apos; or &apos;<ref refid="d1/d70/class_modular_1_1_blocks_1_1_video" kindref="compound">Video</ref>&apos; in mixed case, can be casified in css. <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" line="36" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d70/class_modular_1_1_blocks_1_1_video_1a5c5e9e6d8cf0b8ce8db575ea6252c96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LinkText</definition>
+        <argsstring>()</argsstring>
+        <name>LinkText</name>
+        <reimplements refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type_1a5c5e9e6d8cf0b8ce8db575ea6252c96a">LinkText</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return text to show in a link to this block (or more likely a link this block contains, such as a <ref refid="d0/d5e/class_modular_1_1_blocks_1_1_file" kindref="compound">File</ref> via the HasLinks interface).</para><para>Gets different text either &apos;ExternalLinkText&apos; or &apos;InternalLinkText&apos; or &apos;LinkText&apos; if they are not set.</para><para><simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" line="47" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d70/class_modular_1_1_blocks_1_1_video_1a031f653089587762702379e33c2fad3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Videos</definition>
+        <argsstring>()</argsstring>
+        <name>Videos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a list of video&apos;s with the one associated video as the first item.</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" line="58" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d70/class_modular_1_1_blocks_1_1_video_1ab23c6ae23507736df414673c6018a4b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>IsVimeo</definition>
+        <argsstring>()</argsstring>
+        <name>IsVimeo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" line="62" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d70/class_modular_1_1_blocks_1_1_video_1afd24dee0107fc4b70183988940b71c1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>IsYouTube</definition>
+        <argsstring>()</argsstring>
+        <name>IsYouTube</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" line="68" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" bodystart="68" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>VideoBlock</para><para><ref refid="d0/d5e/class_modular_1_1_blocks_1_1_file" kindref="compound">File</ref> <ref refid="d1/d70/class_modular_1_1_blocks_1_1_video" kindref="compound">Video</ref> provided by HasVideoField  bool IsExternalLink provided by InternalOrExternalLink  bool IsInternalLink provided by InternalOrExternalLink </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1568">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="1569" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1571" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1569">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="1570" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1566">
+        <label>Video</label>
+        <link refid="d1/d70/class_modular_1_1_blocks_1_1_video"/>
+        <childnode refid="1567" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1571">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="1570">
+        <label>DataObject</label>
+      </node>
+      <node id="1567">
+        <label>File</label>
+        <link refid="d0/d5e/class_modular_1_1_blocks_1_1_file"/>
+        <childnode refid="1568" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1572" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1572">
+        <label>HasLinks</label>
+        <link refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1575">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="1576" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1578" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1576">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="1577" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1573">
+        <label>Video</label>
+        <link refid="d1/d70/class_modular_1_1_blocks_1_1_video"/>
+        <childnode refid="1574" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1578">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="1577">
+        <label>DataObject</label>
+      </node>
+      <node id="1574">
+        <label>File</label>
+        <link refid="d0/d5e/class_modular_1_1_blocks_1_1_file"/>
+        <childnode refid="1575" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1579" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1579">
+        <label>HasLinks</label>
+        <link refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links"/>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Video.php" bodystart="15" bodyend="73"/>
+    <listofallmembers>
+      <member refid="d1/d70/class_modular_1_1_blocks_1_1_video_1a23e5e57745a9266738fc0ce5877c8221" prot="private" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>$allowed_files</name></member>
+      <member refid="d1/d70/class_modular_1_1_blocks_1_1_video_1ada188443f0609ca3d5abbfc68fd8ea60" prot="private" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>$upload_folder</name></member>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>__invoke</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a3c1dc9072f2299e603adead7442dc292" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>addCustomFilterTag</name></member>
+      <member refid="d0/d5e/class_modular_1_1_blocks_1_1_file_1a42ee9ec85fd1465adb4607121c77c98d" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>allowedFileTypes</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a08f89083c824bbd479a24cfb1e7ce27c" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>block_class</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1ae0fb8218cf6d7cfc1030e51c4a45025d" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>BlockType</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a7e15a611df09446ea2342e5a544a218a" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>BlockZones</name></member>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>class_name</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a585a237c4434f0c97e0a93dd02d7e314" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>customFilterTags</name></member>
+      <member refid="d1/d70/class_modular_1_1_blocks_1_1_video_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1afbdde13fe4d3c5da5bce82cd0758d00e" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>DisplayInContent</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0de6dd724bf06b0f08dbdeee9bd4c80d" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>DisplayInSidebar</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1af8ff16e3b7863d38779fcf1006b9e40a" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>forTemplate</name></member>
+      <member refid="d0/d5e/class_modular_1_1_blocks_1_1_file_1ab262dfcd3c6c7ff016635d85a972aac2" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>getUploadFolder</name></member>
+      <member refid="d1/d70/class_modular_1_1_blocks_1_1_video_1ab23c6ae23507736df414673c6018a4b5" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>IsVimeo</name></member>
+      <member refid="d1/d70/class_modular_1_1_blocks_1_1_video_1afd24dee0107fc4b70183988940b71c1a" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>IsYouTube</name></member>
+      <member refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links_1ac8524f93cac27b574abc42cc54774d41" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>LinkInfo</name></member>
+      <member refid="d1/d70/class_modular_1_1_blocks_1_1_video_1a5c5e9e6d8cf0b8ce8db575ea6252c96a" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>LinkText</name></member>
+      <member refid="d1/d70/class_modular_1_1_blocks_1_1_video_1a08282d6de720a402d9b2136ddb9531f2" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>LinkType</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1af30563a728019e2a175da6b4ef1ce4e6" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>PageClassName</name></member>
+      <member refid="d1/d70/class_modular_1_1_blocks_1_1_video_1abedc2bd1c420c0cfe6bf188fe403b7f3" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>PlayerLink</name></member>
+      <member refid="d0/d5e/class_modular_1_1_blocks_1_1_file_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>RelationshipName</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0b54c9d3801b331b75487ef78d98c06b" prot="protected" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>template</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a166f874fbbbfadabb7055aa9f5bea328" prot="protected" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>templates</name></member>
+      <member refid="d0/d5e/class_modular_1_1_blocks_1_1_file_1ae9e837ae849cd62b817f53f4c8c85650" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>upload_folder</name></member>
+      <member refid="d1/d70/class_modular_1_1_blocks_1_1_video_1a031f653089587762702379e33c2fad3d" prot="public" virt="non-virtual"><scope>Modular::Blocks::Video</scope><name>Videos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

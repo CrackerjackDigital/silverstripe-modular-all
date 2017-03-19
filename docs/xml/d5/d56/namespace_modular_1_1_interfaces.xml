@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d5/d56/namespace_modular_1_1_interfaces" kind="namespace">
+    <compoundname>Modular::Interfaces</compoundname>
+    <innerclass refid="d0/dfe/interface_modular_1_1_interfaces_1_1_exception" prot="public">Modular::Interfaces::Exception</innerclass>
+    <innerclass refid="d1/d59/interface_modular_1_1_interfaces_1_1_has_children" prot="public">Modular::Interfaces::HasChildren</innerclass>
+    <innerclass refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links" prot="public">Modular::Interfaces::HasLinks</innerclass>
+    <innerclass refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery" prot="public">Modular::Interfaces::Imagery</innerclass>
+    <innerclass refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type" prot="public">Modular::Interfaces::LinkType</innerclass>
+    <innerclass refid="dd/d06/interface_modular_1_1_interfaces_1_1_logger" prot="public">Modular::Interfaces::Logger</innerclass>
+    <innerclass refid="d5/d83/interface_modular_1_1_interfaces_1_1_previewable" prot="public">Modular::Interfaces::Previewable</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Exception.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

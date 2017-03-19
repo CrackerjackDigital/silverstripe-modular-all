@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dc/ded/class_modular_1_1_search_1_1_file_extension" kind="class" prot="public">
+    <compoundname>Modular::Search::FileExtension</compoundname>
+    <basecompoundref refid="da/d26/class_modular_1_1_search_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dc/ded/class_modular_1_1_search_1_1_file_extension_1af70fd02cb4acdfaef667afce84b07011" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$fulltext_fields</definition>
+        <argsstring></argsstring>
+        <name>$fulltext_fields</name>
+        <initializer>= [
+		&apos;<ref refid="d2/dde/class_modular_1_1_fields_1_1_title" kindref="compound">Title</ref>&apos;   =&gt; &apos;PartialMatchFilter&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/search/FileExtension.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/FileExtension.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="485">
+        <label>ModelExtension</label>
+        <link refid="da/d26/class_modular_1_1_search_1_1_model_extension"/>
+        <childnode refid="485" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="484">
+        <label>FileExtension</label>
+        <link refid="dc/ded/class_modular_1_1_search_1_1_file_extension"/>
+        <childnode refid="485" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="487">
+        <label>ModelExtension</label>
+        <link refid="da/d26/class_modular_1_1_search_1_1_model_extension"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="486">
+        <label>FileExtension</label>
+        <link refid="dc/ded/class_modular_1_1_search_1_1_file_extension"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/search/FileExtension.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/FileExtension.php" bodystart="4" bodyend="9"/>
+    <listofallmembers>
+      <member refid="dc/ded/class_modular_1_1_search_1_1_file_extension_1af70fd02cb4acdfaef667afce84b07011" prot="private" virt="non-virtual"><scope>Modular::Search::FileExtension</scope><name>$fulltext_fields</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Search::FileExtension</scope><name>class_name</name></member>
+      <member refid="da/d26/class_modular_1_1_search_1_1_model_extension_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::Search::FileExtension</scope><name>extraStatics</name></member>
+      <member refid="da/d26/class_modular_1_1_search_1_1_model_extension_1a2ea01a603a9cac0569445c079f30c423" prot="public" virt="non-virtual"><scope>Modular::Search::FileExtension</scope><name>SearchIndex</name></member>
+      <member refid="da/d26/class_modular_1_1_search_1_1_model_extension_1aef1c042f9187038c14f05419ac887711" prot="public" virt="non-virtual"><scope>Modular::Search::FileExtension</scope><name>SearchTargets</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Search::FileExtension</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/df8/interface_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider" kind="interface" prot="public">
+    <compoundname>Modular::GridList::Interfaces::TempleDataProvider</compoundname>
+    <derivedcompoundref refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode" prot="public" virt="non-virtual">Mode</derivedcompoundref>
+    <derivedcompoundref refid="d4/d7f/class_modular_1_1_grid_list_1_1_layout_1_1_column_width" prot="public" virt="non-virtual">ColumnWidth</derivedcompoundref>
+    <derivedcompoundref refid="dd/df9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_filter" prot="public" virt="non-virtual">AllFilter</derivedcompoundref>
+    <derivedcompoundref refid="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter" prot="public" virt="non-virtual">DefaultFilter</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/df8/interface_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider_1af065d31e9ef42dd98ff872dc75da6c58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>provideGridListTemplateData</definition>
+        <argsstring>($existingData=[])</argsstring>
+        <name>provideGridListTemplateData</name>
+        <reimplementedby refid="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter_1aa7bd262c3160b8a6aa7549e6c82f9f2a">provideGridListTemplateData</reimplementedby>
+        <reimplementedby refid="dd/df9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_filter_1aa7bd262c3160b8a6aa7549e6c82f9f2a">provideGridListTemplateData</reimplementedby>
+        <reimplementedby refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode_1af065d31e9ef42dd98ff872dc75da6c58">provideGridListTemplateData</reimplementedby>
+        <reimplementedby refid="d4/d7f/class_modular_1_1_grid_list_1_1_layout_1_1_column_width_1af065d31e9ef42dd98ff872dc75da6c58">provideGridListTemplateData</reimplementedby>
+        <param>
+          <declname>$existingData</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return an array of additional data to return to the template and make available via the $GridList template variable. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$existingData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>already being provided, is not altered but is for reference, calculations etc </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/TemplateDataProvider.php" line="14" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1469">
+        <label>AllFilter</label>
+        <link refid="dd/df9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_filter"/>
+        <childnode refid="1466" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1468">
+        <label>ColumnWidth</label>
+        <link refid="d4/d7f/class_modular_1_1_grid_list_1_1_layout_1_1_column_width"/>
+        <childnode refid="1466" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1467">
+        <label>Mode</label>
+        <link refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode"/>
+        <childnode refid="1466" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1466">
+        <label>TempleDataProvider</label>
+        <link refid="d7/df8/interface_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider"/>
+      </node>
+      <node id="1470">
+        <label>DefaultFilter</label>
+        <link refid="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter"/>
+        <childnode refid="1466" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/TemplateDataProvider.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/TemplateDataProvider.php" bodystart="8" bodyend="15"/>
+    <listofallmembers>
+      <member refid="d7/df8/interface_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider_1af065d31e9ef42dd98ff872dc75da6c58" prot="public" virt="non-virtual"><scope>Modular::GridList::Interfaces::TempleDataProvider</scope><name>provideGridListTemplateData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

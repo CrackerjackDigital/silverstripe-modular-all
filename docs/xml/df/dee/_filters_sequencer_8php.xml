@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/dee/_filters_sequencer_8php" kind="file">
+    <compoundname>FiltersSequencer.php</compoundname>
+    <innerclass refid="d3/de9/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_sequencer" prot="public">Modular::GridList::Interfaces::FiltersSequencer</innerclass>
+    <innernamespace refid="d9/db4/namespace_modular_1_1_grid_list_1_1_interfaces">Modular::GridList::Interfaces</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridList\Interfaces;</highlight></codeline>
+<codeline lineno="9" refid="d3/de9/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_sequencer" refkind="compound"><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="d3/de9/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_sequencer" kindref="compound">FiltersSequencer</ref><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d3/de9/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_sequencer_1a7fddbb937a271da437c56fb94174f1a5" kindref="member">sequenceGridListFilters</ref>(&amp;$filters,<sp/>$items,<sp/>&amp;$parameters<sp/>=<sp/>[]);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/FiltersSequencer.php"/>
+  </compounddef>
+</doxygen>

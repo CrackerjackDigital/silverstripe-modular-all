@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/d94/class_modular_1_1_models_1_1_grid_list_filter" kind="class" prot="public">
+    <compoundname>Modular::Models::GridListFilter</compoundname>
+    <basecompoundref refid="db/d0a/class_modular_1_1_model" prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1a74bc26cd8112b3975185ca7782e0c0a3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const TagFieldName</definition>
+        <argsstring></argsstring>
+        <name>TagFieldName</name>
+        <initializer>= <ref refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1af74d0ba94522656fd2c247bd544e2094" kindref="member">ModelTag::SingleFieldName</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/GridListFilter.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/GridListFilter.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1a1fa3127fc82f96b1436d871ef02be319" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$db</definition>
+        <argsstring></argsstring>
+        <name>$db</name>
+        <initializer>= [
+		&apos;Sort&apos; =&gt; &apos;Int&apos;
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/GridListFilter.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/GridListFilter.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1ac70c858bd88a4931365b8be59f8e6d55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getCMSFields</definition>
+        <argsstring>()</argsstring>
+        <name>getCMSFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/GridListFilter.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/GridListFilter.php" bodystart="15" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1ad724ba04cbde6118ceddbd6635e96eaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Filter</definition>
+        <argsstring>()</argsstring>
+        <name>Filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>GridListFilters should have ModelTag extension so use that as the Filter value in page etc. <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/GridListFilter.php" line="26" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/GridListFilter.php" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1a81c2d1b34545361e44d0e6ed24008fd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FilterLink</definition>
+        <argsstring>()</argsstring>
+        <name>FilterLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/GridListFilter.php" line="30" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/GridListFilter.php" bodystart="30" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="619">
+        <label>GridListFilter</label>
+        <link refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter"/>
+        <childnode refid="620" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="621">
+        <label>DataObject</label>
+      </node>
+      <node id="620">
+        <label>Model</label>
+        <link refid="db/d0a/class_modular_1_1_model"/>
+        <childnode refid="621" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="622">
+        <label>GridListFilter</label>
+        <link refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter"/>
+        <childnode refid="623" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="624">
+        <label>DataObject</label>
+      </node>
+      <node id="623">
+        <label>Model</label>
+        <link refid="db/d0a/class_modular_1_1_model"/>
+        <childnode refid="624" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/models/GridListFilter.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/GridListFilter.php" bodystart="8" bodyend="33"/>
+    <listofallmembers>
+      <member refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1a1fa3127fc82f96b1436d871ef02be319" prot="private" virt="non-virtual"><scope>Modular::Models::GridListFilter</scope><name>$db</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Models::GridListFilter</scope><name>__invoke</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Models::GridListFilter</scope><name>class_name</name></member>
+      <member refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1ad724ba04cbde6118ceddbd6635e96eaa" prot="public" virt="non-virtual"><scope>Modular::Models::GridListFilter</scope><name>Filter</name></member>
+      <member refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1a81c2d1b34545361e44d0e6ed24008fd7" prot="public" virt="non-virtual"><scope>Modular::Models::GridListFilter</scope><name>FilterLink</name></member>
+      <member refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1ac70c858bd88a4931365b8be59f8e6d55" prot="public" virt="non-virtual"><scope>Modular::Models::GridListFilter</scope><name>getCMSFields</name></member>
+      <member refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1a74bc26cd8112b3975185ca7782e0c0a3" prot="public" virt="non-virtual"><scope>Modular::Models::GridListFilter</scope><name>TagFieldName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

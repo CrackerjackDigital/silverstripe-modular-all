@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d4a815bb83da929c2d3eb174f34e7513" kind="dir">
+    <compoundname>interfaces</compoundname>
+    <innerfile refid="d0/dec/interfaces_2_exception_8php">interfaces/Exception.php</innerfile>
+    <innerfile refid="d8/d1e/_has_children_8php">HasChildren.php</innerfile>
+    <innerfile refid="d2/d8b/interfaces_2_has_links_8php">interfaces/HasLinks.php</innerfile>
+    <innerfile refid="da/d7f/_imagery_8php">Imagery.php</innerfile>
+    <innerfile refid="d2/dfd/_link_type_8php">LinkType.php</innerfile>
+    <innerfile refid="d6/d41/_logger_8php">Logger.php</innerfile>
+    <innerfile refid="d7/de2/interfaces_2_previewable_8php">interfaces/Previewable.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/"/>
+  </compounddef>
+</doxygen>

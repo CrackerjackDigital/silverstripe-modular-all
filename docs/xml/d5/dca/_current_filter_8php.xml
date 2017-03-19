@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d5/dca/_current_filter_8php" kind="file">
+    <compoundname>CurrentFilter.php</compoundname>
+    <innerclass refid="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter" prot="public">Modular::GridList::Constraints::Items::CurrentFilter</innerclass>
+    <innernamespace refid="d5/d11/namespace_modular_1_1_grid_list_1_1_constraints_1_1_items">Modular::GridList::Constraints::Items</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <innernamespace refid="d3/d81/namespace_modular_1_1_grid_list_1_1_grid_list">Modular::GridList::GridList</innernamespace>
+    <innernamespace refid="d8/d43/namespace_modular_1_1_grid_list_1_1_interfaces_1_1_items_constraints">Modular::GridList::Interfaces::ItemsConstraints</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="d5/d11/namespace_modular_1_1_grid_list_1_1_constraints_1_1_items" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridList\Constraints\Items;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list" kindref="compound">Modular\GridList\GridList</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="df/d77/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_constraints" kindref="compound">Modular\GridList\Interfaces\ItemsConstraints</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">Modular\ModelExtension</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters" kindref="compound">Modular\Relationships\HasGridListFilters</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter" kindref="compound">CurrentFilter</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">ModelExtension</ref><sp/>implements<sp/><ref refid="df/d77/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_constraints" kindref="compound">ItemsConstraints</ref><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter_1ac43ee9c7121bc750a81effa7e4e1f731" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter_1ac43ee9c7121bc750a81effa7e4e1f731" kindref="member">constrainGridListItems</ref>(&amp;$items)<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$service<sp/>=<sp/>GridList::service();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$currentFilterID<sp/>=<sp/>$service-&gt;Filters()-&gt;currentFilterID();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>filter<sp/>to<sp/>current<sp/>filter<sp/>if<sp/>set</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($currentFilterID)<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$out<sp/>=<sp/>new<sp/>\ArrayList();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($items<sp/>as<sp/>$item)<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($item-&gt;GridListFilters()-&gt;find(</highlight><highlight class="stringliteral">&apos;ID&apos;</highlight><highlight class="normal">,<sp/>$currentFilterID))<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$out-&gt;push($item);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$items<sp/>=<sp/>$out;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/constraints/items/CurrentFilter.php"/>
+  </compounddef>
+</doxygen>

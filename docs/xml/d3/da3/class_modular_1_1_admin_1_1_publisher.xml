@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/da3/class_modular_1_1_admin_1_1_publisher" kind="class" prot="public">
+    <compoundname>Modular::Admin::Publisher</compoundname>
+    <basecompoundref refid="d6/d68/class_modular_1_1_controller" prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d3/da3/class_modular_1_1_admin_1_1_publisher_1a24eb78517c7ce15d317b8f3a15418fde" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$allowed_actions</definition>
+        <argsstring></argsstring>
+        <name>$allowed_actions</name>
+        <initializer>= [
+		&apos;publishall&apos;,
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/da3/class_modular_1_1_admin_1_1_publisher_1a34ddfd723e30abea0a92b81f4443ac6a" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$defaults</definition>
+        <argsstring></argsstring>
+        <name>$defaults</name>
+        <initializer>= [
+		&apos;start&apos; =&gt; 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/da3/class_modular_1_1_admin_1_1_publisher_1a39783a30a4471e9bf1f7ecfec3cc34c3" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>static $confirmation_token</definition>
+        <argsstring></argsstring>
+        <name>$confirmation_token</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" line="21" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d3/da3/class_modular_1_1_admin_1_1_publisher_1ae1559345410441589126591dd2a216e3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>options</definition>
+        <argsstring>()</argsstring>
+        <name>options</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" line="23" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" bodystart="23" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/da3/class_modular_1_1_admin_1_1_publisher_1a48d336385d0afca7dbe5c91a7be91726" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>option</definition>
+        <argsstring>($name)</argsstring>
+        <name>option</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" line="37" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" bodystart="37" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/da3/class_modular_1_1_admin_1_1_publisher_1aa857c16f0ffe66fb0a6c1b2ee6b5fcdb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>confirmationToken</definition>
+        <argsstring>()</argsstring>
+        <name>confirmationToken</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" line="46" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" bodystart="46" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1347">
+        <label>Controller</label>
+        <link refid="d6/d68/class_modular_1_1_controller"/>
+        <childnode refid="1347" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1346">
+        <label>Publisher</label>
+        <link refid="d3/da3/class_modular_1_1_admin_1_1_publisher"/>
+        <childnode refid="1347" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1349">
+        <label>Controller</label>
+        <link refid="d6/d68/class_modular_1_1_controller"/>
+        <childnode refid="1349" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1348">
+        <label>Publisher</label>
+        <link refid="d3/da3/class_modular_1_1_admin_1_1_publisher"/>
+        <childnode refid="1349" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/Publisher.php" bodystart="8" bodyend="111"/>
+    <listofallmembers>
+      <member refid="d3/da3/class_modular_1_1_admin_1_1_publisher_1a24eb78517c7ce15d317b8f3a15418fde" prot="private" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>$allowed_actions</name></member>
+      <member refid="d3/da3/class_modular_1_1_admin_1_1_publisher_1a39783a30a4471e9bf1f7ecfec3cc34c3" prot="private" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>$confirmation_token</name></member>
+      <member refid="d3/da3/class_modular_1_1_admin_1_1_publisher_1a34ddfd723e30abea0a92b81f4443ac6a" prot="private" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>$defaults</name></member>
+      <member refid="d3/da3/class_modular_1_1_admin_1_1_publisher_1aa857c16f0ffe66fb0a6c1b2ee6b5fcdb" prot="protected" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>confirmationToken</name></member>
+      <member refid="d3/da3/class_modular_1_1_admin_1_1_publisher_1a48d336385d0afca7dbe5c91a7be91726" prot="protected" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>option</name></member>
+      <member refid="d3/da3/class_modular_1_1_admin_1_1_publisher_1ae1559345410441589126591dd2a216e3" prot="protected" virt="non-virtual"><scope>Modular::Admin::Publisher</scope><name>options</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

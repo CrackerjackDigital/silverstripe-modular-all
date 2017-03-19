@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/db5/class_modular_1_1_blocks_1_1_source_links" kind="class" prot="public">
+    <compoundname>Modular::Blocks::SourceLinks</compoundname>
+    <basecompoundref refid="d2/df7/class_modular_1_1_blocks_1_1_block" prot="public" virt="non-virtual">Block</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1407">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="1408" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1410" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1408">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="1409" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1410">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="1409">
+        <label>DataObject</label>
+      </node>
+      <node id="1406">
+        <label>SourceLinks</label>
+        <link refid="de/db5/class_modular_1_1_blocks_1_1_source_links"/>
+        <childnode refid="1407" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1412">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="1413" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1413">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="1414" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1415">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="1414">
+        <label>DataObject</label>
+      </node>
+      <node id="1411">
+        <label>SourceLinks</label>
+        <link refid="de/db5/class_modular_1_1_blocks_1_1_source_links"/>
+        <childnode refid="1412" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/SourceLinks.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/SourceLinks.php" bodystart="4" bodyend="5"/>
+    <listofallmembers>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>__invoke</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a3c1dc9072f2299e603adead7442dc292" prot="public" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>addCustomFilterTag</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a08f89083c824bbd479a24cfb1e7ce27c" prot="public" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>block_class</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1ae0fb8218cf6d7cfc1030e51c4a45025d" prot="public" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>BlockType</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a7e15a611df09446ea2342e5a544a218a" prot="public" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>BlockZones</name></member>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>class_name</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a585a237c4434f0c97e0a93dd02d7e314" prot="public" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>customFilterTags</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1afbdde13fe4d3c5da5bce82cd0758d00e" prot="public" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>DisplayInContent</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0de6dd724bf06b0f08dbdeee9bd4c80d" prot="public" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>DisplayInSidebar</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1af8ff16e3b7863d38779fcf1006b9e40a" prot="public" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>forTemplate</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a5c5e9e6d8cf0b8ce8db575ea6252c96a" prot="public" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>LinkText</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a08282d6de720a402d9b2136ddb9531f2" prot="public" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>LinkType</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1af30563a728019e2a175da6b4ef1ce4e6" prot="public" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>PageClassName</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0b54c9d3801b331b75487ef78d98c06b" prot="protected" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>template</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a166f874fbbbfadabb7055aa9f5bea328" prot="protected" virt="non-virtual"><scope>Modular::Blocks::SourceLinks</scope><name>templates</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

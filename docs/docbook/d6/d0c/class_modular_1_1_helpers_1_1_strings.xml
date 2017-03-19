@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d6/d0c/class_modular_1_1_helpers_1_1_strings">
+<title>Modular::Helpers::Strings class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d0c/class_modular_1_1_helpers_1_1_strings_1abf1394eaf60f3d77d07be9a8bf485130">detokenise</link> (
+ $string, array $replaceWith)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a565a2a5a3dc743a0888bba4e2e5e42c2">decamel</link> (
+ $in,  $join)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a20736aa470acffa5469315e073ef1f84">desnake</link> (
+ $in,  $join)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a952de05cce908a87072d922d51fe23ad">class_to_label</link> (
+ $className)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d6/d0c/class_modular_1_1_helpers_1_1_strings_1abf1394eaf60f3d77d07be9a8bf485130">
+                <title>static detokenise ($string, array $replaceWith)</title> <emphasis></emphasis>
+                
+<para>Replace {token} in string from provided map of token =&gt; value</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$string</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$replaceWith</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a565a2a5a3dc743a0888bba4e2e5e42c2">
+                <title>static decamel ($in, $join= &apos; &apos;)</title> <emphasis></emphasis>
+                
+<para>Given a CamelCASEString returns a &apos;Proper CASE String&apos; preserving acronyms</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$in</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$join</entry>
+                                <entry>
+<para>the output string with this, set to &apos;&apos; to get a CamelCASEString again. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a20736aa470acffa5469315e073ef1f84">
+                <title>static desnake ($in, $join= &apos; &apos;)</title> <emphasis></emphasis>
+                
+<para>Given a snake-case-string returns a &apos;Proper Case String&apos;</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$in</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$join</entry>
+                                <entry>
+<para>the output string parts with this, set to &apos;&apos; for a CamelCaseString </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a952de05cce908a87072d922d51fe23ad">
+                <title>static class_to_label ($className)</title> <emphasis></emphasis>
+                
+<para>Given a possibly namespaced class name return it as decamelised terminal class name.</para>
+
+<para>e.g. &apos;&apos; would become &apos;Uber Shimple Dinger&apos;</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$className</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

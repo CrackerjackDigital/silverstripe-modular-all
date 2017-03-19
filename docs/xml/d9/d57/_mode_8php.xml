@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/d57/_mode_8php" kind="file">
+    <compoundname>Mode.php</compoundname>
+    <innerclass refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode" prot="public">Modular::GridList::Fields::Mode</innerclass>
+    <innernamespace refid="d8/d0e/namespace_modular_1_1_grid_list_1_1_fields">Modular::GridList::Fields</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <innernamespace refid="db/d84/namespace_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider">Modular::GridList::Interfaces::TempleDataProvider</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="d8/d0e/namespace_modular_1_1_grid_list_1_1_fields" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridList\Fields;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="da/d27/class_modular_1_1_fields_1_1_field" kindref="compound">Modular\Fields\Field</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="d7/df8/interface_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider" kindref="compound">Modular\GridList\Interfaces\TempleDataProvider</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode" kindref="compound">Mode</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="da/d27/class_modular_1_1_fields_1_1_field" kindref="compound">Field</ref><sp/>implements<sp/><ref refid="d7/df8/interface_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider" kindref="compound">TempleDataProvider</ref><sp/>{</highlight></codeline>
+<codeline lineno="14" refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode_1af74d0ba94522656fd2c247bd544e2094" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode_1af74d0ba94522656fd2c247bd544e2094" kindref="member">SingleFieldName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;GridListMode&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15" refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode_1a6491a8c7fce5c91adf87287607c407a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode_1a6491a8c7fce5c91adf87287607c407a8" kindref="member">SingleFieldSchema</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;enum(&quot;Grid,List&quot;,&quot;Grid&quot;)&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode_1ae6098bb0243f4ce2f8680b3723783300" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode_1ae6098bb0243f4ce2f8680b3723783300" kindref="member">cmsFields</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$fields<sp/>=<sp/>parent::cmsFields();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>has<sp/>the<sp/>mode<sp/>been<sp/>provided<sp/>some<sp/>other<sp/>way?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$data<sp/>=<sp/>[];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$source<sp/>=<sp/>get_class($this);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($otherWays<sp/>=<sp/>array_filter($this()-&gt;extend(</highlight><highlight class="stringliteral">&apos;provideGridListTemplateData&apos;</highlight><highlight class="normal">,<sp/>$data,<sp/>$source)))<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($otherWays<sp/>as<sp/>$otherWay)<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($otherWay[</highlight><highlight class="stringliteral">&apos;Mode&apos;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>replace<sp/>the<sp/>field<sp/>with<sp/>a<sp/>read-only<sp/>field<sp/>set<sp/>to<sp/>the<sp/>first<sp/>other<sp/>mode<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$fields[<sp/>static::SingleFieldName<sp/>]<sp/>=<sp/>new<sp/>\ReadonlyField(static::SingleFieldName,<sp/>null,<sp/>$otherWay[</highlight><highlight class="stringliteral">&apos;Mode&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$fields;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode_1af065d31e9ef42dd98ff872dc75da6c58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode_1af065d31e9ef42dd98ff872dc75da6c58" kindref="member">provideGridListTemplateData</ref>($existingData<sp/>=<sp/>[])<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($this()-&gt;{static::SingleFieldName})<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;Mode&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>strtolower($this()-&gt;{static::SingleFieldName})</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;Mode&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>isset($existingData[</highlight><highlight class="stringliteral">&apos;Mode&apos;</highlight><highlight class="normal">])<sp/>?<sp/>$existingData[</highlight><highlight class="stringliteral">&apos;Mode&apos;</highlight><highlight class="normal">]<sp/>:<sp/></highlight><highlight class="stringliteral">&apos;grid&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/fields/Mode.php"/>
+  </compounddef>
+</doxygen>

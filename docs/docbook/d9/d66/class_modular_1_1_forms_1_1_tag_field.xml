@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d9/d66/class_modular_1_1_forms_1_1_tag_field">
+<title>Modular::Forms::TagField class Reference</title>
+        <simplesect>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>$constraints</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d66/class_modular_1_1_forms_1_1_tag_field_1aecb273becbedcf46aedb2d32075ae564">setConstraints</link> (
+array $constraints)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d66/class_modular_1_1_forms_1_1_tag_field_1a3e47ad683c9cd105a58021b824e27c57">saveInto</link> (
+DataObjectInterface $record)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d9/d66/class_modular_1_1_forms_1_1_tag_field_1aecb273becbedcf46aedb2d32075ae564">
+                <title>setConstraints (array $constraints)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d9/d66/class_modular_1_1_forms_1_1_tag_field_1a3e47ad683c9cd105a58021b824e27c57">
+                <title>saveInto (DataObjectInterface $record)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

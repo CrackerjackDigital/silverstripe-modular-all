@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d9/d05/class_modular_1_1_relationships_1_1_has_block">
+<title>Modular::Relationships::HasBlock class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelationshipName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const BlockClassName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelationshipFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const BlockTypeFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d05/class_modular_1_1_relationships_1_1_has_block_1ab9ae9ef07f0ef2387a06b7555652145a">extraStatics</link> (
+ $class,  $extension)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d05/class_modular_1_1_relationships_1_1_has_block_1af86f0f134c932d518ca9945976233d71">getBlockType</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d05/class_modular_1_1_relationships_1_1_has_block_1ae6098bb0243f4ce2f8680b3723783300">cmsFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d05/class_modular_1_1_relationships_1_1_has_block_1a1ca9d3ae29b4d05e52e53ee5bf3ef635">validate</link> (
+ValidationResult $validationResult)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Class which adds a single block to a model </para>
+                <para>Definition at line 16 of file HasBlock.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>HasBlock.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d9/d05/class_modular_1_1_relationships_1_1_has_block_1ab9ae9ef07f0ef2387a06b7555652145a">
+                <title>extraStatics ($class=null, $extension=null)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d9/d05/class_modular_1_1_relationships_1_1_has_block_1af86f0f134c932d518ca9945976233d71">
+                <title>getBlockType ()</title> <emphasis></emphasis>
+                
+<para>Return the value from passed BlockType field or the class name of the current associated block </para>
+
+            </section>
+            <section xml:id="d9/d05/class_modular_1_1_relationships_1_1_has_block_1ae6098bb0243f4ce2f8680b3723783300">
+                <title>cmsFields ()</title> <emphasis></emphasis>
+                
+<para>Add the BlockType dropdown selector for the extended model. <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d9/d05/class_modular_1_1_relationships_1_1_has_block_1a1ca9d3ae29b4d05e52e53ee5bf3ef635">
+                <title>validate (ValidationResult $validationResult)</title> <emphasis></emphasis>
+                
+<para>Check we either have an associated block already or if BlockType has been passed in as value on extended model e.g. from CMS form submission.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$validationResult</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array|void </para>
+</formalpara>
+exception                            <row>
+                                <entry>\ValidationException</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

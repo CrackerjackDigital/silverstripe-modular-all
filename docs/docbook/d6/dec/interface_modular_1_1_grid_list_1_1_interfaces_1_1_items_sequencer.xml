@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer">
+<title>Modular::GridList::Interfaces::ItemsSequencer interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer_1af369da5e33e03a0e9ea52d07b239e332">sequenceGridListItems</link> (
+&amp; $items,  $filters, &amp; $parameters)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer_1af369da5e33e03a0e9ea52d07b239e332">
+                <title>sequenceGridListItems (&amp;$items, $filters, &amp;$parameters=[])</title> <emphasis></emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$items</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$filters</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$parameters</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+</section>

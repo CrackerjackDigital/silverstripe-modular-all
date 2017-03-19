@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/dfe/namespace_modular_1_1_extensions" kind="namespace">
+    <compoundname>Modular::Extensions</compoundname>
+    <innernamespace refid="d7/d6f/namespace_modular_1_1_extensions_1_1_controller">Modular::Extensions::Controller</innernamespace>
+    <innernamespace refid="d5/dc5/namespace_modular_1_1_extensions_1_1_model">Modular::Extensions::Model</innernamespace>
+    <innernamespace refid="db/dd3/namespace_modular_1_1_extensions_1_1_views">Modular::Extensions::Views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

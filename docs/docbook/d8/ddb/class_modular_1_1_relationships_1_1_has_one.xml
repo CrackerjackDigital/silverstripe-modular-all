@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d8/ddb/class_modular_1_1_relationships_1_1_has_one">
+<title>Modular::Relationships::HasOne class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelationshipName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelatedClassName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelatedKeyField</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelatedDisplayField</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $tab_name</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1ae6098bb0243f4ce2f8680b3723783300">cmsFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1a70fc253480af7c86026e73c3b73414f7">singleFieldValue</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1ab9ae9ef07f0ef2387a06b7555652145a">extraStatics</link> (
+ $class,  $extension)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1a34341bc4d825fc9d34454df689cd441c">field_name</link> (
+ $suffix)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1ac49895cc8dce1a67036cc8e3e83b5d3c">related_class_name</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1afc05583449dd891447a38e8fd93da840">options</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1ae6098bb0243f4ce2f8680b3723783300">
+                <title>cmsFields ()</title> <emphasis></emphasis>
+                
+<para>Add a drop-down with related classes from RelatedClassName using RelatedKeyField and RelatedDisplayField.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1a70fc253480af7c86026e73c3b73414f7">
+                <title>singleFieldValue ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1ab9ae9ef07f0ef2387a06b7555652145a">
+                <title>extraStatics ($class=null, $extension=null)</title> <emphasis></emphasis>
+                
+<para>Add has_one relationships to related class.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$class</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$extension</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1a34341bc4d825fc9d34454df689cd441c">
+                <title>static field_name ($suffix= &apos;ID&apos;)</title> <emphasis></emphasis>
+                
+<para>has_one relationships need an &apos;ID&apos; appended to the relationship name to make the field name</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$suffix</entry>
+                                <entry>
+<para>defaults to &apos;ID&apos; </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1ac49895cc8dce1a67036cc8e3e83b5d3c">
+                <title>static related_class_name ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1afc05583449dd891447a38e8fd93da840">
+                <title>static options ()</title> <emphasis></emphasis>
+                
+<para>Return map of key field =&gt; title for the drop down where the relationship target can be chosen.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

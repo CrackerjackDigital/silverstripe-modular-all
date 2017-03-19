@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dc/d99/_has_files_8php" kind="file">
+    <compoundname>HasFiles.php</compoundname>
+    <innerclass refid="d0/ded/class_modular_1_1_relationships_1_1_has_files" prot="public">Modular::Relationships::HasFiles</innerclass>
+    <innernamespace refid="d6/ddb/namespace_modular_1_1_relationships">Modular::Relationships</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Relationships;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="df/df5/namespace_modular_1aab380e91a6e89eb7d572417a59dbdbdc" kindref="member">Modular\upload</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>SS_List;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="d0/ded/class_modular_1_1_relationships_1_1_has_files" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/ded/class_modular_1_1_relationships_1_1_has_files" kindref="compound">HasFiles</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many" kindref="compound">HasManyMany</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/><ref refid="df/df5/namespace_modular_1aab380e91a6e89eb7d572417a59dbdbdc" kindref="member">upload</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="d0/ded/class_modular_1_1_relationships_1_1_has_files_1a522cd5b3b15c4a885005cd0919628158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/ded/class_modular_1_1_relationships_1_1_has_files_1a522cd5b3b15c4a885005cd0919628158" kindref="member">RelationshipName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Files&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14" refid="d0/ded/class_modular_1_1_relationships_1_1_has_files_1a0c616e562eff7e4bf6b10e3ecacc226b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/ded/class_modular_1_1_relationships_1_1_has_files_1a0c616e562eff7e4bf6b10e3ecacc226b" kindref="member">RelatedClassName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;File&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$allowed_files<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;download&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="d0/ded/class_modular_1_1_relationships_1_1_has_files_1ae6098bb0243f4ce2f8680b3723783300" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d0/ded/class_modular_1_1_relationships_1_1_has_files_1ae6098bb0243f4ce2f8680b3723783300" kindref="member">cmsFields</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>new<sp/>\UploadField(</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static::RelationshipName</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="d0/ded/class_modular_1_1_relationships_1_1_has_files_1a8990d624cb129728633967324449736e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d0/ded/class_modular_1_1_relationships_1_1_has_files_1a8990d624cb129728633967324449736e" kindref="member">customFieldConstraints</ref>(\FormField<sp/>$field,<sp/>array<sp/>$allFieldConstraints)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($field-&gt;getName()<sp/>==<sp/>static::RelationshipName)<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="df/df5/namespace_modular_1ad3267303429bf001abe95cb2ad8ad778" kindref="member">configureUploadField</ref>($field);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasFiles.php"/>
+  </compounddef>
+</doxygen>

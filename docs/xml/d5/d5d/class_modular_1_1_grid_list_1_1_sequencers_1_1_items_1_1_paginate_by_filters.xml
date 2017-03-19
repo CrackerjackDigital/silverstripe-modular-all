@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d5/d5d/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_paginate_by_filters" kind="class" prot="public">
+    <compoundname>Modular::GridList::Sequencers::Items::PaginateByFilters</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+    <basecompoundref refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer" prot="public" virt="non-virtual">ItemsSequencer</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d5d/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_paginate_by_filters_1af369da5e33e03a0e9ea52d07b239e332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sequenceGridListItems</definition>
+        <argsstring>(&amp;$items, $filters, &amp;$parameters=[])</argsstring>
+        <name>sequenceGridListItems</name>
+        <reimplements refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer_1af369da5e33e03a0e9ea52d07b239e332">sequenceGridListItems</reimplements>
+        <param>
+          <type>&amp;</type>
+          <declname>$items</declname>
+        </param>
+        <param>
+          <declname>$filters</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$parameters</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Expects parameters &apos;start&apos; and &apos;limit&apos; to be set, limits items by filter to page length</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\SS_LIst</parametertype>
+<parametername>$items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$filters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$parameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/items/PaginateByFilters.php" line="25" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/items/PaginateByFilters.php" bodystart="25" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1303">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1304" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1304">
+        <label>DataExtension</label>
+      </node>
+      <node id="1302">
+        <label>PaginateByFilters</label>
+        <link refid="d5/d5d/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_paginate_by_filters"/>
+        <childnode refid="1303" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1305" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1305">
+        <label>ItemsSequencer</label>
+        <link refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1307">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1308">
+        <label>DataExtension</label>
+      </node>
+      <node id="1306">
+        <label>PaginateByFilters</label>
+        <link refid="d5/d5d/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_paginate_by_filters"/>
+        <childnode refid="1307" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1309" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1309">
+        <label>ItemsSequencer</label>
+        <link refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer"/>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/items/PaginateByFilters.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/items/PaginateByFilters.php" bodystart="15" bodyend="87"/>
+    <listofallmembers>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::GridList::Sequencers::Items::PaginateByFilters</scope><name>class_name</name></member>
+      <member refid="d5/d5d/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_paginate_by_filters_1af369da5e33e03a0e9ea52d07b239e332" prot="public" virt="non-virtual"><scope>Modular::GridList::Sequencers::Items::PaginateByFilters</scope><name>sequenceGridListItems</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::GridList::Sequencers::Items::PaginateByFilters</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

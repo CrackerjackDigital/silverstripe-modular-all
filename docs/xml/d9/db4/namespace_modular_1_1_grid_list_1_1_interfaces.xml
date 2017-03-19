@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/db4/namespace_modular_1_1_grid_list_1_1_interfaces" kind="namespace">
+    <compoundname>Modular::GridList::Interfaces</compoundname>
+    <innerclass refid="d3/dc4/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filter_constraints" prot="public">Modular::GridList::Interfaces::FilterConstraints</innerclass>
+    <innerclass refid="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider" prot="public">Modular::GridList::Interfaces::FiltersProvider</innerclass>
+    <innerclass refid="d3/de9/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_sequencer" prot="public">Modular::GridList::Interfaces::FiltersSequencer</innerclass>
+    <innerclass refid="de/d0b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_item_handler" prot="public">Modular::GridList::Interfaces::ItemHandler</innerclass>
+    <innerclass refid="df/d77/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_constraints" prot="public">Modular::GridList::Interfaces::ItemsConstraints</innerclass>
+    <innerclass refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider" prot="public">Modular::GridList::Interfaces::ItemsProvider</innerclass>
+    <innerclass refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer" prot="public">Modular::GridList::Interfaces::ItemsSequencer</innerclass>
+    <innerclass refid="d7/df8/interface_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider" prot="public">Modular::GridList::Interfaces::TempleDataProvider</innerclass>
+    <innernamespace refid="d0/d6d/namespace_modular_1_1_grid_list_1_1_interfaces_1_1_service">Modular::GridList::Interfaces::Service</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/FilterConstraints.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

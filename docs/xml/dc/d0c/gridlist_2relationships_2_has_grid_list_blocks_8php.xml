@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dc/d0c/gridlist_2relationships_2_has_grid_list_blocks_8php" kind="file">
+    <compoundname>gridlist/relationships/HasGridListBlocks.php</compoundname>
+    <innerclass refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks" prot="public">Modular::Relationships::HasGridListBlocks</innerclass>
+    <innernamespace refid="d6/ddb/namespace_modular_1_1_relationships">Modular::Relationships</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <innernamespace refid="d9/d01/namespace_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer">Modular::GridList::Interfaces::ItemsSequencer</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="d6/ddb/namespace_modular_1_1_relationships" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Relationships;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider" kindref="compound">Modular\GridList\Interfaces\ItemsProvider</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer" kindref="compound">Modular\GridList\Interfaces\ItemsSequencer</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks" kindref="compound">HasGridListBlocks</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks" kindref="compound">HasBlocks</ref><sp/>implements<sp/><ref refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer" kindref="compound">ItemsSequencer</ref>,<sp/><ref refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider" kindref="compound">ItemsProvider</ref><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks_1a522cd5b3b15c4a885005cd0919628158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks_1a522cd5b3b15c4a885005cd0919628158" kindref="member">RelationshipName</ref><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;GridListBlocks&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14" refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks_1aaeeea0416334b9aaf0ab8243c7d4ed8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks_1aaeeea0416334b9aaf0ab8243c7d4ed8e" kindref="member">GridFieldConfigName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Modular\GridField\HasGridListBlocksGridFieldConfig&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks_1ad5a2308c083b719b1c6033430f6138a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks_1ad5a2308c083b719b1c6033430f6138a4" kindref="member">provideGridListItems</ref>($parameters<sp/>=<sp/>[])<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this()-&gt;{static::RelationshipName}()-&gt;Sort(<ref refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a58d45c13ab7488436af7f47e52721141" kindref="member">HasBlocks::SortFieldName</ref>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30" refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks_1af369da5e33e03a0e9ea52d07b239e332" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks_1af369da5e33e03a0e9ea52d07b239e332" kindref="member">sequenceGridListItems</ref>(&amp;$items,<sp/>$filters,<sp/>&amp;$parameters<sp/>=<sp/>[])<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$out<sp/>=<sp/>new<sp/>\ArrayList();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$blocks<sp/>=<sp/>$this-&gt;<ref refid="df/df5/namespace_modular_1a5c907a6211e0669e5fe3c298d12906ce" kindref="member">related</ref>()-&gt;Sort(</highlight><highlight class="stringliteral">&apos;Sort<sp/>desc&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($blocks<sp/>as<sp/>$block)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$out-&gt;push($block);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($items<sp/>as<sp/>$item)<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$out-&gt;push($item);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$items<sp/>=<sp/>$out;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/relationships/HasGridListBlocks.php"/>
+  </compounddef>
+</doxygen>

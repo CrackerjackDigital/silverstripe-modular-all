@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item">
+<title>Modular::GridList::GridListItem class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1adff1fe04d816de27741b4c3f0ffea1f5">GridListItem</link> (
+ $columns)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1a3b1b1a60ec6174f70dc629ac023467e8">FilterTags</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1a0b54c9d3801b331b75487ef78d98c06b">template</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Render the extended model (e.g. Block) or view (e.g. Page) as an item in a gridlist using the associated template </para>
+                <para>Definition at line 10 of file GridListItem.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>GridListItem.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1adff1fe04d816de27741b4c3f0ffea1f5">
+                <title>GridListItem ($columns=0)</title> <emphasis></emphasis>
+                
+<para>Renders the item into the gridlist with selected template passing through Filters which are defined on the item. <link linkend="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item">GridListItem</link> constructor. </para>
+
+            </section>
+            <section xml:id="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1a3b1b1a60ec6174f70dc629ac023467e8">
+                <title>FilterTags ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1a0b54c9d3801b331b75487ef78d98c06b">
+                <title>template ()</title> <emphasis></emphasis>
+                
+<para>Returns a template name either from extended models config.gridlist_template of set or from the extended models ClassName. In either case the current <link linkend="d4/d93/class_modular_1_1_grid_list_1_1_grid_list">GridList</link> view mode (grid, list or search) is appended.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

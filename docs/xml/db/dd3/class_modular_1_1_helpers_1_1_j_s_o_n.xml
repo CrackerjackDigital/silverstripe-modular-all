@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n" kind="class" prot="public">
+    <compoundname>Modular::Helpers::JSON</compoundname>
+    <basecompoundref refid="da/d08/class_modular_1_1_object" prot="public" virt="non-virtual">Object</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1af200622e3f0f5ce4418ee520d4b5ef28" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$json_encode_options</definition>
+        <argsstring></argsstring>
+        <name>$json_encode_options</name>
+        <initializer>= 288</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a139ba5603061d88e3da12466f9410060" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$json_decode_options</definition>
+        <argsstring></argsstring>
+        <name>$json_decode_options</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a77799a2023402b12ba3a92e2ffc81907" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$objects_as_arrays</definition>
+        <argsstring></argsstring>
+        <name>$objects_as_arrays</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a4076e34ee9a920040af4b432b64e3d54" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$decode_depth</definition>
+        <argsstring></argsstring>
+        <name>$decode_depth</name>
+        <initializer>= 512</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a0a6340295e09ed93f63f3f42ae3c4006" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static json_encode_options</definition>
+        <argsstring>()</argsstring>
+        <name>json_encode_options</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a14bd7023b7285e461f8ac04e5d9c82d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static json_decode_options</definition>
+        <argsstring>()</argsstring>
+        <name>json_decode_options</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" line="20" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a2e91ceea8912dbc2050d6abc6e885ca5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static encode</definition>
+        <argsstring>($data, $optionsOverride=[])</argsstring>
+        <name>encode</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$optionsOverride</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Json encode the data</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$optionsOverride</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>override default options </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" line="31" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1ae3253c7e82f5caec76b53759634f8bf2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static template_encode</definition>
+        <argsstring>($data)</argsstring>
+        <name>template_encode</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encode to a json string suitable for emitting as a template variable.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" line="42" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" bodystart="42" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1ae8335fd228287b41f7705e94cd591080" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static decode</definition>
+        <argsstring>($data, $returnArrayForObject=null)</argsstring>
+        <name>decode</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$returnArrayForObject</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" line="56" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" bodystart="56" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1008">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="1008" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1007">
+        <label>JSON</label>
+        <link refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n"/>
+        <childnode refid="1008" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1010">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="1010" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1009">
+        <label>JSON</label>
+        <link refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n"/>
+        <childnode refid="1010" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" bodystart="6" bodyend="65"/>
+    <listofallmembers>
+      <member refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a4076e34ee9a920040af4b432b64e3d54" prot="private" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>$decode_depth</name></member>
+      <member refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a139ba5603061d88e3da12466f9410060" prot="private" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>$json_decode_options</name></member>
+      <member refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1af200622e3f0f5ce4418ee520d4b5ef28" prot="private" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>$json_encode_options</name></member>
+      <member refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a77799a2023402b12ba3a92e2ffc81907" prot="private" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>$objects_as_arrays</name></member>
+      <member refid="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>__invoke</name></member>
+      <member refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1ae8335fd228287b41f7705e94cd591080" prot="public" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>decode</name></member>
+      <member refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a2e91ceea8912dbc2050d6abc6e885ca5" prot="public" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>encode</name></member>
+      <member refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a14bd7023b7285e461f8ac04e5d9c82d9" prot="public" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>json_decode_options</name></member>
+      <member refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a0a6340295e09ed93f63f3f42ae3c4006" prot="public" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>json_encode_options</name></member>
+      <member refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1ae3253c7e82f5caec76b53759634f8bf2" prot="public" virt="non-virtual"><scope>Modular::Helpers::JSON</scope><name>template_encode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d1/dde/class_modular_1_1_grid_field_1_1_has_grid_list_blocks_grid_field_config">
+<title>Modular::GridField::HasGridListBlocksGridFieldConfig class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $add_new_multi_class</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $exclude_related_classes</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Alters the config to be suitable for adding/removing manually managed (curated) blocks on a gridfield. </para>
+                <para>Definition at line 8 of file HasGridListBlocks.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>HasGridListBlocks.php</para></listitem></itemizedlist></para>
+        </simplesect>
+</section>

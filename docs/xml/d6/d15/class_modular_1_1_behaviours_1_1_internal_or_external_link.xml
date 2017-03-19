@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link" kind="class" prot="public">
+    <compoundname>Modular::Behaviours::InternalOrExternalLink</compoundname>
+    <basecompoundref refid="da/d27/class_modular_1_1_fields_1_1_field" prot="public" virt="non-virtual">Field</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a94fd73e5fc692880264e18168c71fe38" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const LinkTypeFieldName</definition>
+        <argsstring></argsstring>
+        <name>LinkTypeFieldName</name>
+        <initializer>= &apos;<ref refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type" kindref="compound">LinkType</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1ad90b568db4d7886884fef37f1bf4d23f" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$enum_values</definition>
+        <argsstring></argsstring>
+        <name>$enum_values</name>
+        <initializer>= [
+		\<ref refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link_1a1942eb70de5458ea2b27cab10ae87da5" kindref="member">Modular\Fields\InternalLink::InternalLinkOption</ref>,
+		\<ref refid="db/dda/class_modular_1_1_fields_1_1_external_link_1a67fb1ed4ae9bb6c6c9dc8d909a256a3a" kindref="member">Modular\Fields\ExternalLink::ExternalLinkOption</ref>,
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" line="20" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>extraStatics</definition>
+        <argsstring>($class=null, $extension=null)</argsstring>
+        <name>extraStatics</name>
+        <param>
+          <declname>$class</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$extension</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add enum definition to config.db for LinkTypeFieldName with field names from Internal and External link fields as options. These are taken via config.enum_values so could be overridden.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$class</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$extension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" line="33" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" bodystart="33" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1ae6098bb0243f4ce2f8680b3723783300" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cmsFields</definition>
+        <argsstring>()</argsstring>
+        <name>cmsFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" line="46" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" bodystart="46" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>customFieldConstraints</definition>
+        <argsstring>(FormField $field, array $allFieldConstraints)</argsstring>
+        <name>customFieldConstraints</name>
+        <param>
+          <type>FormField</type>
+          <declname>$field</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$allFieldConstraints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Show/hide fields using display_logic depending on the LinkType field added by this extension.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\FormField</parametertype>
+<parametername>$field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$allFieldConstraints</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" line="58" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" bodystart="58" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1af49822cc4be110c0dece5c3dac61327d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ResolvedLink</definition>
+        <argsstring>()</argsstring>
+        <name>ResolvedLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns text of link, either as entered for External or generated from Internal. If Internal an target page isn&apos;t found then returns LinkAttributeExtension.InternalLink.MissingTarget message e.g. &apos;[linked page not found]&apos; type message</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" line="82" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" bodystart="82" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a5c5e9e6d8cf0b8ce8db575ea6252c96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LinkText</definition>
+        <argsstring>()</argsstring>
+        <name>LinkText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" line="97" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" bodystart="97" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a087801c1580495896bd80b2012f4019c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>IsExternal</definition>
+        <argsstring>()</argsstring>
+        <name>IsExternal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Usefull for templates to indicate external links</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" line="108" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" bodystart="108" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a873de824f6f27dda90eacca9aeeb0699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>IsInternal</definition>
+        <argsstring>()</argsstring>
+        <name>IsInternal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Usefull for templates to indicate indicate links</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" line="117" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" bodystart="117" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a8a4fdeba90ba3964f9b7bb96f4a37852" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>linkOptions</definition>
+        <argsstring>()</argsstring>
+        <name>linkOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" line="121" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" bodystart="121" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="981">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="982" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="982">
+        <label>DataExtension</label>
+      </node>
+      <node id="980">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="979">
+        <label>InternalOrExternalLink</label>
+        <link refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link"/>
+        <childnode refid="980" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="985">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="986" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="986">
+        <label>DataExtension</label>
+      </node>
+      <node id="984">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="985" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="983">
+        <label>InternalOrExternalLink</label>
+        <link refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link"/>
+        <childnode refid="984" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/InternalOrExternalLink.php" bodystart="17" bodyend="129"/>
+    <listofallmembers>
+      <member refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1ad90b568db4d7886884fef37f1bf4d23f" prot="private" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>$enum_values</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>addHTMLAttributes</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>class_name</name></member>
+      <member refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1ae6098bb0243f4ce2f8680b3723783300" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>cmsFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>cmsTab</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>configureTimeField</name></member>
+      <member refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>customFieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>DefaultTabName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>extendedFieldNames</name></member>
+      <member refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>extraStatics</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>fieldConstraints</name></member>
+      <member refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a087801c1580495896bd80b2012f4019c" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>IsExternal</name></member>
+      <member refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a873de824f6f27dda90eacca9aeeb0699" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>IsInternal</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>labelsForRelatedClass</name></member>
+      <member refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a8a4fdeba90ba3964f9b7bb96f4a37852" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>linkOptions</name></member>
+      <member refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a5c5e9e6d8cf0b8ce8db575ea6252c96a" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>LinkText</name></member>
+      <member refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a94fd73e5fc692880264e18168c71fe38" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>LinkTypeFieldName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>relationship_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>RelationshipName</name></member>
+      <member refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1af49822cc4be110c0dece5c3dac61327d" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>ResolvedLink</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>setFieldDecorations</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>SingleFieldName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>SingleFieldSchema</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>singleFieldValue</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>updateSummaryFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Behaviours::InternalOrExternalLink</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

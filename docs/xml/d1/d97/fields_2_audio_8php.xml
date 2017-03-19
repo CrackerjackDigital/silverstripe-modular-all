@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/d97/fields_2_audio_8php" kind="file">
+    <compoundname>fields/Audio.php</compoundname>
+    <innerclass refid="d4/dbd/class_modular_1_1_fields_1_1_audio" prot="public">Modular::Fields::Audio</innerclass>
+    <innernamespace refid="dd/ddb/namespace_modular_1_1_fields">Modular::Fields</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Fields;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/>ArrayList;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="d4/dbd/class_modular_1_1_fields_1_1_audio" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/dbd/class_modular_1_1_fields_1_1_audio" kindref="compound">Audio</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d7/d83/class_modular_1_1_fields_1_1_media" kindref="compound">Media</ref><sp/>{</highlight></codeline>
+<codeline lineno="12" refid="d4/dbd/class_modular_1_1_fields_1_1_audio_1a2964c9db98d4b1dbdc2d723a67382e11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/dbd/class_modular_1_1_fields_1_1_audio_1a2964c9db98d4b1dbdc2d723a67382e11" kindref="member">DefaultUploadFolderName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;audio&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$allowed_audio_files<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;audio&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$upload_folder<sp/>=<sp/>self::DefaultUploadFolderName;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="d4/dbd/class_modular_1_1_fields_1_1_audio_1a8e39dcc699945f1cccac319eb2411ff7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d4/dbd/class_modular_1_1_fields_1_1_audio_1a8e39dcc699945f1cccac319eb2411ff7" kindref="member">Medias</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ArrayList(array_filter([$this-&gt;<ref refid="d4/dbd/class_modular_1_1_fields_1_1_audio_1ae8f935a5ba4f8cb3435fddfc53953dc4" kindref="member">Audio</ref>()]));</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="d4/dbd/class_modular_1_1_fields_1_1_audio_1ae8f935a5ba4f8cb3435fddfc53953dc4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d4/dbd/class_modular_1_1_fields_1_1_audio_1ae8f935a5ba4f8cb3435fddfc53953dc4" kindref="member">Audio</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this()-&gt;Media();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="d4/dbd/class_modular_1_1_fields_1_1_audio_1af8b274223f17ca701258a2087851ff21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d4/dbd/class_modular_1_1_fields_1_1_audio_1af8b274223f17ca701258a2087851ff21" kindref="member">allowed_files</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;allowed_audio_files&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Audio.php"/>
+  </compounddef>
+</doxygen>

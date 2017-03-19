@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length">
+<title>Modular::GridList::Layout::PageLength class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SingleFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SingleFieldSchema</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $default_page_length</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $length_map</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1ac5c61dca8a002a0fdf93afecca2abd12">cmsFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1af065d31e9ef42dd98ff872dc75da6c58">provideGridListTemplateData</link> (
+ $existingData)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1a4bf208904cf3c6eab48168bbe4d6517e">defaultPageLength</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Return layout GridListColumns to template so can be applied e.g. to bootstrap col-md-{$GridListColumns} </para>
+                <para>Definition at line 11 of file Pagination.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Pagination.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1ac5c61dca8a002a0fdf93afecca2abd12">
+                <title>static cmsFields ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1af065d31e9ef42dd98ff872dc75da6c58">
+                <title>provideGridListTemplateData ($existingData=[])</title> <emphasis></emphasis>
+                
+<para>Provide the &apos;GridListColumnWidth&apos; field to the <link linkend="d4/d93/class_modular_1_1_grid_list_1_1_grid_list">GridList</link> template data as &apos;limit&apos; and &apos;<link linkend="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length">PageLength</link>&apos; (they may be different eventually)</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$existingData</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1a4bf208904cf3c6eab48168bbe4d6517e">
+                <title>defaultPageLength ()</title> <emphasis></emphasis>
+                
+<para>Returns default page length, which may not be the CMS UI length but the &apos;real&apos; implementation length.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>int </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

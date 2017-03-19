@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique">
+<title>Modular::Extensions::Model::Unique class Reference</title>
+        <simplesect>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>$fieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique_1a400d2844ad369791293baa87cd6ddb05">__construct</link> (
+ $fieldName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique_1af9aa034ad033005279bd790155e683fa">onBeforeWrite</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique_1a400d2844ad369791293baa87cd6ddb05">
+                <title>__construct ($fieldName)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique_1af9aa034ad033005279bd790155e683fa">
+                <title>onBeforeWrite ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

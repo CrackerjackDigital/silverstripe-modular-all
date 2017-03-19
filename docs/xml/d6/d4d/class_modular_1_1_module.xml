@@ -1,0 +1,867 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/d4d/class_modular_1_1_module" kind="class" prot="public">
+    <compoundname>Modular::Module</compoundname>
+    <basecompoundref refid="da/d08/class_modular_1_1_object" prot="public" virt="non-virtual">Object</basecompoundref>
+    <derivedcompoundref refid="d3/d10/class_modular_1_1_application" prot="public" virt="non-virtual">Application</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1a60afe72eaff81ead20d6aee650c5aa57" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FileTypeCSS</definition>
+        <argsstring></argsstring>
+        <name>FileTypeCSS</name>
+        <initializer>= &apos;<ref refid="d6/d4d/class_modular_1_1_module_1a6cebc152365798ab01ad4c886ecdf641" kindref="member">css</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1a5406fc068818199246c3aa04504df062" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FileTypeJavascript</definition>
+        <argsstring></argsstring>
+        <name>FileTypeJavascript</name>
+        <initializer>= &apos;<ref refid="d6/d4d/class_modular_1_1_module_1a4b0cfe7b2ac09305fa45656c179a3993" kindref="member">js</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1a56d58ea651b927b2b656e53347e0f088" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FileTypeJavascriptTemplate</definition>
+        <argsstring></argsstring>
+        <name>FileTypeJavascriptTemplate</name>
+        <initializer>= &apos;<ref refid="d6/d4d/class_modular_1_1_module_1a5af0388a79a0e92bf674b64cb09680ab" kindref="member">jst</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1a314a4d81d174bf240c68a22780ab70f4" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RequirementsTemplateDataExtensionMethod</definition>
+        <argsstring></argsstring>
+        <name>RequirementsTemplateDataExtensionMethod</name>
+        <initializer>= &apos;modularRequirementsTemplateData&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1a22483e05dceb063caa5d22c8dace43a8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const BeforeInit</definition>
+        <argsstring></argsstring>
+        <name>BeforeInit</name>
+        <initializer>= &apos;before&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1a553599025adbf84dc6f54c64b4bad26c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const AfterInit</definition>
+        <argsstring></argsstring>
+        <name>AfterInit</name>
+        <initializer>= &apos;after&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1ac93b60428f8051a147d2c9ecc1497ce5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Block</definition>
+        <argsstring></argsstring>
+        <name>Block</name>
+        <initializer>= &apos;<ref refid="d6/d4d/class_modular_1_1_module_1a8743944d1220d3b31aab2659519199cb" kindref="member">block</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1a1ad91e97e7d3c144ca6048a6c1fa7b16" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const BothInit</definition>
+        <argsstring></argsstring>
+        <name>BothInit</name>
+        <initializer>= &apos;all&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="20" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1a68b641f7e74c6ab83515f2428072637d" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$module_name</definition>
+        <argsstring></argsstring>
+        <name>$module_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="23" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1a79b7807eed186f89749ede5d400c8fa1" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$module_path</definition>
+        <argsstring></argsstring>
+        <name>$module_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="26" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1a244d94e62cffe97e11aa1633b809dfa1" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$requirements</definition>
+        <argsstring></argsstring>
+        <name>$requirements</name>
+        <initializer>= [
+		
+		self::BeforeInit =&gt; [
+			
+			
+			# &apos;components/select2/select2.js&apos;,
+			# &apos;components/select2/select2.js&apos; =&gt; false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="29" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1a668d80b2b47b45ff3fad4c048d798411" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$requirements_path</definition>
+        <argsstring></argsstring>
+        <name>$requirements_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="54" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1ab0bf8ac42a8468786925eb7a6adc668e" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$script_types</definition>
+        <argsstring></argsstring>
+        <name>$script_types</name>
+        <initializer>= [
+		self::FileTypeCSS                =&gt; true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="56" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1ae0a4f7995657eca77f92a27e08cd2e7c" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$combine</definition>
+        <argsstring></argsstring>
+        <name>$combine</name>
+        <initializer>= [
+		self::FileTypeCSS                =&gt; false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="66" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1af200622e3f0f5ce4418ee520d4b5ef28" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$json_encode_options</definition>
+        <argsstring></argsstring>
+        <name>$json_encode_options</name>
+        <initializer>= 288</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="78" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1a139ba5603061d88e3da12466f9410060" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$json_decode_options</definition>
+        <argsstring></argsstring>
+        <name>$json_decode_options</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="80" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d4d/class_modular_1_1_module_1a4076e34ee9a920040af4b432b64e3d54" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$decode_depth</definition>
+        <argsstring></argsstring>
+        <name>$decode_depth</name>
+        <initializer>= 512</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="82" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1adca23664f6595af1254859dec4a884f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static make_safe_path</definition>
+        <argsstring>($path, $fail=false, $createIfNotExists=true)</argsstring>
+        <name>make_safe_path</name>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <param>
+          <declname>$fail</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$createIfNotExists</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check the path is inside the base folder or relative to base folder when safe paths are appended and the real path is resolved.</para><para>e.g. if config.allow_paths = [ &apos;../logs&apos; ] and web root is /var/sites/website/htdocs</para><para>then is_safe_path(&apos;/var/sites/website/logs&apos;) will return true but is_safe_path(&apos;/var/sites/website/conf&apos;) will return false</para><para>by default configuration the assets folder is always a safe path.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(no filename) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$fail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>throw an exception if test fails </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$createIfNotExists</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>create the directory if it doesn&apos;t exist (and is in assets folder only). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool|string path or false if not safe </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>\Modular\Exceptions\Application</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="103" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="103" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1a3e1b304e64e6a784a791fcfc9aaa529e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static log_path</definition>
+        <argsstring>($className=null)</argsstring>
+        <name>log_path</name>
+        <param>
+          <declname>$className</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a directory to put logs in.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$className</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="184" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="184" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1adcefa631050d8f2d9c82aa162c99a51d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static log_file</definition>
+        <argsstring>($className=null)</argsstring>
+        <name>log_file</name>
+        <param>
+          <declname>$className</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a filename without a path to use for logging. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="198" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="198" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1ae47215878a9d80c75708ad0e3935cff6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static requirements</definition>
+        <argsstring>($controller, $when)</argsstring>
+        <name>requirements</name>
+        <param>
+          <declname>$controller</declname>
+        </param>
+        <param>
+          <declname>$when</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds javascript files to requirements based on them ending in &apos;.js&apos; using config.install_dir as base path.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$controller</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$when</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- look at before or after components. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="216" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="216" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1a6c2a967c18bc527fe7a8d195603df1e1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static requirement_path</definition>
+        <argsstring>($path, $baseDir=null)</argsstring>
+        <name>requirement_path</name>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <param>
+          <declname>$baseDir</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return path in suitable format for Requirements either from the module install dir or from web root depending on path staring with &apos;/&apos; or not.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$baseDir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to use building path or null for the current module install dir. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="450" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="450" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1aa9a739d83a32406cd5f4737dc9a85825" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static module_name</definition>
+        <argsstring>()</argsstring>
+        <name>module_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="468" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="468" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1ad165d2c3a8fd6e7ab5236b60abcfa84f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static module_path</definition>
+        <argsstring>($append= &apos;&apos;)</argsstring>
+        <name>module_path</name>
+        <param>
+          <declname>$append</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This should be overriden by/copy-pasted to implementation to provide a default module path to the module, where the module installs relative to site root e.g. &apos;/swipestreak-gallery&apos;. Sadly can&apos;t seem to declare a static method abstract in php without getting an E_STRICT.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$append</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- add this to end of found path </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="482" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="482" bodyend="492"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1a548c021d3c4fe5a3f376c22956b2f65a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static requirements_path</definition>
+        <argsstring>()</argsstring>
+        <name>requirements_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A module&apos;s requirements load from the same base path as the module.</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="499" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="499" bodyend="501"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1ad5636a0d98d1230c9abb8a3a49708fc5" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static include_script_types</definition>
+        <argsstring>($configVariable= &apos;script_types&apos;)</argsstring>
+        <name>include_script_types</name>
+        <param>
+          <declname>$configVariable</declname>
+          <defval>&apos;script_types&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Iterate config.$configVariable map and return map excluding false values and with &apos;true&apos; values as []</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$configVariable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="244" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="244" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1a8743944d1220d3b31aab2659519199cb" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static block</definition>
+        <argsstring>(array $block)</argsstring>
+        <name>block</name>
+        <param>
+          <type>array</type>
+          <declname>$block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Iterate through &apos;block&apos; key in config.requirements and block each script.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map of paths to block. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array of blocked scripts as [&apos;js&apos; =&gt; &apos;path&apos;] type entries </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="264" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="264" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1af3e607da6d8e4c404d1cbf81bcf361c8" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static add_requirements</definition>
+        <argsstring>($controller, array $requirements, $moduleName)</argsstring>
+        <name>add_requirements</name>
+        <param>
+          <declname>$controller</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$requirements</declname>
+        </param>
+        <param>
+          <declname>$moduleName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Iterate through configured requirements and require if:</para><para><itemizedlist>
+<listitem><para>The type (jst, etc from FileTypeABC constants) is enabled</para></listitem><listitem><para>The settings for the file match e.g. the current runtime environment (dev, test etc)</para></listitem><listitem><para>The file exists (this may be loosened once backend requirements can handle non-existant files)</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$controller</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$requirements</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$moduleName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="314" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="314" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1a6cebc152365798ab01ad4c886ecdf641" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static css</definition>
+        <argsstring>($controller, $path)</argsstring>
+        <name>css</name>
+        <param>
+          <declname>$controller</declname>
+        </param>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SilverStripe require CSS</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$controller</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="369" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="369" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1a4b0cfe7b2ac09305fa45656c179a3993" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static js</definition>
+        <argsstring>($controller, $path)</argsstring>
+        <name>js</name>
+        <param>
+          <declname>$controller</declname>
+        </param>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SilverStripe require javascript</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$controller</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="379" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="379" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1a5af0388a79a0e92bf674b64cb09680ab" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static jst</definition>
+        <argsstring>($controller, $path, $info=null)</argsstring>
+        <name>jst</name>
+        <param>
+          <declname>$controller</declname>
+        </param>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <param>
+          <declname>$info</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SilverStripe require javascript template, using self.template_data to gather variables to pass in (which in turn calls extensions on the current controller to get relevant info).</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$controller</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="392" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="392" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1aacc47928bcd26bc30dcf5efee0cc2203" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static combine</definition>
+        <argsstring>(array $requirements, $moduleName)</argsstring>
+        <name>combine</name>
+        <param>
+          <type>array</type>
+          <declname>$requirements</declname>
+        </param>
+        <param>
+          <declname>$moduleName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$requirements</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map of [ &apos;js&apos; =&gt; [javascripts], &apos;css&apos; =&gt; [css files]] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$moduleName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="409" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="409" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4d/class_modular_1_1_module_1a71a7945f17e73f99a675768c01d2796e" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static requirements_template_data</definition>
+        <argsstring>($controller, $fileType, $info= &apos;&apos;)</argsstring>
+        <name>requirements_template_data</name>
+        <param>
+          <declname>$controller</declname>
+        </param>
+        <param>
+          <declname>$fileType</declname>
+        </param>
+        <param>
+          <declname>$info</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return an array of merged results from an extend.modularRequirementsTemplateData call on the current controller.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$controller</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$fileType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e.g. ModularModule::JavascriptTemplateFile constant </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="512" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="512" bodyend="530"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1264">
+        <label>Module</label>
+        <link refid="d6/d4d/class_modular_1_1_module"/>
+        <childnode refid="1265" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1265">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="1265" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1266">
+        <label>Application</label>
+        <link refid="d3/d10/class_modular_1_1_application"/>
+        <childnode refid="1264" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1267">
+        <label>Module</label>
+        <link refid="d6/d4d/class_modular_1_1_module"/>
+        <childnode refid="1268" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1268">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="1268" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/Module.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Module.php" bodystart="7" bodyend="532"/>
+    <listofallmembers>
+      <member refid="d6/d4d/class_modular_1_1_module_1ae0a4f7995657eca77f92a27e08cd2e7c" prot="private" virt="non-virtual"><scope>Modular::Module</scope><name>$combine</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a4076e34ee9a920040af4b432b64e3d54" prot="private" virt="non-virtual"><scope>Modular::Module</scope><name>$decode_depth</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a139ba5603061d88e3da12466f9410060" prot="private" virt="non-virtual"><scope>Modular::Module</scope><name>$json_decode_options</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1af200622e3f0f5ce4418ee520d4b5ef28" prot="private" virt="non-virtual"><scope>Modular::Module</scope><name>$json_encode_options</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a68b641f7e74c6ab83515f2428072637d" prot="private" virt="non-virtual"><scope>Modular::Module</scope><name>$module_name</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a79b7807eed186f89749ede5d400c8fa1" prot="private" virt="non-virtual"><scope>Modular::Module</scope><name>$module_path</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a244d94e62cffe97e11aa1633b809dfa1" prot="private" virt="non-virtual"><scope>Modular::Module</scope><name>$requirements</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a668d80b2b47b45ff3fad4c048d798411" prot="private" virt="non-virtual"><scope>Modular::Module</scope><name>$requirements_path</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1ab0bf8ac42a8468786925eb7a6adc668e" prot="private" virt="non-virtual"><scope>Modular::Module</scope><name>$script_types</name></member>
+      <member refid="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>__invoke</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1af3e607da6d8e4c404d1cbf81bcf361c8" prot="protected" virt="non-virtual"><scope>Modular::Module</scope><name>add_requirements</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a553599025adbf84dc6f54c64b4bad26c" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>AfterInit</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a22483e05dceb063caa5d22c8dace43a8" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>BeforeInit</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a8743944d1220d3b31aab2659519199cb" prot="protected" virt="non-virtual"><scope>Modular::Module</scope><name>block</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1ac93b60428f8051a147d2c9ecc1497ce5" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>Block</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a1ad91e97e7d3c144ca6048a6c1fa7b16" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>BothInit</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1aacc47928bcd26bc30dcf5efee0cc2203" prot="protected" virt="non-virtual"><scope>Modular::Module</scope><name>combine</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a6cebc152365798ab01ad4c886ecdf641" prot="protected" virt="non-virtual"><scope>Modular::Module</scope><name>css</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a60afe72eaff81ead20d6aee650c5aa57" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>FileTypeCSS</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a5406fc068818199246c3aa04504df062" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>FileTypeJavascript</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a56d58ea651b927b2b656e53347e0f088" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>FileTypeJavascriptTemplate</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1ad5636a0d98d1230c9abb8a3a49708fc5" prot="protected" virt="non-virtual"><scope>Modular::Module</scope><name>include_script_types</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a4b0cfe7b2ac09305fa45656c179a3993" prot="protected" virt="non-virtual"><scope>Modular::Module</scope><name>js</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a5af0388a79a0e92bf674b64cb09680ab" prot="protected" virt="non-virtual"><scope>Modular::Module</scope><name>jst</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1adcefa631050d8f2d9c82aa162c99a51d" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>log_file</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a3e1b304e64e6a784a791fcfc9aaa529e" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>log_path</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1adca23664f6595af1254859dec4a884f9" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>make_safe_path</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1aa9a739d83a32406cd5f4737dc9a85825" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>module_name</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1ad165d2c3a8fd6e7ab5236b60abcfa84f" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>module_path</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a6c2a967c18bc527fe7a8d195603df1e1" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>requirement_path</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1ae47215878a9d80c75708ad0e3935cff6" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>requirements</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a548c021d3c4fe5a3f376c22956b2f65a" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>requirements_path</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a71a7945f17e73f99a675768c01d2796e" prot="protected" virt="non-virtual"><scope>Modular::Module</scope><name>requirements_template_data</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a314a4d81d174bf240c68a22780ab70f4" prot="public" virt="non-virtual"><scope>Modular::Module</scope><name>RequirementsTemplateDataExtensionMethod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

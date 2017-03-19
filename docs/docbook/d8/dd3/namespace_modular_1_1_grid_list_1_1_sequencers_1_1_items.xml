@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d8/dd3/namespace_modular_1_1_grid_list_1_1_sequencers_1_1_items">
+<title>Modular::GridList::Sequencers::Items</title>
+        <simplesect>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="dc/d61/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_add_all_filter_items">Modular::GridList::Sequencers::Items::AddAllFilterItems</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first">Modular::GridList::Sequencers::Items::CuratedBlocksFirst</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d5/d5d/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_paginate_by_filters">Modular::GridList::Sequencers::Items::PaginateByFilters</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="df/d83/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_pagination">Modular::GridList::Sequencers::Items::Pagination</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+</section>

@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/d5b/class_modular_1_1_fields_1_1_model_tag" kind="class" prot="public">
+    <compoundname>Modular::Fields::ModelTag</compoundname>
+    <basecompoundref refid="da/d27/class_modular_1_1_fields_1_1_field" prot="public" virt="non-virtual">Field</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1af74d0ba94522656fd2c247bd544e2094" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SingleFieldName</definition>
+        <argsstring></argsstring>
+        <name>SingleFieldName</name>
+        <initializer>= &apos;<ref refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag" kindref="compound">ModelTag</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a6491a8c7fce5c91adf87287607c407a8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SingleFieldSchema</definition>
+        <argsstring></argsstring>
+        <name>SingleFieldSchema</name>
+        <initializer>= &apos;Varchar(64)&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a9ae63ce9a4587eb447dd25f099220dcb" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$sourceFieldName</definition>
+        <argsstring></argsstring>
+        <name>$sourceFieldName</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1ae8080c2006e360bef1dcbe1d817278bb" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$parentIDFieldName</definition>
+        <argsstring></argsstring>
+        <name>$parentIDFieldName</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="20" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a76fa706f5795cecce58d2fbbc137c95a" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$fallbackFieldName</definition>
+        <argsstring></argsstring>
+        <name>$fallbackFieldName</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="21" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a194f176d52c5bb9090cb44e4f28f6cfc" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$can_edit_permissions</definition>
+        <argsstring></argsstring>
+        <name>$can_edit_permissions</name>
+        <initializer>= [&apos;ADMIN&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="23" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a762aa0b17eeefe94a44e2fdf9e6ca53c" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$hierarchical_tag_separator</definition>
+        <argsstring></argsstring>
+        <name>$hierarchical_tag_separator</name>
+        <initializer>= &apos;:&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="25" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a9e9a1ef9719fad9a12c29f0c50255997" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$hierarchical_source_separator</definition>
+        <argsstring></argsstring>
+        <name>$hierarchical_source_separator</name>
+        <initializer>= &apos; &gt; &apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="27" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a340b4667ab68f54a142c6ecbf8629ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($sourceFieldName= &apos;Title&apos;, $parentIDFieldName= &apos;&apos;, $fallbackFieldName= &apos;&apos;)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$sourceFieldName</declname>
+          <defval>&apos;<ref refid="d2/dde/class_modular_1_1_fields_1_1_title" kindref="compound">Title</ref>&apos;</defval>
+        </param>
+        <param>
+          <declname>$parentIDFieldName</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$fallbackFieldName</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag" kindref="compound">ModelTag</ref> constructor can be used in config to set alternate field names as: extensions:<itemizedlist>
+<listitem><para><ref refid="df/df5/namespace_modular" kindref="compound">Modular</ref>(&apos;<ref refid="d2/dde/class_modular_1_1_fields_1_1_title" kindref="compound">Title</ref>&apos;, &apos;ParentID&apos;)</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$sourceFieldName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e.g. &apos;<ref refid="d2/dde/class_modular_1_1_fields_1_1_title" kindref="compound">Title</ref>&apos; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$parentIDFieldName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e.g. &apos;ParentID&apos;, if passed then make the tag distinct within children of the ParentID. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$fallbackFieldName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e.g. &apos;URLSegment&apos;, allow another field to be used on parents if they do not have the <ref refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag" kindref="compound">ModelTag</ref> extension </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="38" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1ad3eec60b4f217a0c87baf84faf65f7f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fieldDecorationTokens</definition>
+        <argsstring>()</argsstring>
+        <name>fieldDecorationTokens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="45" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="45" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1ab0d903791f5643077a5680343b4ab1ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>relatedByClassName</definition>
+        <argsstring>($matchClassNames)</argsstring>
+        <name>relatedByClassName</name>
+        <param>
+          <declname>$matchClassNames</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return all the page models related to this tag (there may be multiple Page Classe attached so iterate through them all)</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>array</parametertype>
+<parametername>$matchClassNames</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>and array of classnames, a class name or a pattern as used by fnmatch, eg. &apos;*Page&apos; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="60" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="60" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a8d2cfef4c500a5a9fbfc9d4bc451c896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getSourceFieldName</definition>
+        <argsstring>()</argsstring>
+        <name>getSourceFieldName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the name of the field on the model used to generate the tag, e.g. the &apos;<ref refid="d2/dde/class_modular_1_1_fields_1_1_title" kindref="compound">Title</ref>&apos; field.</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="92" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1af9aa034ad033005279bd790155e683fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>onBeforeWrite</definition>
+        <argsstring>()</argsstring>
+        <name>onBeforeWrite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the <ref refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag" kindref="compound">ModelTag</ref> field is empty (length 0) then fill it with generated value. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="99" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="99" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a0de7f13cc2c038bfdde8e2102c919a06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HierarchicalModelTag</definition>
+        <argsstring>()</argsstring>
+        <name>HierarchicalModelTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generate a full tag path walking up the chain via parents separated by config.hierarchical_source_separator. If the parent doesn&apos;t have <ref refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag" kindref="compound">ModelTag</ref> extension then self.fallbackFieldName will be used if supplied in extension ctor.</para><para>TODO test/debug this</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="114" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="114" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1abe54681d72f1b972bb437f7ec78b1ab6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HierarchicalSource</definition>
+        <argsstring>()</argsstring>
+        <name>HierarchicalSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generates a full tag path using the models &apos;Source&apos; field (e.g. &apos;<ref refid="d2/dde/class_modular_1_1_fields_1_1_title" kindref="compound">Title</ref>&apos;) instead of the tag field via the ParentID relationship specified in the extension ctor. Components will be separated by config.hierarchical_source_separator</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="138" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="138" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1ad0ccc87f4ea1c9d55d0e0d92b61bf507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ParentID</definition>
+        <argsstring>()</argsstring>
+        <name>ParentID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If a parent ID field name was specfied in extension ctor then return the ParentID value from the extended model.</para><para><simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="161" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="161" bodyend="166"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a8dc40b8f5a6372e5026dc2a938c27ebf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static encode</definition>
+        <argsstring>($value)</argsstring>
+        <name>encode</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encode a value as it would be for a <ref refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag" kindref="compound">ModelTag</ref> (basically a URLSegment) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>String </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="79" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="79" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A field which if blank takes the value of another model field mangled to be same format as a URLSegment. Does not change if the source field changes, only if it is empty. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1258">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1259" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1259">
+        <label>DataExtension</label>
+      </node>
+      <node id="1257">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="1258" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1256">
+        <label>ModelTag</label>
+        <link refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag"/>
+        <childnode refid="1257" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1262">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1263" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1263">
+        <label>DataExtension</label>
+      </node>
+      <node id="1261">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="1262" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1260">
+        <label>ModelTag</label>
+        <link refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag"/>
+        <childnode refid="1261" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/ModelTag.php" bodystart="13" bodyend="214"/>
+    <listofallmembers>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a194f176d52c5bb9090cb44e4f28f6cfc" prot="private" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>$can_edit_permissions</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a76fa706f5795cecce58d2fbbc137c95a" prot="protected" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>$fallbackFieldName</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a9e9a1ef9719fad9a12c29f0c50255997" prot="private" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>$hierarchical_source_separator</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a762aa0b17eeefe94a44e2fdf9e6ca53c" prot="private" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>$hierarchical_tag_separator</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1ae8080c2006e360bef1dcbe1d817278bb" prot="protected" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>$parentIDFieldName</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a9ae63ce9a4587eb447dd25f099220dcb" prot="protected" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>$sourceFieldName</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a340b4667ab68f54a142c6ecbf8629ead" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>__construct</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>addHTMLAttributes</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>class_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6098bb0243f4ce2f8680b3723783300" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>cmsFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>cmsTab</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>configureTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>customFieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>DefaultTabName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a8dc40b8f5a6372e5026dc2a938c27ebf" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>encode</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>extendedFieldNames</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>extraStatics</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>fieldConstraints</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1ad3eec60b4f217a0c87baf84faf65f7f0" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>fieldDecorationTokens</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a8d2cfef4c500a5a9fbfc9d4bc451c896" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>getSourceFieldName</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a0de7f13cc2c038bfdde8e2102c919a06" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>HierarchicalModelTag</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1abe54681d72f1b972bb437f7ec78b1ab6" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>HierarchicalSource</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>labelsForRelatedClass</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1af9aa034ad033005279bd790155e683fa" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>onBeforeWrite</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1ad0ccc87f4ea1c9d55d0e0d92b61bf507" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>ParentID</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1ab0d903791f5643077a5680343b4ab1ed" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>relatedByClassName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>relationship_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>RelationshipName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>setFieldDecorations</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>SingleFieldName</name></member>
+      <member refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>SingleFieldSchema</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>singleFieldValue</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>updateSummaryFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Fields::ModelTag</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

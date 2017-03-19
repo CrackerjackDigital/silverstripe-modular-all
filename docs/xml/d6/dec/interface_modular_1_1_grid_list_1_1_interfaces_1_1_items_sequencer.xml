@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer" kind="interface" prot="public">
+    <compoundname>Modular::GridList::Interfaces::ItemsSequencer</compoundname>
+    <derivedcompoundref refid="dc/d61/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_add_all_filter_items" prot="public" virt="non-virtual">AddAllFilterItems</derivedcompoundref>
+    <derivedcompoundref refid="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first" prot="public" virt="non-virtual">CuratedBlocksFirst</derivedcompoundref>
+    <derivedcompoundref refid="d5/d5d/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_paginate_by_filters" prot="public" virt="non-virtual">PaginateByFilters</derivedcompoundref>
+    <derivedcompoundref refid="df/d83/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_pagination" prot="public" virt="non-virtual">Pagination</derivedcompoundref>
+    <derivedcompoundref refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks" prot="public" virt="non-virtual">HasGridListBlocks</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer_1af369da5e33e03a0e9ea52d07b239e332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sequenceGridListItems</definition>
+        <argsstring>(&amp;$items, $filters, &amp;$parameters=[])</argsstring>
+        <name>sequenceGridListItems</name>
+        <reimplementedby refid="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first_1af369da5e33e03a0e9ea52d07b239e332">sequenceGridListItems</reimplementedby>
+        <reimplementedby refid="dc/d61/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_add_all_filter_items_1af369da5e33e03a0e9ea52d07b239e332">sequenceGridListItems</reimplementedby>
+        <reimplementedby refid="df/d83/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_pagination_1af369da5e33e03a0e9ea52d07b239e332">sequenceGridListItems</reimplementedby>
+        <reimplementedby refid="d5/d5d/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_paginate_by_filters_1af369da5e33e03a0e9ea52d07b239e332">sequenceGridListItems</reimplementedby>
+        <reimplementedby refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks_1af369da5e33e03a0e9ea52d07b239e332">sequenceGridListItems</reimplementedby>
+        <param>
+          <type>&amp;</type>
+          <declname>$items</declname>
+        </param>
+        <param>
+          <declname>$filters</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$parameters</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\ArrayList</parametertype>
+<parametertype>\DataList</parametertype>
+<parametername>$items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$filters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$parameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/ItemsSequencer.php" line="15" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1005">
+        <label>HasGridListBlocks</label>
+        <link refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks"/>
+        <childnode refid="1000" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1004">
+        <label>Pagination</label>
+        <link refid="df/d83/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_pagination"/>
+        <childnode refid="1000" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1003">
+        <label>PaginateByFilters</label>
+        <link refid="d5/d5d/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_paginate_by_filters"/>
+        <childnode refid="1000" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1001">
+        <label>AddAllFilterItems</label>
+        <link refid="dc/d61/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_add_all_filter_items"/>
+        <childnode refid="1000" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1000">
+        <label>ItemsSequencer</label>
+        <link refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer"/>
+      </node>
+      <node id="1002">
+        <label>CuratedBlocksFirst</label>
+        <link refid="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first"/>
+        <childnode refid="1000" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/ItemsSequencer.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/ItemsSequencer.php" bodystart="8" bodyend="16"/>
+    <listofallmembers>
+      <member refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer_1af369da5e33e03a0e9ea52d07b239e332" prot="public" virt="non-virtual"><scope>Modular::GridList::Interfaces::ItemsSequencer</scope><name>sequenceGridListItems</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

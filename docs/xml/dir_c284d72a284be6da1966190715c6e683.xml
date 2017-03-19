@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c284d72a284be6da1966190715c6e683" kind="dir">
+    <compoundname>interfaces</compoundname>
+    <innerfile refid="da/dc1/_filter_constraints_8php">FilterConstraints.php</innerfile>
+    <innerfile refid="dc/d84/_filters_provider_8php">FiltersProvider.php</innerfile>
+    <innerfile refid="df/dee/_filters_sequencer_8php">FiltersSequencer.php</innerfile>
+    <innerfile refid="de/d20/_item_handler_8php">ItemHandler.php</innerfile>
+    <innerfile refid="d6/d25/_items_constraints_8php">ItemsConstraints.php</innerfile>
+    <innerfile refid="df/dd1/_items_provider_8php">ItemsProvider.php</innerfile>
+    <innerfile refid="d1/d87/_items_sequencer_8php">ItemsSequencer.php</innerfile>
+    <innerfile refid="d4/dfe/gridlist_2interfaces_2_service_8php">gridlist/interfaces/Service.php</innerfile>
+    <innerfile refid="d1/db7/_template_data_provider_8php">TemplateDataProvider.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/"/>
+  </compounddef>
+</doxygen>

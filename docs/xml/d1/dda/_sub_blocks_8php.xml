@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/dda/_sub_blocks_8php" kind="file">
+    <compoundname>SubBlocks.php</compoundname>
+    <innerclass refid="d6/d06/class_modular_1_1_blocks_1_1_sub_blocks" prot="public">Modular::Blocks::SubBlocks</innerclass>
+    <innernamespace refid="d2/db0/namespace_modular_1_1_blocks">Modular::Blocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Blocks;</highlight></codeline>
+<codeline lineno="8" refid="d6/d06/class_modular_1_1_blocks_1_1_sub_blocks" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/d06/class_modular_1_1_blocks_1_1_sub_blocks" kindref="compound">SubBlocks</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Block</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/SubBlocks.php"/>
+  </compounddef>
+</doxygen>

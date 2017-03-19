@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="db/dd3/namespace_modular_1_1_extensions_1_1_views" kind="namespace">
+    <compoundname>Modular::Extensions::Views</compoundname>
+    <innerclass refid="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks" prot="public">Modular::Extensions::Views::AddDefaultBlocks</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

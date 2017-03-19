@@ -1,0 +1,1099 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/d27/class_modular_1_1_fields_1_1_field" kind="class" prot="public">
+    <compoundname>Modular::Fields::Field</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+    <derivedcompoundref refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link" prot="public" virt="non-virtual">InternalOrExternalLink</derivedcompoundref>
+    <derivedcompoundref refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type" prot="public" virt="non-virtual">MediaLinkType</derivedcompoundref>
+    <derivedcompoundref refid="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks" prot="public" virt="non-virtual">AddDefaultBlocks</derivedcompoundref>
+    <derivedcompoundref refid="d4/dff/class_modular_1_1_fields_1_1_code" prot="public" virt="non-virtual">Code</derivedcompoundref>
+    <derivedcompoundref refid="de/da5/class_modular_1_1_fields_1_1_content" prot="public" virt="non-virtual">Content</derivedcompoundref>
+    <derivedcompoundref refid="d0/dd8/class_modular_1_1_fields_1_1_date_time_field" prot="public" virt="non-virtual">DateTimeField</derivedcompoundref>
+    <derivedcompoundref refid="db/db5/class_modular_1_1_fields_1_1_display_location" prot="public" virt="non-virtual">DisplayLocation</derivedcompoundref>
+    <derivedcompoundref refid="d4/d2b/class_modular_1_1_fields_1_1_duration" prot="public" virt="non-virtual">Duration</derivedcompoundref>
+    <derivedcompoundref refid="db/db9/class_modular_1_1_fields_1_1_embed_code" prot="public" virt="non-virtual">EmbedCode</derivedcompoundref>
+    <derivedcompoundref refid="db/dda/class_modular_1_1_fields_1_1_external_link" prot="public" virt="non-virtual">ExternalLink</derivedcompoundref>
+    <derivedcompoundref refid="d6/ddf/class_modular_1_1_fields_1_1_external_reference" prot="public" virt="non-virtual">ExternalReference</derivedcompoundref>
+    <derivedcompoundref refid="dd/d4a/class_modular_1_1_fields_1_1_formatted" prot="public" virt="non-virtual">Formatted</derivedcompoundref>
+    <derivedcompoundref refid="da/dad/class_modular_1_1_fields_1_1_grid_list" prot="public" virt="non-virtual">GridList</derivedcompoundref>
+    <derivedcompoundref refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort" prot="public" virt="non-virtual">HiddenSort</derivedcompoundref>
+    <derivedcompoundref refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link" prot="public" virt="non-virtual">InternalLink</derivedcompoundref>
+    <derivedcompoundref refid="dc/dc5/class_modular_1_1_fields_1_1_link_title" prot="public" virt="non-virtual">LinkTitle</derivedcompoundref>
+    <derivedcompoundref refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag" prot="public" virt="non-virtual">ModelTag</derivedcompoundref>
+    <derivedcompoundref refid="d0/d2a/class_modular_1_1_fields_1_1_synopsis" prot="public" virt="non-virtual">Synopsis</derivedcompoundref>
+    <derivedcompoundref refid="d2/d10/class_modular_1_1_fields_1_1_text_content" prot="public" virt="non-virtual">TextContent</derivedcompoundref>
+    <derivedcompoundref refid="d2/dde/class_modular_1_1_fields_1_1_title" prot="public" virt="non-virtual">Title</derivedcompoundref>
+    <derivedcompoundref refid="d1/d32/class_modular_1_1_fields_1_1_uploaded_file" prot="public" virt="non-virtual">UploadedFile</derivedcompoundref>
+    <derivedcompoundref refid="dd/da6/class_modular_1_1_fields_1_1_u_r_l" prot="public" virt="non-virtual">URL</derivedcompoundref>
+    <derivedcompoundref refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field" prot="public" virt="non-virtual">GridField</derivedcompoundref>
+    <derivedcompoundref refid="d4/d5b/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_hide_unmatched_filters" prot="public" virt="non-virtual">HideUnmatchedFilters</derivedcompoundref>
+    <derivedcompoundref refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode" prot="public" virt="non-virtual">Mode</derivedcompoundref>
+    <derivedcompoundref refid="d4/d7f/class_modular_1_1_grid_list_1_1_layout_1_1_column_width" prot="public" virt="non-virtual">ColumnWidth</derivedcompoundref>
+    <derivedcompoundref refid="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping" prot="public" virt="non-virtual">Grouping</derivedcompoundref>
+    <derivedcompoundref refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length" prot="public" virt="non-virtual">PageLength</derivedcompoundref>
+    <derivedcompoundref refid="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters" prot="public" virt="non-virtual">AssociatedFilters</derivedcompoundref>
+    <derivedcompoundref refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages" prot="public" virt="non-virtual">ChildPages</derivedcompoundref>
+    <derivedcompoundref refid="de/d2a/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_related_pages" prot="public" virt="non-virtual">RelatedPages</derivedcompoundref>
+    <derivedcompoundref refid="d8/dc1/class_modular_1_1_link_attribute_field" prot="public" virt="non-virtual">LinkAttributeField</derivedcompoundref>
+    <derivedcompoundref refid="d9/d05/class_modular_1_1_relationships_1_1_has_block" prot="public" virt="non-virtual">HasBlock</derivedcompoundref>
+    <derivedcompoundref refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one" prot="public" virt="non-virtual">HasOne</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="da/d27/class_modular_1_1_fields_1_1_field_1af74d0ba94522656fd2c247bd544e2094" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SingleFieldName</definition>
+        <argsstring></argsstring>
+        <name>SingleFieldName</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="37" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d27/class_modular_1_1_fields_1_1_field_1a6491a8c7fce5c91adf87287607c407a8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SingleFieldSchema</definition>
+        <argsstring></argsstring>
+        <name>SingleFieldSchema</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="38" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d27/class_modular_1_1_fields_1_1_field_1a522cd5b3b15c4a885005cd0919628158" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RelationshipName</definition>
+        <argsstring></argsstring>
+        <name>RelationshipName</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="40" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d27/class_modular_1_1_fields_1_1_field_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DefaultUploadFolderName</definition>
+        <argsstring></argsstring>
+        <name>DefaultUploadFolderName</name>
+        <initializer>= &apos;incoming&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="42" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ValidationRulesConfigVarName</definition>
+        <argsstring></argsstring>
+        <name>ValidationRulesConfigVarName</name>
+        <initializer>= &apos;validation&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="44" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DefaultTabName</definition>
+        <argsstring></argsstring>
+        <name>DefaultTabName</name>
+        <initializer>= &apos;Root.Main&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="46" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="da/d27/class_modular_1_1_fields_1_1_field_1a8bb79024e095e3f5dedb88f36da69eaa" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$time_field_format</definition>
+        <argsstring></argsstring>
+        <name>$time_field_format</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="49" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d27/class_modular_1_1_fields_1_1_field_1ad89377c2897a71120179570e1688f5ee" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$cms_tab_name</definition>
+        <argsstring></argsstring>
+        <name>$cms_tab_name</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="51" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__invoke</definition>
+        <argsstring>()</argsstring>
+        <name>__invoke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If we use invocation we can type-cast the result to a ModularModel</para><para><simplesect kind="return"><para><ref refid="db/d0a/class_modular_1_1_model" kindref="compound">Model</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="58" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1ae6098bb0243f4ce2f8680b3723783300" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cmsFields</definition>
+        <argsstring>()</argsstring>
+        <name>cmsFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Override in concrete classes to provide an array of fields which this extension adds.</para><para>If SingleFieldName and SingleFieldSchema constants are set then will scaffold a suitable for field for them, however complex fields requiring drop-down lists etc won&apos;t be populated.</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="70" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="70" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>extraStatics</definition>
+        <argsstring>($class=null, $extension=null)</argsstring>
+        <name>extraStatics</name>
+        <param>
+          <declname>$class</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$extension</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If static.SingleFieldName &amp;&amp; static.SingleFieldSchema are set add them to db array.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$class</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$extension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="105" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="105" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>updateSummaryFields</definition>
+        <argsstring>(&amp;$fields)</argsstring>
+        <name>updateSummaryFields</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update summary fields to use Label from localisation yml if it exists.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$fields</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="119" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="119" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1a70fc253480af7c86026e73c3b73414f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>singleFieldValue</definition>
+        <argsstring>()</argsstring>
+        <name>singleFieldValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the value of the implemented SingleField on the extended model.</para><para><simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="170" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="170" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>extendedFieldData</definition>
+        <argsstring>()</argsstring>
+        <name>extendedFieldData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a map of fieldname =&gt; value for data relevant to only this extension.</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="181" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="181" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>extendedFieldNames</definition>
+        <argsstring>()</argsstring>
+        <name>extendedFieldNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a numerically keyed map of field names relevant to this extension.</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="194" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="194" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>customFieldConstraints</definition>
+        <argsstring>(FormField $field, array $allFieldConstraints)</argsstring>
+        <name>customFieldConstraints</name>
+        <param>
+          <type>FormField</type>
+          <declname>$field</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$allFieldConstraints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add any additional constraints, display_logic logic etc, this is called by extension on the extended model.</para><para>TODO rename to extendedFieldConstraints</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\FormField</parametertype>
+<parametername>$field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$allFieldConstraints</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="214" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="214" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fieldConstraints</definition>
+        <argsstring>($fieldName, array $defaults=[0, 0, &apos;&apos;])</argsstring>
+        <name>fieldConstraints</name>
+        <param>
+          <declname>$fieldName</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$defaults</declname>
+          <defval>[0</defval>
+        </param>
+        <param>
+          <type>0</type>
+        </param>
+        <param>
+          <type>&apos;&apos;]</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an array of field constraints for the named field as defined in config.validation, so [minlength, maxlength, pattern] or defaults (which is no checks) if not found.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$fieldName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$defaults</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to use if not found in config for that field = no validation performed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="504" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="504" bodyend="524"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cmsTab</definition>
+        <argsstring>()</argsstring>
+        <name>cmsTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the name (path) of the tab in the cms this model&apos;s fields should show under from config.cms_tab_name in:</para><para>this extension or if not set from the extended model or if not set then self.DefaultTabName.</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="93" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setFieldDecorations</definition>
+        <argsstring>(FormField $field)</argsstring>
+        <name>setFieldDecorations</name>
+        <param>
+          <type>FormField</type>
+          <declname>$field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set field decorations, e.g. label, guide information etc</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\FormField</parametertype>
+<parametername>$field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="237" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="237" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addHTMLAttributes</definition>
+        <argsstring>(FormField $field)</argsstring>
+        <name>addHTMLAttributes</name>
+        <param>
+          <type>FormField</type>
+          <declname>$field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add any attributes, e.g. html5 validation, placeholder</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\FormField</parametertype>
+<parametername>$field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="258" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="258" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>valueLength</definition>
+        <argsstring>($value)</argsstring>
+        <name>valueLength</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a stripped out length of a value excluding whitespace and tags.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="419" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="419" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>labelsForRelatedClass</definition>
+        <argsstring>($fieldName)</argsstring>
+        <name>labelsForRelatedClass</name>
+        <param>
+          <declname>$fieldName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If a fieldName is a relationship name then returns a nice label for the remote class name, otherwise empty array. Only handles many_many at the moment.</para><para>TODO: handle has_many and has_one</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$fieldName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array of [singular, plural] names or empty array if not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="432" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="432" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>configureDateField</definition>
+        <argsstring>(DateField $field, $showMultipleFields=true)</argsstring>
+        <name>configureDateField</name>
+        <param>
+          <type>DateField</type>
+          <declname>$field</declname>
+        </param>
+        <param>
+          <declname>$showMultipleFields</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Configure date fields to be in various states as per parameter options.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\DateField</parametertype>
+<parametername>$field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$showMultipleFields</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="462" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="462" bodyend="468"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>configureTimeField</definition>
+        <argsstring>(TimeField $field, $showMultipleFields=true)</argsstring>
+        <name>configureTimeField</name>
+        <param>
+          <type>TimeField</type>
+          <declname>$field</declname>
+        </param>
+        <param>
+          <declname>$showMultipleFields</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\TimeField</parametertype>
+<parametername>$field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$showMultipleFields</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="474" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="474" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>configureDateTimeField</definition>
+        <argsstring>(DatetimeField $field, $showMultipleFields=true)</argsstring>
+        <name>configureDateTimeField</name>
+        <param>
+          <type>DatetimeField</type>
+          <declname>$field</declname>
+        </param>
+        <param>
+          <declname>$showMultipleFields</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Configures the Date and Time fields in the wrapping DatetimeField.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\DatetimeField</parametertype>
+<parametername>$field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$showMultipleFields</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="489" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="489" bodyend="494"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>saveMasterHint</definition>
+        <argsstring>()</argsstring>
+        <name>saveMasterHint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="526" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="526" bodyend="535"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static relationship_name</definition>
+        <argsstring>($fieldName= &apos;&apos;)</argsstring>
+        <name>relationship_name</name>
+        <param>
+          <declname>$fieldName</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the RelationshipName for this field if set, optionally appended with the fieldName as for a relationship.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$fieldName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if supplied will be added on to RelationshipName with a &apos;.&apos; prefix </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="224" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="224" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d27/class_modular_1_1_fields_1_1_field_1aff2d606b28f3c7f7e706b54972315137" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static field_name</definition>
+        <argsstring>($suffix= &apos;&apos;)</argsstring>
+        <name>field_name</name>
+        <param>
+          <declname>$suffix</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="228" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="228" bodyend="230"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="426">
+        <label>HideUnmatchedFilters</label>
+        <link refid="d4/d5b/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_hide_unmatched_filters"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>TextContent</label>
+        <link refid="d2/d10/class_modular_1_1_fields_1_1_text_content"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="421">
+        <label>HasFiles</label>
+        <link refid="d0/ded/class_modular_1_1_relationships_1_1_has_files"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="411">
+        <label>GridField</label>
+        <link refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="436">
+        <label>HasOne</label>
+        <link refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="392">
+        <label>DateTimeField</label>
+        <link refid="d0/dd8/class_modular_1_1_fields_1_1_date_time_field"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="385">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="386" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>Duration</label>
+        <link refid="d4/d2b/class_modular_1_1_fields_1_1_duration"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="419">
+        <label>HasBlocks</label>
+        <link refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="416">
+        <label>HasManyManyGridField</label>
+        <link refid="d4/d77/class_modular_1_1_fields_1_1_has_many_many_grid_field"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="409">
+        <label>UploadedFile</label>
+        <link refid="d1/d32/class_modular_1_1_fields_1_1_uploaded_file"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="386">
+        <label>DataExtension</label>
+      </node>
+      <node id="444">
+        <label>Video</label>
+        <link refid="d0/d7e/class_modular_1_1_fields_1_1_video"/>
+        <childnode refid="442" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="428">
+        <label>ColumnWidth</label>
+        <link refid="d4/d7f/class_modular_1_1_grid_list_1_1_layout_1_1_column_width"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>LinkTitle</label>
+        <link refid="dc/dc5/class_modular_1_1_fields_1_1_link_title"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="434">
+        <label>LinkAttributeField</label>
+        <link refid="d8/dc1/class_modular_1_1_link_attribute_field"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="435">
+        <label>HasBlock</label>
+        <link refid="d9/d05/class_modular_1_1_relationships_1_1_has_block"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="399">
+        <label>Formatted</label>
+        <link refid="dd/d4a/class_modular_1_1_fields_1_1_formatted"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="418">
+        <label>Links</label>
+        <link refid="d7/d8f/class_modular_1_1_fields_1_1_links"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="389">
+        <label>AddDefaultBlocks</label>
+        <link refid="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="439">
+        <label>Image</label>
+        <link refid="d3/d15/class_modular_1_1_fields_1_1_image"/>
+        <childnode refid="437" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="384">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="388">
+        <label>MediaLinkType</label>
+        <link refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="420">
+        <label>HasGridListBlocks</label>
+        <link refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="433">
+        <label>RelatedPages</label>
+        <link refid="de/d2a/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_related_pages"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="415">
+        <label>HasManyMany</label>
+        <link refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many"/>
+        <childnode refid="411" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="442">
+        <label>Media</label>
+        <link refid="d7/d83/class_modular_1_1_fields_1_1_media"/>
+        <childnode refid="437" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="423">
+        <label>HasImages</label>
+        <link refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="405">
+        <label>ModelTag</label>
+        <link refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="408">
+        <label>Title</label>
+        <link refid="d2/dde/class_modular_1_1_fields_1_1_title"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>HasSlides</label>
+        <link refid="d6/d09/class_modular_1_1_relationships_1_1_has_slides"/>
+        <childnode refid="412" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="441">
+        <label>Thumbnail</label>
+        <link refid="df/d0d/class_modular_1_1_fields_1_1_thumbnail"/>
+        <childnode refid="439" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="440">
+        <label>Logo</label>
+        <link refid="d0/d43/class_modular_1_1_fields_1_1_logo"/>
+        <childnode refid="439" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="427">
+        <label>Mode</label>
+        <link refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="398">
+        <label>ExternalReference</label>
+        <link refid="d6/ddf/class_modular_1_1_fields_1_1_external_reference"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="429">
+        <label>Grouping</label>
+        <link refid="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="391">
+        <label>Content</label>
+        <link refid="de/da5/class_modular_1_1_fields_1_1_content"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="387">
+        <label>InternalOrExternalLink</label>
+        <link refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="393">
+        <label>EventDate</label>
+        <link refid="de/d38/class_modular_1_1_fields_1_1_event_date"/>
+        <childnode refid="392" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>Email</label>
+        <link refid="d1/d89/class_modular_1_1_fields_1_1_email"/>
+        <childnode refid="399" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="424">
+        <label>HasRelatedPages</label>
+        <link refid="d1/d52/class_modular_1_1_relationships_1_1_has_related_pages"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="422">
+        <label>HasGridListFilters</label>
+        <link refid="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="432">
+        <label>ChildPages</label>
+        <link refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="412">
+        <label>HasMany</label>
+        <link refid="d0/d54/class_modular_1_1_relationships_1_1_has_many"/>
+        <childnode refid="411" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="397">
+        <label>ExternalLink</label>
+        <link refid="db/dda/class_modular_1_1_fields_1_1_external_link"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="437">
+        <label>File</label>
+        <link refid="d0/d51/class_modular_1_1_fields_1_1_file"/>
+        <childnode refid="436" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="445">
+        <label>Transcript</label>
+        <link refid="df/d00/class_modular_1_1_fields_1_1_transcript"/>
+        <childnode refid="437" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="413">
+        <label>HasLinks</label>
+        <link refid="d8/d14/class_modular_1_1_relationships_1_1_has_links"/>
+        <childnode refid="412" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="401">
+        <label>GridList</label>
+        <link refid="da/dad/class_modular_1_1_fields_1_1_grid_list"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="406">
+        <label>Synopsis</label>
+        <link refid="d0/d2a/class_modular_1_1_fields_1_1_synopsis"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="431">
+        <label>AssociatedFilters</label>
+        <link refid="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="403">
+        <label>InternalLink</label>
+        <link refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="446">
+        <label>HasRelatedPage</label>
+        <link refid="d3/ddb/class_modular_1_1_relationships_1_1_has_related_page"/>
+        <childnode refid="436" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="402">
+        <label>HiddenSort</label>
+        <link refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="390">
+        <label>Code</label>
+        <link refid="d4/dff/class_modular_1_1_fields_1_1_code"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="396">
+        <label>EmbedCode</label>
+        <link refid="db/db9/class_modular_1_1_fields_1_1_embed_code"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="425">
+        <label>HasTags</label>
+        <link refid="de/d13/class_modular_1_1_relationships_1_1_has_tags"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="394">
+        <label>DisplayLocation</label>
+        <link refid="db/db5/class_modular_1_1_fields_1_1_display_location"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="438">
+        <label>Download</label>
+        <link refid="de/dbd/class_modular_1_1_fields_1_1_download"/>
+        <childnode refid="437" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="417">
+        <label>HasManyManyTagField</label>
+        <link refid="d6/dd2/class_modular_1_1_fields_1_1_has_many_many_tag_field"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="430">
+        <label>PageLength</label>
+        <link refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>URL</label>
+        <link refid="dd/da6/class_modular_1_1_fields_1_1_u_r_l"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="443">
+        <label>Audio</label>
+        <link refid="d4/dbd/class_modular_1_1_fields_1_1_audio"/>
+        <childnode refid="442" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="448">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="449" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="449">
+        <label>DataExtension</label>
+      </node>
+      <node id="447">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="448" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" line="32" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Field.php" bodystart="32" bodyend="536"/>
+    <listofallmembers>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ad89377c2897a71120179570e1688f5ee" prot="private" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>$cms_tab_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8bb79024e095e3f5dedb88f36da69eaa" prot="private" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>$time_field_format</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>addHTMLAttributes</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>class_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6098bb0243f4ce2f8680b3723783300" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>cmsFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>cmsTab</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>configureTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>customFieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>DefaultTabName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>extendedFieldNames</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>extraStatics</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>fieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>labelsForRelatedClass</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>relationship_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>RelationshipName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>setFieldDecorations</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>SingleFieldName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>SingleFieldSchema</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>singleFieldValue</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>updateSummaryFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Fields::Field</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

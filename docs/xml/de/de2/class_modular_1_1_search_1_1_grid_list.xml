@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/de2/class_modular_1_1_search_1_1_grid_list" kind="class" prot="public">
+    <compoundname>Modular::Search::GridList</compoundname>
+    <basecompoundref refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list" prot="public" virt="non-virtual">GridList</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/de2/class_modular_1_1_search_1_1_grid_list_1a6d764e0ae041ab1709a930ab346fa935" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SearchTerms</definition>
+        <argsstring>()</argsstring>
+        <name>SearchTerms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/search/GridList.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/GridList.php" bodystart="9" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="593">
+        <label>GridList</label>
+        <link refid="de/de2/class_modular_1_1_search_1_1_grid_list"/>
+        <childnode refid="593" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="594">
+        <label>GridList</label>
+        <link refid="de/de2/class_modular_1_1_search_1_1_grid_list"/>
+        <childnode refid="594" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/search/GridList.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/GridList.php" bodystart="8" bodyend="12"/>
+    <listofallmembers>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>__invoke</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a9a28a026bf21eb0b9f8582aa613d0199" prot="public" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>ActionLink</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a52b4d6b381ac4f287064fe1c9b195efe" prot="public" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>ApplicationServiceClassName</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a7b5a16c794f6a881e100ecb0d87489a8" prot="public" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>CacheHash</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1ac7630a7eec74df5fc8ddae6571c93795" prot="public" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>DefaultPageLength</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a308042c43406a195c5bf8136f0e765dd" prot="protected" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>filters</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1aacf10033ba80db01c97608b4aec8e25b" prot="public" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>GridList</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a616206e9b83ab1a44573699b119c0177" prot="public" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>Mode</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a33499a1c7e82657ddb5e572cf1110200" prot="public" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>ModeGrid</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a37e0008d4484247a455a12ba6a3600aa" prot="public" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>ModeList</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a85ff8d296a4025790e312c4f2b6d8dae" prot="public" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>onAfterInit</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1abe152804322366290014448cf1ccb117" prot="public" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>onBeforeInit</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1aa5aedd47199d4a4c7b9d5e5e510473ac" prot="public" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>PaginatorServiceName</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a974dd4adade87f61d62d9cb835553e31" prot="protected" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>providers</name></member>
+      <member refid="de/de2/class_modular_1_1_search_1_1_grid_list_1a6d764e0ae041ab1709a930ab346fa935" prot="public" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>SearchTerms</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a769bd83ab115cefbbae8b1a95e8580a3" prot="protected" virt="non-virtual"><scope>Modular::Search::GridList</scope><name>templateData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

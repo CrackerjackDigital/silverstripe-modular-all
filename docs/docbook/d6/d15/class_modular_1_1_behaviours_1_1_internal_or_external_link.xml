@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link">
+<title>Modular::Behaviours::InternalOrExternalLink class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const LinkTypeFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $enum_values</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1ab9ae9ef07f0ef2387a06b7555652145a">extraStatics</link> (
+ $class,  $extension)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1ae6098bb0243f4ce2f8680b3723783300">cmsFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1ae6f7d2ecf2e3c8976fe21f8387e9ce08">customFieldConstraints</link> (
+FormField $field, array $allFieldConstraints)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1af49822cc4be110c0dece5c3dac61327d">ResolvedLink</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a5c5e9e6d8cf0b8ce8db575ea6252c96a">LinkText</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a087801c1580495896bd80b2012f4019c">IsExternal</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a873de824f6f27dda90eacca9aeeb0699">IsInternal</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a8a4fdeba90ba3964f9b7bb96f4a37852">linkOptions</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1ab9ae9ef07f0ef2387a06b7555652145a">
+                <title>extraStatics ($class=null, $extension=null)</title> <emphasis></emphasis>
+                
+<para>Add enum definition to config.db for LinkTypeFieldName with field names from Internal and External link fields as options. These are taken via config.enum_values so could be overridden.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$class</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$extension</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1ae6098bb0243f4ce2f8680b3723783300">
+                <title>cmsFields ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1ae6f7d2ecf2e3c8976fe21f8387e9ce08">
+                <title>customFieldConstraints (FormField $field, array $allFieldConstraints)</title> <emphasis></emphasis>
+                
+<para>Show/hide fields using display_logic depending on the LinkType field added by this extension.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$field</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$allFieldConstraints</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1af49822cc4be110c0dece5c3dac61327d">
+                <title>ResolvedLink ()</title> <emphasis></emphasis>
+                
+<para>Returns text of link, either as entered for External or generated from Internal. If Internal an target page isn&apos;t found then returns LinkAttributeExtension.InternalLink.MissingTarget message e.g. &apos;[linked page not found]&apos; type message</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a5c5e9e6d8cf0b8ce8db575ea6252c96a">
+                <title>LinkText ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a087801c1580495896bd80b2012f4019c">
+                <title>IsExternal ()</title> <emphasis></emphasis>
+                
+<para>Usefull for templates to indicate external links</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>bool </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a873de824f6f27dda90eacca9aeeb0699">
+                <title>IsInternal ()</title> <emphasis></emphasis>
+                
+<para>Usefull for templates to indicate indicate links</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>bool </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a8a4fdeba90ba3964f9b7bb96f4a37852">
+                <title>linkOptions ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

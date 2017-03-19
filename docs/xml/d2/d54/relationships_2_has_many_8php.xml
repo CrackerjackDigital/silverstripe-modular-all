@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d2/d54/relationships_2_has_many_8php" kind="file">
+    <compoundname>relationships/HasMany.php</compoundname>
+    <innerclass refid="d0/d54/class_modular_1_1_relationships_1_1_has_many" prot="public">Modular::Relationships::HasMany</innerclass>
+    <innernamespace refid="d6/ddb/namespace_modular_1_1_relationships">Modular::Relationships</innernamespace>
+    <innernamespace refid="d1/d9a/namespace_modular_1_1_grid_field_1_1_grid_field">Modular::GridField::GridField</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Relationships;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field" kindref="compound">Modular\GridField\GridField</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="db/d0a/class_modular_1_1_model" kindref="compound">Modular\Model</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="d0/d54/class_modular_1_1_relationships_1_1_has_many" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d54/class_modular_1_1_relationships_1_1_has_many" kindref="compound">HasMany</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field" kindref="compound">GridField</ref><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="d0/d54/class_modular_1_1_relationships_1_1_has_many_1aaeeea0416334b9aaf0ab8243c7d4ed8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/d54/class_modular_1_1_relationships_1_1_has_many_1aaeeea0416334b9aaf0ab8243c7d4ed8e" kindref="member">GridFieldConfigName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Modular\GridField\HasManyGridFieldConfig&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="d0/d54/class_modular_1_1_relationships_1_1_has_many_1ab9ae9ef07f0ef2387a06b7555652145a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d0/d54/class_modular_1_1_relationships_1_1_has_many_1ab9ae9ef07f0ef2387a06b7555652145a" kindref="member">extraStatics</ref>($class<sp/>=<sp/>null,<sp/>$extension<sp/>=<sp/>null)<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>array_merge_recursive(</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parent::extraStatics($class,<sp/>$extension)<sp/>?:<sp/>[],</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;has_many&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>[</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static::RelationshipName<sp/>=&gt;<sp/>static::RelatedClassName</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasMany.php"/>
+  </compounddef>
+</doxygen>

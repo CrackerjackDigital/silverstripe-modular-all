@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/d0c/class_modular_1_1_helpers_1_1_strings" kind="class" prot="public">
+    <compoundname>Modular::Helpers::Strings</compoundname>
+    <basecompoundref refid="da/d08/class_modular_1_1_object" prot="public" virt="non-virtual">Object</basecompoundref>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/d0c/class_modular_1_1_helpers_1_1_strings_1abf1394eaf60f3d77d07be9a8bf485130" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static detokenise</definition>
+        <argsstring>($string, array $replaceWith)</argsstring>
+        <name>detokenise</name>
+        <param>
+          <declname>$string</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$replaceWith</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Replace {token} in string from provided map of token =&gt; value</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$replaceWith</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/Strings.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/Strings.php" bodystart="17" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a565a2a5a3dc743a0888bba4e2e5e42c2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static decamel</definition>
+        <argsstring>($in, $join= &apos; &apos;)</argsstring>
+        <name>decamel</name>
+        <param>
+          <declname>$in</declname>
+        </param>
+        <param>
+          <declname>$join</declname>
+          <defval>&apos; &apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Given a CamelCASEString returns a &apos;Proper CASE String&apos; preserving acronyms</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$join</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the output string with this, set to &apos;&apos; to get a CamelCASEString again. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/Strings.php" line="41" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/Strings.php" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a20736aa470acffa5469315e073ef1f84" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static desnake</definition>
+        <argsstring>($in, $join= &apos; &apos;)</argsstring>
+        <name>desnake</name>
+        <param>
+          <declname>$in</declname>
+        </param>
+        <param>
+          <declname>$join</declname>
+          <defval>&apos; &apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Given a snake-case-string returns a &apos;Proper Case String&apos;</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$join</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the output string parts with this, set to &apos;&apos; for a CamelCaseString </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/Strings.php" line="52" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/Strings.php" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a952de05cce908a87072d922d51fe23ad" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static class_to_label</definition>
+        <argsstring>($className)</argsstring>
+        <name>class_to_label</name>
+        <param>
+          <declname>$className</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Given a possibly namespaced class name return it as decamelised terminal class name.</para><para>e.g. &apos;&apos; would become &apos;Uber Shimple Dinger&apos;</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$className</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/Strings.php" line="64" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/Strings.php" bodystart="64" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1425">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="1425" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1424">
+        <label>Strings</label>
+        <link refid="d6/d0c/class_modular_1_1_helpers_1_1_strings"/>
+        <childnode refid="1425" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1427">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="1427" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1426">
+        <label>Strings</label>
+        <link refid="d6/d0c/class_modular_1_1_helpers_1_1_strings"/>
+        <childnode refid="1427" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/Strings.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/Strings.php" bodystart="8" bodyend="68"/>
+    <listofallmembers>
+      <member refid="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Helpers::Strings</scope><name>__invoke</name></member>
+      <member refid="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a952de05cce908a87072d922d51fe23ad" prot="public" virt="non-virtual"><scope>Modular::Helpers::Strings</scope><name>class_to_label</name></member>
+      <member refid="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a565a2a5a3dc743a0888bba4e2e5e42c2" prot="public" virt="non-virtual"><scope>Modular::Helpers::Strings</scope><name>decamel</name></member>
+      <member refid="d6/d0c/class_modular_1_1_helpers_1_1_strings_1a20736aa470acffa5469315e073ef1f84" prot="public" virt="non-virtual"><scope>Modular::Helpers::Strings</scope><name>desnake</name></member>
+      <member refid="d6/d0c/class_modular_1_1_helpers_1_1_strings_1abf1394eaf60f3d77d07be9a8bf485130" prot="public" virt="non-virtual"><scope>Modular::Helpers::Strings</scope><name>detokenise</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

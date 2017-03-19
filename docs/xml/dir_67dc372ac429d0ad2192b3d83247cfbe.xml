@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_67dc372ac429d0ad2192b3d83247cfbe" kind="dir">
+    <compoundname>constraints</compoundname>
+    <innerdir refid="dir_0b3473706dde1794524d8820e9552162">filters</innerdir>
+    <innerdir refid="dir_d7712681cffd778cda43ebe825816955">items</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/constraints/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/ddd/class_modular_1_1_grid_list_1_1_controllers_1_1_standalone" kind="class" prot="public">
+    <compoundname>Modular::GridList::Controllers::Standalone</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ContentController</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d8/ddd/class_modular_1_1_grid_list_1_1_controllers_1_1_standalone_1abba8c4c0aa91756f9331c17646f3f1c9" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$url_handlers</definition>
+        <argsstring></argsstring>
+        <name>$url_handlers</name>
+        <initializer>= [
+		&apos;blocks&apos; =&gt; &apos;blocks&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/controllers/Standalone.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/controllers/Standalone.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/ddd/class_modular_1_1_grid_list_1_1_controllers_1_1_standalone_1a6ae7a5d9432eab275cad9174394d6d24" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>static $allowed_actions</definition>
+        <argsstring></argsstring>
+        <name>$allowed_actions</name>
+        <initializer>= [
+		&apos;blocks&apos; =&gt; true
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/controllers/Standalone.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/controllers/Standalone.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1416">
+        <label>Standalone</label>
+        <link refid="d8/ddd/class_modular_1_1_grid_list_1_1_controllers_1_1_standalone"/>
+        <childnode refid="1417" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1417">
+        <label>ContentController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1418">
+        <label>Standalone</label>
+        <link refid="d8/ddd/class_modular_1_1_grid_list_1_1_controllers_1_1_standalone"/>
+        <childnode refid="1419" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1419">
+        <label>ContentController</label>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/controllers/Standalone.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/controllers/Standalone.php" bodystart="12" bodyend="43"/>
+    <listofallmembers>
+      <member refid="d8/ddd/class_modular_1_1_grid_list_1_1_controllers_1_1_standalone_1a6ae7a5d9432eab275cad9174394d6d24" prot="private" virt="non-virtual"><scope>Modular::GridList::Controllers::Standalone</scope><name>$allowed_actions</name></member>
+      <member refid="d8/ddd/class_modular_1_1_grid_list_1_1_controllers_1_1_standalone_1abba8c4c0aa91756f9331c17646f3f1c9" prot="private" virt="non-virtual"><scope>Modular::GridList::Controllers::Standalone</scope><name>$url_handlers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

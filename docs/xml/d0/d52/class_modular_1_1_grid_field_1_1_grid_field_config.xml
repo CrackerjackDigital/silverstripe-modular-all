@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config" kind="class" prot="public">
+    <compoundname>Modular::GridField::GridFieldConfig</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">GridFieldConfig_RelationEditor</basecompoundref>
+    <derivedcompoundref refid="da/d1d/class_modular_1_1_grid_field_1_1_has_links_grid_field_config" prot="public" virt="non-virtual">HasLinksGridFieldConfig</derivedcompoundref>
+    <derivedcompoundref refid="d2/d46/class_modular_1_1_grid_field_1_1_has_many_grid_field_config" prot="public" virt="non-virtual">HasManyGridFieldConfig</derivedcompoundref>
+    <derivedcompoundref refid="d8/df1/class_modular_1_1_grid_field_1_1_has_many_many_grid_field_config" prot="public" virt="non-virtual">HasManyManyGridFieldConfig</derivedcompoundref>
+    <derivedcompoundref refid="df/d95/class_modular_1_1_grid_field_1_1_has_media_grid_field_config" prot="public" virt="non-virtual">HasMediaGridFieldConfig</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a70e4c2270db10b8cb380ce6035357da1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ComponentAddNewButton</definition>
+        <argsstring></argsstring>
+        <name>ComponentAddNewButton</name>
+        <initializer>= &apos;GridFieldAddNewButton&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a563d7b1189241834ca2c7c07193e429c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ComponentAutoCompleter</definition>
+        <argsstring></argsstring>
+        <name>ComponentAutoCompleter</name>
+        <initializer>= &apos;GridFieldAddExistingAutocompleter&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1ad15ffd218009f3069e762b4dab8cbeb7" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$items_per_page</definition>
+        <argsstring></argsstring>
+        <name>$items_per_page</name>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1af98a2bdcca6dbec1321d9b265e212d9a" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$allow_add_new</definition>
+        <argsstring></argsstring>
+        <name>$allow_add_new</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a46057f3464c01eed1cd4dff3827806f5" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$autocomplete</definition>
+        <argsstring></argsstring>
+        <name>$autocomplete</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a305f7b18dce920304db64818988c9ab9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($itemsPerPage=null)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$itemsPerPage</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" bodystart="19" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a9aac7e1475efe923de4e19cc2511f092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__invoke</definition>
+        <argsstring>()</argsstring>
+        <name>__invoke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoking <ref refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config" kindref="compound">GridFieldConfig</ref> returns itself <simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" line="40" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" bodystart="40" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a77eb7482781c6152ac0a85593bf8f2b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static base</definition>
+        <argsstring>()</argsstring>
+        <name>base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" line="44" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" bodystart="44" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="585">
+        <label>HasManyManyGridFieldConfig</label>
+        <link refid="d8/df1/class_modular_1_1_grid_field_1_1_has_many_many_grid_field_config"/>
+        <childnode refid="581" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="582">
+        <label>GridFieldConfig_RelationEditor</label>
+      </node>
+      <node id="584">
+        <label>HasManyGridFieldConfig</label>
+        <link refid="d2/d46/class_modular_1_1_grid_field_1_1_has_many_grid_field_config"/>
+        <childnode refid="581" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="581">
+        <label>GridFieldConfig</label>
+        <link refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="586">
+        <label>HasBlocksGridFieldConfig</label>
+        <link refid="d4/d8e/class_modular_1_1_grid_field_1_1_has_blocks_grid_field_config"/>
+        <childnode refid="585" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="583">
+        <label>HasLinksGridFieldConfig</label>
+        <link refid="da/d1d/class_modular_1_1_grid_field_1_1_has_links_grid_field_config"/>
+        <childnode refid="581" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="588">
+        <label>HasMediaGridFieldConfig</label>
+        <link refid="df/d95/class_modular_1_1_grid_field_1_1_has_media_grid_field_config"/>
+        <childnode refid="581" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="587">
+        <label>HasGridListBlocksGridFieldConfig</label>
+        <link refid="d1/dde/class_modular_1_1_grid_field_1_1_has_grid_list_blocks_grid_field_config"/>
+        <childnode refid="585" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="590">
+        <label>GridFieldConfig_RelationEditor</label>
+      </node>
+      <node id="589">
+        <label>GridFieldConfig</label>
+        <link refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config"/>
+        <childnode refid="590" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/GridFieldConfig.php" bodystart="7" bodyend="47"/>
+    <listofallmembers>
+      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1af98a2bdcca6dbec1321d9b265e212d9a" prot="private" virt="non-virtual"><scope>Modular::GridField::GridFieldConfig</scope><name>$allow_add_new</name></member>
+      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a46057f3464c01eed1cd4dff3827806f5" prot="private" virt="non-virtual"><scope>Modular::GridField::GridFieldConfig</scope><name>$autocomplete</name></member>
+      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1ad15ffd218009f3069e762b4dab8cbeb7" prot="private" virt="non-virtual"><scope>Modular::GridField::GridFieldConfig</scope><name>$items_per_page</name></member>
+      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a305f7b18dce920304db64818988c9ab9" prot="public" virt="non-virtual"><scope>Modular::GridField::GridFieldConfig</scope><name>__construct</name></member>
+      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::GridField::GridFieldConfig</scope><name>__invoke</name></member>
+      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a77eb7482781c6152ac0a85593bf8f2b8" prot="public" virt="non-virtual"><scope>Modular::GridField::GridFieldConfig</scope><name>base</name></member>
+      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a70e4c2270db10b8cb380ce6035357da1" prot="public" virt="non-virtual"><scope>Modular::GridField::GridFieldConfig</scope><name>ComponentAddNewButton</name></member>
+      <member refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a563d7b1189241834ca2c7c07193e429c" prot="public" virt="non-virtual"><scope>Modular::GridField::GridFieldConfig</scope><name>ComponentAutoCompleter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

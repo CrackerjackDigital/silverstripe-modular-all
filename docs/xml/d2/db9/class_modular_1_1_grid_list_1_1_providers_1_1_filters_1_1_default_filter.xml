@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter" kind="class" prot="public">
+    <compoundname>Modular::GridList::Providers::Filters::DefaultFilter</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+    <basecompoundref refid="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider" prot="public" virt="non-virtual">FiltersProvider</basecompoundref>
+    <basecompoundref refid="d7/df8/interface_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider" prot="public" virt="non-virtual">TempleDataProvider</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter_1aa7bd262c3160b8a6aa7549e6c82f9f2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>provideGridListTemplateData</definition>
+        <argsstring>($data=[])</argsstring>
+        <name>provideGridListTemplateData</name>
+        <reimplements refid="d7/df8/interface_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider_1af065d31e9ef42dd98ff872dc75da6c58">provideGridListTemplateData</reimplements>
+        <param>
+          <declname>$existingData</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return an array of additional data to return to the template and make available via the $GridList template variable. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$existingData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>already being provided, is not altered but is for reference, calculations etc </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/filters/DefaultFilter.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/filters/DefaultFilter.php" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter_1a069cb9638bfa654f2cb15b6eaf23a0bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>provideGridListFilters</definition>
+        <argsstring>()</argsstring>
+        <name>provideGridListFilters</name>
+        <reimplements refid="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider_1a069cb9638bfa654f2cb15b6eaf23a0bf">provideGridListFilters</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the current pages default filter</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/filters/DefaultFilter.php" line="28" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/filters/DefaultFilter.php" bodystart="28" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="276">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="277" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="277">
+        <label>DataExtension</label>
+      </node>
+      <node id="278">
+        <label>FiltersProvider</label>
+        <link refid="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider"/>
+      </node>
+      <node id="279">
+        <label>TempleDataProvider</label>
+        <link refid="d7/df8/interface_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider"/>
+      </node>
+      <node id="275">
+        <label>DefaultFilter</label>
+        <link refid="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter"/>
+        <childnode refid="276" relation="public-inheritance">
+        </childnode>
+        <childnode refid="278" relation="public-inheritance">
+        </childnode>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="281">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="282" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="282">
+        <label>DataExtension</label>
+      </node>
+      <node id="283">
+        <label>FiltersProvider</label>
+        <link refid="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider"/>
+      </node>
+      <node id="284">
+        <label>TempleDataProvider</label>
+        <link refid="d7/df8/interface_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider"/>
+      </node>
+      <node id="280">
+        <label>DefaultFilter</label>
+        <link refid="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter"/>
+        <childnode refid="281" relation="public-inheritance">
+        </childnode>
+        <childnode refid="283" relation="public-inheritance">
+        </childnode>
+        <childnode refid="284" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/filters/DefaultFilter.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/filters/DefaultFilter.php" bodystart="16" bodyend="36"/>
+    <listofallmembers>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Filters::DefaultFilter</scope><name>class_name</name></member>
+      <member refid="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter_1a069cb9638bfa654f2cb15b6eaf23a0bf" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Filters::DefaultFilter</scope><name>provideGridListFilters</name></member>
+      <member refid="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter_1aa7bd262c3160b8a6aa7549e6c82f9f2a" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Filters::DefaultFilter</scope><name>provideGridListTemplateData</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Filters::DefaultFilter</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

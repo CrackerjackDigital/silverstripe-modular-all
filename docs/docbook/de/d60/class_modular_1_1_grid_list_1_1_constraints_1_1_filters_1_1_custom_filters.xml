@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters">
+<title>Modular::GridList::Constraints::Filters::CustomFilters class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters_1a069cb9638bfa654f2cb15b6eaf23a0bf">provideGridListFilters</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters_1a069cb9638bfa654f2cb15b6eaf23a0bf">
+                <title>provideGridListFilters ()</title> <emphasis></emphasis>
+                
+<para>Return the current pages config.gridlist_custom_filters if set or empty array. <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

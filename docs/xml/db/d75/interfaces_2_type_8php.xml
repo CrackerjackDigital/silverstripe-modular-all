@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="db/d75/interfaces_2_type_8php" kind="file">
+    <compoundname>interfaces/Type.php</compoundname>
+    <innerclass refid="dd/dc2/interface_modular_1_1_types_1_1_type" prot="public">Modular::Types::Type</innerclass>
+    <innernamespace refid="d6/d9b/namespace_modular_1_1_types">Modular::Types</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Types;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="dd/dc2/interface_modular_1_1_types_1_1_type" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="dd/dc2/interface_modular_1_1_types_1_1_type" kindref="compound">Type</ref><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="dd/dc2/interface_modular_1_1_types_1_1_type_1a8a99c53978895ea5726462ffc1bb44eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/dc2/interface_modular_1_1_types_1_1_type" kindref="compound">Type</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="dd/dc2/interface_modular_1_1_types_1_1_type_1a74fc8d457a9fe7f9dd8c21afc3b5910d" kindref="member">type</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Type.php"/>
+  </compounddef>
+</doxygen>

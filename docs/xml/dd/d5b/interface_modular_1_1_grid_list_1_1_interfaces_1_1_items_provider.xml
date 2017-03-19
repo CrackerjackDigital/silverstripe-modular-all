@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider" kind="interface" prot="public">
+    <compoundname>Modular::GridList::Interfaces::ItemsProvider</compoundname>
+    <derivedcompoundref refid="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters" prot="public" virt="non-virtual">AssociatedFilters</derivedcompoundref>
+    <derivedcompoundref refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages" prot="public" virt="non-virtual">ChildPages</derivedcompoundref>
+    <derivedcompoundref refid="de/d2a/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_related_pages" prot="public" virt="non-virtual">RelatedPages</derivedcompoundref>
+    <derivedcompoundref refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks" prot="public" virt="non-virtual">HasGridListBlocks</derivedcompoundref>
+    <derivedcompoundref refid="d1/d9d/class_modular_1_1_search_1_1_fulltext_provider" prot="public" virt="non-virtual">FulltextProvider</derivedcompoundref>
+    <derivedcompoundref refid="de/dad/class_modular_1_1_search_1_1_tagged_items_provider" prot="public" virt="non-virtual">TaggedItemsProvider</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider_1a2d6bbbaad31a7dae75cff24145feb804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>provideGridListItems</definition>
+        <argsstring>()</argsstring>
+        <name>provideGridListItems</name>
+        <reimplementedby refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages_1a2d6bbbaad31a7dae75cff24145feb804">provideGridListItems</reimplementedby>
+        <reimplementedby refid="de/d2a/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_related_pages_1a2d6bbbaad31a7dae75cff24145feb804">provideGridListItems</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/ItemsProvider.php" line="5" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="997">
+        <label>FulltextProvider</label>
+        <link refid="d1/d9d/class_modular_1_1_search_1_1_fulltext_provider"/>
+        <childnode refid="992" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="992">
+        <label>ItemsProvider</label>
+        <link refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider"/>
+      </node>
+      <node id="996">
+        <label>HasGridListBlocks</label>
+        <link refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks"/>
+        <childnode refid="992" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="998">
+        <label>TaggedItemsProvider</label>
+        <link refid="de/dad/class_modular_1_1_search_1_1_tagged_items_provider"/>
+        <childnode refid="992" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="995">
+        <label>RelatedPages</label>
+        <link refid="de/d2a/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_related_pages"/>
+        <childnode refid="992" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="994">
+        <label>ChildPages</label>
+        <link refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages"/>
+        <childnode refid="992" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="993">
+        <label>AssociatedFilters</label>
+        <link refid="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters"/>
+        <childnode refid="992" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/ItemsProvider.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/ItemsProvider.php" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider_1a2d6bbbaad31a7dae75cff24145feb804" prot="public" virt="non-virtual"><scope>Modular::GridList::Interfaces::ItemsProvider</scope><name>provideGridListItems</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

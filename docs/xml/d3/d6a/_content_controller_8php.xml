@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/d6a/_content_controller_8php" kind="file">
+    <compoundname>ContentController.php</compoundname>
+    <innerclass refid="d0/d69/class_modular_1_1_content_controller_extension" prot="public">Modular::ContentControllerExtension</innerclass>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <innernamespace refid="da/db0/namespace_extension">Extension</innernamespace>
+    <innernamespace refid="d7/d01/namespace_injector">Injector</innernamespace>
+    <innernamespace refid="d5/df6/namespace_modular_1_1_module">Modular::Module</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/>Extension;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>Injector;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="d6/d4d/class_modular_1_1_module" kindref="compound">Modular\Module</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="d0/d69/class_modular_1_1_content_controller_extension" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d69/class_modular_1_1_content_controller_extension" kindref="compound">ContentControllerExtension</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Extension<sp/>{</highlight></codeline>
+<codeline lineno="9" refid="d0/d69/class_modular_1_1_content_controller_extension_1a52b4d6b381ac4f287064fe1c9b195efe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ApplicationServiceClassName<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Application&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="d0/d69/class_modular_1_1_content_controller_extension_1a9aac7e1475efe923de4e19cc2511f092" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d0/d69/class_modular_1_1_content_controller_extension_1a9aac7e1475efe923de4e19cc2511f092" kindref="member">__invoke</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;owner;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="d0/d69/class_modular_1_1_content_controller_extension_1abe152804322366290014448cf1ccb117" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d0/d69/class_modular_1_1_content_controller_extension_1abe152804322366290014448cf1ccb117" kindref="member">onBeforeInit</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>expect<sp/>an<sp/>Application<sp/>object<sp/>derived<sp/>from<sp/>ModularModule<sp/>to<sp/>be<sp/>configured.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Injector::inst()-&gt;create(static::ApplicationServiceClassName)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;requirements($this(),<sp/>Module::BeforeInit);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="d0/d69/class_modular_1_1_content_controller_extension_1a85ff8d296a4025790e312c4f2b6d8dae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d0/d69/class_modular_1_1_content_controller_extension_1a85ff8d296a4025790e312c4f2b6d8dae" kindref="member">onAfterInit</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>expect<sp/>an<sp/>Application<sp/>object<sp/>derived<sp/>from<sp/>ModularModule<sp/>to<sp/>be<sp/>configured.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Injector::inst()-&gt;create(static::ApplicationServiceClassName)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;requirements($this(),<sp/>Module::AfterInit);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="d0/d69/class_modular_1_1_content_controller_extension_1a9a28a026bf21eb0b9f8582aa613d0199" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d0/d69/class_modular_1_1_content_controller_extension_1a9a28a026bf21eb0b9f8582aa613d0199" kindref="member">ActionLink</ref>($action)<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Controller::join_links(</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this()-&gt;Link(),</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$action</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/ContentController.php"/>
+  </compounddef>
+</doxygen>

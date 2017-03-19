@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type">
+<title>Modular::Behaviours::MediaLinkType class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const MediaLinkTypeFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $enum_values</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ab9ae9ef07f0ef2387a06b7555652145a">extraStatics</link> (
+ $class,  $extension)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ae6098bb0243f4ce2f8680b3723783300">cmsFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ae6f7d2ecf2e3c8976fe21f8387e9ce08">customFieldConstraints</link> (
+FormField $field, array $allFieldConstraints)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a427f2e73bb0397a9af1c768dd4e7ddd8">IsExternalLink</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a062e1778621456ed404e24974d21295e">IsMedia</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a4ba52ac750e342730b9398f0c85f7e92">IsEmbedCode</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1abedc2bd1c420c0cfe6bf188fe403b7f3">PlayerLink</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1af49822cc4be110c0dece5c3dac61327d">ResolvedLink</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a530d7d66e45d479ba35f72483983555a">getMediaLink</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ab93673cf05755d740e8e38e40c0b4143">getMediaObject</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Link type field and logic for a model which has an EmbedCode, Media and ExternalLink fields. </para>
+                <para>Definition at line 16 of file MediaLinkType.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>MediaLinkType.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ab9ae9ef07f0ef2387a06b7555652145a">
+                <title>extraStatics ($class=null, $extension=null)</title> <emphasis></emphasis>
+                
+<para>Return static db enum schema definition for the Media and ExternalLink Option constants.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$class</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$extension</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ae6098bb0243f4ce2f8680b3723783300">
+                <title>cmsFields ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ae6f7d2ecf2e3c8976fe21f8387e9ce08">
+                <title>customFieldConstraints (FormField $field, array $allFieldConstraints)</title> <emphasis></emphasis>
+                
+<para>Show/hide External and EnbedCode fields depending on selected <link linkend="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type">MediaLinkType</link>.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$field</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$allFieldConstraints</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a427f2e73bb0397a9af1c768dd4e7ddd8">
+                <title>IsExternalLink ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a062e1778621456ed404e24974d21295e">
+                <title>IsMedia ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a4ba52ac750e342730b9398f0c85f7e92">
+                <title>IsEmbedCode ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1abedc2bd1c420c0cfe6bf188fe403b7f3">
+                <title>PlayerLink ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1af49822cc4be110c0dece5c3dac61327d">
+                <title>ResolvedLink ()</title> <emphasis></emphasis>
+                
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a530d7d66e45d479ba35f72483983555a">
+                <title>getMediaLink ()</title> <emphasis></emphasis>
+                
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ab93673cf05755d740e8e38e40c0b4143">
+                <title>getMediaObject ()</title> <emphasis></emphasis>
+                
+<para><formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+</section>

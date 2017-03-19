@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/dbd/class_modular_1_1_fields_1_1_audio">
+<title>Modular::Fields::Audio class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const DefaultUploadFolderName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allowed_audio_files</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $upload_folder</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/dbd/class_modular_1_1_fields_1_1_audio_1a8e39dcc699945f1cccac319eb2411ff7">Medias</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/dbd/class_modular_1_1_fields_1_1_audio_1ae8f935a5ba4f8cb3435fddfc53953dc4">Audio</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d4/dbd/class_modular_1_1_fields_1_1_audio_1af8b274223f17ca701258a2087851ff21">allowed_files</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>HasAudioField</para>
+
+<para><link linkend="d7/d83/class_modular_1_1_fields_1_1_media">Media</link> </para>
+                <para>Definition at line 11 of file Audio.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Audio.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d4/dbd/class_modular_1_1_fields_1_1_audio_1a8e39dcc699945f1cccac319eb2411ff7">
+                <title>Medias ()</title> <emphasis></emphasis>
+                
+<para>Return a list with only item being the single related image.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d4/dbd/class_modular_1_1_fields_1_1_audio_1ae8f935a5ba4f8cb3435fddfc53953dc4">
+                <title>Audio ()</title> <emphasis></emphasis>
+                
+<para>Return the single related image</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>Image|null </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d4/dbd/class_modular_1_1_fields_1_1_audio_1af8b274223f17ca701258a2087851ff21">
+                <title>static allowed_files ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

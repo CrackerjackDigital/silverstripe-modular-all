@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ffd647313dec2a67f11d12b5fc5d0cba" kind="dir">
+    <compoundname>items</compoundname>
+    <innerfile refid="db/d84/_add_all_filter_items_8php">AddAllFilterItems.php</innerfile>
+    <innerfile refid="d4/da0/_curated_blocks_first_8php">CuratedBlocksFirst.php</innerfile>
+    <innerfile refid="d9/d07/_paginate_by_filters_8php">PaginateByFilters.php</innerfile>
+    <innerfile refid="d3/ddd/sequencers_2items_2_pagination_8php">sequencers/items/Pagination.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/items/"/>
+  </compounddef>
+</doxygen>

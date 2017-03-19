@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="da/dfb/class_modular_1_1_search_1_1_block_extension">
+<title>Modular::Search::BlockExtension class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $fulltext_fields</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="da/dfb/class_modular_1_1_search_1_1_block_extension_1a39b03a00ff3b1708947780dfd2ba0d55">SearchTargets</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="da/dfb/class_modular_1_1_search_1_1_block_extension_1a39b03a00ff3b1708947780dfd2ba0d55">
+                <title>static SearchTargets ()</title> <emphasis></emphasis>
+                
+<para><link linkend="d3/d03/namespace_modular_1_1_search">Search</link> results for a Block are the pages which have this block.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+</section>

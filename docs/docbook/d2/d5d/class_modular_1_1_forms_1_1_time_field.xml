@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d2/d5d/class_modular_1_1_forms_1_1_time_field">
+<title>Modular::Forms::TimeField class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $empty_value</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>$defaultValue</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/d5d/class_modular_1_1_forms_1_1_time_field_1a374a45b98cde717c9722c1eb0ad4814d">setDefaultValue</link> (
+ $defaultValue)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/d5d/class_modular_1_1_forms_1_1_time_field_1a4dbd8b322021941d34c4f8b94cf32d47">dataValue</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Fix an issue where a DataTimeField with an empty time fails to save<programlisting>DateTimeField::179&#32;
+</programlisting> as the date is a string so sprintf fails </para>
+                <para>Definition at line 8 of file TimeField.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>TimeField.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d2/d5d/class_modular_1_1_forms_1_1_time_field_1a374a45b98cde717c9722c1eb0ad4814d">
+                <title>setDefaultValue ($defaultValue)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d2/d5d/class_modular_1_1_forms_1_1_time_field_1a4dbd8b322021941d34c4f8b94cf32d47">
+                <title>dataValue ()</title> <emphasis></emphasis>
+                
+<para>If no time set then return either the default value if set or the configured empty value. <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

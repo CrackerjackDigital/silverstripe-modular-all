@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d0/d69/class_modular_1_1_content_controller_extension">
+<title>Modular::ContentControllerExtension class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ApplicationServiceClassName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/d69/class_modular_1_1_content_controller_extension_1a9aac7e1475efe923de4e19cc2511f092">__invoke</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/d69/class_modular_1_1_content_controller_extension_1abe152804322366290014448cf1ccb117">onBeforeInit</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/d69/class_modular_1_1_content_controller_extension_1a85ff8d296a4025790e312c4f2b6d8dae">onAfterInit</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/d69/class_modular_1_1_content_controller_extension_1a9a28a026bf21eb0b9f8582aa613d0199">ActionLink</link> (
+ $action)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d0/d69/class_modular_1_1_content_controller_extension_1a9aac7e1475efe923de4e19cc2511f092">
+                <title>__invoke ()</title> <emphasis></emphasis>
+                
+<para><formalpara><title>Returns: </title>
+
+<para><link linkend="d6/d68/class_modular_1_1_controller">Controller</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d0/d69/class_modular_1_1_content_controller_extension_1abe152804322366290014448cf1ccb117">
+                <title>onBeforeInit ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d0/d69/class_modular_1_1_content_controller_extension_1a85ff8d296a4025790e312c4f2b6d8dae">
+                <title>onAfterInit ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d0/d69/class_modular_1_1_content_controller_extension_1a9a28a026bf21eb0b9f8582aa613d0199">
+                <title>ActionLink ($action)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

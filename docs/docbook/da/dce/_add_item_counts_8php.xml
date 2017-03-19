@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="da/dce/_add_item_counts_8php">
+    <title>AddItemCounts.php File Reference</title>
+        <simplesect>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d3/d2a/class_modular_1_1_grid_list_1_1_sequencers_1_1_filters_1_1_add_item_counts">Modular::GridList::Sequencers::Filters::AddItemCounts</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title> Namespaces </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="df/d9e/namespace_modular_1_1_grid_list_1_1_sequencers_1_1_filters">Modular::GridList::Sequencers::Filters</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="df/df5/namespace_modular">Modular</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d0/d4d/namespace_modular_1_1_grid_list_1_1_interfaces_1_1_filters_sequencer">Modular::GridList::Interfaces::FiltersSequencer</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d9/d83/namespace_modular_1_1_relationships_1_1_has_tags">Modular::Relationships::HasTags</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Definition in file /mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/filters/AddItemCounts.php</para>
+    </simplesect>
+</section>

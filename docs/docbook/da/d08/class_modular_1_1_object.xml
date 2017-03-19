@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="da/d08/class_modular_1_1_object">
+<title>Modular::Object class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092">__invoke</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092">
+                <title>__invoke ()</title> <emphasis></emphasis>
+                
+<para>Invoking an <link linkend="da/d08/class_modular_1_1_object">Object</link> returns itself. <formalpara><title>Returns: </title>
+
+<para>$this </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters" kind="class" prot="public">
+    <compoundname>Modular::Admin::GridListFilters</compoundname>
+    <basecompoundref refid="df/d5e/class_modular_1_1_admin_1_1_model_admin" prot="public" virt="non-virtual">ModelAdmin</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters_1a24eb78517c7ce15d317b8f3a15418fde" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$allowed_actions</definition>
+        <argsstring></argsstring>
+        <name>$allowed_actions</name>
+        <initializer>= [
+		&apos;EditForm&apos;
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/GridListFilters.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/GridListFilters.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters_1a601575da8f098bf1082313adbacc4f15" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$menu_title</definition>
+        <argsstring></argsstring>
+        <name>$menu_title</name>
+        <initializer>= &apos;<ref refid="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters" kindref="compound">GridListFilters</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/GridListFilters.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/GridListFilters.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters_1a7695769cca5ab4b657734938a55bc1ca" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$url_segment</definition>
+        <argsstring></argsstring>
+        <name>$url_segment</name>
+        <initializer>= &apos;gridlistfilters&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/GridListFilters.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/GridListFilters.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters_1a0f59c4f33cb277a6e04ce3cafdb27e2c" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$managed_models</definition>
+        <argsstring></argsstring>
+        <name>$managed_models</name>
+        <initializer>= [
+		&apos;<ref refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter" kindref="compound">Modular\Models\GridListFilter</ref>&apos;
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/GridListFilters.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/GridListFilters.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters_1ac5d5b1f5203846b4258ec94b4d78717e" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$default_sort</definition>
+        <argsstring></argsstring>
+        <name>$default_sort</name>
+        <initializer>= &apos;Sort&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/GridListFilters.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/GridListFilters.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="626">
+        <label>ModelAdmin</label>
+        <link refid="df/d5e/class_modular_1_1_admin_1_1_model_admin"/>
+        <childnode refid="626" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="625">
+        <label>GridListFilters</label>
+        <link refid="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters"/>
+        <childnode refid="626" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="628">
+        <label>ModelAdmin</label>
+        <link refid="df/d5e/class_modular_1_1_admin_1_1_model_admin"/>
+        <childnode refid="628" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="627">
+        <label>GridListFilters</label>
+        <link refid="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters"/>
+        <childnode refid="628" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/admin/GridListFilters.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/admin/GridListFilters.php" bodystart="7" bodyend="39"/>
+    <listofallmembers>
+      <member refid="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters_1a24eb78517c7ce15d317b8f3a15418fde" prot="private" virt="non-virtual"><scope>Modular::Admin::GridListFilters</scope><name>$allowed_actions</name></member>
+      <member refid="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters_1ac5d5b1f5203846b4258ec94b4d78717e" prot="private" virt="non-virtual"><scope>Modular::Admin::GridListFilters</scope><name>$default_sort</name></member>
+      <member refid="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters_1a0f59c4f33cb277a6e04ce3cafdb27e2c" prot="private" virt="non-virtual"><scope>Modular::Admin::GridListFilters</scope><name>$managed_models</name></member>
+      <member refid="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters_1a601575da8f098bf1082313adbacc4f15" prot="private" virt="non-virtual"><scope>Modular::Admin::GridListFilters</scope><name>$menu_title</name></member>
+      <member refid="d3/df7/class_modular_1_1_admin_1_1_grid_list_filters_1a7695769cca5ab4b657734938a55bc1ca" prot="private" virt="non-virtual"><scope>Modular::Admin::GridListFilters</scope><name>$url_segment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

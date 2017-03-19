@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_058b32ffa764124247008bc920310c9b" kind="dir">
+    <compoundname>fields</compoundname>
+    <innerfile refid="d3/d02/_add_default_blocks_8php">AddDefaultBlocks.php</innerfile>
+    <innerfile refid="d1/d97/fields_2_audio_8php">fields/Audio.php</innerfile>
+    <innerfile refid="d0/d5d/_code_8php">Code.php</innerfile>
+    <innerfile refid="d9/dff/fields_2_content_8php">fields/Content.php</innerfile>
+    <innerfile refid="d3/d7d/_date_field_8php">DateField.php</innerfile>
+    <innerfile refid="d5/da2/_display_location_8php">DisplayLocation.php</innerfile>
+    <innerfile refid="d1/d47/fields_2_download_8php">fields/Download.php</innerfile>
+    <innerfile refid="d2/d1c/_duration_8php">Duration.php</innerfile>
+    <innerfile refid="de/d64/_email_8php">Email.php</innerfile>
+    <innerfile refid="d6/d60/_embed_code_8php">EmbedCode.php</innerfile>
+    <innerfile refid="de/dfb/_event_date_8php">EventDate.php</innerfile>
+    <innerfile refid="df/d2b/_external_link_8php">ExternalLink.php</innerfile>
+    <innerfile refid="de/d9e/_external_reference_8php">ExternalReference.php</innerfile>
+    <innerfile refid="d6/d40/fields_2_file_8php">fields/File.php</innerfile>
+    <innerfile refid="d8/d07/_formatted_8php">Formatted.php</innerfile>
+    <innerfile refid="de/da8/fields_2_grid_list_8php">fields/GridList.php</innerfile>
+    <innerfile refid="df/dd3/_hidden_sort_8php">HiddenSort.php</innerfile>
+    <innerfile refid="d5/dc1/_image_8php">Image.php</innerfile>
+    <innerfile refid="d7/d71/_internal_link_8php">InternalLink.php</innerfile>
+    <innerfile refid="d3/d70/fields_2_links_8php">fields/Links.php</innerfile>
+    <innerfile refid="db/d6f/_link_title_8php">LinkTitle.php</innerfile>
+    <innerfile refid="d5/d27/_logo_8php">Logo.php</innerfile>
+    <innerfile refid="d1/d9d/_many_many_grid_field_8php">ManyManyGridField.php</innerfile>
+    <innerfile refid="d8/d2c/_many_many_tag_field_8php">ManyManyTagField.php</innerfile>
+    <innerfile refid="d6/d82/_media_8php">Media.php</innerfile>
+    <innerfile refid="db/d79/_model_tag_8php">ModelTag.php</innerfile>
+    <innerfile refid="d8/db7/_synopsis_8php">Synopsis.php</innerfile>
+    <innerfile refid="d9/d9d/_text_content_8php">TextContent.php</innerfile>
+    <innerfile refid="dd/df1/_thumbnail_8php">Thumbnail.php</innerfile>
+    <innerfile refid="de/d83/_title_8php">Title.php</innerfile>
+    <innerfile refid="dd/d4c/_transcript_8php">Transcript.php</innerfile>
+    <innerfile refid="d7/d1b/_uploaded_file_8php">UploadedFile.php</innerfile>
+    <innerfile refid="d5/d48/_u_r_l_8php">URL.php</innerfile>
+    <innerfile refid="da/d74/fields_2_video_8php">fields/Video.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="df/d32/namespace_modular_1_1_grid_list_1_1_providers">
+<title>Modular::GridList::Providers</title>
+        <simplesect>
+            <title> Namespaces </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d3/dc3/namespace_modular_1_1_grid_list_1_1_providers_1_1_filters">Modular::GridList::Providers::Filters</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d3/dd2/namespace_modular_1_1_grid_list_1_1_providers_1_1_items">Modular::GridList::Providers::Items</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+</section>

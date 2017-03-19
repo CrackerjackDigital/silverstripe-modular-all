@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/dea/interface_modular_1_1_types_1_1_date_time_type" kind="interface" prot="public">
+    <compoundname>Modular::Types::DateTimeType</compoundname>
+    <basecompoundref refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type" prot="public" virt="non-virtual">EpochType</basecompoundref>
+    <basecompoundref refid="d6/da3/interface_modular_1_1_types_1_1_date_type" prot="public" virt="non-virtual">DateType</basecompoundref>
+    <basecompoundref refid="da/ddc/interface_modular_1_1_types_1_1_time_type" prot="public" virt="non-virtual">TimeType</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="da/dea/interface_modular_1_1_types_1_1_date_time_type_1a8a99c53978895ea5726462ffc1bb44eb" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <initializer>= &apos;DateTime&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/DateTime.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/DateTime.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>DateType</label>
+        <link refid="d6/da3/interface_modular_1_1_types_1_1_date_type"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>EpochType</label>
+        <link refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type"/>
+      </node>
+      <node id="14">
+        <label>TimeType</label>
+        <link refid="da/ddc/interface_modular_1_1_types_1_1_time_type"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>IntType</label>
+        <link refid="dd/d59/interface_modular_1_1_types_1_1_int_type"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>NumericType</label>
+        <link refid="d4/d38/interface_modular_1_1_types_1_1_numeric_type"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Type</label>
+        <link refid="dd/dc2/interface_modular_1_1_types_1_1_type"/>
+      </node>
+      <node id="6">
+        <label>DateTimeType</label>
+        <link refid="da/dea/interface_modular_1_1_types_1_1_date_time_type"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>StringType</label>
+        <link refid="dd/d29/interface_modular_1_1_types_1_1_string_type"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>ValueType</label>
+        <link refid="d2/dab/interface_modular_1_1_types_1_1_value_type"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="17">
+        <label>DateType</label>
+        <link refid="d6/da3/interface_modular_1_1_types_1_1_date_type"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>EpochType</label>
+        <link refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type"/>
+      </node>
+      <node id="23">
+        <label>TimeType</label>
+        <link refid="da/ddc/interface_modular_1_1_types_1_1_time_type"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>IntType</label>
+        <link refid="dd/d59/interface_modular_1_1_types_1_1_int_type"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>NumericType</label>
+        <link refid="d4/d38/interface_modular_1_1_types_1_1_numeric_type"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>Type</label>
+        <link refid="dd/dc2/interface_modular_1_1_types_1_1_type"/>
+      </node>
+      <node id="15">
+        <label>DateTimeType</label>
+        <link refid="da/dea/interface_modular_1_1_types_1_1_date_time_type"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>StringType</label>
+        <link refid="dd/d29/interface_modular_1_1_types_1_1_string_type"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>ValueType</label>
+        <link refid="d2/dab/interface_modular_1_1_types_1_1_value_type"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/DateTime.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/DateTime.php" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1a76b23db8aa5946d741c09aba82485449" prot="public" virt="non-virtual"><scope>Modular::Types::DateTimeType</scope><name>FormatDate</name></member>
+      <member refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1a3ad4bc23bc6fdc214ae0d7ca05154223" prot="public" virt="non-virtual"><scope>Modular::Types::DateTimeType</scope><name>FormatDateTime</name></member>
+      <member refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1abc432578930204101f9620a45dd05a3a" prot="public" virt="non-virtual"><scope>Modular::Types::DateTimeType</scope><name>FormatTime</name></member>
+      <member refid="da/dea/interface_modular_1_1_types_1_1_date_time_type_1a8a99c53978895ea5726462ffc1bb44eb" prot="public" virt="non-virtual"><scope>Modular::Types::DateTimeType</scope><name>Type</name></member>
+      <member refid="dd/dc2/interface_modular_1_1_types_1_1_type_1a74fc8d457a9fe7f9dd8c21afc3b5910d" prot="public" virt="non-virtual"><scope>Modular::Types::DateTimeType</scope><name>type</name></member>
+      <member refid="d2/dab/interface_modular_1_1_types_1_1_value_type_1a4889207020e3a9bd17a77d61f3e8888e" prot="public" virt="non-virtual"><scope>Modular::Types::DateTimeType</scope><name>typedValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/d7f/namespace_modular_1_1_grid_field" kind="namespace">
+    <compoundname>Modular::GridField</compoundname>
+    <innerclass refid="dd/dc9/class_modular_1_1_grid_field_1_1_grid_field_add_new_multi_class_sorted" prot="public">Modular::GridField::GridFieldAddNewMultiClassSorted</innerclass>
+    <innerclass refid="d4/de3/class_modular_1_1_grid_field_1_1_grid_field_orderable_rows" prot="public">Modular::GridField::GridFieldOrderableRows</innerclass>
+    <innerclass refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config" prot="public">Modular::GridField::GridFieldConfig</innerclass>
+    <innerclass refid="d4/d8e/class_modular_1_1_grid_field_1_1_has_blocks_grid_field_config" prot="public">Modular::GridField::HasBlocksGridFieldConfig</innerclass>
+    <innerclass refid="d1/dde/class_modular_1_1_grid_field_1_1_has_grid_list_blocks_grid_field_config" prot="public">Modular::GridField::HasGridListBlocksGridFieldConfig</innerclass>
+    <innerclass refid="da/d1d/class_modular_1_1_grid_field_1_1_has_links_grid_field_config" prot="public">Modular::GridField::HasLinksGridFieldConfig</innerclass>
+    <innerclass refid="d2/d46/class_modular_1_1_grid_field_1_1_has_many_grid_field_config" prot="public">Modular::GridField::HasManyGridFieldConfig</innerclass>
+    <innerclass refid="d8/df1/class_modular_1_1_grid_field_1_1_has_many_many_grid_field_config" prot="public">Modular::GridField::HasManyManyGridFieldConfig</innerclass>
+    <innerclass refid="df/d95/class_modular_1_1_grid_field_1_1_has_media_grid_field_config" prot="public">Modular::GridField::HasMediaGridFieldConfig</innerclass>
+    <innerclass refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field" prot="public">Modular::GridField::GridField</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/components/GridFieldAddNewMultiClassSorted.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

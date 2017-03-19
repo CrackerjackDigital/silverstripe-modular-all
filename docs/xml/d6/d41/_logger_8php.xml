@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/d41/_logger_8php" kind="file">
+    <compoundname>Logger.php</compoundname>
+    <innerclass refid="dd/d06/interface_modular_1_1_interfaces_1_1_logger" prot="public">Modular::Interfaces::Logger</innerclass>
+    <innernamespace refid="d5/d56/namespace_modular_1_1_interfaces">Modular::Interfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Interfaces;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="dd/d06/interface_modular_1_1_interfaces_1_1_logger" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="dd/d06/interface_modular_1_1_interfaces_1_1_logger" kindref="compound">Logger</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="dd/d06/interface_modular_1_1_interfaces_1_1_logger_1a053a54bed3aafbacf775bd921a9add4d" kindref="member">log</ref>($message,<sp/>$facilities,<sp/>$source<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="dd/d06/interface_modular_1_1_interfaces_1_1_logger_1af88c3370a1b278fdb2639e1bbdd207be" kindref="member">level</ref>($level<sp/>=<sp/>null);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Logger.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/d4c/_transcript_8php" kind="file">
+    <compoundname>Transcript.php</compoundname>
+    <innerclass refid="df/d00/class_modular_1_1_fields_1_1_transcript" prot="public">Modular::Fields::Transcript</innerclass>
+    <innernamespace refid="dd/ddb/namespace_modular_1_1_fields">Modular::Fields</innernamespace>
+    <innernamespace refid="d1/d35/namespace_modular_1_1_behaviours_1_1_media_link_type">Modular::Behaviours::MediaLinkType</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Fields;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/>ArrayList;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>FormField;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type" kindref="compound">Modular\Behaviours\MediaLinkType</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="df/df5/namespace_modular_1aab380e91a6e89eb7d572417a59dbdbdc" kindref="member">Modular\upload</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="df/d00/class_modular_1_1_fields_1_1_transcript" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d00/class_modular_1_1_fields_1_1_transcript" kindref="compound">Transcript</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d0/d51/class_modular_1_1_fields_1_1_file" kindref="compound">File</ref><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/><ref refid="df/df5/namespace_modular_1aab380e91a6e89eb7d572417a59dbdbdc" kindref="member">upload</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="df/d00/class_modular_1_1_fields_1_1_transcript_1a522cd5b3b15c4a885005cd0919628158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d00/class_modular_1_1_fields_1_1_transcript_1a522cd5b3b15c4a885005cd0919628158" kindref="member">RelationshipName</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Transcript&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19" refid="df/d00/class_modular_1_1_fields_1_1_transcript_1a2964c9db98d4b1dbdc2d723a67382e11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d00/class_modular_1_1_fields_1_1_transcript_1a2964c9db98d4b1dbdc2d723a67382e11" kindref="member">DefaultUploadFolderName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;transcripts&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$allowed_transcript_files<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;doc&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="df/d00/class_modular_1_1_fields_1_1_transcript_1a3a9131a34c6a816de4e73092f6bfd955" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="df/d00/class_modular_1_1_fields_1_1_transcript_1a3a9131a34c6a816de4e73092f6bfd955" kindref="member">Transcripts</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ArrayList(array_filter([$this-&gt;<ref refid="df/d00/class_modular_1_1_fields_1_1_transcript" kindref="compound">Transcript</ref>()]));</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="df/d00/class_modular_1_1_fields_1_1_transcript_1af8b274223f17ca701258a2087851ff21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="df/d00/class_modular_1_1_fields_1_1_transcript_1af8b274223f17ca701258a2087851ff21" kindref="member">allowed_files</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;allowed_transcript_files&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Transcript.php"/>
+  </compounddef>
+</doxygen>

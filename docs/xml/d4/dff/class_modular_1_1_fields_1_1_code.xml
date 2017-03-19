@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/dff/class_modular_1_1_fields_1_1_code" kind="class" prot="public">
+    <compoundname>Modular::Fields::Code</compoundname>
+    <basecompoundref refid="da/d27/class_modular_1_1_fields_1_1_field" prot="public" virt="non-virtual">Field</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/dff/class_modular_1_1_fields_1_1_code_1a9a62e8b3c3cd97cd45060e8338274bf1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SystemCode</definition>
+        <argsstring></argsstring>
+        <name>SystemCode</name>
+        <initializer>= &apos;_SYS_&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dff/class_modular_1_1_fields_1_1_code_1a08e21a1109e1c5fe1c545e55298abf9e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const CodeFieldName</definition>
+        <argsstring></argsstring>
+        <name>CodeFieldName</name>
+        <initializer>= &apos;<ref refid="d4/dff/class_modular_1_1_fields_1_1_code" kindref="compound">Code</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" line="20" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d4/dff/class_modular_1_1_fields_1_1_code_1a1fa3127fc82f96b1436d871ef02be319" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$db</definition>
+        <argsstring></argsstring>
+        <name>$db</name>
+        <initializer>= [
+		self::CodeFieldName =&gt; &apos;Varchar(5)&apos;
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" line="22" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dff/class_modular_1_1_fields_1_1_code_1a6c818d7753663c5d6567a607a2bafceb" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$augment_enabled</definition>
+        <argsstring></argsstring>
+        <name>$augment_enabled</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" line="30" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/dff/class_modular_1_1_fields_1_1_code_1ae6098bb0243f4ce2f8680b3723783300" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cmsFields</definition>
+        <argsstring>()</argsstring>
+        <name>cmsFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" line="32" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" bodystart="32" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dff/class_modular_1_1_fields_1_1_code_1ae781ba258855f73185fcd3215b3780e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>validate</definition>
+        <argsstring>(ValidationResult $result)</argsstring>
+        <name>validate</name>
+        <param>
+          <type>ValidationResult</type>
+          <declname>$result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prevent duplicate code being entered.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\ValidationResult</parametertype>
+<parametername>$result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array|void </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>\ValidationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" line="52" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" bodystart="52" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dff/class_modular_1_1_fields_1_1_code_1a5efd4d262663f72376e710e4b5f81077" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>augmentSQL</definition>
+        <argsstring>(SQLQuery &amp;$query)</argsstring>
+        <name>augmentSQL</name>
+        <param>
+          <type>SQLQuery &amp;</type>
+          <declname>$query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Don&apos;t show TaxonomyTerms with code of SYSTM unless you&apos;re an <ref refid="d7/d04/namespace_modular_1_1_admin" kindref="compound">Admin</ref> or config.augment_enabled = false <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\SQLQuery</parametertype>
+<parametername>$query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" line="89" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" bodystart="89" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d4/dff/class_modular_1_1_fields_1_1_code_1a293fe0c08340d4b28bbc54ecdb5b7a93" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static augment_enabled</definition>
+        <argsstring>()</argsstring>
+        <name>augment_enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" line="96" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dff/class_modular_1_1_fields_1_1_code_1a482f5dc909e50050074fef5a8901cb35" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static disable_augment</definition>
+        <argsstring>()</argsstring>
+        <name>disable_augment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" line="100" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dff/class_modular_1_1_fields_1_1_code_1a12c270e2c8aed6268a1b1ae031cb16d7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static enable_augment</definition>
+        <argsstring>()</argsstring>
+        <name>enable_augment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" line="104" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" bodystart="104" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d4/dff/class_modular_1_1_fields_1_1_code_1a9b740176fa8c3f2c0d776cbe53f32ab1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static augment_enable</definition>
+        <argsstring>($enabled)</argsstring>
+        <name>augment_enable</name>
+        <param>
+          <declname>$enabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" line="108" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" bodystart="108" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Adds a 5-letter &apos;<ref refid="d4/dff/class_modular_1_1_fields_1_1_code" kindref="compound">Code</ref>&apos; field to the extended model and makes it readonly in CMS, and adds ability for a code of SYSTM to be filtered out via augmentSQL extension call. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="165">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>DataExtension</label>
+      </node>
+      <node id="164">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>Code</label>
+        <link refid="d4/dff/class_modular_1_1_fields_1_1_code"/>
+        <childnode refid="164" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="169">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="170">
+        <label>DataExtension</label>
+      </node>
+      <node id="168">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="169" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="167">
+        <label>Code</label>
+        <link refid="d4/dff/class_modular_1_1_fields_1_1_code"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Code.php" bodystart="18" bodyend="114"/>
+    <listofallmembers>
+      <member refid="d4/dff/class_modular_1_1_fields_1_1_code_1a6c818d7753663c5d6567a607a2bafceb" prot="private" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>$augment_enabled</name></member>
+      <member refid="d4/dff/class_modular_1_1_fields_1_1_code_1a1fa3127fc82f96b1436d871ef02be319" prot="private" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>$db</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>addHTMLAttributes</name></member>
+      <member refid="d4/dff/class_modular_1_1_fields_1_1_code_1a9b740176fa8c3f2c0d776cbe53f32ab1" prot="private" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>augment_enable</name></member>
+      <member refid="d4/dff/class_modular_1_1_fields_1_1_code_1a293fe0c08340d4b28bbc54ecdb5b7a93" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>augment_enabled</name></member>
+      <member refid="d4/dff/class_modular_1_1_fields_1_1_code_1a5efd4d262663f72376e710e4b5f81077" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>augmentSQL</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>class_name</name></member>
+      <member refid="d4/dff/class_modular_1_1_fields_1_1_code_1ae6098bb0243f4ce2f8680b3723783300" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>cmsFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>cmsTab</name></member>
+      <member refid="d4/dff/class_modular_1_1_fields_1_1_code_1a08e21a1109e1c5fe1c545e55298abf9e" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>CodeFieldName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>configureTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>customFieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>DefaultTabName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="d4/dff/class_modular_1_1_fields_1_1_code_1a482f5dc909e50050074fef5a8901cb35" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>disable_augment</name></member>
+      <member refid="d4/dff/class_modular_1_1_fields_1_1_code_1a12c270e2c8aed6268a1b1ae031cb16d7" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>enable_augment</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>extendedFieldNames</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>extraStatics</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>fieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>labelsForRelatedClass</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>relationship_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>RelationshipName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>setFieldDecorations</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>SingleFieldName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>SingleFieldSchema</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>singleFieldValue</name></member>
+      <member refid="d4/dff/class_modular_1_1_fields_1_1_code_1a9a62e8b3c3cd97cd45060e8338274bf1" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>SystemCode</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>updateSummaryFields</name></member>
+      <member refid="d4/dff/class_modular_1_1_fields_1_1_code_1ae781ba258855f73185fcd3215b3780e2" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>validate</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Fields::Code</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

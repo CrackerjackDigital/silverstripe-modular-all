@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/db1/_grid_list_item_8php" kind="file">
+    <compoundname>GridListItem.php</compoundname>
+    <innerclass refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item" prot="public">Modular::GridList::GridListItem</innerclass>
+    <innernamespace refid="de/d4d/namespace_modular_1_1_grid_list">Modular::GridList</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridList;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">Modular\ModelExtension</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters" kindref="compound">Modular\Relationships\HasGridListFilters</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item" kindref="compound">GridListItem</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">ModelExtension</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1adff1fe04d816de27741b4c3f0ffea1f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1adff1fe04d816de27741b4c3f0ffea1f5" kindref="member">GridListItem</ref>($columns<sp/>=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$filterTags<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($this()-&gt;hasExtension(<ref refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" kindref="member">HasGridListFilters::class_name</ref>()))<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$filterTags<sp/>=<sp/>$this-&gt;<ref refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1a3b1b1a60ec6174f70dc629ac023467e8" kindref="member">FilterTags</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$template<sp/>=<sp/>$this-&gt;</highlight><highlight class="keyword">template</highlight><highlight class="normal">();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this()-&gt;renderWith($template,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>\ArrayData([</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;Columns&apos;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>=&gt;<sp/>$columns,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;FilterTags&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$filterTags,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;Hash&apos;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/>md5($this()-&gt;ClassName<sp/>.<sp/>$this()-&gt;ID),</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]));</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1a3b1b1a60ec6174f70dc629ac023467e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1a3b1b1a60ec6174f70dc629ac023467e8" kindref="member">FilterTags</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>implode(</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">,<sp/>array_merge(</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this()-&gt;{<ref refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a50807616ae6f8a7b80f444cdb186f0e5" kindref="member">HasGridListFilters::relationship_name</ref>()}()-&gt;column(</highlight><highlight class="stringliteral">&apos;ModelTag&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this()-&gt;hasMethod(</highlight><highlight class="stringliteral">&apos;customFilterTags&apos;</highlight><highlight class="normal">)<sp/>?<sp/>$this()-&gt;customFilterTags()<sp/>:<sp/>[]</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>));</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1a0b54c9d3801b331b75487ef78d98c06b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">()<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$mode<sp/>=<sp/>GridList::service()-&gt;mode();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$template<sp/>=<sp/>$this()-&gt;config()-&gt;</highlight><highlight class="keyword">get</highlight><highlight class="normal">(</highlight><highlight class="stringliteral">&apos;gridlist_template&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$template<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;GridList/&quot;</highlight><highlight class="normal"><sp/>.<sp/>$this()-&gt;ClassName;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;$template&quot;</highlight><highlight class="normal"><sp/>.<sp/></highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal"><sp/>.<sp/>$mode;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridListItem.php"/>
+  </compounddef>
+</doxygen>

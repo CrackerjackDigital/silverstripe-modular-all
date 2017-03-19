@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_62f0f8b22d80c9a58d9a3ffaeff974fb" kind="dir">
+    <compoundname>traits</compoundname>
+    <innerfile refid="d7/dac/epoch_8php">epoch.php</innerfile>
+    <innerfile refid="da/d62/urn_8php">urn.php</innerfile>
+    <innerfile refid="da/de3/value_8php">value.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular-types/code/traits/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service" kind="interface" prot="public">
+    <compoundname>Modular::GridList::Interfaces::Service::Service</compoundname>
+    <derivedcompoundref refid="da/d3f/class_modular_1_1_grid_list_1_1_service" prot="public" virt="non-virtual">Service</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service_1a26d97963c5c6b5a6005fea26fbefd45d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>constraint</definition>
+        <argsstring>($name)</argsstring>
+        <name>constraint</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a particular constraint, such as a query or url parameter, generally calls through to filter</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/Service.php" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service_1ae086fd4b125c3af434b5bbac0cfa1f98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Filters</definition>
+        <argsstring>()</argsstring>
+        <name>Filters</name>
+        <reimplementedby refid="da/d3f/class_modular_1_1_grid_list_1_1_service_1ae086fd4b125c3af434b5bbac0cfa1f98">Filters</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a <ref refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints" kindref="compound">Constraints</ref> object, which we call Filters here as we like to be confusing.</para><para><simplesect kind="return"><para><ref refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints" kindref="compound">Constraints</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/Service.php" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service_1ad9c08c1428473eb8e79b93d40b1ffdef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>filterLink</definition>
+        <argsstring>($params)</argsstring>
+        <name>filterLink</name>
+        <reimplementedby refid="da/d3f/class_modular_1_1_grid_list_1_1_service_1ad9c08c1428473eb8e79b93d40b1ffdef">filterLink</reimplementedby>
+        <param>
+          <declname>$params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a link to current page (or a dedicated filters page) with filters applied</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/Service.php" line="29" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1378">
+        <label>Service</label>
+        <link refid="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service"/>
+        <childnode refid="1378" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/Service.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/Service.php" bodystart="6" bodyend="31"/>
+    <listofallmembers>
+      <member refid="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service_1a26d97963c5c6b5a6005fea26fbefd45d" prot="public" virt="non-virtual"><scope>Modular::GridList::Interfaces::Service::Service</scope><name>constraint</name></member>
+      <member refid="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service_1ad9c08c1428473eb8e79b93d40b1ffdef" prot="public" virt="non-virtual"><scope>Modular::GridList::Interfaces::Service::Service</scope><name>filterLink</name></member>
+      <member refid="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service_1ae086fd4b125c3af434b5bbac0cfa1f98" prot="public" virt="non-virtual"><scope>Modular::GridList::Interfaces::Service::Service</scope><name>Filters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

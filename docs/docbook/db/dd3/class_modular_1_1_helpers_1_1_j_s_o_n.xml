@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n">
+<title>Modular::Helpers::JSON class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $json_encode_options</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $json_decode_options</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $objects_as_arrays</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $decode_depth</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a0a6340295e09ed93f63f3f42ae3c4006">json_encode_options</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a14bd7023b7285e461f8ac04e5d9c82d9">json_decode_options</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a2e91ceea8912dbc2050d6abc6e885ca5">encode</link> (
+ $data,  $optionsOverride)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1ae3253c7e82f5caec76b53759634f8bf2">template_encode</link> (
+ $data)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1ae8335fd228287b41f7705e94cd591080">decode</link> (
+ $data,  $returnArrayForObject)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a0a6340295e09ed93f63f3f42ae3c4006">
+                <title>static json_encode_options ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a14bd7023b7285e461f8ac04e5d9c82d9">
+                <title>static json_decode_options ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1a2e91ceea8912dbc2050d6abc6e885ca5">
+                <title>static encode ($data, $optionsOverride=[])</title> <emphasis></emphasis>
+                
+<para>Json encode the data</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$data</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$optionsOverride</entry>
+                                <entry>
+<para>override default options </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1ae3253c7e82f5caec76b53759634f8bf2">
+                <title>static template_encode ($data)</title> <emphasis></emphasis>
+                
+<para>Encode to a json string suitable for emitting as a template variable.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$data</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n_1ae8335fd228287b41f7705e94cd591080">
+                <title>static decode ($data, $returnArrayForObject=null)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

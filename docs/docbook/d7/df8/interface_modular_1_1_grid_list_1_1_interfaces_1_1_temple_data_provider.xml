@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d7/df8/interface_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider">
+<title>Modular::GridList::Interfaces::TempleDataProvider interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d7/df8/interface_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider_1af065d31e9ef42dd98ff872dc75da6c58">provideGridListTemplateData</link> (
+ $existingData)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d7/df8/interface_modular_1_1_grid_list_1_1_interfaces_1_1_temple_data_provider_1af065d31e9ef42dd98ff872dc75da6c58">
+                <title>provideGridListTemplateData ($existingData=[])</title> <emphasis></emphasis>
+                
+<para>Return an array of additional data to return to the template and make available via the $GridList template variable. 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$existingData</entry>
+                                <entry>
+<para>already being provided, is not altered but is for reference, calculations etc </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

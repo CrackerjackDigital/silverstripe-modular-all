@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/d0e/class_modular_1_1_extensions_1_1_controller_1_1_grid_list_links">
+<title>Modular::Extensions::Controller::GridListLinks class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/d0e/class_modular_1_1_extensions_1_1_controller_1_1_grid_list_links_1a989d70e66810bf98da69cf5b897ac394">GridListActionLink</link> (
+ $action)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Provides links to a <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link> either for filtering or as an action such as &apos;clear&apos;. This is removed from <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link> as it may go on pages which link to the gridlist but do not themselves have a <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link>. The <link linkend="de/d4d/namespace_modular_1_1_grid_list">GridList</link> maintains state so cannot be added to all pages which need these links.</para>
+
+<para><link linkend="d4/d0e/class_modular_1_1_extensions_1_1_controller_1_1_grid_list_links">GridListLinks</link> </para>
+                <para>Definition at line 16 of file GridListLinks.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>GridListLinks.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d4/d0e/class_modular_1_1_extensions_1_1_controller_1_1_grid_list_links_1a989d70e66810bf98da69cf5b897ac394">
+                <title>GridListActionLink ($action)</title> <emphasis></emphasis>
+                
+<para>Return the link for a valid gridlist action, e.g. clear, setmode etc</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$action</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

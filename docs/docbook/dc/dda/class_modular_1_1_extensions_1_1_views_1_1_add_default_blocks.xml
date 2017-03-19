@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks">
+<title>Modular::Extensions::Views::AddDefaultBlocks class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SingleFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SingleFieldSchema</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $default_blocks</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1a8fca9768cde36f8a0c00e4968568d172">cmsTab</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1af9aa034ad033005279bd790155e683fa">onBeforeWrite</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1a71828546cecd2c0d353aa23a4ae146d0">getDefaultBlockClasses</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1a8fca9768cde36f8a0c00e4968568d172">
+                <title>cmsTab ()</title> <emphasis></emphasis>
+                
+<para>Add controls to the same tab as the blocks. <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1af9aa034ad033005279bd790155e683fa">
+                <title>onBeforeWrite ()</title> <emphasis></emphasis>
+                
+<para>If the &apos;add default blocks&apos; checkbox was not set (ie not checked in UI) then set it to 0 on the model </para>
+
+            </section>
+            <section xml:id="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1a71828546cecd2c0d353aa23a4ae146d0">
+                <title>getDefaultBlockClasses ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="df/d0d/class_modular_1_1_fields_1_1_thumbnail">
+<title>Modular::Fields::Thumbnail class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelationshipName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const DefaultUploadFolderName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allowed_thumbnail_files</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $upload_folder</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="df/d0d/class_modular_1_1_fields_1_1_thumbnail_1a4c44dbedb10e746f31e42f9c2a46a67b">Thumbnail</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="df/d0d/class_modular_1_1_fields_1_1_thumbnail_1ac05528763342a08a135c2575d6f1110c">Thumbnails</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="df/d0d/class_modular_1_1_fields_1_1_thumbnail_1a4c44dbedb10e746f31e42f9c2a46a67b">
+                <title>Thumbnail ()</title> <emphasis></emphasis>
+                
+<para>Return the single related image, shouldn&apos;t really get here as the extended model&apos;s field accessor should be called first.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>Image|null </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="df/d0d/class_modular_1_1_fields_1_1_thumbnail_1ac05528763342a08a135c2575d6f1110c">
+                <title>Thumbnails ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

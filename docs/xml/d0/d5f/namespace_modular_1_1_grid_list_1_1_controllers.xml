@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d0/d5f/namespace_modular_1_1_grid_list_1_1_controllers" kind="namespace">
+    <compoundname>Modular::GridList::Controllers</compoundname>
+    <innerclass refid="d8/ddd/class_modular_1_1_grid_list_1_1_controllers_1_1_standalone" prot="public">Modular::GridList::Controllers::Standalone</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/controllers/Standalone.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

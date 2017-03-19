@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/d05/class_modular_1_1_relationships_1_1_has_block" kind="class" prot="public">
+    <compoundname>Modular::Relationships::HasBlock</compoundname>
+    <basecompoundref refid="da/d27/class_modular_1_1_fields_1_1_field" prot="public" virt="non-virtual">Field</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d9/d05/class_modular_1_1_relationships_1_1_has_block_1a522cd5b3b15c4a885005cd0919628158" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RelationshipName</definition>
+        <argsstring></argsstring>
+        <name>RelationshipName</name>
+        <initializer>= &apos;<ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Block</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d05/class_modular_1_1_relationships_1_1_has_block_1a2c75aba911f65b5a6c59583a2c20eb97" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const BlockClassName</definition>
+        <argsstring></argsstring>
+        <name>BlockClassName</name>
+        <initializer>= &apos;<ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Modular\Blocks\Block</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d05/class_modular_1_1_relationships_1_1_has_block_1abc0c12443f79591f8f9bbb41678bda83" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RelationshipFieldName</definition>
+        <argsstring></argsstring>
+        <name>RelationshipFieldName</name>
+        <initializer>= &apos;BlockID&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d05/class_modular_1_1_relationships_1_1_has_block_1a537661047d7ecfb1916cde7809c392a6" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const BlockTypeFieldName</definition>
+        <argsstring></argsstring>
+        <name>BlockTypeFieldName</name>
+        <initializer>= &apos;BlockType&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" line="24" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d05/class_modular_1_1_relationships_1_1_has_block_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>extraStatics</definition>
+        <argsstring>($class=null, $extension=null)</argsstring>
+        <name>extraStatics</name>
+        <param>
+          <declname>$class</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$extension</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" line="26" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" bodystart="26" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d05/class_modular_1_1_relationships_1_1_has_block_1af86f0f134c932d518ca9945976233d71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getBlockType</definition>
+        <argsstring>()</argsstring>
+        <name>getBlockType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the value from passed BlockType field or the class name of the current associated block </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" line="41" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d05/class_modular_1_1_relationships_1_1_has_block_1ae6098bb0243f4ce2f8680b3723783300" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cmsFields</definition>
+        <argsstring>()</argsstring>
+        <name>cmsFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add the BlockType dropdown selector for the extended model. <simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" line="49" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" bodystart="49" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d05/class_modular_1_1_relationships_1_1_has_block_1a1ca9d3ae29b4d05e52e53ee5bf3ef635" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>validate</definition>
+        <argsstring>(ValidationResult $validationResult)</argsstring>
+        <name>validate</name>
+        <param>
+          <type>ValidationResult</type>
+          <declname>$validationResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check we either have an associated block already or if BlockType has been passed in as value on extended model e.g. from CMS form submission.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\ValidationResult</parametertype>
+<parametername>$validationResult</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array|void </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>\ValidationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" line="70" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" bodystart="70" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class which adds a single block to a model </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="651">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="652" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="652">
+        <label>DataExtension</label>
+      </node>
+      <node id="649">
+        <label>HasBlock</label>
+        <link refid="d9/d05/class_modular_1_1_relationships_1_1_has_block"/>
+        <childnode refid="650" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="650">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="651" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="655">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="656" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="656">
+        <label>DataExtension</label>
+      </node>
+      <node id="653">
+        <label>HasBlock</label>
+        <link refid="d9/d05/class_modular_1_1_relationships_1_1_has_block"/>
+        <childnode refid="654" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="654">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="655" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlock.php" bodystart="16" bodyend="151"/>
+    <listofallmembers>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>addHTMLAttributes</name></member>
+      <member refid="d9/d05/class_modular_1_1_relationships_1_1_has_block_1a2c75aba911f65b5a6c59583a2c20eb97" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>BlockClassName</name></member>
+      <member refid="d9/d05/class_modular_1_1_relationships_1_1_has_block_1a537661047d7ecfb1916cde7809c392a6" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>BlockTypeFieldName</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>class_name</name></member>
+      <member refid="d9/d05/class_modular_1_1_relationships_1_1_has_block_1ae6098bb0243f4ce2f8680b3723783300" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>cmsFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>cmsTab</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>configureTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>customFieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>DefaultTabName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>extendedFieldNames</name></member>
+      <member refid="d9/d05/class_modular_1_1_relationships_1_1_has_block_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>extraStatics</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>fieldConstraints</name></member>
+      <member refid="d9/d05/class_modular_1_1_relationships_1_1_has_block_1af86f0f134c932d518ca9945976233d71" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>getBlockType</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>labelsForRelatedClass</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>relationship_name</name></member>
+      <member refid="d9/d05/class_modular_1_1_relationships_1_1_has_block_1abc0c12443f79591f8f9bbb41678bda83" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>RelationshipFieldName</name></member>
+      <member refid="d9/d05/class_modular_1_1_relationships_1_1_has_block_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>RelationshipName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>setFieldDecorations</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>SingleFieldName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>SingleFieldSchema</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>singleFieldValue</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>updateSummaryFields</name></member>
+      <member refid="d9/d05/class_modular_1_1_relationships_1_1_has_block_1a1ca9d3ae29b4d05e52e53ee5bf3ef635" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>validate</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlock</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

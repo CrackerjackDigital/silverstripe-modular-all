@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/d3c/class_log_output_writer" kind="class" prot="public">
+    <compoundname>LogOutputWriter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Zend_Log_Writer_Abstract</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dd/d3c/class_log_output_writer_1aa1d20926fdd74e575de6e11581c0404a" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$messageType</definition>
+        <argsstring></argsstring>
+        <name>$messageType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d3c/class_log_output_writer_1a7a50b57ca538643ea51309fd8263cc5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($messageType)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$messageType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" bodystart="6" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="dd/d3c/class_log_output_writer_1a2dd4310985be9135975edb3a419cae43" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_write</definition>
+        <argsstring>($event)</argsstring>
+        <name>_write</name>
+        <param>
+          <declname>$event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write a message to the output buffer, if cli append an eol, if not append a html break then eol.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>log data event </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" bodystart="16" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/d3c/class_log_output_writer_1a59055480c522814955ef7d73c494ddbd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static factory</definition>
+        <argsstring>($messageType=3)</argsstring>
+        <name>factory</name>
+        <param>
+          <declname>$messageType</declname>
+          <defval>3</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct a Zend_Log driver</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$messageType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of message to log </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Zend_Log_FactoryInterface </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" line="28" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" bodystart="28" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1111">
+        <label>Zend_Log_Writer_Abstract</label>
+      </node>
+      <node id="1110">
+        <label>LogOutputWriter</label>
+        <link refid="dd/d3c/class_log_output_writer"/>
+        <childnode refid="1111" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1113">
+        <label>Zend_Log_Writer_Abstract</label>
+      </node>
+      <node id="1112">
+        <label>LogOutputWriter</label>
+        <link refid="dd/d3c/class_log_output_writer"/>
+        <childnode refid="1113" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" line="2" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/helpers/LogOutputWriter.php" bodystart="2" bodyend="31"/>
+    <listofallmembers>
+      <member refid="dd/d3c/class_log_output_writer_1aa1d20926fdd74e575de6e11581c0404a" prot="private" virt="non-virtual"><scope>LogOutputWriter</scope><name>$messageType</name></member>
+      <member refid="dd/d3c/class_log_output_writer_1a7a50b57ca538643ea51309fd8263cc5b" prot="public" virt="non-virtual"><scope>LogOutputWriter</scope><name>__construct</name></member>
+      <member refid="dd/d3c/class_log_output_writer_1a2dd4310985be9135975edb3a419cae43" prot="protected" virt="non-virtual"><scope>LogOutputWriter</scope><name>_write</name></member>
+      <member refid="dd/d3c/class_log_output_writer_1a59055480c522814955ef7d73c494ddbd" prot="public" virt="non-virtual"><scope>LogOutputWriter</scope><name>factory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

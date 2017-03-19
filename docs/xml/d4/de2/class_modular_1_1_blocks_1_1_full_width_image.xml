@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/de2/class_modular_1_1_blocks_1_1_full_width_image" kind="class" prot="public">
+    <compoundname>Modular::Blocks::FullWidthImage</compoundname>
+    <basecompoundref refid="d2/df7/class_modular_1_1_blocks_1_1_block" prot="public" virt="non-virtual">Block</basecompoundref>
+    <basecompoundref refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery" prot="public" virt="non-virtual">Imagery</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d4/de2/class_modular_1_1_blocks_1_1_full_width_image_1a23e5e57745a9266738fc0ce5877c8221" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$allowed_files</definition>
+        <argsstring></argsstring>
+        <name>$allowed_files</name>
+        <initializer>= &apos;image&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/FullWidthImage.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/FullWidthImage.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/de2/class_modular_1_1_blocks_1_1_full_width_image_1a788148fc60b7fc6649031535178cfb30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Images</definition>
+        <argsstring>()</argsstring>
+        <name>Images</name>
+        <reimplements refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery_1a788148fc60b7fc6649031535178cfb30">Images</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a list of images (potentially only one) or an empty list. <simplesect kind="return"><para>SS_List </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/FullWidthImage.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/FullWidthImage.php" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/de2/class_modular_1_1_blocks_1_1_full_width_image_1a66d0d6da3b89580352c28d37b57df5bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Image</definition>
+        <argsstring>()</argsstring>
+        <name>Image</name>
+        <reimplements refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery_1a66d0d6da3b89580352c28d37b57df5bb">Image</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a single image (potentially the first of a list), or null <simplesect kind="return"><para>Image|null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/FullWidthImage.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/FullWidthImage.php" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/de2/class_modular_1_1_blocks_1_1_full_width_image_1a42ee9ec85fd1465adb4607121c77c98d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>allowedFileTypes</definition>
+        <argsstring>($configVarName= &apos;allowed_files&apos;)</argsstring>
+        <name>allowedFileTypes</name>
+        <param>
+          <declname>$configVarName</declname>
+          <defval>&apos;allowed_files&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/FullWidthImage.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/FullWidthImage.php" bodystart="19" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="544">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="545" relation="public-inheritance">
+        </childnode>
+        <childnode refid="547" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="543">
+        <label>FullWidthImage</label>
+        <link refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image"/>
+        <childnode refid="544" relation="public-inheritance">
+        </childnode>
+        <childnode refid="548" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="545">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="546" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="547">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="546">
+        <label>DataObject</label>
+      </node>
+      <node id="548">
+        <label>Imagery</label>
+        <link refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="550">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="551" relation="public-inheritance">
+        </childnode>
+        <childnode refid="553" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="549">
+        <label>FullWidthImage</label>
+        <link refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image"/>
+        <childnode refid="550" relation="public-inheritance">
+        </childnode>
+        <childnode refid="554" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="551">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="552" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="553">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="552">
+        <label>DataObject</label>
+      </node>
+      <node id="554">
+        <label>Imagery</label>
+        <link refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery"/>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/FullWidthImage.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/FullWidthImage.php" bodystart="7" bodyend="22"/>
+    <listofallmembers>
+      <member refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image_1a23e5e57745a9266738fc0ce5877c8221" prot="private" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>$allowed_files</name></member>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>__invoke</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a3c1dc9072f2299e603adead7442dc292" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>addCustomFilterTag</name></member>
+      <member refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image_1a42ee9ec85fd1465adb4607121c77c98d" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>allowedFileTypes</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a08f89083c824bbd479a24cfb1e7ce27c" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>block_class</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1ae0fb8218cf6d7cfc1030e51c4a45025d" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>BlockType</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a7e15a611df09446ea2342e5a544a218a" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>BlockZones</name></member>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>class_name</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a585a237c4434f0c97e0a93dd02d7e314" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>customFilterTags</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1afbdde13fe4d3c5da5bce82cd0758d00e" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>DisplayInContent</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0de6dd724bf06b0f08dbdeee9bd4c80d" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>DisplayInSidebar</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1af8ff16e3b7863d38779fcf1006b9e40a" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>forTemplate</name></member>
+      <member refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image_1a66d0d6da3b89580352c28d37b57df5bb" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>Image</name></member>
+      <member refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image_1a788148fc60b7fc6649031535178cfb30" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>Images</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a5c5e9e6d8cf0b8ce8db575ea6252c96a" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>LinkText</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a08282d6de720a402d9b2136ddb9531f2" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>LinkType</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1af30563a728019e2a175da6b4ef1ce4e6" prot="public" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>PageClassName</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0b54c9d3801b331b75487ef78d98c06b" prot="protected" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>template</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a166f874fbbbfadabb7055aa9f5bea328" prot="protected" virt="non-virtual"><scope>Modular::Blocks::FullWidthImage</scope><name>templates</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

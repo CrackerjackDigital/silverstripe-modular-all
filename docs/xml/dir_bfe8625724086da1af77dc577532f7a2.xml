@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_bfe8625724086da1af77dc577532f7a2" kind="dir">
+    <compoundname>controllers</compoundname>
+    <innerfile refid="d1/dbe/_standalone_8php">Standalone.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/controllers/"/>
+  </compounddef>
+</doxygen>

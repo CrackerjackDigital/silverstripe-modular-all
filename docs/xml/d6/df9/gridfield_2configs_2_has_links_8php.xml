@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/df9/gridfield_2configs_2_has_links_8php" kind="file">
+    <compoundname>gridfield/configs/HasLinks.php</compoundname>
+    <innerclass refid="da/d1d/class_modular_1_1_grid_field_1_1_has_links_grid_field_config" prot="public">Modular::GridField::HasLinksGridFieldConfig</innerclass>
+    <innernamespace refid="d3/d7f/namespace_modular_1_1_grid_field">Modular::GridField</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridField;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">use<sp/><ref refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many" kindref="compound">Modular\Relationships\HasManyMany</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="da/d1d/class_modular_1_1_grid_field_1_1_has_links_grid_field_config" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/d1d/class_modular_1_1_grid_field_1_1_has_links_grid_field_config" kindref="compound">HasLinksGridFieldConfig</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config" kindref="compound">GridFieldConfig</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$add_new_multi_class<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/configs/HasLinks.php"/>
+  </compounddef>
+</doxygen>

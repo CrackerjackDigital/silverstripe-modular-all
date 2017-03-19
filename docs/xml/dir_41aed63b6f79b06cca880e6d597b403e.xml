@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_41aed63b6f79b06cca880e6d597b403e" kind="dir">
+    <compoundname>blocks</compoundname>
+    <innerdir refid="dir_2850cc77465583273d647fc9b2604107">user</innerdir>
+    <innerfile refid="db/d89/_block_8php">Block.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/"/>
+  </compounddef>
+</doxygen>

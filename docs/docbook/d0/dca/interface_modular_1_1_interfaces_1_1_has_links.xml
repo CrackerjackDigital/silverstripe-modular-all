@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d0/dca/interface_modular_1_1_interfaces_1_1_has_links">
+<title>Modular::Interfaces::HasLinks interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dca/interface_modular_1_1_interfaces_1_1_has_links_1ac8524f93cac27b574abc42cc54774d41">LinkInfo</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d0/dca/interface_modular_1_1_interfaces_1_1_has_links_1ac8524f93cac27b574abc42cc54774d41">
+                <title>LinkInfo ()</title> <emphasis></emphasis>
+                
+<para>Returns a list of links, if model has a single link then that will be first element of the list.</para>
+
+<para>Links are returned as ArrayData objects with: <formalpara><title>Link = text of link to the model, page file or external link as text</title></formalpara>
+</para>
+
+<para><formalpara><title>Title = the title of the link if it can be found</title></formalpara>
+</para>
+
+<para><formalpara><title><link linkend="d1/d20/interface_modular_1_1_interfaces_1_1_link_type">LinkType</link> = e.g. &apos;File&apos;, &apos;Image&apos;, &apos;Video&apos;, &apos;Audio&apos;, &apos;ExternalLink&apos;, &apos;Page&apos; etc returned via implementation of the <link linkend="d1/d20/interface_modular_1_1_interfaces_1_1_link_type">LinkType</link> interface</title></formalpara>
+</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+</section>

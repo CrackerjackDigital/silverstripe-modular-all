@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/dba/class_modular_1_1_workflows_1_1_model_extension" kind="class" prot="public">
+    <compoundname>Modular::Workflows::ModelExtension</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1ab24a077fa7f52c9e296e28d89741771f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const AuthorGroup</definition>
+        <argsstring></argsstring>
+        <name>AuthorGroup</name>
+        <initializer>= &apos;content-authors&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a33d4f55fc22258239247a97a4de81550" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PublisherGroup</definition>
+        <argsstring></argsstring>
+        <name>PublisherGroup</name>
+        <initializer>= &apos;content-publishers&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a41a08c6d43ca8c85d70bb839c07c74c2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ActionEdit</definition>
+        <argsstring></argsstring>
+        <name>ActionEdit</name>
+        <initializer>= &apos;edit&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a403d3583f967939059ec77cb8d4421e3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ActionView</definition>
+        <argsstring></argsstring>
+        <name>ActionView</name>
+        <initializer>= &apos;view&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a5f0bd46449dcb9b3961f6d3f1dbca2de" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$view_groups</definition>
+        <argsstring></argsstring>
+        <name>$view_groups</name>
+        <initializer>= [
+		self::AuthorGroup    =&gt; true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a0031c5ae78cb45c2d4b124ae8d4748d5" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$edit_groups</definition>
+        <argsstring></argsstring>
+        <name>$edit_groups</name>
+        <initializer>= [
+		self::AuthorGroup    =&gt; true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a4238cc526e8e1218b47cbf52d18ce689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>canDoIt</definition>
+        <argsstring>($what, $member=null)</argsstring>
+        <name>canDoIt</name>
+        <param>
+          <declname>$what</declname>
+        </param>
+        <param>
+          <declname>$member</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" line="21" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" bodystart="21" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a6762f348ffabfaab43d7b863c4927418" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>canCreate</definition>
+        <argsstring>($member=null)</argsstring>
+        <name>canCreate</name>
+        <param>
+          <declname>$member</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" line="33" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a57d9c9e456c077ae320537136b742e51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>canView</definition>
+        <argsstring>($member=null)</argsstring>
+        <name>canView</name>
+        <param>
+          <declname>$member</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" line="37" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a24c1f104c9245852cbf4dbb42bea3648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>canEdit</definition>
+        <argsstring>($member)</argsstring>
+        <name>canEdit</name>
+        <param>
+          <declname>$member</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" line="41" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1ab89c4d1df1bd7c1d7b4d7943651b23f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>canDelete</definition>
+        <argsstring>($member)</argsstring>
+        <name>canDelete</name>
+        <param>
+          <declname>$member</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" line="45" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1aa6a6796ecd4562f884a12836bc1a42f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>canViewVersioned</definition>
+        <argsstring>($member=null)</argsstring>
+        <name>canViewVersioned</name>
+        <param>
+          <declname>$member</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" line="49" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" bodystart="49" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1254">
+        <label>ModelExtension</label>
+        <link refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension"/>
+        <childnode refid="1254" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1255">
+        <label>ModelExtension</label>
+        <link refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension"/>
+        <childnode refid="1255" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/workflows/ModelExtension.php" bodystart="4" bodyend="53"/>
+    <listofallmembers>
+      <member refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a0031c5ae78cb45c2d4b124ae8d4748d5" prot="private" virt="non-virtual"><scope>Modular::Workflows::ModelExtension</scope><name>$edit_groups</name></member>
+      <member refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a5f0bd46449dcb9b3961f6d3f1dbca2de" prot="private" virt="non-virtual"><scope>Modular::Workflows::ModelExtension</scope><name>$view_groups</name></member>
+      <member refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a41a08c6d43ca8c85d70bb839c07c74c2" prot="public" virt="non-virtual"><scope>Modular::Workflows::ModelExtension</scope><name>ActionEdit</name></member>
+      <member refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a403d3583f967939059ec77cb8d4421e3" prot="public" virt="non-virtual"><scope>Modular::Workflows::ModelExtension</scope><name>ActionView</name></member>
+      <member refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1ab24a077fa7f52c9e296e28d89741771f" prot="public" virt="non-virtual"><scope>Modular::Workflows::ModelExtension</scope><name>AuthorGroup</name></member>
+      <member refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a6762f348ffabfaab43d7b863c4927418" prot="public" virt="non-virtual"><scope>Modular::Workflows::ModelExtension</scope><name>canCreate</name></member>
+      <member refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1ab89c4d1df1bd7c1d7b4d7943651b23f1" prot="public" virt="non-virtual"><scope>Modular::Workflows::ModelExtension</scope><name>canDelete</name></member>
+      <member refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a4238cc526e8e1218b47cbf52d18ce689" prot="public" virt="non-virtual"><scope>Modular::Workflows::ModelExtension</scope><name>canDoIt</name></member>
+      <member refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a24c1f104c9245852cbf4dbb42bea3648" prot="public" virt="non-virtual"><scope>Modular::Workflows::ModelExtension</scope><name>canEdit</name></member>
+      <member refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a57d9c9e456c077ae320537136b742e51" prot="public" virt="non-virtual"><scope>Modular::Workflows::ModelExtension</scope><name>canView</name></member>
+      <member refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1aa6a6796ecd4562f884a12836bc1a42f6" prot="public" virt="non-virtual"><scope>Modular::Workflows::ModelExtension</scope><name>canViewVersioned</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Workflows::ModelExtension</scope><name>class_name</name></member>
+      <member refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a33d4f55fc22258239247a97a4de81550" prot="public" virt="non-virtual"><scope>Modular::Workflows::ModelExtension</scope><name>PublisherGroup</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Workflows::ModelExtension</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

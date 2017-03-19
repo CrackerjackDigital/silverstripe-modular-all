@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="de/d2a/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_related_pages">
+<title>Modular::GridList::Providers::Items::RelatedPages class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SingleFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SingleFieldSchema</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $defaults</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="de/d2a/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_related_pages_1a2d6bbbaad31a7dae75cff24145feb804">provideGridListItems</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="de/d2a/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_related_pages_1a2d6bbbaad31a7dae75cff24145feb804">
+                <title>provideGridListItems ()</title> <emphasis></emphasis>
+                
+<para>Use the &apos;related&apos; method to return related pages.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

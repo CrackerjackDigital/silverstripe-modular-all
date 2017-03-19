@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/d34/search_2_service_8php" kind="file">
+    <compoundname>search/Service.php</compoundname>
+    <innerclass refid="da/db7/class_modular_1_1_search_1_1_service" prot="public">Modular::Search::Service</innerclass>
+    <innernamespace refid="d3/d03/namespace_modular_1_1_search">Modular::Search</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Search;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="da/db7/class_modular_1_1_search_1_1_service" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/db7/class_modular_1_1_search_1_1_service" kindref="compound">Service</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="da/d3f/class_modular_1_1_grid_list_1_1_service" kindref="compound">\Modular\GridList\Service</ref><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="da/db7/class_modular_1_1_search_1_1_service_1aec22c9c641148cbdb6967ba1d53f4fb8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="da/db7/class_modular_1_1_search_1_1_service_1aec22c9c641148cbdb6967ba1d53f4fb8" kindref="member">FiltersClassName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Modular\Search\Constraints&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/search/Service.php"/>
+  </compounddef>
+</doxygen>

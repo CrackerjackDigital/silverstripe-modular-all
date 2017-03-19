@@ -1,0 +1,12 @@
+INPUT ../modular-blocks
+INPUT ../modular-build
+INPUT ../modular-fields
+INPUT ../modular-graph
+INPUT ../modular-gridlist
+INPUT ../modular-gridlist-block
+INPUT ../modular-gridlist-search
+INPUT ../modular-search
+INPUT ../modular-search-blocks
+INPUT ../modular-social
+INPUT ../modular-types
+INPUT ../modular-workflows

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique" kind="class" prot="public">
+    <compoundname>Modular::Extensions::Model::Unique</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique_1a2ce59b48f748de9ca6a35bedc021a6d3" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$fieldName</definition>
+        <argsstring></argsstring>
+        <name>$fieldName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Unique.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Unique.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique_1a400d2844ad369791293baa87cd6ddb05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($fieldName)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$fieldName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Unique.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Unique.php" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique_1af9aa034ad033005279bd790155e683fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>onBeforeWrite</definition>
+        <argsstring>()</argsstring>
+        <name>onBeforeWrite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Unique.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Unique.php" bodystart="14" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1519">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1520" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1520">
+        <label>DataExtension</label>
+      </node>
+      <node id="1518">
+        <label>Unique</label>
+        <link refid="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique"/>
+        <childnode refid="1519" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1522">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1523" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1523">
+        <label>DataExtension</label>
+      </node>
+      <node id="1521">
+        <label>Unique</label>
+        <link refid="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique"/>
+        <childnode refid="1522" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Unique.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/model/Unique.php" bodystart="6" bodyend="25"/>
+    <listofallmembers>
+      <member refid="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique_1a2ce59b48f748de9ca6a35bedc021a6d3" prot="private" virt="non-virtual"><scope>Modular::Extensions::Model::Unique</scope><name>$fieldName</name></member>
+      <member refid="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique_1a400d2844ad369791293baa87cd6ddb05" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::Unique</scope><name>__construct</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::Unique</scope><name>class_name</name></member>
+      <member refid="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique_1af9aa034ad033005279bd790155e683fa" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::Unique</scope><name>onBeforeWrite</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Extensions::Model::Unique</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

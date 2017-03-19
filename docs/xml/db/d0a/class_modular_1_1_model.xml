@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="db/d0a/class_modular_1_1_model" kind="class" prot="public">
+    <compoundname>Modular::Model</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DataObject</basecompoundref>
+    <derivedcompoundref refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter" prot="public" virt="non-virtual">GridListFilter</derivedcompoundref>
+    <derivedcompoundref refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link" prot="public" virt="non-virtual">InternalOrExternalLink</derivedcompoundref>
+    <derivedcompoundref refid="d8/dce/class_modular_1_1_models_1_1_slide" prot="public" virt="non-virtual">Slide</derivedcompoundref>
+    <derivedcompoundref refid="d9/d7f/class_modular_1_1_models_1_1_tag" prot="public" virt="non-virtual">Tag</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__invoke</definition>
+        <argsstring>()</argsstring>
+        <name>__invoke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoking a model returns itself. <simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Model.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Model.php" bodystart="12" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static class_name</definition>
+        <argsstring>()</argsstring>
+        <name>class_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Model.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Model.php" bodystart="16" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1156">
+        <label>GridListFilter</label>
+        <link refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter"/>
+        <childnode refid="1154" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1155">
+        <label>DataObject</label>
+      </node>
+      <node id="1157">
+        <label>InternalOrExternalLink</label>
+        <link refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link"/>
+        <childnode refid="1154" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1158">
+        <label>Slide</label>
+        <link refid="d8/dce/class_modular_1_1_models_1_1_slide"/>
+        <childnode refid="1154" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1154">
+        <label>Model</label>
+        <link refid="db/d0a/class_modular_1_1_model"/>
+        <childnode refid="1155" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1159">
+        <label>Tag</label>
+        <link refid="d9/d7f/class_modular_1_1_models_1_1_tag"/>
+        <childnode refid="1154" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1161">
+        <label>DataObject</label>
+      </node>
+      <node id="1160">
+        <label>Model</label>
+        <link refid="db/d0a/class_modular_1_1_model"/>
+        <childnode refid="1161" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/Model.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Model.php" bodystart="4" bodyend="19"/>
+    <listofallmembers>
+      <member refid="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Model</scope><name>__invoke</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Model</scope><name>class_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

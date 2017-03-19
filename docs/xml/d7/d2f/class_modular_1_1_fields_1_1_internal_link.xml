@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/d2f/class_modular_1_1_fields_1_1_internal_link" kind="class" prot="public">
+    <compoundname>Modular::Fields::InternalLink</compoundname>
+    <basecompoundref refid="da/d27/class_modular_1_1_fields_1_1_field" prot="public" virt="non-virtual">Field</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/d2f/class_modular_1_1_fields_1_1_internal_link_1a1942eb70de5458ea2b27cab10ae87da5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const InternalLinkOption</definition>
+        <argsstring></argsstring>
+        <name>InternalLinkOption</name>
+        <initializer>= &apos;<ref refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link" kindref="compound">InternalLink</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/InternalLink.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/InternalLink.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d2f/class_modular_1_1_fields_1_1_internal_link_1a998ef73f8ee85c72a88eed76bb94bf2b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const InternalLinkFieldName</definition>
+        <argsstring></argsstring>
+        <name>InternalLinkFieldName</name>
+        <initializer>= &apos;InternalLinkID&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/InternalLink.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/InternalLink.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d2f/class_modular_1_1_fields_1_1_internal_link_1a522cd5b3b15c4a885005cd0919628158" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RelationshipName</definition>
+        <argsstring></argsstring>
+        <name>RelationshipName</name>
+        <initializer>= &apos;<ref refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link" kindref="compound">InternalLink</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/InternalLink.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/InternalLink.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d7/d2f/class_modular_1_1_fields_1_1_internal_link_1ac484c1ec0d2c49b37b37a846fe469a46" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$has_one</definition>
+        <argsstring></argsstring>
+        <name>$has_one</name>
+        <initializer>= [
+		self::RelationshipName =&gt; &apos;SiteTree&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/InternalLink.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/InternalLink.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d2f/class_modular_1_1_fields_1_1_internal_link_1ac5c61dca8a002a0fdf93afecca2abd12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static cmsFields</definition>
+        <argsstring>()</argsstring>
+        <name>cmsFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/InternalLink.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/InternalLink.php" bodystart="16" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="967">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="968" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="968">
+        <label>DataExtension</label>
+      </node>
+      <node id="966">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="967" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="965">
+        <label>InternalLink</label>
+        <link refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link"/>
+        <childnode refid="966" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="971">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="972" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="972">
+        <label>DataExtension</label>
+      </node>
+      <node id="970">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="971" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="969">
+        <label>InternalLink</label>
+        <link refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link"/>
+        <childnode refid="970" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/InternalLink.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/InternalLink.php" bodystart="7" bodyend="23"/>
+    <listofallmembers>
+      <member refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link_1ac484c1ec0d2c49b37b37a846fe469a46" prot="private" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>$has_one</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>addHTMLAttributes</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>class_name</name></member>
+      <member refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link_1ac5c61dca8a002a0fdf93afecca2abd12" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>cmsFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>cmsTab</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>configureTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>customFieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>DefaultTabName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>extendedFieldNames</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>extraStatics</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>fieldConstraints</name></member>
+      <member refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link_1a998ef73f8ee85c72a88eed76bb94bf2b" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>InternalLinkFieldName</name></member>
+      <member refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link_1a1942eb70de5458ea2b27cab10ae87da5" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>InternalLinkOption</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>labelsForRelatedClass</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>relationship_name</name></member>
+      <member refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>RelationshipName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>setFieldDecorations</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>SingleFieldName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>SingleFieldSchema</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>singleFieldValue</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>updateSummaryFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Fields::InternalLink</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

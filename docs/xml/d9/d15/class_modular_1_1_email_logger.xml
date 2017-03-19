@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/d15/class_modular_1_1_email_logger" kind="class" prot="public">
+    <compoundname>Modular::EmailLogger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Mailer</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d15/class_modular_1_1_email_logger_1a0afb9d429b8d5ab1e853ec29278888d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sendHTML</definition>
+        <argsstring>($to, $from, $subject, $htmlContent, $attachedFiles=false, $customheaders=false, $plainContent=false, $inlineImages=false)</argsstring>
+        <name>sendHTML</name>
+        <param>
+          <declname>$to</declname>
+        </param>
+        <param>
+          <declname>$from</declname>
+        </param>
+        <param>
+          <declname>$subject</declname>
+        </param>
+        <param>
+          <declname>$htmlContent</declname>
+        </param>
+        <param>
+          <declname>$attachedFiles</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$customheaders</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$plainContent</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$inlineImages</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/EmailLogger.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/EmailLogger.php" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d15/class_modular_1_1_email_logger_1a44987f2a406e51885db50ecdddad746f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sendPlain</definition>
+        <argsstring>($to, $from, $subject, $htmlContent, $attachedFiles=false, $customheaders=false, $plainContent=false, $inlineImages=false)</argsstring>
+        <name>sendPlain</name>
+        <param>
+          <declname>$to</declname>
+        </param>
+        <param>
+          <declname>$from</declname>
+        </param>
+        <param>
+          <declname>$subject</declname>
+        </param>
+        <param>
+          <declname>$htmlContent</declname>
+        </param>
+        <param>
+          <declname>$attachedFiles</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$customheaders</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$plainContent</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$inlineImages</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/EmailLogger.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/EmailLogger.php" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>When set as the mailer will log emails to the assets folder instead of sending. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="338">
+        <label>Mailer</label>
+      </node>
+      <node id="337">
+        <label>EmailLogger</label>
+        <link refid="d9/d15/class_modular_1_1_email_logger"/>
+        <childnode refid="338" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="340">
+        <label>Mailer</label>
+      </node>
+      <node id="339">
+        <label>EmailLogger</label>
+        <link refid="d9/d15/class_modular_1_1_email_logger"/>
+        <childnode refid="340" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/EmailLogger.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/EmailLogger.php" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="d9/d15/class_modular_1_1_email_logger_1a0afb9d429b8d5ab1e853ec29278888d4" prot="public" virt="non-virtual"><scope>Modular::EmailLogger</scope><name>sendHTML</name></member>
+      <member refid="d9/d15/class_modular_1_1_email_logger_1a44987f2a406e51885db50ecdddad746f" prot="public" virt="non-virtual"><scope>Modular::EmailLogger</scope><name>sendPlain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

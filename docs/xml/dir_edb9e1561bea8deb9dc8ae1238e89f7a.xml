@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_edb9e1561bea8deb9dc8ae1238e89f7a" kind="dir">
+    <compoundname>attributes</compoundname>
+    <innerfile refid="d6/d3d/_keywords_8php">Keywords.php</innerfile>
+    <innerfile refid="dc/d36/_link_8php">Link.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/attributes/"/>
+  </compounddef>
+</doxygen>

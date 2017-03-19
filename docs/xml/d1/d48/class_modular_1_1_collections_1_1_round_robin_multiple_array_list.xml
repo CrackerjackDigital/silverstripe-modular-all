@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/d48/class_modular_1_1_collections_1_1_round_robin_multiple_array_list" kind="class" prot="public">
+    <compoundname>Modular::Collections::RoundRobinMultipleArrayList</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArrayList</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1371">
+        <label>ArrayList</label>
+      </node>
+      <node id="1370">
+        <label>RoundRobinMultipleArrayList</label>
+        <link refid="d1/d48/class_modular_1_1_collections_1_1_round_robin_multiple_array_list"/>
+        <childnode refid="1371" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1373">
+        <label>ArrayList</label>
+      </node>
+      <node id="1372">
+        <label>RoundRobinMultipleArrayList</label>
+        <link refid="d1/d48/class_modular_1_1_collections_1_1_round_robin_multiple_array_list"/>
+        <childnode refid="1373" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/collections/RoundRobinMultipleArrayList.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/collections/RoundRobinMultipleArrayList.php" bodystart="9" bodyend="36"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

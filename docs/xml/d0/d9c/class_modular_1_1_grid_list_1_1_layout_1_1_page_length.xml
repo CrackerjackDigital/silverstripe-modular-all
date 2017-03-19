@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length" kind="class" prot="public">
+    <compoundname>Modular::GridList::Layout::PageLength</compoundname>
+    <basecompoundref refid="da/d27/class_modular_1_1_fields_1_1_field" prot="public" virt="non-virtual">Field</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">GridListTempleDataProvider</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1af74d0ba94522656fd2c247bd544e2094" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SingleFieldName</definition>
+        <argsstring></argsstring>
+        <name>SingleFieldName</name>
+        <initializer>= &apos;<ref refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length" kindref="compound">PageLength</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1a6491a8c7fce5c91adf87287607c407a8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SingleFieldSchema</definition>
+        <argsstring></argsstring>
+        <name>SingleFieldSchema</name>
+        <initializer>= &apos;Int&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1a3051c6f1309d4108bb1b776d2e8ae587" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$default_page_length</definition>
+        <argsstring></argsstring>
+        <name>$default_page_length</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1ad51be717feb7a47f9f75dadd23ef7128" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$length_map</definition>
+        <argsstring></argsstring>
+        <name>$length_map</name>
+        <initializer>= [
+		12 =&gt; 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1ac5c61dca8a002a0fdf93afecca2abd12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static cmsFields</definition>
+        <argsstring>()</argsstring>
+        <name>cmsFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" line="25" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" bodystart="25" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1af065d31e9ef42dd98ff872dc75da6c58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>provideGridListTemplateData</definition>
+        <argsstring>($existingData=[])</argsstring>
+        <name>provideGridListTemplateData</name>
+        <param>
+          <declname>$existingData</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provide the &apos;GridListColumnWidth&apos; field to the <ref refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list" kindref="compound">GridList</ref> template data as &apos;limit&apos; and &apos;<ref refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length" kindref="compound">PageLength</ref>&apos; (they may be different eventually)</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$existingData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" line="45" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" bodystart="45" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1a4bf208904cf3c6eab48168bbe4d6517e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>defaultPageLength</definition>
+        <argsstring>()</argsstring>
+        <name>defaultPageLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns default page length, which may not be the CMS UI length but the &apos;real&apos; implementation length.</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" line="58" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" bodystart="58" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Return layout GridListColumns to template so can be applied e.g. to bootstrap col-md-{$GridListColumns} </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1294">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1295" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1295">
+        <label>DataExtension</label>
+      </node>
+      <node id="1293">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="1294" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1296">
+        <label>GridListTempleDataProvider</label>
+      </node>
+      <node id="1292">
+        <label>PageLength</label>
+        <link refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length"/>
+        <childnode refid="1293" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1296" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1299">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1300" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1300">
+        <label>DataExtension</label>
+      </node>
+      <node id="1298">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="1299" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1301">
+        <label>GridListTempleDataProvider</label>
+      </node>
+      <node id="1297">
+        <label>PageLength</label>
+        <link refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length"/>
+        <childnode refid="1298" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1301" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/Pagination.php" bodystart="11" bodyend="62"/>
+    <listofallmembers>
+      <member refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1a3051c6f1309d4108bb1b776d2e8ae587" prot="private" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>$default_page_length</name></member>
+      <member refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1ad51be717feb7a47f9f75dadd23ef7128" prot="private" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>$length_map</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>addHTMLAttributes</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>class_name</name></member>
+      <member refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1ac5c61dca8a002a0fdf93afecca2abd12" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>cmsFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>cmsTab</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>configureTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>customFieldConstraints</name></member>
+      <member refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1a4bf208904cf3c6eab48168bbe4d6517e" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>defaultPageLength</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>DefaultTabName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>extendedFieldNames</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>extraStatics</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>fieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>labelsForRelatedClass</name></member>
+      <member refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1af065d31e9ef42dd98ff872dc75da6c58" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>provideGridListTemplateData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>relationship_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>RelationshipName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>setFieldDecorations</name></member>
+      <member refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>SingleFieldName</name></member>
+      <member refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>SingleFieldSchema</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>singleFieldValue</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>updateSummaryFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::PageLength</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

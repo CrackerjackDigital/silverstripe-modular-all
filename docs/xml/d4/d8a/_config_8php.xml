@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/d8a/_config_8php" kind="file">
+    <compoundname>Config.php</compoundname>
+    <innerclass refid="da/d2d/class_modular_1_1_exceptions_1_1_config" prot="public">Modular::Exceptions::Config</innerclass>
+    <innernamespace refid="de/d82/namespace_modular_1_1_exceptions">Modular::Exceptions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Exceptions;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="da/d2d/class_modular_1_1_exceptions_1_1_config" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/d2d/class_modular_1_1_exceptions_1_1_config" kindref="compound">Config</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d5/d09/class_modular_1_1_exceptions_1_1_exception" kindref="compound">Exception</ref><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/exceptions/Config.php"/>
+  </compounddef>
+</doxygen>

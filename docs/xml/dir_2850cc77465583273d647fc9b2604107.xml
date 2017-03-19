@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_2850cc77465583273d647fc9b2604107" kind="dir">
+    <compoundname>user</compoundname>
+    <innerfile refid="d6/d23/blocks_2user_2_audio_8php">blocks/user/Audio.php</innerfile>
+    <innerfile refid="d8/d8d/_call_to_action_8php">CallToAction.php</innerfile>
+    <innerfile refid="d2/db1/_carousel_8php">Carousel.php</innerfile>
+    <innerfile refid="de/d42/blocks_2user_2_content_8php">blocks/user/Content.php</innerfile>
+    <innerfile refid="d9/de5/_content_with_image_8php">ContentWithImage.php</innerfile>
+    <innerfile refid="d3/df6/blocks_2user_2_download_8php">blocks/user/Download.php</innerfile>
+    <innerfile refid="d6/dec/blocks_2user_2_file_8php">blocks/user/File.php</innerfile>
+    <innerfile refid="dc/d32/_files_8php">Files.php</innerfile>
+    <innerfile refid="df/d55/_footnotes_8php">Footnotes.php</innerfile>
+    <innerfile refid="dc/d31/_full_width_image_8php">FullWidthImage.php</innerfile>
+    <innerfile refid="d6/dab/blocks_2user_2_grid_list_8php">blocks/user/GridList.php</innerfile>
+    <innerfile refid="d2/dc6/_image_gallery_8php">ImageGallery.php</innerfile>
+    <innerfile refid="d0/d7a/_linked_page_8php">LinkedPage.php</innerfile>
+    <innerfile refid="de/def/blocks_2user_2_links_8php">blocks/user/Links.php</innerfile>
+    <innerfile refid="d4/da3/_postable_8php">Postable.php</innerfile>
+    <innerfile refid="d5/d91/_promo_8php">Promo.php</innerfile>
+    <innerfile refid="d8/d73/_pull_quote_8php">PullQuote.php</innerfile>
+    <innerfile refid="d5/d4b/_source_file_8php">SourceFile.php</innerfile>
+    <innerfile refid="d8/d53/_source_links_8php">SourceLinks.php</innerfile>
+    <innerfile refid="d1/dda/_sub_blocks_8php">SubBlocks.php</innerfile>
+    <innerfile refid="db/dc2/blocks_2user_2_video_8php">blocks/user/Video.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/"/>
+  </compounddef>
+</doxygen>

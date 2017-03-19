@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/d70/fields_2_links_8php" kind="file">
+    <compoundname>fields/Links.php</compoundname>
+    <innerclass refid="d7/d8f/class_modular_1_1_fields_1_1_links" prot="public">Modular::Fields::Links</innerclass>
+    <innernamespace refid="dd/ddb/namespace_modular_1_1_fields">Modular::Fields</innernamespace>
+    <innernamespace refid="df/d86/namespace_modular_1_1_relationships_1_1_has_many_many">Modular::Relationships::HasManyMany</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Fields;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many" kindref="compound">Modular\Relationships\HasManyMany</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>SS_List;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="d7/d8f/class_modular_1_1_fields_1_1_links" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/d8f/class_modular_1_1_fields_1_1_links" kindref="compound">Links</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many" kindref="compound">HasManyMany</ref><sp/>{</highlight></codeline>
+<codeline lineno="11" refid="d7/d8f/class_modular_1_1_fields_1_1_links_1a522cd5b3b15c4a885005cd0919628158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d8f/class_modular_1_1_fields_1_1_links_1a522cd5b3b15c4a885005cd0919628158" kindref="member">RelationshipName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Links&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12" refid="d7/d8f/class_modular_1_1_fields_1_1_links_1a0c616e562eff7e4bf6b10e3ecacc226b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d8f/class_modular_1_1_fields_1_1_links_1a0c616e562eff7e4bf6b10e3ecacc226b" kindref="member">RelatedClassName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Modular\Models\Link&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Links.php"/>
+  </compounddef>
+</doxygen>

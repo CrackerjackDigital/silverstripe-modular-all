@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d0/d43/class_modular_1_1_fields_1_1_logo" kind="class" prot="public">
+    <compoundname>Modular::Fields::Logo</compoundname>
+    <basecompoundref refid="d3/d15/class_modular_1_1_fields_1_1_image" prot="public" virt="non-virtual">Image</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/d43/class_modular_1_1_fields_1_1_logo_1a522cd5b3b15c4a885005cd0919628158" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RelationshipName</definition>
+        <argsstring></argsstring>
+        <name>RelationshipName</name>
+        <initializer>= &apos;<ref refid="d0/d43/class_modular_1_1_fields_1_1_logo" kindref="compound">Logo</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Logo.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Logo.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d43/class_modular_1_1_fields_1_1_logo_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DefaultUploadFolderName</definition>
+        <argsstring></argsstring>
+        <name>DefaultUploadFolderName</name>
+        <initializer>= &apos;logos&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Logo.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Logo.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d0/d43/class_modular_1_1_fields_1_1_logo_1ada188443f0609ca3d5abbfc68fd8ea60" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$upload_folder</definition>
+        <argsstring></argsstring>
+        <name>$upload_folder</name>
+        <initializer>= &apos;logos&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Logo.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Logo.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d43/class_modular_1_1_fields_1_1_logo_1a5e80e721baf3ae234d48384f9aa91db5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Logo</definition>
+        <argsstring>()</argsstring>
+        <name>Logo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the single related image, shouldn&apos;t really get here as the extended model&apos;s field accessor should be called first.</para><para><simplesect kind="return"><para>Image|null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Logo.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Logo.php" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d43/class_modular_1_1_fields_1_1_logo_1a55875cff7f12c3c16322f17585697c74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Logos</definition>
+        <argsstring>()</argsstring>
+        <name>Logos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Logo.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Logo.php" bodystart="19" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1097">
+        <label>HasOne</label>
+        <link refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one"/>
+        <childnode refid="1098" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1099">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1100">
+        <label>DataExtension</label>
+      </node>
+      <node id="1095">
+        <label>Image</label>
+        <link refid="d3/d15/class_modular_1_1_fields_1_1_image"/>
+        <childnode refid="1096" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1101" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1098">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="1099" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1101">
+        <label>Imagery</label>
+        <link refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery"/>
+      </node>
+      <node id="1094">
+        <label>Logo</label>
+        <link refid="d0/d43/class_modular_1_1_fields_1_1_logo"/>
+        <childnode refid="1095" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1096">
+        <label>File</label>
+        <link refid="d0/d51/class_modular_1_1_fields_1_1_file"/>
+        <childnode refid="1097" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1105">
+        <label>HasOne</label>
+        <link refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one"/>
+        <childnode refid="1106" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1107">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1108" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1108">
+        <label>DataExtension</label>
+      </node>
+      <node id="1103">
+        <label>Image</label>
+        <link refid="d3/d15/class_modular_1_1_fields_1_1_image"/>
+        <childnode refid="1104" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1109" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1106">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="1107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1109">
+        <label>Imagery</label>
+        <link refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery"/>
+      </node>
+      <node id="1102">
+        <label>Logo</label>
+        <link refid="d0/d43/class_modular_1_1_fields_1_1_logo"/>
+        <childnode refid="1103" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1104">
+        <label>File</label>
+        <link refid="d0/d51/class_modular_1_1_fields_1_1_file"/>
+        <childnode refid="1105" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Logo.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Logo.php" bodystart="4" bodyend="23"/>
+    <listofallmembers>
+      <member refid="d0/d43/class_modular_1_1_fields_1_1_logo_1ada188443f0609ca3d5abbfc68fd8ea60" prot="private" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>$upload_folder</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>addHTMLAttributes</name></member>
+      <member refid="d0/d51/class_modular_1_1_fields_1_1_file_1af8b274223f17ca701258a2087851ff21" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>allowed_files</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>class_name</name></member>
+      <member refid="d0/d51/class_modular_1_1_fields_1_1_file_1ae6098bb0243f4ce2f8680b3723783300" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>cmsFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>cmsTab</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>configureTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>customFieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>DefaultTabName</name></member>
+      <member refid="d0/d43/class_modular_1_1_fields_1_1_logo_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>extendedFieldNames</name></member>
+      <member refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>extraStatics</name></member>
+      <member refid="d0/d51/class_modular_1_1_fields_1_1_file_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>fieldConstraints</name></member>
+      <member refid="d3/d15/class_modular_1_1_fields_1_1_image_1a66d0d6da3b89580352c28d37b57df5bb" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>Image</name></member>
+      <member refid="d3/d15/class_modular_1_1_fields_1_1_image_1a788148fc60b7fc6649031535178cfb30" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>Images</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>labelsForRelatedClass</name></member>
+      <member refid="d0/d43/class_modular_1_1_fields_1_1_logo_1a5e80e721baf3ae234d48384f9aa91db5" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>Logo</name></member>
+      <member refid="d0/d43/class_modular_1_1_fields_1_1_logo_1a55875cff7f12c3c16322f17585697c74" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>Logos</name></member>
+      <member refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1afc05583449dd891447a38e8fd93da840" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>options</name></member>
+      <member refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1ac49895cc8dce1a67036cc8e3e83b5d3c" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>related_class_name</name></member>
+      <member refid="d3/d15/class_modular_1_1_fields_1_1_image_1a0c616e562eff7e4bf6b10e3ecacc226b" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>RelatedClassName</name></member>
+      <member refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1ac52dda4e42781da2720127ec1040e9d8" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>RelatedDisplayField</name></member>
+      <member refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1adc42f43e5855e74dcbae66a343091b4c" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>RelatedKeyField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>relationship_name</name></member>
+      <member refid="d0/d43/class_modular_1_1_fields_1_1_logo_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>RelationshipName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>setFieldDecorations</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>SingleFieldName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>SingleFieldSchema</name></member>
+      <member refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>singleFieldValue</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>updateSummaryFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Fields::Logo</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

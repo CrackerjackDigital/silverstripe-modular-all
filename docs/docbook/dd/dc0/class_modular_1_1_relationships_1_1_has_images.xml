@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/dc0/class_modular_1_1_relationships_1_1_has_images">
+<title>Modular::Relationships::HasImages class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelationshipName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelatedClassName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const DefaultUploadFolderName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allowed_image_files</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1ae6098bb0243f4ce2f8680b3723783300">cmsFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a788148fc60b7fc6649031535178cfb30">Images</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a66d0d6da3b89580352c28d37b57df5bb">Image</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1ae6f7d2ecf2e3c8976fe21f8387e9ce08">customFieldConstraints</link> (
+FormField $field, array $allFieldConstraints)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1ae6098bb0243f4ce2f8680b3723783300">
+                <title>cmsFields ()</title> <emphasis></emphasis>
+                
+<para>Adds a single Image single-selection UploadField</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a788148fc60b7fc6649031535178cfb30">
+                <title>Images ()</title> <emphasis></emphasis>
+                
+<para>Return the list of related images (may be empty), should be satisfied by the model before we get here.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a66d0d6da3b89580352c28d37b57df5bb">
+                <title>Image ()</title> <emphasis></emphasis>
+                
+<para>Return the first of the related images (may be null).</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1ae6f7d2ecf2e3c8976fe21f8387e9ce08">
+                <title>customFieldConstraints (FormField $field, array $allFieldConstraints)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

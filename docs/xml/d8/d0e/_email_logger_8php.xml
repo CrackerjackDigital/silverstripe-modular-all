@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/d0e/_email_logger_8php" kind="file">
+    <compoundname>EmailLogger.php</compoundname>
+    <innerclass refid="d9/d15/class_modular_1_1_email_logger" prot="public">Modular::EmailLogger</innerclass>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <innernamespace refid="d7/d0c/namespace_mailer">Mailer</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/>Mailer;</highlight></codeline>
+<codeline lineno="10" refid="d9/d15/class_modular_1_1_email_logger" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d9/d15/class_modular_1_1_email_logger" kindref="compound">EmailLogger</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Mailer<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="d9/d15/class_modular_1_1_email_logger_1a0afb9d429b8d5ab1e853ec29278888d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d9/d15/class_modular_1_1_email_logger_1a0afb9d429b8d5ab1e853ec29278888d4" kindref="member">sendHTML</ref>($to,<sp/>$from,<sp/>$subject,<sp/>$htmlContent,<sp/>$attachedFiles<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>$customheaders<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>$plainContent<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>$inlineImages<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$file<sp/>=<sp/>ASSETS_PATH<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/_mail_&apos;</highlight><highlight class="normal"><sp/>.<sp/>urlencode(sprintf(</highlight><highlight class="stringliteral">&quot;%s_%s&quot;</highlight><highlight class="normal">,<sp/>$subject,<sp/>$to));</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>file_put_contents($file,<sp/>$htmlContent);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="d9/d15/class_modular_1_1_email_logger_1a44987f2a406e51885db50ecdddad746f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d9/d15/class_modular_1_1_email_logger_1a44987f2a406e51885db50ecdddad746f" kindref="member">sendPlain</ref>($to,<sp/>$from,<sp/>$subject,<sp/>$htmlContent,<sp/>$attachedFiles<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>$customheaders<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>$plainContent<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>$inlineImages<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$file<sp/>=<sp/>ASSETS_PATH<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/_mail_&apos;</highlight><highlight class="normal"><sp/>.<sp/>urlencode(sprintf(</highlight><highlight class="stringliteral">&quot;%s_%s&quot;</highlight><highlight class="normal">,<sp/>$subject,<sp/>$to));</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>file_put_contents($file,<sp/>$htmlContent);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/EmailLogger.php"/>
+  </compounddef>
+</doxygen>

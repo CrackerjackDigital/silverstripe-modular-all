@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ce5a0629bad955822a2c48053cb50f59" kind="dir">
+    <compoundname>gridfield</compoundname>
+    <innerdir refid="dir_c66dfdaa406c296e3114a2de9fbc6fc2">components</innerdir>
+    <innerdir refid="dir_69413c37b9a50a0bdc9cff598f4ef57f">configs</innerdir>
+    <innerfile refid="d7/d8e/_grid_field_8php">GridField.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/"/>
+  </compounddef>
+</doxygen>

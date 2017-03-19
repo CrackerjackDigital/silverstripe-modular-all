@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/d37/class_modular_1_1_search_1_1_constraints" kind="class" prot="public">
+    <compoundname>Modular::Search::Constraints</compoundname>
+    <basecompoundref refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints" prot="public" virt="non-virtual">Constraints</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d6/d37/class_modular_1_1_search_1_1_constraints_1a5decbffbba0eee0096f5d2934c997dcc" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const FullTextVar</definition>
+        <argsstring></argsstring>
+        <name>FullTextVar</name>
+        <initializer>= &apos;q&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/search/Constraints.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/Constraints.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d37/class_modular_1_1_search_1_1_constraints_1a9dee07fb32bdc16a6c63e43dbba4f505" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const TagsVar</definition>
+        <argsstring></argsstring>
+        <name>TagsVar</name>
+        <initializer>= &apos;tags&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/search/Constraints.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/Constraints.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d6/d37/class_modular_1_1_search_1_1_constraints_1afe68e6fbe7acfbffc0af0c84a1996466" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$params</definition>
+        <argsstring></argsstring>
+        <name>$params</name>
+        <initializer>= [
+		self::FullTextVar,
+	    self::TagsVar
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/search/Constraints.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/Constraints.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d37/class_modular_1_1_search_1_1_constraints_1ac2919d82d4872f3d8600fc8a23908ff7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>filter</definition>
+        <argsstring>($className, $term, $searchIndex)</argsstring>
+        <name>filter</name>
+        <param>
+          <declname>$className</declname>
+        </param>
+        <param>
+          <declname>$term</declname>
+        </param>
+        <param>
+          <declname>$searchIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a filter suitable for the class provided using the term provided. Checks to see if the class has an index named that added by the <ref refid="d3/d03/namespace_modular_1_1_search" kindref="compound">Search</ref> (e.g. &apos;FulltextSearchIndex&apos;)</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$className</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$term</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$searchIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>added by enabling fulltext search, e.g. &apos;FulltextSearchIndex&apos; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/search/Constraints.php" line="22" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/Constraints.php" bodystart="22" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="187">
+        <label>Constraints</label>
+        <link refid="d6/d37/class_modular_1_1_search_1_1_constraints"/>
+        <childnode refid="187" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="188">
+        <label>Constraints</label>
+        <link refid="d6/d37/class_modular_1_1_search_1_1_constraints"/>
+        <childnode refid="188" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/search/Constraints.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/Constraints.php" bodystart="4" bodyend="34"/>
+    <listofallmembers>
+      <member refid="d6/d37/class_modular_1_1_search_1_1_constraints_1afe68e6fbe7acfbffc0af0c84a1996466" prot="private" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>$params</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1abb35c8495a232b510389fa6d7b15d38a" prot="protected" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>$request</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>__construct</name></member>
+      <member refid="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>__invoke</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a4268e176714ad2c0dfd9fa1b3e5b6561" prot="protected" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>buildQueryString</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a5a7f71e9109a92b57e492be254594a40" prot="protected" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>clearSession</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af06af815cbbf71a8fe8e1007ff23a1ea" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>constraint</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a948285aed809f77c4874e6080e7c56cb" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>currentFilterID</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1acbb753db87d7cde6b62875a3d21173a0" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>defaultFilter</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a93062bd2c2a5567527486bef28baed68" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>DefaultPersistance</name></member>
+      <member refid="d6/d37/class_modular_1_1_search_1_1_constraints_1ac2919d82d4872f3d8600fc8a23908ff7" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>filter</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ae1db96ac421c122c66950189f39b6096" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>FilterVar</name></member>
+      <member refid="d6/d37/class_modular_1_1_search_1_1_constraints_1a5decbffbba0eee0096f5d2934c997dcc" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>FullTextVar</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1afd2ce2ae3c59a93275a4764188333747" prot="protected" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>getVar</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a8b9343c4906bf879fe9aeb56db47f685" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>getVarOrParam</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ab81a1d1cef7f7d6c406e60bd368f94af" prot="protected" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>getVars</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a63aed2ed30505623343b3e7df7fa6c16" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>limit</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a0da531fc30bdf883d86d4219c3c54e07" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>mode</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a581ca3761bcefa67e8ccdbec3e3f90a2" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>ModeGetVar</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a460a4b0a974fe335c75553ec7cd6a43d" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>modes</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1aa01b4b7db513cd4468ac250837e893d6" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>PageLengthGetVar</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ac203c60430ea922e5e143617bcf214a4" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>pagination</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a2944defddcc4995baf2b5ae4a0aac8ad" prot="protected" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>params</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a09fec4eb5dc911067c3e8601ae083836" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>persist_key_prefix</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a60aa60245d871c654a2bdc494f44b49e" prot="protected" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>persisted</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a3d6c2c4afac4c921b80cc5e3bb723f96" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>PersistEverywhere</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a8278b2bd56513296a057830a9e8aab54" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>PersistExact</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ae4ee87015f8568826e97c7457bb66f3f" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>PersistForGetVars</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a3a588465c28930fdaaf0bab8297f7631" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>PersistForURLParams</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a3cab828372c17e2aea3c5cac0de27d07" prot="protected" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>persistKey</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a225627d10584d7a0c1bb659e2410160c" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>PersistNever</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a08826ae0e109c275ccfd5aa4d4712ad8" prot="protected" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>postVar</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a181b26b1c2c684fe446d8825f401bff9" prot="protected" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>postVars</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a53ddb717c4a283b82d354b02a6a71a59" prot="protected" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>request</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af79696b6c2ce7a5bf880651b97c34e71" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>SessionKeyPrefix</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a9fa9bc208b842e19e4324d7d2d784b01" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>SessionPathSeparator</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a4bd31bcedb7b4943aac2da78d0d84afe" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>sort</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ab523b2a71464e33e44f8b267fc844157" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>SortGetVar</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af8fa59992209e36dccb3eefb0f75531f" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>start</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a2c034ab7cd15f32948132bc456632b8f" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>StartIndexGetVar</name></member>
+      <member refid="d6/d37/class_modular_1_1_search_1_1_constraints_1a9dee07fb32bdc16a6c63e43dbba4f505" prot="public" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>TagsVar</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a1b51165f5b164be715a84c17fdf566f8" prot="protected" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>url</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ae3b138fc15c6eb1d38508bd0f19ba120" prot="protected" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>urlParam</name></member>
+      <member refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a03c3daf67c2b305314c7abaafe9d9b3d" prot="protected" virt="non-virtual"><scope>Modular::Search::Constraints</scope><name>urlParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

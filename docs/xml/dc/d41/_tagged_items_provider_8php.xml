@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dc/d41/_tagged_items_provider_8php" kind="file">
+    <compoundname>TaggedItemsProvider.php</compoundname>
+    <innerclass refid="de/dad/class_modular_1_1_search_1_1_tagged_items_provider" prot="public">Modular::Search::TaggedItemsProvider</innerclass>
+    <innernamespace refid="d3/d03/namespace_modular_1_1_search">Modular::Search</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Search;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag" kindref="compound">Modular\Fields\ModelTag</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider" kindref="compound">Modular\GridList\Interfaces\ItemsProvider</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="d9/d7f/class_modular_1_1_models_1_1_tag" kindref="compound">Modular\Models\Tag</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="de/dad/class_modular_1_1_search_1_1_tagged_items_provider" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/dad/class_modular_1_1_search_1_1_tagged_items_provider" kindref="compound">TaggedItemsProvider</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">\Modular\ModelExtension</ref><sp/>implements<sp/><ref refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider" kindref="compound">ItemsProvider</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>only<sp/>classes<sp/>matching<sp/>here<sp/>by<sp/>ModelTag.relatedByClassName<sp/>will<sp/>be<sp/>included</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>e.g.<sp/>&apos;*Page&apos;<sp/>will<sp/>be<sp/>all<sp/>classes<sp/>ending<sp/>in<sp/>&apos;Page&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$search_classes<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#<sp/>&apos;SiteTree&apos;,</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#<sp/>&apos;File&apos;,</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider_1a2d6bbbaad31a7dae75cff24145feb804" kindref="member">provideGridListItems</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$results<sp/>=<sp/>new<sp/>\ArrayList();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$service<sp/>=<sp/>\Injector::inst()-&gt;get(</highlight><highlight class="stringliteral">&apos;SearchService&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($tags<sp/>=<sp/>array_filter(explode(</highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">,<sp/>$service-&gt;constraint(<ref refid="d6/d37/class_modular_1_1_search_1_1_constraints_1a9dee07fb32bdc16a6c63e43dbba4f505" kindref="member">Constraints::TagsVar</ref>))))<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$allTags<sp/>=<sp/>Tag::get();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$searchClasses<sp/>=<sp/>$this-&gt;config()-&gt;get(</highlight><highlight class="stringliteral">&apos;search_classes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($tags<sp/>as<sp/>$tag)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($tag<sp/>=<sp/>$allTags-&gt;find(<ref refid="da/d27/class_modular_1_1_fields_1_1_field_1aff2d606b28f3c7f7e706b54972315137" kindref="member">ModelTag::field_name</ref>(),<sp/>$tag))<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>merge<sp/>all<sp/>related<sp/>classes<sp/>that<sp/>end<sp/>in<sp/>&apos;Page&apos;<sp/>for<sp/>this<sp/>tag</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$results-&gt;merge($tag-&gt;relatedByClassName($searchClasses));</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$results;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/search/TaggedItemsProvider.php"/>
+  </compounddef>
+</doxygen>

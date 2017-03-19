@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/d38/interface_modular_1_1_types_1_1_numeric_type" kind="interface" prot="public">
+    <compoundname>Modular::Types::NumericType</compoundname>
+    <basecompoundref refid="d2/dab/interface_modular_1_1_types_1_1_value_type" prot="public" virt="non-virtual">ValueType</basecompoundref>
+    <derivedcompoundref refid="d7/d40/interface_modular_1_1_types_1_1_decimal_type" prot="public" virt="non-virtual">DecimalType</derivedcompoundref>
+    <derivedcompoundref refid="d3/dca/interface_modular_1_1_types_1_1_float_type" prot="public" virt="non-virtual">FloatType</derivedcompoundref>
+    <derivedcompoundref refid="dd/d59/interface_modular_1_1_types_1_1_int_type" prot="public" virt="non-virtual">IntType</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/d38/interface_modular_1_1_types_1_1_numeric_type_1a8a99c53978895ea5726462ffc1bb44eb" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <initializer>= &apos;Numeric&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Numeric.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Numeric.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="87">
+        <label>DateType</label>
+        <link refid="d6/da3/interface_modular_1_1_types_1_1_date_type"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>TimeType</label>
+        <link refid="da/ddc/interface_modular_1_1_types_1_1_time_type"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>IntType</label>
+        <link refid="dd/d59/interface_modular_1_1_types_1_1_int_type"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>FloatType</label>
+        <link refid="d3/dca/interface_modular_1_1_types_1_1_float_type"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>NumericType</label>
+        <link refid="d4/d38/interface_modular_1_1_types_1_1_numeric_type"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>Type</label>
+        <link refid="dd/dc2/interface_modular_1_1_types_1_1_type"/>
+      </node>
+      <node id="88">
+        <label>DateTimeType</label>
+        <link refid="da/dea/interface_modular_1_1_types_1_1_date_time_type"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>DecimalType</label>
+        <link refid="d7/d40/interface_modular_1_1_types_1_1_decimal_type"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>ValueType</label>
+        <link refid="d2/dab/interface_modular_1_1_types_1_1_value_type"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="90">
+        <label>NumericType</label>
+        <link refid="d4/d38/interface_modular_1_1_types_1_1_numeric_type"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>Type</label>
+        <link refid="dd/dc2/interface_modular_1_1_types_1_1_type"/>
+      </node>
+      <node id="91">
+        <label>ValueType</label>
+        <link refid="d2/dab/interface_modular_1_1_types_1_1_value_type"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Numeric.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Numeric.php" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="d4/d38/interface_modular_1_1_types_1_1_numeric_type_1a8a99c53978895ea5726462ffc1bb44eb" prot="public" virt="non-virtual"><scope>Modular::Types::NumericType</scope><name>Type</name></member>
+      <member refid="dd/dc2/interface_modular_1_1_types_1_1_type_1a74fc8d457a9fe7f9dd8c21afc3b5910d" prot="public" virt="non-virtual"><scope>Modular::Types::NumericType</scope><name>type</name></member>
+      <member refid="d2/dab/interface_modular_1_1_types_1_1_value_type_1a4889207020e3a9bd17a77d61f3e8888e" prot="public" virt="non-virtual"><scope>Modular::Types::NumericType</scope><name>typedValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/da6/class_modular_1_1_versioned_model" kind="class" prot="public">
+    <compoundname>Modular::VersionedModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DataObject</basecompoundref>
+    <derivedcompoundref refid="d2/df7/class_modular_1_1_blocks_1_1_block" prot="public" virt="non-virtual">Block</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/da6/class_modular_1_1_versioned_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__invoke</definition>
+        <argsstring>()</argsstring>
+        <name>__invoke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invoking a model returns itself.</para><para><simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/VersionedModel.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/VersionedModel.php" bodystart="13" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/da6/class_modular_1_1_versioned_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static class_name</definition>
+        <argsstring>()</argsstring>
+        <name>class_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/VersionedModel.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/VersionedModel.php" bodystart="17" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1542">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="1540" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1554">
+        <label>FullWidthImage</label>
+        <link refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1540">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="1541" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1550">
+        <label>SourceFile</label>
+        <link refid="d2/d46/class_modular_1_1_blocks_1_1_source_file"/>
+        <childnode refid="1547" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1551">
+        <label>Video</label>
+        <link refid="d1/d70/class_modular_1_1_blocks_1_1_video"/>
+        <childnode refid="1547" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1546">
+        <label>ContentWithImage</label>
+        <link refid="df/d8f/class_modular_1_1_blocks_1_1_content_with_image"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1559">
+        <label>Postable</label>
+        <link refid="d8/d3a/class_modular_1_1_blocks_1_1_postable"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1541">
+        <label>DataObject</label>
+      </node>
+      <node id="1558">
+        <label>Links</label>
+        <link refid="d1/d9c/class_modular_1_1_blocks_1_1_links"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1544">
+        <label>Carousel</label>
+        <link refid="de/df1/class_modular_1_1_blocks_1_1_carousel"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1563">
+        <label>SubBlocks</label>
+        <link refid="d6/d06/class_modular_1_1_blocks_1_1_sub_blocks"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1545">
+        <label>Content</label>
+        <link refid="dd/ddd/class_modular_1_1_blocks_1_1_content"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1543">
+        <label>CallToAction</label>
+        <link refid="d9/d82/class_modular_1_1_blocks_1_1_call_to_action"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1547">
+        <label>File</label>
+        <link refid="d0/d5e/class_modular_1_1_blocks_1_1_file"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1557">
+        <label>LinkedPage</label>
+        <link refid="da/d3a/class_modular_1_1_blocks_1_1_linked_page"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1562">
+        <label>SourceLinks</label>
+        <link refid="de/db5/class_modular_1_1_blocks_1_1_source_links"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1553">
+        <label>Footnotes</label>
+        <link refid="d9/d86/class_modular_1_1_blocks_1_1_footnotes"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1555">
+        <label>GridList</label>
+        <link refid="dc/d89/class_modular_1_1_blocks_1_1_grid_list"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1561">
+        <label>PullQuote</label>
+        <link refid="d7/de9/class_modular_1_1_blocks_1_1_pull_quote"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1556">
+        <label>ImageGallery</label>
+        <link refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1560">
+        <label>Promo</label>
+        <link refid="d8/dfb/class_modular_1_1_blocks_1_1_promo"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1549">
+        <label>Download</label>
+        <link refid="dc/d75/class_modular_1_1_blocks_1_1_download"/>
+        <childnode refid="1547" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1548">
+        <label>Audio</label>
+        <link refid="df/d9d/class_modular_1_1_blocks_1_1_audio"/>
+        <childnode refid="1547" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1552">
+        <label>Files</label>
+        <link refid="d4/d8f/class_modular_1_1_blocks_1_1_files"/>
+        <childnode refid="1542" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1564">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="1565" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1565">
+        <label>DataObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/VersionedModel.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/VersionedModel.php" bodystart="4" bodyend="21"/>
+    <listofallmembers>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::VersionedModel</scope><name>__invoke</name></member>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::VersionedModel</scope><name>class_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

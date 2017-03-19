@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d2/dc6/_image_gallery_8php" kind="file">
+    <compoundname>ImageGallery.php</compoundname>
+    <innerclass refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery" prot="public">Modular::Blocks::ImageGallery</innerclass>
+    <innernamespace refid="d2/db0/namespace_modular_1_1_blocks">Modular::Blocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Blocks;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery" kindref="compound">Modular\Interfaces\Imagery</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery" kindref="compound">ImageGallery</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Block</ref><sp/>implements<sp/><ref refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery" kindref="compound">Imagery</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$allowed_files<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;image&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery_1a788148fc60b7fc6649031535178cfb30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery_1a788148fc60b7fc6649031535178cfb30" kindref="member">Images</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parent::Images();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery_1a66d0d6da3b89580352c28d37b57df5bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery_1a66d0d6da3b89580352c28d37b57df5bb" kindref="member">Image</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;<ref refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery_1a788148fc60b7fc6649031535178cfb30" kindref="member">Images</ref>()-&gt;first();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery_1a42ee9ec85fd1465adb4607121c77c98d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery_1a42ee9ec85fd1465adb4607121c77c98d" kindref="member">allowedFileTypes</ref>($configVarName<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;allowed_files&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;config()-&gt;get($configVarName);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/ImageGallery.php"/>
+  </compounddef>
+</doxygen>

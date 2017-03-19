@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_2ac7217858fe6eaedd2691ab1da40c2c" kind="dir">
+    <compoundname>search</compoundname>
+    <innerfile refid="d1/dac/_block_extension_8php">BlockExtension.php</innerfile>
+    <innerfile refid="d3/dd8/search_2_constraints_8php">search/Constraints.php</innerfile>
+    <innerfile refid="dc/d72/_file_extension_8php">FileExtension.php</innerfile>
+    <innerfile refid="d8/d5a/_fulltext_provider_8php">FulltextProvider.php</innerfile>
+    <innerfile refid="d4/da3/search_2_grid_list_8php">search/GridList.php</innerfile>
+    <innerfile refid="dd/dcb/search_2_model_extension_8php">search/ModelExtension.php</innerfile>
+    <innerfile refid="d4/d34/search_2_service_8php">search/Service.php</innerfile>
+    <innerfile refid="d3/d1d/_site_tree_extension_8php">SiteTreeExtension.php</innerfile>
+    <innerfile refid="dc/d41/_tagged_items_provider_8php">TaggedItemsProvider.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/search/"/>
+  </compounddef>
+</doxygen>

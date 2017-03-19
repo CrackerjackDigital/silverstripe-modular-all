@@ -1,0 +1,754 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d6/d4d/class_modular_1_1_module">
+<title>Modular::Module class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const FileTypeCSS</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const FileTypeJavascript</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const FileTypeJavascriptTemplate</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RequirementsTemplateDataExtensionMethod</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const BeforeInit</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const AfterInit</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const Block</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const BothInit</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $module_name</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $module_path</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $requirements</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $requirements_path</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $script_types</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $combine</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $json_encode_options</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $json_decode_options</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $decode_depth</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1adca23664f6595af1254859dec4a884f9">make_safe_path</link> (
+ $path,  $fail,  $createIfNotExists)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1a3e1b304e64e6a784a791fcfc9aaa529e">log_path</link> (
+ $className)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1adcefa631050d8f2d9c82aa162c99a51d">log_file</link> (
+ $className)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1ae47215878a9d80c75708ad0e3935cff6">requirements</link> (
+ $controller,  $when)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1a6c2a967c18bc527fe7a8d195603df1e1">requirement_path</link> (
+ $path,  $baseDir)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1aa9a739d83a32406cd5f4737dc9a85825">module_name</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1ad165d2c3a8fd6e7ab5236b60abcfa84f">module_path</link> (
+ $append)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1a548c021d3c4fe5a3f376c22956b2f65a">requirements_path</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1ad5636a0d98d1230c9abb8a3a49708fc5">include_script_types</link> (
+ $configVariable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1a8743944d1220d3b31aab2659519199cb">block</link> (
+array $block)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1af3e607da6d8e4c404d1cbf81bcf361c8">add_requirements</link> (
+ $controller, array $requirements,  $moduleName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1a6cebc152365798ab01ad4c886ecdf641">css</link> (
+ $controller,  $path)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1a4b0cfe7b2ac09305fa45656c179a3993">js</link> (
+ $controller,  $path)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1a5af0388a79a0e92bf674b64cb09680ab">jst</link> (
+ $controller,  $path,  $info)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1aacc47928bcd26bc30dcf5efee0cc2203">combine</link> (
+array $requirements,  $moduleName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d6/d4d/class_modular_1_1_module_1a71a7945f17e73f99a675768c01d2796e">requirements_template_data</link> (
+ $controller,  $fileType,  $info)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1adca23664f6595af1254859dec4a884f9">
+                <title>static make_safe_path ($path, $fail=false, $createIfNotExists=true)</title> <emphasis></emphasis>
+                
+<para>Check the path is inside the base folder or relative to base folder when safe paths are appended and the real path is resolved.</para>
+
+<para>e.g. if config.allow_paths = [ &apos;../logs&apos; ] and web root is /var/sites/website/htdocs</para>
+
+<para>then is_safe_path(&apos;/var/sites/website/logs&apos;) will return true but is_safe_path(&apos;/var/sites/website/conf&apos;) will return false</para>
+
+<para>by default configuration the assets folder is always a safe path.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$path</entry>
+                                <entry>
+<para>(no filename) </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$fail</entry>
+                                <entry>
+<para>throw an exception if test fails </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$createIfNotExists</entry>
+                                <entry>
+<para>create the directory if it doesn&apos;t exist (and is in assets folder only). </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>bool|string path or false if not safe </para>
+</formalpara>
+exception                            <row>
+                                <entry>\Modular\Exceptions\Application</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1a3e1b304e64e6a784a791fcfc9aaa529e">
+                <title>static log_path ($className=null)</title> <emphasis></emphasis>
+                
+<para>Return a directory to put logs in.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$className</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1adcefa631050d8f2d9c82aa162c99a51d">
+                <title>static log_file ($className=null)</title> <emphasis></emphasis>
+                
+<para>Return a filename without a path to use for logging. </para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1ae47215878a9d80c75708ad0e3935cff6">
+                <title>static requirements ($controller, $when)</title> <emphasis></emphasis>
+                
+<para>Adds javascript files to requirements based on them ending in &apos;.js&apos; using config.install_dir as base path.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$controller</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$when</entry>
+                                <entry>
+<para>- look at before or after components. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1a6c2a967c18bc527fe7a8d195603df1e1">
+                <title>static requirement_path ($path, $baseDir=null)</title> <emphasis></emphasis>
+                
+<para>Return path in suitable format for Requirements either from the module install dir or from web root depending on path staring with &apos;/&apos; or not.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$path</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$baseDir</entry>
+                                <entry>
+<para>to use building path or null for the current module install dir. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1aa9a739d83a32406cd5f4737dc9a85825">
+                <title>static module_name ()</title> <emphasis></emphasis>
+                
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1ad165d2c3a8fd6e7ab5236b60abcfa84f">
+                <title>static module_path ($append= &apos;&apos;)</title> <emphasis></emphasis>
+                
+<para>This should be overriden by/copy-pasted to implementation to provide a default module path to the module, where the module installs relative to site root e.g. &apos;/swipestreak-gallery&apos;. Sadly can&apos;t seem to declare a static method abstract in php without getting an E_STRICT.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$append</entry>
+                                <entry>
+<para>- add this to end of found path </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1a548c021d3c4fe5a3f376c22956b2f65a">
+                <title>static requirements_path ()</title> <emphasis></emphasis>
+                
+<para>A module&apos;s requirements load from the same base path as the module.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1ad5636a0d98d1230c9abb8a3a49708fc5">
+                <title>static include_script_types ($configVariable= &apos;script_types&apos;)</title> <emphasis></emphasis>
+                
+<para>Iterate config.$configVariable map and return map excluding false values and with &apos;true&apos; values as []</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$configVariable</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1a8743944d1220d3b31aab2659519199cb">
+                <title>static block (array $block)</title> <emphasis></emphasis>
+                
+<para>Iterate through &apos;block&apos; key in config.requirements and block each script.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$block</entry>
+                                <entry>
+<para>map of paths to block. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array of blocked scripts as [&apos;js&apos; =&gt; &apos;path&apos;] type entries </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1af3e607da6d8e4c404d1cbf81bcf361c8">
+                <title>static add_requirements ($controller, array $requirements, $moduleName)</title> <emphasis></emphasis>
+                
+<para>Iterate through configured requirements and require if:</para>
+
+<para><itemizedlist>
+<listitem>
+<para>The type (jst, etc from FileTypeABC constants) is enabled</para>
+</listitem><listitem>
+<para>The settings for the file match e.g. the current runtime environment (dev, test etc)</para>
+</listitem><listitem>
+<para>The file exists (this may be loosened once backend requirements can handle non-existant files)</para>
+</listitem></itemizedlist>
+</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$controller</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$requirements</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$moduleName</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1a6cebc152365798ab01ad4c886ecdf641">
+                <title>static css ($controller, $path)</title> <emphasis></emphasis>
+                
+<para>SilverStripe require CSS</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$controller</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$path</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1a4b0cfe7b2ac09305fa45656c179a3993">
+                <title>static js ($controller, $path)</title> <emphasis></emphasis>
+                
+<para>SilverStripe require javascript</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$controller</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$path</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1a5af0388a79a0e92bf674b64cb09680ab">
+                <title>static jst ($controller, $path, $info=null)</title> <emphasis></emphasis>
+                
+<para>SilverStripe require javascript template, using self.template_data to gather variables to pass in (which in turn calls extensions on the current controller to get relevant info).</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$controller</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$path</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$info</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1aacc47928bcd26bc30dcf5efee0cc2203">
+                <title>static combine (array $requirements, $moduleName)</title> <emphasis></emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$requirements</entry>
+                                <entry>
+<para>map of [ &apos;js&apos; =&gt; [javascripts], &apos;css&apos; =&gt; [css files]] </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$moduleName</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d6/d4d/class_modular_1_1_module_1a71a7945f17e73f99a675768c01d2796e">
+                <title>static requirements_template_data ($controller, $fileType, $info= &apos;&apos;)</title> <emphasis></emphasis>
+                
+<para>Return an array of merged results from an extend.modularRequirementsTemplateData call on the current controller.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$controller</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$fileType</entry>
+                                <entry>
+<para>e.g. ModularModule::JavascriptTemplateFile constant </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$info</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

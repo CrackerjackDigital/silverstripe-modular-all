@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config">
+<title>Modular::GridField::GridFieldConfig class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ComponentAddNewButton</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ComponentAutoCompleter</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $items_per_page</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allow_add_new</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $autocomplete</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a305f7b18dce920304db64818988c9ab9">__construct</link> (
+ $itemsPerPage)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a9aac7e1475efe923de4e19cc2511f092">__invoke</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a77eb7482781c6152ac0a85593bf8f2b8">base</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a305f7b18dce920304db64818988c9ab9">
+                <title>__construct ($itemsPerPage=null)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a9aac7e1475efe923de4e19cc2511f092">
+                <title>__invoke ()</title> <emphasis></emphasis>
+                
+<para>Invoking <link linkend="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config">GridFieldConfig</link> returns itself <formalpara><title>Returns: </title>
+
+<para>$this </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d0/d52/class_modular_1_1_grid_field_1_1_grid_field_config_1a77eb7482781c6152ac0a85593bf8f2b8">
+                <title>static base ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

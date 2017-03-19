@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d8/dec/class_modular_1_1_behaviours_1_1_previewable">
+<title>Modular::Behaviours::Previewable class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d8/dec/class_modular_1_1_behaviours_1_1_previewable_1a9bf9dc156bf9f1d8941da3818fd13aad">updateItemEditForm</link> (
+&amp; $form)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d8/dec/class_modular_1_1_behaviours_1_1_previewable_1a3ab7c9f158b1d8fc5c3d68f95223e5c7">injectNavigatorAndPreview</link> (
+&amp; $form, &amp; $fields)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Adds preview pane to CMS for extended <link linkend="d0/da1/namespace_modular_1_1_models">Models</link>.</para>
+
+<para>Standing on the shoulders of Jotham Reid here <link xlink:href="https://github.com/jotham/silverstripe-dataobject-preview">https://github.com/jotham/silverstripe-dataobject-preview</link> just tweaked to fit the <link linkend="df/df5/namespace_modular">Modular</link> code and data model. </para>
+                <para>Definition at line 17 of file Previewable.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Previewable.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d8/dec/class_modular_1_1_behaviours_1_1_previewable_1a9bf9dc156bf9f1d8941da3818fd13aad">
+                <title>updateItemEditForm (&amp;$form)</title> <emphasis></emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$form</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d8/dec/class_modular_1_1_behaviours_1_1_previewable_1a3ab7c9f158b1d8fc5c3d68f95223e5c7">
+                <title>injectNavigatorAndPreview (&amp;$form, &amp;$fields)</title> <emphasis></emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$form</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$fields</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

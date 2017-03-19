@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d1/dbe/class_modular_1_1_type">
+<title>Modular::Type class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbe/class_modular_1_1_type_1a9aac7e1475efe923de4e19cc2511f092">__invoke</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/dbe/class_modular_1_1_type_1af9aa034ad033005279bd790155e683fa">onBeforeWrite</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbe/class_modular_1_1_type_1a74fc8d457a9fe7f9dd8c21afc3b5910d">type</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbe/class_modular_1_1_type_1a239b1c70258014a86569483c2d009de6">create</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbe/class_modular_1_1_type_1afe6cf403f39e693b46948bc6d57e83dc">class_name</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d1/dbe/class_modular_1_1_type_1ac344a161b9bb2eaaecc689b2e5f62c2b">get_by_code</link> (
+ $code)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d1/dbe/class_modular_1_1_type_1a9aac7e1475efe923de4e19cc2511f092">
+                <title>__invoke ()</title> <emphasis></emphasis>
+                
+<para>Invoking a type returns itself. <formalpara><title>Returns: </title>
+
+<para>$this </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d1/dbe/class_modular_1_1_type_1af9aa034ad033005279bd790155e683fa">
+                <title>onBeforeWrite ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d1/dbe/class_modular_1_1_type_1a74fc8d457a9fe7f9dd8c21afc3b5910d">
+                <title>static type ()</title> <emphasis></emphasis>
+                
+<para><formalpara><title>Returns: </title>
+
+<para>string the type name, generally from static::Type of implemented interface </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d1/dbe/class_modular_1_1_type_1a239b1c70258014a86569483c2d009de6">
+                <title>static create ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d1/dbe/class_modular_1_1_type_1afe6cf403f39e693b46948bc6d57e83dc">
+                <title>static class_name ()</title> <emphasis></emphasis>
+                
+<para>Patch until php 5.6 static::class is widely available on servers <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d1/dbe/class_modular_1_1_type_1ac344a161b9bb2eaaecc689b2e5f62c2b">
+                <title>static get_by_code ($code)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

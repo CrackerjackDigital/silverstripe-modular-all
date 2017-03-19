@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c66dfdaa406c296e3114a2de9fbc6fc2" kind="dir">
+    <compoundname>components</compoundname>
+    <innerfile refid="d0/d29/_grid_field_add_new_multi_class_sorted_8php">GridFieldAddNewMultiClassSorted.php</innerfile>
+    <innerfile refid="d2/d6c/_grid_field_orderable_rows_8php">GridFieldOrderableRows.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridfield/components/"/>
+  </compounddef>
+</doxygen>

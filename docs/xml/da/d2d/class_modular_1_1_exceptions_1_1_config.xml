@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/d2d/class_modular_1_1_exceptions_1_1_config" kind="class" prot="public">
+    <compoundname>Modular::Exceptions::Config</compoundname>
+    <derivedcompoundref refid="d5/d09/class_modular_1_1_exceptions_1_1_exception" prot="public" virt="non-virtual">Exception</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="185">
+        <label>NotImplemented</label>
+        <link refid="dd/d84/class_modular_1_1_exceptions_1_1_not_implemented"/>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>Exception</label>
+        <link refid="d5/d09/class_modular_1_1_exceptions_1_1_exception"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>Debug</label>
+        <link refid="d0/d50/class_modular_1_1_exceptions_1_1_debug"/>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>Application</label>
+        <link refid="df/da2/class_modular_1_1_exceptions_1_1_application"/>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="181">
+        <label>Config</label>
+        <link refid="da/d2d/class_modular_1_1_exceptions_1_1_config"/>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/exceptions/Config.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/exceptions/Config.php" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

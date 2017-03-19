@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/d2b/_external_link_8php" kind="file">
+    <compoundname>ExternalLink.php</compoundname>
+    <innerclass refid="db/dda/class_modular_1_1_fields_1_1_external_link" prot="public">Modular::Fields::ExternalLink</innerclass>
+    <innernamespace refid="dd/ddb/namespace_modular_1_1_fields">Modular::Fields</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Fields;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="db/dda/class_modular_1_1_fields_1_1_external_link" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="db/dda/class_modular_1_1_fields_1_1_external_link" kindref="compound">ExternalLink</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="da/d27/class_modular_1_1_fields_1_1_field" kindref="compound">Field</ref><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="db/dda/class_modular_1_1_fields_1_1_external_link_1a67fb1ed4ae9bb6c6c9dc8d909a256a3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="db/dda/class_modular_1_1_fields_1_1_external_link_1a67fb1ed4ae9bb6c6c9dc8d909a256a3a" kindref="member">ExternalLinkOption</ref><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;ExternalLink&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6" refid="db/dda/class_modular_1_1_fields_1_1_external_link_1af74d0ba94522656fd2c247bd544e2094" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="db/dda/class_modular_1_1_fields_1_1_external_link_1af74d0ba94522656fd2c247bd544e2094" kindref="member">SingleFieldName</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;ExternalLink&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7" refid="db/dda/class_modular_1_1_fields_1_1_external_link_1a6491a8c7fce5c91adf87287607c407a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="db/dda/class_modular_1_1_fields_1_1_external_link_1a6491a8c7fce5c91adf87287607c407a8" kindref="member">SingleFieldSchema</ref><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/ExternalLink.php"/>
+  </compounddef>
+</doxygen>

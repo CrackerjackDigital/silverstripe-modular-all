@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/d9d/class_modular_1_1_search_1_1_fulltext_provider" kind="class" prot="public">
+    <compoundname>Modular::Search::FulltextProvider</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+    <basecompoundref refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider" prot="public" virt="non-virtual">ItemsProvider</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d1/d9d/class_modular_1_1_search_1_1_fulltext_provider_1ae1da00d50e783551079c579fd6870a5f" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$search_classes</definition>
+        <argsstring></argsstring>
+        <name>$search_classes</name>
+        <initializer>= [
+		# at least in config, alse add <ref refid="da/d26/class_modular_1_1_search_1_1_model_extension" kindref="compound">Modular\Search\ModelExtension</ref> to the class itselg
+		# &apos;SiteTree&apos;,
+		# &apos;File&apos;,
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/search/FulltextProvider.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/FulltextProvider.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="535">
+        <label>FulltextProvider</label>
+        <link refid="d1/d9d/class_modular_1_1_search_1_1_fulltext_provider"/>
+        <childnode refid="536" relation="public-inheritance">
+        </childnode>
+        <childnode refid="538" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="536">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="537" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="537">
+        <label>DataExtension</label>
+      </node>
+      <node id="538">
+        <label>ItemsProvider</label>
+        <link refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="539">
+        <label>FulltextProvider</label>
+        <link refid="d1/d9d/class_modular_1_1_search_1_1_fulltext_provider"/>
+        <childnode refid="540" relation="public-inheritance">
+        </childnode>
+        <childnode refid="542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="540">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="541" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="541">
+        <label>DataExtension</label>
+      </node>
+      <node id="542">
+        <label>ItemsProvider</label>
+        <link refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider"/>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/search/FulltextProvider.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/search/FulltextProvider.php" bodystart="10" bodyend="52"/>
+    <listofallmembers>
+      <member refid="d1/d9d/class_modular_1_1_search_1_1_fulltext_provider_1ae1da00d50e783551079c579fd6870a5f" prot="private" virt="non-virtual"><scope>Modular::Search::FulltextProvider</scope><name>$search_classes</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Search::FulltextProvider</scope><name>class_name</name></member>
+      <member refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider_1a2d6bbbaad31a7dae75cff24145feb804" prot="public" virt="non-virtual"><scope>Modular::Search::FulltextProvider</scope><name>provideGridListItems</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Search::FulltextProvider</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

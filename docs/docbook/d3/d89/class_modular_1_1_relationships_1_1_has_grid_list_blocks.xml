@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks">
+<title>Modular::Relationships::HasGridListBlocks class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelationshipName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const GridFieldConfigName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks_1ad5a2308c083b719b1c6033430f6138a4">provideGridListItems</link> (
+ $parameters)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks_1af369da5e33e03a0e9ea52d07b239e332">sequenceGridListItems</link> (
+&amp; $items,  $filters, &amp; $parameters)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks_1ad5a2308c083b719b1c6033430f6138a4">
+                <title>provideGridListItems ($parameters=[])</title> <emphasis></emphasis>
+                
+<para>Returns the <link linkend="d2/db0/namespace_modular_1_1_blocks">Blocks</link> GridListBlocks <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks_1af369da5e33e03a0e9ea52d07b239e332">
+                <title>sequenceGridListItems (&amp;$items, $filters, &amp;$parameters=[])</title> <emphasis></emphasis>
+                
+<para>Inserts manually added blocks at front of list.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$items</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$filters</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$parameters</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d7/dba/class_modular_1_1_workflows_1_1_model_extension">
+<title>Modular::Workflows::ModelExtension class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const AuthorGroup</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const PublisherGroup</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ActionEdit</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ActionView</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $view_groups</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $edit_groups</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a4238cc526e8e1218b47cbf52d18ce689">canDoIt</link> (
+ $what,  $member)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a6762f348ffabfaab43d7b863c4927418">canCreate</link> (
+ $member)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a57d9c9e456c077ae320537136b742e51">canView</link> (
+ $member)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a24c1f104c9245852cbf4dbb42bea3648">canEdit</link> (
+ $member)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1ab89c4d1df1bd7c1d7b4d7943651b23f1">canDelete</link> (
+ $member)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1aa6a6796ecd4562f884a12836bc1a42f6">canViewVersioned</link> (
+ $member)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a4238cc526e8e1218b47cbf52d18ce689">
+                <title>canDoIt ($what, $member=null)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a6762f348ffabfaab43d7b863c4927418">
+                <title>canCreate ($member=null)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a57d9c9e456c077ae320537136b742e51">
+                <title>canView ($member=null)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1a24c1f104c9245852cbf4dbb42bea3648">
+                <title>canEdit ($member)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1ab89c4d1df1bd7c1d7b4d7943651b23f1">
+                <title>canDelete ($member)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dba/class_modular_1_1_workflows_1_1_model_extension_1aa6a6796ecd4562f884a12836bc1a42f6">
+                <title>canViewVersioned ($member=null)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

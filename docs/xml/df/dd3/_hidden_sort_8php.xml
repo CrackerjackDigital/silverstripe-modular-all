@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/dd3/_hidden_sort_8php" kind="file">
+    <compoundname>HiddenSort.php</compoundname>
+    <innerclass refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort" prot="public">Modular::Fields::HiddenSort</innerclass>
+    <innernamespace refid="dd/ddb/namespace_modular_1_1_fields">Modular::Fields</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Fields;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort" kindref="compound">HiddenSort</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="da/d27/class_modular_1_1_fields_1_1_field" kindref="compound">Field</ref><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort_1af74d0ba94522656fd2c247bd544e2094" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort_1af74d0ba94522656fd2c247bd544e2094" kindref="member">SingleFieldName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Sort&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6" refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort_1a6491a8c7fce5c91adf87287607c407a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort_1a6491a8c7fce5c91adf87287607c407a8" kindref="member">SingleFieldSchema</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Int&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7" refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort_1a948eb7c2bb2dfa07fec1c08eca7e7a93" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort_1a948eb7c2bb2dfa07fec1c08eca7e7a93" kindref="member">ReadOnly</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort_1ae6098bb0243f4ce2f8680b3723783300" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort_1ae6098bb0243f4ce2f8680b3723783300" kindref="member">cmsFields</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(static::ReadOnly)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$fields<sp/>=<sp/>parent::cmsFields();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$fields[<sp/>static::SingleFieldName<sp/>]<sp/>=<sp/>new<sp/>\HiddenField(static::SingleFieldName);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$fields;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/HiddenSort.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_18ce4be95c8ff2d793f187ff0d2e517a" kind="dir">
+    <compoundname>items</compoundname>
+    <innerfile refid="d8/dea/_associated_filters_8php">AssociatedFilters.php</innerfile>
+    <innerfile refid="d4/dc3/items_2_child_pages_8php">items/ChildPages.php</innerfile>
+    <innerfile refid="d9/d1f/_related_pages_8php">RelatedPages.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/"/>
+  </compounddef>
+</doxygen>

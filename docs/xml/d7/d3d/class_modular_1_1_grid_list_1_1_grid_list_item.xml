@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item" kind="class" prot="public">
+    <compoundname>Modular::GridList::GridListItem</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1adff1fe04d816de27741b4c3f0ffea1f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GridListItem</definition>
+        <argsstring>($columns=0)</argsstring>
+        <name>GridListItem</name>
+        <param>
+          <declname>$columns</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Renders the item into the gridlist with selected template passing through Filters which are defined on the item. <ref refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item" kindref="compound">GridListItem</ref> constructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridListItem.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridListItem.php" bodystart="16" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1a3b1b1a60ec6174f70dc629ac023467e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FilterTags</definition>
+        <argsstring>()</argsstring>
+        <name>FilterTags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridListItem.php" line="31" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridListItem.php" bodystart="31" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1a0b54c9d3801b331b75487ef78d98c06b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>template</definition>
+        <argsstring>()</argsstring>
+        <name>template</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a template name either from extended models config.gridlist_template of set or from the extended models ClassName. In either case the current <ref refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list" kindref="compound">GridList</ref> view mode (grid, list or search) is appended.</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridListItem.php" line="44" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridListItem.php" bodystart="44" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Render the extended model (e.g. Block) or view (e.g. Page) as an item in a gridlist using the associated template </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="630">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="631" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="631">
+        <label>DataExtension</label>
+      </node>
+      <node id="629">
+        <label>GridListItem</label>
+        <link refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item"/>
+        <childnode refid="630" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="633">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="634" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="634">
+        <label>DataExtension</label>
+      </node>
+      <node id="632">
+        <label>GridListItem</label>
+        <link refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item"/>
+        <childnode refid="633" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridListItem.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridListItem.php" bodystart="10" bodyend="52"/>
+    <listofallmembers>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::GridList::GridListItem</scope><name>class_name</name></member>
+      <member refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1a3b1b1a60ec6174f70dc629ac023467e8" prot="public" virt="non-virtual"><scope>Modular::GridList::GridListItem</scope><name>FilterTags</name></member>
+      <member refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1adff1fe04d816de27741b4c3f0ffea1f5" prot="public" virt="non-virtual"><scope>Modular::GridList::GridListItem</scope><name>GridListItem</name></member>
+      <member refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item_1a0b54c9d3801b331b75487ef78d98c06b" prot="protected" virt="non-virtual"><scope>Modular::GridList::GridListItem</scope><name>template</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::GridList::GridListItem</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

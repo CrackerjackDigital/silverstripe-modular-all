@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/d83/namespace_modular_1_1_types_1_1_traits" kind="namespace">
+    <compoundname>Modular::Types::Traits</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="dd/d83/namespace_modular_1_1_types_1_1_traits_1aa6a27a63ba5a725a820c445df0a58267" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait epoch</definition>
+        <argsstring></argsstring>
+        <name>epoch</name>
+        <initializer>{
+	abstract public function <ref refid="dd/d83/namespace_modular_1_1_types_1_1_traits_1a78ee6d9cfc9fa49268b4e49dbe643254" kindref="member">singleFieldValue</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/traits/epoch.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/traits/epoch.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d83/namespace_modular_1_1_types_1_1_traits_1a428d70ed02d9cd2ff53f154a3ac684d0" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait urn</definition>
+        <argsstring></argsstring>
+        <name>urn</name>
+        <initializer>{
+	abstract public function <ref refid="dd/d83/namespace_modular_1_1_types_1_1_traits_1a78ee6d9cfc9fa49268b4e49dbe643254" kindref="member">singleFieldValue</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/traits/urn.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/traits/urn.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d83/namespace_modular_1_1_types_1_1_traits_1a9533f9428b5f8c0bde69ce4e266ee978" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>{
+	
+	abstract public function __invoke()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/traits/value.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/traits/value.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dd/d83/namespace_modular_1_1_types_1_1_traits_1aeda81433a62689a05c7bac66a5c9ad06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Types\Traits\typedValueFormat</definition>
+        <argsstring>($typeCast=StringType::class)</argsstring>
+        <name>typedValueFormat</name>
+        <param>
+          <declname>$typeCast</declname>
+          <defval>StringType::class</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the format to use for the typeCase, e.g date only, time only or date and time. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$typeCast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="dd/dc2/interface_modular_1_1_types_1_1_type" kindref="compound">Type</ref> class name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/traits/epoch.php" line="24" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/traits/epoch.php" bodystart="24" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d83/namespace_modular_1_1_types_1_1_traits_1a4889207020e3a9bd17a77d61f3e8888e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>typedValue</definition>
+        <argsstring>($typeCast=null)</argsstring>
+        <name>typedValue</name>
+        <param>
+          <declname>$typeCast</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns value cast between <ref refid="dd/d29/interface_modular_1_1_types_1_1_string_type" kindref="compound">StringType</ref> and <ref refid="dd/d59/interface_modular_1_1_types_1_1_int_type" kindref="compound">IntType</ref> if typeCast is passed and one of those two options. Otherwise returns the value as is.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$typeCast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>class name of target type, e.g. &apos;<ref refid="df/df5/namespace_modular" kindref="compound">Modular</ref>&apos; generally from e.g. &apos;StringType::class&apos; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>false|int|string</para></simplesect>
+If value does not have a schema then prefix &apos;<ulink url="file://&apos;">file://&apos;</ulink> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$typeCast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ignored </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed|string </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>\Modular\Exceptions\Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Just return the singleFieldValue </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$typeCast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>class name of <ref refid="dd/dc2/interface_modular_1_1_types_1_1_type" kindref="compound">Type</ref> to cast to, e.g. StringType::class from caller </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed|string </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>\Modular\Exceptions\Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/traits/epoch.php" line="42" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/traits/epoch.php" bodystart="42" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d83/namespace_modular_1_1_types_1_1_traits_1a91570f24d96a8dcbe17147217f857a10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Types\Traits\typedValuePrefix</definition>
+        <argsstring>()</argsstring>
+        <name>typedValuePrefix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/traits/urn.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/traits/urn.php" bodystart="7" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d83/namespace_modular_1_1_types_1_1_traits_1a78ee6d9cfc9fa49268b4e49dbe643254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Modular\Types\Traits\singleFieldValue</definition>
+        <argsstring>()</argsstring>
+        <name>singleFieldValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/traits/value.php" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular-types/code/traits/epoch.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

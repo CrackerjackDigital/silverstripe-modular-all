@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_88a2e1e11ff2ea0eeaea837e62693689" kind="dir">
+    <compoundname>gridlist</compoundname>
+    <innerdir refid="dir_67dc372ac429d0ad2192b3d83247cfbe">constraints</innerdir>
+    <innerdir refid="dir_bfe8625724086da1af77dc577532f7a2">controllers</innerdir>
+    <innerdir refid="dir_c19cfeb6057712055913c1846c37f704">fields</innerdir>
+    <innerdir refid="dir_c284d72a284be6da1966190715c6e683">interfaces</innerdir>
+    <innerdir refid="dir_797e6d337551fc392159680edd458314">layout</innerdir>
+    <innerdir refid="dir_8706ea69f77692433f76df576aff3666">providers</innerdir>
+    <innerdir refid="dir_ec5c2cfb8206824b96178b276644942f">relationships</innerdir>
+    <innerdir refid="dir_be8fdc1195420db009a4b0135d9d4fe4">sequencers</innerdir>
+    <innerfile refid="d5/d94/gridlist_2_constraints_8php">gridlist/Constraints.php</innerfile>
+    <innerfile refid="d7/d6f/gridlist_2_grid_list_8php">gridlist/GridList.php</innerfile>
+    <innerfile refid="d8/db1/_grid_list_item_8php">GridListItem.php</innerfile>
+    <innerfile refid="d1/d6a/_grid_list_links_8php">GridListLinks.php</innerfile>
+    <innerfile refid="d6/d79/gridlist_2_service_8php">gridlist/Service.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/"/>
+  </compounddef>
+</doxygen>

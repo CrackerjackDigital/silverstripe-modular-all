@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/d94/class_modular_1_1_models_1_1_grid_list_filter">
+<title>Modular::Models::GridListFilter class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const TagFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $db</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1ac70c858bd88a4931365b8be59f8e6d55">getCMSFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1ad724ba04cbde6118ceddbd6635e96eaa">Filter</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1a81c2d1b34545361e44d0e6ed24008fd7">FilterLink</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1ac70c858bd88a4931365b8be59f8e6d55">
+                <title>getCMSFields ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1ad724ba04cbde6118ceddbd6635e96eaa">
+                <title>Filter ()</title> <emphasis></emphasis>
+                
+<para>GridListFilters should have ModelTag extension so use that as the Filter value in page etc. <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1a81c2d1b34545361e44d0e6ed24008fd7">
+                <title>FilterLink ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

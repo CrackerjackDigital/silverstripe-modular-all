@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/de2/_has_images_8php" kind="file">
+    <compoundname>HasImages.php</compoundname>
+    <innerclass refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images" prot="public">Modular::Relationships::HasImages</innerclass>
+    <innernamespace refid="d6/ddb/namespace_modular_1_1_relationships">Modular::Relationships</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Relationships;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/>FormField;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery" kindref="compound">Modular\Interfaces\Imagery</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="df/df5/namespace_modular_1aab380e91a6e89eb7d572417a59dbdbdc" kindref="member">Modular\upload</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images" kindref="compound">HasImages</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many" kindref="compound">HasManyMany</ref><sp/>implements<sp/><ref refid="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery" kindref="compound">Imagery</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/><ref refid="df/df5/namespace_modular_1aab380e91a6e89eb7d572417a59dbdbdc" kindref="member">upload</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a522cd5b3b15c4a885005cd0919628158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a522cd5b3b15c4a885005cd0919628158" kindref="member">RelationshipName</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Images&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12" refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a0c616e562eff7e4bf6b10e3ecacc226b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a0c616e562eff7e4bf6b10e3ecacc226b" kindref="member">RelatedClassName</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Image&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13" refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a2964c9db98d4b1dbdc2d723a67382e11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a2964c9db98d4b1dbdc2d723a67382e11" kindref="member">DefaultUploadFolderName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;images&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$allowed_image_files<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;image&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1ae6098bb0243f4ce2f8680b3723783300" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1ae6098bb0243f4ce2f8680b3723783300" kindref="member">cmsFields</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="df/df5/namespace_modular_1a89b171639eb5b84aa423822c163c914f" kindref="member">makeUploadField</ref>(static::RelationshipName),</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a788148fc60b7fc6649031535178cfb30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a788148fc60b7fc6649031535178cfb30" kindref="member">Images</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this()-&gt;{self::RelationshipName}();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a66d0d6da3b89580352c28d37b57df5bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1a66d0d6da3b89580352c28d37b57df5bb" kindref="member">Image</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;Images()-&gt;first();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" kindref="member">customFieldConstraints</ref>(FormField<sp/>$field,<sp/>array<sp/>$allFieldConstraints)<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parent::customFieldConstraints($field,<sp/>$allFieldConstraints);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($field-&gt;getName()<sp/>==<sp/>self::RelationshipName)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="df/df5/namespace_modular_1ad3267303429bf001abe95cb2ad8ad778" kindref="member">configureUploadField</ref>($field,<sp/></highlight><highlight class="stringliteral">&apos;allowed_image_files&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasImages.php"/>
+  </compounddef>
+</doxygen>

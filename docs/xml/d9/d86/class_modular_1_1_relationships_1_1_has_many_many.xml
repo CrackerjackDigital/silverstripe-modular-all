@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many" kind="class" prot="public">
+    <compoundname>Modular::Relationships::HasManyMany</compoundname>
+    <basecompoundref refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field" prot="public" virt="non-virtual">GridField</basecompoundref>
+    <derivedcompoundref refid="d4/d77/class_modular_1_1_fields_1_1_has_many_many_grid_field" prot="public" virt="non-virtual">HasManyManyGridField</derivedcompoundref>
+    <derivedcompoundref refid="d6/dd2/class_modular_1_1_fields_1_1_has_many_many_tag_field" prot="public" virt="non-virtual">HasManyManyTagField</derivedcompoundref>
+    <derivedcompoundref refid="d7/d8f/class_modular_1_1_fields_1_1_links" prot="public" virt="non-virtual">Links</derivedcompoundref>
+    <derivedcompoundref refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks" prot="public" virt="non-virtual">HasBlocks</derivedcompoundref>
+    <derivedcompoundref refid="d0/ded/class_modular_1_1_relationships_1_1_has_files" prot="public" virt="non-virtual">HasFiles</derivedcompoundref>
+    <derivedcompoundref refid="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters" prot="public" virt="non-virtual">HasGridListFilters</derivedcompoundref>
+    <derivedcompoundref refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images" prot="public" virt="non-virtual">HasImages</derivedcompoundref>
+    <derivedcompoundref refid="d1/d52/class_modular_1_1_relationships_1_1_has_related_pages" prot="public" virt="non-virtual">HasRelatedPages</derivedcompoundref>
+    <derivedcompoundref refid="de/d13/class_modular_1_1_relationships_1_1_has_tags" prot="public" virt="non-virtual">HasTags</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ab62a5a297ebd31bf3ee520682632679c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ShowAsTagsField</definition>
+        <argsstring></argsstring>
+        <name>ShowAsTagsField</name>
+        <initializer>= &apos;tags&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1aaeeea0416334b9aaf0ab8243c7d4ed8e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const GridFieldConfigName</definition>
+        <argsstring></argsstring>
+        <name>GridFieldConfigName</name>
+        <initializer>= &apos;<ref refid="d8/df1/class_modular_1_1_grid_field_1_1_has_many_many_grid_field_config" kindref="compound">Modular\GridField\HasManyManyGridFieldConfig</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ae6098bb0243f4ce2f8680b3723783300" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cmsFields</definition>
+        <argsstring>()</argsstring>
+        <name>cmsFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Customise if shows as a <ref refid="d3/d7f/namespace_modular_1_1_grid_field" kindref="compound">GridField</ref> or a TagField depending on config.show_as</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" bodystart="19" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1a7d48a24c6d09461afccc09692e2c6bbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>related</definition>
+        <argsstring>($relationshipName= &apos;&apos;)</argsstring>
+        <name>related</name>
+        <param>
+          <declname>$relationshipName</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return all related items. Optionally (for convenience more than anything) provide a relationship name to dereference otherwise this classes late static binding <ref refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a50807616ae6f8a7b80f444cdb186f0e5" kindref="member">relationship_name()</ref> will be used.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$relationshipName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if supplied use this relationship instead of static relationship_name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>| </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" line="35" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1a3b97a85d27fe80e7118a7e8a70a9acb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>relatedIDs</definition>
+        <argsstring>($relationshipName= &apos;&apos;)</argsstring>
+        <name>relatedIDs</name>
+        <param>
+          <declname>$relationshipName</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return an array of IDs from the other end of this extendsions Relationship or the supplied relationship name.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$relationshipName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" line="46" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ad3eec60b4f217a0c87baf84faf65f7f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fieldDecorationTokens</definition>
+        <argsstring>()</argsstring>
+        <name>fieldDecorationTokens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a csv list of implementors of this class as token &apos;implementors&apos; <simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" line="54" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" bodystart="54" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>extraStatics</definition>
+        <argsstring>($class=null, $extension=null)</argsstring>
+        <name>extraStatics</name>
+        <param>
+          <declname>$class</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$extension</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds many_many relationships based off relationship_name and related_class_name, and many_many_extraFields such as &apos;Sort&apos;.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$class</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$extension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" line="114" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" bodystart="114" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ac9c3b740ba1c9a6a05e6b2b99434a899" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static implementors</definition>
+        <argsstring>($includeCalledClass=false)</argsstring>
+        <name>implementors</name>
+        <param>
+          <declname>$includeCalledClass</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a map of derived implementations and their singular names.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$includeCalledClass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true then the class being called will also be in the returned map </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array [ className =&gt; relationshipName ] </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" line="69" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" bodystart="69" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ac3cb86a17d4834efccf7bbad177f6fca" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tagFields</definition>
+        <argsstring>()</argsstring>
+        <name>tagFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a field array using a tag field which can be used in derived classes instead of a <ref refid="d3/d7f/namespace_modular_1_1_grid_field" kindref="compound">GridField</ref> which is the default returned by <ref refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ae6098bb0243f4ce2f8680b3723783300" kindref="member">cmsFields()</ref>.</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" line="92" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" bodystart="92" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="799">
+        <label>HasFiles</label>
+        <link refid="d0/ded/class_modular_1_1_relationships_1_1_has_files"/>
+        <childnode refid="789" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="790">
+        <label>GridField</label>
+        <link refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field"/>
+        <childnode refid="791" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="792">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="793" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="797">
+        <label>HasBlocks</label>
+        <link refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks"/>
+        <childnode refid="789" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="794">
+        <label>HasManyManyGridField</label>
+        <link refid="d4/d77/class_modular_1_1_fields_1_1_has_many_many_grid_field"/>
+        <childnode refid="789" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="793">
+        <label>DataExtension</label>
+      </node>
+      <node id="796">
+        <label>Links</label>
+        <link refid="d7/d8f/class_modular_1_1_fields_1_1_links"/>
+        <childnode refid="789" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="791">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="792" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="798">
+        <label>HasGridListBlocks</label>
+        <link refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks"/>
+        <childnode refid="797" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="789">
+        <label>HasManyMany</label>
+        <link refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many"/>
+        <childnode refid="790" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="801">
+        <label>HasImages</label>
+        <link refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images"/>
+        <childnode refid="789" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="802">
+        <label>HasRelatedPages</label>
+        <link refid="d1/d52/class_modular_1_1_relationships_1_1_has_related_pages"/>
+        <childnode refid="789" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="800">
+        <label>HasGridListFilters</label>
+        <link refid="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters"/>
+        <childnode refid="789" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="803">
+        <label>HasTags</label>
+        <link refid="de/d13/class_modular_1_1_relationships_1_1_has_tags"/>
+        <childnode refid="789" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="795">
+        <label>HasManyManyTagField</label>
+        <link refid="d6/dd2/class_modular_1_1_fields_1_1_has_many_many_tag_field"/>
+        <childnode refid="789" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="805">
+        <label>GridField</label>
+        <link refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field"/>
+        <childnode refid="806" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="807">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="808" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="808">
+        <label>DataExtension</label>
+      </node>
+      <node id="806">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="807" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="804">
+        <label>HasManyMany</label>
+        <link refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many"/>
+        <childnode refid="805" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasManyMany.php" bodystart="8" bodyend="138"/>
+    <listofallmembers>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>addHTMLAttributes</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>class_name</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ae6098bb0243f4ce2f8680b3723783300" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>cmsFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>cmsTab</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>configureTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>customFieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>DefaultTabName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>extendedFieldNames</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>extraStatics</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>fieldConstraints</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ad3eec60b4f217a0c87baf84faf65f7f0" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>fieldDecorationTokens</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1aaeeea0416334b9aaf0ab8243c7d4ed8e" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>GridFieldConfigName</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1aa9bf9eaab5654c2ea74f41f1129f01d5" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>gridFields</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ac9c3b740ba1c9a6a05e6b2b99434a899" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>implementors</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>labelsForRelatedClass</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1a7d48a24c6d09461afccc09692e2c6bbb" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>related</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a03ff5c332d7f0fdc32108663e541bc01" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>related_class_name</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a0c616e562eff7e4bf6b10e3ecacc226b" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>RelatedClassName</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1a3b97a85d27fe80e7118a7e8a70a9acb0" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>relatedIDs</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>relationship_name</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>RelationshipName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>setFieldDecorations</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a7bb7cd9086ebc593243950e0cf586326" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>ShowAsGridField</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ab62a5a297ebd31bf3ee520682632679c" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>ShowAsTagsField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>SingleFieldName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>SingleFieldSchema</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>singleFieldValue</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a7b2773655958a2f7045db78cc468525c" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>sortable</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a58d45c13ab7488436af7f47e52721141" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>SortFieldName</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ac3cb86a17d4834efccf7bbad177f6fca" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>tagFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>updateSummaryFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasManyMany</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

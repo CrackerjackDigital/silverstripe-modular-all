@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/dad/class_modular_1_1_grid_list_1_1_constraints_1_1_filter_1_1_only_custom" kind="class" prot="public">
+    <compoundname>Modular::GridList::Constraints::Filter::OnlyCustom</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+    <basecompoundref refid="d3/dc4/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filter_constraints" prot="public" virt="non-virtual">FilterConstraints</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/dad/class_modular_1_1_grid_list_1_1_constraints_1_1_filter_1_1_only_custom_1a8993385cf954e4e36f2ff0906e138561" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>constrainGridListFilters</definition>
+        <argsstring>(&amp;$filters, &amp;$parameters=[])</argsstring>
+        <name>constrainGridListFilters</name>
+        <reimplements refid="d3/dc4/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filter_constraints_1a8993385cf954e4e36f2ff0906e138561">constrainGridListFilters</reimplements>
+        <param>
+          <type>&amp;</type>
+          <declname>$filters</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$parameters</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make sure only the custom filters are provided. This needs to go after other filter providers.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$filters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/constraints/filters/OnlyCustom.php" line="21" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/constraints/filters/OnlyCustom.php" bodystart="21" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1284">
+        <label>OnlyCustom</label>
+        <link refid="d3/dad/class_modular_1_1_grid_list_1_1_constraints_1_1_filter_1_1_only_custom"/>
+        <childnode refid="1285" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1287" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1285">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1286" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1286">
+        <label>DataExtension</label>
+      </node>
+      <node id="1287">
+        <label>FilterConstraints</label>
+        <link refid="d3/dc4/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filter_constraints"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1288">
+        <label>OnlyCustom</label>
+        <link refid="d3/dad/class_modular_1_1_grid_list_1_1_constraints_1_1_filter_1_1_only_custom"/>
+        <childnode refid="1289" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1291" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1289">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1290" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1290">
+        <label>DataExtension</label>
+      </node>
+      <node id="1291">
+        <label>FilterConstraints</label>
+        <link refid="d3/dc4/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filter_constraints"/>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/constraints/filters/OnlyCustom.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/constraints/filters/OnlyCustom.php" bodystart="14" bodyend="40"/>
+    <listofallmembers>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints::Filter::OnlyCustom</scope><name>class_name</name></member>
+      <member refid="d3/dad/class_modular_1_1_grid_list_1_1_constraints_1_1_filter_1_1_only_custom_1a8993385cf954e4e36f2ff0906e138561" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints::Filter::OnlyCustom</scope><name>constrainGridListFilters</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints::Filter::OnlyCustom</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

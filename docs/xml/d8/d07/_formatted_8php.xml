@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/d07/_formatted_8php" kind="file">
+    <compoundname>Formatted.php</compoundname>
+    <innerclass refid="dd/d4a/class_modular_1_1_fields_1_1_formatted" prot="public">Modular::Fields::Formatted</innerclass>
+    <innernamespace refid="dd/ddb/namespace_modular_1_1_fields">Modular::Fields</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Fields;</highlight></codeline>
+<codeline lineno="8" refid="dd/d4a/class_modular_1_1_fields_1_1_formatted" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d4a/class_modular_1_1_fields_1_1_formatted" kindref="compound">Formatted</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="da/d27/class_modular_1_1_fields_1_1_field" kindref="compound">Field</ref><sp/>{</highlight></codeline>
+<codeline lineno="9" refid="dd/d4a/class_modular_1_1_fields_1_1_formatted_1a6491a8c7fce5c91adf87287607c407a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4a/class_modular_1_1_fields_1_1_formatted_1a6491a8c7fce5c91adf87287607c407a8" kindref="member">SingleFieldSchema</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Varchar(32)&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Formatted.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/dff/class_modular_1_1_fields_1_1_code">
+<title>Modular::Fields::Code class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SystemCode</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const CodeFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $db</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $augment_enabled</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/dff/class_modular_1_1_fields_1_1_code_1ae6098bb0243f4ce2f8680b3723783300">cmsFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/dff/class_modular_1_1_fields_1_1_code_1ae781ba258855f73185fcd3215b3780e2">validate</link> (
+ValidationResult $result)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/dff/class_modular_1_1_fields_1_1_code_1a5efd4d262663f72376e710e4b5f81077">augmentSQL</link> (
+SQLQuery &amp; $query)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d4/dff/class_modular_1_1_fields_1_1_code_1a293fe0c08340d4b28bbc54ecdb5b7a93">augment_enabled</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d4/dff/class_modular_1_1_fields_1_1_code_1a482f5dc909e50050074fef5a8901cb35">disable_augment</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d4/dff/class_modular_1_1_fields_1_1_code_1a12c270e2c8aed6268a1b1ae031cb16d7">enable_augment</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d4/dff/class_modular_1_1_fields_1_1_code_1a9b740176fa8c3f2c0d776cbe53f32ab1">augment_enable</link> (
+ $enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Adds a 5-letter &apos;<link linkend="d4/dff/class_modular_1_1_fields_1_1_code">Code</link>&apos; field to the extended model and makes it readonly in CMS, and adds ability for a code of SYSTM to be filtered out via augmentSQL extension call. </para>
+                <para>Definition at line 18 of file Code.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Code.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d4/dff/class_modular_1_1_fields_1_1_code_1ae6098bb0243f4ce2f8680b3723783300">
+                <title>cmsFields ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/dff/class_modular_1_1_fields_1_1_code_1ae781ba258855f73185fcd3215b3780e2">
+                <title>validate (ValidationResult $result)</title> <emphasis></emphasis>
+                
+<para>Prevent duplicate code being entered.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$result</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array|void </para>
+</formalpara>
+exception                            <row>
+                                <entry>\ValidationException</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d4/dff/class_modular_1_1_fields_1_1_code_1a5efd4d262663f72376e710e4b5f81077">
+                <title>augmentSQL (SQLQuery &amp;$query)</title> <emphasis></emphasis>
+                
+<para>Don&apos;t show TaxonomyTerms with code of SYSTM unless you&apos;re an <link linkend="d7/d04/namespace_modular_1_1_admin">Admin</link> or config.augment_enabled = false 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$query</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d4/dff/class_modular_1_1_fields_1_1_code_1a293fe0c08340d4b28bbc54ecdb5b7a93">
+                <title>static augment_enabled ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/dff/class_modular_1_1_fields_1_1_code_1a482f5dc909e50050074fef5a8901cb35">
+                <title>static disable_augment ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/dff/class_modular_1_1_fields_1_1_code_1a12c270e2c8aed6268a1b1ae031cb16d7">
+                <title>static enable_augment ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/dff/class_modular_1_1_fields_1_1_code_1a9b740176fa8c3f2c0d776cbe53f32ab1">
+                <title>static augment_enable ($enabled)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link" kind="class" prot="public">
+    <compoundname>Modular::Models::InternalOrExternalLink</compoundname>
+    <basecompoundref refid="db/d0a/class_modular_1_1_model" prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a58d45c13ab7488436af7f47e52721141" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SortFieldName</definition>
+        <argsstring></argsstring>
+        <name>SortFieldName</name>
+        <initializer>= &apos;Sort&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a522cd5b3b15c4a885005cd0919628158" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RelationshipName</definition>
+        <argsstring></argsstring>
+        <name>RelationshipName</name>
+        <initializer>= &apos;LinksBlock&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a0c616e562eff7e4bf6b10e3ecacc226b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RelatedClassName</definition>
+        <argsstring></argsstring>
+        <name>RelatedClassName</name>
+        <initializer>= &apos;<ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Modular\Blocks\Block</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a1fa3127fc82f96b1436d871ef02be319" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$db</definition>
+        <argsstring></argsstring>
+        <name>$db</name>
+        <initializer>= [
+		self::SortFieldName =&gt; &apos;Int&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a5b661aef96674391085f36c3266d8068" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>static $has_one</definition>
+        <argsstring></argsstring>
+        <name>$has_one</name>
+        <initializer>= [
+		self::RelationshipName =&gt; self::RelatedClassName</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a3a36818e97ef777a687304d3a37e856c" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>static static $summary_fields</definition>
+        <argsstring></argsstring>
+        <name>$summary_fields</name>
+        <initializer>= [
+		&apos;<ref refid="d2/dde/class_modular_1_1_fields_1_1_title" kindref="compound">Title</ref>&apos;        =&gt; &apos;<ref refid="d2/dde/class_modular_1_1_fields_1_1_title" kindref="compound">Title</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a815ca6b58e3fa71926a0c12797421bbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static static static getCMSFields</definition>
+        <argsstring>()</argsstring>
+        <name>getCMSFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" line="20" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" bodystart="20" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="975">
+        <label>DataObject</label>
+      </node>
+      <node id="973">
+        <label>InternalOrExternalLink</label>
+        <link refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link"/>
+        <childnode refid="974" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="974">
+        <label>Model</label>
+        <link refid="db/d0a/class_modular_1_1_model"/>
+        <childnode refid="975" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="978">
+        <label>DataObject</label>
+      </node>
+      <node id="976">
+        <label>InternalOrExternalLink</label>
+        <link refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link"/>
+        <childnode refid="977" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="977">
+        <label>Model</label>
+        <link refid="db/d0a/class_modular_1_1_model"/>
+        <childnode refid="978" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/InternalOrExternalLink.php" bodystart="4" bodyend="26"/>
+    <listofallmembers>
+      <member refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a1fa3127fc82f96b1436d871ef02be319" prot="private" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>$db</name></member>
+      <member refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a5b661aef96674391085f36c3266d8068" prot="private" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>$has_one</name></member>
+      <member refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a3a36818e97ef777a687304d3a37e856c" prot="private" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>$summary_fields</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>__invoke</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>class_name</name></member>
+      <member refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a815ca6b58e3fa71926a0c12797421bbf" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>getCMSFields</name></member>
+      <member refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a0c616e562eff7e4bf6b10e3ecacc226b" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>RelatedClassName</name></member>
+      <member refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>RelationshipName</name></member>
+      <member refid="d0/d8d/class_modular_1_1_models_1_1_internal_or_external_link_1a58d45c13ab7488436af7f47e52721141" prot="public" virt="non-virtual"><scope>Modular::Models::InternalOrExternalLink</scope><name>SortFieldName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

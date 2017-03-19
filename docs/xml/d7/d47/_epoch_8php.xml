@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/d47/_epoch_8php" kind="file">
+    <compoundname>Epoch.php</compoundname>
+    <innerclass refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type" prot="public">Modular::Types::EpochType</innerclass>
+    <innernamespace refid="d6/d9b/namespace_modular_1_1_types">Modular::Types</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Types;</highlight></codeline>
+<codeline lineno="8" refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type" refkind="compound"><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type" kindref="compound">EpochType</ref><sp/>{</highlight></codeline>
+<codeline lineno="9" refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1a76b23db8aa5946d741c09aba82485449" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1a76b23db8aa5946d741c09aba82485449" kindref="member">FormatDate</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Y-m-d&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10" refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1abc432578930204101f9620a45dd05a3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1abc432578930204101f9620a45dd05a3a" kindref="member">FormatTime</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;h:i:s&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11" refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1a3ad4bc23bc6fdc214ae0d7ca05154223" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type_1a3ad4bc23bc6fdc214ae0d7ca05154223" kindref="member">FormatDateTime</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Y-m-d<sp/>h:i:s&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Epoch.php"/>
+  </compounddef>
+</doxygen>

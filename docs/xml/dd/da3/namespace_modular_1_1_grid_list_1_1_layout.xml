@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/da3/namespace_modular_1_1_grid_list_1_1_layout" kind="namespace">
+    <compoundname>Modular::GridList::Layout</compoundname>
+    <innerclass refid="d4/d7f/class_modular_1_1_grid_list_1_1_layout_1_1_column_width" prot="public">Modular::GridList::Layout::ColumnWidth</innerclass>
+    <innerclass refid="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping" prot="public">Modular::GridList::Layout::Grouping</innerclass>
+    <innerclass refid="db/d86/class_modular_1_1_grid_list_1_1_layout_1_1_mode_for_page" prot="public">Modular::GridList::Layout::ModeForPage</innerclass>
+    <innerclass refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length" prot="public">Modular::GridList::Layout::PageLength</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/ColumnWidth.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d54b7b617e26f63c0532b105bffe797a" kind="dir">
+    <compoundname>helpers</compoundname>
+    <innerfile refid="d6/d82/_j_s_o_n_8php">JSON.php</innerfile>
+    <innerfile refid="dd/d9d/_log_output_writer_8php">LogOutputWriter.php</innerfile>
+    <innerfile refid="d7/dae/_strings_8php">Strings.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/"/>
+  </compounddef>
+</doxygen>

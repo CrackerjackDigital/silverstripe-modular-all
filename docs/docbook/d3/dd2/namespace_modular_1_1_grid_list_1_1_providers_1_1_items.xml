@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d3/dd2/namespace_modular_1_1_grid_list_1_1_providers_1_1_items">
+<title>Modular::GridList::Providers::Items</title>
+        <simplesect>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters">Modular::GridList::Providers::Items::AssociatedFilters</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages">Modular::GridList::Providers::Items::ChildPages</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="de/d2a/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_related_pages">Modular::GridList::Providers::Items::RelatedPages</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+</section>

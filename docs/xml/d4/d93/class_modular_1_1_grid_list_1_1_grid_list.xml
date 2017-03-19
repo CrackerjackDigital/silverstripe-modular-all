@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list" kind="class" prot="public">
+    <compoundname>Modular::GridList::GridList</compoundname>
+    <basecompoundref refid="d0/d69/class_modular_1_1_content_controller_extension" prot="public" virt="non-virtual">ContentControllerExtension</basecompoundref>
+    <derivedcompoundref refid="de/de2/class_modular_1_1_search_1_1_grid_list" prot="public" virt="non-virtual">GridList</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a33499a1c7e82657ddb5e572cf1110200" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ModeGrid</definition>
+        <argsstring></argsstring>
+        <name>ModeGrid</name>
+        <initializer>= &apos;grid&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" line="23" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a37e0008d4484247a455a12ba6a3600aa" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ModeList</definition>
+        <argsstring></argsstring>
+        <name>ModeList</name>
+        <initializer>= &apos;list&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" line="24" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1aa5aedd47199d4a4c7b9d5e5e510473ac" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PaginatorServiceName</definition>
+        <argsstring></argsstring>
+        <name>PaginatorServiceName</name>
+        <initializer>= &apos;GridListPaginator&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" line="26" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1ac7630a7eec74df5fc8ddae6571c93795" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const DefaultPageLength</definition>
+        <argsstring></argsstring>
+        <name>DefaultPageLength</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" line="27" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1aae27a5acc8049d93d84d4fb8a6017407" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$gridlist_service</definition>
+        <argsstring></argsstring>
+        <name>$gridlist_service</name>
+        <initializer>= &apos;GridListService&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" line="29" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a3051c6f1309d4108bb1b776d2e8ae587" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$default_page_length</definition>
+        <argsstring></argsstring>
+        <name>$default_page_length</name>
+        <initializer>= self::DefaultPageLength</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" line="31" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a01ad44a1be550251dc25b4e8f5a15210" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$default_mode</definition>
+        <argsstring></argsstring>
+        <name>$default_mode</name>
+        <initializer>= self::ModeGrid</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" line="33" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1aacf10033ba80db01c97608b4aec8e25b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GridList</definition>
+        <argsstring>()</argsstring>
+        <name>GridList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return data for templates, accessible via e.g. GridList.Items and <ref refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a616206e9b83ab1a44573699b119c0177" kindref="member">GridList.Mode</ref></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$overrideMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>one of the self.ModeABC constants, will force gridlist to be in this mode always </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" line="41" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" bodystart="41" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a7b5a16c794f6a881e100ecb0d87489a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CacheHash</definition>
+        <argsstring>()</argsstring>
+        <name>CacheHash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use for partial caching, extensions will provide additional information for cache hash generation. <simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" line="97" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a616206e9b83ab1a44573699b119c0177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Mode</definition>
+        <argsstring>()</argsstring>
+        <name>Mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns first mode from:<itemizedlist>
+<listitem><para>template parameter</para></listitem><listitem><para>url query string via service</para></listitem><listitem><para>extended models config.gridlist_mode (a GridListBlock not a page)</para></listitem><listitem><para>this config.default_mode</para></listitem></itemizedlist>
+</para><para><simplesect kind="return"><para>string mode chosen, e.g. &apos;grid&apos; or &apos;list&apos; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" line="240" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" bodystart="240" bodyend="242"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a769bd83ab115cefbbae8b1a95e8580a3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>templateData</definition>
+        <argsstring>($items, $mode)</argsstring>
+        <name>templateData</name>
+        <param>
+          <declname>$items</declname>
+        </param>
+        <param>
+          <declname>$mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" line="102" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" bodystart="102" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a308042c43406a195c5bf8136f0e765dd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>filters</definition>
+        <argsstring>($mode)</argsstring>
+        <name>filters</name>
+        <param>
+          <declname>$mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the filters which should show in-page gathered via provideGridListFilters. These are composed of those specifically set on the <ref refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list" kindref="compound">GridList</ref> first and then those for the current page which may have an alternate strategy to provide them, such as most popular filters from child pages.</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" line="162" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" bodystart="162" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a974dd4adade87f61d62d9cb835553e31" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>providers</definition>
+        <argsstring>()</argsstring>
+        <name>providers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an array of providers of items, filters etc to show in on-page grids. Starts with the current extended model, but may add the current page if it has config.gridlist_provider set</para><para><simplesect kind="return"><para>| </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" line="193" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" bodystart="193" bodyend="207"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="606">
+        <label>ContentControllerExtension</label>
+        <link refid="d0/d69/class_modular_1_1_content_controller_extension"/>
+        <childnode refid="607" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="607">
+        <label>Extension</label>
+      </node>
+      <node id="605">
+        <label>GridList</label>
+        <link refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list"/>
+        <childnode refid="606" relation="public-inheritance">
+        </childnode>
+        <childnode refid="605" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="609">
+        <label>ContentControllerExtension</label>
+        <link refid="d0/d69/class_modular_1_1_content_controller_extension"/>
+        <childnode refid="610" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="610">
+        <label>Extension</label>
+      </node>
+      <node id="608">
+        <label>GridList</label>
+        <link refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list"/>
+        <childnode refid="609" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/GridList.php" bodystart="19" bodyend="261"/>
+    <listofallmembers>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a01ad44a1be550251dc25b4e8f5a15210" prot="private" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>$default_mode</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a3051c6f1309d4108bb1b776d2e8ae587" prot="private" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>$default_page_length</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1aae27a5acc8049d93d84d4fb8a6017407" prot="private" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>$gridlist_service</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>__invoke</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a9a28a026bf21eb0b9f8582aa613d0199" prot="public" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>ActionLink</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a52b4d6b381ac4f287064fe1c9b195efe" prot="public" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>ApplicationServiceClassName</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a7b5a16c794f6a881e100ecb0d87489a8" prot="public" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>CacheHash</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1ac7630a7eec74df5fc8ddae6571c93795" prot="public" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>DefaultPageLength</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a308042c43406a195c5bf8136f0e765dd" prot="protected" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>filters</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1aacf10033ba80db01c97608b4aec8e25b" prot="public" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>GridList</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a616206e9b83ab1a44573699b119c0177" prot="public" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>Mode</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a33499a1c7e82657ddb5e572cf1110200" prot="public" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>ModeGrid</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a37e0008d4484247a455a12ba6a3600aa" prot="public" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>ModeList</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a85ff8d296a4025790e312c4f2b6d8dae" prot="public" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>onAfterInit</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1abe152804322366290014448cf1ccb117" prot="public" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>onBeforeInit</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1aa5aedd47199d4a4c7b9d5e5e510473ac" prot="public" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>PaginatorServiceName</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a974dd4adade87f61d62d9cb835553e31" prot="protected" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>providers</name></member>
+      <member refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a769bd83ab115cefbbae8b1a95e8580a3" prot="protected" virt="non-virtual"><scope>Modular::GridList::GridList</scope><name>templateData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

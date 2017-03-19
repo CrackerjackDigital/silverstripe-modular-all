@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/d20/_custom_filters_8php" kind="file">
+    <compoundname>CustomFilters.php</compoundname>
+    <innerclass refid="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters" prot="public">Modular::GridList::Constraints::Filters::CustomFilters</innerclass>
+    <innernamespace refid="df/d78/namespace_modular_1_1_grid_list_1_1_constraints_1_1_filters">Modular::GridList::Constraints::Filters</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridList\Constraints\Filters;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d2/dde/class_modular_1_1_fields_1_1_title" kindref="compound">Modular\Fields\Title</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="d3/dc4/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filter_constraints" kindref="compound">Modular\GridList\Interfaces\FilterConstraints</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider" kindref="compound">Modular\GridList\Interfaces\FiltersProvider</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">Modular\ModelExtension</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter" kindref="compound">Modular\Models\GridListFilter</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters" kindref="compound">CustomFilters</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">ModelExtension</ref><sp/>implements<sp/><ref refid="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider" kindref="compound">FiltersProvider</ref><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters_1a069cb9638bfa654f2cb15b6eaf23a0bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters_1a069cb9638bfa654f2cb15b6eaf23a0bf" kindref="member">provideGridListFilters</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$page<sp/>=<sp/>\Director::get_current_page();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($page<sp/>instanceof<sp/>\CMSMain)<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$page<sp/>=<sp/>$page-&gt;currentPage();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$filters<sp/>=<sp/>new<sp/>\ArrayList();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($customFilters<sp/>=<sp/>$page-&gt;config()-&gt;get(</highlight><highlight class="stringliteral">&apos;gridlist_custom_filters&apos;</highlight><highlight class="normal">)<sp/>?:<sp/>[])<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($customFilters<sp/>as<sp/>$filter<sp/>=&gt;<sp/>$title)<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$filters-&gt;push(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter" kindref="compound">GridListFilter</ref>([</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/dde/class_modular_1_1_fields_1_1_title_1af74d0ba94522656fd2c247bd544e2094" kindref="member">Title::SingleFieldName</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=&gt;<sp/>$title,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter_1a74bc26cd8112b3975185ca7782e0c0a3" kindref="member">GridListFilter::TagFieldName</ref><sp/>=&gt;<sp/>$filter</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]));</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$filters;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/filters/CustomFilters.php"/>
+  </compounddef>
+</doxygen>

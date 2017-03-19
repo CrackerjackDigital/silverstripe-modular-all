@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d3/d10/class_modular_1_1_application">
+<title>Modular::Application class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ThemeMobile</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ThemeDesktop</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ThemeDefault</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $requirements_path</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $theme_domains</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static static $safe_paths</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $default_theme</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d3/d10/class_modular_1_1_application_1ab096c671befd594e22708a02babcbeef">get_current_page</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d3/d10/class_modular_1_1_application_1a548c021d3c4fe5a3f376c22956b2f65a">requirements_path</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d3/d10/class_modular_1_1_application_1a042d10ca7d0782adc2a871c07c288007">device_mode</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d3/d10/class_modular_1_1_application_1a05b634f46207617d32aeda742d72e10f">path_for_request</link> (
+ $request,  $getVar)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d3/d10/class_modular_1_1_application_1a605b07766c1bed3ff909fa8362f9985f">domain_theme</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d3/d10/class_modular_1_1_application_1a837267adf501aa1b29ad40505bc10755">hostname</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d3/d10/class_modular_1_1_application_1ab096c671befd594e22708a02babcbeef">
+                <title>static get_current_page ()</title> <emphasis></emphasis>
+                
+<para>Try to get page from Director and if in CMS then get it from CMS page, fallback to <link linkend="d6/d68/class_modular_1_1_controller">Controller</link> url via page_for_path.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>|| </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d3/d10/class_modular_1_1_application_1a548c021d3c4fe5a3f376c22956b2f65a">
+                <title>static requirements_path ()</title> <emphasis></emphasis>
+                
+<para>Override to provide current theme folder if requirements_path not set.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d3/d10/class_modular_1_1_application_1a042d10ca7d0782adc2a871c07c288007">
+                <title>static device_mode ()</title> <emphasis></emphasis>
+                
+<para>Return the device mode, e.g. &apos;mobile&apos;, &apos;desktop&apos;, &apos;default&apos;. At the moment just uses domain_theme. TODO: allow this to be found out in alternative ways, e.g. UserAgent </para>
+
+            </section>
+            <section xml:id="d3/d10/class_modular_1_1_application_1a05b634f46207617d32aeda742d72e10f">
+                <title>static path_for_request ($request=null, $getVar= &apos;path&apos;)</title> <emphasis></emphasis>
+                
+<para>Return a path from the request using a getVar or HTTP_REFERER or the request URL. 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$request</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$getVar</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>mixed|string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d3/d10/class_modular_1_1_application_1a605b07766c1bed3ff909fa8362f9985f">
+                <title>static domain_theme ()</title> <emphasis></emphasis>
+                
+<para>Return the theme name matching on domain name via config.theme_domains</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d3/d10/class_modular_1_1_application_1a837267adf501aa1b29ad40505bc10755">
+                <title>static hostname ()</title> <emphasis></emphasis>
+                
+<para>Return the server host name from file to url mappings. For cli mode you&apos;ll need to make sure a FILE_TO_URL_MAPPING is setup in environment file for the server.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+exception                            <row>
+                                <entry>Exception</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

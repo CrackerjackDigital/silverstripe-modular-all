@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/d0b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_item_handler" kind="interface" prot="public">
+    <compoundname>Modular::GridList::Interfaces::ItemHandler</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d0b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_item_handler_1a56f691a3310c821b37f98cdf4d2f079b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>handleGridListItems</definition>
+        <argsstring>($items, $filters, $parameters)</argsstring>
+        <name>handleGridListItems</name>
+        <param>
+          <declname>$items</declname>
+        </param>
+        <param>
+          <declname>$filters</declname>
+        </param>
+        <param>
+          <declname>$parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Do something with grid list output before rendering the page. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$filters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$parameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/ItemHandler.php" line="11" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/ItemHandler.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/ItemHandler.php" bodystart="4" bodyend="12"/>
+    <listofallmembers>
+      <member refid="de/d0b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_item_handler_1a56f691a3310c821b37f98cdf4d2f079b" prot="public" virt="non-virtual"><scope>Modular::GridList::Interfaces::ItemHandler</scope><name>handleGridListItems</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

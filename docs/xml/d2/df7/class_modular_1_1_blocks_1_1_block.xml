@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d2/df7/class_modular_1_1_blocks_1_1_block" kind="class" prot="public">
+    <compoundname>Modular::Blocks::Block</compoundname>
+    <basecompoundref refid="da/da6/class_modular_1_1_versioned_model" prot="public" virt="non-virtual">VersionedModel</basecompoundref>
+    <basecompoundref refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type" prot="public" virt="non-virtual">LinkType</basecompoundref>
+    <derivedcompoundref refid="d9/d82/class_modular_1_1_blocks_1_1_call_to_action" prot="public" virt="non-virtual">CallToAction</derivedcompoundref>
+    <derivedcompoundref refid="de/df1/class_modular_1_1_blocks_1_1_carousel" prot="public" virt="non-virtual">Carousel</derivedcompoundref>
+    <derivedcompoundref refid="dd/ddd/class_modular_1_1_blocks_1_1_content" prot="public" virt="non-virtual">Content</derivedcompoundref>
+    <derivedcompoundref refid="df/d8f/class_modular_1_1_blocks_1_1_content_with_image" prot="public" virt="non-virtual">ContentWithImage</derivedcompoundref>
+    <derivedcompoundref refid="d0/d5e/class_modular_1_1_blocks_1_1_file" prot="public" virt="non-virtual">File</derivedcompoundref>
+    <derivedcompoundref refid="d4/d8f/class_modular_1_1_blocks_1_1_files" prot="public" virt="non-virtual">Files</derivedcompoundref>
+    <derivedcompoundref refid="d9/d86/class_modular_1_1_blocks_1_1_footnotes" prot="public" virt="non-virtual">Footnotes</derivedcompoundref>
+    <derivedcompoundref refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image" prot="public" virt="non-virtual">FullWidthImage</derivedcompoundref>
+    <derivedcompoundref refid="dc/d89/class_modular_1_1_blocks_1_1_grid_list" prot="public" virt="non-virtual">GridList</derivedcompoundref>
+    <derivedcompoundref refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery" prot="public" virt="non-virtual">ImageGallery</derivedcompoundref>
+    <derivedcompoundref refid="da/d3a/class_modular_1_1_blocks_1_1_linked_page" prot="public" virt="non-virtual">LinkedPage</derivedcompoundref>
+    <derivedcompoundref refid="d1/d9c/class_modular_1_1_blocks_1_1_links" prot="public" virt="non-virtual">Links</derivedcompoundref>
+    <derivedcompoundref refid="d8/d3a/class_modular_1_1_blocks_1_1_postable" prot="public" virt="non-virtual">Postable</derivedcompoundref>
+    <derivedcompoundref refid="d8/dfb/class_modular_1_1_blocks_1_1_promo" prot="public" virt="non-virtual">Promo</derivedcompoundref>
+    <derivedcompoundref refid="d7/de9/class_modular_1_1_blocks_1_1_pull_quote" prot="public" virt="non-virtual">PullQuote</derivedcompoundref>
+    <derivedcompoundref refid="de/db5/class_modular_1_1_blocks_1_1_source_links" prot="public" virt="non-virtual">SourceLinks</derivedcompoundref>
+    <derivedcompoundref refid="d6/d06/class_modular_1_1_blocks_1_1_sub_blocks" prot="public" virt="non-virtual">SubBlocks</derivedcompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d2/df7/class_modular_1_1_blocks_1_1_block_1aa3e9534005fd516d941f6a5569896e01" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$template</definition>
+        <argsstring></argsstring>
+        <name>$template</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="21" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/df7/class_modular_1_1_blocks_1_1_block_1a0ab9790b620a133d00cf4cf675bf5572" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$summary_fields</definition>
+        <argsstring></argsstring>
+        <name>$summary_fields</name>
+        <initializer>= [
+		&apos;<ref refid="d2/df7/class_modular_1_1_blocks_1_1_block_1ae0fb8218cf6d7cfc1030e51c4a45025d" kindref="member">BlockType</ref>&apos; =&gt; &apos;<ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Block</ref> Type&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="23" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/df7/class_modular_1_1_blocks_1_1_block_1a344baf213a36ee1ee9ed1f247ca969c2" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>static $link_type</definition>
+        <argsstring></argsstring>
+        <name>$link_type</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="28" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/df7/class_modular_1_1_blocks_1_1_block_1a5de4d25f30596c0204c3584353669d09" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$customFilterTags</definition>
+        <argsstring></argsstring>
+        <name>$customFilterTags</name>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="30" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/df7/class_modular_1_1_blocks_1_1_block_1a3c1dc9072f2299e603adead7442dc292" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addCustomFilterTag</definition>
+        <argsstring>($tag)</argsstring>
+        <name>addCustomFilterTag</name>
+        <param>
+          <declname>$tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="32" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df7/class_modular_1_1_blocks_1_1_block_1a585a237c4434f0c97e0a93dd02d7e314" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>customFilterTags</definition>
+        <argsstring>()</argsstring>
+        <name>customFilterTags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="36" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df7/class_modular_1_1_blocks_1_1_block_1ae0fb8218cf6d7cfc1030e51c4a45025d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BlockType</definition>
+        <argsstring>()</argsstring>
+        <name>BlockType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="40" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df7/class_modular_1_1_blocks_1_1_block_1a7e15a611df09446ea2342e5a544a218a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BlockZones</definition>
+        <argsstring>()</argsstring>
+        <name>BlockZones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a csv of zones for this block class. <simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="48" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="48" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df7/class_modular_1_1_blocks_1_1_block_1a08282d6de720a402d9b2136ddb9531f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LinkType</definition>
+        <argsstring>()</argsstring>
+        <name>LinkType</name>
+        <reimplements refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type_1a08282d6de720a402d9b2136ddb9531f2">LinkType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns:<itemizedlist>
+<listitem><para>configured config.link_type for this block</para></listitem></itemizedlist>
+</para><para>or if not configured</para><para><itemizedlist>
+<listitem><para>terminal part of the class name of this block without namespace and without &apos;<ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Block</ref>&apos; suffix</para></listitem></itemizedlist>
+</para><para><heading level="1">VideoBlock =&gt; &apos;<ref refid="d1/d70/class_modular_1_1_blocks_1_1_video" kindref="compound">Video</ref>&apos;</heading>
+</para><para><heading level="1"><ref refid="df/df5/namespace_modular" kindref="compound">Modular</ref> =&gt; &apos;<ref refid="d9/d82/class_modular_1_1_blocks_1_1_call_to_action" kindref="compound">CallToAction</ref>&apos;</heading>
+</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="75" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="75" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df7/class_modular_1_1_blocks_1_1_block_1a5c5e9e6d8cf0b8ce8db575ea6252c96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LinkText</definition>
+        <argsstring>()</argsstring>
+        <name>LinkText</name>
+        <reimplements refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type_1a5c5e9e6d8cf0b8ce8db575ea6252c96a">LinkText</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return text to show in a link to this block (or more likely a link this block contains, such as a <ref refid="d0/d5e/class_modular_1_1_blocks_1_1_file" kindref="compound">File</ref> via the HasLinks interface). <simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="89" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df7/class_modular_1_1_blocks_1_1_block_1a0de6dd724bf06b0f08dbdeee9bd4c80d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DisplayInSidebar</definition>
+        <argsstring>()</argsstring>
+        <name>DisplayInSidebar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="101" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="101" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df7/class_modular_1_1_blocks_1_1_block_1afbdde13fe4d3c5da5bce82cd0758d00e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DisplayInContent</definition>
+        <argsstring>()</argsstring>
+        <name>DisplayInContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="105" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="105" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df7/class_modular_1_1_blocks_1_1_block_1af8ff16e3b7863d38779fcf1006b9e40a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>forTemplate</definition>
+        <argsstring>()</argsstring>
+        <name>forTemplate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ok so this makes <ref refid="d2/db0/namespace_modular_1_1_blocks" kindref="compound">Blocks</ref> a &apos;Model-View&apos; but we already have that via ViewableData so run with it.</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="114" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df7/class_modular_1_1_blocks_1_1_block_1af30563a728019e2a175da6b4ef1ce4e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PageClassName</definition>
+        <argsstring>()</argsstring>
+        <name>PageClassName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return current pages ClassName. <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="140" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="140" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d2/df7/class_modular_1_1_blocks_1_1_block_1a08f89083c824bbd479a24cfb1e7ce27c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static block_class</definition>
+        <argsstring>()</argsstring>
+        <name>block_class</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="97" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="97" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d2/df7/class_modular_1_1_blocks_1_1_block_1a0b54c9d3801b331b75487ef78d98c06b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>template</definition>
+        <argsstring>()</argsstring>
+        <name>template</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="118" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="118" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df7/class_modular_1_1_blocks_1_1_block_1a166f874fbbbfadabb7055aa9f5bea328" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>templates</definition>
+        <argsstring>()</argsstring>
+        <name>templates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="122" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="122" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class which represents a block which can be added to an Article, of types ( in display order ). The types in the grid dropdown are determined by subclasses of this class, so there is no need e.g. for a &apos;BlockType&apos; lookup or relationship. &apos;Text&apos;, &apos;<ref refid="d1/d70/class_modular_1_1_blocks_1_1_video" kindref="compound">Video</ref>&apos;, &apos;<ref refid="df/d9d/class_modular_1_1_blocks_1_1_audio" kindref="compound">Audio</ref>&apos;, &apos;Images (gallery)&apos;, &apos;Image (full width)&apos;, &apos;<ref refid="d9/d86/class_modular_1_1_blocks_1_1_footnotes" kindref="compound">Footnotes</ref>&apos;, &apos;<ref refid="d1/d9c/class_modular_1_1_blocks_1_1_links" kindref="compound">Links</ref>&apos;, &apos;<ref refid="dc/d75/class_modular_1_1_blocks_1_1_download" kindref="compound">Download</ref>&apos;, &apos;Pull Quote&apos; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="92">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>FullWidthImage</label>
+        <link refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>SourceFile</label>
+        <link refid="d2/d46/class_modular_1_1_blocks_1_1_source_file"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>Video</label>
+        <link refid="d1/d70/class_modular_1_1_blocks_1_1_video"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="99">
+        <label>ContentWithImage</label>
+        <link refid="df/d8f/class_modular_1_1_blocks_1_1_content_with_image"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>Postable</label>
+        <link refid="d8/d3a/class_modular_1_1_blocks_1_1_postable"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>DataObject</label>
+      </node>
+      <node id="111">
+        <label>Links</label>
+        <link refid="d1/d9c/class_modular_1_1_blocks_1_1_links"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>Carousel</label>
+        <link refid="de/df1/class_modular_1_1_blocks_1_1_carousel"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="116">
+        <label>SubBlocks</label>
+        <link refid="d6/d06/class_modular_1_1_blocks_1_1_sub_blocks"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>Content</label>
+        <link refid="dd/ddd/class_modular_1_1_blocks_1_1_content"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>CallToAction</label>
+        <link refid="d9/d82/class_modular_1_1_blocks_1_1_call_to_action"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>File</label>
+        <link refid="d0/d5e/class_modular_1_1_blocks_1_1_file"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>LinkedPage</label>
+        <link refid="da/d3a/class_modular_1_1_blocks_1_1_linked_page"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="115">
+        <label>SourceLinks</label>
+        <link refid="de/db5/class_modular_1_1_blocks_1_1_source_links"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="106">
+        <label>Footnotes</label>
+        <link refid="d9/d86/class_modular_1_1_blocks_1_1_footnotes"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>GridList</label>
+        <link refid="dc/d89/class_modular_1_1_blocks_1_1_grid_list"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="114">
+        <label>PullQuote</label>
+        <link refid="d7/de9/class_modular_1_1_blocks_1_1_pull_quote"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>ImageGallery</label>
+        <link refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>Promo</label>
+        <link refid="d8/dfb/class_modular_1_1_blocks_1_1_promo"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>Download</label>
+        <link refid="dc/d75/class_modular_1_1_blocks_1_1_download"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>Audio</label>
+        <link refid="df/d9d/class_modular_1_1_blocks_1_1_audio"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>Files</label>
+        <link refid="d4/d8f/class_modular_1_1_blocks_1_1_files"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="117">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="118" relation="public-inheritance">
+        </childnode>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="118">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="119" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="120">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="119">
+        <label>DataObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" line="20" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/Block.php" bodystart="20" bodyend="144"/>
+    <listofallmembers>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a5de4d25f30596c0204c3584353669d09" prot="private" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>$customFilterTags</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a344baf213a36ee1ee9ed1f247ca969c2" prot="private" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>$link_type</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0ab9790b620a133d00cf4cf675bf5572" prot="private" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>$summary_fields</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1aa3e9534005fd516d941f6a5569896e01" prot="private" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>$template</name></member>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>__invoke</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a3c1dc9072f2299e603adead7442dc292" prot="public" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>addCustomFilterTag</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a08f89083c824bbd479a24cfb1e7ce27c" prot="public" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>block_class</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1ae0fb8218cf6d7cfc1030e51c4a45025d" prot="public" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>BlockType</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a7e15a611df09446ea2342e5a544a218a" prot="public" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>BlockZones</name></member>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>class_name</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a585a237c4434f0c97e0a93dd02d7e314" prot="public" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>customFilterTags</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1afbdde13fe4d3c5da5bce82cd0758d00e" prot="public" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>DisplayInContent</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0de6dd724bf06b0f08dbdeee9bd4c80d" prot="public" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>DisplayInSidebar</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1af8ff16e3b7863d38779fcf1006b9e40a" prot="public" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>forTemplate</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a5c5e9e6d8cf0b8ce8db575ea6252c96a" prot="public" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>LinkText</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a08282d6de720a402d9b2136ddb9531f2" prot="public" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>LinkType</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1af30563a728019e2a175da6b4ef1ce4e6" prot="public" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>PageClassName</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0b54c9d3801b331b75487ef78d98c06b" prot="protected" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>template</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a166f874fbbbfadabb7055aa9f5bea328" prot="protected" virt="non-virtual"><scope>Modular::Blocks::Block</scope><name>templates</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d2/df7/class_modular_1_1_blocks_1_1_block">
+<title>Modular::Blocks::Block class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $template</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $summary_fields</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static static $link_type</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>$customFilterTags</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/df7/class_modular_1_1_blocks_1_1_block_1a3c1dc9072f2299e603adead7442dc292">addCustomFilterTag</link> (
+ $tag)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/df7/class_modular_1_1_blocks_1_1_block_1a585a237c4434f0c97e0a93dd02d7e314">customFilterTags</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/df7/class_modular_1_1_blocks_1_1_block_1ae0fb8218cf6d7cfc1030e51c4a45025d">BlockType</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/df7/class_modular_1_1_blocks_1_1_block_1a7e15a611df09446ea2342e5a544a218a">BlockZones</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/df7/class_modular_1_1_blocks_1_1_block_1a08282d6de720a402d9b2136ddb9531f2">LinkType</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/df7/class_modular_1_1_blocks_1_1_block_1a5c5e9e6d8cf0b8ce8db575ea6252c96a">LinkText</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/df7/class_modular_1_1_blocks_1_1_block_1a0de6dd724bf06b0f08dbdeee9bd4c80d">DisplayInSidebar</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/df7/class_modular_1_1_blocks_1_1_block_1afbdde13fe4d3c5da5bce82cd0758d00e">DisplayInContent</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/df7/class_modular_1_1_blocks_1_1_block_1af8ff16e3b7863d38779fcf1006b9e40a">forTemplate</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/df7/class_modular_1_1_blocks_1_1_block_1af30563a728019e2a175da6b4ef1ce4e6">PageClassName</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d2/df7/class_modular_1_1_blocks_1_1_block_1a08f89083c824bbd479a24cfb1e7ce27c">block_class</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/df7/class_modular_1_1_blocks_1_1_block_1a0b54c9d3801b331b75487ef78d98c06b">template</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/df7/class_modular_1_1_blocks_1_1_block_1a166f874fbbbfadabb7055aa9f5bea328">templates</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Class which represents a block which can be added to an Article, of types ( in display order ). The types in the grid dropdown are determined by subclasses of this class, so there is no need e.g. for a &apos;BlockType&apos; lookup or relationship. &apos;Text&apos;, &apos;<link linkend="d1/d70/class_modular_1_1_blocks_1_1_video">Video</link>&apos;, &apos;<link linkend="df/d9d/class_modular_1_1_blocks_1_1_audio">Audio</link>&apos;, &apos;Images (gallery)&apos;, &apos;Image (full width)&apos;, &apos;<link linkend="d9/d86/class_modular_1_1_blocks_1_1_footnotes">Footnotes</link>&apos;, &apos;<link linkend="d1/d9c/class_modular_1_1_blocks_1_1_links">Links</link>&apos;, &apos;<link linkend="dc/d75/class_modular_1_1_blocks_1_1_download">Download</link>&apos;, &apos;Pull Quote&apos; </para>
+                <para>Definition at line 20 of file Block.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Block.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d2/df7/class_modular_1_1_blocks_1_1_block_1a3c1dc9072f2299e603adead7442dc292">
+                <title>addCustomFilterTag ($tag)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d2/df7/class_modular_1_1_blocks_1_1_block_1a585a237c4434f0c97e0a93dd02d7e314">
+                <title>customFilterTags ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d2/df7/class_modular_1_1_blocks_1_1_block_1ae0fb8218cf6d7cfc1030e51c4a45025d">
+                <title>BlockType ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d2/df7/class_modular_1_1_blocks_1_1_block_1a7e15a611df09446ea2342e5a544a218a">
+                <title>BlockZones ()</title> <emphasis></emphasis>
+                
+<para>Return a csv of zones for this block class. <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d2/df7/class_modular_1_1_blocks_1_1_block_1a08282d6de720a402d9b2136ddb9531f2">
+                <title>LinkType ()</title> <emphasis></emphasis>
+                
+<para>Returns:<itemizedlist>
+<listitem>
+<para>configured config.link_type for this block</para>
+</listitem></itemizedlist>
+</para>
+
+<para>or if not configured</para>
+
+<para><itemizedlist>
+<listitem>
+<para>terminal part of the class name of this block without namespace and without &apos;<link linkend="d2/df7/class_modular_1_1_blocks_1_1_block">Block</link>&apos; suffix</para>
+</listitem></itemizedlist>
+</para>
+
+<para><formalpara><title>VideoBlock =&gt; &apos;<link linkend="d1/d70/class_modular_1_1_blocks_1_1_video">Video</link>&apos;</title></formalpara>
+</para>
+
+<para><formalpara><title><link linkend="df/df5/namespace_modular">Modular</link> =&gt; &apos;<link linkend="d9/d82/class_modular_1_1_blocks_1_1_call_to_action">CallToAction</link>&apos;</title></formalpara>
+</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d2/df7/class_modular_1_1_blocks_1_1_block_1a5c5e9e6d8cf0b8ce8db575ea6252c96a">
+                <title>LinkText ()</title> <emphasis></emphasis>
+                
+<para>Return text to show in a link to this block (or more likely a link this block contains, such as a <link linkend="d0/d5e/class_modular_1_1_blocks_1_1_file">File</link> via the HasLinks interface). <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d2/df7/class_modular_1_1_blocks_1_1_block_1a0de6dd724bf06b0f08dbdeee9bd4c80d">
+                <title>DisplayInSidebar ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d2/df7/class_modular_1_1_blocks_1_1_block_1afbdde13fe4d3c5da5bce82cd0758d00e">
+                <title>DisplayInContent ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d2/df7/class_modular_1_1_blocks_1_1_block_1af8ff16e3b7863d38779fcf1006b9e40a">
+                <title>forTemplate ()</title> <emphasis></emphasis>
+                
+<para>Ok so this makes <link linkend="d2/db0/namespace_modular_1_1_blocks">Blocks</link> a &apos;Model-View&apos; but we already have that via ViewableData so run with it.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d2/df7/class_modular_1_1_blocks_1_1_block_1af30563a728019e2a175da6b4ef1ce4e6">
+                <title>PageClassName ()</title> <emphasis></emphasis>
+                
+<para>Return current pages ClassName. <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d2/df7/class_modular_1_1_blocks_1_1_block_1a08f89083c824bbd479a24cfb1e7ce27c">
+                <title>static block_class ()</title> <emphasis></emphasis>
+                
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d2/df7/class_modular_1_1_blocks_1_1_block_1a0b54c9d3801b331b75487ef78d98c06b">
+                <title>template ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d2/df7/class_modular_1_1_blocks_1_1_block_1a166f874fbbbfadabb7055aa9f5bea328">
+                <title>templates ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="db/d86/class_modular_1_1_grid_list_1_1_layout_1_1_mode_for_page" kind="class" prot="public">
+    <compoundname>Modular::GridList::Layout::ModeForPage</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">GridListTempleDataProvider</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d86/class_modular_1_1_grid_list_1_1_layout_1_1_mode_for_page_1ad604a7fe628f988dc6207b5758614e91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>provideGridListTemplateData</definition>
+        <argsstring>($templateData=[])</argsstring>
+        <name>provideGridListTemplateData</name>
+        <param>
+          <declname>$templateData</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use the current page&apos;s gridlist_default_mode if set otherwise whatever we had before.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$templateData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array [ &apos;Mode&apos; =&gt; mode e.g. &apos;grid&apos; or &apos;list&apos; (or empty if none set) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/ModeForPage.php" line="22" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/ModeForPage.php" bodystart="22" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1147">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1148" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1148">
+        <label>DataExtension</label>
+      </node>
+      <node id="1149">
+        <label>GridListTempleDataProvider</label>
+      </node>
+      <node id="1146">
+        <label>ModeForPage</label>
+        <link refid="db/d86/class_modular_1_1_grid_list_1_1_layout_1_1_mode_for_page"/>
+        <childnode refid="1147" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1149" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1151">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1152">
+        <label>DataExtension</label>
+      </node>
+      <node id="1153">
+        <label>GridListTempleDataProvider</label>
+      </node>
+      <node id="1150">
+        <label>ModeForPage</label>
+        <link refid="db/d86/class_modular_1_1_grid_list_1_1_layout_1_1_mode_for_page"/>
+        <childnode refid="1151" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1153" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/ModeForPage.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/ModeForPage.php" bodystart="14" bodyend="34"/>
+    <listofallmembers>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::ModeForPage</scope><name>class_name</name></member>
+      <member refid="db/d86/class_modular_1_1_grid_list_1_1_layout_1_1_mode_for_page_1ad604a7fe628f988dc6207b5758614e91" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::ModeForPage</scope><name>provideGridListTemplateData</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::GridList::Layout::ModeForPage</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

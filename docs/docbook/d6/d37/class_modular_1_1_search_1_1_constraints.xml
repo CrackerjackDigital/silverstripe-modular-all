@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d6/d37/class_modular_1_1_search_1_1_constraints">
+<title>Modular::Search::Constraints class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const FullTextVar</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const TagsVar</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $params</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d6/d37/class_modular_1_1_search_1_1_constraints_1ac2919d82d4872f3d8600fc8a23908ff7">filter</link> (
+ $className,  $term,  $searchIndex)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d6/d37/class_modular_1_1_search_1_1_constraints_1ac2919d82d4872f3d8600fc8a23908ff7">
+                <title>filter ($className, $term, $searchIndex)</title> <emphasis></emphasis>
+                
+<para>Return a filter suitable for the class provided using the term provided. Checks to see if the class has an index named that added by the <link linkend="d3/d03/namespace_modular_1_1_search">Search</link> (e.g. &apos;FulltextSearchIndex&apos;)</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$className</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$term</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$searchIndex</entry>
+                                <entry>
+<para>added by enabling fulltext search, e.g. &apos;FulltextSearchIndex&apos; </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

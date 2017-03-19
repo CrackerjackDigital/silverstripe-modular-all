@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list">
+<title>Modular::GridList::GridList class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ModeGrid</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ModeList</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const PaginatorServiceName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const DefaultPageLength</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $gridlist_service</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $default_page_length</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $default_mode</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1aacf10033ba80db01c97608b4aec8e25b">GridList</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a7b5a16c794f6a881e100ecb0d87489a8">CacheHash</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a616206e9b83ab1a44573699b119c0177">Mode</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a769bd83ab115cefbbae8b1a95e8580a3">templateData</link> (
+ $items,  $mode)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a308042c43406a195c5bf8136f0e765dd">filters</link> (
+ $mode)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a974dd4adade87f61d62d9cb835553e31">providers</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1aacf10033ba80db01c97608b4aec8e25b">
+                <title>GridList ()</title> <emphasis></emphasis>
+                
+<para>Return data for templates, accessible via e.g. GridList.Items and <link linkend="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a616206e9b83ab1a44573699b119c0177">GridList.Mode</link></para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$overrideMode</entry>
+                                <entry>
+<para>one of the self.ModeABC constants, will force gridlist to be in this mode always </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a7b5a16c794f6a881e100ecb0d87489a8">
+                <title>CacheHash ()</title> <emphasis></emphasis>
+                
+<para>Use for partial caching, extensions will provide additional information for cache hash generation. <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a616206e9b83ab1a44573699b119c0177">
+                <title>Mode ()</title> <emphasis></emphasis>
+                
+<para>Returns first mode from:<itemizedlist>
+<listitem>
+<para>template parameter</para>
+</listitem><listitem>
+<para>url query string via service</para>
+</listitem><listitem>
+<para>extended models config.gridlist_mode (a GridListBlock not a page)</para>
+</listitem><listitem>
+<para>this config.default_mode</para>
+</listitem></itemizedlist>
+</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>string mode chosen, e.g. &apos;grid&apos; or &apos;list&apos; </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a769bd83ab115cefbbae8b1a95e8580a3">
+                <title>templateData ($items, $mode)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a308042c43406a195c5bf8136f0e765dd">
+                <title>filters ($mode)</title> <emphasis></emphasis>
+                
+<para>Returns the filters which should show in-page gathered via provideGridListFilters. These are composed of those specifically set on the <link linkend="d4/d93/class_modular_1_1_grid_list_1_1_grid_list">GridList</link> first and then those for the current page which may have an alternate strategy to provide them, such as most popular filters from child pages.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d4/d93/class_modular_1_1_grid_list_1_1_grid_list_1a974dd4adade87f61d62d9cb835553e31">
+                <title>providers ()</title> <emphasis></emphasis>
+                
+<para>Returns an array of providers of items, filters etc to show in on-page grids. Starts with the current extended model, but may add the current page if it has config.gridlist_provider set</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>| </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

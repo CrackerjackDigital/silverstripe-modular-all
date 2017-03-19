@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/d9b/namespace_modular_1_1_types" kind="namespace">
+    <compoundname>Modular::Types</compoundname>
+    <innerclass refid="db/dc5/interface_modular_1_1_types_1_1_bool_type" prot="public">Modular::Types::BoolType</innerclass>
+    <innerclass refid="d6/da3/interface_modular_1_1_types_1_1_date_type" prot="public">Modular::Types::DateType</innerclass>
+    <innerclass refid="da/dea/interface_modular_1_1_types_1_1_date_time_type" prot="public">Modular::Types::DateTimeType</innerclass>
+    <innerclass refid="d7/d40/interface_modular_1_1_types_1_1_decimal_type" prot="public">Modular::Types::DecimalType</innerclass>
+    <innerclass refid="d1/db3/interface_modular_1_1_types_1_1_epoch_type" prot="public">Modular::Types::EpochType</innerclass>
+    <innerclass refid="d2/d9b/interface_modular_1_1_types_1_1_file_type" prot="public">Modular::Types::FileType</innerclass>
+    <innerclass refid="d3/dca/interface_modular_1_1_types_1_1_float_type" prot="public">Modular::Types::FloatType</innerclass>
+    <innerclass refid="dd/d59/interface_modular_1_1_types_1_1_int_type" prot="public">Modular::Types::IntType</innerclass>
+    <innerclass refid="d4/d38/interface_modular_1_1_types_1_1_numeric_type" prot="public">Modular::Types::NumericType</innerclass>
+    <innerclass refid="dd/d29/interface_modular_1_1_types_1_1_string_type" prot="public">Modular::Types::StringType</innerclass>
+    <innerclass refid="da/ddc/interface_modular_1_1_types_1_1_time_type" prot="public">Modular::Types::TimeType</innerclass>
+    <innerclass refid="dd/dc2/interface_modular_1_1_types_1_1_type" prot="public">Modular::Types::Type</innerclass>
+    <innerclass refid="d4/d95/interface_modular_1_1_types_1_1_u_r_l_type" prot="public">Modular::Types::URLType</innerclass>
+    <innerclass refid="d5/d1f/interface_modular_1_1_types_1_1_u_r_n_type" prot="public">Modular::Types::URNType</innerclass>
+    <innerclass refid="d2/dab/interface_modular_1_1_types_1_1_value_type" prot="public">Modular::Types::ValueType</innerclass>
+    <innernamespace refid="dd/d83/namespace_modular_1_1_types_1_1_traits">Modular::Types::Traits</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Bool.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/ddb/namespace_modular_1_1_relationships" kind="namespace">
+    <compoundname>Modular::Relationships</compoundname>
+    <innerclass refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks" prot="public">Modular::Relationships::HasGridListBlocks</innerclass>
+    <innerclass refid="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters" prot="public">Modular::Relationships::HasGridListFilters</innerclass>
+    <innerclass refid="d9/d05/class_modular_1_1_relationships_1_1_has_block" prot="public">Modular::Relationships::HasBlock</innerclass>
+    <innerclass refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks" prot="public">Modular::Relationships::HasBlocks</innerclass>
+    <innerclass refid="d0/ded/class_modular_1_1_relationships_1_1_has_files" prot="public">Modular::Relationships::HasFiles</innerclass>
+    <innerclass refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images" prot="public">Modular::Relationships::HasImages</innerclass>
+    <innerclass refid="d8/d14/class_modular_1_1_relationships_1_1_has_links" prot="public">Modular::Relationships::HasLinks</innerclass>
+    <innerclass refid="d0/d54/class_modular_1_1_relationships_1_1_has_many" prot="public">Modular::Relationships::HasMany</innerclass>
+    <innerclass refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many" prot="public">Modular::Relationships::HasManyMany</innerclass>
+    <innerclass refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one" prot="public">Modular::Relationships::HasOne</innerclass>
+    <innerclass refid="d3/ddb/class_modular_1_1_relationships_1_1_has_related_page" prot="public">Modular::Relationships::HasRelatedPage</innerclass>
+    <innerclass refid="d1/d52/class_modular_1_1_relationships_1_1_has_related_pages" prot="public">Modular::Relationships::HasRelatedPages</innerclass>
+    <innerclass refid="d6/d09/class_modular_1_1_relationships_1_1_has_slides" prot="public">Modular::Relationships::HasSlides</innerclass>
+    <innerclass refid="de/d13/class_modular_1_1_relationships_1_1_has_tags" prot="public">Modular::Relationships::HasTags</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/relationships/HasGridListBlocks.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

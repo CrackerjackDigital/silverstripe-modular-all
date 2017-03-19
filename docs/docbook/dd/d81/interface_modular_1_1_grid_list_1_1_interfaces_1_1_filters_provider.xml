@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider">
+<title>Modular::GridList::Interfaces::FiltersProvider interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider_1a069cb9638bfa654f2cb15b6eaf23a0bf">provideGridListFilters</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider_1a069cb9638bfa654f2cb15b6eaf23a0bf">
+                <title>provideGridListFilters ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/dfc/namespace_modular_1_1_helpers" kind="namespace">
+    <compoundname>Modular::Helpers</compoundname>
+    <innerclass refid="db/dd3/class_modular_1_1_helpers_1_1_j_s_o_n" prot="public">Modular::Helpers::JSON</innerclass>
+    <innerclass refid="d6/d0c/class_modular_1_1_helpers_1_1_strings" prot="public">Modular::Helpers::Strings</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/helpers/JSON.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

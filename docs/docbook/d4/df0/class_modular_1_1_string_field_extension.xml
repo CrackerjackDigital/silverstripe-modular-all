@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/df0/class_modular_1_1_string_field_extension">
+<title>Modular::StringFieldExtension class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/df0/class_modular_1_1_string_field_extension_1a5d99fdd62b65592298fd269636572dbd">Clean</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Since PHP 5.4 strip_tags doesn&apos;t strip XML style non-closing tags so need to handle it explicitly in content, especially from PDF to text which has loads of 
+<literallayout>
+</literallayout>
+&apos;s in.</para>
+
+<para>CERAStringFieldExtension </para>
+                <para>Definition at line 12 of file StringField.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>StringField.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d4/df0/class_modular_1_1_string_field_extension_1a5d99fdd62b65592298fd269636572dbd">
+                <title>Clean ()</title> <emphasis></emphasis>
+                
+<para>Returns extened fields value stripped of &apos;
+<literallayout>
+</literallayout>
+&apos; and multiple newlines as well as via standard &apos;NoHTML&apos; output filter. <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/d83/class_modular_1_1_fields_1_1_media" kind="class" prot="public">
+    <compoundname>Modular::Fields::Media</compoundname>
+    <basecompoundref refid="d0/d51/class_modular_1_1_fields_1_1_file" prot="public" virt="non-virtual">File</basecompoundref>
+    <derivedcompoundref refid="d4/dbd/class_modular_1_1_fields_1_1_audio" prot="public" virt="non-virtual">Audio</derivedcompoundref>
+    <derivedcompoundref refid="d0/d7e/class_modular_1_1_fields_1_1_video" prot="public" virt="non-virtual">Video</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/d83/class_modular_1_1_fields_1_1_media_1a522cd5b3b15c4a885005cd0919628158" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RelationshipName</definition>
+        <argsstring></argsstring>
+        <name>RelationshipName</name>
+        <initializer>= &apos;<ref refid="d7/d83/class_modular_1_1_fields_1_1_media" kindref="compound">Media</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Media.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Media.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d83/class_modular_1_1_fields_1_1_media_1aa17664de2e4741c71937a3353861d601" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const MediaLinkOption</definition>
+        <argsstring></argsstring>
+        <name>MediaLinkOption</name>
+        <initializer>= &apos;<ref refid="d7/d83/class_modular_1_1_fields_1_1_media" kindref="compound">Media</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Media.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Media.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d7/d83/class_modular_1_1_fields_1_1_media_1ae0a53fe1d79c3a493ba3605eabee6e51" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$base_upload_folder</definition>
+        <argsstring></argsstring>
+        <name>$base_upload_folder</name>
+        <initializer>= &apos;media&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Media.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Media.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d83/class_modular_1_1_fields_1_1_media_1a23e5e57745a9266738fc0ce5877c8221" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$allowed_files</definition>
+        <argsstring></argsstring>
+        <name>$allowed_files</name>
+        <initializer>= &apos;audio,video&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Media.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Media.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1116">
+        <label>HasOne</label>
+        <link refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one"/>
+        <childnode refid="1117" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1118">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1119" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1119">
+        <label>DataExtension</label>
+      </node>
+      <node id="1121">
+        <label>Video</label>
+        <link refid="d0/d7e/class_modular_1_1_fields_1_1_video"/>
+        <childnode refid="1114" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1117">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="1118" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1114">
+        <label>Media</label>
+        <link refid="d7/d83/class_modular_1_1_fields_1_1_media"/>
+        <childnode refid="1115" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1115">
+        <label>File</label>
+        <link refid="d0/d51/class_modular_1_1_fields_1_1_file"/>
+        <childnode refid="1116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1120">
+        <label>Audio</label>
+        <link refid="d4/dbd/class_modular_1_1_fields_1_1_audio"/>
+        <childnode refid="1114" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1124">
+        <label>HasOne</label>
+        <link refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one"/>
+        <childnode refid="1125" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1126">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1127" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1127">
+        <label>DataExtension</label>
+      </node>
+      <node id="1125">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="1126" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1122">
+        <label>Media</label>
+        <link refid="d7/d83/class_modular_1_1_fields_1_1_media"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1123">
+        <label>File</label>
+        <link refid="d0/d51/class_modular_1_1_fields_1_1_file"/>
+        <childnode refid="1124" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Media.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/Media.php" bodystart="8" bodyend="16"/>
+    <listofallmembers>
+      <member refid="d7/d83/class_modular_1_1_fields_1_1_media_1a23e5e57745a9266738fc0ce5877c8221" prot="private" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>$allowed_files</name></member>
+      <member refid="d7/d83/class_modular_1_1_fields_1_1_media_1ae0a53fe1d79c3a493ba3605eabee6e51" prot="private" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>$base_upload_folder</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>addHTMLAttributes</name></member>
+      <member refid="d0/d51/class_modular_1_1_fields_1_1_file_1af8b274223f17ca701258a2087851ff21" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>allowed_files</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>class_name</name></member>
+      <member refid="d0/d51/class_modular_1_1_fields_1_1_file_1ae6098bb0243f4ce2f8680b3723783300" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>cmsFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>cmsTab</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>configureTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>customFieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>DefaultTabName</name></member>
+      <member refid="d0/d51/class_modular_1_1_fields_1_1_file_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>extendedFieldNames</name></member>
+      <member refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>extraStatics</name></member>
+      <member refid="d0/d51/class_modular_1_1_fields_1_1_file_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>fieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>labelsForRelatedClass</name></member>
+      <member refid="d7/d83/class_modular_1_1_fields_1_1_media_1aa17664de2e4741c71937a3353861d601" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>MediaLinkOption</name></member>
+      <member refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1afc05583449dd891447a38e8fd93da840" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>options</name></member>
+      <member refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1ac49895cc8dce1a67036cc8e3e83b5d3c" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>related_class_name</name></member>
+      <member refid="d0/d51/class_modular_1_1_fields_1_1_file_1a0c616e562eff7e4bf6b10e3ecacc226b" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>RelatedClassName</name></member>
+      <member refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1ac52dda4e42781da2720127ec1040e9d8" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>RelatedDisplayField</name></member>
+      <member refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1adc42f43e5855e74dcbae66a343091b4c" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>RelatedKeyField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>relationship_name</name></member>
+      <member refid="d7/d83/class_modular_1_1_fields_1_1_media_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>RelationshipName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>setFieldDecorations</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>SingleFieldName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>SingleFieldSchema</name></member>
+      <member refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>singleFieldValue</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>updateSummaryFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Fields::Media</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

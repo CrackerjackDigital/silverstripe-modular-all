@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d5/d83/interface_modular_1_1_interfaces_1_1_previewable">
+<title>Modular::Interfaces::Previewable interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d5/d83/interface_modular_1_1_interfaces_1_1_previewable_1adf8e754e4beb4bea0bac03b6722a7ae2">getPreviewAction</link> (
+SiteTree $page, CMSPreviewable $obj)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d5/d83/interface_modular_1_1_interfaces_1_1_previewable_1adf8e754e4beb4bea0bac03b6722a7ae2">
+                <title>getPreviewAction (SiteTree $page, CMSPreviewable $obj)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

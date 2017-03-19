@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d3c3d261d67aa2a602c2f324b5b980ce" kind="dir">
+    <compoundname>code</compoundname>
+    <innerdir refid="dir_3369524e93aed0c836afe6cbdc27f41a">extensions</innerdir>
+    <innerdir refid="dir_9d911df76d1fba022ca105adbecfedde">interfaces</innerdir>
+    <innerdir refid="dir_62f0f8b22d80c9a58d9a3ffaeff974fb">traits</innerdir>
+    <innerfile refid="de/da6/_type_8php">Type.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular-types/code/"/>
+  </compounddef>
+</doxygen>

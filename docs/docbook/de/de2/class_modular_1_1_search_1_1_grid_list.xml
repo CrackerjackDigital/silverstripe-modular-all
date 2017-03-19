@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="de/de2/class_modular_1_1_search_1_1_grid_list">
+<title>Modular::Search::GridList class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="de/de2/class_modular_1_1_search_1_1_grid_list_1a6d764e0ae041ab1709a930ab346fa935">SearchTerms</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="de/de2/class_modular_1_1_search_1_1_grid_list_1a6d764e0ae041ab1709a930ab346fa935">
+                <title>SearchTerms ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

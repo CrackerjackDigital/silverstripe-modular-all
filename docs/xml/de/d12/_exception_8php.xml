@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/d12/_exception_8php" kind="file">
+    <compoundname>Exception.php</compoundname>
+    <innerclass refid="d5/d09/class_modular_1_1_exceptions_1_1_exception" prot="public">Modular::Exceptions::Exception</innerclass>
+    <innernamespace refid="de/d82/namespace_modular_1_1_exceptions">Modular::Exceptions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="de/d82/namespace_modular_1_1_exceptions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Exceptions;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="d5/d09/class_modular_1_1_exceptions_1_1_exception" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d09/class_modular_1_1_exceptions_1_1_exception" kindref="compound">Exception</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d5/d09/class_modular_1_1_exceptions_1_1_exception" kindref="compound">\Exception</ref><sp/>implements<sp/><ref refid="d0/dfe/interface_modular_1_1_interfaces_1_1_exception" kindref="compound">\Modular\Interfaces\Exception</ref><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="d5/d09/class_modular_1_1_exceptions_1_1_exception_1a6991eb53548e7180a3a8e6f418fbb234" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d5/d09/class_modular_1_1_exceptions_1_1_exception_1a6991eb53548e7180a3a8e6f418fbb234" kindref="member">setMessage</ref>($message)<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;message<sp/>=<sp/>$message;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/Exception.php"/>
+  </compounddef>
+</doxygen>

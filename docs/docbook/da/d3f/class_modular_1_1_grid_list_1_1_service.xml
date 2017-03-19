@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="da/d3f/class_modular_1_1_grid_list_1_1_service">
+<title>Modular::GridList::Service class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const FiltersClassName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="da/d3f/class_modular_1_1_grid_list_1_1_service_1aa23c61466abddd87569d6a1d7db36b8f">constraint</link> (
+ $name,  $persistance)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="da/d3f/class_modular_1_1_grid_list_1_1_service_1a0da531fc30bdf883d86d4219c3c54e07">mode</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="da/d3f/class_modular_1_1_grid_list_1_1_service_1a4bd31bcedb7b4943aac2da78d0d84afe">sort</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="da/d3f/class_modular_1_1_grid_list_1_1_service_1af8fa59992209e36dccb3eefb0f75531f">start</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="da/d3f/class_modular_1_1_grid_list_1_1_service_1a63aed2ed30505623343b3e7df7fa6c16">limit</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="da/d3f/class_modular_1_1_grid_list_1_1_service_1ad9c08c1428473eb8e79b93d40b1ffdef">filterLink</link> (
+ $params)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="da/d3f/class_modular_1_1_grid_list_1_1_service_1ae086fd4b125c3af434b5bbac0cfa1f98">Filters</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="da/d3f/class_modular_1_1_grid_list_1_1_service_1aa23c61466abddd87569d6a1d7db36b8f">
+                <title>constraint ($name, $persistance=null)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="da/d3f/class_modular_1_1_grid_list_1_1_service_1a0da531fc30bdf883d86d4219c3c54e07">
+                <title>mode ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="da/d3f/class_modular_1_1_grid_list_1_1_service_1a4bd31bcedb7b4943aac2da78d0d84afe">
+                <title>sort ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="da/d3f/class_modular_1_1_grid_list_1_1_service_1af8fa59992209e36dccb3eefb0f75531f">
+                <title>start ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="da/d3f/class_modular_1_1_grid_list_1_1_service_1a63aed2ed30505623343b3e7df7fa6c16">
+                <title>limit ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="da/d3f/class_modular_1_1_grid_list_1_1_service_1ad9c08c1428473eb8e79b93d40b1ffdef">
+                <title>filterLink ($params)</title> <emphasis></emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$params</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="da/d3f/class_modular_1_1_grid_list_1_1_service_1ae086fd4b125c3af434b5bbac0cfa1f98">
+                <title>Filters ()</title> <emphasis></emphasis>
+                
+<para>Allow calls statically through to Filters as it&apos;s easier then</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para><link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints">Constraints</link> </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

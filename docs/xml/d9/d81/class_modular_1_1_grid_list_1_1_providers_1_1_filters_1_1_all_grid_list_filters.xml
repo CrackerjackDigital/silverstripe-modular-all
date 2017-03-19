@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/d81/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_grid_list_filters" kind="class" prot="public">
+    <compoundname>Modular::GridList::Providers::Filters::AllGridListFilters</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+    <basecompoundref refid="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider" prot="public" virt="non-virtual">FiltersProvider</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d81/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_grid_list_filters_1a069cb9638bfa654f2cb15b6eaf23a0bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>provideGridListFilters</definition>
+        <argsstring>()</argsstring>
+        <name>provideGridListFilters</name>
+        <reimplements refid="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider_1a069cb9638bfa654f2cb15b6eaf23a0bf">provideGridListFilters</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/filters/AllGridListFilters.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/filters/AllGridListFilters.php" bodystart="14" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="34">
+        <label>AllGridListFilters</label>
+        <link refid="d9/d81/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_grid_list_filters"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>DataExtension</label>
+      </node>
+      <node id="37">
+        <label>FiltersProvider</label>
+        <link refid="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="38">
+        <label>AllGridListFilters</label>
+        <link refid="d9/d81/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_grid_list_filters"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>DataExtension</label>
+      </node>
+      <node id="41">
+        <label>FiltersProvider</label>
+        <link refid="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider"/>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/filters/AllGridListFilters.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/filters/AllGridListFilters.php" bodystart="13" bodyend="17"/>
+    <listofallmembers>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Filters::AllGridListFilters</scope><name>class_name</name></member>
+      <member refid="d9/d81/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_grid_list_filters_1a069cb9638bfa654f2cb15b6eaf23a0bf" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Filters::AllGridListFilters</scope><name>provideGridListFilters</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Filters::AllGridListFilters</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

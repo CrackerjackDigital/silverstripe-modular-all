@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d6/ddb/namespace_modular_1_1_relationships">
+<title>Modular::Relationships</title>
+        <simplesect>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks">Modular::Relationships::HasGridListBlocks</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters">Modular::Relationships::HasGridListFilters</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d9/d05/class_modular_1_1_relationships_1_1_has_block">Modular::Relationships::HasBlock</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d4/df5/class_modular_1_1_relationships_1_1_has_blocks">Modular::Relationships::HasBlocks</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d0/ded/class_modular_1_1_relationships_1_1_has_files">Modular::Relationships::HasFiles</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="dd/dc0/class_modular_1_1_relationships_1_1_has_images">Modular::Relationships::HasImages</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d8/d14/class_modular_1_1_relationships_1_1_has_links">Modular::Relationships::HasLinks</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d0/d54/class_modular_1_1_relationships_1_1_has_many">Modular::Relationships::HasMany</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d9/d86/class_modular_1_1_relationships_1_1_has_many_many">Modular::Relationships::HasManyMany</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d8/ddb/class_modular_1_1_relationships_1_1_has_one">Modular::Relationships::HasOne</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d3/ddb/class_modular_1_1_relationships_1_1_has_related_page">Modular::Relationships::HasRelatedPage</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d1/d52/class_modular_1_1_relationships_1_1_has_related_pages">Modular::Relationships::HasRelatedPages</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d6/d09/class_modular_1_1_relationships_1_1_has_slides">Modular::Relationships::HasSlides</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="de/d13/class_modular_1_1_relationships_1_1_has_tags">Modular::Relationships::HasTags</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+</section>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/d39/md__mnt_storage_build_modular-all_develop_modular__r_e_a_d_m_e" kind="page">
+    <compoundname>md__mnt_storage_build_modular-all_develop_modular_README</compoundname>
+    <title>silverstripe-utils</title>
+    <detaileddescription>
+<para>Crackerjack Digital Utilities and Common Functionality for SilverStripe </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

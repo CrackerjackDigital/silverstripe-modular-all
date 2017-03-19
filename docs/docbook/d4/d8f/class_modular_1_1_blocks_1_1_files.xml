@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/d8f/class_modular_1_1_blocks_1_1_files">
+<title>Modular::Blocks::Files class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $upload_folder</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allowed_files</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d4/d8f/class_modular_1_1_blocks_1_1_files_1ae9e837ae849cd62b817f53f4c8c85650">upload_folder</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/d8f/class_modular_1_1_blocks_1_1_files_1ab262dfcd3c6c7ff016635d85a972aac2">getUploadFolder</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/d8f/class_modular_1_1_blocks_1_1_files_1a42ee9ec85fd1465adb4607121c77c98d">allowedFileTypes</link> (
+ $configVarName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d4/d8f/class_modular_1_1_blocks_1_1_files_1ae9e837ae849cd62b817f53f4c8c85650">
+                <title>static upload_folder ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/d8f/class_modular_1_1_blocks_1_1_files_1ab262dfcd3c6c7ff016635d85a972aac2">
+                <title>getUploadFolder ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/d8f/class_modular_1_1_blocks_1_1_files_1a42ee9ec85fd1465adb4607121c77c98d">
+                <title>allowedFileTypes ($configVarName= &apos;allowed_files&apos;)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

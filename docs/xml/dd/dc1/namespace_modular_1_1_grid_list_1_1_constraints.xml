@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/dc1/namespace_modular_1_1_grid_list_1_1_constraints" kind="namespace">
+    <compoundname>Modular::GridList::Constraints</compoundname>
+    <innernamespace refid="d0/d2d/namespace_modular_1_1_grid_list_1_1_constraints_1_1_filter">Modular::GridList::Constraints::Filter</innernamespace>
+    <innernamespace refid="df/d78/namespace_modular_1_1_grid_list_1_1_constraints_1_1_filters">Modular::GridList::Constraints::Filters</innernamespace>
+    <innernamespace refid="d5/d11/namespace_modular_1_1_grid_list_1_1_constraints_1_1_items">Modular::GridList::Constraints::Items</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

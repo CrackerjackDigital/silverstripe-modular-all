@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/d06/interface_modular_1_1_interfaces_1_1_logger" kind="interface" prot="public">
+    <compoundname>Modular::Interfaces::Logger</compoundname>
+    <derivedcompoundref refid="db/d33/class_modular_1_1_debugger" prot="public" virt="non-virtual">Debugger</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d06/interface_modular_1_1_interfaces_1_1_logger_1a053a54bed3aafbacf775bd921a9add4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>log</definition>
+        <argsstring>($message, $facilities, $source= &apos;&apos;)</argsstring>
+        <name>log</name>
+        <reimplementedby refid="db/d33/class_modular_1_1_debugger_1a053a54bed3aafbacf775bd921a9add4d">log</reimplementedby>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <param>
+          <declname>$facilities</declname>
+        </param>
+        <param>
+          <declname>$source</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$facilities</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a level to compare to current set level and any other output options such as Screen etc </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Logger.php" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d06/interface_modular_1_1_interfaces_1_1_logger_1af88c3370a1b278fdb2639e1bbdd207be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>level</definition>
+        <argsstring>($level=null)</argsstring>
+        <name>level</name>
+        <reimplementedby refid="db/d33/class_modular_1_1_debugger_1af88c3370a1b278fdb2639e1bbdd207be">level</reimplementedby>
+        <param>
+          <declname>$level</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set a new level for debugging or return the existing one. If level is LevelFromEnv then use the config.environment_levels setting for the current environment (&apos;dev&apos;, &apos;test&apos; or &apos;live&apos;)</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to set and any other options such as to screen etc </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$this if any params passed, current level if not  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Logger.php" line="21" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1091">
+        <label>Logger</label>
+        <link refid="dd/d06/interface_modular_1_1_interfaces_1_1_logger"/>
+      </node>
+      <node id="1092">
+        <label>Debugger</label>
+        <link refid="db/d33/class_modular_1_1_debugger"/>
+        <childnode refid="1091" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Logger.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Logger.php" bodystart="4" bodyend="22"/>
+    <listofallmembers>
+      <member refid="dd/d06/interface_modular_1_1_interfaces_1_1_logger_1af88c3370a1b278fdb2639e1bbdd207be" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Logger</scope><name>level</name></member>
+      <member refid="dd/d06/interface_modular_1_1_interfaces_1_1_logger_1a053a54bed3aafbacf775bd921a9add4d" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Logger</scope><name>log</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

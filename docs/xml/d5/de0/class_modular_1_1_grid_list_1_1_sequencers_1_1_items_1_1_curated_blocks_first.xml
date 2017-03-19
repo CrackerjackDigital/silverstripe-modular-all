@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first" kind="class" prot="public">
+    <compoundname>Modular::GridList::Sequencers::Items::CuratedBlocksFirst</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+    <basecompoundref refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer" prot="public" virt="non-virtual">ItemsSequencer</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first_1af369da5e33e03a0e9ea52d07b239e332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sequenceGridListItems</definition>
+        <argsstring>(&amp;$items, $filters, &amp;$parameters=[])</argsstring>
+        <name>sequenceGridListItems</name>
+        <reimplements refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer_1af369da5e33e03a0e9ea52d07b239e332">sequenceGridListItems</reimplements>
+        <param>
+          <type>&amp;</type>
+          <declname>$items</declname>
+        </param>
+        <param>
+          <declname>$filters</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$parameters</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\ArrayList</parametertype>
+<parametertype>\DataList</parametertype>
+<parametername>$items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$filters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$parameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>| </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/items/CuratedBlocksFirst.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/items/CuratedBlocksFirst.php" bodystart="11" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="231">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="232">
+        <label>DataExtension</label>
+      </node>
+      <node id="233">
+        <label>ItemsSequencer</label>
+        <link refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer"/>
+      </node>
+      <node id="230">
+        <label>CuratedBlocksFirst</label>
+        <link refid="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first"/>
+        <childnode refid="231" relation="public-inheritance">
+        </childnode>
+        <childnode refid="233" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="235">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="236" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>DataExtension</label>
+      </node>
+      <node id="237">
+        <label>ItemsSequencer</label>
+        <link refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer"/>
+      </node>
+      <node id="234">
+        <label>CuratedBlocksFirst</label>
+        <link refid="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first"/>
+        <childnode refid="235" relation="public-inheritance">
+        </childnode>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/items/CuratedBlocksFirst.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/items/CuratedBlocksFirst.php" bodystart="4" bodyend="29"/>
+    <listofallmembers>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::GridList::Sequencers::Items::CuratedBlocksFirst</scope><name>class_name</name></member>
+      <member refid="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first_1af369da5e33e03a0e9ea52d07b239e332" prot="public" virt="non-virtual"><scope>Modular::GridList::Sequencers::Items::CuratedBlocksFirst</scope><name>sequenceGridListItems</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::GridList::Sequencers::Items::CuratedBlocksFirst</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/dfb/class_modular_1_1_blocks_1_1_promo" kind="class" prot="public">
+    <compoundname>Modular::Blocks::Promo</compoundname>
+    <basecompoundref refid="d2/df7/class_modular_1_1_blocks_1_1_block" prot="public" virt="non-virtual">Block</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d8/dfb/class_modular_1_1_blocks_1_1_promo_1a1fa3127fc82f96b1436d871ef02be319" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$db</definition>
+        <argsstring></argsstring>
+        <name>$db</name>
+        <initializer>= [
+		&quot;BackgroundColor&quot; =&gt; &quot;Enum(&apos;white-bg,brown-bg&apos;,&apos;white-bg&apos;)&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Promo.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Promo.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dfb/class_modular_1_1_blocks_1_1_promo_1ac14c93f0630403b3a8432e7d7420d186" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>static $allowed_files</definition>
+        <argsstring></argsstring>
+        <name>$allowed_files</name>
+        <initializer>= &apos;image&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Promo.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Promo.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/dfb/class_modular_1_1_blocks_1_1_promo_1a66d0d6da3b89580352c28d37b57df5bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Image</definition>
+        <argsstring>()</argsstring>
+        <name>Image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Promo.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Promo.php" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dfb/class_modular_1_1_blocks_1_1_promo_1a42ee9ec85fd1465adb4607121c77c98d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>allowedFileTypes</definition>
+        <argsstring>($configVarName= &apos;allowed_files&apos;)</argsstring>
+        <name>allowedFileTypes</name>
+        <param>
+          <declname>$configVarName</declname>
+          <defval>&apos;allowed_files&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Promo.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Promo.php" bodystart="15" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1337">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="1338" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1340" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1338">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="1339" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1340">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="1339">
+        <label>DataObject</label>
+      </node>
+      <node id="1336">
+        <label>Promo</label>
+        <link refid="d8/dfb/class_modular_1_1_blocks_1_1_promo"/>
+        <childnode refid="1337" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1342">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="1343" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1345" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1343">
+        <label>VersionedModel</label>
+        <link refid="da/da6/class_modular_1_1_versioned_model"/>
+        <childnode refid="1344" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1345">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="1344">
+        <label>DataObject</label>
+      </node>
+      <node id="1341">
+        <label>Promo</label>
+        <link refid="d8/dfb/class_modular_1_1_blocks_1_1_promo"/>
+        <childnode refid="1342" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Promo.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/Promo.php" bodystart="4" bodyend="18"/>
+    <listofallmembers>
+      <member refid="d8/dfb/class_modular_1_1_blocks_1_1_promo_1ac14c93f0630403b3a8432e7d7420d186" prot="private" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>$allowed_files</name></member>
+      <member refid="d8/dfb/class_modular_1_1_blocks_1_1_promo_1a1fa3127fc82f96b1436d871ef02be319" prot="private" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>$db</name></member>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>__invoke</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a3c1dc9072f2299e603adead7442dc292" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>addCustomFilterTag</name></member>
+      <member refid="d8/dfb/class_modular_1_1_blocks_1_1_promo_1a42ee9ec85fd1465adb4607121c77c98d" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>allowedFileTypes</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a08f89083c824bbd479a24cfb1e7ce27c" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>block_class</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1ae0fb8218cf6d7cfc1030e51c4a45025d" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>BlockType</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a7e15a611df09446ea2342e5a544a218a" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>BlockZones</name></member>
+      <member refid="da/da6/class_modular_1_1_versioned_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>class_name</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a585a237c4434f0c97e0a93dd02d7e314" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>customFilterTags</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1afbdde13fe4d3c5da5bce82cd0758d00e" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>DisplayInContent</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0de6dd724bf06b0f08dbdeee9bd4c80d" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>DisplayInSidebar</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1af8ff16e3b7863d38779fcf1006b9e40a" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>forTemplate</name></member>
+      <member refid="d8/dfb/class_modular_1_1_blocks_1_1_promo_1a66d0d6da3b89580352c28d37b57df5bb" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>Image</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a5c5e9e6d8cf0b8ce8db575ea6252c96a" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>LinkText</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a08282d6de720a402d9b2136ddb9531f2" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>LinkType</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1af30563a728019e2a175da6b4ef1ce4e6" prot="public" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>PageClassName</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a0b54c9d3801b331b75487ef78d98c06b" prot="protected" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>template</name></member>
+      <member refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a166f874fbbbfadabb7055aa9f5bea328" prot="protected" virt="non-virtual"><scope>Modular::Blocks::Promo</scope><name>templates</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

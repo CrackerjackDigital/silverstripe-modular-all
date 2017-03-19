@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/d73/_pull_quote_8php" kind="file">
+    <compoundname>PullQuote.php</compoundname>
+    <innerclass refid="d7/de9/class_modular_1_1_blocks_1_1_pull_quote" prot="public">Modular::Blocks::PullQuote</innerclass>
+    <innernamespace refid="d2/db0/namespace_modular_1_1_blocks">Modular::Blocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Blocks;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="d7/de9/class_modular_1_1_blocks_1_1_pull_quote" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/de9/class_modular_1_1_blocks_1_1_pull_quote" kindref="compound">PullQuote</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Block</ref><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/PullQuote.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="db/d0a/class_modular_1_1_model">
+<title>Modular::Model class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092">__invoke</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc">class_name</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092">
+                <title>__invoke ()</title> <emphasis></emphasis>
+                
+<para>Invoking a model returns itself. <formalpara><title>Returns: </title>
+
+<para>$this </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc">
+                <title>static class_name ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

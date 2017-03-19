@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/d82/_media_8php" kind="file">
+    <compoundname>Media.php</compoundname>
+    <innerclass refid="d7/d83/class_modular_1_1_fields_1_1_media" prot="public">Modular::Fields::Media</innerclass>
+    <innernamespace refid="dd/ddb/namespace_modular_1_1_fields">Modular::Fields</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Fields;</highlight></codeline>
+<codeline lineno="8" refid="d7/d83/class_modular_1_1_fields_1_1_media" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/d83/class_modular_1_1_fields_1_1_media" kindref="compound">Media</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d0/d51/class_modular_1_1_fields_1_1_file" kindref="compound">File</ref><sp/>{</highlight></codeline>
+<codeline lineno="9" refid="d7/d83/class_modular_1_1_fields_1_1_media_1a522cd5b3b15c4a885005cd0919628158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d83/class_modular_1_1_fields_1_1_media_1a522cd5b3b15c4a885005cd0919628158" kindref="member">RelationshipName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Media&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10" refid="d7/d83/class_modular_1_1_fields_1_1_media_1aa17664de2e4741c71937a3353861d601" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d83/class_modular_1_1_fields_1_1_media_1aa17664de2e4741c71937a3353861d601" kindref="member">MediaLinkOption</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Media&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$base_upload_folder<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;media&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$allowed_files<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;audio,video&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Media.php"/>
+  </compounddef>
+</doxygen>

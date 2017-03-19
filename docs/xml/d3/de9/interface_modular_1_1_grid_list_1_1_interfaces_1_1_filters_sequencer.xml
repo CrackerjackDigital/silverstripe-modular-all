@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/de9/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_sequencer" kind="interface" prot="public">
+    <compoundname>Modular::GridList::Interfaces::FiltersSequencer</compoundname>
+    <derivedcompoundref refid="d3/d2a/class_modular_1_1_grid_list_1_1_sequencers_1_1_filters_1_1_add_item_counts" prot="public" virt="non-virtual">AddItemCounts</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/de9/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_sequencer_1a7fddbb937a271da437c56fb94174f1a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sequenceGridListFilters</definition>
+        <argsstring>(&amp;$filters, $items, &amp;$parameters=[])</argsstring>
+        <name>sequenceGridListFilters</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$filters</declname>
+        </param>
+        <param>
+          <declname>$items</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$parameters</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$filters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>\ArrayList</parametertype>
+<parametertype>\DataList</parametertype>
+<parametername>$items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$parameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(eg extra data from provideGridListTemplateData extension calls) can be mutated </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/FiltersSequencer.php" line="16" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="512">
+        <label>AddItemCounts</label>
+        <link refid="d3/d2a/class_modular_1_1_grid_list_1_1_sequencers_1_1_filters_1_1_add_item_counts"/>
+        <childnode refid="511" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="511">
+        <label>FiltersSequencer</label>
+        <link refid="d3/de9/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_sequencer"/>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/FiltersSequencer.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/FiltersSequencer.php" bodystart="9" bodyend="17"/>
+    <listofallmembers>
+      <member refid="d3/de9/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_sequencer_1a7fddbb937a271da437c56fb94174f1a5" prot="public" virt="non-virtual"><scope>Modular::GridList::Interfaces::FiltersSequencer</scope><name>sequenceGridListFilters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

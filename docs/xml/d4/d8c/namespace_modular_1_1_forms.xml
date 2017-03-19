@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/d8c/namespace_modular_1_1_forms" kind="namespace">
+    <compoundname>Modular::Forms</compoundname>
+    <innerclass refid="d9/d66/class_modular_1_1_forms_1_1_tag_field" prot="public">Modular::Forms::TagField</innerclass>
+    <innerclass refid="d2/d5d/class_modular_1_1_forms_1_1_time_field" prot="public">Modular::Forms::TimeField</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/forms/TagField.php" line="3" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/dc3/namespace_modular_1_1_grid_list_1_1_providers_1_1_filters" kind="namespace">
+    <compoundname>Modular::GridList::Providers::Filters</compoundname>
+    <innerclass refid="dd/df9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_filter" prot="public">Modular::GridList::Providers::Filters::AllFilter</innerclass>
+    <innerclass refid="d9/d81/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_grid_list_filters" prot="public">Modular::GridList::Providers::Filters::AllGridListFilters</innerclass>
+    <innerclass refid="da/df2/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_child_pages" prot="public">Modular::GridList::Providers::Filters::ChildPages</innerclass>
+    <innerclass refid="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter" prot="public">Modular::GridList::Providers::Filters::DefaultFilter</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/filters/AllFilter.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

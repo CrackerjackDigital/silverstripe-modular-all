@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d9/d15/class_modular_1_1_email_logger">
+<title>Modular::EmailLogger class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d15/class_modular_1_1_email_logger_1a0afb9d429b8d5ab1e853ec29278888d4">sendHTML</link> (
+ $to,  $from,  $subject,  $htmlContent,  $attachedFiles,  $customheaders,  $plainContent,  $inlineImages)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d15/class_modular_1_1_email_logger_1a44987f2a406e51885db50ecdddad746f">sendPlain</link> (
+ $to,  $from,  $subject,  $htmlContent,  $attachedFiles,  $customheaders,  $plainContent,  $inlineImages)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>When set as the mailer will log emails to the assets folder instead of sending. </para>
+                <para>Definition at line 10 of file EmailLogger.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>EmailLogger.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d9/d15/class_modular_1_1_email_logger_1a0afb9d429b8d5ab1e853ec29278888d4">
+                <title>sendHTML ($to, $from, $subject, $htmlContent, $attachedFiles=false, $customheaders=false, $plainContent=false, $inlineImages=false)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d9/d15/class_modular_1_1_email_logger_1a44987f2a406e51885db50ecdddad746f">
+                <title>sendPlain ($to, $from, $subject, $htmlContent, $attachedFiles=false, $customheaders=false, $plainContent=false, $inlineImages=false)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

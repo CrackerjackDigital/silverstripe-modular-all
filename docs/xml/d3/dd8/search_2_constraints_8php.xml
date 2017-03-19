@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/dd8/search_2_constraints_8php" kind="file">
+    <compoundname>search/Constraints.php</compoundname>
+    <innerclass refid="d6/d37/class_modular_1_1_search_1_1_constraints" prot="public">Modular::Search::Constraints</innerclass>
+    <innernamespace refid="d3/d03/namespace_modular_1_1_search">Modular::Search</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Search;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="d6/d37/class_modular_1_1_search_1_1_constraints" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/d37/class_modular_1_1_search_1_1_constraints" kindref="compound">Constraints</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints" kindref="compound">\Modular\GridList\Constraints</ref><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="d6/d37/class_modular_1_1_search_1_1_constraints_1a5decbffbba0eee0096f5d2934c997dcc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d6/d37/class_modular_1_1_search_1_1_constraints_1a5decbffbba0eee0096f5d2934c997dcc" kindref="member">FullTextVar</ref><sp/>=<sp/></highlight><highlight class="charliteral">&apos;q&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6" refid="d6/d37/class_modular_1_1_search_1_1_constraints_1a9dee07fb32bdc16a6c63e43dbba4f505" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d6/d37/class_modular_1_1_search_1_1_constraints_1a9dee07fb32bdc16a6c63e43dbba4f505" kindref="member">TagsVar</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;tags&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$params<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self::FullTextVar,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self::TagsVar</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="d6/d37/class_modular_1_1_search_1_1_constraints_1ac2919d82d4872f3d8600fc8a23908ff7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d6/d37/class_modular_1_1_search_1_1_constraints_1ac2919d82d4872f3d8600fc8a23908ff7" kindref="member">filter</ref>($className,<sp/>$term,<sp/>$searchIndex)<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($fulltext<sp/>=<sp/>trim($this-&gt;<ref refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af06af815cbbf71a8fe8e1007ff23a1ea" kindref="member">constraint</ref>($term)))<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($indexes<sp/>=<sp/>\Config::inst()-&gt;</highlight><highlight class="keyword">get</highlight><highlight class="normal">($className,<sp/></highlight><highlight class="stringliteral">&apos;indexes&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($indexes[<sp/>$searchIndex<sp/>]))<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>array_filter([</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;$searchIndex:fulltext&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$fulltext</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[];</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/search/Constraints.php"/>
+  </compounddef>
+</doxygen>

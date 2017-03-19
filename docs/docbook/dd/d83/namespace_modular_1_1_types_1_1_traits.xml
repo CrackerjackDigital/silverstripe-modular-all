@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/d83/namespace_modular_1_1_types_1_1_traits">
+<title>Modular::Types::Traits</title>
+        <simplesect>
+            <title>Variables</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="dd/d83/namespace_modular_1_1_types_1_1_traits_1aa6a27a63ba5a725a820c445df0a58267">epoch</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="dd/d83/namespace_modular_1_1_types_1_1_traits_1a428d70ed02d9cd2ff53f154a3ac684d0">urn</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>trait <link linkend="dd/d83/namespace_modular_1_1_types_1_1_traits_1a9533f9428b5f8c0bde69ce4e266ee978">value</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Functions</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d83/namespace_modular_1_1_types_1_1_traits_1aeda81433a62689a05c7bac66a5c9ad06">typedValueFormat</link> (
+ $typeCast)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d83/namespace_modular_1_1_types_1_1_traits_1a4889207020e3a9bd17a77d61f3e8888e">typedValue</link> (
+ $typeCast)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d83/namespace_modular_1_1_types_1_1_traits_1a91570f24d96a8dcbe17147217f857a10">typedValuePrefix</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d83/namespace_modular_1_1_types_1_1_traits_1a78ee6d9cfc9fa49268b4e49dbe643254">singleFieldValue</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+</section>

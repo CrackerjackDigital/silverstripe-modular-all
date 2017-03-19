@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/dfe/gridlist_2interfaces_2_service_8php">
+    <title>gridlist/interfaces/Service.php File Reference</title>
+        <simplesect>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d9/dcc/interface_modular_1_1_grid_list_1_1_interfaces_1_1_service_1_1_service">Modular::GridList::Interfaces::Service::Service</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title> Namespaces </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d0/d6d/namespace_modular_1_1_grid_list_1_1_interfaces_1_1_service">Modular::GridList::Interfaces::Service</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d1/d4d/namespace_modular_1_1_constraints">Modular::Constraints</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Definition in file /mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/Service.php</para>
+    </simplesect>
+</section>

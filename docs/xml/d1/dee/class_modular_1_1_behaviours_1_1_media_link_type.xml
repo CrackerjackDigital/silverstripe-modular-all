@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type" kind="class" prot="public">
+    <compoundname>Modular::Behaviours::MediaLinkType</compoundname>
+    <basecompoundref refid="da/d27/class_modular_1_1_fields_1_1_field" prot="public" virt="non-virtual">Field</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ab4536104f6c82d9ad7493177a894bdaa" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const MediaLinkTypeFieldName</definition>
+        <argsstring></argsstring>
+        <name>MediaLinkTypeFieldName</name>
+        <initializer>= &apos;<ref refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type" kindref="compound">MediaLinkType</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ad90b568db4d7886884fef37f1bf4d23f" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$enum_values</definition>
+        <argsstring></argsstring>
+        <name>$enum_values</name>
+        <initializer>= [
+		\<ref refid="db/db9/class_modular_1_1_fields_1_1_embed_code_1aaec146ef0853659430fe156b491497b1" kindref="member">Modular\Fields\EmbedCode::EmbedCodeOption</ref>,
+		\<ref refid="d7/d83/class_modular_1_1_fields_1_1_media_1aa17664de2e4741c71937a3353861d601" kindref="member">Modular\Fields\Media::MediaLinkOption</ref>,
+		\<ref refid="db/dda/class_modular_1_1_fields_1_1_external_link_1a67fb1ed4ae9bb6c6c9dc8d909a256a3a" kindref="member">Modular\Fields\ExternalLink::ExternalLinkOption</ref>,
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>extraStatics</definition>
+        <argsstring>($class=null, $extension=null)</argsstring>
+        <name>extraStatics</name>
+        <param>
+          <declname>$class</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$extension</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return static db enum schema definition for the Media and ExternalLink Option constants.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$class</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$extension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" line="32" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" bodystart="32" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ae6098bb0243f4ce2f8680b3723783300" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cmsFields</definition>
+        <argsstring>()</argsstring>
+        <name>cmsFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" line="44" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" bodystart="44" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>customFieldConstraints</definition>
+        <argsstring>(FormField $field, array $allFieldConstraints)</argsstring>
+        <name>customFieldConstraints</name>
+        <param>
+          <type>FormField</type>
+          <declname>$field</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$allFieldConstraints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Show/hide External and EnbedCode fields depending on selected <ref refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type" kindref="compound">MediaLinkType</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\FormField</parametertype>
+<parametername>$field</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$allFieldConstraints</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" line="60" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" bodystart="60" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a427f2e73bb0397a9af1c768dd4e7ddd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>IsExternalLink</definition>
+        <argsstring>()</argsstring>
+        <name>IsExternalLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" line="79" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a062e1778621456ed404e24974d21295e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>IsMedia</definition>
+        <argsstring>()</argsstring>
+        <name>IsMedia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" line="83" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a4ba52ac750e342730b9398f0c85f7e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>IsEmbedCode</definition>
+        <argsstring>()</argsstring>
+        <name>IsEmbedCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" line="87" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" bodystart="87" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1abedc2bd1c420c0cfe6bf188fe403b7f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlayerLink</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" line="91" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1af49822cc4be110c0dece5c3dac61327d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ResolvedLink</definition>
+        <argsstring>()</argsstring>
+        <name>ResolvedLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" line="99" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" bodystart="99" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a530d7d66e45d479ba35f72483983555a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMediaLink</definition>
+        <argsstring>()</argsstring>
+        <name>getMediaLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" line="112" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" bodystart="112" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ab93673cf05755d740e8e38e40c0b4143" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMediaObject</definition>
+        <argsstring>()</argsstring>
+        <name>getMediaObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" line="121" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" bodystart="121" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Link type field and logic for a model which has an EmbedCode, Media and ExternalLink fields. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1130">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1131" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1131">
+        <label>DataExtension</label>
+      </node>
+      <node id="1129">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="1130" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1128">
+        <label>MediaLinkType</label>
+        <link refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type"/>
+        <childnode refid="1129" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1134">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1135" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1135">
+        <label>DataExtension</label>
+      </node>
+      <node id="1133">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1132">
+        <label>MediaLinkType</label>
+        <link refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type"/>
+        <childnode refid="1133" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/behaviours/MediaLinkType.php" bodystart="16" bodyend="125"/>
+    <listofallmembers>
+      <member refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ad90b568db4d7886884fef37f1bf4d23f" prot="private" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>$enum_values</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>addHTMLAttributes</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>class_name</name></member>
+      <member refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ae6098bb0243f4ce2f8680b3723783300" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>cmsFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>cmsTab</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>configureTimeField</name></member>
+      <member refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>customFieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>DefaultTabName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>extendedFieldNames</name></member>
+      <member refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>extraStatics</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>fieldConstraints</name></member>
+      <member refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a530d7d66e45d479ba35f72483983555a" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>getMediaLink</name></member>
+      <member refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ab93673cf05755d740e8e38e40c0b4143" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>getMediaObject</name></member>
+      <member refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a4ba52ac750e342730b9398f0c85f7e92" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>IsEmbedCode</name></member>
+      <member refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a427f2e73bb0397a9af1c768dd4e7ddd8" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>IsExternalLink</name></member>
+      <member refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1a062e1778621456ed404e24974d21295e" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>IsMedia</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>labelsForRelatedClass</name></member>
+      <member refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1ab4536104f6c82d9ad7493177a894bdaa" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>MediaLinkTypeFieldName</name></member>
+      <member refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1abedc2bd1c420c0cfe6bf188fe403b7f3" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>PlayerLink</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>relationship_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>RelationshipName</name></member>
+      <member refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type_1af49822cc4be110c0dece5c3dac61327d" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>ResolvedLink</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>setFieldDecorations</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>SingleFieldName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>SingleFieldSchema</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>singleFieldValue</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>updateSummaryFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Behaviours::MediaLinkType</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

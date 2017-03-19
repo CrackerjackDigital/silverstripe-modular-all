@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider" kind="interface" prot="public">
+    <compoundname>Modular::GridList::Interfaces::FiltersProvider</compoundname>
+    <derivedcompoundref refid="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters" prot="public" virt="non-virtual">CustomFilters</derivedcompoundref>
+    <derivedcompoundref refid="dd/df9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_filter" prot="public" virt="non-virtual">AllFilter</derivedcompoundref>
+    <derivedcompoundref refid="d9/d81/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_grid_list_filters" prot="public" virt="non-virtual">AllGridListFilters</derivedcompoundref>
+    <derivedcompoundref refid="da/df2/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_child_pages" prot="public" virt="non-virtual">ChildPages</derivedcompoundref>
+    <derivedcompoundref refid="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter" prot="public" virt="non-virtual">DefaultFilter</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider_1a069cb9638bfa654f2cb15b6eaf23a0bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>provideGridListFilters</definition>
+        <argsstring>()</argsstring>
+        <name>provideGridListFilters</name>
+        <reimplementedby refid="da/df2/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_child_pages_1a069cb9638bfa654f2cb15b6eaf23a0bf">provideGridListFilters</reimplementedby>
+        <reimplementedby refid="d9/d81/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_grid_list_filters_1a069cb9638bfa654f2cb15b6eaf23a0bf">provideGridListFilters</reimplementedby>
+        <reimplementedby refid="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters_1a069cb9638bfa654f2cb15b6eaf23a0bf">provideGridListFilters</reimplementedby>
+        <reimplementedby refid="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter_1a069cb9638bfa654f2cb15b6eaf23a0bf">provideGridListFilters</reimplementedby>
+        <reimplementedby refid="dd/df9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_filter_1a069cb9638bfa654f2cb15b6eaf23a0bf">provideGridListFilters</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/FiltersProvider.php" line="5" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="507">
+        <label>AllGridListFilters</label>
+        <link refid="d9/d81/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_grid_list_filters"/>
+        <childnode refid="504" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="506">
+        <label>AllFilter</label>
+        <link refid="dd/df9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_filter"/>
+        <childnode refid="504" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="508">
+        <label>ChildPages</label>
+        <link refid="da/df2/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_child_pages"/>
+        <childnode refid="504" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="504">
+        <label>FiltersProvider</label>
+        <link refid="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider"/>
+      </node>
+      <node id="505">
+        <label>CustomFilters</label>
+        <link refid="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters"/>
+        <childnode refid="504" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="509">
+        <label>DefaultFilter</label>
+        <link refid="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter"/>
+        <childnode refid="504" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/FiltersProvider.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/FiltersProvider.php" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="dd/d81/interface_modular_1_1_grid_list_1_1_interfaces_1_1_filters_provider_1a069cb9638bfa654f2cb15b6eaf23a0bf" prot="public" virt="non-virtual"><scope>Modular::GridList::Interfaces::FiltersProvider</scope><name>provideGridListFilters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

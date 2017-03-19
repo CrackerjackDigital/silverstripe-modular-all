@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d0/dfe/interface_modular_1_1_interfaces_1_1_exception">
+<title>Modular::Interfaces::Exception interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1a0b0e611236742aac18ba1936d03ba89a">getMessage</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1ab5e24da53b4a0d0848b18c1e832f47ff">getCode</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1aea32915a3e3df1032825f2369d490aad">getTrace</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1adf61e733be7f62a3f4bedbe7d2e02ec2">getFile</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1aef9c32f6066788a101028a1d4150f8cb">getLine</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1a89f43707bf7b4c874f41d612c75ae649">getPrevious</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1a0b0e611236742aac18ba1936d03ba89a">
+                <title>getMessage ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1ab5e24da53b4a0d0848b18c1e832f47ff">
+                <title>getCode ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1aea32915a3e3df1032825f2369d490aad">
+                <title>getTrace ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1adf61e733be7f62a3f4bedbe7d2e02ec2">
+                <title>getFile ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1aef9c32f6066788a101028a1d4150f8cb">
+                <title>getLine ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1a89f43707bf7b4c874f41d612c75ae649">
+                <title>getPrevious ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

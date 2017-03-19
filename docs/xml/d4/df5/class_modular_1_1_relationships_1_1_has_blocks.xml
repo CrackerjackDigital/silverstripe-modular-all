@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/df5/class_modular_1_1_relationships_1_1_has_blocks" kind="class" prot="public">
+    <compoundname>Modular::Relationships::HasBlocks</compoundname>
+    <basecompoundref refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many" prot="public" virt="non-virtual">HasManyMany</basecompoundref>
+    <derivedcompoundref refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks" prot="public" virt="non-virtual">HasGridListBlocks</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1a522cd5b3b15c4a885005cd0919628158" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RelationshipName</definition>
+        <argsstring></argsstring>
+        <name>RelationshipName</name>
+        <initializer>= &apos;Blocks&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1a0c616e562eff7e4bf6b10e3ecacc226b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RelatedClassName</definition>
+        <argsstring></argsstring>
+        <name>RelatedClassName</name>
+        <initializer>= &apos;<ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Modular\Blocks\Block</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1aaeeea0416334b9aaf0ab8243c7d4ed8e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const GridFieldConfigName</definition>
+        <argsstring></argsstring>
+        <name>GridFieldConfigName</name>
+        <initializer>= &apos;<ref refid="d4/d8e/class_modular_1_1_grid_field_1_1_has_blocks_grid_field_config" kindref="compound">Modular\GridField\HasBlocksGridFieldConfig</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1a09fa9cbd10b978000ada3ca5eebf446a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RulesExcludePrefix</definition>
+        <argsstring></argsstring>
+        <name>RulesExcludePrefix</name>
+        <initializer>= &apos;!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1aadd90296ac7f5c5c670fe3f0d699b45f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RulesDelimeter</definition>
+        <argsstring></argsstring>
+        <name>RulesDelimeter</name>
+        <initializer>= &apos;,&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1ad89377c2897a71120179570e1688f5ee" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$cms_tab_name</definition>
+        <argsstring></argsstring>
+        <name>$cms_tab_name</name>
+        <initializer>= &apos;Root.ContentBlocks&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1abd4d35cf7971e1144e10b9056b202b90" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$allow_new_multi_class</definition>
+        <argsstring></argsstring>
+        <name>$allow_new_multi_class</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1aedaf1578a924dbc5d79711fc7c20eb58" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$blocks_for_zone</definition>
+        <argsstring></argsstring>
+        <name>$blocks_for_zone</name>
+        <initializer>= [
+		# example:
+		#   &apos;HomePageTop&apos; =&gt; [
+		#       &apos;HomePageFeatureBlock&apos;
+		#   ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" line="24" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1a661ad7bd991bb777b9e8263df8e6b187" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static ZoneBlocks</definition>
+        <argsstring>($zone= &apos;Content&apos;, $rules= &apos;&apos;)</argsstring>
+        <name>ZoneBlocks</name>
+        <param>
+          <declname>$zone</declname>
+          <defval>&apos;Content&apos;</defval>
+        </param>
+        <param>
+          <declname>$rules</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns <ref refid="d2/db0/namespace_modular_1_1_blocks" kindref="compound">Blocks</ref> for a particular zone on the page, e.g. &apos;Content&apos;, &apos;Sidebar&apos; filtered by Block class name from config.blocks_for_zone on the extended model first, then on this extension if not no config.blocks_for_zone at all is set on there (does not allow mixing of blocks from the model and this extension at the moment).</para><para><ref refid="d2/db0/namespace_modular_1_1_blocks" kindref="compound">Blocks</ref> can be added in addition to the zone by specifying block class names in the rules parameter (delimited by RulesDelimiter), or excluded by adding them prefixed with a &apos;!&apos; (RulesExcludePrefix).</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$zone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$rules</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>delimited block class names e.g. &apos;!ExcludeThisBlockClass, AddThisBlockClass&apos; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" line="57" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" bodystart="57" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1ad5147a673f45d4a81c90ccecf1254c1f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseRules</definition>
+        <argsstring>($rules)</argsstring>
+        <name>parseRules</name>
+        <param>
+          <declname>$rules</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse a string of rules such as &apos;!NotBlockClass, AddBlockClass&apos; int array of includes, excludes for filtering</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>array</parametertype>
+<parametername>$rules</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array tuple of exclude, include arrays of class names e.g. [ [ &apos;NotBlockClass&apos; ], [ &apos;AddBlockClass&apos;] ] </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" line="95" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" bodystart="95" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Add a gridfield to which blocks can be added and managed.</para><para><ref refid="d2/db0/namespace_modular_1_1_blocks" kindref="compound">Blocks</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="659">
+        <label>GridField</label>
+        <link refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field"/>
+        <childnode refid="660" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="661">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="662" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="657">
+        <label>HasBlocks</label>
+        <link refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks"/>
+        <childnode refid="658" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="662">
+        <label>DataExtension</label>
+      </node>
+      <node id="660">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="661" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="663">
+        <label>HasGridListBlocks</label>
+        <link refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks"/>
+        <childnode refid="657" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="658">
+        <label>HasManyMany</label>
+        <link refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many"/>
+        <childnode refid="659" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="666">
+        <label>GridField</label>
+        <link refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field"/>
+        <childnode refid="667" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="668">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="669" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="664">
+        <label>HasBlocks</label>
+        <link refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="669">
+        <label>DataExtension</label>
+      </node>
+      <node id="667">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="668" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="665">
+        <label>HasManyMany</label>
+        <link refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many"/>
+        <childnode refid="666" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasBlocks.php" bodystart="9" bodyend="113"/>
+    <listofallmembers>
+      <member refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1abd4d35cf7971e1144e10b9056b202b90" prot="private" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>$allow_new_multi_class</name></member>
+      <member refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1aedaf1578a924dbc5d79711fc7c20eb58" prot="private" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>$blocks_for_zone</name></member>
+      <member refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1ad89377c2897a71120179570e1688f5ee" prot="private" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>$cms_tab_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>addHTMLAttributes</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>class_name</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ae6098bb0243f4ce2f8680b3723783300" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>cmsFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>cmsTab</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>configureTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>customFieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>DefaultTabName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>extendedFieldNames</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>extraStatics</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>fieldConstraints</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ad3eec60b4f217a0c87baf84faf65f7f0" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>fieldDecorationTokens</name></member>
+      <member refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1aaeeea0416334b9aaf0ab8243c7d4ed8e" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>GridFieldConfigName</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1aa9bf9eaab5654c2ea74f41f1129f01d5" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>gridFields</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ac9c3b740ba1c9a6a05e6b2b99434a899" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>implementors</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>labelsForRelatedClass</name></member>
+      <member refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1ad5147a673f45d4a81c90ccecf1254c1f" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>parseRules</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1a7d48a24c6d09461afccc09692e2c6bbb" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>related</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a03ff5c332d7f0fdc32108663e541bc01" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>related_class_name</name></member>
+      <member refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1a0c616e562eff7e4bf6b10e3ecacc226b" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>RelatedClassName</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1a3b97a85d27fe80e7118a7e8a70a9acb0" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>relatedIDs</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>relationship_name</name></member>
+      <member refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>RelationshipName</name></member>
+      <member refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1aadd90296ac7f5c5c670fe3f0d699b45f" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>RulesDelimeter</name></member>
+      <member refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1a09fa9cbd10b978000ada3ca5eebf446a" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>RulesExcludePrefix</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>setFieldDecorations</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a7bb7cd9086ebc593243950e0cf586326" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>ShowAsGridField</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ab62a5a297ebd31bf3ee520682632679c" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>ShowAsTagsField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>SingleFieldName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>SingleFieldSchema</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>singleFieldValue</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a7b2773655958a2f7045db78cc468525c" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>sortable</name></member>
+      <member refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a58d45c13ab7488436af7f47e52721141" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>SortFieldName</name></member>
+      <member refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many_1ac3cb86a17d4834efccf7bbad177f6fca" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>tagFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>updateSummaryFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>writeAndReturn</name></member>
+      <member refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks_1a661ad7bd991bb777b9e8263df8e6b187" prot="public" virt="non-virtual"><scope>Modular::Relationships::HasBlocks</scope><name>ZoneBlocks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

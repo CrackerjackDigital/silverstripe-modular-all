@@ -1,0 +1,744 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints">
+<title>Modular::GridList::Constraints class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ModeGetVar</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SortGetVar</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const StartIndexGetVar</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const PageLengthGetVar</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const FilterVar</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SessionKeyPrefix</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SessionPathSeparator</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const PersistNever</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const PersistEverywhere</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const PersistForURLParams</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const PersistForGetVars</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const PersistExact</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const DefaultPersistance</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $params</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $default_mode</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $default_sort</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>$request</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a095c5d389db211932136b53f25f39685">__construct</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af06af815cbbf71a8fe8e1007ff23a1ea">constraint</link> (
+ $name,  $sessionPersistence)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a2726eafbd92facbc239cbe9eca472667">filter</link> (
+ $className,  $term,  $field)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a948285aed809f77c4874e6080e7c56cb">currentFilterID</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1acbb753db87d7cde6b62875a3d21173a0">defaultFilter</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a8b9343c4906bf879fe9aeb56db47f685">getVarOrParam</link> (
+ $name,  $sessionPersistance)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a0da531fc30bdf883d86d4219c3c54e07">mode</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a460a4b0a974fe335c75553ec7cd6a43d">modes</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a4bd31bcedb7b4943aac2da78d0d84afe">sort</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af8fa59992209e36dccb3eefb0f75531f">start</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a63aed2ed30505623343b3e7df7fa6c16">limit</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ac203c60430ea922e5e143617bcf214a4">pagination</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a4268e176714ad2c0dfd9fa1b3e5b6561">buildQueryString</link> (
+ $params)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a53ddb717c4a283b82d354b02a6a71a59">request</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a2944defddcc4995baf2b5ae4a0aac8ad">params</link> (
+ $params)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a3cab828372c17e2aea3c5cac0de27d07">persistKey</link> (
+ $key,  $url,  $includeGetVars)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a5a7f71e9109a92b57e492be254594a40">clearSession</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a1b51165f5b164be715a84c17fdf566f8">url</link> (
+ $includeGetVars)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ae3b138fc15c6eb1d38508bd0f19ba120">urlParam</link> (
+ $name,  $sessionPersistance)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a03c3daf67c2b305314c7abaafe9d9b3d">urlParams</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1afd2ce2ae3c59a93275a4764188333747">getVar</link> (
+ $name,  $sessionPersistance)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ab81a1d1cef7f7d6c406e60bd368f94af">getVars</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a08826ae0e109c275ccfd5aa4d4712ad8">postVar</link> (
+ $name)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a181b26b1c2c684fe446d8825f401bff9">postVars</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a60aa60245d871c654a2bdc494f44b49e">persisted</link> (
+ $name,  $cache,  $sessionPersistance)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a09fec4eb5dc911067c3e8601ae083836">persist_key_prefix</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a095c5d389db211932136b53f25f39685">
+                <title>__construct ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af06af815cbbf71a8fe8e1007ff23a1ea">
+                <title>constraint ($name, $sessionPersistence=null)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a2726eafbd92facbc239cbe9eca472667">
+                <title>filter ($className, $term, $field)</title> <emphasis></emphasis>
+                
+<para>Default filter is just a field = value</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$className</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$term</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$field</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a948285aed809f77c4874e6080e7c56cb">
+                <title>currentFilterID ()</title> <emphasis></emphasis>
+                
+<para>Return the ID of the current filter.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>int|null </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1acbb753db87d7cde6b62875a3d21173a0">
+                <title>defaultFilter ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a8b9343c4906bf879fe9aeb56db47f685">
+                <title>getVarOrParam ($name, $sessionPersistance=self::PersistExact)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a0da531fc30bdf883d86d4219c3c54e07">
+                <title>mode ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a460a4b0a974fe335c75553ec7cd6a43d">
+                <title>modes ()</title> <emphasis></emphasis>
+                
+<para>Return array of mode strings in preference order from query string or configuration.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a4bd31bcedb7b4943aac2da78d0d84afe">
+                <title>sort ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1af8fa59992209e36dccb3eefb0f75531f">
+                <title>start ()</title> <emphasis></emphasis>
+                
+<para>Return the pagination start from getVar or session</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>int|null </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a63aed2ed30505623343b3e7df7fa6c16">
+                <title>limit ()</title> <emphasis></emphasis>
+                
+<para>Return the pagination limit from getVar or session</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>int|null </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ac203c60430ea922e5e143617bcf214a4">
+                <title>pagination ()</title> <emphasis></emphasis>
+                
+<para><formalpara><title>Returns: </title>
+
+<para>array of start, limit from getVar or from Session for current url </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a4268e176714ad2c0dfd9fa1b3e5b6561">
+                <title>buildQueryString ($params=[])</title> <emphasis></emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$params</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string suitable for use in url query string, keys are lower cased </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a53ddb717c4a283b82d354b02a6a71a59">
+                <title>request ()</title> <emphasis></emphasis>
+                
+<para><formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a2944defddcc4995baf2b5ae4a0aac8ad">
+                <title>params ($params=[])</title> <emphasis></emphasis>
+                
+<para>Returns map of parameters (getVars and urlParams) this <link linkend="df/d78/namespace_modular_1_1_grid_list_1_1_constraints_1_1_filters">Filters</link> derived class handles. Merges in with preference passed params if provided. </para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a3cab828372c17e2aea3c5cac0de27d07">
+                <title>persistKey ($key, $url=null, $includeGetVars=false)</title> <emphasis></emphasis>
+                
+<para>Provide a unique key for this request, e.g. for caching, UI state storage etc. By default this is without taking getVars into account.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$key</entry>
+                                <entry>
+<para>type of thing being cached, e.g. &apos;sort&apos; or &apos;model&apos; </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$url</entry>
+                                <entry>
+<para>of request to store key for, if null current url is used, otherwise whatever is passed (could be &apos;&apos; for all requests) </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$includeGetVars</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a5a7f71e9109a92b57e492be254594a40">
+                <title>clearSession ()</title> <emphasis></emphasis>
+                
+<para>Clear all session variables that start with the gridlist session key prefix (self.KeyPrefix). </para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a1b51165f5b164be715a84c17fdf566f8">
+                <title>url ($includeGetVars=false)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ae3b138fc15c6eb1d38508bd0f19ba120">
+                <title>urlParam ($name, $sessionPersistance)</title> <emphasis></emphasis>
+                
+<para>Return value of particular url parameter, filters out one&apos;s we&apos;re not interested in and caches those we are.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$name</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a03c3daf67c2b305314c7abaafe9d9b3d">
+                <title>urlParams ()</title> <emphasis></emphasis>
+                
+<para>Return only the url parameters we are interested in</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1afd2ce2ae3c59a93275a4764188333747">
+                <title>getVar ($name, $sessionPersistance)</title> <emphasis></emphasis>
+                
+<para>Return a get var if it is one we are interested in, lookup is lowercased, return value is urldecoded. Values are cached for both lower and uppercase (so get and urlParam) options.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$name</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>null|string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1ab81a1d1cef7f7d6c406e60bd368f94af">
+                <title>getVars ()</title> <emphasis></emphasis>
+                
+<para>Return only the get vars we are interested in, keys are lowercased, values are trimmed</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a08826ae0e109c275ccfd5aa4d4712ad8">
+                <title>postVar ($name)</title> <emphasis></emphasis>
+                
+<para>Return a get var if it is one we are interested in, lookup is lowercased, return value is urldecoded. Values are cached for both lower and uppercase (so get and urlParam) options.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$name</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>null|string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a181b26b1c2c684fe446d8825f401bff9">
+                <title>postVars ()</title> <emphasis></emphasis>
+                
+<para>Return only the get vars we are interested in, keys are lowercased</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a60aa60245d871c654a2bdc494f44b49e">
+                <title>persisted ($name, $cache, $sessionPersistance)</title> <emphasis></emphasis>
+                
+<para>Lookup name in the provided cache key-value and save it to the session if required depending on seesionPersistance parameter.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$name</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$cache</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$sessionPersistance</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array|mixed|null| </para>
+</formalpara>
+exception                            <row>
+                                <entry>Exception</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="dd/db0/class_modular_1_1_grid_list_1_1_constraints_1a09fec4eb5dc911067c3e8601ae083836">
+                <title>static persist_key_prefix ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

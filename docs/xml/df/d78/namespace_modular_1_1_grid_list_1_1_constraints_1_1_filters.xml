@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/d78/namespace_modular_1_1_grid_list_1_1_constraints_1_1_filters" kind="namespace">
+    <compoundname>Modular::GridList::Constraints::Filters</compoundname>
+    <innerclass refid="d4/d5b/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_hide_unmatched_filters" prot="public">Modular::GridList::Constraints::Filters::HideUnmatchedFilters</innerclass>
+    <innerclass refid="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters" prot="public">Modular::GridList::Constraints::Filters::CustomFilters</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/constraints/filters/HideUnmatchedFilters.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/d84/class_modular_1_1_exceptions_1_1_not_implemented" kind="class" prot="public">
+    <compoundname>Modular::Exceptions::NotImplemented</compoundname>
+    <basecompoundref refid="d5/d09/class_modular_1_1_exceptions_1_1_exception" prot="public" virt="non-virtual">Exception</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1269">
+        <label>NotImplemented</label>
+        <link refid="dd/d84/class_modular_1_1_exceptions_1_1_not_implemented"/>
+        <childnode refid="1270" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1270">
+        <label>Exception</label>
+        <link refid="d5/d09/class_modular_1_1_exceptions_1_1_exception"/>
+        <childnode refid="1271" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1270" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1271">
+        <label>Config</label>
+        <link refid="da/d2d/class_modular_1_1_exceptions_1_1_config"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1272">
+        <label>NotImplemented</label>
+        <link refid="dd/d84/class_modular_1_1_exceptions_1_1_not_implemented"/>
+        <childnode refid="1273" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1273">
+        <label>Exception</label>
+        <link refid="d5/d09/class_modular_1_1_exceptions_1_1_exception"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1273" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1274">
+        <label>Config</label>
+        <link refid="da/d2d/class_modular_1_1_exceptions_1_1_config"/>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/exceptions/NotImplemented.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/exceptions/NotImplemented.php" bodystart="4" bodyend="5"/>
+    <listofallmembers>
+      <member refid="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1ab5e24da53b4a0d0848b18c1e832f47ff" prot="public" virt="non-virtual"><scope>Modular::Exceptions::NotImplemented</scope><name>getCode</name></member>
+      <member refid="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1adf61e733be7f62a3f4bedbe7d2e02ec2" prot="public" virt="non-virtual"><scope>Modular::Exceptions::NotImplemented</scope><name>getFile</name></member>
+      <member refid="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1aef9c32f6066788a101028a1d4150f8cb" prot="public" virt="non-virtual"><scope>Modular::Exceptions::NotImplemented</scope><name>getLine</name></member>
+      <member refid="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1a0b0e611236742aac18ba1936d03ba89a" prot="public" virt="non-virtual"><scope>Modular::Exceptions::NotImplemented</scope><name>getMessage</name></member>
+      <member refid="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1a89f43707bf7b4c874f41d612c75ae649" prot="public" virt="non-virtual"><scope>Modular::Exceptions::NotImplemented</scope><name>getPrevious</name></member>
+      <member refid="d0/dfe/interface_modular_1_1_interfaces_1_1_exception_1aea32915a3e3df1032825f2369d490aad" prot="public" virt="non-virtual"><scope>Modular::Exceptions::NotImplemented</scope><name>getTrace</name></member>
+      <member refid="d5/d09/class_modular_1_1_exceptions_1_1_exception_1a6991eb53548e7180a3a8e6f418fbb234" prot="public" virt="non-virtual"><scope>Modular::Exceptions::NotImplemented</scope><name>setMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

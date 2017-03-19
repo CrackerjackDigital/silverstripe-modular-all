@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/d8d/_call_to_action_8php" kind="file">
+    <compoundname>CallToAction.php</compoundname>
+    <innerclass refid="d9/d82/class_modular_1_1_blocks_1_1_call_to_action" prot="public">Modular::Blocks::CallToAction</innerclass>
+    <innernamespace refid="d2/db0/namespace_modular_1_1_blocks">Modular::Blocks</innernamespace>
+    <innernamespace refid="d3/d46/namespace_modular_1_1_behaviours_1_1_internal_or_external_link">Modular::Behaviours::InternalOrExternalLink</innernamespace>
+    <innernamespace refid="d8/d72/namespace_modular_1_1_fields_1_1_display_location">Modular::Fields::DisplayLocation</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Blocks;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link" kindref="compound">Modular\Behaviours\InternalOrExternalLink</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link" kindref="compound">Modular\Fields\InternalLink</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="db/dda/class_modular_1_1_fields_1_1_external_link" kindref="compound">Modular\Fields\ExternalLink</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="db/db5/class_modular_1_1_fields_1_1_display_location" kindref="compound">Modular\Fields\DisplayLocation</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="d9/d82/class_modular_1_1_blocks_1_1_call_to_action" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d9/d82/class_modular_1_1_blocks_1_1_call_to_action" kindref="compound">CallToAction</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Block</ref><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="d9/d82/class_modular_1_1_blocks_1_1_call_to_action_1af49822cc4be110c0dece5c3dac61327d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d9/d82/class_modular_1_1_blocks_1_1_call_to_action_1af49822cc4be110c0dece5c3dac61327d" kindref="member">ResolvedLink</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($this-&gt;{<ref refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a94fd73e5fc692880264e18168c71fe38" kindref="member">InternalOrExternalLink::LinkTypeFieldName</ref>}<sp/>==<sp/><ref refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link_1a1942eb70de5458ea2b27cab10ae87da5" kindref="member">InternalLink::InternalLinkOption</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($target<sp/>=<sp/>$this-&gt;{<ref refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link_1a522cd5b3b15c4a885005cd0919628158" kindref="member">InternalLink::RelationshipName</ref>}())<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$target-&gt;Link();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>elseif<sp/>($this-&gt;{<ref refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link_1a94fd73e5fc692880264e18168c71fe38" kindref="member">InternalOrExternalLink::LinkTypeFieldName</ref>}<sp/>==<sp/><ref refid="db/dda/class_modular_1_1_fields_1_1_external_link_1a67fb1ed4ae9bb6c6c9dc8d909a256a3a" kindref="member">ExternalLink::ExternalLinkOption</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;{<ref refid="db/dda/class_modular_1_1_fields_1_1_external_link_1af74d0ba94522656fd2c247bd544e2094" kindref="member">ExternalLink::SingleFieldName</ref>};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/blocks/user/CallToAction.php"/>
+  </compounddef>
+</doxygen>

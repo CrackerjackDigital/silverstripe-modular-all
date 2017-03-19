@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d2/d46/class_modular_1_1_blocks_1_1_source_file">
+<title>Modular::Blocks::SourceFile class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allowed_files</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $upload_folder</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/d46/class_modular_1_1_blocks_1_1_source_file_1a0de6dd724bf06b0f08dbdeee9bd4c80d">DisplayInSidebar</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d2/d46/class_modular_1_1_blocks_1_1_source_file_1afbdde13fe4d3c5da5bce82cd0758d00e">DisplayInContent</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d2/d46/class_modular_1_1_blocks_1_1_source_file_1a0de6dd724bf06b0f08dbdeee9bd4c80d">
+                <title>DisplayInSidebar ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d2/d46/class_modular_1_1_blocks_1_1_source_file_1afbdde13fe4d3c5da5bce82cd0758d00e">
+                <title>DisplayInContent ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

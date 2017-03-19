@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter">
+<title>Modular::GridList::Constraints::Items::CurrentFilter class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter_1ac43ee9c7121bc750a81effa7e4e1f731">constrainGridListItems</link> (
+&amp; $items)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter_1ac43ee9c7121bc750a81effa7e4e1f731">
+                <title>constrainGridListItems (&amp;$items)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

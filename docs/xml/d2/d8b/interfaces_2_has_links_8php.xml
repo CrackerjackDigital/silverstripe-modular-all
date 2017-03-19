@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d2/d8b/interfaces_2_has_links_8php" kind="file">
+    <compoundname>interfaces/HasLinks.php</compoundname>
+    <innerclass refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links" prot="public">Modular::Interfaces::HasLinks</innerclass>
+    <innernamespace refid="d5/d56/namespace_modular_1_1_interfaces">Modular::Interfaces</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Interfaces;</highlight></codeline>
+<codeline lineno="8" refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links" refkind="compound"><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links" kindref="compound">HasLinks</ref><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d0/dca/interface_modular_1_1_interfaces_1_1_has_links_1ac8524f93cac27b574abc42cc54774d41" kindref="member">LinkInfo</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HasLinks.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode">
+<title>Modular::GridList::Fields::Mode class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SingleFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SingleFieldSchema</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode_1ae6098bb0243f4ce2f8680b3723783300">cmsFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode_1af065d31e9ef42dd98ff872dc75da6c58">provideGridListTemplateData</link> (
+ $existingData)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode_1ae6098bb0243f4ce2f8680b3723783300">
+                <title>cmsFields ()</title> <emphasis></emphasis>
+                
+<para>If <link linkend="d4/d93/class_modular_1_1_grid_list_1_1_grid_list">GridList</link> also has another way to provide mode, then set the field to that mode if it is set and don&apos;t let it change. </para>
+
+            </section>
+            <section xml:id="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode_1af065d31e9ef42dd98ff872dc75da6c58">
+                <title>provideGridListTemplateData ($existingData=[])</title> <emphasis></emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$existingData</entry>
+                                <entry>
+<para>already set by other extensions, not altered but new values to add/override returned instead. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>array [ &apos;<link linkend="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode">Mode</link>&apos; =&gt; mode from dropdown or &apos;&apos; ] mode is lowercase </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/d10/class_modular_1_1_application" kind="class" prot="public">
+    <compoundname>Modular::Application</compoundname>
+    <basecompoundref refid="d6/d4d/class_modular_1_1_module" prot="public" virt="non-virtual">Module</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a5587acd8fd25952d4f7a5c205c10be4e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ThemeMobile</definition>
+        <argsstring></argsstring>
+        <name>ThemeMobile</name>
+        <initializer>= &apos;mobile&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a8a01c2c3d0aaf7707ccf55ff09d49b6f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ThemeDesktop</definition>
+        <argsstring></argsstring>
+        <name>ThemeDesktop</name>
+        <initializer>= &apos;desktop&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a9d8c463572024dd0b076bef2abcc5079" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ThemeDefault</definition>
+        <argsstring></argsstring>
+        <name>ThemeDefault</name>
+        <initializer>= &apos;default&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a668d80b2b47b45ff3fad4c048d798411" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$requirements_path</definition>
+        <argsstring></argsstring>
+        <name>$requirements_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a8ceb43c842a43cc2fa84b2e450867582" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$theme_domains</definition>
+        <argsstring></argsstring>
+        <name>$theme_domains</name>
+        <initializer>= [
+		self::ThemeDefault =&gt; [&apos;*&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a92777230af3f666d7f72612351b3b23b" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>static $safe_paths</definition>
+        <argsstring></argsstring>
+        <name>$safe_paths</name>
+        <initializer>= [
+		ASSETS_PATH,
+	    &apos;../logs&apos;
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="23" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d10/class_modular_1_1_application_1a0ff61c69a2a937d902b7f2d86c92371c" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$default_theme</definition>
+        <argsstring></argsstring>
+        <name>$default_theme</name>
+        <initializer>= self::ThemeDefault</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="29" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1ab096c671befd594e22708a02babcbeef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static get_current_page</definition>
+        <argsstring>()</argsstring>
+        <name>get_current_page</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Try to get page from Director and if in CMS then get it from CMS page, fallback to <ref refid="d6/d68/class_modular_1_1_controller" kindref="compound">Controller</ref> url via page_for_path.</para><para><simplesect kind="return"><para>|| </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="38" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="38" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a548c021d3c4fe5a3f376c22956b2f65a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static requirements_path</definition>
+        <argsstring>()</argsstring>
+        <name>requirements_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Override to provide current theme folder if requirements_path not set.</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="66" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a042d10ca7d0782adc2a871c07c288007" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static device_mode</definition>
+        <argsstring>()</argsstring>
+        <name>device_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the device mode, e.g. &apos;mobile&apos;, &apos;desktop&apos;, &apos;default&apos;. At the moment just uses domain_theme. TODO: allow this to be found out in alternative ways, e.g. UserAgent </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="74" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a05b634f46207617d32aeda742d72e10f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static path_for_request</definition>
+        <argsstring>($request=null, $getVar= &apos;path&apos;)</argsstring>
+        <name>path_for_request</name>
+        <param>
+          <declname>$request</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$getVar</declname>
+          <defval>&apos;path&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a path from the request using a getVar or HTTP_REFERER or the request URL. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\SS_HTTPRequest</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$getVar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed|string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="84" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="84" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a605b07766c1bed3ff909fa8362f9985f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static domain_theme</definition>
+        <argsstring>()</argsstring>
+        <name>domain_theme</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the theme name matching on domain name via config.theme_domains</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="128" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="128" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d10/class_modular_1_1_application_1a837267adf501aa1b29ad40505bc10755" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static hostname</definition>
+        <argsstring>()</argsstring>
+        <name>hostname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the server host name from file to url mappings. For cli mode you&apos;ll need to make sure a FILE_TO_URL_MAPPING is setup in environment file for the server.</para><para><simplesect kind="return"><para>string </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="148" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="148" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="43">
+        <label>Module</label>
+        <link refid="d6/d4d/class_modular_1_1_module"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>Application</label>
+        <link refid="d3/d10/class_modular_1_1_application"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="46">
+        <label>Module</label>
+        <link refid="d6/d4d/class_modular_1_1_module"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>Object</label>
+        <link refid="da/d08/class_modular_1_1_object"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>Application</label>
+        <link refid="d3/d10/class_modular_1_1_application"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/Application.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/Application.php" bodystart="8" bodyend="154"/>
+    <listofallmembers>
+      <member refid="d3/d10/class_modular_1_1_application_1a0ff61c69a2a937d902b7f2d86c92371c" prot="private" virt="non-virtual"><scope>Modular::Application</scope><name>$default_theme</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a668d80b2b47b45ff3fad4c048d798411" prot="private" virt="non-virtual"><scope>Modular::Application</scope><name>$requirements_path</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a92777230af3f666d7f72612351b3b23b" prot="private" virt="non-virtual"><scope>Modular::Application</scope><name>$safe_paths</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a8ceb43c842a43cc2fa84b2e450867582" prot="private" virt="non-virtual"><scope>Modular::Application</scope><name>$theme_domains</name></member>
+      <member refid="da/d08/class_modular_1_1_object_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>__invoke</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1af3e607da6d8e4c404d1cbf81bcf361c8" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>add_requirements</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a553599025adbf84dc6f54c64b4bad26c" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>AfterInit</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a22483e05dceb063caa5d22c8dace43a8" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>BeforeInit</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a8743944d1220d3b31aab2659519199cb" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>block</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1ac93b60428f8051a147d2c9ecc1497ce5" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>Block</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a1ad91e97e7d3c144ca6048a6c1fa7b16" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>BothInit</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1aacc47928bcd26bc30dcf5efee0cc2203" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>combine</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a6cebc152365798ab01ad4c886ecdf641" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>css</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a042d10ca7d0782adc2a871c07c288007" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>device_mode</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a605b07766c1bed3ff909fa8362f9985f" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>domain_theme</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a60afe72eaff81ead20d6aee650c5aa57" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>FileTypeCSS</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a5406fc068818199246c3aa04504df062" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>FileTypeJavascript</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a56d58ea651b927b2b656e53347e0f088" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>FileTypeJavascriptTemplate</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1ab096c671befd594e22708a02babcbeef" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>get_current_page</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a837267adf501aa1b29ad40505bc10755" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>hostname</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1ad5636a0d98d1230c9abb8a3a49708fc5" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>include_script_types</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a4b0cfe7b2ac09305fa45656c179a3993" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>js</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a5af0388a79a0e92bf674b64cb09680ab" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>jst</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1adcefa631050d8f2d9c82aa162c99a51d" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>log_file</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a3e1b304e64e6a784a791fcfc9aaa529e" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>log_path</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1adca23664f6595af1254859dec4a884f9" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>make_safe_path</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1aa9a739d83a32406cd5f4737dc9a85825" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>module_name</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1ad165d2c3a8fd6e7ab5236b60abcfa84f" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>module_path</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a05b634f46207617d32aeda742d72e10f" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>path_for_request</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a6c2a967c18bc527fe7a8d195603df1e1" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>requirement_path</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1ae47215878a9d80c75708ad0e3935cff6" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>requirements</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a548c021d3c4fe5a3f376c22956b2f65a" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>requirements_path</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a71a7945f17e73f99a675768c01d2796e" prot="protected" virt="non-virtual"><scope>Modular::Application</scope><name>requirements_template_data</name></member>
+      <member refid="d6/d4d/class_modular_1_1_module_1a314a4d81d174bf240c68a22780ab70f4" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>RequirementsTemplateDataExtensionMethod</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a9d8c463572024dd0b076bef2abcc5079" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>ThemeDefault</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a8a01c2c3d0aaf7707ccf55ff09d49b6f" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>ThemeDesktop</name></member>
+      <member refid="d3/d10/class_modular_1_1_application_1a5587acd8fd25952d4f7a5c205c10be4e" prot="public" virt="non-virtual"><scope>Modular::Application</scope><name>ThemeMobile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

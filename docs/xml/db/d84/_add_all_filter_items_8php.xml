@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="db/d84/_add_all_filter_items_8php" kind="file">
+    <compoundname>AddAllFilterItems.php</compoundname>
+    <innerclass refid="dc/d61/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_add_all_filter_items" prot="public">Modular::GridList::Sequencers::Items::AddAllFilterItems</innerclass>
+    <innernamespace refid="d8/dd3/namespace_modular_1_1_grid_list_1_1_sequencers_1_1_items">Modular::GridList::Sequencers::Items</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <innernamespace refid="dc/d74/namespace_modular_1_1_search_1_1_model_extension">Modular::Search::ModelExtension</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2" refid="d8/dd3/namespace_modular_1_1_grid_list_1_1_sequencers_1_1_items" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridList\Sequencers\Items;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d3/d10/class_modular_1_1_application" kindref="compound">Modular\Application</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Modular\Blocks\Block</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="dd/db0/class_modular_1_1_grid_list_1_1_constraints" kindref="compound">Modular\GridList\Constraints</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list" kindref="compound">Modular\GridList\GridList</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="df/d77/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_constraints" kindref="compound">Modular\GridList\Interfaces\ItemsConstraints</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/><ref refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer" kindref="compound">Modular\GridList\Interfaces\ItemsSequencer</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">use<sp/><ref refid="dd/d94/class_modular_1_1_models_1_1_grid_list_filter" kindref="compound">Modular\Models\GridListFilter</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">use<sp/><ref refid="da/d26/class_modular_1_1_search_1_1_model_extension" kindref="compound">Modular\Search\ModelExtension</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="dc/d61/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_add_all_filter_items" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d61/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_add_all_filter_items" kindref="compound">AddAllFilterItems</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">ModelExtension</ref><sp/>implements<sp/><ref refid="d6/dec/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer" kindref="compound">ItemsSequencer</ref><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="dc/d61/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_add_all_filter_items_1af369da5e33e03a0e9ea52d07b239e332" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="dc/d61/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_add_all_filter_items_1af369da5e33e03a0e9ea52d07b239e332" kindref="member">sequenceGridListItems</ref>(&amp;$items,<sp/>$filters,<sp/>&amp;$parameters<sp/>=<sp/>[])<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($parameters[</highlight><highlight class="stringliteral">&apos;AllFilter&apos;</highlight><highlight class="normal">])<sp/>&amp;&amp;<sp/>isset($parameters[</highlight><highlight class="stringliteral">&apos;PageLength&apos;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$allTag<sp/>=<sp/>$parameters[</highlight><highlight class="stringliteral">&apos;AllFilter&apos;</highlight><highlight class="normal">]-&gt;ModelTag;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$limited<sp/>=<sp/>$items-&gt;limit($parameters[</highlight><highlight class="stringliteral">&apos;PageLength&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($limited<sp/>as<sp/>$item)<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($item-&gt;hasMethod(</highlight><highlight class="stringliteral">&apos;addCustomFilterTag&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$item-&gt;addCustomFilterTag($allTag);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$items-&gt;merge($limited);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/items/AddAllFilterItems.php"/>
+  </compounddef>
+</doxygen>

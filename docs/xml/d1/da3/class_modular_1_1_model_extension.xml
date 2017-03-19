@@ -1,0 +1,571 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/da3/class_modular_1_1_model_extension" kind="class" prot="public">
+    <compoundname>Modular::ModelExtension</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DataExtension</basecompoundref>
+    <derivedcompoundref refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable" prot="public" virt="non-virtual">Previewable</derivedcompoundref>
+    <derivedcompoundref refid="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique" prot="public" virt="non-virtual">Unique</derivedcompoundref>
+    <derivedcompoundref refid="da/d27/class_modular_1_1_fields_1_1_field" prot="public" virt="non-virtual">Field</derivedcompoundref>
+    <derivedcompoundref refid="d3/dad/class_modular_1_1_grid_list_1_1_constraints_1_1_filter_1_1_only_custom" prot="public" virt="non-virtual">OnlyCustom</derivedcompoundref>
+    <derivedcompoundref refid="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters" prot="public" virt="non-virtual">CustomFilters</derivedcompoundref>
+    <derivedcompoundref refid="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter" prot="public" virt="non-virtual">CurrentFilter</derivedcompoundref>
+    <derivedcompoundref refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item" prot="public" virt="non-virtual">GridListItem</derivedcompoundref>
+    <derivedcompoundref refid="db/d86/class_modular_1_1_grid_list_1_1_layout_1_1_mode_for_page" prot="public" virt="non-virtual">ModeForPage</derivedcompoundref>
+    <derivedcompoundref refid="dd/df9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_filter" prot="public" virt="non-virtual">AllFilter</derivedcompoundref>
+    <derivedcompoundref refid="d9/d81/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_grid_list_filters" prot="public" virt="non-virtual">AllGridListFilters</derivedcompoundref>
+    <derivedcompoundref refid="da/df2/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_child_pages" prot="public" virt="non-virtual">ChildPages</derivedcompoundref>
+    <derivedcompoundref refid="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter" prot="public" virt="non-virtual">DefaultFilter</derivedcompoundref>
+    <derivedcompoundref refid="d3/d2a/class_modular_1_1_grid_list_1_1_sequencers_1_1_filters_1_1_add_item_counts" prot="public" virt="non-virtual">AddItemCounts</derivedcompoundref>
+    <derivedcompoundref refid="dc/d61/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_add_all_filter_items" prot="public" virt="non-virtual">AddAllFilterItems</derivedcompoundref>
+    <derivedcompoundref refid="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first" prot="public" virt="non-virtual">CuratedBlocksFirst</derivedcompoundref>
+    <derivedcompoundref refid="d5/d5d/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_paginate_by_filters" prot="public" virt="non-virtual">PaginateByFilters</derivedcompoundref>
+    <derivedcompoundref refid="df/d83/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_pagination" prot="public" virt="non-virtual">Pagination</derivedcompoundref>
+    <derivedcompoundref refid="d5/dc7/class_modular_1_1_keyword_attribute_extension" prot="public" virt="non-virtual">KeywordAttributeExtension</derivedcompoundref>
+    <derivedcompoundref refid="d1/d9d/class_modular_1_1_search_1_1_fulltext_provider" prot="public" virt="non-virtual">FulltextProvider</derivedcompoundref>
+    <derivedcompoundref refid="da/d26/class_modular_1_1_search_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</derivedcompoundref>
+    <derivedcompoundref refid="de/dad/class_modular_1_1_search_1_1_tagged_items_provider" prot="public" virt="non-virtual">TaggedItemsProvider</derivedcompoundref>
+    <derivedcompoundref refid="d7/dba/class_modular_1_1_workflows_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</derivedcompoundref>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static class_name</definition>
+        <argsstring>()</argsstring>
+        <name>class_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Model.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Model.php" bodystart="14" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>writeAndReturn</definition>
+        <argsstring>()</argsstring>
+        <name>writeAndReturn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes the extended model and returns it if write returns truthish, otherwise returns null.</para><para><simplesect kind="return"><para>Model|null </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Model.php" line="22" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Model.php" bodystart="22" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1250">
+        <label>FulltextProvider</label>
+        <link refid="d1/d9d/class_modular_1_1_search_1_1_fulltext_provider"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1215">
+        <label>HideUnmatchedFilters</label>
+        <link refid="d4/d5b/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_hide_unmatched_filters"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1196">
+        <label>TextContent</label>
+        <link refid="d2/d10/class_modular_1_1_fields_1_1_text_content"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1244">
+        <label>AddItemCounts</label>
+        <link refid="d3/d2a/class_modular_1_1_grid_list_1_1_sequencers_1_1_filters_1_1_add_item_counts"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1210">
+        <label>HasFiles</label>
+        <link refid="d0/ded/class_modular_1_1_relationships_1_1_has_files"/>
+        <childnode refid="1204" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1242">
+        <label>AllGridListFilters</label>
+        <link refid="d9/d81/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_grid_list_filters"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1236">
+        <label>OnlyCustom</label>
+        <link refid="d3/dad/class_modular_1_1_grid_list_1_1_constraints_1_1_filter_1_1_only_custom"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1200">
+        <label>GridField</label>
+        <link refid="de/db4/class_modular_1_1_grid_field_1_1_grid_field"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1241">
+        <label>AllFilter</label>
+        <link refid="dd/df9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_all_filter"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1225">
+        <label>HasOne</label>
+        <link refid="d8/ddb/class_modular_1_1_relationships_1_1_has_one"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1181">
+        <label>DateTimeField</label>
+        <link refid="d0/dd8/class_modular_1_1_fields_1_1_date_time_field"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1171">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1172" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1184">
+        <label>Duration</label>
+        <link refid="d4/d2b/class_modular_1_1_fields_1_1_duration"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1208">
+        <label>HasBlocks</label>
+        <link refid="d4/df5/class_modular_1_1_relationships_1_1_has_blocks"/>
+        <childnode refid="1204" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1205">
+        <label>HasManyManyGridField</label>
+        <link refid="d4/d77/class_modular_1_1_fields_1_1_has_many_many_grid_field"/>
+        <childnode refid="1204" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1198">
+        <label>UploadedFile</label>
+        <link refid="d1/d32/class_modular_1_1_fields_1_1_uploaded_file"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1172">
+        <label>DataExtension</label>
+      </node>
+      <node id="1249">
+        <label>KeywordAttributeExtension</label>
+        <link refid="d5/dc7/class_modular_1_1_keyword_attribute_extension"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1233">
+        <label>Video</label>
+        <link refid="d0/d7e/class_modular_1_1_fields_1_1_video"/>
+        <childnode refid="1231" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1217">
+        <label>ColumnWidth</label>
+        <link refid="d4/d7f/class_modular_1_1_grid_list_1_1_layout_1_1_column_width"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1193">
+        <label>LinkTitle</label>
+        <link refid="dc/dc5/class_modular_1_1_fields_1_1_link_title"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1238">
+        <label>CurrentFilter</label>
+        <link refid="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1223">
+        <label>LinkAttributeField</label>
+        <link refid="d8/dc1/class_modular_1_1_link_attribute_field"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1224">
+        <label>HasBlock</label>
+        <link refid="d9/d05/class_modular_1_1_relationships_1_1_has_block"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1188">
+        <label>Formatted</label>
+        <link refid="dd/d4a/class_modular_1_1_fields_1_1_formatted"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1207">
+        <label>Links</label>
+        <link refid="d7/d8f/class_modular_1_1_fields_1_1_links"/>
+        <childnode refid="1204" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1178">
+        <label>AddDefaultBlocks</label>
+        <link refid="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1228">
+        <label>Image</label>
+        <link refid="d3/d15/class_modular_1_1_fields_1_1_image"/>
+        <childnode refid="1226" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1175">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1177">
+        <label>MediaLinkType</label>
+        <link refid="d1/dee/class_modular_1_1_behaviours_1_1_media_link_type"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1209">
+        <label>HasGridListBlocks</label>
+        <link refid="d3/d89/class_modular_1_1_relationships_1_1_has_grid_list_blocks"/>
+        <childnode refid="1208" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1251">
+        <label>TaggedItemsProvider</label>
+        <link refid="de/dad/class_modular_1_1_search_1_1_tagged_items_provider"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1222">
+        <label>RelatedPages</label>
+        <link refid="de/d2a/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_related_pages"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1204">
+        <label>HasManyMany</label>
+        <link refid="d9/d86/class_modular_1_1_relationships_1_1_has_many_many"/>
+        <childnode refid="1200" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1231">
+        <label>Media</label>
+        <link refid="d7/d83/class_modular_1_1_fields_1_1_media"/>
+        <childnode refid="1226" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1212">
+        <label>HasImages</label>
+        <link refid="dd/dc0/class_modular_1_1_relationships_1_1_has_images"/>
+        <childnode refid="1204" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1194">
+        <label>ModelTag</label>
+        <link refid="d3/d5b/class_modular_1_1_fields_1_1_model_tag"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1197">
+        <label>Title</label>
+        <link refid="d2/dde/class_modular_1_1_fields_1_1_title"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1203">
+        <label>HasSlides</label>
+        <link refid="d6/d09/class_modular_1_1_relationships_1_1_has_slides"/>
+        <childnode refid="1201" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1230">
+        <label>Thumbnail</label>
+        <link refid="df/d0d/class_modular_1_1_fields_1_1_thumbnail"/>
+        <childnode refid="1228" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1229">
+        <label>Logo</label>
+        <link refid="d0/d43/class_modular_1_1_fields_1_1_logo"/>
+        <childnode refid="1228" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1216">
+        <label>Mode</label>
+        <link refid="d4/d68/class_modular_1_1_grid_list_1_1_fields_1_1_mode"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1187">
+        <label>ExternalReference</label>
+        <link refid="d6/ddf/class_modular_1_1_fields_1_1_external_reference"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1173">
+        <label>Previewable</label>
+        <link refid="d8/dec/class_modular_1_1_behaviours_1_1_previewable"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1218">
+        <label>Grouping</label>
+        <link refid="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1180">
+        <label>Content</label>
+        <link refid="de/da5/class_modular_1_1_fields_1_1_content"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1176">
+        <label>InternalOrExternalLink</label>
+        <link refid="d6/d15/class_modular_1_1_behaviours_1_1_internal_or_external_link"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1248">
+        <label>Pagination</label>
+        <link refid="df/d83/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_pagination"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1240">
+        <label>ModeForPage</label>
+        <link refid="db/d86/class_modular_1_1_grid_list_1_1_layout_1_1_mode_for_page"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1174">
+        <label>Unique</label>
+        <link refid="db/d5e/class_modular_1_1_extensions_1_1_model_1_1_unique"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1182">
+        <label>EventDate</label>
+        <link refid="de/d38/class_modular_1_1_fields_1_1_event_date"/>
+        <childnode refid="1181" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1189">
+        <label>Email</label>
+        <link refid="d1/d89/class_modular_1_1_fields_1_1_email"/>
+        <childnode refid="1188" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1213">
+        <label>HasRelatedPages</label>
+        <link refid="d1/d52/class_modular_1_1_relationships_1_1_has_related_pages"/>
+        <childnode refid="1204" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1211">
+        <label>HasGridListFilters</label>
+        <link refid="dd/d1a/class_modular_1_1_relationships_1_1_has_grid_list_filters"/>
+        <childnode refid="1204" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1247">
+        <label>PaginateByFilters</label>
+        <link refid="d5/d5d/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_paginate_by_filters"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1221">
+        <label>ChildPages</label>
+        <link refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1201">
+        <label>HasMany</label>
+        <link refid="d0/d54/class_modular_1_1_relationships_1_1_has_many"/>
+        <childnode refid="1200" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1186">
+        <label>ExternalLink</label>
+        <link refid="db/dda/class_modular_1_1_fields_1_1_external_link"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1226">
+        <label>File</label>
+        <link refid="d0/d51/class_modular_1_1_fields_1_1_file"/>
+        <childnode refid="1225" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1234">
+        <label>Transcript</label>
+        <link refid="df/d00/class_modular_1_1_fields_1_1_transcript"/>
+        <childnode refid="1226" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1202">
+        <label>HasLinks</label>
+        <link refid="d8/d14/class_modular_1_1_relationships_1_1_has_links"/>
+        <childnode refid="1201" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1237">
+        <label>CustomFilters</label>
+        <link refid="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1190">
+        <label>GridList</label>
+        <link refid="da/dad/class_modular_1_1_fields_1_1_grid_list"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1195">
+        <label>Synopsis</label>
+        <link refid="d0/d2a/class_modular_1_1_fields_1_1_synopsis"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1245">
+        <label>AddAllFilterItems</label>
+        <link refid="dc/d61/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_add_all_filter_items"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1220">
+        <label>AssociatedFilters</label>
+        <link refid="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1192">
+        <label>InternalLink</label>
+        <link refid="d7/d2f/class_modular_1_1_fields_1_1_internal_link"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1235">
+        <label>HasRelatedPage</label>
+        <link refid="d3/ddb/class_modular_1_1_relationships_1_1_has_related_page"/>
+        <childnode refid="1225" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1191">
+        <label>HiddenSort</label>
+        <link refid="dd/d1e/class_modular_1_1_fields_1_1_hidden_sort"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1179">
+        <label>Code</label>
+        <link refid="d4/dff/class_modular_1_1_fields_1_1_code"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1243">
+        <label>DefaultFilter</label>
+        <link refid="d2/db9/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_default_filter"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1185">
+        <label>EmbedCode</label>
+        <link refid="db/db9/class_modular_1_1_fields_1_1_embed_code"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1214">
+        <label>HasTags</label>
+        <link refid="de/d13/class_modular_1_1_relationships_1_1_has_tags"/>
+        <childnode refid="1204" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1183">
+        <label>DisplayLocation</label>
+        <link refid="db/db5/class_modular_1_1_fields_1_1_display_location"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1246">
+        <label>CuratedBlocksFirst</label>
+        <link refid="d5/de0/class_modular_1_1_grid_list_1_1_sequencers_1_1_items_1_1_curated_blocks_first"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1239">
+        <label>GridListItem</label>
+        <link refid="d7/d3d/class_modular_1_1_grid_list_1_1_grid_list_item"/>
+        <childnode refid="1171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1227">
+        <label>Download</label>
+        <link refid="de/dbd/class_modular_1_1_fields_1_1_download"/>
+        <childnode refid="1226" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1206">
+        <label>HasManyManyTagField</label>
+        <link refid="d6/dd2/class_modular_1_1_fields_1_1_has_many_many_tag_field"/>
+        <childnode refid="1204" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1219">
+        <label>PageLength</label>
+        <link refid="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1199">
+        <label>URL</label>
+        <link refid="dd/da6/class_modular_1_1_fields_1_1_u_r_l"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1232">
+        <label>Audio</label>
+        <link refid="d4/dbd/class_modular_1_1_fields_1_1_audio"/>
+        <childnode refid="1231" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1252">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="1253" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1253">
+        <label>DataExtension</label>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/Model.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/Model.php" bodystart="9" bodyend="29"/>
+    <listofallmembers>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::ModelExtension</scope><name>class_name</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::ModelExtension</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

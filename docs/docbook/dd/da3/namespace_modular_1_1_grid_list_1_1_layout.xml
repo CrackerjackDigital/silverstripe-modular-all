@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/da3/namespace_modular_1_1_grid_list_1_1_layout">
+<title>Modular::GridList::Layout</title>
+        <simplesect>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d4/d7f/class_modular_1_1_grid_list_1_1_layout_1_1_column_width">Modular::GridList::Layout::ColumnWidth</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d3/d68/class_modular_1_1_grid_list_1_1_layout_1_1_grouping">Modular::GridList::Layout::Grouping</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="db/d86/class_modular_1_1_grid_list_1_1_layout_1_1_mode_for_page">Modular::GridList::Layout::ModeForPage</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d0/d9c/class_modular_1_1_grid_list_1_1_layout_1_1_page_length">Modular::GridList::Layout::PageLength</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+</section>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d5/dc7/class_modular_1_1_keyword_attribute_extension">
+<title>Modular::KeywordAttributeExtension class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $belongs_many_many</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Extension added to Keywords which has back-relationships for models with the &apos;HasKeywords&apos; extension </para>
+                <para>Definition at line 6 of file Keywords.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Keywords.php</para></listitem></itemizedlist></para>
+        </simplesect>
+</section>

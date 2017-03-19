@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d9/d82/class_modular_1_1_blocks_1_1_call_to_action">
+<title>Modular::Blocks::CallToAction class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d82/class_modular_1_1_blocks_1_1_call_to_action_1af49822cc4be110c0dece5c3dac61327d">ResolvedLink</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d9/d82/class_modular_1_1_blocks_1_1_call_to_action_1af49822cc4be110c0dece5c3dac61327d">
+                <title>ResolvedLink ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

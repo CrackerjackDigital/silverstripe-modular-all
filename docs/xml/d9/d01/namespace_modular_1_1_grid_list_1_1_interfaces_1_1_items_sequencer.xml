@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/d01/namespace_modular_1_1_grid_list_1_1_interfaces_1_1_items_sequencer" kind="namespace">
+    <compoundname>Modular::GridList::Interfaces::ItemsSequencer</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/relationships/HasGridListBlocks.php" line="1" column="1"/>
+  </compounddef>
+</doxygen>

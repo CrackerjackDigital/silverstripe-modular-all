@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d5/d56/namespace_modular_1_1_interfaces">
+<title>Modular::Interfaces</title>
+        <simplesect>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d0/dfe/interface_modular_1_1_interfaces_1_1_exception">Modular::Interfaces::Exception</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d1/d59/interface_modular_1_1_interfaces_1_1_has_children">Modular::Interfaces::HasChildren</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d0/dca/interface_modular_1_1_interfaces_1_1_has_links">Modular::Interfaces::HasLinks</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery">Modular::Interfaces::Imagery</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d1/d20/interface_modular_1_1_interfaces_1_1_link_type">Modular::Interfaces::LinkType</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="dd/d06/interface_modular_1_1_interfaces_1_1_logger">Modular::Interfaces::Logger</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d5/d83/interface_modular_1_1_interfaces_1_1_previewable">Modular::Interfaces::Previewable</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+</section>

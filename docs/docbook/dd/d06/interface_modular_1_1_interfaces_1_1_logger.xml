@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/d06/interface_modular_1_1_interfaces_1_1_logger">
+<title>Modular::Interfaces::Logger interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d06/interface_modular_1_1_interfaces_1_1_logger_1a053a54bed3aafbacf775bd921a9add4d">log</link> (
+ $message,  $facilities,  $source)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d06/interface_modular_1_1_interfaces_1_1_logger_1af88c3370a1b278fdb2639e1bbdd207be">level</link> (
+ $level)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="dd/d06/interface_modular_1_1_interfaces_1_1_logger_1a053a54bed3aafbacf775bd921a9add4d">
+                <title>log ($message, $facilities, $source= &apos;&apos;)</title> <emphasis></emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$message</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$facilities</entry>
+                                <entry>
+<para>a level to compare to current set level and any other output options such as Screen etc </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$source</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>$this </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/d06/interface_modular_1_1_interfaces_1_1_logger_1af88c3370a1b278fdb2639e1bbdd207be">
+                <title>level ($level=null)</title> <emphasis></emphasis>
+                
+<para>Set a new level for debugging or return the existing one. If level is LevelFromEnv then use the config.environment_levels setting for the current environment (&apos;dev&apos;, &apos;test&apos; or &apos;live&apos;)</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$level</entry>
+                                <entry>
+<para>to set and any other options such as to screen etc </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>$this if any params passed, current level if not  </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

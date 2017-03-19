@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="de/d0b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_item_handler">
+<title>Modular::GridList::Interfaces::ItemHandler interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="de/d0b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_item_handler_1a56f691a3310c821b37f98cdf4d2f079b">handleGridListItems</link> (
+ $items,  $filters,  $parameters)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="de/d0b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_item_handler_1a56f691a3310c821b37f98cdf4d2f079b">
+                <title>handleGridListItems ($items, $filters, $parameters)</title> <emphasis></emphasis>
+                
+<para>Do something with grid list output before rendering the page. 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$items</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$filters</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$parameters</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

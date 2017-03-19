@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="de/db4/class_modular_1_1_grid_field_1_1_grid_field">
+<title>Modular::GridField::GridField class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const ShowAsGridField</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelationshipName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelatedClassName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const GridFieldConfigName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SortFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $show_as</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $sortable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allow_add_new</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $autocomplete</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1ae6098bb0243f4ce2f8680b3723783300">cmsFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1aa9bf9eaab5654c2ea74f41f1129f01d5">gridFields</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a7b2773655958a2f7045db78cc468525c">sortable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1aff2d606b28f3c7f7e706b54972315137">field_name</link> (
+ $suffix)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a03ff5c332d7f0fdc32108663e541bc01">related_class_name</link> (
+ $fieldName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a50807616ae6f8a7b80f444cdb186f0e5">relationship_name</link> (
+ $fieldName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1ae6098bb0243f4ce2f8680b3723783300">
+                <title>cmsFields ()</title> <emphasis></emphasis>
+                
+<para>Return a gridfield</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1aa9bf9eaab5654c2ea74f41f1129f01d5">
+                <title>gridFields ()</title> <emphasis></emphasis>
+                
+<para>Return field(s) to show a gridfield in the CMS, or a &apos;please save...&apos; prompt if the model hasn&apos;t been saved</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>array </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a7b2773655958a2f7045db78cc468525c">
+                <title>static sortable ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1aff2d606b28f3c7f7e706b54972315137">
+                <title>static field_name ($suffix= &apos;&apos;)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a03ff5c332d7f0fdc32108663e541bc01">
+                <title>static related_class_name ($fieldName= &apos;&apos;)</title> <emphasis></emphasis>
+                
+<para>Returns the related class name optionally appended by &apos;.fieldName&apos;, so e.g. when used as a filter in a relationship you will get full namespaced class for the relationship column.</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$fieldName</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="de/db4/class_modular_1_1_grid_field_1_1_grid_field_1a50807616ae6f8a7b80f444cdb186f0e5">
+                <title>static relationship_name ($fieldName= &apos;&apos;)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

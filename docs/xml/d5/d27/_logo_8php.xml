@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d5/d27/_logo_8php" kind="file">
+    <compoundname>Logo.php</compoundname>
+    <innerclass refid="d0/d43/class_modular_1_1_fields_1_1_logo" prot="public">Modular::Fields::Logo</innerclass>
+    <innernamespace refid="dd/ddb/namespace_modular_1_1_fields">Modular::Fields</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Fields;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="d0/d43/class_modular_1_1_fields_1_1_logo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d43/class_modular_1_1_fields_1_1_logo" kindref="compound">Logo</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d3/d15/class_modular_1_1_fields_1_1_image" kindref="compound">Image</ref><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="d0/d43/class_modular_1_1_fields_1_1_logo_1a522cd5b3b15c4a885005cd0919628158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/d43/class_modular_1_1_fields_1_1_logo_1a522cd5b3b15c4a885005cd0919628158" kindref="member">RelationshipName</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Logo&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6" refid="d0/d43/class_modular_1_1_fields_1_1_logo_1a2964c9db98d4b1dbdc2d723a67382e11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/d43/class_modular_1_1_fields_1_1_logo_1a2964c9db98d4b1dbdc2d723a67382e11" kindref="member">DefaultUploadFolderName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;logos&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$upload_folder<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;logos&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="d0/d43/class_modular_1_1_fields_1_1_logo_1a5e80e721baf3ae234d48384f9aa91db5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d0/d43/class_modular_1_1_fields_1_1_logo_1a5e80e721baf3ae234d48384f9aa91db5" kindref="member">Logo</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this()-&gt;{self::RelationshipName}();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="d0/d43/class_modular_1_1_fields_1_1_logo_1a55875cff7f12c3c16322f17585697c74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d0/d43/class_modular_1_1_fields_1_1_logo_1a55875cff7f12c3c16322f17585697c74" kindref="member">Logos</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>new<sp/>\ArrayList(array_filter([$this-&gt;<ref refid="d0/d43/class_modular_1_1_fields_1_1_logo" kindref="compound">Logo</ref>()]));</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/Logo.php"/>
+  </compounddef>
+</doxygen>

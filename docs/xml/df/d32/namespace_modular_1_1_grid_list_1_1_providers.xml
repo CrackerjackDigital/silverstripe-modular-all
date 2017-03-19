@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/d32/namespace_modular_1_1_grid_list_1_1_providers" kind="namespace">
+    <compoundname>Modular::GridList::Providers</compoundname>
+    <innernamespace refid="d3/dc3/namespace_modular_1_1_grid_list_1_1_providers_1_1_filters">Modular::GridList::Providers::Filters</innernamespace>
+    <innernamespace refid="d3/dd2/namespace_modular_1_1_grid_list_1_1_providers_1_1_items">Modular::GridList::Providers::Items</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/da6/_mode_for_page_8php" kind="file">
+    <compoundname>ModeForPage.php</compoundname>
+    <innerclass refid="db/d86/class_modular_1_1_grid_list_1_1_layout_1_1_mode_for_page" prot="public">Modular::GridList::Layout::ModeForPage</innerclass>
+    <innernamespace refid="dd/da3/namespace_modular_1_1_grid_list_1_1_layout">Modular::GridList::Layout</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <innernamespace refid="dc/d36/namespace_modular_1_1_grid_list_1_1_interfaces_1_1_grid_list_temple_data_provider">Modular::GridList::Interfaces::GridListTempleDataProvider</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridList\Layout;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="d3/d10/class_modular_1_1_application" kindref="compound">Modular\Application</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>Modular\GridList\Interfaces\GridListTempleDataProvider;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">Modular\ModelExtension</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="db/d86/class_modular_1_1_grid_list_1_1_layout_1_1_mode_for_page" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="db/d86/class_modular_1_1_grid_list_1_1_layout_1_1_mode_for_page" kindref="compound">ModeForPage</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">ModelExtension</ref><sp/>implements<sp/>GridListTempleDataProvider<sp/>{</highlight></codeline>
+<codeline lineno="22" refid="db/d86/class_modular_1_1_grid_list_1_1_layout_1_1_mode_for_page_1ad604a7fe628f988dc6207b5758614e91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="db/d86/class_modular_1_1_grid_list_1_1_layout_1_1_mode_for_page_1ad604a7fe628f988dc6207b5758614e91" kindref="member">provideGridListTemplateData</ref>($templateData<sp/>=<sp/>[])<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$mode<sp/>=<sp/>isset($templateData[</highlight><highlight class="stringliteral">&apos;Mode&apos;</highlight><highlight class="normal">])<sp/>?<sp/>$templateData[</highlight><highlight class="stringliteral">&apos;Mode&apos;</highlight><highlight class="normal">]<sp/>:<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>page<sp/>may<sp/>be<sp/>null<sp/>if<sp/>it&apos;s<sp/>a<sp/>new<sp/>page</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($page<sp/>=<sp/><ref refid="d3/d10/class_modular_1_1_application_1ab096c671befd594e22708a02babcbeef" kindref="member">Application::get_current_page</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>to<sp/>page<sp/>mode<sp/>if<sp/>set,<sp/>otherwise<sp/>keep<sp/>what<sp/>we<sp/>have<sp/>already</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$mode<sp/>=<sp/>$page-&gt;config()-&gt;get(</highlight><highlight class="stringliteral">&apos;gridlist_default_mode&apos;</highlight><highlight class="normal">)<sp/>?:<sp/>$mode;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;Mode&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$mode</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/layout/ModeForPage.php"/>
+  </compounddef>
+</doxygen>

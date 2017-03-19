@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/dc2/interface_modular_1_1_types_1_1_type" kind="interface" prot="public">
+    <compoundname>Modular::Types::Type</compoundname>
+    <derivedcompoundref refid="d1/dbe/class_modular_1_1_type" prot="public" virt="non-virtual">Type</derivedcompoundref>
+    <derivedcompoundref refid="d2/dab/interface_modular_1_1_types_1_1_value_type" prot="public" virt="non-virtual">ValueType</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dd/dc2/interface_modular_1_1_types_1_1_type_1a8a99c53978895ea5726462ffc1bb44eb" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Type.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Type.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/dc2/interface_modular_1_1_types_1_1_type_1a74fc8d457a9fe7f9dd8c21afc3b5910d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static type</definition>
+        <argsstring>()</argsstring>
+        <name>type</name>
+        <reimplementedby refid="d1/dbe/class_modular_1_1_type_1a74fc8d457a9fe7f9dd8c21afc3b5910d">type</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string the type name, generally from static::Type of implemented interface </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Type.php" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="135">
+        <label>DateType</label>
+        <link refid="d6/da3/interface_modular_1_1_types_1_1_date_type"/>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="137">
+        <label>TimeType</label>
+        <link refid="da/ddc/interface_modular_1_1_types_1_1_time_type"/>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="134">
+        <label>IntType</label>
+        <link refid="dd/d59/interface_modular_1_1_types_1_1_int_type"/>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>FloatType</label>
+        <link refid="d3/dca/interface_modular_1_1_types_1_1_float_type"/>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>NumericType</label>
+        <link refid="d4/d38/interface_modular_1_1_types_1_1_numeric_type"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>Type</label>
+        <link refid="dd/dc2/interface_modular_1_1_types_1_1_type"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>DateTimeType</label>
+        <link refid="da/dea/interface_modular_1_1_types_1_1_date_time_type"/>
+        <childnode refid="135" relation="public-inheritance">
+        </childnode>
+        <childnode refid="137" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="138">
+        <label>StringType</label>
+        <link refid="dd/d29/interface_modular_1_1_types_1_1_string_type"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="130">
+        <label>BoolType</label>
+        <link refid="db/dc5/interface_modular_1_1_types_1_1_bool_type"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>DecimalType</label>
+        <link refid="d7/d40/interface_modular_1_1_types_1_1_decimal_type"/>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="129">
+        <label>ValueType</label>
+        <link refid="d2/dab/interface_modular_1_1_types_1_1_value_type"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>URNType</label>
+        <link refid="d5/d1f/interface_modular_1_1_types_1_1_u_r_n_type"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>FileType</label>
+        <link refid="d2/d9b/interface_modular_1_1_types_1_1_file_type"/>
+        <childnode refid="139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="141">
+        <label>URLType</label>
+        <link refid="d4/d95/interface_modular_1_1_types_1_1_u_r_l_type"/>
+        <childnode refid="139" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Type.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular-types/code/interfaces/Type.php" bodystart="4" bodyend="11"/>
+    <listofallmembers>
+      <member refid="dd/dc2/interface_modular_1_1_types_1_1_type_1a8a99c53978895ea5726462ffc1bb44eb" prot="public" virt="non-virtual"><scope>Modular::Types::Type</scope><name>Type</name></member>
+      <member refid="dd/dc2/interface_modular_1_1_types_1_1_type_1a74fc8d457a9fe7f9dd8c21afc3b5910d" prot="public" virt="non-virtual"><scope>Modular::Types::Type</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

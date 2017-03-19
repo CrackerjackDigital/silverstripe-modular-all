@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d1/d70/class_modular_1_1_blocks_1_1_video">
+<title>Modular::Blocks::Video class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const DefaultUploadFolderName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allowed_files</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $upload_folder</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/d70/class_modular_1_1_blocks_1_1_video_1abedc2bd1c420c0cfe6bf188fe403b7f3">PlayerLink</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/d70/class_modular_1_1_blocks_1_1_video_1a08282d6de720a402d9b2136ddb9531f2">LinkType</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/d70/class_modular_1_1_blocks_1_1_video_1a5c5e9e6d8cf0b8ce8db575ea6252c96a">LinkText</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/d70/class_modular_1_1_blocks_1_1_video_1a031f653089587762702379e33c2fad3d">Videos</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/d70/class_modular_1_1_blocks_1_1_video_1ab23c6ae23507736df414673c6018a4b5">IsVimeo</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d1/d70/class_modular_1_1_blocks_1_1_video_1afd24dee0107fc4b70183988940b71c1a">IsYouTube</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>VideoBlock</para>
+
+<para><link linkend="d0/d5e/class_modular_1_1_blocks_1_1_file">File</link> <link linkend="d1/d70/class_modular_1_1_blocks_1_1_video">Video</link> provided by HasVideoField  bool IsExternalLink provided by InternalOrExternalLink  bool IsInternalLink provided by InternalOrExternalLink </para>
+                <para>Definition at line 15 of file Video.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Video.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d1/d70/class_modular_1_1_blocks_1_1_video_1abedc2bd1c420c0cfe6bf188fe403b7f3">
+                <title>PlayerLink ()</title> <emphasis></emphasis>
+                
+<para>Link which player should use (e.g. in iframe src attribute). <formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d1/d70/class_modular_1_1_blocks_1_1_video_1a08282d6de720a402d9b2136ddb9531f2">
+                <title>LinkType ()</title> <emphasis></emphasis>
+                
+<para>Returns a general link type such as &apos;<link linkend="dc/d75/class_modular_1_1_blocks_1_1_download">Download</link>&apos;, &apos;Page&apos; or &apos;<link linkend="d1/d70/class_modular_1_1_blocks_1_1_video">Video</link>&apos; in mixed case, can be casified in css. <formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d1/d70/class_modular_1_1_blocks_1_1_video_1a5c5e9e6d8cf0b8ce8db575ea6252c96a">
+                <title>LinkText ()</title> <emphasis></emphasis>
+                
+<para>Return text to show in a link to this block (or more likely a link this block contains, such as a <link linkend="d0/d5e/class_modular_1_1_blocks_1_1_file">File</link> via the HasLinks interface).</para>
+
+<para>Gets different text either &apos;ExternalLinkText&apos; or &apos;InternalLinkText&apos; or &apos;LinkText&apos; if they are not set.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d1/d70/class_modular_1_1_blocks_1_1_video_1a031f653089587762702379e33c2fad3d">
+                <title>Videos ()</title> <emphasis></emphasis>
+                
+<para>Returns a list of video&apos;s with the one associated video as the first item.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d1/d70/class_modular_1_1_blocks_1_1_video_1ab23c6ae23507736df414673c6018a4b5">
+                <title>IsVimeo ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d1/d70/class_modular_1_1_blocks_1_1_video_1afd24dee0107fc4b70183988940b71c1a">
+                <title>IsYouTube ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

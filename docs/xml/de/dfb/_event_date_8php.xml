@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/dfb/_event_date_8php" kind="file">
+    <compoundname>EventDate.php</compoundname>
+    <innerclass refid="de/d38/class_modular_1_1_fields_1_1_event_date" prot="public">Modular::Fields::EventDate</innerclass>
+    <innernamespace refid="dd/ddb/namespace_modular_1_1_fields">Modular::Fields</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Fields;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="de/d38/class_modular_1_1_fields_1_1_event_date" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d38/class_modular_1_1_fields_1_1_event_date" kindref="compound">EventDate</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d0/dd8/class_modular_1_1_fields_1_1_date_time_field" kindref="compound">DateTimeField</ref><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="de/d38/class_modular_1_1_fields_1_1_event_date_1af74d0ba94522656fd2c247bd544e2094" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="de/d38/class_modular_1_1_fields_1_1_event_date_1af74d0ba94522656fd2c247bd544e2094" kindref="member">SingleFieldName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;EventDate&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9" refid="de/d38/class_modular_1_1_fields_1_1_event_date_1a1905935a5dea9563a4ded11a40ad446b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="de/d38/class_modular_1_1_fields_1_1_event_date_1a1905935a5dea9563a4ded11a40ad446b" kindref="member">ShowTimeField</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/EventDate.php"/>
+  </compounddef>
+</doxygen>

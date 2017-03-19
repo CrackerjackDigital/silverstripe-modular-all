@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="da/df2/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_child_pages">
+<title>Modular::GridList::Providers::Filters::ChildPages class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="da/df2/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_child_pages_1a069cb9638bfa654f2cb15b6eaf23a0bf">provideGridListFilters</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="da/df2/class_modular_1_1_grid_list_1_1_providers_1_1_filters_1_1_child_pages_1a069cb9638bfa654f2cb15b6eaf23a0bf">
+                <title>provideGridListFilters ()</title> <emphasis></emphasis>
+                
+<para><formalpara><title>Returns: </title>
+
+<para>| </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

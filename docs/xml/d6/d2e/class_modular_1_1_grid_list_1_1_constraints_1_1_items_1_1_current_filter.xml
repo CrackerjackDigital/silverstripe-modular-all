@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter" kind="class" prot="public">
+    <compoundname>Modular::GridList::Constraints::Items::CurrentFilter</compoundname>
+    <basecompoundref refid="d1/da3/class_modular_1_1_model_extension" prot="public" virt="non-virtual">ModelExtension</basecompoundref>
+    <basecompoundref refid="df/d77/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_constraints" prot="public" virt="non-virtual">ItemsConstraints</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter_1ac43ee9c7121bc750a81effa7e4e1f731" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>constrainGridListItems</definition>
+        <argsstring>(&amp;$items)</argsstring>
+        <name>constrainGridListItems</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/constraints/items/CurrentFilter.php" line="16" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/constraints/items/CurrentFilter.php" bodystart="16" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="239">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="240" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="240">
+        <label>DataExtension</label>
+      </node>
+      <node id="238">
+        <label>CurrentFilter</label>
+        <link refid="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter"/>
+        <childnode refid="239" relation="public-inheritance">
+        </childnode>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="241">
+        <label>ItemsConstraints</label>
+        <link refid="df/d77/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_constraints"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="243">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="244" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="244">
+        <label>DataExtension</label>
+      </node>
+      <node id="242">
+        <label>CurrentFilter</label>
+        <link refid="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter"/>
+        <childnode refid="243" relation="public-inheritance">
+        </childnode>
+        <childnode refid="245" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="245">
+        <label>ItemsConstraints</label>
+        <link refid="df/d77/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_constraints"/>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/constraints/items/CurrentFilter.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/constraints/items/CurrentFilter.php" bodystart="14" bodyend="33"/>
+    <listofallmembers>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints::Items::CurrentFilter</scope><name>class_name</name></member>
+      <member refid="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter_1ac43ee9c7121bc750a81effa7e4e1f731" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints::Items::CurrentFilter</scope><name>constrainGridListItems</name></member>
+      <member refid="df/d77/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_constraints_1af45f33de277838e126addeb1a460d637" prot="public" virt="non-virtual" ambiguityscope="Modular::GridList::Interfaces::ItemsConstraints::"><scope>Modular::GridList::Constraints::Items::CurrentFilter</scope><name>constrainGridListItems</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::GridList::Constraints::Items::CurrentFilter</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

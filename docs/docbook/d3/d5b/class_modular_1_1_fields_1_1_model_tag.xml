@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d3/d5b/class_modular_1_1_fields_1_1_model_tag">
+<title>Modular::Fields::ModelTag class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SingleFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const SingleFieldSchema</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>$sourceFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>$parentIDFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>$fallbackFieldName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $can_edit_permissions</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $hierarchical_tag_separator</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $hierarchical_source_separator</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a340b4667ab68f54a142c6ecbf8629ead">__construct</link> (
+ $sourceFieldName,  $parentIDFieldName,  $fallbackFieldName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1ad3eec60b4f217a0c87baf84faf65f7f0">fieldDecorationTokens</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1ab0d903791f5643077a5680343b4ab1ed">relatedByClassName</link> (
+ $matchClassNames)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a8d2cfef4c500a5a9fbfc9d4bc451c896">getSourceFieldName</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1af9aa034ad033005279bd790155e683fa">onBeforeWrite</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a0de7f13cc2c038bfdde8e2102c919a06">HierarchicalModelTag</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1abe54681d72f1b972bb437f7ec78b1ab6">HierarchicalSource</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1ad0ccc87f4ea1c9d55d0e0d92b61bf507">ParentID</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a8dc40b8f5a6372e5026dc2a938c27ebf">encode</link> (
+ $value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>A field which if blank takes the value of another model field mangled to be same format as a URLSegment. Does not change if the source field changes, only if it is empty. </para>
+                <para>Definition at line 13 of file ModelTag.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>ModelTag.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a340b4667ab68f54a142c6ecbf8629ead">
+                <title>__construct ($sourceFieldName= &apos;Title&apos;, $parentIDFieldName= &apos;&apos;, $fallbackFieldName= &apos;&apos;)</title> <emphasis></emphasis>
+                
+<para><link linkend="d3/d5b/class_modular_1_1_fields_1_1_model_tag">ModelTag</link> constructor can be used in config to set alternate field names as: extensions:<itemizedlist>
+<listitem>
+<para><link linkend="df/df5/namespace_modular">Modular</link>(&apos;<link linkend="d2/dde/class_modular_1_1_fields_1_1_title">Title</link>&apos;, &apos;ParentID&apos;)</para>
+</listitem></itemizedlist>
+</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$sourceFieldName</entry>
+                                <entry>
+<para>e.g. &apos;<link linkend="d2/dde/class_modular_1_1_fields_1_1_title">Title</link>&apos; </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$parentIDFieldName</entry>
+                                <entry>
+<para>e.g. &apos;ParentID&apos;, if passed then make the tag distinct within children of the ParentID. </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>$fallbackFieldName</entry>
+                                <entry>
+<para>e.g. &apos;URLSegment&apos;, allow another field to be used on parents if they do not have the <link linkend="d3/d5b/class_modular_1_1_fields_1_1_model_tag">ModelTag</link> extension </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1ad3eec60b4f217a0c87baf84faf65f7f0">
+                <title>fieldDecorationTokens ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1ab0d903791f5643077a5680343b4ab1ed">
+                <title>relatedByClassName ($matchClassNames)</title> <emphasis></emphasis>
+                
+<para>Return all the page models related to this tag (there may be multiple Page Classe attached so iterate through them all)</para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$matchClassNames</entry>
+                                <entry>
+<para>and array of classnames, a class name or a pattern as used by fnmatch, eg. &apos;*Page&apos; </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a8d2cfef4c500a5a9fbfc9d4bc451c896">
+                <title>getSourceFieldName ()</title> <emphasis></emphasis>
+                
+<para>Returns the name of the field on the model used to generate the tag, e.g. the &apos;<link linkend="d2/dde/class_modular_1_1_fields_1_1_title">Title</link>&apos; field.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1af9aa034ad033005279bd790155e683fa">
+                <title>onBeforeWrite ()</title> <emphasis></emphasis>
+                
+<para>If the <link linkend="d3/d5b/class_modular_1_1_fields_1_1_model_tag">ModelTag</link> field is empty (length 0) then fill it with generated value. </para>
+
+            </section>
+            <section xml:id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a0de7f13cc2c038bfdde8e2102c919a06">
+                <title>HierarchicalModelTag ()</title> <emphasis></emphasis>
+                
+<para>Generate a full tag path walking up the chain via parents separated by config.hierarchical_source_separator. If the parent doesn&apos;t have <link linkend="d3/d5b/class_modular_1_1_fields_1_1_model_tag">ModelTag</link> extension then self.fallbackFieldName will be used if supplied in extension ctor.</para>
+
+<para>TODO test/debug this</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1abe54681d72f1b972bb437f7ec78b1ab6">
+                <title>HierarchicalSource ()</title> <emphasis></emphasis>
+                
+<para>Generates a full tag path using the models &apos;Source&apos; field (e.g. &apos;<link linkend="d2/dde/class_modular_1_1_fields_1_1_title">Title</link>&apos;) instead of the tag field via the ParentID relationship specified in the extension ctor. Components will be separated by config.hierarchical_source_separator</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>string </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1ad0ccc87f4ea1c9d55d0e0d92b61bf507">
+                <title>ParentID ()</title> <emphasis></emphasis>
+                
+<para>If a parent ID field name was specfied in extension ctor then return the ParentID value from the extended model.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>mixed </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d3/d5b/class_modular_1_1_fields_1_1_model_tag_1a8dc40b8f5a6372e5026dc2a938c27ebf">
+                <title>static encode ($value)</title> <emphasis></emphasis>
+                
+<para>Encode a value as it would be for a <link linkend="d3/d5b/class_modular_1_1_fields_1_1_model_tag">ModelTag</link> (basically a URLSegment) 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$value</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Returns: </title>
+
+<para>String </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/d20/interface_modular_1_1_interfaces_1_1_link_type" kind="interface" prot="public">
+    <compoundname>Modular::Interfaces::LinkType</compoundname>
+    <derivedcompoundref refid="d2/df7/class_modular_1_1_blocks_1_1_block" prot="public" virt="non-virtual">Block</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d20/interface_modular_1_1_interfaces_1_1_link_type_1a08282d6de720a402d9b2136ddb9531f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LinkType</definition>
+        <argsstring>()</argsstring>
+        <name>LinkType</name>
+        <reimplementedby refid="d1/d70/class_modular_1_1_blocks_1_1_video_1a08282d6de720a402d9b2136ddb9531f2">LinkType</reimplementedby>
+        <reimplementedby refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a08282d6de720a402d9b2136ddb9531f2">LinkType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a general link type such as &apos;Download&apos;, &apos;Page&apos; or &apos;Video&apos; in mixed case, can be casified in css. <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/LinkType.php" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d20/interface_modular_1_1_interfaces_1_1_link_type_1a5c5e9e6d8cf0b8ce8db575ea6252c96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LinkText</definition>
+        <argsstring>()</argsstring>
+        <name>LinkText</name>
+        <reimplementedby refid="d1/d70/class_modular_1_1_blocks_1_1_video_1a5c5e9e6d8cf0b8ce8db575ea6252c96a">LinkText</reimplementedby>
+        <reimplementedby refid="d2/df7/class_modular_1_1_blocks_1_1_block_1a5c5e9e6d8cf0b8ce8db575ea6252c96a">LinkText</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the text to show in a link to this model. <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/LinkType.php" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1068">
+        <label>Block</label>
+        <link refid="d2/df7/class_modular_1_1_blocks_1_1_block"/>
+        <childnode refid="1067" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1080">
+        <label>FullWidthImage</label>
+        <link refid="d4/de2/class_modular_1_1_blocks_1_1_full_width_image"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1076">
+        <label>SourceFile</label>
+        <link refid="d2/d46/class_modular_1_1_blocks_1_1_source_file"/>
+        <childnode refid="1073" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1077">
+        <label>Video</label>
+        <link refid="d1/d70/class_modular_1_1_blocks_1_1_video"/>
+        <childnode refid="1073" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1067">
+        <label>LinkType</label>
+        <link refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type"/>
+      </node>
+      <node id="1072">
+        <label>ContentWithImage</label>
+        <link refid="df/d8f/class_modular_1_1_blocks_1_1_content_with_image"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1085">
+        <label>Postable</label>
+        <link refid="d8/d3a/class_modular_1_1_blocks_1_1_postable"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1084">
+        <label>Links</label>
+        <link refid="d1/d9c/class_modular_1_1_blocks_1_1_links"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1070">
+        <label>Carousel</label>
+        <link refid="de/df1/class_modular_1_1_blocks_1_1_carousel"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1089">
+        <label>SubBlocks</label>
+        <link refid="d6/d06/class_modular_1_1_blocks_1_1_sub_blocks"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1071">
+        <label>Content</label>
+        <link refid="dd/ddd/class_modular_1_1_blocks_1_1_content"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1069">
+        <label>CallToAction</label>
+        <link refid="d9/d82/class_modular_1_1_blocks_1_1_call_to_action"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1073">
+        <label>File</label>
+        <link refid="d0/d5e/class_modular_1_1_blocks_1_1_file"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1083">
+        <label>LinkedPage</label>
+        <link refid="da/d3a/class_modular_1_1_blocks_1_1_linked_page"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1088">
+        <label>SourceLinks</label>
+        <link refid="de/db5/class_modular_1_1_blocks_1_1_source_links"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1079">
+        <label>Footnotes</label>
+        <link refid="d9/d86/class_modular_1_1_blocks_1_1_footnotes"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1081">
+        <label>GridList</label>
+        <link refid="dc/d89/class_modular_1_1_blocks_1_1_grid_list"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1087">
+        <label>PullQuote</label>
+        <link refid="d7/de9/class_modular_1_1_blocks_1_1_pull_quote"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1082">
+        <label>ImageGallery</label>
+        <link refid="d9/d53/class_modular_1_1_blocks_1_1_image_gallery"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1086">
+        <label>Promo</label>
+        <link refid="d8/dfb/class_modular_1_1_blocks_1_1_promo"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1075">
+        <label>Download</label>
+        <link refid="dc/d75/class_modular_1_1_blocks_1_1_download"/>
+        <childnode refid="1073" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1074">
+        <label>Audio</label>
+        <link refid="df/d9d/class_modular_1_1_blocks_1_1_audio"/>
+        <childnode refid="1073" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1078">
+        <label>Files</label>
+        <link refid="d4/d8f/class_modular_1_1_blocks_1_1_files"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/LinkType.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/LinkType.php" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type_1a5c5e9e6d8cf0b8ce8db575ea6252c96a" prot="public" virt="non-virtual"><scope>Modular::Interfaces::LinkType</scope><name>LinkText</name></member>
+      <member refid="d1/d20/interface_modular_1_1_interfaces_1_1_link_type_1a08282d6de720a402d9b2136ddb9531f2" prot="public" virt="non-virtual"><scope>Modular::Interfaces::LinkType</scope><name>LinkType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

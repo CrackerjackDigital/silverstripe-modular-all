@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/dc3/items_2_child_pages_8php" kind="file">
+    <compoundname>items/ChildPages.php</compoundname>
+    <innerclass refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages" prot="public">Modular::GridList::Providers::Items::ChildPages</innerclass>
+    <innernamespace refid="d3/dd2/namespace_modular_1_1_grid_list_1_1_providers_1_1_items">Modular::GridList::Providers::Items</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\GridList\Providers\Items;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/><ref refid="da/d27/class_modular_1_1_fields_1_1_field" kindref="compound">Modular\Fields\Field</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider" kindref="compound">Modular\GridList\Interfaces\ItemsProvider</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="d1/da3/class_modular_1_1_model_extension" kindref="compound">Modular\ModelExtension</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages" kindref="compound">ChildPages</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="da/d27/class_modular_1_1_fields_1_1_field" kindref="compound">Field</ref><sp/>implements<sp/><ref refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider" kindref="compound">ItemsProvider</ref><sp/>{</highlight></codeline>
+<codeline lineno="15" refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages_1af74d0ba94522656fd2c247bd544e2094" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages_1af74d0ba94522656fd2c247bd544e2094" kindref="member">SingleFieldName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;ProvideChildren&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16" refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages_1a6491a8c7fce5c91adf87287607c407a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages_1a6491a8c7fce5c91adf87287607c407a8" kindref="member">SingleFieldSchema</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Boolean&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>$defaults<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self::SingleFieldName<sp/>=&gt;<sp/>true</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages_1a2d6bbbaad31a7dae75cff24145feb804" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d5/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_child_pages_1a2d6bbbaad31a7dae75cff24145feb804" kindref="member">provideGridListItems</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($this()-&gt;{static::SingleFieldName})<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($page<sp/>=<sp/>\Director::get_current_page())<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$page-&gt;Children();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/ChildPages.php"/>
+  </compounddef>
+</doxygen>

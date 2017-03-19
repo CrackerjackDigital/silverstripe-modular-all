@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d0/d69/class_modular_1_1_content_controller_extension" kind="class" prot="public">
+    <compoundname>Modular::ContentControllerExtension</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Extension</basecompoundref>
+    <derivedcompoundref refid="d4/d0e/class_modular_1_1_extensions_1_1_controller_1_1_grid_list_links" prot="public" virt="non-virtual">GridListLinks</derivedcompoundref>
+    <derivedcompoundref refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list" prot="public" virt="non-virtual">GridList</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/d69/class_modular_1_1_content_controller_extension_1a52b4d6b381ac4f287064fe1c9b195efe" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ApplicationServiceClassName</definition>
+        <argsstring></argsstring>
+        <name>ApplicationServiceClassName</name>
+        <initializer>= &apos;<ref refid="d3/d10/class_modular_1_1_application" kindref="compound">Application</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/ContentController.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/ContentController.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d69/class_modular_1_1_content_controller_extension_1a9aac7e1475efe923de4e19cc2511f092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__invoke</definition>
+        <argsstring>()</argsstring>
+        <name>__invoke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="d6/d68/class_modular_1_1_controller" kindref="compound">Controller</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/ContentController.php" line="14" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/ContentController.php" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d69/class_modular_1_1_content_controller_extension_1abe152804322366290014448cf1ccb117" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>onBeforeInit</definition>
+        <argsstring>()</argsstring>
+        <name>onBeforeInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/ContentController.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/ContentController.php" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d69/class_modular_1_1_content_controller_extension_1a85ff8d296a4025790e312c4f2b6d8dae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>onAfterInit</definition>
+        <argsstring>()</argsstring>
+        <name>onAfterInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/ContentController.php" line="24" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/ContentController.php" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d69/class_modular_1_1_content_controller_extension_1a9a28a026bf21eb0b9f8582aa613d0199" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ActionLink</definition>
+        <argsstring>($action)</argsstring>
+        <name>ActionLink</name>
+        <param>
+          <declname>$action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/ContentController.php" line="30" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/ContentController.php" bodystart="30" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="211">
+        <label>ContentControllerExtension</label>
+        <link refid="d0/d69/class_modular_1_1_content_controller_extension"/>
+        <childnode refid="212" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="212">
+        <label>Extension</label>
+      </node>
+      <node id="213">
+        <label>GridListLinks</label>
+        <link refid="d4/d0e/class_modular_1_1_extensions_1_1_controller_1_1_grid_list_links"/>
+        <childnode refid="211" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="214">
+        <label>GridList</label>
+        <link refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list"/>
+        <childnode refid="211" relation="public-inheritance">
+        </childnode>
+        <childnode refid="214" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="215">
+        <label>ContentControllerExtension</label>
+        <link refid="d0/d69/class_modular_1_1_content_controller_extension"/>
+        <childnode refid="216" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="216">
+        <label>Extension</label>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/extensions/ContentController.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/extensions/ContentController.php" bodystart="8" bodyend="36"/>
+    <listofallmembers>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::ContentControllerExtension</scope><name>__invoke</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a9a28a026bf21eb0b9f8582aa613d0199" prot="public" virt="non-virtual"><scope>Modular::ContentControllerExtension</scope><name>ActionLink</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a52b4d6b381ac4f287064fe1c9b195efe" prot="public" virt="non-virtual"><scope>Modular::ContentControllerExtension</scope><name>ApplicationServiceClassName</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1a85ff8d296a4025790e312c4f2b6d8dae" prot="public" virt="non-virtual"><scope>Modular::ContentControllerExtension</scope><name>onAfterInit</name></member>
+      <member refid="d0/d69/class_modular_1_1_content_controller_extension_1abe152804322366290014448cf1ccb117" prot="public" virt="non-virtual"><scope>Modular::ContentControllerExtension</scope><name>onBeforeInit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

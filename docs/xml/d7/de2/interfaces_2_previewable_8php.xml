@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/de2/interfaces_2_previewable_8php" kind="file">
+    <compoundname>interfaces/Previewable.php</compoundname>
+    <innerclass refid="d5/d83/interface_modular_1_1_interfaces_1_1_previewable" prot="public">Modular::Interfaces::Previewable</innerclass>
+    <innernamespace refid="d5/d56/namespace_modular_1_1_interfaces">Modular::Interfaces</innernamespace>
+    <innernamespace refid="df/d83/namespace_site_tree">SiteTree</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?PHP</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Interfaces;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/>SiteTree;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>CMSPreviewable;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="d5/d83/interface_modular_1_1_interfaces_1_1_previewable" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="d5/d83/interface_modular_1_1_interfaces_1_1_previewable" kindref="compound">Previewable</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/><sp/><sp/>*<sp/>Return<sp/>the<sp/>Link<sp/>to<sp/>display<sp/>the<sp/>CMSPreviewable<sp/>object</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/><sp/><sp/>*<sp/>@param<sp/>SiteTree<sp/>$page<sp/>First<sp/>SiteTree<sp/>object<sp/>we<sp/>found<sp/>for<sp/>this<sp/>controller</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/><sp/>*<sp/>@param<sp/>PreviewableDataObject<sp/>$obj<sp/>The<sp/>object<sp/>we<sp/>want<sp/>to<sp/>display<sp/>on<sp/>the<sp/>page</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/>*<sp/>@return<sp/>string<sp/>Link<sp/>to<sp/>route<sp/>for<sp/>displaying<sp/>object</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/>*<sp/>Example:<sp/>See<sp/>example_files/PreviewPage.php</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/>*<sp/>TODO:<sp/>Provide<sp/>a<sp/>base<sp/>class<sp/>rather<sp/>than<sp/>an<sp/>interface<sp/>for<sp/>convenience?</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="d5/d83/interface_modular_1_1_interfaces_1_1_previewable_1adf8e754e4beb4bea0bac03b6722a7ae2" kindref="member">getPreviewAction</ref>(SiteTree<sp/>$page,<sp/>CMSPreviewable<sp/>$obj);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Previewable.php"/>
+  </compounddef>
+</doxygen>

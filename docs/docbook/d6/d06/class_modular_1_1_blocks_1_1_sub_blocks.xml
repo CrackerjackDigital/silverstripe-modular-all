@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d6/d06/class_modular_1_1_blocks_1_1_sub_blocks">
+<title>Modular::Blocks::SubBlocks class Reference</title>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para><link linkend="d6/d06/class_modular_1_1_blocks_1_1_sub_blocks">SubBlocks</link> block has another layer of indirection so has it&apos;s own associated blocks which can be managed separately to the <link linkend="d2/df7/class_modular_1_1_blocks_1_1_block">Block</link> itself, so in config it also has &apos;HasBlocks&apos; extension. </para>
+                <para>Definition at line 8 of file SubBlocks.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>SubBlocks.php</para></listitem></itemizedlist></para>
+        </simplesect>
+</section>

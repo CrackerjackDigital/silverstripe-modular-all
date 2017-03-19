@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/d82/namespace_modular_1_1_exceptions" kind="namespace">
+    <compoundname>Modular::Exceptions</compoundname>
+    <innerclass refid="d5/d09/class_modular_1_1_exceptions_1_1_exception" prot="public">Modular::Exceptions::Exception</innerclass>
+    <innerclass refid="df/da2/class_modular_1_1_exceptions_1_1_application" prot="public">Modular::Exceptions::Application</innerclass>
+    <innerclass refid="da/d2d/class_modular_1_1_exceptions_1_1_config" prot="public">Modular::Exceptions::Config</innerclass>
+    <innerclass refid="d0/d50/class_modular_1_1_exceptions_1_1_debug" prot="public">Modular::Exceptions::Debug</innerclass>
+    <innerclass refid="dd/d84/class_modular_1_1_exceptions_1_1_not_implemented" prot="public">Modular::Exceptions::NotImplemented</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/Exception.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

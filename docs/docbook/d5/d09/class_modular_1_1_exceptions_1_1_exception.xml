@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d5/d09/class_modular_1_1_exceptions_1_1_exception">
+<title>Modular::Exceptions::Exception class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d5/d09/class_modular_1_1_exceptions_1_1_exception_1a6991eb53548e7180a3a8e6f418fbb234">setMessage</link> (
+ $message)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Assist in determining where problems arose. </para>
+                <para>Definition at line 7 of file Exception.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Exception.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="d5/d09/class_modular_1_1_exceptions_1_1_exception_1a6991eb53548e7180a3a8e6f418fbb234">
+                <title>setMessage ($message)</title> <emphasis></emphasis>
+                
+<para>Sometimes we want to set the message before throwing the exception, e.g. if it is passed as a parameter to a call then that call could throw it and the correct exception class would be thrown (i.e. from the instance of the passed reception). 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters</title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <tbody>
+                            <row>
+                                <entry>$message</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

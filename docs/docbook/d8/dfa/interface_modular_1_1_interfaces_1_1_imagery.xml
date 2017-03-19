@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery">
+<title>Modular::Interfaces::Imagery interface Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery_1a788148fc60b7fc6649031535178cfb30">Images</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery_1a66d0d6da3b89580352c28d37b57df5bb">Image</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery_1a788148fc60b7fc6649031535178cfb30">
+                <title>Images ()</title> <emphasis></emphasis>
+                
+<para>Return a list of images (potentially only one) or an empty list. <formalpara><title>Returns: </title>
+
+<para>SS_List </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d8/dfa/interface_modular_1_1_interfaces_1_1_imagery_1a66d0d6da3b89580352c28d37b57df5bb">
+                <title>Image ()</title> <emphasis></emphasis>
+                
+<para>Return a single image (potentially the first of a list), or null <formalpara><title>Returns: </title>
+
+<para>Image|null </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

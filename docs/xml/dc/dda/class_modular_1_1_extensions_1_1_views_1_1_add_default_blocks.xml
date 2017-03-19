@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks" kind="class" prot="public">
+    <compoundname>Modular::Extensions::Views::AddDefaultBlocks</compoundname>
+    <basecompoundref refid="da/d27/class_modular_1_1_fields_1_1_field" prot="public" virt="non-virtual">Field</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1af74d0ba94522656fd2c247bd544e2094" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SingleFieldName</definition>
+        <argsstring></argsstring>
+        <name>SingleFieldName</name>
+        <initializer>= &apos;<ref refid="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks" kindref="compound">AddDefaultBlocks</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" line="10" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1a6491a8c7fce5c91adf87287607c407a8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SingleFieldSchema</definition>
+        <argsstring></argsstring>
+        <name>SingleFieldSchema</name>
+        <initializer>= &apos;Boolean&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1aebe843e65372b9b21f9ff6887fc31a2b" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$default_blocks</definition>
+        <argsstring></argsstring>
+        <name>$default_blocks</name>
+        <initializer>= [
+		#   &apos;ContentBlock&apos;,
+		#   &apos;FootnotesBlock&apos;
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1a8fca9768cde36f8a0c00e4968568d172" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cmsTab</definition>
+        <argsstring>()</argsstring>
+        <name>cmsTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add controls to the same tab as the blocks. <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" line="24" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1af9aa034ad033005279bd790155e683fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>onBeforeWrite</definition>
+        <argsstring>()</argsstring>
+        <name>onBeforeWrite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the &apos;add default blocks&apos; checkbox was not set (ie not checked in UI) then set it to 0 on the model </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" line="31" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" bodystart="31" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1a71828546cecd2c0d353aa23a4ae146d0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDefaultBlockClasses</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultBlockClasses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" line="98" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" bodystart="98" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>DataExtension</label>
+      </node>
+      <node id="8">
+        <label>AddDefaultBlocks</label>
+        <link refid="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>DataExtension</label>
+      </node>
+      <node id="12">
+        <label>AddDefaultBlocks</label>
+        <link refid="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/fields/AddDefaultBlocks.php" bodystart="9" bodyend="101"/>
+    <listofallmembers>
+      <member refid="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1aebe843e65372b9b21f9ff6887fc31a2b" prot="private" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>$default_blocks</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>addHTMLAttributes</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>class_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6098bb0243f4ce2f8680b3723783300" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>cmsFields</name></member>
+      <member refid="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1a8fca9768cde36f8a0c00e4968568d172" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>cmsTab</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>configureTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>customFieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>DefaultTabName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>extendedFieldNames</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>extraStatics</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>fieldConstraints</name></member>
+      <member refid="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1a71828546cecd2c0d353aa23a4ae146d0" prot="protected" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>getDefaultBlockClasses</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>labelsForRelatedClass</name></member>
+      <member refid="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1af9aa034ad033005279bd790155e683fa" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>onBeforeWrite</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>relationship_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>RelationshipName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>setFieldDecorations</name></member>
+      <member refid="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>SingleFieldName</name></member>
+      <member refid="dc/dda/class_modular_1_1_extensions_1_1_views_1_1_add_default_blocks_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>SingleFieldSchema</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>singleFieldValue</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>updateSummaryFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::Extensions::Views::AddDefaultBlocks</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

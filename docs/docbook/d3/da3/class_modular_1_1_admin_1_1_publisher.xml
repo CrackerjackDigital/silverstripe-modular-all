@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d3/da3/class_modular_1_1_admin_1_1_publisher">
+<title>Modular::Admin::Publisher class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allowed_actions</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $defaults</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static static $confirmation_token</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/da3/class_modular_1_1_admin_1_1_publisher_1ae1559345410441589126591dd2a216e3">options</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/da3/class_modular_1_1_admin_1_1_publisher_1a48d336385d0afca7dbe5c91a7be91726">option</link> (
+ $name)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d3/da3/class_modular_1_1_admin_1_1_publisher_1aa857c16f0ffe66fb0a6c1b2ee6b5fcdb">confirmationToken</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d3/da3/class_modular_1_1_admin_1_1_publisher_1ae1559345410441589126591dd2a216e3">
+                <title>options ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d3/da3/class_modular_1_1_admin_1_1_publisher_1a48d336385d0afca7dbe5c91a7be91726">
+                <title>option ($name)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d3/da3/class_modular_1_1_admin_1_1_publisher_1aa857c16f0ffe66fb0a6c1b2ee6b5fcdb">
+                <title>confirmationToken ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

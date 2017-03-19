@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/de0/relationships_2_has_links_8php" kind="file">
+    <compoundname>relationships/HasLinks.php</compoundname>
+    <innerclass refid="d8/d14/class_modular_1_1_relationships_1_1_has_links" prot="public">Modular::Relationships::HasLinks</innerclass>
+    <innernamespace refid="d6/ddb/namespace_modular_1_1_relationships">Modular::Relationships</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Relationships;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">use<sp/>SS_List;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="d8/d14/class_modular_1_1_relationships_1_1_has_links" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/d14/class_modular_1_1_relationships_1_1_has_links" kindref="compound">HasLinks</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d0/d54/class_modular_1_1_relationships_1_1_has_many" kindref="compound">HasMany</ref><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="d8/d14/class_modular_1_1_relationships_1_1_has_links_1a522cd5b3b15c4a885005cd0919628158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/d14/class_modular_1_1_relationships_1_1_has_links_1a522cd5b3b15c4a885005cd0919628158" kindref="member">RelationshipName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Links&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11" refid="d8/d14/class_modular_1_1_relationships_1_1_has_links_1a0c616e562eff7e4bf6b10e3ecacc226b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/d14/class_modular_1_1_relationships_1_1_has_links_1a0c616e562eff7e4bf6b10e3ecacc226b" kindref="member">RelatedClassName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Modular\Models\InternalOrExternalLink&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12" refid="d8/d14/class_modular_1_1_relationships_1_1_has_links_1aaeeea0416334b9aaf0ab8243c7d4ed8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/d14/class_modular_1_1_relationships_1_1_has_links_1aaeeea0416334b9aaf0ab8243c7d4ed8e" kindref="member">GridFieldConfigName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Modular\GridField\HasLinksGridFieldConfig&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/relationships/HasLinks.php"/>
+  </compounddef>
+</doxygen>

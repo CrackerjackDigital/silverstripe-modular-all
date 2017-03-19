@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters" kind="class" prot="public">
+    <compoundname>Modular::GridList::Providers::Items::AssociatedFilters</compoundname>
+    <basecompoundref refid="da/d27/class_modular_1_1_fields_1_1_field" prot="public" virt="non-virtual">Field</basecompoundref>
+    <basecompoundref refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider" prot="public" virt="non-virtual">ItemsProvider</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters_1af74d0ba94522656fd2c247bd544e2094" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SingleFieldName</definition>
+        <argsstring></argsstring>
+        <name>SingleFieldName</name>
+        <initializer>= &apos;ProvideAssociatedFilters&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/AssociatedFilters.php" line="18" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/AssociatedFilters.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters_1a6491a8c7fce5c91adf87287607c407a8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SingleFieldSchema</definition>
+        <argsstring></argsstring>
+        <name>SingleFieldSchema</name>
+        <initializer>= &apos;Boolean&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/AssociatedFilters.php" line="19" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/AssociatedFilters.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters_1a34ddfd723e30abea0a92b81f4443ac6a" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$defaults</definition>
+        <argsstring></argsstring>
+        <name>$defaults</name>
+        <initializer>= [
+		self::SingleFieldName =&gt; true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/AssociatedFilters.php" line="21" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/AssociatedFilters.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters_1a5272427d4d2dfeb41e07a93e1e3e1453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static fieldDecorationTokens</definition>
+        <argsstring>()</argsstring>
+        <name>fieldDecorationTokens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add the model tag of the current page so can use in decoration for enable/disable field.</para><para><simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/AssociatedFilters.php" line="30" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/AssociatedFilters.php" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters_1ad5a2308c083b719b1c6033430f6138a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>provideGridListItems</definition>
+        <argsstring>($parameters=[])</argsstring>
+        <name>provideGridListItems</name>
+        <param>
+          <declname>$parameters</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provide pages which have</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/AssociatedFilters.php" line="55" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/AssociatedFilters.php" bodystart="55" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters_1aa07900a8c0a8a146499f6811cacac3c5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>filterIDs</definition>
+        <argsstring>()</argsstring>
+        <name>filterIDs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the ids of filters defined on the <ref refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list" kindref="compound">GridList</ref> for the current block/page.</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/AssociatedFilters.php" line="44" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/AssociatedFilters.php" bodystart="44" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="56">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>DataExtension</label>
+      </node>
+      <node id="58">
+        <label>ItemsProvider</label>
+        <link refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider"/>
+      </node>
+      <node id="55">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>AssociatedFilters</label>
+        <link refid="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="61">
+        <label>ModelExtension</label>
+        <link refid="d1/da3/class_modular_1_1_model_extension"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>DataExtension</label>
+      </node>
+      <node id="63">
+        <label>ItemsProvider</label>
+        <link refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider"/>
+      </node>
+      <node id="60">
+        <label>Field</label>
+        <link refid="da/d27/class_modular_1_1_fields_1_1_field"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>AssociatedFilters</label>
+        <link refid="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/AssociatedFilters.php" line="17" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/providers/items/AssociatedFilters.php" bodystart="17" bodyend="74"/>
+    <listofallmembers>
+      <member refid="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters_1a34ddfd723e30abea0a92b81f4443ac6a" prot="private" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>$defaults</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>__invoke</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a376d006fe8682218b8ad84df8471c4b8" prot="protected" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>addHTMLAttributes</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>class_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6098bb0243f4ce2f8680b3723783300" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>cmsFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a8fca9768cde36f8a0c00e4968568d172" prot="protected" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>cmsTab</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a568c9aa0051ef6e13bc075271be8d1e2" prot="protected" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>configureDateField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1af86179de9607d58b496feca0aa541806" prot="protected" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>configureDateTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a7ea7a261b66e847f511043032b307183" prot="protected" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>configureTimeField</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ae6f7d2ecf2e3c8976fe21f8387e9ce08" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>customFieldConstraints</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ac9a004175dc3ed25837cca92fca8f537" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>DefaultTabName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a2964c9db98d4b1dbdc2d723a67382e11" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>DefaultUploadFolderName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa08b4c3736d28cde2b10341d7ae14d8f" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>extendedFieldData</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a88a20358abb17575d3177c88a9f41c2b" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>extendedFieldNames</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab9ae9ef07f0ef2387a06b7555652145a" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>extraStatics</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aff2d606b28f3c7f7e706b54972315137" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>field_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1aa9f3772bdb3fa9190413ee4019adacf2" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>fieldConstraints</name></member>
+      <member refid="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters_1a5272427d4d2dfeb41e07a93e1e3e1453" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>fieldDecorationTokens</name></member>
+      <member refid="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters_1aa07900a8c0a8a146499f6811cacac3c5" prot="protected" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>filterIDs</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1addbd9405ce0e11237ae563782e623fb0" prot="protected" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>labelsForRelatedClass</name></member>
+      <member refid="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters_1ad5a2308c083b719b1c6033430f6138a4" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>provideGridListItems</name></member>
+      <member refid="dd/d5b/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_provider_1a2d6bbbaad31a7dae75cff24145feb804" prot="public" virt="non-virtual" ambiguityscope="Modular::GridList::Interfaces::ItemsProvider::"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>provideGridListItems</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a50807616ae6f8a7b80f444cdb186f0e5" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>relationship_name</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>RelationshipName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ace3def266ac585c854ebe3f3eca080e8" prot="protected" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>saveMasterHint</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1ab7d80475359d7b84479c7130fc6484a9" prot="protected" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>setFieldDecorations</name></member>
+      <member refid="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters_1af74d0ba94522656fd2c247bd544e2094" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>SingleFieldName</name></member>
+      <member refid="d4/dea/class_modular_1_1_grid_list_1_1_providers_1_1_items_1_1_associated_filters_1a6491a8c7fce5c91adf87287607c407a8" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>SingleFieldSchema</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a70fc253480af7c86026e73c3b73414f7" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>singleFieldValue</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a885a49d412c046cc800fb7f17062906e" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>updateSummaryFields</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a97559e9da63afea2215a02a76df1b956" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>ValidationRulesConfigVarName</name></member>
+      <member refid="da/d27/class_modular_1_1_fields_1_1_field_1a195d87879d72baca3e7b9d2e09de7b14" prot="protected" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>valueLength</name></member>
+      <member refid="d1/da3/class_modular_1_1_model_extension_1acd35094179636b6ddee4f3bd45cb66c0" prot="public" virt="non-virtual"><scope>Modular::GridList::Providers::Items::AssociatedFilters</scope><name>writeAndReturn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

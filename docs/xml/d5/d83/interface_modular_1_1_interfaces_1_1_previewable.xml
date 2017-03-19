@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d5/d83/interface_modular_1_1_interfaces_1_1_previewable" kind="interface" prot="public">
+    <compoundname>Modular::Interfaces::Previewable</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d83/interface_modular_1_1_interfaces_1_1_previewable_1adf8e754e4beb4bea0bac03b6722a7ae2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getPreviewAction</definition>
+        <argsstring>(SiteTree $page, CMSPreviewable $obj)</argsstring>
+        <name>getPreviewAction</name>
+        <param>
+          <type>SiteTree</type>
+          <declname>$page</declname>
+        </param>
+        <param>
+          <type>CMSPreviewable</type>
+          <declname>$obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Previewable.php" line="20" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Previewable.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/Previewable.php" bodystart="7" bodyend="21"/>
+    <listofallmembers>
+      <member refid="d5/d83/interface_modular_1_1_interfaces_1_1_previewable_1adf8e754e4beb4bea0bac03b6722a7ae2" prot="public" virt="non-virtual"><scope>Modular::Interfaces::Previewable</scope><name>getPreviewAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

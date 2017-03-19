@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/dce/class_modular_1_1_models_1_1_slide" kind="class" prot="public">
+    <compoundname>Modular::Models::Slide</compoundname>
+    <basecompoundref refid="db/d0a/class_modular_1_1_model" prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d8/dce/class_modular_1_1_models_1_1_slide_1a58d45c13ab7488436af7f47e52721141" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SortFieldName</definition>
+        <argsstring></argsstring>
+        <name>SortFieldName</name>
+        <initializer>= &apos;Sort&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" line="5" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dce/class_modular_1_1_models_1_1_slide_1a522cd5b3b15c4a885005cd0919628158" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RelationshipName</definition>
+        <argsstring></argsstring>
+        <name>RelationshipName</name>
+        <initializer>= &apos;CarouselBlock&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" line="6" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dce/class_modular_1_1_models_1_1_slide_1a0c616e562eff7e4bf6b10e3ecacc226b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RelatedClassName</definition>
+        <argsstring></argsstring>
+        <name>RelatedClassName</name>
+        <initializer>= &apos;<ref refid="d2/df7/class_modular_1_1_blocks_1_1_block" kindref="compound">Modular\Blocks\Block</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" line="7" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d8/dce/class_modular_1_1_models_1_1_slide_1a1fa3127fc82f96b1436d871ef02be319" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$db</definition>
+        <argsstring></argsstring>
+        <name>$db</name>
+        <initializer>= [
+		self::SortFieldName =&gt; &apos;Int&apos;
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dce/class_modular_1_1_models_1_1_slide_1ac484c1ec0d2c49b37b37a846fe469a46" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$has_one</definition>
+        <argsstring></argsstring>
+        <name>$has_one</name>
+        <initializer>= [
+		self::RelationshipName =&gt; self::RelatedClassName
+	]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" line="12" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dce/class_modular_1_1_models_1_1_slide_1a0ab9790b620a133d00cf4cf675bf5572" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$summary_fields</definition>
+        <argsstring></argsstring>
+        <name>$summary_fields</name>
+        <initializer>= [
+		&apos;<ref refid="d2/dde/class_modular_1_1_fields_1_1_title" kindref="compound">Title</ref>&apos; =&gt; &apos;<ref refid="d2/dde/class_modular_1_1_fields_1_1_title" kindref="compound">Title</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" line="15" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/dce/class_modular_1_1_models_1_1_slide_1abbda727d4a02918c7218b9e1e21cdffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getCMSFields</definition>
+        <argsstring>()</argsstring>
+        <name>getCMSFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" line="20" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" bodystart="20" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1388">
+        <label>DataObject</label>
+      </node>
+      <node id="1386">
+        <label>Slide</label>
+        <link refid="d8/dce/class_modular_1_1_models_1_1_slide"/>
+        <childnode refid="1387" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1387">
+        <label>Model</label>
+        <link refid="db/d0a/class_modular_1_1_model"/>
+        <childnode refid="1388" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1391">
+        <label>DataObject</label>
+      </node>
+      <node id="1389">
+        <label>Slide</label>
+        <link refid="d8/dce/class_modular_1_1_models_1_1_slide"/>
+        <childnode refid="1390" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1390">
+        <label>Model</label>
+        <link refid="db/d0a/class_modular_1_1_model"/>
+        <childnode refid="1391" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/models/Slide.php" bodystart="4" bodyend="25"/>
+    <listofallmembers>
+      <member refid="d8/dce/class_modular_1_1_models_1_1_slide_1a1fa3127fc82f96b1436d871ef02be319" prot="private" virt="non-virtual"><scope>Modular::Models::Slide</scope><name>$db</name></member>
+      <member refid="d8/dce/class_modular_1_1_models_1_1_slide_1ac484c1ec0d2c49b37b37a846fe469a46" prot="private" virt="non-virtual"><scope>Modular::Models::Slide</scope><name>$has_one</name></member>
+      <member refid="d8/dce/class_modular_1_1_models_1_1_slide_1a0ab9790b620a133d00cf4cf675bf5572" prot="private" virt="non-virtual"><scope>Modular::Models::Slide</scope><name>$summary_fields</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1a9aac7e1475efe923de4e19cc2511f092" prot="public" virt="non-virtual"><scope>Modular::Models::Slide</scope><name>__invoke</name></member>
+      <member refid="db/d0a/class_modular_1_1_model_1afe6cf403f39e693b46948bc6d57e83dc" prot="public" virt="non-virtual"><scope>Modular::Models::Slide</scope><name>class_name</name></member>
+      <member refid="d8/dce/class_modular_1_1_models_1_1_slide_1abbda727d4a02918c7218b9e1e21cdffc" prot="public" virt="non-virtual"><scope>Modular::Models::Slide</scope><name>getCMSFields</name></member>
+      <member refid="d8/dce/class_modular_1_1_models_1_1_slide_1a0c616e562eff7e4bf6b10e3ecacc226b" prot="public" virt="non-virtual"><scope>Modular::Models::Slide</scope><name>RelatedClassName</name></member>
+      <member refid="d8/dce/class_modular_1_1_models_1_1_slide_1a522cd5b3b15c4a885005cd0919628158" prot="public" virt="non-virtual"><scope>Modular::Models::Slide</scope><name>RelationshipName</name></member>
+      <member refid="d8/dce/class_modular_1_1_models_1_1_slide_1a58d45c13ab7488436af7f47e52721141" prot="public" virt="non-virtual"><scope>Modular::Models::Slide</scope><name>SortFieldName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="df/d78/namespace_modular_1_1_grid_list_1_1_constraints_1_1_filters">
+<title>Modular::GridList::Constraints::Filters</title>
+        <simplesect>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d4/d5b/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_hide_unmatched_filters">Modular::GridList::Constraints::Filters::HideUnmatchedFilters</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="de/d60/class_modular_1_1_grid_list_1_1_constraints_1_1_filters_1_1_custom_filters">Modular::GridList::Constraints::Filters::CustomFilters</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+</section>

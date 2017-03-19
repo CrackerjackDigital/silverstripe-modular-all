@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/d03/namespace_modular_1_1_search" kind="namespace">
+    <compoundname>Modular::Search</compoundname>
+    <innerclass refid="da/dfb/class_modular_1_1_search_1_1_block_extension" prot="public">Modular::Search::BlockExtension</innerclass>
+    <innerclass refid="d6/d37/class_modular_1_1_search_1_1_constraints" prot="public">Modular::Search::Constraints</innerclass>
+    <innerclass refid="dc/ded/class_modular_1_1_search_1_1_file_extension" prot="public">Modular::Search::FileExtension</innerclass>
+    <innerclass refid="d1/d9d/class_modular_1_1_search_1_1_fulltext_provider" prot="public">Modular::Search::FulltextProvider</innerclass>
+    <innerclass refid="de/de2/class_modular_1_1_search_1_1_grid_list" prot="public">Modular::Search::GridList</innerclass>
+    <innerclass refid="da/d26/class_modular_1_1_search_1_1_model_extension" prot="public">Modular::Search::ModelExtension</innerclass>
+    <innerclass refid="da/db7/class_modular_1_1_search_1_1_service" prot="public">Modular::Search::Service</innerclass>
+    <innerclass refid="dd/d77/class_modular_1_1_search_1_1_site_tree_extension" prot="public">Modular::Search::SiteTreeExtension</innerclass>
+    <innerclass refid="de/dad/class_modular_1_1_search_1_1_tagged_items_provider" prot="public">Modular::Search::TaggedItemsProvider</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/search/BlockExtension.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

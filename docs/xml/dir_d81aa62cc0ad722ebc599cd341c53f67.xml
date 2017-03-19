@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d81aa62cc0ad722ebc599cd341c53f67" kind="dir">
+    <compoundname>collections</compoundname>
+    <innerfile refid="d8/dd7/_round_robin_multiple_array_list_8php">RoundRobinMultipleArrayList.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/collections/"/>
+  </compounddef>
+</doxygen>

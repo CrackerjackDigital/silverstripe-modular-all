@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/d59/interface_modular_1_1_interfaces_1_1_has_children" kind="interface" prot="public">
+    <compoundname>Modular::Interfaces::HasChildren</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d59/interface_modular_1_1_interfaces_1_1_has_children_1a15c69e081face655624afab842292858" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Children</definition>
+        <argsstring>()</argsstring>
+        <name>Children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HasChildren.php" line="8" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HasChildren.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/interfaces/HasChildren.php" bodystart="4" bodyend="9"/>
+    <listofallmembers>
+      <member refid="d1/d59/interface_modular_1_1_interfaces_1_1_has_children_1a15c69e081face655624afab842292858" prot="public" virt="non-virtual"><scope>Modular::Interfaces::HasChildren</scope><name>Children</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

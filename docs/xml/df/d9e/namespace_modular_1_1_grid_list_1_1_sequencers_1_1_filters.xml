@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/d9e/namespace_modular_1_1_grid_list_1_1_sequencers_1_1_filters" kind="namespace">
+    <compoundname>Modular::GridList::Sequencers::Filters</compoundname>
+    <innerclass refid="d3/d2a/class_modular_1_1_grid_list_1_1_sequencers_1_1_filters_1_1_add_item_counts" prot="public">Modular::GridList::Sequencers::Filters::AddItemCounts</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/sequencers/filters/AddItemCounts.php" line="2" column="1"/>
+  </compounddef>
+</doxygen>

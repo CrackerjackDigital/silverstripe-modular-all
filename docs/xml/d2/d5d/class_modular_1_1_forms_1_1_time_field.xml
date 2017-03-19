@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d2/d5d/class_modular_1_1_forms_1_1_time_field" kind="class" prot="public">
+    <compoundname>Modular::Forms::TimeField</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TimeField</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d2/d5d/class_modular_1_1_forms_1_1_time_field_1aab9e8e1dd124d1f7360abf828ec10937" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$empty_value</definition>
+        <argsstring></argsstring>
+        <name>$empty_value</name>
+        <initializer>= &apos;00:00:00&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/forms/TimeField.php" line="9" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/forms/TimeField.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/d5d/class_modular_1_1_forms_1_1_time_field_1a9e79048552cf2b8a076d5db16810166b" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$defaultValue</definition>
+        <argsstring></argsstring>
+        <name>$defaultValue</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/forms/TimeField.php" line="11" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/forms/TimeField.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d5d/class_modular_1_1_forms_1_1_time_field_1a374a45b98cde717c9722c1eb0ad4814d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setDefaultValue</definition>
+        <argsstring>($defaultValue)</argsstring>
+        <name>setDefaultValue</name>
+        <param>
+          <declname>$defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/forms/TimeField.php" line="13" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/forms/TimeField.php" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d5d/class_modular_1_1_forms_1_1_time_field_1a4dbd8b322021941d34c4f8b94cf32d47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dataValue</definition>
+        <argsstring>()</argsstring>
+        <name>dataValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If no time set then return either the default value if set or the configured empty value. <simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/forms/TimeField.php" line="22" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/forms/TimeField.php" bodystart="22" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Fix an issue where a DataTimeField with an empty time fails to save<programlisting><codeline><highlight class="normal">DateTimeField::179<sp/></highlight></codeline>
+</programlisting> as the date is a string so sprintf fails </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1496">
+        <label>TimeField</label>
+        <link refid="d2/d5d/class_modular_1_1_forms_1_1_time_field"/>
+        <childnode refid="1496" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1497">
+        <label>TimeField</label>
+        <link refid="d2/d5d/class_modular_1_1_forms_1_1_time_field"/>
+        <childnode refid="1497" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/forms/TimeField.php" line="8" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/forms/TimeField.php" bodystart="8" bodyend="26"/>
+    <listofallmembers>
+      <member refid="d2/d5d/class_modular_1_1_forms_1_1_time_field_1a9e79048552cf2b8a076d5db16810166b" prot="private" virt="non-virtual"><scope>Modular::Forms::TimeField</scope><name>$defaultValue</name></member>
+      <member refid="d2/d5d/class_modular_1_1_forms_1_1_time_field_1aab9e8e1dd124d1f7360abf828ec10937" prot="private" virt="non-virtual"><scope>Modular::Forms::TimeField</scope><name>$empty_value</name></member>
+      <member refid="d2/d5d/class_modular_1_1_forms_1_1_time_field_1a4dbd8b322021941d34c4f8b94cf32d47" prot="public" virt="non-virtual"><scope>Modular::Forms::TimeField</scope><name>dataValue</name></member>
+      <member refid="d2/d5d/class_modular_1_1_forms_1_1_time_field_1a374a45b98cde717c9722c1eb0ad4814d" prot="public" virt="non-virtual"><scope>Modular::Forms::TimeField</scope><name>setDefaultValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

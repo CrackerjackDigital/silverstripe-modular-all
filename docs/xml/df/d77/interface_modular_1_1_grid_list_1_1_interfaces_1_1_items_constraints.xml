@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/d77/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_constraints" kind="interface" prot="public">
+    <compoundname>Modular::GridList::Interfaces::ItemsConstraints</compoundname>
+    <derivedcompoundref refid="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter" prot="public" virt="non-virtual">CurrentFilter</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d77/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_constraints_1af45f33de277838e126addeb1a460d637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>constrainGridListItems</definition>
+        <argsstring>(&amp;$items, $filters, $parameters=[])</argsstring>
+        <name>constrainGridListItems</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$items</declname>
+        </param>
+        <param>
+          <declname>$filters</declname>
+        </param>
+        <param>
+          <declname>$parameters</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\SS_LIst</parametertype>
+<parametername>$items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$filters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$parameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/ItemsConstraints.php" line="11" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="990">
+        <label>CurrentFilter</label>
+        <link refid="d6/d2e/class_modular_1_1_grid_list_1_1_constraints_1_1_items_1_1_current_filter"/>
+        <childnode refid="989" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="989">
+        <label>ItemsConstraints</label>
+        <link refid="df/d77/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_constraints"/>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/ItemsConstraints.php" line="4" column="1" bodyfile="/mnt/storage/build/modular-all/develop/modular/code/gridlist/interfaces/ItemsConstraints.php" bodystart="4" bodyend="12"/>
+    <listofallmembers>
+      <member refid="df/d77/interface_modular_1_1_grid_list_1_1_interfaces_1_1_items_constraints_1af45f33de277838e126addeb1a460d637" prot="public" virt="non-virtual"><scope>Modular::GridList::Interfaces::ItemsConstraints</scope><name>constrainGridListItems</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

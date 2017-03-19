@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/da3/search_2_grid_list_8php" kind="file">
+    <compoundname>search/GridList.php</compoundname>
+    <innerclass refid="de/de2/class_modular_1_1_search_1_1_grid_list" prot="public">Modular::Search::GridList</innerclass>
+    <innernamespace refid="d3/d03/namespace_modular_1_1_search">Modular::Search</innernamespace>
+    <innernamespace refid="df/df5/namespace_modular">Modular</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modular\Search;</highlight></codeline>
+<codeline lineno="8" refid="de/de2/class_modular_1_1_search_1_1_grid_list" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/de2/class_modular_1_1_search_1_1_grid_list" kindref="compound">GridList</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="d4/d93/class_modular_1_1_grid_list_1_1_grid_list" kindref="compound">\Modular\GridList\GridList</ref><sp/>{</highlight></codeline>
+<codeline lineno="9" refid="de/de2/class_modular_1_1_search_1_1_grid_list_1a6d764e0ae041ab1709a930ab346fa935" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="de/de2/class_modular_1_1_search_1_1_grid_list_1a6d764e0ae041ab1709a930ab346fa935" kindref="member">SearchTerms</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Service::terms();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/search/GridList.php"/>
+  </compounddef>
+</doxygen>

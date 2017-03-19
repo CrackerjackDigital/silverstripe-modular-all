@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_bec519a672389e6e7471009bc41ae9e5" kind="dir">
+    <compoundname>traits</compoundname>
+    <innerfile refid="dc/d65/bitfield_8php">bitfield.php</innerfile>
+    <innerfile refid="dc/dba/cache_8php">cache.php</innerfile>
+    <innerfile refid="d0/d45/config_8php">config.php</innerfile>
+    <innerfile refid="d5/d99/debugging_8php">debugging.php</innerfile>
+    <innerfile refid="d2/df6/enabler_8php">enabler.php</innerfile>
+    <innerfile refid="d1/df1/json_8php">json.php</innerfile>
+    <innerfile refid="d5/d5f/lang_8php">lang.php</innerfile>
+    <innerfile refid="dc/dde/options_8php">options.php</innerfile>
+    <innerfile refid="de/d2b/owned_8php">owned.php</innerfile>
+    <innerfile refid="d2/db2/reflection_8php">reflection.php</innerfile>
+    <innerfile refid="d6/dc7/related_8php">related.php</innerfile>
+    <innerfile refid="d9/dde/requirements_8php">requirements.php</innerfile>
+    <innerfile refid="d0/d1d/tokens_8php">tokens.php</innerfile>
+    <innerfile refid="d0/d1e/upload_8php">upload.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/storage/build/modular-all/develop/modular/code/traits/"/>
+  </compounddef>
+</doxygen>

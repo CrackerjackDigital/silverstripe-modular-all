@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d8/dfb/class_modular_1_1_blocks_1_1_promo">
+<title>Modular::Blocks::Promo class Reference</title>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $db</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static static $allowed_files</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d8/dfb/class_modular_1_1_blocks_1_1_promo_1a66d0d6da3b89580352c28d37b57df5bb">Image</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d8/dfb/class_modular_1_1_blocks_1_1_promo_1a42ee9ec85fd1465adb4607121c77c98d">allowedFileTypes</link> (
+ $configVarName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d8/dfb/class_modular_1_1_blocks_1_1_promo_1a66d0d6da3b89580352c28d37b57df5bb">
+                <title>Image ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/dfb/class_modular_1_1_blocks_1_1_promo_1a42ee9ec85fd1465adb4607121c77c98d">
+                <title>allowedFileTypes ($configVarName= &apos;allowed_files&apos;)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

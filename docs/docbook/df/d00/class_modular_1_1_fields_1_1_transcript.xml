@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="df/d00/class_modular_1_1_fields_1_1_transcript">
+<title>Modular::Fields::Transcript class Reference</title>
+        <simplesect>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const RelationshipName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const DefaultUploadFolderName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static $allowed_transcript_files</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="df/d00/class_modular_1_1_fields_1_1_transcript_1a3a9131a34c6a816de4e73092f6bfd955">Transcripts</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="df/d00/class_modular_1_1_fields_1_1_transcript_1af8b274223f17ca701258a2087851ff21">allowed_files</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>HasTranscriptField</para>
+
+<para><link linkend="df/d00/class_modular_1_1_fields_1_1_transcript">Transcript</link> </para>
+                <para>Definition at line 15 of file Transcript.php</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Transcript.php</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="df/d00/class_modular_1_1_fields_1_1_transcript_1a3a9131a34c6a816de4e73092f6bfd955">
+                <title>Transcripts ()</title> <emphasis></emphasis>
+                
+<para>Return a list with only item being the single related transcript.</para>
+
+<para><formalpara><title>Returns: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="df/d00/class_modular_1_1_fields_1_1_transcript_1af8b274223f17ca701258a2087851ff21">
+                <title>static allowed_files ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>
