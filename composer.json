@@ -38,8 +38,7 @@
 		"crackerjackdigital/silverstripe-modular-search-blocks": "self.version",
 		"crackerjackdigital/silverstripe-modular-social": "self.version",
 		"crackerjackdigital/silverstripe-modular-types": "self.version",
-		"crackerjackdigital/silverstripe-modular-workflows": "self.version",
-		"crackerjackdigital/silverstripe-opensemanticsearch": "self.version"
+		"crackerjackdigital/silverstripe-modular-workflows": "self.version"
 	},
 	"repositories": [
 		{
@@ -101,10 +100,6 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:crackerjackdigital/silverstripe-modular-workflows"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:crackerjackdigital/silverstripe-opensemanticsearch"
 		}
 	]
 }
