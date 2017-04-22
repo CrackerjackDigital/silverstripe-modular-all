@@ -1,0 +1,1049 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "9b349a6a70d6c1427cb4d822b41c028c",
+    "content-hash": "1349f445f69280cd2f34d1a575d84e0b",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "fda8fe5c90d7612927f4533dab7d54df6d345028"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/fda8fe5c90d7612927f4533dab7d54df6d345028",
+                "reference": "fda8fe5c90d7612927f4533dab7d54df6d345028",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "MODX Evo",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "time": "2017-03-13 09:27:45"
+        },
+        {
+            "name": "crackerjackdigital/silverstripe-modular",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CrackerjackDigital/silverstripe-modular.git",
+                "reference": "0f58d501eeb15b418126f345e31cc98861e71c8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular/zipball/0f58d501eeb15b418126f345e31cc98861e71c8d",
+                "reference": "0f58d501eeb15b418126f345e31cc98861e71c8d",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "php": ">=5.5",
+                "silverstripe-australia/gridfieldextensions": "1.x",
+                "silverstripe/display-logic": "1.4.x",
+                "silverstripe/framework": ">=3.1",
+                "stevie-mayhew/trait-loader": "dev-master",
+                "unclecheese/betterbuttons": "1.3.x"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "modular"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Wake",
+                    "homepage": "https://github.com/wakes"
+                },
+                {
+                    "name": "CrackerJack Digital",
+                    "homepage": "http://www.crackerjack.net.nz/"
+                }
+            ],
+            "description": "Crackerjack Digital common and module utilities and functionality for SilverStripe",
+            "homepage": "http://github.com/crackerjackdigital",
+            "keywords": [
+                "silverstripe"
+            ],
+            "support": {
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular/tree/master",
+                "issues": "https://github.com/CrackerjackDigital/silverstripe-modular/issues"
+            },
+            "time": "2016-11-23 02:29:58"
+        },
+        {
+            "name": "crackerjackdigital/silverstripe-modular-blocks",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CrackerjackDigital/silverstripe-modular-blocks.git",
+                "reference": "01d6d2924b026ee7401282e91749ef93ffd98b89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-blocks/zipball/01d6d2924b026ee7401282e91749ef93ffd98b89",
+                "reference": "01d6d2924b026ee7401282e91749ef93ffd98b89",
+                "shasum": ""
+            },
+            "require": {
+                "crackerjackdigital/silverstripe-modular-fields": "*",
+                "silverstripe-australia/gridfieldextensions": "1.x",
+                "silverstripe/display-logic": "1.4.x",
+                "silverstripe/framework": ">=3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "modular-blocks"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Wake",
+                    "homepage": "https://github.com/wakes"
+                },
+                {
+                    "name": "CrackerJack Digital",
+                    "homepage": "http://www.crackerjack.net.nz/"
+                }
+            ],
+            "description": "Page blocks for modular",
+            "homepage": "http://github.com/crackerjackdigital",
+            "keywords": [
+                "silverstripe"
+            ],
+            "support": {
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-blocks/tree/master",
+                "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-blocks/issues"
+            },
+            "time": "2016-11-30 12:14:47"
+        },
+        {
+            "name": "crackerjackdigital/silverstripe-modular-build",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CrackerjackDigital/silverstripe-modular-build.git",
+                "reference": "8f059aa4ba6cbf578cfa5fe7119a79dcabad9434"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-build/zipball/8f059aa4ba6cbf578cfa5fe7119a79dcabad9434",
+                "reference": "8f059aa4ba6cbf578cfa5fe7119a79dcabad9434",
+                "shasum": ""
+            },
+            "require": {
+                "crackerjackdigital/silverstripe-modular": "*",
+                "silverstripe-australia/gridfieldextensions": "1.x",
+                "silverstripe/display-logic": "1.4.x",
+                "silverstripe/framework": ">=3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "modular-build"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Wake",
+                    "homepage": "https://github.com/wakes"
+                },
+                {
+                    "name": "CrackerJack Digital",
+                    "homepage": "http://www.crackerjack.net.nz/"
+                }
+            ],
+            "description": "Build tools",
+            "homepage": "http://github.com/crackerjackdigital",
+            "keywords": [
+                "silverstripe"
+            ],
+            "support": {
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-build/tree/master",
+                "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-build/issues"
+            },
+            "time": "2017-02-22 01:29:41"
+        },
+        {
+            "name": "crackerjackdigital/silverstripe-modular-fields",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CrackerjackDigital/silverstripe-modular-fields.git",
+                "reference": "bb8c4bfb2aa064021737eb47756aee601be0da64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-fields/zipball/bb8c4bfb2aa064021737eb47756aee601be0da64",
+                "reference": "bb8c4bfb2aa064021737eb47756aee601be0da64",
+                "shasum": ""
+            },
+            "require": {
+                "crackerjackdigital/silverstripe-modular": "*",
+                "silverstripe-australia/gridfieldextensions": "1.x",
+                "silverstripe/display-logic": "1.4.x",
+                "silverstripe/framework": ">=3.1",
+                "silverstripe/tagfield": "*"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "modular-fields"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Wake",
+                    "homepage": "https://github.com/wakes"
+                },
+                {
+                    "name": "CrackerJack Digital",
+                    "homepage": "http://www.crackerjack.net.nz/"
+                }
+            ],
+            "description": "Fields as extensions functionality for modular",
+            "homepage": "http://github.com/crackerjackdigital",
+            "keywords": [
+                "silverstripe"
+            ],
+            "support": {
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-fields/tree/master",
+                "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-fields/issues"
+            },
+            "time": "2016-12-18 04:02:49"
+        },
+        {
+            "name": "crackerjackdigital/silverstripe-modular-graph",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CrackerjackDigital/silverstripe-modular-graph.git",
+                "reference": "3d5373e0b81896a63bdc11d97ef78181e0ef282c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-graph/zipball/3d5373e0b81896a63bdc11d97ef78181e0ef282c",
+                "reference": "3d5373e0b81896a63bdc11d97ef78181e0ef282c",
+                "shasum": ""
+            },
+            "require": {
+                "crackerjackdigital/silverstripe-modular": "*",
+                "silverstripe-australia/gridfieldextensions": "1.x",
+                "silverstripe/display-logic": "1.4.x",
+                "silverstripe/framework": ">=3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "modular-graph"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Wake",
+                    "homepage": "https://github.com/wakes"
+                },
+                {
+                    "name": "CrackerJack Digital",
+                    "homepage": "http://www.crackerjack.net.nz/"
+                }
+            ],
+            "description": "Graph functionality for modular",
+            "homepage": "http://github.com/crackerjackdigital",
+            "keywords": [
+                "silverstripe"
+            ],
+            "support": {
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-graph/tree/master",
+                "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-graph/issues"
+            },
+            "time": "2016-12-22 19:54:48"
+        },
+        {
+            "name": "crackerjackdigital/silverstripe-modular-gridlist",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist.git",
+                "reference": "0c7df324bed33f8a3dd246c4a6ead6e3441ee3bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-gridlist/zipball/0c7df324bed33f8a3dd246c4a6ead6e3441ee3bb",
+                "reference": "0c7df324bed33f8a3dd246c4a6ead6e3441ee3bb",
+                "shasum": ""
+            },
+            "require": {
+                "crackerjackdigital/silverstripe-modular-fields": "*",
+                "silverstripe-australia/gridfieldextensions": "1.x",
+                "silverstripe/display-logic": "1.4.x",
+                "silverstripe/framework": ">=3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "modular-gridlist"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Wake",
+                    "homepage": "https://github.com/wakes"
+                },
+                {
+                    "name": "CrackerJack Digital",
+                    "homepage": "http://www.crackerjack.net.nz/"
+                }
+            ],
+            "description": "GridList functionality for modular",
+            "homepage": "http://github.com/crackerjackdigital",
+            "keywords": [
+                "silverstripe"
+            ],
+            "support": {
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist/tree/fbu",
+                "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist/issues"
+            },
+            "time": "2016-11-30 12:17:07"
+        },
+        {
+            "name": "crackerjackdigital/silverstripe-modular-gridlist-block",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist-blocks.git",
+                "reference": "c27265c82e8cb6944cb5d646007c2ce3acbd4fce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-gridlist-blocks/zipball/c27265c82e8cb6944cb5d646007c2ce3acbd4fce",
+                "reference": "c27265c82e8cb6944cb5d646007c2ce3acbd4fce",
+                "shasum": ""
+            },
+            "require": {
+                "crackerjackdigital/silverstripe-modular-blocks": "*",
+                "crackerjackdigital/silverstripe-modular-gridlist": "*",
+                "silverstripe-australia/gridfieldextensions": "1.x",
+                "silverstripe/display-logic": "1.4.x",
+                "silverstripe/framework": ">=3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "modular-gridlist-block"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Wake",
+                    "homepage": "https://github.com/wakes"
+                },
+                {
+                    "name": "CrackerJack Digital",
+                    "homepage": "http://www.crackerjack.net.nz/"
+                }
+            ],
+            "description": "GridList in a Block functionality for modular",
+            "homepage": "http://github.com/crackerjackdigital",
+            "keywords": [
+                "silverstripe"
+            ],
+            "support": {
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist-blocks/tree/master",
+                "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist-blocks/issues"
+            },
+            "time": "2016-11-29 12:57:29"
+        },
+        {
+            "name": "crackerjackdigital/silverstripe-modular-gridlist-search",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist-search.git",
+                "reference": "636d7cf850796c2beb3e9f4a5c15d78ab50cef10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-gridlist-search/zipball/636d7cf850796c2beb3e9f4a5c15d78ab50cef10",
+                "reference": "636d7cf850796c2beb3e9f4a5c15d78ab50cef10",
+                "shasum": ""
+            },
+            "require": {
+                "crackerjackdigital/silverstripe-modular-gridlist": "*",
+                "crackerjackdigital/silverstripe-modular-search": "*",
+                "silverstripe-australia/gridfieldextensions": "1.x",
+                "silverstripe/display-logic": "1.4.x",
+                "silverstripe/framework": ">=3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "modular-gridlist-search"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Wake",
+                    "homepage": "https://github.com/wakes"
+                },
+                {
+                    "name": "CrackerJack Digital",
+                    "homepage": "http://www.crackerjack.net.nz/"
+                }
+            ],
+            "description": "GridList search item providers",
+            "homepage": "http://github.com/crackerjackdigital",
+            "keywords": [
+                "silverstripe"
+            ],
+            "support": {
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist-search/tree/develop",
+                "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-gridlist-search/issues"
+            },
+            "time": "2016-11-30 12:23:12"
+        },
+        {
+            "name": "crackerjackdigital/silverstripe-modular-search",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CrackerjackDigital/silverstripe-modular-search.git",
+                "reference": "bc95e36df23571263fa0472944a8450807e7e4bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-search/zipball/bc95e36df23571263fa0472944a8450807e7e4bc",
+                "reference": "bc95e36df23571263fa0472944a8450807e7e4bc",
+                "shasum": ""
+            },
+            "require": {
+                "crackerjackdigital/silverstripe-modular": "*",
+                "silverstripe/display-logic": "1.4.x",
+                "silverstripe/framework": ">=3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "modular-search"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Wake",
+                    "homepage": "https://github.com/wakes"
+                },
+                {
+                    "name": "CrackerJack Digital",
+                    "homepage": "http://www.crackerjack.net.nz/"
+                }
+            ],
+            "description": "Search extensions for modular",
+            "homepage": "http://github.com/crackerjackdigital",
+            "keywords": [
+                "silverstripe"
+            ],
+            "support": {
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-search/tree/master",
+                "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-search/issues"
+            },
+            "time": "2017-02-22 01:30:04"
+        },
+        {
+            "name": "crackerjackdigital/silverstripe-modular-search-blocks",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CrackerjackDigital/silverstripe-modular-search-blocks.git",
+                "reference": "05ffdf291f63b966ace20c421df78ef3f7f6b5a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-search-blocks/zipball/05ffdf291f63b966ace20c421df78ef3f7f6b5a6",
+                "reference": "05ffdf291f63b966ace20c421df78ef3f7f6b5a6",
+                "shasum": ""
+            },
+            "require": {
+                "crackerjackdigital/silverstripe-modular": "*",
+                "crackerjackdigital/silverstripe-modular-blocks": "*",
+                "crackerjackdigital/silverstripe-modular-search": "*",
+                "silverstripe/display-logic": "1.4.x",
+                "silverstripe/framework": ">=3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "modular-search-blocks"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Wake",
+                    "homepage": "https://github.com/wakes"
+                },
+                {
+                    "name": "CrackerJack Digital",
+                    "homepage": "http://www.crackerjack.net.nz/"
+                }
+            ],
+            "description": "Search in Blocks",
+            "homepage": "http://github.com/crackerjackdigital",
+            "keywords": [
+                "silverstripe"
+            ],
+            "support": {
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-search-blocks/tree/develop",
+                "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-search-blocks/issues"
+            },
+            "time": "2016-12-10 11:37:18"
+        },
+        {
+            "name": "crackerjackdigital/silverstripe-modular-social",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CrackerjackDigital/silverstripe-modular-social.git",
+                "reference": "5589a8c0c2e0d91c15b5b440717460c8f955a657"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-social/zipball/5589a8c0c2e0d91c15b5b440717460c8f955a657",
+                "reference": "5589a8c0c2e0d91c15b5b440717460c8f955a657",
+                "shasum": ""
+            },
+            "require": {
+                "crackerjackdigital/silverstripe-modular": "*",
+                "crackerjackdigital/silverstripe-modular-graph": "*",
+                "silverstripe/framework": ">=3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "modular-social"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Wake",
+                    "homepage": "https://github.com/wakes"
+                },
+                {
+                    "name": "CrackerJack Digital",
+                    "homepage": "http://www.crackerjack.net.nz/"
+                }
+            ],
+            "description": "Social Graph for modular",
+            "homepage": "http://github.com/crackerjackdigital",
+            "keywords": [
+                "silverstripe"
+            ],
+            "support": {
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-social/tree/master",
+                "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-social/issues"
+            },
+            "time": "2017-02-15 21:44:46"
+        },
+        {
+            "name": "crackerjackdigital/silverstripe-modular-types",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CrackerjackDigital/silverstripe-modular-types.git",
+                "reference": "7327ef0f194fa8ad2632d5e610ba063b6d6e30ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-types/zipball/7327ef0f194fa8ad2632d5e610ba063b6d6e30ee",
+                "reference": "7327ef0f194fa8ad2632d5e610ba063b6d6e30ee",
+                "shasum": ""
+            },
+            "require": {
+                "crackerjackdigital/silverstripe-modular": "*",
+                "silverstripe/framework": ">=3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "modular-types"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Wake",
+                    "homepage": "https://github.com/wakes"
+                },
+                {
+                    "name": "CrackerJack Digital",
+                    "homepage": "http://www.crackerjack.net.nz/"
+                }
+            ],
+            "description": "Type system for modular",
+            "homepage": "http://github.com/crackerjackdigital",
+            "keywords": [
+                "silverstripe"
+            ],
+            "support": {
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-types/tree/master",
+                "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-types/issues"
+            },
+            "time": "2017-02-21 11:03:43"
+        },
+        {
+            "name": "crackerjackdigital/silverstripe-modular-workflows",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CrackerjackDigital/silverstripe-modular-workflows.git",
+                "reference": "b8ef08d9a0a87717027f83f9f0a1a118c117b19e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CrackerjackDigital/silverstripe-modular-workflows/zipball/b8ef08d9a0a87717027f83f9f0a1a118c117b19e",
+                "reference": "b8ef08d9a0a87717027f83f9f0a1a118c117b19e",
+                "shasum": ""
+            },
+            "require": {
+                "crackerjackdigital/silverstripe-modular": "*",
+                "silverstripe/display-logic": "1.4.x",
+                "silverstripe/framework": ">=3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "modular-workflows"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Wake",
+                    "homepage": "https://github.com/wakes"
+                },
+                {
+                    "name": "CrackerJack Digital",
+                    "homepage": "http://www.crackerjack.net.nz/"
+                }
+            ],
+            "description": "Workflows and versioning of models for modular",
+            "homepage": "http://github.com/crackerjackdigital",
+            "keywords": [
+                "silverstripe"
+            ],
+            "support": {
+                "source": "https://github.com/CrackerjackDigital/silverstripe-modular-workflows/tree/master",
+                "issues": "https://github.com/CrackerjackDigital/silverstripe-modular-workflows/issues"
+            },
+            "time": "2016-12-10 11:41:03"
+        },
+        {
+            "name": "silverstripe-australia/gridfieldextensions",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe-australia/silverstripe-gridfieldextensions.git",
+                "reference": "e62422fdb3c6f6db340a4e9775ac93e5a00fe4d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe-australia/silverstripe-gridfieldextensions/zipball/e62422fdb3c6f6db340a4e9775ac93e5a00fe4d9",
+                "reference": "e62422fdb3c6f6db340a4e9775ac93e5a00fe4d9",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "replace": {
+                "ajshort/silverstripe-gridfieldextensions": "self.version"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "gridfieldextensions",
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                },
+                "screenshots": [
+                    "docs/en/_images/editable-rows.png",
+                    "docs/en/_images/add-existing-search.png"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Nyeholt",
+                    "email": "marcus@silverstripe.com.au"
+                },
+                {
+                    "name": "Andrew Short",
+                    "email": "andrewjshort@gmail.com"
+                }
+            ],
+            "description": "A collection of useful grid field components",
+            "homepage": "http://github.com/silverstripe-australia/silverstripe-gridfieldextensions",
+            "keywords": [
+                "gridfield",
+                "silverstripe"
+            ],
+            "time": "2017-01-30 01:05:02"
+        },
+        {
+            "name": "silverstripe/display-logic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/unclecheese/silverstripe-display-logic.git",
+                "reference": "b3552c42abcb64c85dbdf9b47cbb49b92b2ebdc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-display-logic/zipball/b3552c42abcb64c85dbdf9b47cbb49b92b2ebdc4",
+                "reference": "b3552c42abcb64c85dbdf9b47cbb49b92b2ebdc4",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "^3.1"
+            },
+            "replace": {
+                "silverstripe/display-logic": "*"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "display_logic",
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Uncle Cheese",
+                    "email": "unclecheese@leftandmain.com"
+                }
+            ],
+            "description": "Allows assignment of conditions for display and hide of specific form fields based on client side behavior.",
+            "keywords": [
+                "Forms",
+                "cms",
+                "display",
+                "logic",
+                "silverstripe"
+            ],
+            "time": "2017-01-06 09:46:49"
+        },
+        {
+            "name": "silverstripe/framework",
+            "version": "3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-framework.git",
+                "reference": "ae03d18d916c0927dd7ee8edb77dac706b4cbc0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/ae03d18d916c0927dd7ee8edb77dac706b4cbc0a",
+                "reference": "ae03d18d916c0927dd7ee8edb77dac706b4cbc0a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.3,<7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "3.x-dev": "3.6.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "tests/behat/features/bootstrap"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "SilverStripe",
+                    "homepage": "http://silverstripe.com"
+                },
+                {
+                    "name": "The SilverStripe Community",
+                    "homepage": "http://silverstripe.org"
+                }
+            ],
+            "description": "The SilverStripe framework",
+            "homepage": "http://silverstripe.org",
+            "keywords": [
+                "framework",
+                "silverstripe"
+            ],
+            "time": "2017-03-13 00:05:32"
+        },
+        {
+            "name": "silverstripe/tagfield",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-tagfield.git",
+                "reference": "e205fb4f6d4f52755ef866fd6b27ffaf3400d49b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-tagfield/zipball/e205fb4f6d4f52755ef866fd6b27ffaf3400d49b",
+                "reference": "e205fb4f6d4f52755ef866fd6b27ffaf3400d49b",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "1.x-dev": "1.4.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Pitt",
+                    "email": "chris@silverstripe.com",
+                    "homepage": "http://github.com/assertchris"
+                }
+            ],
+            "description": "Tag field for Silverstripe",
+            "keywords": [
+                "field",
+                "silverstripe",
+                "tag"
+            ],
+            "time": "2016-12-20 15:25:21"
+        },
+        {
+            "name": "stevie-mayhew/trait-loader",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stevie-mayhew/trait-loader.git",
+                "reference": "106cec9a354912a5d2fb4a40fde4ee192994f1c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stevie-mayhew/trait-loader/zipball/106cec9a354912a5d2fb4a40fde4ee192994f1c2",
+                "reference": "106cec9a354912a5d2fb4a40fde4ee192994f1c2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "silverstripe/framework": "~3.1"
+            },
+            "replace": {
+                "simonwelsh/trait-loader": "*"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Simon Welsh",
+                    "email": "simon@simon.geek.nz",
+                    "homepage": "http://coding.simon.geek.nz/"
+                }
+            ],
+            "description": "Adds trait autoloading support to SilverStripe",
+            "homepage": "https://github.com/stevie-mayhew/trait-loader",
+            "keywords": [
+                "autoload",
+                "silverstripe",
+                "traits"
+            ],
+            "time": "2016-07-27 00:10:18"
+        },
+        {
+            "name": "unclecheese/betterbuttons",
+            "version": "1.3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/unclecheese/silverstripe-gridfield-betterbuttons.git",
+                "reference": "71f9653f51420ca07a33024bd8fe4396ee532bdb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-gridfield-betterbuttons/zipball/71f9653f51420ca07a33024bd8fe4396ee532bdb",
+                "reference": "71f9653f51420ca07a33024bd8fe4396ee532bdb",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU"
+            ],
+            "authors": [
+                {
+                    "name": "Uncle Cheese",
+                    "email": "unclecheese@leftandmain.com"
+                }
+            ],
+            "description": "Adds new form actions and buttons to GridField detail form for usability enhancements.",
+            "keywords": [
+                "buttons",
+                "gridfield",
+                "silverstripe"
+            ],
+            "time": "2017-01-20 08:51:05"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "crackerjackdigital/silverstripe-modular": 20,
+        "crackerjackdigital/silverstripe-modular-blocks": 20,
+        "crackerjackdigital/silverstripe-modular-build": 20,
+        "crackerjackdigital/silverstripe-modular-fields": 20,
+        "crackerjackdigital/silverstripe-modular-graph": 20,
+        "crackerjackdigital/silverstripe-modular-gridlist": 20,
+        "crackerjackdigital/silverstripe-modular-gridlist-block": 20,
+        "crackerjackdigital/silverstripe-modular-gridlist-search": 20,
+        "crackerjackdigital/silverstripe-modular-search": 20,
+        "crackerjackdigital/silverstripe-modular-search-blocks": 20,
+        "crackerjackdigital/silverstripe-modular-social": 20,
+        "crackerjackdigital/silverstripe-modular-types": 20,
+        "crackerjackdigital/silverstripe-modular-workflows": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5"
+    },
+    "platform-dev": []
+}
