@@ -33,11 +33,13 @@
 		"crackerjackdigital/silverstripe-modular-gridlist-block": "dev-develop",
 		"crackerjackdigital/silverstripe-modular-gridlist-search": "dev-develop",
 		"crackerjackdigital/silverstripe-modular-notifications": "dev-develop",
+		"crackerjackdigital/silverstripe-modular-queues": "dev-develop",
 		"crackerjackdigital/silverstripe-modular-search": "dev-develop",
 		"crackerjackdigital/silverstripe-modular-search-blocks": "dev-develop",
 		"crackerjackdigital/silverstripe-modular-social": "dev-develop",
 		"crackerjackdigital/silverstripe-modular-types": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-workflows": "dev-develop"
+		"crackerjackdigital/silverstripe-modular-workflows": "dev-develop",
+		"crackerjackdigital/silverstripe-opensemanticsearch": "dev-develop"
 	},
 	"repositories": [
 		{
@@ -78,6 +80,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-modular-queues"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:crackerjackdigital/silverstripe-modular-search"
 		},
 		{
@@ -95,6 +101,10 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:crackerjackdigital/silverstripe-modular-workflows"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:crackerjackdigital/silverstripe-opensemanticsearch"
 		}
 	]
 }
