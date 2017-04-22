@@ -24,24 +24,6 @@
 		"php": ">=5.5",
 		"composer/installers": "*",
 		"silverstripe/framework": ">=3.1",
-<<<<<<< HEAD
-		"crackerjackdigital/silverstripe-modular": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-blocks": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-build": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-fields": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-graph": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-gridlist": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-gridlist-block": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-gridlist-search": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-notifications": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-queues": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-search": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-search-blocks": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-social": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-types": "dev-develop",
-		"crackerjackdigital/silverstripe-modular-workflows": "dev-develop",
-		"crackerjackdigital/silverstripe-opensemanticsearch": "dev-develop"
-=======
 		"crackerjackdigital/silverstripe-modular": "self.version",
 		"crackerjackdigital/silverstripe-modular-blocks": "self.version",
 		"crackerjackdigital/silverstripe-modular-build": "self.version",
@@ -50,12 +32,14 @@
 		"crackerjackdigital/silverstripe-modular-gridlist": "self.version",
 		"crackerjackdigital/silverstripe-modular-gridlist-block": "self.version",
 		"crackerjackdigital/silverstripe-modular-gridlist-search": "self.version",
+		"crackerjackdigital/silverstripe-modular-notifications": "self.version",
+		"crackerjackdigital/silverstripe-modular-queues": "self.version",
 		"crackerjackdigital/silverstripe-modular-search": "self.version",
 		"crackerjackdigital/silverstripe-modular-search-blocks": "self.version",
 		"crackerjackdigital/silverstripe-modular-social": "self.version",
 		"crackerjackdigital/silverstripe-modular-types": "self.version",
-		"crackerjackdigital/silverstripe-modular-workflows": "self.version"
->>>>>>> 4476aac9e9b1886cd7265df6b529b92d8d001bad
+		"crackerjackdigital/silverstripe-modular-workflows": "self.version",
+		"crackerjackdigital/silverstripe-opensemanticsearch": "self.version"
 	},
 	"repositories": [
 		{
